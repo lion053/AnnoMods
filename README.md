@@ -22,9 +22,10 @@ For the soda factory there is a new epic item, which is available at Ketema´s t
 - Land of Lions DLC
 
 
+
 ## Ornamental Trains
 
-This mod adds freight train variations and two subway train cars to the game. 
+This mod adds eight ornamental freight train variations and two subway train cars. 
 
 ![ornamental trains](./_sources/ornamental_trains.png)
 
@@ -58,5 +59,20 @@ Available in the Old and New World:
 - Building type category: Beautification Menu --> Industry 
 
 
+
 ## Knight´s Castle: Local Department Variation
 
+This mod adds a knight´s castle as a variation for the Local Department. 
+
+![knights_castle](./_sources/knights_castle.jpg)
+
+- Intention is to have a building for the local department which fits better to agricultural dominated islands and / or old towns. 
+- Properties / values ​​are exactly the same as in the vanilla local department except for an extra attractivity of 120. 
+- That means: The castle is unlocked when you build a palace and one castle per island is allowed.
+
+**How to build:** 
+
+The tile size of the building is not completely square, at two corners you can overbuild the ground texture with ornaments. 
+
+**Menu Location:** 
+Palace Menu --> next to Local Department
