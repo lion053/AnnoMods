@@ -10,7 +10,7 @@
 
 This mod adds the possibility to produce spectacles in Enbesa. Therefore it adds a custom sand mine, a soda factory, a glass maker and a spectacles factory. The soda factory is meant to provide a new demand for the vast amount of unused pearls that some Old-World-items generate as an additional output.
 
-![production chain](./_sources/spectacles_production_chain.png) ![production](./_sources/spectacles_production.png)
+![enbesa spectacles production](./_sources/enbesa_spectacles_production.png)
 
 For the soda factory there is a new epic item, which is available at Ketema´s trading post or via the Research Institute.
 
