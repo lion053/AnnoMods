@@ -45,6 +45,7 @@ This mod adds eight ornamental freight train variations and two subway train car
 **How to build:** 
 
 - Trains are sized 2x1 tiles. 
+- Change appearance with `ctrl`+`V` (default) 
 - They build their tracks automatically after placing. You can connect them with the tracks from the powerplant / fuel station. Therefore drag the tracks into the trains.  
 - After deleting a train segment, you have to delete the "artefacts" of the railroads separately.
 
@@ -68,11 +69,24 @@ This mod adds a knight´s castle as a variation for the Local Department.
 
 - Intention is to have a building for the local department which fits better to agricultural dominated islands and / or old towns. 
 - Properties / values ​​are exactly the same as in the vanilla local department except for an extra attractivity of 120. 
-- That means: The castle is unlocked when you build a palace and one castle per island is allowed.
-
-**How to build:** 
-
-The tile size of the building is not completely square, at two corners you can overbuild the ground texture with ornaments. 
+- That means: The castle is unlocked when you once built a palace and one castle per island is allowed.
+- The tile size of the building is not completely square, at two corners you can overbuild the ground texture with ornaments. 
 
 **Menu Location:** 
-Palace Menu --> next to Local Department
+
+- Palace Menu --> next to Local Department
+
+
+## Enclosed Greenery and Tree
+
+This mod adds palm tree variations for the enclosed greenery and jungle tree variations for the enclosed tree from the Pedestrian Zone CDLC.
+
+![enclosed greenery](./_sources/enclosed_greenery.jpg)
+
+- Available ground textures: Vanilla plaza tiles and hacienda bricks
+- Change variations with `ctrl`+`V` for the enclosed trees 
+
+**Menu Location:**
+
+Available in the Old and New World:
+- Where the vanilla greenery is found --> Beautification Menu --> Cosmetic --> Pedestrian Zone Pack
