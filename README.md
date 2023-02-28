@@ -14,7 +14,7 @@ This mod adds the possibility to produce spectacles in Enbesa. Therefore it adds
 
 For the soda factory there is a new epic item, which is available at Ketema´s trading post or via the Research Institute.
 
-**Some background information: Why Soda?** 
+**Why Soda?** 
 
 *Soda is the common name of sodium carbonate (Na2CO3), a salt of carbonic acid. It occurs naturally as a mineral in small amounts, but due to its importance in numerous industrial processes it also has to be produced artificially. Whether as a flux in glass production or as a component of detergents, soda is one of the most important chemical raw materials today. Large-scale production began at the end of the 18th century with the Leblanc process, which soon turned out to be harmful to the environment. In 1860, the chemist Ernest Solvay invented a new process that reduced environmental pollution: the "ammonia soda" or "Solvay process". Basically it requires calcium carbonate (lime) (pearls are nothing else), CO2, a lot of water, sodium chloride (salt) and ammonia (which mostly stays in the process and is reused). Today, however, with new technical possibilities, the Leblanc process is also gaining interest again. As part of this mod, the real process is greatly simplified, just as pearls are not a realistic source of lime. But in Anno 1800 there are tons of them like sand by the sea... :D*
 
@@ -67,7 +67,6 @@ This mod adds a knight´s castle as a variation for the Local Department.
 
 ![knights_castle](./_sources/knights_castle.jpg)
 
-- Intention is to have a building for the local department which fits better to agricultural dominated islands and / or old towns. 
 - Properties / values ​​are exactly the same as in the vanilla local department except for an extra attractivity of 120. 
 - That means: The castle is unlocked when you once built a palace and one castle per island is allowed.
 - The tile size of the building is not completely square, at two corners you can overbuild the ground texture with ornaments. 
@@ -76,10 +75,48 @@ This mod adds a knight´s castle as a variation for the Local Department.
 
 - Palace Menu --> next to Local Department
 
+#### Requirements: 
+- Seats of Power DLC
+
+
+
+## Culture Modules as Ornaments
+
+This mod adds the culture modules of museum, botanical garden and some from the zoo as ornaments. No items needed.
+
+![culture modules](./_sources/culture_modules.jpg)
+
+- Each module comes with +25 attractiveness.
+
+**Menu Location:**
+
+Available in the Old World, New World and Enbesa:
+- Population tier category OW / NW: Beautification menu --> Classic
+- Building type category OW / NW: Beautification menu --> City
+- Enbesa: Elder tier (next to monastery)
+
+
+
+## Ornamental Residences
+
+Build farmer, worker, artisan, engineer, investor, scholar, jornalero, obrero, artista, shephard, elder and hacienda residences without street connection to fill gaps in your cities. 
+
+![ornamental_residences](./_sources/ornamental_residences.jpg)
+
+- To change the skin (Vibrant Cities cDLC required) use the skin painter tool from the tool bar.
+- Residences are available in the Old World, New World and Enbesa.
+
+**Menu Location:**
+
+- Population tier category OW / NW: Beautification menu --> Classic
+- Building type category OW / NW: Beautification menu --> City
+- Enbesa: Elder tier (next to monastery)
+
+
 
 ## Enclosed Greenery and Tree
 
-This mod adds palm tree variations for the enclosed greenery and jungle tree variations for the enclosed tree from the Pedestrian Zone CDLC.
+This mod adds palm tree variations for the Enclosed Greenery and jungle tree variations for the Enclosed Tree from the Pedestrian Zone CDLC.
 
 ![enclosed greenery](./_sources/enclosed_greenery.jpg)
 
@@ -90,3 +127,33 @@ This mod adds palm tree variations for the enclosed greenery and jungle tree var
 
 Available in the Old and New World:
 - Where the vanilla greenery is found --> Beautification Menu --> Cosmetic --> Pedestrian Zone Pack
+
+#### Requirements: 
+- Pedestrian Zone cDLC
+
+
+
+## Enbesa Streets for Old and New World
+
+This mod adds the stone and dirt street (incl. bridges) from Enbesa to the Old and New World session.
+
+![enbesa streets](./_sources/enbesa_streets.jpg)
+
+- Enbesian stone street is overbuildable by the OW / NW-stone street and vice versa.
+- Instead of mud bricks you need OW / NW bricks.
+
+Menu sorted by population tier: Farmers / Jornaleros, next to dirt street
+Menu sorted by building typ: City, next to dirt street
+Unlocked at 200 Farmers / Jornaleros
+
+**Menu Location:**
+
+Available in the Old and New World:
+- Unlocked at 200 Farmers / Jornaleros
+- Population tier category: Farmers / Jornaleros --> next to dirt street 
+- Building type category: City --> next to dirt street 
+
+#### Requirements: 
+- Land of Lions DLC
+
+
