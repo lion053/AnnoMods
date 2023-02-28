@@ -80,6 +80,22 @@ This mod adds a knight´s castle as a variation for the Local Department.
 
 
 
+## More Variety Old World
+
+This mod adds various ornaments and functional buildings to the game. Have a look at the ReadMe for a detailled description.
+
+![more_variety](./_sources/more_variety.jpg)
+
+
+
+## Safari to Old Enbesa
+
+This mod adds various ornaments and functional buildings to the game. Have a look at the ReadMe for a detailled description.
+
+![safari](./_sources/safari_enbesa.jpg)
+
+
+
 ## Culture Modules as Ornaments
 
 This mod adds the culture modules of museum, botanical garden and some from the zoo as ornaments. No items needed.
