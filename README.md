@@ -173,3 +173,21 @@ Available in the Old and New World:
 - Land of Lions DLC
 
 
+
+## Legendary Seed Enbesa
+
+This mod adds legendary items for Enbesan fertilities. Available at Ketema´s harbour and the Research Institute. 
+For a detailled description on what every item does as well as pictures have a look at the respective Nexus page: https://www.nexusmods.com/anno1800/mods/249
+
+![enbesa seeds](./_sources/enbesa_seeds.png)
+
+
+
+## Legendary Items
+
+This mod adds 21 legendary items, meant to drastically ease your game for beauty building. 
+For a detailled description on what every item does as well as pictures have a look at the respective Nexus page: https://www.nexusmods.com/anno1800/mods/245
+
+![legendary items](./_sources/legendary_items.png)
+
+
