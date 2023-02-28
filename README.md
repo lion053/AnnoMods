@@ -82,17 +82,17 @@ This mod adds a knight´s castle as a variation for the Local Department.
 
 ## More Variety Old World
 
-This mod adds various ornaments and functional buildings to the game. Have a look at the ReadMe for a detailled description.
+This mod adds various ornaments and functional buildings to the game. Have a look at the ReadMe for a detailled description or visit the respective Nexus page for more pictures: https://www.nexusmods.com/anno1800/mods/294
 
-![more_variety](./_sources/more_variety.jpg)
+![more_variety](./_sources/more_variety.png)
 
 
 
 ## Safari to Old Enbesa
 
-This mod adds various ornaments and functional buildings to the game. Have a look at the ReadMe for a detailled description.
+This mod adds various ornaments and functional buildings to the game. Have a look at the ReadMe for a detailled description or visit the respective Nexus page for more pictures: https://www.nexusmods.com/anno1800/mods/269
 
-![safari](./_sources/safari_enbesa.jpg)
+![safari](./_sources/safari.png)
 
 
 
@@ -174,7 +174,7 @@ Available in the Old and New World:
 
 
 
-## Legendary Seed Enbesa
+## Legendary Seeds Enbesa
 
 This mod adds legendary items for Enbesan fertilities. Available at Ketema´s harbour and the Research Institute. 
 For a detailled description on what every item does as well as pictures have a look at the respective Nexus page: https://www.nexusmods.com/anno1800/mods/249
