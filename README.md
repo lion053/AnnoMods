@@ -10,7 +10,7 @@
 
 This mod adds the possibility to produce spectacles in Enbesa. Therefore it adds a custom sand mine, a soda factory, a glass maker and a spectacles factory. The soda factory is meant to provide a new demand for the vast amount of unused pearls that some Old-World-items generate as an additional output.
 
-![enbesa spectacles production](./_sources/enbesa_spectacles_production.png)
+![enbesa spectacles production](./_sources/enbesa_spectacles_production.jpg)
 
 For the soda factory there is a new epic item, which is available at Ketema´s trading post or via the Research Institute.
 
@@ -27,7 +27,7 @@ For the soda factory there is a new epic item, which is available at Ketema´s t
 
 This mod adds eight ornamental freight train variations and two subway train cars. 
 
-![ornamental trains](./_sources/ornamental_trains.png)
+![ornamental trains](./_sources/ornamental_trains.jpg)
 
 **Variations:** 
 
@@ -84,7 +84,7 @@ This mod adds a knight´s castle as a variation for the Local Department.
 
 This mod adds various ornaments and functional buildings to the game. Have a look at the ReadMe for a detailled description or visit the respective Nexus page for more pictures: https://www.nexusmods.com/anno1800/mods/294
 
-![more_variety](./_sources/more_variety.png)
+![more_variety](./_sources/more_variety.jpg)
 
 
 
@@ -92,7 +92,7 @@ This mod adds various ornaments and functional buildings to the game. Have a loo
 
 This mod adds various ornaments and functional buildings to the game. Have a look at the ReadMe for a detailled description or visit the respective Nexus page for more pictures: https://www.nexusmods.com/anno1800/mods/269
 
-![safari](./_sources/safari.png)
+![safari](./_sources/safari.jpg)
 
 
 
@@ -157,10 +157,6 @@ This mod adds the stone and dirt street (incl. bridges) from Enbesa to the Old a
 
 - Enbesian stone street is overbuildable by the OW / NW-stone street and vice versa.
 - Instead of mud bricks you need OW / NW bricks.
-
-Menu sorted by population tier: Farmers / Jornaleros, next to dirt street
-Menu sorted by building typ: City, next to dirt street
-Unlocked at 200 Farmers / Jornaleros
 
 **Menu Location:**
 
