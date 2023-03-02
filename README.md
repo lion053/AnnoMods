@@ -51,7 +51,8 @@ This mod adds eight ornamental freight train variations and two subway train car
 
 **Storage capacity:** 
 
-Freight trains increase the storage capacity of nearby warehouses (vanilla & spice) by 5t each. Radius is 8 tiles.  
+- Freight trains increase the storage capacity of nearby warehouses (vanilla & spice) by 5t each. Radius is 8 tiles. 
+- Change the amount and radius with IModYourAnno-tweaks. 
 
 **Menu Location:** 
 
@@ -67,8 +68,9 @@ This mod adds a knight´s castle as a variation for the Local Department.
 
 ![knights_castle](./_sources/knights_castle.jpg)
 
-- Properties / values ​​are exactly the same as in the vanilla local department except for an extra attractivity of 120. 
-- That means: The castle is unlocked when you once built a palace and one castle per island is allowed.
+- Properties / values ​​are exactly the same as in the vanilla local department except for an extra attractivity. 
+- The castle is unlocked when you once built a palace and by default one castle per island is allowed.
+- Change the attractivity bonus and if you want to build the castle as many times per island as you want with IModYourAnno-tweaks.
 - The tile size of the building is not completely square, at two corners you can overbuild the ground texture with ornaments. 
 
 **Menu Location:** 
@@ -102,7 +104,7 @@ This mod adds the culture modules of museum, botanical garden and some from the 
 
 ![culture modules](./_sources/culture_modules.jpg)
 
-- Each module comes with +25 attractiveness.
+- Each module comes with +25 attractiveness by default. Change the amount with IModYourAnno-tweaks.
 
 **Menu Location:**
 
