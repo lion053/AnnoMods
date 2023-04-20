@@ -2,9 +2,9 @@
 
 ## How to use
 
-1. Download and install the latest mod-loader for Anno 1800 from the corresponding Github page: https://github.com/xforce/anno1800-mod-loader
-2. Download the mod files (.zip format) and extract them to your Anno mods folder. Alternatively use a mod-manager, i.e. I-mod-your-Anno (IMYA)
-3. All mods work with new and existing save games
+Download the mod files you want (.zip format) from "releases" section on the right and extract them to your Anno mods folder. 
+Alternatively use a mod-manager, i.e. I-mod-your-Anno (IMYA). 
+These mods work with new and existing saves and and can be safely removed from an existing one, once used.
 
 ## Enbesa Spectacles Production
 
@@ -68,9 +68,9 @@ This mod adds a knight´s castle as a variation for the Local Department.
 
 ![knights_castle](./_sources/knights_castle.jpg)
 
-- Properties / values ​​are exactly the same as in the vanilla local department except for an extra attractivity. 
+- Properties / values are exactly the same as for the vanilla local department except for some extra attractivity. 
 - The castle is unlocked when you once built a palace and by default one castle per island is allowed.
-- Change the attractivity bonus and if you want to build the castle as many times per island as you want with IModYourAnno-tweaks.
+- IModYourAnno-tewaks: If you want to build the castle as many times per island as you want you can toggle it there.
 - The tile size of the building is not completely square, at two corners you can overbuild the ground texture with ornaments. 
 
 **Menu Location:** 
@@ -81,21 +81,18 @@ This mod adds a knight´s castle as a variation for the Local Department.
 - Seats of Power DLC
 
 
-
-## More Variety Old World
-
-This mod adds various ornaments and functional buildings to the game. Have a look at the ReadMe for a detailled description or visit the respective Nexus page for more pictures: https://www.nexusmods.com/anno1800/mods/294
-
-![more_variety](./_sources/more_variety.jpg)
-
-
-
 ## Safari to Old Enbesa
 
 This mod adds various ornaments and functional buildings to the game. Have a look at the ReadMe for a detailled description or visit the respective Nexus page for more pictures: https://www.nexusmods.com/anno1800/mods/269
 
 ![safari](./_sources/safari.jpg)
 
+
+## More Variety Old World
+
+This mod adds various ornaments and functional buildings to the game. Have a look at the ReadMe for a detailled description or visit the respective Nexus page for more pictures: https://www.nexusmods.com/anno1800/mods/294
+
+![more_variety](./_sources/more_variety.jpg)
 
 
 ## Culture Modules as Ornaments
