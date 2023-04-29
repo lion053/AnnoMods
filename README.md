@@ -52,7 +52,7 @@ This mod adds eight ornamental freight train variations and two subway train car
 ![ornamental trains](./_sources/ornamental_trains.jpg)
 
 <details>
-<summary><b>Details?</b> <i>Click to expand</i></summary> 
+<summary><b>Details</b> <i>Click to expand</i></summary> 
   
 **Variations:** 
 
