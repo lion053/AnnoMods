@@ -3,7 +3,7 @@
 ## How to use
 
 Download the zipped mods you want from the "releases" section on the right and extract them to your Anno mods folder. Read the ReadMe files attached to each mod!
-Some mods can be tweaked with the mod-manager I-mod-your-Anno (IMYA).
+Some mods can be tweaked with the mod-manager [I-mod-your-Anno (IMYA)](https://github.com/anno-mods/iModYourAnno).
 
 ## Old World Chapel
 
