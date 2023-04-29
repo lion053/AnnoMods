@@ -14,11 +14,14 @@ This mod adds a chapel to the Old World. It fulfills the luxury need for a churc
 
 ## Paper Mill Old World
 
-This mod allows you to produce paper in the Old World. Therefore you can choose between different recipes. The first one is unlocked at 750 workers, the second one at 750 engineers. The more advanced the production process the higher the output, but also the more advanced the required input materials. Read the ReadMe for a more detailed recipe description. 
+This mod allows you to produce paper in the Old World. Therefore you can choose between different recipes:
+- The first one is unlocked at 750 workers and consumes working clothes.
+- The second one is unlocked at 750 engineers and consumes wood, cement and sulfide, which can be obtained by modules built next to iron, copper or zinc mines. 
+The more advanced the production process the higher the output, but also the more advanced the required input materials. Read the ReadMe for a more detailed recipe description. 
 
 This mod is considered as a shared mod, so feel free to add more recipes and / or change the buildings appearance. You'll find a short "How to" in the assets.xml.
 
-![paper mill old world](./_sources/paper_mill.jpg)
+![paper mill old world](./_sources/paper_mill_ow.jpg)
 
 
 ## Small Bus Stop 
