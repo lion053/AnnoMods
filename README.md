@@ -3,11 +3,13 @@
 ## How to use
 
 Download the zipped mods you want from the "releases" section on the right and extract them to your Anno mods folder. 
-Some mods can be tweaked with the mod-manager I-mod-your-Anno (IMYA). 
+Some mods can be tweaked with the mod-manager I-mod-your-Anno (IMYA).
 
 ## Old World Chapel
 
 This mod adds a chapel to the Old World. It fulfills the luxury need for a church, farmers have from now on, when reached 200 farmers. Range is smaller than the one from the vanilla workers church; you can tweak it with IMYA. 
+
+![old world chapel](./_sources/ow_chapel.jpg)
 
 
 ## Paper Mill Old World
@@ -16,12 +18,14 @@ This mod allows you to produce paper in the Old World. Therefore you can choose 
 
 This mod is considered as a shared mod, so feel free to add more recipes and / or change the buildings appearance. You'll find a short "How to" in the assets.xml.
 
+![paper mill old world](./_sources/paper_mill.jpg)
+
 
 ## Small Bus Stop 
 
-This mod adds a small bus stop (2x1 tiles) as an alternative to the 2x3 sized vanilla bus stop as well as a red and a yellow doubledecker as bus skins. In the menu the small bus stop is located next to the vanilla one and unlocked at the same time.
+This mod adds a small bus stop (2x1 tiles) as an alternative to the 2x3 sized vanilla bus stop as well as a red and a yellow doubledecker as bus skins. Find the small bus stop located next to the vanilla one in the tourists menu. Unlocked with the vanilla bus stop.
 
-
+![small bus stop](./_sources/small_bus_stop.jpg)
 
 #### Hard Requirement: 
 - Tourist DLC
