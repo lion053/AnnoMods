@@ -9,7 +9,7 @@ Some mods can be tweaked with the mod-manager [I-mod-your-Anno (IMYA)](https://g
 
 Establish a subway network in your metropolises.
 
-![subway_network_banner](./_sources/subway2.jpg)
+![subway_network_banner](./_sources/subway2.png)
 
 ### How a subway network is supposed to work 
 
