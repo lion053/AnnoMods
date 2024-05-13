@@ -9,7 +9,7 @@ Some mods can be tweaked with the mod-manager [I-mod-your-Anno (IMYA)](https://g
 
 Establish a subway network in your metropolises.
 
-![subway_network_banner](./_sources/banner.jpg)
+![subway_network_banner](./_sources/subway2.jpg)
 
 ### How a subway network is supposed to work 
 
@@ -68,6 +68,8 @@ Exception: For the "Connection Tower" module there are variations available inst
 # Enbesa Tourism
 
 This mod takes the tourists to Enbesa.
+
+![enbesa_tourism](./_sources/enbesa_tourism.jpg)
 
 ### How do tourists work in Enbesa
 
