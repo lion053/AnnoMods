@@ -7,6 +7,7 @@
 
 **1.1**
 
+- Fixed irrigation pump capacity value
 - Add Chinese translation, thanks to hanthe2th!
 
 

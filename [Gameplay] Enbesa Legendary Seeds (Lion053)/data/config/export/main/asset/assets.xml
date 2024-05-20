@@ -12,7 +12,7 @@
           <Name>Rooibos Seeds from the very south of Enbesa (Aspalathus linearis)</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/fertilities/icon_hibiscus_seeds_0.png</IconFilename>
           <InfoDescription>2100119229</InfoDescription>
-        </Standard>        
+        </Standard>
         <Item>
           <MaxStackSize>1</MaxStackSize>
           <Rarity>Legendary</Rarity>
@@ -65,7 +65,7 @@
           <Name>Fungi resistant flax from Kidushi Anitoni (Linum usitatissimum)</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/fertilities/icon_flachs_seeds_0.png</IconFilename>
           <InfoDescription>2100119229</InfoDescription>
-        </Standard>        
+        </Standard>
         <Item>
           <MaxStackSize>1</MaxStackSize>
           <Rarity>Legendary</Rarity>
@@ -120,7 +120,7 @@
           <Name>Hawi's tiny tef seeds (Eragrostis tef)</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/fertilities/icon_teff_seeds_0.png</IconFilename>
           <InfoDescription>2100119229</InfoDescription>
-        </Standard>        
+        </Standard>
         <Item>
           <MaxStackSize>1</MaxStackSize>
           <Rarity>Legendary</Rarity>
@@ -173,7 +173,7 @@
           <Name>Adolf von Baeyers synthesized Indigo seeds (Indigofera tinctoria)</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/fertilities/icon_indigo_seeds_0.png</IconFilename>
           <InfoDescription>2100119229</InfoDescription>
-        </Standard>        
+        </Standard>
         <Item>
           <MaxStackSize>1</MaxStackSize>
           <Rarity>Legendary</Rarity>
@@ -226,7 +226,7 @@
           <Name>Ketema's double crossed spices</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/fertilities/icon_spice_seeds_0.png</IconFilename>
           <InfoDescription>2100119229</InfoDescription>
-        </Standard>        
+        </Standard>
         <Item>
           <MaxStackSize>1</MaxStackSize>
           <Rarity>Legendary</Rarity>
@@ -279,7 +279,7 @@
           <Name>Hasselbay's fast growing lobsters (Homarus gammarus)</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/fertilities/icon_hummer_seeds_0.png</IconFilename>
           <InfoDescription>2100119229</InfoDescription>
-        </Standard>        
+        </Standard>
         <Item>
           <MaxStackSize>1</MaxStackSize>
           <Rarity>Legendary</Rarity>
@@ -337,7 +337,7 @@
           <Name>Ababe's Land of Milk and Honey for bees</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/fertilities/icon_bees_seeds_0.png</IconFilename>
           <InfoDescription>2100119229</InfoDescription>
-        </Standard>        
+        </Standard>
         <Item>
           <MaxStackSize>1</MaxStackSize>
           <Rarity>Legendary</Rarity>
@@ -387,7 +387,7 @@
     </Asset>
   </ModOp>
 
-  <!-- # New item for the irrigation system-->
+  <!-- # Biniams flood gate -->
   <ModOp Type="addNextSibling" GUID="125072">
     <Asset>
       <Template>GuildhouseItem</Template>
@@ -396,8 +396,8 @@
           <GUID>2100119228</GUID>
           <Name>Biniams complex mechanical flood gate system</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/fertilities/icon_floodgate_biniam_0.png</IconFilename>
-          <InfoDescription>2100119230</InfoDescription>          
-        </Standard>       
+          <InfoDescription>2100119230</InfoDescription>
+        </Standard>
         <Item>
           <MaxStackSize>1</MaxStackSize>
           <Rarity>Legendary</Rarity>
@@ -435,7 +435,7 @@
         <PowerplantUpgrade />
         <IrrigationUpgrade>
           <PipeCapacityUpgrade>
-            <Value>800</Value>
+            <Value>60</Value>
           </PipeCapacityUpgrade>
         </IrrigationUpgrade>
       </Values>
