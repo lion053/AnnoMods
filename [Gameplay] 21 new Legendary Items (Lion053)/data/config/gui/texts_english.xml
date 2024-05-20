@@ -1,0 +1,205 @@
+
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<!--Items-->
+
+		<Text>
+			<GUID>2100119190</GUID>
+			<Text>Bonny and Clyde</Text>
+		</Text>
+		<Text>
+			<GUID>2100119170</GUID>
+			<Text>The most notorious gangsters in the entire kingdom. Cruel and unscrupulous, but at the same time admired and cheered by the people.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119191</GUID>
+			<Text>Cornelius "Commodore" Vanderbilt</Text>
+		</Text>
+		<Text>
+			<GUID>2100119171</GUID>
+			<Text>Tycoon, multi-billionaire and ruthless monopoly. But nobody builds a railroad faster.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119192</GUID>
+			<Text>Charles Lloyd Rockateller</Text>
+		</Text>
+		<Text>
+			<GUID>2100119172</GUID>
+			<Text>Planning a skyscraper that will even surpass Donny Bader's SkyTower - completely made of wood.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119193</GUID>
+			<Text>Prof. Linus Liquiscious</Text>
+		</Text>
+		<Text>
+			<GUID>2100119173</GUID>
+			<Text>Dean of the Faculty of Chemistry. Runs a thriving black market with all kinds of homemade spirits in his laboratory.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119194</GUID>
+			<Text>Dewey Hasselbay, the Human Amphibian</Text>
+		</Text>
+		<Text>
+			<GUID>2100119174</GUID>
+			<Text>Tanned, muscular and always to be found with a smile when he's not underwater again.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119195</GUID>
+			<Text>Frank Stone, the Butcher</Text>
+		</Text>
+		<Text>
+			<GUID>2100119175</GUID>
+			<Text>There ... a noticeably high ... employee turnover in your butcher's shop was found. Certainly just the high workload ...</Text>
+		</Text>
+		<Text>
+			<GUID>2100119196</GUID>
+			<Text>Priscilla Lovetroy, Prominent Friend of Donny Bader</Text>
+		</Text>
+		<Text>
+			<GUID>2100119176</GUID>
+			<Text>Starting in the dusty saloons of the Wild West, today she is a beguiling actress and dancer who lets the worries of the big city dwellers be forgotten in no time.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119197</GUID>
+			<Text>W. H. Twain, the First Gold Digger</Text>
+		</Text>
+		<Text>
+			<GUID>2100119177</GUID>
+			<Text>Leaving home decades ago, always looking for big money, he was the first to discover the sheer riches deep in the ground just waiting to be discovered. Routinely and with a keen eye, he goes about his work and brings to light everything that shines.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119198</GUID>
+			<Text>Sir Abraham Woolsworth, Vulcanist of the Empire</Text>
+		</Text>
+		<Text>
+			<GUID>2100119178</GUID>
+			<Text>Knighted for the development of new rubber production processes. He comes from the bottom up and has suffered numerous setbacks. But he knows how to save scarce resources.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119199</GUID>
+			<Text>Tuvalu Mbesa, the Special Pipe Maker</Text>
+		</Text>
+		<Text>
+			<GUID>2100119179</GUID>
+			<Text>Unobtrusively sows poppy seeds under his aunt's hibiscus fields and uses them to make pipes and cigars that are particularly popular overseas.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119200</GUID>
+			<Text>TorpedoProjectile_D</Text>
+		</Text>
+		<Text>
+			<GUID>2100119201</GUID>
+			<Text>Ironbrights Defender of Freedom</Text>
+		</Text>
+		<Text>
+			<GUID>2100119181</GUID>
+			<Text>Designed to quickly, quietly and efficiently deal large area damage to the enemy. It achieves its enormous destructive power through four explosive devices built into the fuselage.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119202</GUID>
+			<Text>Blackbeard's Captain flag</Text>
+		</Text>
+		<Text>
+			<GUID>2100119182</GUID>
+			<Text>With the flag of the dreaded pirate Blackbeard, you evoke fear and horror from a great distance. </Text>
+		</Text>
+		<Text>
+			<GUID>2100119203</GUID>
+			<Text>Wang Mingzuo, Guardian of the Fortune Cookies</Text>
+		</Text>
+		<Text>
+			<GUID>2100119183</GUID>
+			<Text>What is it? A biscuit with a wise saying inside? Oh how delightful!</Text>
+		</Text>
+		<Text>
+			<GUID>2100119204</GUID>
+			<Text>Lord Coulter McBain, Conqueror of the Arctic</Text>
+		</Text>
+		<Text>
+			<GUID>2100119184</GUID>
+			<Text>An old companion of John Franklin. After his tragic expedition through the Arctic, he settled there to master the icy climes in John's honor.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119205</GUID>
+			<Text>Dakota Earp, King of the Cattle Trails</Text>
+		</Text>
+		<Text>
+			<GUID>2100119185</GUID>
+			<Text>No matter how big the herd, no matter how stubborn and unruly: He drives them stoically across the continent and effortlessly catches every runaway.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119206</GUID>
+			<Text>James Carson Hickock, Crown Bay Company Marshal Commissioner</Text>
+		</Text>
+		<Text>
+			<GUID>2100119207</GUID>
+			<Text>Crown Bay Reward Pool</Text>
+		</Text>
+		<Text>
+			<GUID>2100119186</GUID>
+			<Text>Controls ships and ports very purposefully and efficiently and finds every contraband, no matter how well hidden.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119208</GUID>
+			<Text>Makataime "Black Eagle" Shekiakiak, Cultivator of Ancient Species</Text>
+		</Text>
+		<Text>
+			<GUID>2100119188</GUID>
+			<Text>Spends most of the day in the fields, but nobody knows exactly what he is doing there. Some say there is a ghostly, yet at the same time engaging, peaceful aura about him.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119209</GUID>
+			<Text>Saint of the Death</Text>
+		</Text>
+		<Text>
+			<GUID>2100119189</GUID>
+			<Text>Experimental automatic firearm that does not give the enemy time to react.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119169</GUID>
+			<Text>Omar Al Zahir, Passionate Storyteller</Text>
+		</Text>
+		<Text>
+			<GUID>2100119149</GUID>
+			<Text>A descendant of the powerful Grand Vizier Ibn Hakim and a good friend of Emperor Ketema. Hardly anyone can escape the spell of his captivating stories from 1001 nights.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119168</GUID>
+			<Text>Montgomery Lincoln, Founder of the Panamerican Gentlemen Club</Text>
+		</Text>
+		<Text>
+			<GUID>2100119148</GUID>
+			<Text>Moved to the south many years ago, he established an extremely coveted old men's club in the seedy basement rooms of the boxing arenas, which leaves nothing to be desired. Legal? Nobody cares!</Text>
+		</Text>
+		<Text>
+			<GUID>2100119167</GUID>
+			<Text>Tatsumi Yamazaki, Scholar from the Far East</Text>
+		</Text>
+		<Text>
+			<GUID>2100119147</GUID>
+			<Text>Maintain calm and serenity in every situation and thus contribute significantly to peace on the campus. The dean furthermore noticed the scholars' communication skills have noticeably improved.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119153</GUID>
+			<Text>Item Rerun Trigger</Text>
+		</Text>
+		<Text>
+			<GUID>2100119160</GUID>
+			<Text>BackpackersSpecialistsGuildhouse</Text>
+		</Text>
+		<Text>
+			<GUID>2100119161</GUID>
+			<Text>BackpackersConsumables</Text>
+		</Text>
+		<Text>
+			<GUID>2100119162</GUID>
+			<Text>BackpackersSpecialistsTownhall</Text>
+		</Text>
+				
+  </ModOp>
+
+</ModOps>

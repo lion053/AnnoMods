@@ -1,0 +1,15 @@
+
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<GUID>2100119009</GUID>
+			<Text>Regionalministerium: Ritterburg</Text>
+		</Text>
+
+  </ModOp>
+
+</ModOps>

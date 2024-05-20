@@ -1,0 +1,497 @@
+<ModOps>
+
+  <!-- # Base Infotip 25000208 -->
+  <!-- Extends the regular output infotip of ModuleOwners with output information of their pasture modules if they produce sth. -->
+  <!-- If you want to change sth here: Copy code into your own export.bin.xml, assign a new guid for the InfoTipData asset, change the values to your products -->
+  <!-- and texts and link it in your building asset in /Values/FactoryBase/ProductionOutputInfotip -->
+  <ModOp Type="addNextSibling" Path ="//InfoTipData[Guid='25000208']">
+    <InfoTipData>
+      <Guid>2100118207</Guid>
+      <ChildCount>6</ChildCount> <!-- child count is adapted automatically while patching -->
+      <!-- Regular Output info -->
+      <InfoElement>
+        <ElementType>1</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconGUID>501701</IconGUID> <!-- Icon transporter loading -->
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>100371</TextGUID> <!-- Header "Output Storage" -->
+          <Style />
+        </Text>
+        <Value>
+          <Style />
+        </Value>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>5</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Text>
+          <TextGUID>17465</TextGUID> <!-- "Storage" -->
+          <Style />
+        </Text>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconText>[AssetData([RefGuid]) Icon]</IconText> <!-- any goods icon -->
+          <Style />
+        </Icon>
+        <Text>
+          <Text>[AssetData([RefGuid]) Text]</Text> <!-- any goods name -->
+          <Style />
+        </Text>
+        <Value>
+          <Text>[Selection Object Logistic StorageAmount([RefGuid]) &gt;&gt; storagegood]/[Selection Object Logistic StorageCapacity([RefGuid]) &gt;&gt; storagegood]</Text>
+          <Style />
+        </Value>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <Condition>[Selection Object Logistic FreeSpace([RefGuid])]</Condition>
+          </VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconGUID>501701</IconGUID> <!-- Icon transporter loading -->
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>100406</TextGUID> <!-- "Full Output Storage"-->
+          <Style />
+        </Text>
+        <Value>
+          <Style />
+        </Value>
+        <WarningType>
+          <WarningType>2</WarningType>
+        </WarningType>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>4</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>4</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>1</CompareOperator>
+            </CompareOperator>
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>270044</ExpectedValueInt> <!-- Fuel Station Test -->
+            <Condition>[Selection Object GUID]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>1</CompareOperator>
+            </CompareOperator>
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>118571</ExpectedValueInt> <!-- Fuel Station OW -->
+            <Condition>[Selection Object GUID]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>1</CompareOperator>
+            </CompareOperator>
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>269840</ExpectedValueInt> <!-- Fuel Station NW -->
+            <Condition>[Selection Object GUID]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>1</CompareOperator>
+            </CompareOperator>
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>119028</ExpectedValueInt> <!-- Fuel Station Africa -->
+            <Condition>[Selection Object GUID]</Condition>
+          </VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>6</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Style />
+          </Text>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>5</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <TextGUID>100375</TextGUID> <!-- "In Island Storage" -->
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconText>[AssetData([RefGuid]) Icon]</IconText>
+            <Style />
+          </Icon>
+          <Text>
+            <Text>[AssetData([RefGuid]) Text]</Text>
+            <Style />
+          </Text>
+          <Value>
+            <Text>[Selection Object Area Economy StorageAmount([RefGuid]) &gt;&gt; storagegood]/[Selection Object Area Economy StorageCapacity([RefGuid]) &gt;&gt; storagegood]</Text>
+            <Style />
+          </Value>
+          <WarningType />
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>8</ElementType>
+          <ChildCount>2</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <ChildCount>1</ChildCount>
+              <VisibilityElement>
+                <ElementType>
+                  <ElementType>1</ElementType>
+                </ElementType>
+                <CompareOperator />
+                <ResultType>
+                  <ResultType>1</ResultType>
+                </ResultType>
+                <Condition>[Area Current Economy FreeSpace([RefGuid])]</Condition>
+              </VisibilityElement>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconGUID>501703</IconGUID>
+              <Style />
+            </Icon>
+            <Text>
+              <TextGUID>22030</TextGUID> <!-- "Island Storage Full" -->
+              <Style />
+            </Text>
+            <Value>
+              <Style />
+            </Value>
+            <WarningType>
+              <WarningType>2</WarningType>
+            </WarningType>
+            <BackgroundType />
+          </InfoElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <ChildCount>2</ChildCount>
+              <VisibilityElement>
+                <ElementType>
+                  <ElementType>1</ElementType>
+                </ElementType>
+                <CompareOperator />
+                <ResultType />
+                <ExpectedValueBool>False</ExpectedValueBool>
+                <Condition>[Selection Object Factory TeleportsProducedGoodsDirectlyIntoAreaStorage]</Condition>
+              </VisibilityElement>
+              <VisibilityElement>
+                <ElementType>
+                  <ElementType>1</ElementType>
+                </ElementType>
+                <CompareOperator />
+                <ResultType />
+                <Condition>[Selection Object Factory NoWarehouseInRange]</Condition>
+              </VisibilityElement>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconGUID>501703</IconGUID>
+              <Style />
+            </Icon>
+            <Text>
+              <TextGUID>2762</TextGUID> <!-- "No Warehouse in Range"-->
+              <Style />
+            </Text>
+            <Value>
+              <Style />
+            </Value>
+            <WarningType>
+              <WarningType>2</WarningType>
+            </WarningType>
+            <BackgroundType />
+          </InfoElement>
+        </InfoElement>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>6</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Text>
+          <Style />
+        </Text>
+      </InfoElement>
+      <!-- Added Pasture Output info -->
+      <InfoElement>
+        <ElementType>1</ElementType> <!-- Header with text centered along y axis -->
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconGUID>2100118203</IconGUID> <!-- Cattle Pasture icon -->
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2100118211</TextGUID> <!-- "Pasture Output" -->
+          <Style />
+        </Text>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconGUID>20074</IconGUID> <!-- Plus icon -->
+            <Style />
+          </Icon>
+          <Text>
+            <TextGUID>2100118210</TextGUID> <!-- "Secondary goods:" -->
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+            <IconGUID>5385</IconGUID> <!-- milk icon -->
+            <Style />
+          </Icon>
+          <Text>
+            <Text>&lt;font color='0xff817f87'&gt;[AssetData(5385) Text] &lt;/font&gt;</Text> <!-- milk (vanilla grey font color) -->
+            <Style />
+          </Text>
+          <Value>
+            <Text>&lt;font color='0xff817f87'&gt;+[AssetData(2100118215) Text] &lt;/font&gt;</Text> <!-- "1t/pasture/cycle" (vanilla grey font color; aligned right) -->
+            <Style />
+          </Value>
+        <BackgroundType />
+      </InfoElement>
+      <Variables />
+    </InfoTipData>
+  </ModOp>
+
+  <!-- # Base Infotip 25000020 -->
+  <!-- Infotip adjustment which is shown when hovering over construction menu / production chain building icons: Adds a line with pasture output icon and text -->
+  <ModOp Type="addNextSibling" Path ="//InfoTipData[Guid='25000020']/InfoElement/InfoElement/InfoElement/InfoElement[VisibilityElement/VisibilityElement/VisibilityElement/ExpectedValueInt='101269']"
+  Condition="!//InfoTipData[Guid='25000020']/InfoElement/InfoElement/InfoElement/InfoElement[VisibilityElement/VisibilityElement/VisibilityElement/ExpectedValueInt='1010263']">
+    <InfoElement>
+      <ElementType>4</ElementType>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>3</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>1010263</ExpectedValueInt> <!-- cattle farm ow -->
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <Icon>
+        <IconGUID>5385</IconGUID> <!-- milk -->
+        <Style />
+      </Icon>
+      <Text>
+        <TextGUID>2100118208</TextGUID> <!-- "Pastures provide milk " -->
+        <Style />
+      </Text>
+      <Value>
+        <Style />
+      </Value>
+      <WarningType />
+      <BackgroundType />
+    </InfoElement>
+  </ModOp>
+  <ModOp Type="addNextSibling" Path ="//InfoTipData[Guid='25000020']/InfoElement/InfoElement/InfoElement/InfoElement[VisibilityElement/VisibilityElement/VisibilityElement/ExpectedValueInt='101269']"
+  Condition="!//InfoTipData[Guid='25000020']/InfoElement/InfoElement/InfoElement/InfoElement[VisibilityElement/VisibilityElement/VisibilityElement/ExpectedValueInt='101269' and (VisibilityElement/VisibilityElement[VisibilityElement/Condition='[GameSetup IsDLCActive(24963)]' and VisibilityElement/CompareOperator/CompareOperator='1'])]">
+    <InfoElement>
+      <ElementType>4</ElementType>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>3</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>101269</ExpectedValueInt> <!-- cattle farm nw -->
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>1</CompareOperator>
+            </CompareOperator>
+            <ResultType />
+            <Condition>[GameSetup IsDLCActive(24963)]</Condition> <!-- if dlc-12 is not active -->
+          </VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <Icon>
+        <IconGUID>5385</IconGUID> <!-- milk -->
+        <Style />
+      </Icon>
+      <Text>
+        <TextGUID>2100118208</TextGUID> <!-- "Pastures provide milk " -->
+        <Style />
+      </Text>
+      <Value>
+        <Style />
+      </Value>
+      <WarningType />
+      <BackgroundType />
+    </InfoElement>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,66 @@
+<ModOps>
+	
+    <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>2100119700</GUID>
+      			<Text>农民住宅</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119701</GUID>
+      			<Text>工人住宅</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119702</GUID>
+      			<Text>工匠住宅</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119703</GUID>
+      			<Text>工程师住宅</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119704</GUID>
+      			<Text>投资人住宅</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119705</GUID>
+      			<Text>学者住宅</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119706</GUID>
+      			<Text>临时工住宅</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119707</GUID>
+      			<Text>劳工住宅</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119708</GUID>
+      			<Text>牧羊人住宅</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119709</GUID>
+      			<Text>长老住宅</Text>
+		</Text>
+		<Text>
+				<GUID>2100119713</GUID>
+				<Text>艺术家住宅</Text>
+   		</Text>
+		<Text>
+				<GUID>2100119714</GUID>
+				<Text>庄园住宅</Text>
+		</Text>		
+		<Text>
+     			<GUID>2100119710</GUID>
+      			<Text>装饰用住宅</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119711</GUID>
+      			<Text>装饰用住宅</Text>
+		</Text>		
+		<Text>
+				<GUID>2100119716</GUID>
+				<Text>- 房屋出售 - 联系地址： 贝德房地产公司，皇家瀑布列克星敦大道228号</Text>
+   		</Text>	
+		
+    </ModOp>
+</ModOps>

@@ -1,0 +1,60 @@
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">			
+			
+		<Text>
+			
+			<GUID>2100115701</GUID>
+			<Text>安贝沙砂矿</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100115702</GUID>
+			<Text>苏打粉厂</Text>
+		</Text>
+		<Text>
+			
+			<GUID>1999002300</GUID>
+			<Text>苏打粉</Text>
+		</Text>
+		<Text>
+			
+			<GUID>1999002301</GUID>
+			<Text>化学革命为你的饮料添加火花。</Text>
+		</Text>
+		<Text>
+			
+			<GUID>1999002302</GUID>
+			<Text>异常成功地导致胃绞痛。</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100115704</GUID>
+			<Text>苏打粉厂</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100115705</GUID>
+			<Text>安贝沙眼镜工厂</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100115706</GUID>
+			<Text>安贝沙眼镜工厂</Text>
+		</Text>	
+		<Text>
+			
+			<GUID>2100115707</GUID>
+			<Text>“煅烧大师”德斯蒙德·索尔维教授</Text>
+		</Text>	
+		<Text>
+			
+			<GUID>2100115708</GUID>
+			<Text>他是化学家、企业家和慈善家恩斯特·索尔维意气相投的兄弟。他于1860年发明了氨水-苏打法，用于生产碳酸钠(苏打)。它是玻璃制造中的关键原料，也是洗涤剂的一种成分。</Text>
+		</Text>	
+				
+  </ModOp>
+
+</ModOps>

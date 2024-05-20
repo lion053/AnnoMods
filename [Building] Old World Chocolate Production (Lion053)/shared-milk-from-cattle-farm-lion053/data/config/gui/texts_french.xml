@@ -1,0 +1,87 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118203</GUID>
+			<Text>Pâturage</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118207</GUID>
+			<Text>InfoTip Cattle Farm OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118208</GUID>
+			<Text>Les pâturages produisent du lait</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118209</GUID>
+			<Text>Fournit une zone de pâturage pour le bétail. En outre, chaque pâturage produit 1 tonne de lait par cycle. Cliquez sur un pâturage pour connaître sa productivité actuelle.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<!-- FOR TRANSLATION: Search for the Guid 8143 in your language text file; from the result copy only the translated term for 'secondary goods' -->
+			<GUID>2100118210</GUID>
+			<Text>Biens secondaires:</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118211</GUID>
+			<Text>Sortie de pâturage</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118215</GUID>
+			<Text>1t/pâturage/cycle</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118218</GUID>
+			<Text>Trigger_pasture_artisans</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118238</GUID>
+			<Text>InfoTip Cattle Farm OW (construction menu)</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118239</GUID>
+			<Text>Unlock Pastures Creative Mode</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118241</GUID>
+			<Text>AI Pasture OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118242</GUID>
+			<Text>AI Farm OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118243</GUID>
+			<Text>Canned Food Chain AI</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118244</GUID>
+			<Text>AI Farm NW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118245</GUID>
+			<Text>AI Pasture NW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118246</GUID>
+			<Text>Burrito Chain AI</Text> <!-- no translation needed -->
+		</Text>
+  </ModOp>
+
+</ModOps>

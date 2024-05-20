@@ -1,0 +1,204 @@
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<!--Items-->
+
+		<Text>
+			<GUID>2100119190</GUID>
+			<Text>Bonny and Clyde</Text>
+		</Text>
+		<Text>
+			<GUID>2100119170</GUID>
+			<Text>Die berüchtigsten Gangster im gesamten Königreich. Grausam und skrupellos, doch zugleich vom Volk bewundert und bejubelt.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119191</GUID>
+			<Text>Cornelius "Commodore" Vanderbilt</Text>
+		</Text>
+		<Text>
+			<GUID>2100119171</GUID>
+			<Text>Tycoon, Multimilliardär und rücksichtsloser Monopolist. Doch niemand errichtet schneller eine Eisenbahn.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119192</GUID>
+			<Text>Charles Lloyd Rockateller</Text>
+		</Text>
+		<Text>
+			<GUID>2100119172</GUID>
+			<Text>Plant einen Wolkenkratzer, der selbst Donny Baders SkyTower übertreffen soll - komplett aus Holz.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119193</GUID>
+			<Text>Prof. Linus Liquiscious</Text>
+		</Text>
+		<Text>
+			<GUID>2100119173</GUID>
+			<Text>Dekan der Chemiefakultät. Betreibt einen florierenden Schwarzmarkt mit allerlei selbstgemachten Spirituosen in seinem Labor.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119194</GUID>
+			<Text>Dewey Hasselbay, die menschliche Amphibie</Text>
+		</Text>
+		<Text>
+			<GUID>2100119174</GUID>
+			<Text>Braungebrannt, muskulös und immer mit einem Lächeln anzutreffen, wenn er nicht gerade wieder unter Wasser unterwegs ist.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119195</GUID>
+			<Text>Frank Stone, der Schlächter</Text>
+		</Text>
+		<Text>
+			<GUID>2100119175</GUID>
+			<Text>Es... wurde eine auffallend hohe... Mitarbeiterfluktuation in Ihrer Metzgerei festgestellt. Sicher nur das hohe Arbeitspensum...</Text>
+		</Text>
+		<Text>
+			<GUID>2100119196</GUID>
+			<Text>Priscilla Lovetroy, Prominente Bekannte Donny Baders</Text>
+		</Text>
+		<Text>
+			<GUID>2100119176</GUID>
+			<Text>Angefangen in den staubigen Saloons des Wilden Westens, ist sie heute eine betörende Schauspielerin und Tänzerin, die die Sorgen der Großstadtbewohner im Nu vergessen lässt.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119197</GUID>
+			<Text>W. H. Twain, der erste Goldgräber</Text>
+		</Text>
+		<Text>
+			<GUID>2100119177</GUID>
+			<Text>Die Heimat vor Jahrzehnten verlassen, stets auf der Suche nach dem großen Geld, entdeckte er als erster die schieren Reichtümer, die tief im Boden nur auf ihre Entdeckung warten. Routiniert und mit scharfem Auge geht er seiner Arbeit nach und fördert dabei alles zu Tage was glänzt.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119198</GUID>
+			<Text>Sir Abraham Woolsworth, Vulcanist des Empire</Text>
+		</Text>
+		<Text>
+			<GUID>2100119178</GUID>
+			<Text>Für die Entwicklung neuer Produktionsverfahren von Gummi zum Ritter geschlagen. Dabei kommt er von ganz unten und musste zahlreiche Rückschläge einstecken. Doch er versteht es, knappe Ressourcen einzusparen.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119199</GUID>
+			<Text>Tuvalu Mbesa, der besondere Pfeifenmacher</Text>
+		</Text>
+		<Text>
+			<GUID>2100119179</GUID>
+			<Text>Säht unauffällig Mohn unter die Hibiskusfelder seiner Tante und stellt damit in Übersee besonders gefragte Pfeiffen und Zigarren her.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119200</GUID>
+			<Text>TorpedoProjectile_D</Text>
+		</Text>
+		<Text>
+			<GUID>2100119201</GUID>
+			<Text>Ironbrights Verteidiger der Freiheit</Text>
+		</Text>
+		<Text>
+			<GUID>2100119181</GUID>
+			<Text>Entwickelt, um schnell, leise und effizient großen Flächenschaden beim Feind zu verursachen. Seine enorme Zerstörungskraft erreicht er durch vier im Rumpf verbaute Sprengkörper.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119202</GUID>
+			<Text>Blackbeard's Kapitänsflagge</Text>
+		</Text>
+		<Text>
+			<GUID>2100119182</GUID>
+			<Text>Mit der Flagge des berüchtigten Piraten Blackbeard rufen Sie schon aus großer Distanz Angst und Schrecken hervor. </Text>
+		</Text>
+		<Text>
+			<GUID>2100119203</GUID>
+			<Text>Wang Mingzuo, Hüter der Glückskekse</Text>
+		</Text>
+		<Text>
+			<GUID>2100119183</GUID>
+			<Text>Was ist das? Ein Keks mit einem weisen Spruch in seinem Inneren? Ach wie Entzückend!</Text>
+		</Text>
+		<Text>
+			<GUID>2100119204</GUID>
+			<Text>Lord Coulter McBain, Eroberer der Arktis</Text>
+		</Text>
+		<Text>
+			<GUID>2100119184</GUID>
+			<Text>Ein alter Weggefährte John Franklins. Nach dessen tragischer Expedition durch die Arktis, ließ er sich dort nieder um den eisigen Gefilden zu John´s Ehren Herr zu werden.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119205</GUID>
+			<Text>Dakota Earp, King of the Cattle Trails</Text>
+		</Text>
+		<Text>
+			<GUID>2100119185</GUID>
+			<Text>Gleich wie groß die Herde, gleich wie stur und widerspenstig: Er treibt sie stoisch über den Kontinent und fängt mühelos jeden Ausreißer ein.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119206</GUID>
+			<Text>James Carson Hickock, Crown Bay Company Marshal Commissioner</Text>
+		</Text>
+		<Text>
+			<GUID>2100119207</GUID>
+			<Text>Crown Bay Reward Pool</Text>
+		</Text>
+		<Text>
+			<GUID>2100119186</GUID>
+			<Text>Kontrolliert Schiffe und Häfen äußerst zielstrebig und effizient und macht dabei jede noch so gut versteckte Schmuggelware ausfindig.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119208</GUID>
+			<Text>Makataime "Black Eagle" Shekiakiak, Kultivator uralter Spezies</Text>
+		</Text>
+		<Text>
+			<GUID>2100119188</GUID>
+			<Text>Verbringt den Großteil des Tages auf den Feldern, doch niemand weiß genau, was er dort macht. Manche sagen, eine gespenstische, doch zugleich einnehmend, friedvolle Aura umgibt ihn.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119209</GUID>
+			<Text>Saint of the Death</Text>
+		</Text>
+		<Text>
+			<GUID>2100119189</GUID>
+			<Text>Experimentelle Schnellfeuerwaffe, die dem Gegner keine Zeit zum Reagieren lässt.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119169</GUID>
+			<Text>Omar Al Zahir, leidenschaftlicher Geschichtenerzähler</Text>
+		</Text>
+		<Text>
+			<GUID>2100119149</GUID>
+			<Text>Ein Nachfahre des mächtigen Großwesirs Ibn Hakim und guter Freund Kaiser Ketemas. Kaum jemand kann sich dem Bann seiner fesselnden Geschichten aus 1001 Nacht entziehen.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119168</GUID>
+			<Text>Montgomery Lincoln, Gründer des Panamerican Gentlemen Club</Text>
+		</Text>
+		<Text>
+			<GUID>2100119148</GUID>
+			<Text>Vor vielen Jahren in den Süden übergesiedelt, etablierte er in den zwielichtigen Kellerräumen der Boxkampfarenen einen äußerst begehrten Altherrenclub, der keine Wünsche offenlässt. Legal? Unwichtig!</Text>
+		</Text>
+		<Text>
+			<GUID>2100119167</GUID>
+			<Text>Tatsumi Yamazaki, Gelehrter aus dem Fernen Osten</Text>
+		</Text>
+		<Text>
+			<GUID>2100119147</GUID>
+			<Text>Bewahrt in jeder Situation Ruhe und Gelassenheit und trägt dadurch maßgeblich zum Hausfrieden auf dem Campus bei. Auch die Kommunikation der Gelehrten habe sich spürbar verbessert, so der Dekan.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119153</GUID>
+			<Text>Item Rerun Trigger</Text>
+		</Text>
+		<Text>
+			<GUID>2100119160</GUID>
+			<Text>SpecialistsGuildhouse</Text>
+		</Text>
+		<Text>
+			<GUID>2100119161</GUID>
+			<Text>Consumables</Text>
+		</Text>
+		<Text>
+			<GUID>2100119162</GUID>
+			<Text>SpecialistsTownhall</Text>
+		</Text>
+				
+  </ModOp>
+
+</ModOps>

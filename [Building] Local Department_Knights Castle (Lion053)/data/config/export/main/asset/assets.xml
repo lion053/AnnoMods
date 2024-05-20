@@ -1,0 +1,518 @@
+<!-- Local Department _ Knight's Castle -->
+
+<ModOps>
+  <!-- # Menu entry -->
+  <ModOp Type="addNextSibling" GUID="7431" Path="/Values/ConstructionCategory/BuildingList/Item[Building='269602']">
+    <Item>
+      <Building>2100115150</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="1440137020" Path="/Values/ConstructionCategory/BuildingList/Item[Building='99334142']" Condition="#Spice_Palace">
+    <Item>
+      <Building>2100115170</Building>
+    </Item>
+  </ModOp>
+  <!-- # Baron Castle Local Department -->
+  <ModOp Type="addNextSibling" GUID="114436">
+    <Asset>
+      <BaseAssetGUID>269602</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100115150</GUID>
+          <Name>Palace Ministry _ Knight's Castle</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\icon_baron_castle.png</IconFilename>
+          <ID>PalaceDepartment</ID>
+          <InfoDescription>269607</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>11152</BuildingCategoryName>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/mod_buildings/castle/baron_castle_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <BuildingUnique>
+          <Uniques>
+            <Item>
+              <UniqueType>PalaceMinistry</UniqueType>
+              <UniqueScope>Area</UniqueScope>
+            </Item>
+          </Uniques>
+        </BuildingUnique>
+        <Mesh />
+        <Selection />
+        <Infolayer />
+        <SoundEmitter />
+        <LogisticNode />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>150000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>35</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Locked>
+          <DLCDependency>410059</DLCDependency>
+        </Locked>
+        <UpgradeList />
+        <FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+          <IgnoreIncidents>1</IgnoreIncidents>
+        </FeedbackController>
+        <Culture>
+          <Attractiveness>100</Attractiveness>
+        </Culture>
+        <AmbientMoodProvider />
+        <PalaceMinistry />
+        <Maintenance />
+        <PalaceMonumentTracker />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="114436">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+          <Standard>
+              <GUID>2100115170</GUID>
+              <Name>Knight's Castle (Ornamental)</Name>
+              <IconFilename>data\ui\2kimages\main\3dicons\icon_baron_castle.png</IconFilename>
+              <InfoDescription>163093</InfoDescription>
+          </Standard>
+          <Text>
+            <TextOverride>2100115150</TextOverride>
+          </Text>
+          <Blocking />
+          <Building>
+              <BuildingCategoryName>11149</BuildingCategoryName>
+              <AssociatedRegions>Moderate</AssociatedRegions>
+          </Building>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>150000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>40</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>50</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>40</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>35</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+          <Selection>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/graphics/mod_buildings/castle/baron_castle_01.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Constructable>
+              <DestructionCategory>Palace</DestructionCategory>
+          </Constructable>
+          <Mesh />
+          <SoundEmitter>
+              <ActiveSounds>
+                  <Item>
+                    <Sound>269540</Sound>
+                  </Item>
+                  <Item>
+                    <Sound>269544</Sound>
+                  </Item>
+              </ActiveSounds>
+              <DestroySounds>
+                  <Item>
+                    <Sound>9818756</Sound>
+                  </Item>
+              </DestroySounds>
+              <ConstructionSounds>
+                  <BuildFailed>
+                      <Item>
+                        <Sound>9818387</Sound>
+                      </Item>
+                  </BuildFailed>
+                  <BuildMoveStart>
+                      <Item>
+                        <Sound>9818755</Sound>
+                      </Item>
+                  </BuildMoveStart>
+                  <BuildMoveSuccess>
+                      <Item>
+                        <Sound>203995</Sound>
+                      </Item>
+                  </BuildMoveSuccess>
+                  <BuildMoveEnd>
+                      <Item>
+                        <Sound>200141</Sound>
+                      </Item>
+                  </BuildMoveEnd>
+              </ConstructionSounds>
+          </SoundEmitter>
+          <FeedbackController>
+              <NightBehavior>HideNone</NightBehavior>
+              <IgnoreIncidents>1</IgnoreIncidents>
+          </FeedbackController>
+          <Locked />
+          <Ornament>
+              <OrnamentDescription>5239</OrnamentDescription>
+          </Ornament>
+          <Culture>
+            <Attractiveness>75</Attractiveness>
+          </Culture>
+          <AmbientMoodProvider>
+              <Murmur>Palace</Murmur>
+          </AmbientMoodProvider>
+          <Pausable />
+          <Infolayer />
+      </Values>
+  </Asset>
+  </ModOp>
+  <!-- # Add building to ItemEffect_Pool and CounterContext_Pool -->
+  <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100115150</GUID>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="133024" Path="/Values/PlayerCounterContextPool/Contexts">
+    <Item>
+      <Asset>2100115150</Asset>
+    </Item>
+  </ModOp>
+  <!-- # Unlock -->
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115151</GUID>
+          <Name>Local Department _ Baron Castle Trigger Unhide</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000004</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2100115150</Asset>
+                      </Item>
+                    </UnhideAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115152</GUID>
+          <Name>Local Department _ Baron Castle Trigger Unlock</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <Context>249947</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100115150</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionRegisterTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionRegisterTrigger>
+                    <TriggerAsset>2100115153</TriggerAsset>
+                  </ActionRegisterTrigger>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115153</GUID>
+          <Name>Local Department _ Baron Castle Trigger Relock</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <Context>249947</Context>
+                <ComparisonOp>Equals</ComparisonOp>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionLockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionLockAsset>
+                    <LockAssets>
+                      <Item>
+                        <Asset>2100115150</Asset>
+                      </Item>
+                    </LockAssets>
+                  </ActionLockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2100115150</Asset>
+                      </Item>
+                    </UnhideAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionRegisterTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionRegisterTrigger>
+                    <TriggerAsset>2100115152</TriggerAsset>
+                  </ActionRegisterTrigger>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>0</AutoRegisterTrigger>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115172</GUID>
+          <Name>Unlock Local Department Creative Mode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsCreativeMode</Template>
+            <Values>
+              <Condition />
+              <ConditionIsCreativeMode />
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100115150</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115170</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115171</GUID>
+          <Name>Local Department _ Baron Castle Trigger Unlock</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000004</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100115170</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- # Imya Tweak -->
+  <ModOp Type="replace" GUID="2100115150" Path="/Values/Culture/Attractiveness" ModOpID="CastleAttractiveness" Skip="1">
+    <Attractiveness>100</Attractiveness>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100115150" Path="/Values/BuildingUnique/Uniques" ModOpID="CastleUniqueType" Skip="1">
+    <Uniques>
+      <Item>
+        <UniqueType>None</UniqueType>
+        <UniqueScope>None</UniqueScope>
+      </Item>
+    </Uniques>
+  </ModOp>
+  <ImyaTweaks Title="Custom Settings" />
+  <ImyaExpose Path="self::Attractiveness" ModOpID="CastleAttractiveness" ExposeID="Attractiveness" Description="The amount of attractiveness the castle provides" Kind="Slider">
+    <SliderDefinition Min="0" Max="200" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Uniques" ModOpID="CastleUniqueType" ExposeID="UniqueType" Description="Toggle whether the castle is limited to one per island &#xD;&#xA; On = Build the castle as many times as you want &#xD;&#xA; Off = Limited to one castle per island" Kind="Toggle">
+    <AltValue>
+      <Uniques>
+        <Item>
+          <UniqueType>PalaceMinistry</UniqueType>
+          <UniqueScope>Area</UniqueScope>
+        </Item>
+      </Uniques>
+    </AltValue>
+  </ImyaExpose>
+  <Include File="./assets.imyatweak.include.xml" />
+</ModOps>

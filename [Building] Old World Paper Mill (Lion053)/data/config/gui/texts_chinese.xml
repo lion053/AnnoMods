@@ -1,0 +1,119 @@
+<ModOps>
+
+ <!-- Asset List: GUIDs in ascending order-->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<GUID>2100115080</GUID>
+			<Text>先进造纸厂</Text>
+		</Text>
+		<Text>
+			<GUID>2100115081</GUID>
+			<Text>先进造纸厂</Text>
+		</Text>
+		<Text>
+			<GUID>2100115082</GUID>
+			<Text>纸张工艺配方表</Text>
+		</Text>
+		<Text>
+			<GUID>2100115083</GUID>
+			<Text>先进造纸厂允许您使用各种不同的制造工艺进行工业生产：工艺越先进，产量越大。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115084</GUID>
+			<Text>造纸工艺：亚硫酸盐法</Text>
+		</Text>
+		<Text>
+			<GUID>2100115085</GUID>
+			<Text>本法发明于19世纪下半叶，将木材与石灰和二氧化硫的混合物在高压下与其他原料煮沸几个小时，然后通过压碎、干燥等步骤，第一次实现了工业级纤维状纸浆制备。由于此法生产的木质纤维价格低廉，纸浆颜色较浅，因此适合直接进一步加工成纸张。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115086</GUID>
+			<Text>造纸工艺：废布回收法</Text>
+		</Text>
+		<Text>
+			<GUID>2100115087</GUID>
+			<Text>先进造纸厂</Text>
+		</Text>
+		<Text>
+			<GUID>2100115088</GUID>
+			<Text>将破旧衣服撕碎和捣碎后，与水混合制成纸浆。将筛子浸入其中，可在其上沉淀出一层薄薄的纸浆，经过压榨和干燥，就会得到一张纸。</Text>
+		</Text>
+		<!--
+		<Text>
+			<GUID>2100115089</GUID>
+			<Text>Sulfur</Text>
+		</Text>
+		<Text>
+			<GUID>2100115090</GUID>
+			<Text>Sulfur Module</Text>
+		</Text>
+		<Text>
+			<GUID>2100115091</GUID>
+			<Text>Iron, copper and zinc mines produce sulfur as extra output, when this module is placed next to them. Requires coal as input.&amp;#xA;&amp;#xD;&amp;#xA;&amp;#xD;&amp;lt;font overrideTextColor=&quot;true&quot; color=&apos;#2d7fb8&apos;&amp;gt;Demand&amp;lt;/font&amp;gt;&amp;lt;font overrideTextColor=&quot;true&quot; color=&apos;#edc891&apos;&amp;gt; per Cycle (01:30):&amp;lt;/font&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;font overrideTextColor=&quot;true&quot; color=&apos;#edc891&apos;&amp;gt;1t &amp;lt;img height=&apos;24&apos; width=&apos;24&apos; src=&quot;[AssetData(1010304) Icon]&quot;/&amp;gt; [AssetData(1010226) Text]&amp;lt;/font&amp;gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115092</GUID>
+			<Text>Mine Module</Text>
+		</Text>
+		<Text>
+			<GUID>2100115093</GUID>
+			<Text>Roasting Sulfidic Ore</Text>
+		</Text>
+		<Text>
+			<GUID>2100115094</GUID>
+			<Text>Sulfur dioxide can be obtained from sulfidic iron, copper and zinc ores by roasting them for several hours.</Text>
+		</Text> -->
+		<Text>
+			<GUID>2100115095</GUID>
+			<Text>纸</Text>
+		</Text>
+		<Text>
+			<GUID>2100115096</GUID>
+			<Text>在旧世界用不同的配方生产纸张</Text>
+		</Text>
+		<Text>
+			<GUID>2100115097</GUID>
+			<Text /> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115098</GUID>
+			<Text>Unlock Trigger</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100115099</GUID>
+			<Text /> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100115270</GUID>
+			<Text>此配方在750工程师时解锁</Text>
+		</Text>
+		<!--<Text>
+			<GUID>2100115721</GUID>
+			<Text>Sulfur Module Fake</Text>
+		</Text> -->
+		<Text>
+			<GUID>2100115722</GUID>
+			<Text>Paper Mill Old World Unlock</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100115723</GUID>
+			<Text>Paper Mill Old World Unlock Creative Mode</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100115724</GUID>
+			<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;造纸工艺：空&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115725</GUID>
+			<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;造纸工艺：废布回收法&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115726</GUID>
+			<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;造纸工艺：亚硫酸盐法&lt;/font&gt;</Text>
+		</Text>
+  </ModOp>
+
+</ModOps>

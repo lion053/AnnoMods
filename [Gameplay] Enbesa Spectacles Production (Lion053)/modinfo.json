@@ -1,0 +1,63 @@
+{
+  "Version": "1.4",
+  "ModID": "lion053_Enbesa_Spectacles_Production",
+  "IncompatibleIds": [],
+  "ModDependencies": [
+    "shared-pools-and-definitions"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions"
+  ],
+
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+
+  "ModName": {
+    "Chinese": "Enbesa Spectacles Production (Lion053)",
+    "English": "Enbesa Spectacles Production (Lion053)",
+    "French": "Enbesa Spectacles Production (Lion053)",
+    "German": "Enbesa Spectacles Production (Lion053)",
+    "Italian": "Enbesa Spectacles Production (Lion053)",
+    "Japanese": "Enbesa Spectacles Production (Lion053)",
+    "Korean": "Enbesa Spectacles Production (Lion053)",
+    "Polish": "Enbesa Spectacles Production (Lion053)",
+    "Russian": "Enbesa Spectacles Production (Lion053)",
+    "Spanish": "Enbesa Spectacles Production (Lion053)",
+    "Taiwanese": "Enbesa Spectacles Production (Lion053)"
+  },
+
+  "Description": {
+    "Chinese": "file::readme.md",
+    "English": "file::readme.md",
+    "French": "file::readme.md",
+    "German": "file::readme.md",
+    "Italian": "file::readme.md",
+    "Japanese": "file::readme.md",
+    "Korean": "file::readme.md",
+    "Polish": "file::readme.md",
+    "Russian": "file::readme.md",
+    "Spanish": "file::readme.md",
+    "Taiwanese": "file::readme.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "LandofLions",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Lion053",
+  "CreatorContact": "https://discord.gg/ycmFNKaG",
+  "Image": null
+}

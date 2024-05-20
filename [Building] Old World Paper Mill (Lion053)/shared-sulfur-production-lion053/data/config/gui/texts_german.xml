@@ -1,0 +1,38 @@
+<ModOps>
+
+ <!-- Asset List: GUIDs in ascending order-->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<GUID>2100115089</GUID>
+			<Text>Schwefel</Text>
+		</Text>
+		<Text>
+			<GUID>2100115090</GUID>
+			<Text>Schwefel Modul</Text>
+		</Text>
+		<Text>
+			<GUID>2100115091</GUID>
+			<Text>Eisen-, Kupfer- und Zinkminen produzieren Schwefel als Extraware, wenn dieses Modul neben ihnen errichtet wird. Benötigt Kohle als Input.&#xA;&#xD;&#xA;&#xD;&lt;font overrideTextColor="true" color='#2d7fb8'&gt;Nachfrage&lt;/font&gt;&lt;font overrideTextColor="true" color='#edc891'&gt; pro Zyklus (01:30):&lt;/font&gt;&#xD;&#xA;&lt;font overrideTextColor="true" color='#edc891'&gt;1t &lt;img height='24' width='24' src="[AssetData(1010304) Icon]"/&gt; [AssetData(1010226) Text]&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115092</GUID>
+			<Text>Minen Modul</Text>
+		</Text>
+		<Text>
+			<GUID>2100115093</GUID>
+			<Text>Rösten schwefelhaltiger Erze</Text>
+		</Text>
+		<Text>
+			<GUID>2100115094</GUID>
+			<Text>Schwefeldioxid kann aus schwefelhaltigen Eisen-, Kupfer- und Zinkerzen gewonnen werden, indem sie für mehrere Stunden geröstet werden (vereinfacht).</Text>
+		</Text>
+		<Text>
+			<GUID>2100115721</GUID>
+			<Text>Sulfur Module Fake</Text> <!-- no translation needed -->
+		</Text>
+
+  </ModOp>
+
+</ModOps>

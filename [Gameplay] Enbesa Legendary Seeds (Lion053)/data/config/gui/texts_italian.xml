@@ -1,0 +1,66 @@
+
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<!--Items-->
+
+		<Text>
+			<GUID>2100119221</GUID>
+			<Text>Rooibos Seeds from the very south of Enbesa (Aspalathus linearis)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119222</GUID>
+			<Text>Fungi resistant flax from Kidushi Anitoni (Linum usitatissimum)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119223</GUID>
+			<Text>Hawi´s tiny tef seeds (Eragrostis tef)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119224</GUID>
+			<Text>Adolf von Baeyers synthesized Indigo seeds (Indigofera tinctoria)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119225</GUID>
+			<Text>Ketema´s double crossed spices</Text>
+		</Text>
+		<Text>
+			<GUID>2100119226</GUID>
+			<Text>Hasselbay´s fast growing lobsters (Homarus gammarus)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119227</GUID>
+			<Text>Ababe´s Land of Milk and Honey for bees</Text>
+		</Text>
+		<Text>
+			<GUID>2100119228</GUID>
+			<Text>Biniams complex mechanical flood gate system</Text>
+		</Text>
+		<Text>
+			<GUID>2100119229</GUID>
+			<Text>With these special seeds your shepherds will not miss any fertility anymore.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119230</GUID>
+			<Text>Biniams latest development: A complicated interplay of gears, pumps and flood gates to distribute water over large areas.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119231</GUID>
+			<Text>Legendary Seeds Enbesa TradeUnion</Text>
+		</Text>
+		<Text>
+			<GUID>2100119232</GUID>
+			<Text>Legendary Seeds Enbesa HarborOffice</Text>
+		</Text>
+		<Text>
+			<GUID>2100119233</GUID>
+			<Text>Item Rerun Trigger</Text>
+		</Text>
+		
+								
+  </ModOp>
+
+</ModOps>

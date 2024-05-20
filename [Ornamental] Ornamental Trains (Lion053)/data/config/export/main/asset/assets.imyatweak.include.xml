@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Path="/Values/WarehouseUpgrade/StorageCapacityModifier" GUID="2100115505" Type="replace">
+    <StorageCapacityModifier>5</StorageCapacityModifier>
+  </ModOp>
+  <ModOp Path="/Values/BuffFactory/BaseBuffDistance" GUID="2100115501" Type="replace">
+    <BaseBuffDistance>8</BaseBuffDistance>
+  </ModOp>
+</ModOps>

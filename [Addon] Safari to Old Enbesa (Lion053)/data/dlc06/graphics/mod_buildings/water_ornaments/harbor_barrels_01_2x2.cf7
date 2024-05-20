@@ -1,0 +1,93 @@
+
+	<SplineData />
+	<IdCounter>7</IdCounter>
+	<DummyRoot>
+		<Name />
+		<Groups>
+			<i>
+				<Name>feedback_trade</Name>
+				<Groups />
+				<hasValue>1</hasValue>
+				<Id>3</Id>
+				<Dummies>
+					<i>
+						<Name>feedback_trade_0</Name>
+						<hasValue>1</hasValue>
+						<Id>6</Id>
+						<HeightAdaptationMode>0</HeightAdaptationMode>
+						<Orientation>
+							<w>0.972881</w>
+							<x>0.000000</x>
+							<y>-0.231306</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>0.030799</x>
+							<y>0.004896</y>
+							<z>0.280366</z>
+						</Position>
+						<RotationY>0.466840</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+				</Dummies>
+			</i>
+			<i>
+				<Name>feedback_workHands</Name>
+				<Groups />
+				<hasValue>1</hasValue>
+				<Id>1</Id>
+			</i>
+			<i>
+				<Name>feedback_workThink</Name>
+				<Groups />
+				<hasValue>1</hasValue>
+				<Id>2</Id>
+				<Dummies>
+					<i>
+						<Name>feedback_workThink_0</Name>
+						<hasValue>1</hasValue>
+						<Id>5</Id>
+						<HeightAdaptationMode>0</HeightAdaptationMode>
+						<Orientation>
+							<w>0.732112</w>
+							<x>0.000000</x>
+							<y>-0.681185</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>0.256235</x>
+							<y>0.004896</y>
+							<z>0.060107</z>
+						</Position>
+						<RotationY>1.498759</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+				</Dummies>
+			</i>
+			<i>
+				<Name>feedback_workWall</Name>
+				<Groups />
+				<hasValue>1</hasValue>
+				<Id>4</Id>
+			</i>
+		</Groups>
+		<Dummies />
+		<hasValue>1</hasValue>
+		<Id>7</Id>
+	</DummyRoot>
+	<FeedbackDefinition>
+		<FeedbackConfigs />
+		<ValidSequenceIDs />
+	</FeedbackDefinition>
+	<ActorNames>
+		<i>[Root Object]</i>
+		<hasValue>1</hasValue>
+	</ActorNames>

@@ -1,0 +1,30 @@
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<Text>			
+			<GUID>2100115121</GUID>
+			<Text>教堂</Text>
+		</Text>	
+		<Text>			
+			<GUID>2100115122</GUID>
+			<Text>色彩缤纷的教堂</Text>
+		</Text>	
+		<Text>			
+			<GUID>2100115125</GUID>
+			<Text>满足了对教会的需求</Text>
+		</Text>
+		<Text>			
+			<GUID>2100115127</GUID>
+			<Text>1404 教堂</Text>
+		</Text>	
+		<Text>
+			<GUID>2100115156</GUID>
+			<Text>旧日教堂</Text>
+		</Text>	
+
+  </ModOp>
+
+</ModOps>

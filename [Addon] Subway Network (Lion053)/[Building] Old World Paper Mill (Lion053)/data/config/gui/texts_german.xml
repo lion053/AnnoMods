@@ -1,0 +1,119 @@
+<ModOps>
+
+ <!-- Asset List: GUIDs in ascending order-->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<GUID>2100115080</GUID>
+			<Text>Fortschrittliche Papierfabrik</Text>
+		</Text>
+		<Text>
+			<GUID>2100115081</GUID>
+			<Text>Fortschrittliche Papierfabrik</Text>
+		</Text>
+		<Text>
+			<GUID>2100115082</GUID>
+			<Text>Paper Recipe List</Text>
+		</Text>
+		<Text>
+			<GUID>2100115083</GUID>
+			<Text>Die fortschrittliche Papierfabrik erlaubt es Ihnen, Papier unter Verwendung unterschiedlicher Produktionsverfahren in industriellem Maßstab zu produzieren: Je fortschrittlicher das Verfahren, desto größer der Output.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115084</GUID>
+			<Text>Rezept: Sulfitverfahren</Text>
+		</Text>
+		<Text>
+			<GUID>2100115085</GUID>
+			<Text>In der zweiten Hälfte des 19. Jahrhunderts erfunden, ermöglichte es erstmals das effiziente Aufspalten von Holz durch Zugabe von Kalk und Schwefel(dioxid). Zusammen mit diesem wird das Holz mehrere Stunden unter hohem Druck erhitzt, anschließend zerkleinert und getrocknet. Die dabei entstehende Holzzellulose ist günstig, sehr rein und eignet sich daher für die direkte Weiterverarbeitung zu Papier.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115086</GUID>
+			<Text>Rezept: Hadern und Lumpen</Text>
+		</Text>
+		<Text>
+			<GUID>2100115087</GUID>
+			<Text>Fortschrittliche Papierfabrik</Text>
+		</Text>
+		<Text>
+			<GUID>2100115088</GUID>
+			<Text>Nachdem alte, verschlissene Kleidung und Lumpen zerkleinert und zerstampft wurden, werden sie mit Wasser zu einem Brei vermischt. Taucht man ein Sieb hinein, scheidet sich eine dünne Zellstoffschicht ab, die nach dem Pressen und Trocknen ein Blatt Papier ergibt.</Text>
+		</Text>
+		<!--
+		<Text>
+			<GUID>2100115089</GUID>
+			<Text>Sulfur</Text>
+		</Text>
+		<Text>
+			<GUID>2100115090</GUID>
+			<Text>Sulfur Module</Text>
+		</Text>
+		<Text>
+			<GUID>2100115091</GUID>
+			<Text>Iron, copper and zinc mines produce sulfur as extra output, when this module is placed next to them. Requires coal as input.&amp;#xA;&amp;#xD;&amp;#xA;&amp;#xD;&amp;lt;font overrideTextColor=&quot;true&quot; color=&apos;#2d7fb8&apos;&amp;gt;Demand&amp;lt;/font&amp;gt;&amp;lt;font overrideTextColor=&quot;true&quot; color=&apos;#edc891&apos;&amp;gt; per Cycle (01:30):&amp;lt;/font&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;font overrideTextColor=&quot;true&quot; color=&apos;#edc891&apos;&amp;gt;1t &amp;lt;img height=&apos;24&apos; width=&apos;24&apos; src=&quot;[AssetData(1010304) Icon]&quot;/&amp;gt; [AssetData(1010226) Text]&amp;lt;/font&amp;gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115092</GUID>
+			<Text>Mine Module</Text>
+		</Text>
+		<Text>
+			<GUID>2100115093</GUID>
+			<Text>Roasting Sulfidic Ore</Text>
+		</Text>
+		<Text>
+			<GUID>2100115094</GUID>
+			<Text>Sulfur dioxide can be obtained from sulfidic iron, copper and zinc ores by roasting them for several hours.</Text>
+		</Text> -->
+		<Text>
+			<GUID>2100115095</GUID>
+			<Text>Papierherstellung</Text>
+		</Text>
+		<Text>
+			<GUID>2100115096</GUID>
+			<Text>Produziert Papier in der Alten Welt unter Verwendung verschiedener Produktionsverfahren</Text>
+		</Text>
+		<Text>
+			<GUID>2100115097</GUID>
+			<Text /> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115098</GUID>
+			<Text>Unlock Trigger</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100115099</GUID>
+			<Text /> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100115270</GUID>
+			<Text>Erreichen Sie 750 Ingenieure um dieses Rezept freizuschalten</Text>
+		</Text>
+		<!--<Text>
+			<GUID>2100115721</GUID>
+			<Text>Sulfur Module Fake</Text>
+		</Text> -->
+		<Text>
+			<GUID>2100115722</GUID>
+			<Text>Paper Mill Old World Unlock</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100115723</GUID>
+			<Text>Paper Mill Old World Unlock Creative Mode</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100115724</GUID>
+			<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Rezept: Leer&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115725</GUID>
+			<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Rezept: Hadern und Lumpen&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115726</GUID>
+			<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Rezept: Sulfitverfahren&lt;/font&gt;</Text>
+		</Text>
+  </ModOp>
+
+</ModOps>

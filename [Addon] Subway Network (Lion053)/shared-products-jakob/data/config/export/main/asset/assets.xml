@@ -1,0 +1,41 @@
+<ModOps>
+  <Include File="./products.include.xml" />
+  <Include File="./docklands.include.xml" />
+
+  <!-- # Expeditions -->
+  <Group>
+    <ModOp Type="add" GUID="800111"
+      Condition="!~/Values/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1500010120']"
+      Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
+      <Item>
+        <MoraleFactor>0.1</MoraleFactor>
+        <Product>1500010120</Product>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="800111"
+      Condition="!~/Values/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1500010102']"
+      Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
+      <Item>
+        <MoraleFactor>0.3</MoraleFactor>
+        <Product>1500010102</Product>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="800111"
+      Condition="!~/Values/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1500010105']"
+      Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
+      <Item>
+        <MoraleFactor>0.4</MoraleFactor>
+        <Product>1500010105</Product>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="800111"
+      Condition="!~/Values/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1500010836']"
+      Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
+      <Item>
+        <MoraleFactor>0.1</MoraleFactor>
+        <Product>1500010836</Product>
+      </Item>
+    </ModOp>
+  </Group>
+</ModOps>
+<!-- force cache refresh: 1700942258330 -->

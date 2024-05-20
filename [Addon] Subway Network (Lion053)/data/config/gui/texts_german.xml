@@ -1,0 +1,1557 @@
+<ModOps>
+
+ <!-- Guids in ascending order -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<GUID>2100115000</GUID>
+			<Text>U-Bahn-Fabrikmodul</Text>
+		</Text>
+		<Text>
+			<GUID>2100115001</GUID>
+			<Text>Bufft die &lt;font overrideTextColor="true" color='#41dcd7'&gt;U-Bahn-Fabrik&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115002</GUID>
+			<Text>Werkstor</Text>
+		</Text>
+		<Text>
+			<GUID>2100115003</GUID>
+			<Text>Ein zentrales Werkstor für Mitarbeiter und Warentransporte zur Erhöhung der Sicherheit. Betrunkene Arbeiter? Werden bereits am Tor nach Hause geschickt. Industriespionage? Zwecklos!</Text>
+		</Text>
+		<Text>
+			<GUID>2100115004</GUID>
+			<Text>Administration</Text>
+		</Text>
+		<Text>
+			<GUID>2100115005</GUID>
+			<Text>Lichtdurchflutete Büros für alle administrativen Aufgaben, die in einer großen Fabrik anfallen. Vergessen Sie nicht, den Direktor zu grüßen, wenn Sie ihm über den Weg laufen.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115006</GUID>
+			<Text>Materialentwicklung</Text>
+		</Text>
+		<Text>
+			<GUID>2100115007</GUID>
+			<Text>Leichter, stärker, günstiger - Ihre Ingenieure forschen unermüdlich an der Verbesserung der verwendeten Materialien.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115008</GUID>
+			<Text>Schaufelkran</Text>
+		</Text>
+		<Text>
+			<GUID>2100115009</GUID>
+			<Text>Schnelles Be- und Entladen von Schüttgütern. Die Investition wurde vom Betriebsrat durchgesetzt, um die Arbeitsbedingungen zu verbessern.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115010</GUID>
+			<Text>Fließband auf Brücke</Text>
+		</Text>
+		<Text>
+			<GUID>2100115011</GUID>
+			<Text>Bewegt Fertigungserzeugnisse automatisch von Arbeitsplatz zu Arbeitsplatz.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115012</GUID>
+			<Text>Verbindungsgebäude</Text>
+		</Text>
+		<Text>
+			<GUID>2100115013</GUID>
+			<Text>Zusätzlicher Platz für Logistik, Instandhaltungsarbeiten und Nebentätigkeiten aller Art.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115014</GUID>
+			<Text>Verbindungsgebäude mit Straße</Text>
+		</Text>
+		<Text>
+			<GUID>2100115015</GUID>
+			<Text>Zusätzlicher Platz für Logistik, Instandhaltungsarbeiten und Nebentätigkeiten aller Art.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115016</GUID>
+			<Text>Kabelfabrik</Text>
+		</Text>
+		<Text>
+			<GUID>2100115017</GUID>
+			<Text>Unhide Menu</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115018</GUID>
+			<Text>Motorenfabrik</Text>
+		</Text>
+		<Text>
+			<GUID>2100115019</GUID>
+			<Text>Unlock Newspaper Panel of Experts</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115020</GUID>
+			<Text>Presswerk</Text>
+		</Text>
+		<Text>
+			<GUID>2100115021</GUID>
+			<Text>Moderne Kaltumformverfahren garantieren eine hohe Maßhaltigkeit und sind daher ideal für die sichtbare Außenhaut Ihrer Züge.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115022</GUID>
+			<Text>Großer Schornstein</Text>
+		</Text>
+		<Text>
+			<GUID>2100115023</GUID>
+			<Text>Dieser Schornstein schleudert Rußpartikel weit über die Dächer Ihrer Stadt in die Luft. Ein schöner Anblick ist er für die Bewohner Ihrer Stadt jedoch nicht.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115024</GUID>
+			<Text>Fließband im Untergrund</Text>
+		</Text>
+		<Text>
+			<GUID>2100115025</GUID>
+			<Text>Wo die U-Bahnen automatisch von Arbeitsplatz zu Arbeitsplatz transportiert werden...</Text>
+		</Text>
+		<Text>
+			<GUID>2100115026</GUID>
+			<Text>Verbindungsturm</Text>
+		</Text>
+		<Text>
+			<GUID>2100115027</GUID>
+			<Text>Zusätzlicher Platz für Logistik, Instandhaltungsarbeiten und Nebentätigkeiten aller Art.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115028</GUID>
+			<Text>Verbindungsbrücke Gerade</Text>
+		</Text>
+		<Text>
+			<GUID>2100115029</GUID>
+			<Text>Güter können schnell und unkompliziert zwischen Gebäuden transportiert werden und Emissionen aller Art werden nach Außen abgeschirmt.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115030</GUID>
+			<Text>Verbindungsbrücke Ecke</Text>
+		</Text>
+		<Text>
+			<GUID>2100115031</GUID>
+			<Text>Güter können schnell und unkompliziert zwischen Gebäuden transportiert werden und Emissionen aller Art werden nach Außen abgeschirmt.</Text>
+		</Text>
+		<Text>
+  			<GUID>2100115032</GUID>
+  			<Text>Produziert Waren und bufft die &lt;font overrideTextColor="true" color='#41dcd7'&gt;U-Bahn-Fabrik&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115033</GUID>
+			<Text>Lagerhaus</Text>
+		</Text>
+		<Text>
+			<GUID>2100115034</GUID>
+			<Text>Bleche</Text>
+		</Text>
+		<Text>
+  			<GUID>2100115035</GUID>
+  			<Text>Benötigt Input-Waren um die &lt;font overrideTextColor="true" color='#41dcd7'&gt;U-Bahn-Fabrik&lt;/font&gt;, &lt;font overrideTextColor="true" color='#41dcd7'&gt;Kabelfabrik&lt;/font&gt;, &lt;font overrideTextColor="true" color='#41dcd7'&gt;Motorenfabrik&lt;/font&gt; und &lt;font overrideTextColor="true" color='#41dcd7'&gt;Presswerk&lt;/font&gt; zu buffen.</Text>
+		</Text>
+		<Text>
+  			<GUID>2100115036</GUID>
+  			<Text>Benötigt Input-Waren um die &lt;font overrideTextColor="true" color='#41dcd7'&gt;U-Bahn-Fabrik&lt;/font&gt;, &lt;font overrideTextColor="true" color='#41dcd7'&gt;Kabelfabrik&lt;/font&gt;, &lt;font overrideTextColor="true" color='#41dcd7'&gt;Motorenfabrik&lt;/font&gt; und &lt;font overrideTextColor="true" color='#41dcd7'&gt;Presswerk&lt;/font&gt; zu buffen.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115037</GUID>
+			<Text>Subway Car 03 Subway Bridge Vehicle</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115038</GUID>
+			<Text>Metropolitan Transport Department</Text>
+		</Text>
+		<Text>
+			<GUID>2100115039</GUID>
+			<Text>Vorgefertigte Bleche</Text>
+		</Text>
+		<Text>
+			<GUID>2100115040</GUID>
+			<Text>Verbesserte Sicherheit und Schutz</Text>
+		</Text>
+		<Text>
+			<GUID>2100115041</GUID>
+			<Text>Effizienz, Effizienz, Effizienz...</Text>
+		</Text>
+		<Text>
+			<GUID>2100115042</GUID>
+			<Text>Materialinnovation</Text>
+		</Text>
+		<Text>
+			<GUID>2100115043</GUID>
+			<Text>Eigenproduktion</Text>
+		</Text>
+		<Text>
+			<GUID>2100115044</GUID>
+			<Text>Eigenproduktion</Text>
+		</Text>
+		<Text>
+			<GUID>2100115045</GUID>
+			<Text>Vorgefertigte Bleche</Text>
+		</Text>
+		<Text>
+			<GUID>2100115046</GUID>
+			<Text>Standard Produktivitäts-Buff</Text>
+		</Text>
+		<Text>
+			<GUID>2100115047</GUID>
+			<Text>Druckerei</Text>
+		</Text>
+		<Text>
+			<GUID>2100115048</GUID>
+			<Text>Tickets: Indigo Pigmente</Text>
+		</Text>
+		<Text>
+			<GUID>2100115049</GUID>
+			<Text>Einzelkarten, Familienkarten, Monatskarten, Jahreskarten, Studenten- und Rentnerkarten... Die Ticketfabrik druckt sie alle.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115050</GUID>
+			<Text>Parklane Avenue Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115051</GUID>
+			<Text>Skyline Plaza Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115052</GUID>
+			<Text>Mediterranean Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115053</GUID>
+			<Text>Sunken City Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115054</GUID>
+			<Text>Shinto Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115055</GUID>
+			<Text>Dragon Garden Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115056</GUID>
+			<Text>Green Roof Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115057</GUID>
+			<Text>Red Roof Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115058</GUID>
+			<Text>Blue Roof Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115059</GUID>
+			<Text>Parklane Avenue Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115060</GUID>
+			<Text>Eine abstrakte Darstellung eines Parks... würde zumindest der Architekt behaupten...</Text>
+		</Text>
+		<Text>
+			<GUID>2100115061</GUID>
+			<Text>Skyline Plaza Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115062</GUID>
+			<Text>Eine glamouröse Station für das Finanzzentrum Ihrer Metropole</Text>
+		</Text>
+		<Text>
+			<GUID>2100115063</GUID>
+			<Text>Mediterraner Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115064</GUID>
+			<Text>Monumentale Säulen und anmutige Rundbögen prägen diese Station, eine Hommage an antike Baukunst</Text>
+		</Text>
+		<Text>
+			<GUID>2100115065</GUID>
+			<Text>Versunkene Stadt Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115066</GUID>
+			<Text>Die Architekten wussten einfach nicht, wie sie diese Station sonst gestalten sollten...</Text>
+		</Text>
+		<Text>
+			<GUID>2100115067</GUID>
+			<Text>Fernöstlicher Skin I</Text>
+		</Text>
+		<Text>
+			<GUID>2100115068</GUID>
+			<Text>Hier ließen die Architekten offenbar ihre Impressionen ausufernder Studienreisen einfließen</Text>
+		</Text>
+		<Text>
+			<GUID>2100115069</GUID>
+			<Text>Fernöstlicher Skin II</Text>
+		</Text>
+		<Text>
+			<GUID>2100115070</GUID>
+			<Text>Hier ließen die Architekten offenbar ihre Impressionen ausufernder Studienreisen einfließen</Text>
+		</Text>
+		<Text>
+			<GUID>2100115071</GUID>
+			<Text>Grünes Dach Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115072</GUID>
+			<Text>Empfangsgebäude mit grünem Dach</Text>
+		</Text>
+		<Text>
+			<GUID>2100115073</GUID>
+			<Text>Rotes Dach Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115074</GUID>
+			<Text>Empfangsgebäude mit rotem Dach</Text>
+		</Text>
+		<Text>
+			<GUID>2100115075</GUID>
+			<Text>Blaues Dach Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115076</GUID>
+			<Text>Empfangsgebäude mit blauem Dach</Text>
+		</Text>
+		<Text>
+			<GUID>2100115077</GUID>
+			<Text>Glass Roof Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115078</GUID>
+			<Text>Glasdach Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115079</GUID>
+			<Text>Ein mondänes Glasdach: Vorteilhaft bei schlechtem Wetter, ein Gewächshaus an heißen Sommertagen.</Text>
+		</Text>
+
+		<!-- 2100115080 - 2100115099 used by Paper Mill OW Mod -->
+
+		<Text>
+			<GUID>2100115200</GUID>
+			<Text>U-Bahn-Netz</Text>
+		</Text>
+		<Text>
+			<GUID>2100115201</GUID>
+			<Text>Baumenü</Text>
+		</Text>
+		<Text>
+			<GUID>2100115203</GUID>
+			<Text>Kleine U-Bahnstation</Text>
+		</Text>
+		<Text>
+			<GUID>2100115204</GUID>
+			<Text>U-Bahn</Text>
+		</Text>
+		<Text>
+			<GUID>2100115205</GUID>
+			<Text>Herausragendes U-Bahn-Netz</Text>
+		</Text>
+		<Text>
+			<GUID>2100115206</GUID>
+			<Text>Beachtliches U-Bahn-Netz</Text>
+		</Text>
+		<Text>
+			<GUID>2100115207</GUID>
+			<Text>Beeinflusst &lt;b&gt;Alle Öffentlichen Dienste&lt;/b&gt;,&lt;b&gt; Alle Ingenieurs-&lt;/b&gt; und&lt;b&gt; Alle Investoren Wohnhäuser&lt;/b&gt; in Straßenreichweite einer U-Bahn-Station.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115208</GUID>
+			<Text>Attractivity Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115209</GUID>
+			<Text>Beachtliches U-Bahn-Netz: Öffentliche Dienste Buff</Text>
+		</Text>
+		<Text>
+			<GUID>2100115210</GUID>
+			<Text>Public Service Range Buff Forward</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115211</GUID>
+			<Text>Bescheidenes U-Bahn-Netz: Wohngebäude Buff</Text>
+		</Text>
+		<Text>
+			<GUID>2100115212</GUID>
+			<Text>Public Service Range Buff Forward</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115213</GUID>
+			<Text>Beeinflusst &lt;b&gt;Alle Öffentlichen Dienste&lt;/b&gt;,&lt;b&gt; Alle Ingenieurs-&lt;/b&gt; und&lt;b&gt; Alle Investoren Wohnhäuser&lt;/b&gt; in Straßenreichweite einer U-Bahn-Station.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115214</GUID>
+			<Text>Attractivity Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115215</GUID>
+			<Text>Herausragendes U-Bahn-Netz: Öffentliche Dienste Buff</Text>
+		</Text>
+		<Text>
+			<GUID>2100115216</GUID>
+			<Text>Subway Station Sound</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115217</GUID>
+			<Text>Ein paar wenige Stationen, die kaum die wichtigsten Orte Ihrer Stadt abdecken.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115218</GUID>
+			<Text>Ihr U-Bahn-Netz entwickelt sich langsam zu einem leistungsstarken Verkehrsträger.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115219</GUID>
+			<Text>Ihr U-Bahn-Netz deckt mittlerweile fast jeden Ort in Ihrer Stadt ab, von den Vororten bis zum Zentrum.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115220</GUID>
+			<Text>Diese Tunnel sind weithin als die Katakomben der Neuzeit bekannt. Nur wenige Metropolen können von sich behaupten, über ein derart leistungsfähiges U-Bahn-Netz zu verfügen.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115222</GUID>
+			<Text>Unauffälliger und platzsparender Seiteneingang</Text>
+		</Text>
+		<Text>
+			<GUID>2100115223</GUID>
+			<Text>Infrastrukturmonument</Text>
+		</Text>
+		<Text>
+			<GUID>2100115224</GUID>
+			<Text>Wolkenkratzer Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115225</GUID>
+			<Text>Fügt sich harmonisch in Ihre imposanten Hochhausviertel ein.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115226</GUID>
+			<Text>Wolkenkratzer Eckgebäude Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115227</GUID>
+			<Text>Diese speziell geschulten Mitarbeiter wissen, welches Teil Sie suchen, bevor Sie es wissen.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115228</GUID>
+			<Text>Einfacher Produktivitätsbuff</Text> <!-- Fake Buff -->
+		</Text>
+		<Text>
+			<GUID>2100115229</GUID>
+			<Text>U-Bahn-Fabrik</Text> <!-- Subway Fake Factory -->
+		</Text>
+		<Text>
+			<GUID>2100115230</GUID>
+			<Text>Policy 04 Buff 03 Forward</Text>
+		</Text>
+		<Text>
+			<GUID>2100115231</GUID>
+			<Text>Metropolitan Transport Department (I/IV)</Text>
+		</Text>
+		<Text>
+			<GUID>2100115232</GUID>
+			<Text>Metropolitan Transport Department (II/IV)</Text>
+		</Text>
+		<Text>
+			<GUID>2100115233</GUID>
+			<Text>Metropolitan Transport Department (III/IV)</Text>
+		</Text>
+		<Text>
+			<GUID>2100115234</GUID>
+			<Text>Metropolitan Transport Department (IV/IV)</Text>
+		</Text>
+		<Text>
+			<GUID>2100115235</GUID>
+			<Text>Gerade U-Bahn-Durchfahrt Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115236</GUID>
+			<Text>Diagonale U-Bahn-Durchfahrt Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115237</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115238</GUID>
+			<Text>Tunnelbau</Text>
+		</Text>
+		<Text>
+			<GUID>2100115239</GUID>
+			<Text>Policy 01 Buff 03 Forward</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115240</GUID>
+			<Text>U-Bahn-Fabrik</Text>
+		</Text>
+		<Text>
+			<GUID>2100115241</GUID>
+			<Text>U-Bahnen</Text>
+		</Text>
+		<Text>
+  			<GUID>2100115242</GUID>
+  			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115243</GUID>
+			<Text>Mittlere U-Bahnstation</Text>
+		</Text>
+		<Text>
+			<GUID>2100115244</GUID>
+			<Text>Vanilla Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115245</GUID>
+			<Text>Nachtleben Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115246</GUID>
+			<Text>Farbenfroher Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115247</GUID>
+			<Text>Tickets</Text>
+		</Text>
+		<Text>
+			<GUID>2100115248</GUID>
+			<Text>Policy 02 Buff 03 Forward</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115249</GUID>
+			<Text>U-Bahn-Durchfahrt</Text>
+		</Text>
+		<Text>
+			<GUID>2100115250</GUID>
+			<Text>Policy 03 Buff 03 Forward</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115251</GUID>
+			<Text>Gewöhnliches U-Bahn-Netz: Wohngebäude Buff</Text>
+		</Text>
+		<Text>
+			<GUID>2100115252</GUID>
+			<Text>U-Bahnstation Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115253</GUID>
+			<Text>U-Bahn-Durchfahrt Diagonal</Text>
+		</Text>
+		<Text>
+			<GUID>2100115254</GUID>
+			<Text>Die schnellste Art um in Ihrer Metropole von A nach B zu kommen.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115255</GUID>
+			<Text>Große U-Bahnstation</Text>
+		</Text>
+		<Text>
+			<GUID>2100115256</GUID>
+			<Text>Mittlere U-Bahnstation: Tunnelbau</Text>
+		</Text>
+		<Text>
+			<GUID>2100115257</GUID>
+			<Text>"Schweres Gerät wie der jüngst entwickelte zylindrische Schildvortrieb gräbt sich langsam seinen Weg durch die Gesteinsschichten unter Ihrer Stadt. Gusseiserne Bewehrungen oder Betontübbinge werden direkt im Anschluss verbaut, sodass alle Momente und Kräfte des Erdreichs und des Vortriebs aufgenommen werden können" - Bruno Ironbright, Anmerkungen zu einem Vortrag</Text>
+		</Text>
+		<Text>
+			<GUID>2100115258</GUID>
+			<Text>Mittlere U-Bahnstation</Text>
+		</Text>
+		<Text>
+			<GUID>2100115259</GUID>
+			<Text>Mittlere U-Bahnstation: Technische Infrastruktur</Text>
+		</Text>
+		<Text>
+			<GUID>2100115260</GUID>
+			<Text>Arbeiter verlegen Gleise, ziehen Stromleitungen, statten die Tunnel mit Lampen aus, bauen Aufzüge ein und gestalten die Bahnhöfe nach den Vorstellungen der Architekten.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115261</GUID>
+			<Text>Beachtliches U-Bahn-Netz: Wohngebäude Buff</Text>
+		</Text>
+		<Text>
+			<GUID>2100115262</GUID>
+			<Text>Planung, Bau und administrative Aufgaben</Text>
+		</Text>
+		<Text>
+			<GUID>2100115263</GUID>
+			<Text>Vanilla Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115264</GUID>
+			<Text>Eine schlichte, unaufdringliche Putzfassade</Text>
+		</Text>
+		<Text>
+			<GUID>2100115265</GUID>
+			<Text>NewCityState_MassTransportation_Notification</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115266</GUID>
+			<Text>Massentransport</Text>
+		</Text>
+		<Text>
+			<GUID>2100115267</GUID>
+			<Text>Große U-Bahnstation: Tunnelbau</Text>
+		</Text>
+		<Text>
+			<GUID>2100115268</GUID>
+			<Text>Große U-Bahnstation: Technische Infrastruktur</Text>
+		</Text>
+		<Text>
+			<GUID>2100115269</GUID>
+			<Text>Große U-Bahnstation</Text>
+		</Text>
+
+		<!-- Guid 2100115270 used by Paper Mill OW mod -->
+
+		<Text>
+			<GUID>2100115271</GUID>
+			<Text>Ornamental Way Through Context Pool</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115272</GUID>
+			<Text>Subway Car 01 Factory Module Bridge Vehicle</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115273</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115274</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115275</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115276</GUID>
+			<Text>Büromaterialien wie Schreibmaschinen, Zeichenpapier oder Lineale sind Eigentum des Metropolitan Transport Department und dürfen nicht für den häuslichen Gebrauch entwendet werden! Zuwiderhandlungen werden mit fristloser Kündigung geahndet - gez. Das Management.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115277</GUID>
+			<Text>Bekanntgabe der Gewinner des jährlichen Papierfliegerwettbewerbs: 1. Abteilung Tunnelbau: 520 Punkte; 2. Buchhaltung: 473 Punkte; 3. Bahnhofsmanagement: 399 Punkte; 4. Personalwesen: 238 Punkte.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115278</GUID>
+			<Text>Aufgrund eines technischen Defekts im Maschinenraum sind die Aufzüge acht und neun bis auf Weiteres außer Betrieb. Bitte nutzen Sie die Treppenhäuser, um zu den Etagen 49 bis 59 zu gelangen. - Es grüßt, der Hausverwalter.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115279</GUID>
+			<Text>Baker Street</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115280</GUID>
+			<Text>Subway Car 01 Way Through Vehicle</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115281</GUID>
+			<Text>Druckerei</Text>
+		</Text>
+		<Text>
+			<GUID>2100115282</GUID>
+			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115283</GUID>
+  			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115284</GUID>
+			<Text>.. Baupläne für die doppelwandigen Verpressanker finden Sie in Gang 32, Regal 12, Fach 9. Eine Kopie wird innerhalb von 2 Werktagen nach Einreichung des Formulars 72b angefertigt.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115285</GUID>
+			<Text>Recipe List Printing Factory</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115286</GUID>
+			<Text>Tickets: Mineralien als Pigmente</Text>
+		</Text>
+		<!--<Text> Defined in Shared Pools and Definitions Mod
+			<GUID>2100115287</GUID>
+			<Text>Subway Stations</Text>
+		</Text> -->
+		<Text>
+			<GUID>2100115288</GUID>
+			<Text>Eine gigantische, zentrale Behörde mit tausenden von Mitarbeitern, die kontinuierlich an der Erweiterung und dem Betrieb des U-Bahn-Netzes arbeiten.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115289</GUID>
+			<Text>Herausragendes U-Bahn-Netz: Wohngebäude Buff</Text>
+		</Text>
+		<Text>
+			<GUID>2100115290</GUID>
+			<Text>Bescheidenes U-Bahn-Netz</Text>
+		</Text>
+		<Text>
+			<GUID>2100115291</GUID>
+			<Text>Beeinflusst &lt;b&gt;Alle Öffentlichen Dienste&lt;/b&gt;,&lt;b&gt; Alle Ingenieurs-&lt;/b&gt; und&lt;b&gt; Alle Investoren Wohnhäuser&lt;/b&gt; in Straßenreichweite einer U-Bahnstation.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115292</GUID>
+			<Text>Attractivity Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115293</GUID>
+			<Text>Bescheidenes U-Bahn-Netz: Öffentliche Dienste Buff</Text>
+		</Text>
+		<Text>
+			<GUID>2100115294</GUID>
+			<Text>Public Service Range Buff Forward</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115295</GUID>
+			<Text>Gewöhnliches U-Bahn-Netz</Text>
+		</Text>
+		<Text>
+			<GUID>2100115296</GUID>
+			<Text>Beeinflusst &lt;b&gt;Alle Öffentlichen Dienste&lt;/b&gt;,&lt;b&gt; Alle Ingenieurs-&lt;/b&gt; und&lt;b&gt; Alle Investoren Wohnhäuser&lt;/b&gt; in Straßenreichweite einer U-Bahnstation.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115297</GUID>
+			<Text>Attractivity Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115298</GUID>
+			<Text>Gewöhnliches U-Bahn-Netz: Öffentliche Dienste Buff</Text>
+		</Text>
+		<Text>
+			<GUID>2100115299</GUID>
+			<Text>Public Service Range Buff Forward</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115600</GUID>
+			<Text>Panel of Experts</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115601</GUID>
+			<Text>Die Stadt versinkt im Verkehrschaos!</Text>
+		</Text>
+		<Text>
+			<GUID>2100115602</GUID>
+			<Text>Ein 50-köpfiges Expertengremium, bestehend aus den besten Ingenieuren und Gelehrten des Imperiums, diskutiert derzeit über innovative Transportmittel, die dafür sorgen könnten, dass die großen Metropolen weiterhin effizient funktionieren.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115603</GUID>
+			<Text>Image: Crowded Streets</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115604</GUID>
+			<Text>Council Decision</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115605</GUID>
+			<Text>Stadtrat entscheidet sich für den Bau einer U-Bahn!</Text>
+		</Text>
+		<Text>
+			<GUID>2100115606</GUID>
+			<Text>Nachdem sich die Expertenkommission vor einigen Monaten für die Einführung einer U-Bahn ausgesprochen hatte, setzte sich der Stadtrat nun mit einer knappen Zweidrittelmehrheit für den Bau einer ersten Linie durch. Politiker bestätigen, dass nun zunächst eine neue zentrale Behörde geschaffen werden müsse, die nach ihrer Fertigstellung mit der Umsetzung des heutigen Ratsbeschlusses betraut wird.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115607</GUID>
+			<Text>Image: Headquarter</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115608</GUID>
+			<Text>First Station</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115609</GUID>
+			<Text>Erste U-Bahnstation feierlich eröffnet!</Text>
+		</Text>
+		<Text>
+			<GUID>2100115610</GUID>
+			<Text>Nach langer Bauzeit und explodierenden Kosten wurde die erste U-Bahn-Station im Beisein von Vertretern aus Politik, Wissenschaft und dem königlichen Hof offiziell eröffnet. Kritiker bezweifeln jedoch noch immer deren Sinnhaftigkeit und fordern einen Untersuchungsausschuss gegen den Stadtrat.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115611</GUID>
+			<Text>Image: Large Open Station</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115612</GUID>
+			<Text>Dieses Rezept wird bei 2.700 Artistas und nach Bau von mindestens 15 Level 3 Investoren-Wolkenkratzern freigeschalten.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115613</GUID>
+			<Text>Dieses Rezept wird bei 1 Ältesten und nach Bau von mindestens 15 Level 3 Investoren-Wolkenkratzern freigeschalten.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115614</GUID>
+			<Text>Tickets: Kohle und Ruß als Pigmente</Text>
+		</Text>
+		<Text>
+			<GUID>2100115615</GUID>
+			<Text>Druckerei</Text>
+		</Text>
+		<Text>
+			<GUID>2100115616</GUID>
+			<Text>Bei diesem imaginären Prozess werden zerkleinerte Kohle und Rußpartikel als Farbstoff verwendet. Die Partikel werden unter großer Hitze mit Kautschuk vermischt und dann unter Druck auf das Papier aufgetragen. Ineffizient in der Produktion und nach der Fertigstellung von schlechter Qualität. Schon vor dem Verkauf sind die Tickets kaum lesbar.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115617</GUID>
+			<Text>Gelb und Blau Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115618</GUID>
+			<Text>Das Metropolitan Transport Department ist bereit für ein Upgrade!</Text>
+		</Text>
+		<Text>
+			<GUID>2100115622</GUID>
+			<Text>Das Metropolitan Transport Department hat seine finale Ausbaustufe erreicht!</Text>
+		</Text>
+		<Text>
+			<GUID>2100115623</GUID>
+			<Text>U-Bahn-Durchfahrt mit Brücke</Text>
+		</Text>
+		<Text>
+			<GUID>2100115624</GUID>
+			<Text>U-Bahn-Durchfahrt ohne U-Bahn</Text>
+		</Text>
+		<Text>
+			<GUID>2100115625</GUID>
+			<Text>U-Bahn-Durchfahrt "24 Kacheln"</Text>
+		</Text>
+		<Text>
+			<GUID>2100115626</GUID>
+			<Text>Alle 30 Sekunden rauscht eine U-Bahn vorbei</Text>
+		</Text>
+		<Text>
+			<GUID>2100115627</GUID>
+			<Text>Hier rollt keine U-Bahn vorbei</Text>
+		</Text>
+		<Text>
+			<GUID>2100115628</GUID>
+			<Text>Eine U-Bahn spawnt 12 Kacheln dahinter und rollt von dort 24 Kacheln vorwärts. Sinnvoll zu kombinieren mit dem 3. Skin!</Text>
+		</Text>
+		<Text>
+			<GUID>2100115629</GUID>
+			<Text>U-Bahnen rauschen von Zeit zu Zeit vorbei...</Text>
+		</Text>
+		<Text>
+			<GUID>2100115630</GUID>
+			<Text>Crocodiles in the Tunnels</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115631</GUID>
+			<Text>Krokodile in den Tunneln!</Text>
+		</Text>
+		<Text>
+			<GUID>2100115632</GUID>
+			<Text>Augenzeugen berichten, dass monströse Kreaturen in den U-Bahn-Tunneln ihr Unwesen treiben und jeden verschlingen, der sie betritt - Interview mit dem berühmten Jäger Steen auf Seite 3!</Text>
+		</Text>
+		<Text>
+			<GUID>2100115633</GUID>
+			<Text>Image: Crocodiles in the Tunnels</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115634</GUID>
+			<Text>Trigger Newspaper Crocodiles</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115635</GUID>
+			<Text>Diagonale U-Bahn-Durchfahrt mit Brücke</Text>
+		</Text>
+		<Text>
+			<GUID>2100115636</GUID>
+			<Text>Diagonale U-Bahn-Durchfahrt ohne U-Bahn</Text>
+		</Text>
+		<Text>
+			<GUID>2100115637</GUID>
+			<Text>Als Farbmittel werden bei diesem Verfahren meist anorganische Pigmente aus verschiedenen Mineralien verwendet. Diese sind äußerst alterungsbeständig und behalten ihre Farbe nahezu unbegrenzt bei. Ihre Tickets werden auf jeden Fall auch in ein paar Jahren noch lesbar sein!</Text>
+		</Text>
+		<Text>
+			<GUID>2100115638</GUID>
+			<Text>Als Farbstoff wird bei diesem Verfahren das organische Pigment Indigo verwendet. Es ist seit Jahrtausenden eines der am häufigsten verwendeten Farbstoffe und kann durch eine Reihe chemischer Prozesse aus verschiedenen indigohaltigen Pflanzen gewonnen werden. Seit dem späten 19. Jahrhundert kann es auch synthetisch hergestellt werden.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115639</GUID>
+			<Text>Subway Stations Context Pool</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115640</GUID>
+			<Text>Druckerei Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115641</GUID>
+			<Text>Gelbe Fassade und blaues Dach</Text>
+		</Text>
+		<Text>
+			<GUID>2100115642</GUID>
+			<Text>Rote Fassade und blaues Dach</Text>
+		</Text>
+		<Text>
+			<GUID>2100115643</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115644</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115645</GUID>
+			<Text>Unlock Newspaper First Station Trigger</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115646</GUID>
+			<Text>Unlock Newspaper Crocodiles in the Tunnels Trigger</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115647</GUID>
+			<Text>Unlock Upgrade MTD II Trigger</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115648</GUID>
+			<Text>Unlock Upgrade MTD II Trigger</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115649</GUID>
+			<Text>Unlock Upgrade MTD II Trigger</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115650</GUID>
+			<Text>Unlock MTD IV upgraded Trigger</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115651</GUID>
+			<Text>Unlock Ticket Recipes Trigger 1</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115652</GUID>
+			<Text>Unlock Ticket Recipes Trigger 2</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115653</GUID>
+			<Text>Pressenanlieferung</Text>
+		</Text>
+		<Text>
+			<GUID>2100115654</GUID>
+			<Text>Modul Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115655</GUID>
+			<Text>Eine neue Presse wird per Schwertransport angeliefert</Text>
+		</Text>
+		<Text>
+			<GUID>2100115656</GUID>
+			<Text>Nur ein paar Bäume</Text>
+		</Text>
+		<Text>
+			<GUID>2100115657</GUID>
+			<Text>Hier gibt es nichts zu sehen...</Text>
+		</Text>
+		<Text>
+			<GUID>2100115658</GUID>
+			<Text>Eben</Text>
+		</Text>
+		<Text>
+			<GUID>2100115659</GUID>
+			<Text>Uneben</Text>
+		</Text>
+		<Text>
+			<GUID>2100115660</GUID>
+			<Text>Daas Gebäude passt sich nicht der Geländesteigung an</Text>
+		</Text>
+		<Text>
+			<GUID>2100115661</GUID>
+			<Text>Das Gebäude passt sich der Geländesteigung an</Text>
+		</Text>
+		<Text>
+			<GUID>2100115662</GUID>
+			<Text>Uneven</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115663</GUID>
+			<Text>Flachdach, uneben</Text>
+		</Text>
+		<Text>
+			<GUID>2100115664</GUID>
+			<Text>Mansard-Dach, eben</Text>
+		</Text>
+		<Text>
+			<GUID>2100115665</GUID>
+			<Text>Mansard-Dach, uneben</Text>
+		</Text>
+		<Text>
+			<GUID>2100115666</GUID>
+			<Text>Flachdach, eben</Text>
+		</Text>
+		<Text>
+			<GUID>2100115667</GUID>
+			<Text>Flachdach, uneben</Text>
+		</Text>
+		<Text>
+			<GUID>2100115668</GUID>
+			<Text>Mansard-Dach, eben</Text>
+		</Text>
+		<Text>
+			<GUID>2100115669</GUID>
+			<Text>Mansard-Dach, uneben</Text>
+		</Text>
+		<Text>
+			<GUID>2100115670</GUID>
+			<Text>Verbindungsbrücke, kurz</Text>
+		</Text>
+		<Text>
+			<GUID>2100115671</GUID>
+			<Text>Um Verbindungsbrücke neben Verbindungsbrücke zu platzieren</Text>
+		</Text>
+		<Text>
+			<GUID>2100115672</GUID>
+			<Text>Verbindungsbrücke, lang</Text>
+		</Text>
+		<Text>
+			<GUID>2100115673</GUID>
+			<Text>Um eine Verbindungsbrücke in andere Gebäude zu clippen</Text>
+		</Text>
+		<Text>
+			<GUID>2100115674</GUID>
+			<Text>Bescheidenes U-Bahn-Netz</Text>
+		</Text>
+		<Text>
+			<GUID>2100115675</GUID>
+			<Text>Gewöhnliches U-Bahn-Netz</Text>
+		</Text>
+		<Text>
+			<GUID>2100115676</GUID>
+			<Text>Beachtliches U-Bahn-Netz</Text>
+		</Text>
+		<Text>
+			<GUID>2100115677</GUID>
+			<Text>Herausragendes U-Bahn-Netz</Text>
+		</Text>
+		<Text>
+			<GUID>2100115678</GUID>
+			<Text>Rot und Blau Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115679</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115680</GUID>
+			<Text>Unlock Creative Mode</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115681</GUID>
+			<Text>Steigert in geringem Maße die Attraktivität Ihrer Stadt.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115682</GUID>
+			<Text>Backstein Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115683</GUID>
+			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115684</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115685</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115686</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115687</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115688</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115689</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115690</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115691</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115692</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115693</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115694</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115695</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115696</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115697</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115698</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115699</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115800</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115801</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115802</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115803</GUID>
+  			<Text>Klicken Sie auf ein Action-Item um das &lt;font overrideTextColor="true" color='#41dcd7'&gt;Presswerk&lt;/font&gt; zu buffen.</Text>
+		</Text>
+		<Text>
+  			<GUID>2100115804</GUID>
+  			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115805</GUID>
+			<Text>Unhide Menu</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115806</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115807</GUID>
+			<Text>Bietet Ihren Einwohnern diese Dienstleistung an, nachdem fertiggestellt</Text>
+		</Text>
+		<Text>
+			<GUID>2100115808</GUID>
+			<Text>All Subway Goods</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115809</GUID>
+			<Text>Article: Subway Factory Modules</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115810</GUID>
+			<Text>Ironbright vom Aufsichtsrat zum neuen Fabrikinspektor ernannt!</Text>
+		</Text>
+		<Text>
+			<GUID>2100115811</GUID>
+			<Text>Insider berichten, dies sei die Konsequenz aus einer zunehmenden Zahl von Zwischenfällen und Produktionsfehlern. Demnach sei das bisherige Management mit der rasant wachsenden kapitalistischen Maschinerie überfordert.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115812</GUID>
+			<Text>Image: Subway Factory Modules</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115813</GUID>
+			<Text>Subway Factory Modules Context Pool</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115814</GUID>
+			<Text>Subway Factory Modules</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115815</GUID>
+			<Text>Weiß und Rot Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115816</GUID>
+			<Text>Weiße Fassade und rotes Dach</Text>
+		</Text>
+		<Text>
+			<GUID>2100115817</GUID>
+			<Text>Gelb und Blau Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115818</GUID>
+			<Text>Rot und Blau Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115819</GUID>
+			<Text>Rot und Blau Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115820</GUID>
+			<Text>Rot und Blau Skin</Text>
+		</Text>
+		<Text>
+			<GUID>2100115821</GUID>
+			<Text>Unlock MTD I Creative Mode</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115822</GUID>
+			<Text>U-Bahn</Text>
+		</Text>
+		<!--<Text>
+			<GUID>2100115823</GUID> Defined in Shared Pools and Definitions
+			<Text>Subway</Text>
+		</Text>-->
+		<Text>
+			<GUID>2100115824</GUID>
+			<Text>Productivity - Decree 3 Buff_Motors</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115825</GUID>
+			<Text>Productivity - Decree 3 Buff_Subways</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115826</GUID>
+			<Text>Bauphase 1:</Text>
+		</Text>
+		<Text>
+			<GUID>2100115827</GUID>
+			<Text>Bauphase 2:</Text>
+		</Text>
+		<Text>
+			<GUID>2100115828</GUID>
+			<Text>Fertiggestellte Stationen:</Text>
+		</Text>
+		<Text>
+			<GUID>2100115829</GUID>
+			<Text>Subway Station Output Infotip</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115908</GUID>
+			<Text>Subway Depot Output Infotip</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115909</GUID>
+			<Text>Subway Depot</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115910</GUID>
+			<Text>StandardSubwayStorageList</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115911</GUID>
+			<Text>Depot Replace Input Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115912</GUID>
+			<Text>U-Bahn Depot</Text>
+		</Text>
+		<Text>
+			<GUID>2100115913</GUID>
+			<Text>Auslastung</Text>
+		</Text>
+		<Text>
+			<GUID>2100115914</GUID>
+			<Text>Jede U-Bahn Station auf Ihrer Insel erhöht die Auslastung (Produktivität) des U-Bahn Depots um 10 %.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115915</GUID>
+			<Text>Auslastungssteigerung</Text>
+		</Text>
+		<Text>
+			<GUID>2100115916</GUID>
+			<Text>Subway Station Workload ForwardBuff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115917</GUID>
+			<Text>Optional: Sie können dieses Gebäude mit der Eisenbahn verbinden</Text>
+		</Text>
+		<Text>
+			<GUID>2100115918</GUID>
+			<Text>Dies ist das operative Herz Ihres U-Bahn-Netzes: Hier werden U-Bahnen abgestellt und gewartet. Ohne dem würde Ihr U-Bahn-Netz nicht funktionieren.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115919</GUID>
+			<Text>Subway Depot Static Fake Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115920</GUID>
+			<Text>Ermöglicht den Betrieb von U-Bahn-Stationen</Text>
+		</Text>
+		<Text>
+			<GUID>2100115921</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115922</GUID>
+			<Text>Tools Workshop Trigger</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115923</GUID>
+			<Text>Keine Produktion: Das &lt;b&gt;U-Bahn Depot&lt;/b&gt; auf dieser Insel ist außer Betrieb oder existiert nicht!</Text>
+		</Text>
+		<Text>
+			<GUID>2100115924</GUID>
+			<Text>U-Bahnen</Text>
+		</Text>
+		<Text>
+			<GUID>2100115925</GUID>
+			<Text>Bescheiden</Text>
+		</Text>
+		<Text>
+			<GUID>2100115926</GUID>
+			<Text>Gewöhnlich</Text>
+		</Text>
+		<Text>
+			<GUID>2100115927</GUID>
+			<Text>Beachtlich</Text>
+		</Text>
+		<Text>
+			<GUID>2100115928</GUID>
+			<Text>Herausragend</Text>
+		</Text>
+		<Text>
+			<GUID>2100115929</GUID>
+			<Text>U-Bahn Netz Level                                                         </Text> <!-- Do NOT shorten the empty space here, it has its use! -->
+		</Text>
+		<Text>
+			<GUID>2100115930</GUID>
+			<Text>Tools Workshop</Text>
+		</Text>
+		<Text>
+			<GUID>2100115931</GUID>
+			<Text>Je mehr U-Bahn-Stationen Sie auf einer Insel errichten, desto besser das Level Ihres U-Bahn-Netzes, desto besser dessen Buffs. Um ein höheres Level nach Freischaltung zu aktivieren, &lt;font overrideTextColor="true" color='#edc891'&gt;upgraden&lt;/font&gt; Sie Ihr &lt;font overrideTextColor="true" color='#edc891'&gt;Metropolitan Transport Department&lt;/font&gt;.&#xD;&#xA;&#xD;&#xA;Insgesamt gibt es 4 Level:</Text>
+		</Text>
+		<Text>
+			<GUID>2100115932</GUID>
+			<Text>Tools Chain</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115933</GUID>
+			<Text>Bescheidenes U-Bahn-Netz: Fabrik Buff </Text>
+		</Text>
+		<Text>
+			<GUID>2100115934</GUID>
+			<Text>Gewöhnliches U-Bahn-Netz: Fabrik Buff</Text>
+		</Text>
+		<Text>
+			<GUID>2100115935</GUID>
+			<Text>Beachtliches U-Bahn-Netz: Fabrik Buff</Text>
+		</Text>
+		<Text>
+			<GUID>2100115936</GUID>
+			<Text>Herausragendes U-Bahn-Netz: Fabrik Buff</Text>
+		</Text>
+		<Text>
+			<GUID>2100115937</GUID>
+			<Text>Modest Subway Network: Factory Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115938</GUID>
+			<Text>Ordinary Subway Network: Factory Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115939</GUID>
+			<Text>Remarkable Subway Network: Factory Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115940</GUID>
+			<Text>Superior Subway Network: Factory Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115941</GUID>
+			<Text>Level 1</Text>
+		</Text>
+		<Text>
+			<GUID>2100115942</GUID>
+			<Text>Level 2</Text>
+		</Text>
+		<Text>
+			<GUID>2100115943</GUID>
+			<Text>Level 3</Text>
+		</Text>
+		<Text>
+			<GUID>2100115944</GUID>
+			<Text>Level 4</Text>
+		</Text>
+		<Text>
+			<GUID>2100115945</GUID>
+			<Text>Trigger Unlock Tools Sandbox</Text>  <!-- no need for translation -->
+		</Text>
+		<!-- <Text> Used in shared_inputoutputamountinfotips_mod_serp
+			<GUID>2100115950</GUID>
+			<Text>Production time</Text>
+		</Text> -->
+		<Text>
+			<GUID>2100115946</GUID>
+			<Text>[AssetData(3460) Text]:&#xD;&#xA;[AssetData(1010205) Text]: 100t&#xD;&#xA;[AssetData(1010218) Text]: 115t&#xD;&#xA;[AssetData(1010207) Text]: 45t&#xD;&#xA;[AssetData(1010202) Text]: 110t&#xD;&#xA;[AssetData(134623) Text]: 30t</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115947</GUID>
+			<Text>[AssetData(3460) Text]:&#xD;&#xA;[AssetData(1010205) Text]: 135t&#xD;&#xA;[AssetData(1010218) Text]: 155t&#xD;&#xA;[AssetData(1010207) Text]: 75t&#xD;&#xA;[AssetData(1010202) Text]: 125t&#xD;&#xA;[AssetData(134623) Text]: 60t</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115948</GUID>
+			<Text>[AssetData(3460) Text]:&#xD;&#xA;[AssetData(1010205) Text]: 55t&#xD;&#xA;[AssetData(1010218) Text]: 85t&#xD;&#xA;[AssetData(1010207) Text]: 45t&#xD;&#xA;[AssetData(1010202) Text]: 55t&#xD;&#xA;[AssetData(134623) Text]: 15t</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115951</GUID>
+			<Text>Trigger Unlock Tools Creative</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115952</GUID>
+			<Text>&lt;font color='0xff817f87'&gt;Freischaltung bei 5 Stationen auf einer Insel&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115953</GUID>
+			<Text>Wir benötigen einen Ort, an dem wir unsere U-Bahnen abstellen und warten können!</Text>
+		</Text>
+		<Text>
+			<GUID>2100115954</GUID>
+			<Text>Jedes Ihrer U-Bahn-Netze benötigt ein &lt;b&gt;U-Bahn Depot&lt;/b&gt; wo U-Bahnen gewartet und abgestellt werden können. Ohne dieses Gebäude würde Ihr U-Bahn-Netzwerk nicht funktionieren.&lt;br/&gt;&lt;br/&gt;Das U-Bahn Depot benötigt &lt;b&gt;Werkzeuge&lt;/b&gt;, welche mittels &lt;b&gt;Werkzeugwerkstatt&lt;/b&gt; produziert werden.&lt;br/&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115955</GUID>
+			<Text>QuestPool_SubwayDepot</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115956</GUID>
+			<Text>U-Bahn-Netz: Das Depot</Text>
+		</Text>
+		<Text>
+			<GUID>2100115957</GUID>
+			<Text>Die &lt;b&gt;Werkzeugwerkstatt&lt;/b&gt; befindet sich im Reiter &lt;b&gt;Handwerker&lt;/b&gt; oder &lt;b&gt;Bedürfnisse&lt;/b&gt; neben den Nähmaschinen.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115958</GUID>
+			<Text>U-Bahn-Netz: Upgrade MTD I</Text>
+		</Text>
+		<Text>
+			<GUID>2100115959</GUID>
+			<Text>Das Metropolitan Transport Department (MTD) kann mittels &lt;b&gt;Upgrade Button&lt;/b&gt; aus Ihrer Werkzeugleiste geupgradet werden.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115960</GUID>
+			<Text>QuestPool_MTD I</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115961</GUID>
+			<Text>Unlock MTD I</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115962</GUID>
+			<Text>Unlock All</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115963</GUID>
+			<Text>Unlock All Relock</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115964</GUID>
+			<Text>U-Bahn-Netz: Upgrade MTD II</Text>
+		</Text>
+		<Text>
+			<GUID>2100115965</GUID>
+			<Text>QuestLine Upgrade MTD</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115966</GUID>
+			<Text>&lt;font color='0xff817f87'&gt;Freischaltung bei 10 Stationen auf einer Insel&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115967</GUID>
+			<Text>U-Bahn-Netz: Upgrade MTD III</Text>
+		</Text>
+		<Text>
+			<GUID>2100115968</GUID>
+			<Text>&lt;font color='0xff817f87'&gt;Freischaltung bei 15 Stationen auf einer Insel&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115969</GUID>
+			<Text>Upgrade MTD Infolayer</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115970</GUID>
+			<Text>Construction Permit</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115971</GUID>
+			<Text>Quest_spawn_mtd_upgrade_1to2</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115972</GUID>
+			<Text>MTD I Fake Output</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115973</GUID>
+			<Text>MTD II Fake Output</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115974</GUID>
+			<Text>MTD III Fake Output</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115975</GUID>
+			<Text>MTD IV Fake Output</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115976</GUID>
+			<Text>MTD I-IV Output Infotip</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115977</GUID>
+			<Text>Aktiviert: </Text>
+		</Text>
+		<Text>
+			<GUID>2100115978</GUID>
+			<Text>Quest_spawn_mtd_upgrade_2to3</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115979</GUID>
+			<Text>Quest_spawn_mtd_upgrade_3to4</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115980</GUID>
+			<Text>Ihr aktuelles Level auf dieser Insel ist:</Text>
+		</Text>
+		<Text>
+			<GUID>2100115981</GUID>
+			<Text>Production Output Infotip Press Works</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115982</GUID>
+			<Text>Material Innovation: [AssetData(838) Text]</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115983</GUID>
+			<Text>Materialinnovation: [AssetData(838) Text]</Text>
+		</Text>
+		<Text>
+			<GUID>2100115984</GUID>
+			<Text>Material Innovation: [AssetData(1414) Text]</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115985</GUID>
+			<Text>Materialinnovation: [AssetData(1414) Text]</Text>
+		</Text>
+		<Text>
+			<GUID>2100115986</GUID>
+			<Text>Material Innovation: [AssetData(135150) Text]</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115987</GUID>
+			<Text>Materialinnovation: [AssetData(135150) Text]</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115988</GUID>
+			<Text>Unregister DonnyBader Notifications</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115989</GUID>
+			<Text>Steampunk Skin</Text> <!-- no need for translation -->
+		</Text>
+  </ModOp>
+
+</ModOps>

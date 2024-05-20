@@ -1,0 +1,59 @@
+{
+  "Version": "1.3",
+  "ModID": "lion053_Local_Department_Variation_Knights_Castle",
+  "LoadAfterIds": ["Spice_Palace"],
+  "IncompatibleIds": [],
+  "ModDependencies": null,
+
+  "Category": {
+    "Chinese": "Building",
+    "English": "Building",
+    "French": "Building",
+    "German": "Building",
+    "Italian": "Building",
+    "Japanese": "Building",
+    "Korean": "Building",
+    "Polish": "Building",
+    "Russian": "Building",
+    "Spanish": "Building",
+    "Taiwanese": "Building"
+  },
+
+  "ModName": {
+    "Chinese": "Local Department Variation - Knight's Castle (Lion053)",
+    "English": "Local Department Variation - Knight's Castle (Lion053)",
+    "French": "Local Department Variation - Knight's Castle (Lion053)",
+    "German": "Local Department Variation - Knight's Castle (Lion053)",
+    "Italian": "Local Department Variation - Knight's Castle (Lion053)",
+    "Japanese": "Local Department Variation - Knight's Castle (Lion053)",
+    "Korean": "Local Department Variation - Knight's Castle (Lion053)",
+    "Polish": "Local Department Variation - Knight's Castle (Lion053)",
+    "Russian": "Local Department Variation - Knight's Castle (Lion053)",
+    "Spanish": "Local Department Variation - Knight's Castle (Lion053)",
+    "Taiwanese": "Local Department Variation - Knight's Castle (Lion053)"
+  },
+
+  "Description": {
+    "Chinese": "file::readme.md",
+    "English": "file::readme.md",
+    "French": "file::readme.md",
+    "German": "file::readme.md",
+    "Italian": "file::readme.md",
+    "Japanese": "file::readme.md",
+    "Korean": "file::readme.md",
+    "Polish": "file::readme.md",
+    "Russian": "file::readme.md",
+    "Spanish": "file::readme.md",
+    "Taiwanese": "file::readme.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "SeatOfPower",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Lion053",
+  "CreatorContact": "https://discord.gg/ycmFNKaG",
+  "Image": null
+}

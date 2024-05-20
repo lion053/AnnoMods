@@ -1,0 +1,212 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118200</GUID>
+			<Text>Chocolate Industrial Production</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118201</GUID>
+			<Text>Trigger_sandbox</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118202</GUID>
+			<Text>Trigger_creative</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118203</GUID>
+			<Text>Pasieka Bydła</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118204</GUID>
+			<Text>Czekolateria Garibaldi</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118205</GUID>
+			<Text>Chocolaterie Garibaldi</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118206</GUID>
+			<Text>Rafineria Cukru</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118207</GUID>
+			<Text>InfoTip Cattle Farm OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118208</GUID>
+			<Text>Pasieki Dostarczają Mleka</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118209</GUID>
+			<Text>Zapewnia miejsce dla zwierząt hodowlanych do wypasu. Dodatkowo każda pasieka produkuje 1 tonę mleka w każdym cyklu. Kliknij na pasiekę, aby zobaczyć jej aktualną wydajność.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<!-- FOR TRANSLATION: Search for the Guid 8143 in your language text file; from the result copy only the translated term for 'secondary goods' -->
+			<GUID>2100118210</GUID>
+			<Text>Dodatkowe Towary:</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118211</GUID>
+			<Text>Produkcja Pasiek</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118212</GUID>
+			<Text>Chewing gum chain OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118213</GUID>
+			<Text>Trigger_chewing_gum_unhide</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118214</GUID>
+			<Text>Trigger_chewing_gum_unlock</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118215</GUID>
+			<Text>1t/pasieka/cykl</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118216</GUID>
+			<Text>W Garibaldi najlepsi czekoladziarze kraju tworzą najdelikatniejsze pokusy od czasu wynalezienia czekolady... nawet najbardziej zapracowany manipulator finansowy nie potrafi się oprzeć.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118217</GUID>
+			<Text>Trigger_chewing_gum_creative</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118218</GUID>
+			<Text>Trigger_pasture_artisans</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118219</GUID>
+			<Text>Farma Buraków Cukrowych</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118220</GUID>
+			<Text>Pole Buraków Cukrowych</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118221</GUID>
+			<Text>Żyzność Buraków Cukrowych</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118222</GUID>
+			<Text>Buraki Cukrowe</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118223</GUID>
+			<Text>Nasiona Buraków Cukrowych</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118224</GUID>
+			<Text>&lt;b&gt;Beta vulgaris&lt;/b&gt; Te nasiona pomogą ci w uprawie obfitych pól Buraków Cukrowych w obcej glebie.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118225</GUID>
+			<Text>Nasiona Hybrydowe Buraków Cukrowych</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118226</GUID>
+			<Text>Hieronymus Hess, Pionier Destylacji Buraków</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118227</GUID>
+			<Text>>Podczas gdy kontynentalna blokada Napoleona na początku wieku spowodowała brak towarów kolonialnych i doprowadziła do uprawy rodzimych buraków cukrowych, Hess szybko zyskał sławę dzięki ich wykorzystaniu w produkcji rumu. Po zakończeniu blokady nikt nie chciał wiedzieć nic o rumie z buraków cukrowych, więc znalazł się w Nowym Świecie, gdzie od tego czasu destyluje buraki cukrowe zamiast trzciny cukrowej, niezauważony.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118228</GUID>
+			<Text>Frid Jacobson, Profesjonalny Fermentator</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118229</GUID>
+			<Text>Utalentowany i znakomity w dziedzinie chemii organicznej. Oprócz dobrze płatnych stanowisk w firmach przemysłowych, potrafi skutecznie prezentować swoją pracę nie tylko przed małą specjalistyczną publicznością, ale także przed ogółem. Jego seria książek na temat "Fermentacji do użytku domowego" cieszy się długotrwałym uznaniem.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118230</GUID>
+			<Text>Willy Wonka, Magiczny Producent Czekolady</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118231</GUID>
+			<Text>„Żadna inna fabryka na świecie nie miesza swojej czekolady pod wodospadem… Ale to jedyny sposób, jeśli chcesz, żeby była naprawdę doskonała.”</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118232</GUID>
+			<Text>GG_item</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118233</GUID>
+			<Text>GG_package</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118234</GUID>
+			<Text>Prasa Cukrowa Longbottoma</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118235</GUID>
+			<Text>Narzędzie, które można szybko i łatwo zamontować oraz zdjąć, zapewniając optymalne rozdrabnianie i tłoczenie trzciny cukrowej.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118236</GUID>
+			<Text>Wzmocnij budynki w promieniu.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118237</GUID>
+			<Text>&lt;b&gt;Beta vulgaris&lt;/b&gt;  Sugar Beets yield!</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118238</GUID>
+			<Text>InfoTip Cattle Farm OW (construction menu)</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118239</GUID>
+			<Text>Unlock Pastures Creative Mode</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118240</GUID>
+			<Text>Land Reform Act Buff</Text> <!-- no translation needed -->
+		</Text>
+  </ModOp>
+
+</ModOps>

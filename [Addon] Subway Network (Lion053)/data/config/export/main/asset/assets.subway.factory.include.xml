@@ -1,0 +1,3196 @@
+
+<!-- Subway Network 2.0 -->
+
+<ModOps>
+
+<!-- ******************************************************************************** -->
+<!-- # Subway Factory -->
+<!-- ________________________________________________________________________________ -->
+
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>lion053_FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115240</GUID>
+          <Name>Subway Factory</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_car_03_product.png</IconFilename>
+          <InfoDescription>11143</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>100000</BuildingCategoryName>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>185000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>35</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>95</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>65</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>75</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>214813</Sound>
+            </Item>
+            <Item>
+              <Sound>239856</Sound>
+            </Item>
+          </ActiveSounds>
+          <MaterialType>Metal</MaterialType>
+        </SoundEmitter>
+        <FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010219</Product>
+              <Amount>1</Amount>
+              <StorageAmount>5</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010241</Product>
+              <Amount>1</Amount>
+              <StorageAmount>5</StorageAmount>
+            </Item>
+            <Item>
+              <Product>5390</Product>
+              <Amount>1</Amount>
+              <StorageAmount>5</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>2100115241</Product>
+              <Amount>1</Amount>
+              <StorageAmount>3</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>180</CycleTime>
+          <IsMainFactory>1</IsMainFactory>  <!-- if set to 1, ctds at game start in combination with Module Owner -->
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+        </FactoryBase>
+        <LogisticNode>
+          <HideTransportersBeforeTheyMove>1</HideTransportersBeforeTheyMove>
+          <TransporterCountMax>4</TransporterCountMax>
+        </LogisticNode>
+        <AmbientMoodProvider>
+          <Murmur>Factory</Murmur>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>4500</Amount>
+              <InactiveAmount>2500</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product>
+              <Amount>800</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <MaximumHitPoints>7500</MaximumHitPoints>
+        </Attackable>
+        <Pausable />
+        <IncidentInfectable/>
+        <Culture>
+          <Attractiveness>-10</Attractiveness>
+          <HasPollution>1</HasPollution>
+        </Culture>
+        <Industrializable>
+          <MandatoryIndustrialization>1</MandatoryIndustrialization>
+        </Industrializable>
+        <Electrifiable>
+          <ElectricityBoost>1</ElectricityBoost>
+        </Electrifiable>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <BaseAssetGUID>2100115240</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100115229</GUID>
+          <Name>Subway Fake Factory</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_car_03_product.png</IconFilename>
+        </Standard>
+        <FactoryBase>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- ******************************************************************************** -->
+<!-- SUBWAY FACTORY MODULES -->
+<!-- ________________________________________________________________________________ -->
+
+  <!-- # Subway Factory Module Entrance -->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>lion053_BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115002</GUID>
+          <Name>Subway Factory Module: Entrance</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_entrance_01.png</IconFilename>
+          <InfoDescription>2100115035</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>2100115000</BuildingCategoryName>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_entrance_new_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>7500</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>20</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>5</Amount>
+              </Item>
+            </Costs>
+        </Cost>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <Constructable />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>239444</Sound>
+            </Item>
+            <Item>
+              <Sound>200817</Sound>
+            </Item>
+          </ActiveSounds>
+        </SoundEmitter>
+        <FactoryBase>
+            <FactoryInputs>
+                <Item>
+                    <Product>5394</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>4</StorageAmount>
+                </Item>
+            </FactoryInputs>
+            <CycleTime>240</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode>
+          <TransporterCountMax>2</TransporterCountMax>
+          <TransporterAsset>120028</TransporterAsset>
+        </LogisticNode>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>250</Amount>
+              <InactiveAmount>250</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>15</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable>
+          <MandatoryIndustrialization>0</MandatoryIndustrialization>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+        </Industrializable>
+        <IncidentInfectable />
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost>
+        </Electrifiable>
+        <AmbientMoodProvider />
+        <Attackable />
+        <UpgradeList />
+        <Pausable />
+        <FeedbackController />
+        <Infolayer />
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2100115040</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>25</ProductionBuffDistance>
+        </BuffFactory>
+        <Culture>
+          <HasPollution>0</HasPollution>
+        </Culture>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Subway Factory Module Administration -->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>lion053_BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115004</GUID>
+          <Name>Subway Factory Module: Administration</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_administration_01.png</IconFilename>
+          <InfoDescription>2100115036</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>2100115000</BuildingCategoryName>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_administration_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>70000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>40</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>30</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>15</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <Amount>45</Amount>
+              </Item>
+            </Costs>
+        </Cost>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+        </Selection>
+        <Constructable />
+        <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>239444</Sound>
+              </Item>
+              <Item>
+                <Sound>200817</Sound>
+              </Item>
+              <Item>
+                <Sound>200857</Sound>
+              </Item>
+            </ActiveSounds>
+        </SoundEmitter>
+        <FactoryBase>
+          <FactoryInputs>
+              <Item>
+                  <Product>135230</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>4</StorageAmount>
+              </Item>
+              <Item>
+                  <Product>117702</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>4</StorageAmount>
+              </Item>
+              <Item>
+                  <Product>114431</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>4</StorageAmount>
+              </Item>
+          </FactoryInputs>
+          <CycleTime>240</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode>
+          <TransporterCountMax>3</TransporterCountMax>
+        </LogisticNode>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1800</Amount>
+              <InactiveAmount>1800</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product>
+              <Amount>300</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable>
+          <MandatoryIndustrialization>1</MandatoryIndustrialization>
+          <BoostedByIndustrialization>1</BoostedByIndustrialization>
+        </Industrializable>
+        <IncidentInfectable />
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost>
+        </Electrifiable>
+        <AmbientMoodProvider />
+        <Attackable />
+        <UpgradeList />
+        <Pausable />
+        <FeedbackController />
+        <Infolayer />
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2100115041</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>25</ProductionBuffDistance>
+        </BuffFactory>
+        <Culture>
+          <HasPollution>0</HasPollution>
+        </Culture>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Subway Factory Module Material Development-->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>lion053_BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115006</GUID>
+          <Name>Subway Factory Module: Material Development and Testing</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_quality_control_01.png</IconFilename>
+          <InfoDescription>2100115803</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>2100115000</BuildingCategoryName>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_quality_control_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>45000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>35</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>25</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <Amount>25</Amount>
+              </Item>
+            </Costs>
+        </Cost>
+        <Mesh />
+        <Selection>
+          <GUIType>Guildhouse</GUIType>
+        </Selection>
+        <Constructable />
+        <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>214813</Sound>
+              </Item>
+              <Item>
+                <Sound>239852</Sound>
+              </Item>
+              <Item>
+                <Sound>280030</Sound>
+              </Item>
+            </ActiveSounds>
+        </SoundEmitter>
+        <LogisticNode>
+          <TransporterCountMax>3</TransporterCountMax>
+        </LogisticNode>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1000</Amount>
+              <InactiveAmount>1000</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product>
+              <Amount>150</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable>
+          <MandatoryIndustrialization>1</MandatoryIndustrialization>
+          <BoostedByIndustrialization>1</BoostedByIndustrialization>
+        </Industrializable>
+        <IncidentInfectable />
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost>
+        </Electrifiable>
+        <AmbientMoodProvider />
+        <Attackable />
+        <UpgradeList />
+        <Pausable />
+        <FeedbackController />
+        <Infolayer />
+        <ItemContainer>
+          <SocketCount>3</SocketCount>
+          <SocketAllocation>None</SocketAllocation>
+          <SocketScope>Radius</SocketScope>
+          <SocketScopeRadius>25</SocketScopeRadius>
+          <InitSocketItems>
+            <Item>
+              <Item>2100115982</Item>
+            </Item>
+            <Item>
+              <Item>2100115984</Item>
+            </Item>
+            <Item>
+              <Item>2100115986</Item>
+            </Item>
+          </InitSocketItems>
+        </ItemContainer>
+        <Culture>
+          <HasPollution>1</HasPollution>
+          <Attractiveness>-3</Attractiveness>
+        </Culture>
+        <Ornament />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115982</GUID>
+          <Name>Steel to Aluminium</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_material_development_buff_03.png</IconFilename>
+          <InfoDescription>2100115007</InfoDescription>
+        </Standard>
+        <Text>
+          <TextOverride>2100115983</TextOverride>
+        </Text>
+        <Item>
+          <Allocation>None</Allocation>
+          <Rarity>Legendary</Rarity>
+          <SocketOverwriteSound>201780</SocketOverwriteSound> <!-- 3D sound required -->
+          <UnsocketOverwriteSound>201780</UnsocketOverwriteSound>
+          <MaxStackSize>1</MaxStackSize>
+          <TransferBlocked>0</TransferBlocked> <!-- 1 = as long as the buff is active, the building can not be moved or destroyed -->
+          <HasAction>1</HasAction> <!-- enable ItemAction -->
+          <OnlyEquippableOnce>1</OnlyEquippableOnce>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2100115020</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemWithUI>
+          <DestroyOnClick>1</DestroyOnClick> <!-- when in slots: click forces deletion of item -->
+        </ItemWithUI>
+        <ItemAction>
+          <ActiveBuff>2100115983</ActiveBuff>
+          <ActionScope>SelfRadius</ActionScope>
+          <CanEndItemAction>1</CanEndItemAction>
+          <ActivateActionSound>278981</ActivateActionSound> <!-- 2D sound required -->
+        </ItemAction>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Buff />
+        <CraftableItem />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115984</GUID>
+          <Name>Tallow to Lubricant</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_material_development_buff_02.png</IconFilename>
+          <InfoDescription>2100115007</InfoDescription>
+        </Standard>
+        <Text>
+          <TextOverride>2100115985</TextOverride>
+        </Text>
+        <Item>
+          <Allocation>None</Allocation>
+          <Rarity>Legendary</Rarity>
+          <SocketOverwriteSound>201775</SocketOverwriteSound>
+          <UnsocketOverwriteSound>201775</UnsocketOverwriteSound>
+          <MaxStackSize>1</MaxStackSize>
+          <TransferBlocked>0</TransferBlocked>
+          <HasAction>1</HasAction>
+          <OnlyEquippableOnce>1</OnlyEquippableOnce>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2100115020</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemWithUI>
+          <DestroyOnClick>1</DestroyOnClick> <!-- when in slots: click forces deletion of item -->
+        </ItemWithUI>
+        <ItemAction>
+          <ActiveBuff>2100115985</ActiveBuff>
+          <ActionScope>SelfRadius</ActionScope>
+          <CanEndItemAction>1</CanEndItemAction>
+          <ActivateActionSound>278981</ActivateActionSound>
+        </ItemAction>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Buff />
+        <CraftableItem />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115986</GUID>
+          <Name>Glass to Celluloid</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_material_development_buff_04.png</IconFilename>
+          <InfoDescription>2100115007</InfoDescription>
+        </Standard>
+        <Text>
+          <TextOverride>2100115987</TextOverride>
+        </Text>
+        <Item>
+          <Allocation>None</Allocation>
+          <Rarity>Legendary</Rarity>
+          <SocketOverwriteSound>200979</SocketOverwriteSound>
+          <UnsocketOverwriteSound>200966</UnsocketOverwriteSound>
+          <MaxStackSize>1</MaxStackSize>
+          <TransferBlocked>0</TransferBlocked>
+          <HasAction>1</HasAction>
+          <OnlyEquippableOnce>1</OnlyEquippableOnce>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2100115018</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemWithUI>
+          <DestroyOnClick>1</DestroyOnClick> <!-- when in slots: click forces deletion of item -->
+        </ItemWithUI>
+        <ItemAction>
+          <ActiveBuff>2100115987</ActiveBuff>
+          <ActionScope>SelfRadius</ActionScope>
+          <CanEndItemAction>1</CanEndItemAction>
+          <ActivateActionSound>278981</ActivateActionSound>
+        </ItemAction>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Buff />
+        <CraftableItem />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Subway Factory Module Shovel Crane -->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>lion053_BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115008</GUID>
+          <Name>Subway Factory Module: Shovel Crane</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_shovel_crane_01.png</IconFilename>
+          <InfoDescription>2100115001</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>2100115000</BuildingCategoryName>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_shovel_crane_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>2100115658</DefaultSkinName>
+            <DefaultSkinCategoryName>2100115654</DefaultSkinCategoryName>
+            <DefaultSkinDescription>2100115660</DefaultSkinDescription>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100115659</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>15000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>15</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <Amount>20</Amount>
+              </Item>
+            </Costs>
+        </Cost>
+        <Mesh />
+        <Selection />
+        <Constructable />
+        <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>203845</Sound>
+              </Item>
+              <Item>
+                <Sound>203846</Sound>
+              </Item>
+              <Item>
+                <Sound>203847</Sound>
+              </Item>
+            </ActiveSounds>
+        </SoundEmitter>
+        <FactoryBase />
+        <LogisticNode />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>350</Amount>
+              <InactiveAmount>350</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>20</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable />
+        <IncidentInfectable />
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost>
+        </Electrifiable>
+        <AmbientMoodProvider />
+        <Attackable />
+        <UpgradeList>
+          <DefaultBuff>2100115228</DefaultBuff>
+        </UpgradeList>
+        <Pausable />
+        <FeedbackController />
+        <Infolayer />
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2100115046</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>25</ProductionBuffDistance>
+        </BuffFactory>
+        <Culture>
+          <HasPollution>1</HasPollution>
+          <Attractiveness>-3</Attractiveness>
+        </Culture>
+        <Ornament>
+          <OrnamentDescription>2100115009</OrnamentDescription>
+        </Ornament>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="694">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115659</GUID>
+          <Name>Subway Factory Module: Shovel Crane Uneven Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_shovel_crane_01.png</IconFilename>
+        </Standard>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Skin>
+          <SkinName>2100115659</SkinName>
+          <SkinDescription>2100115661</SkinDescription>
+          <SkinCategoryDescription>2100115654</SkinCategoryDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_shovel_crane_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Subway Factory Module Bridge Conveyor -->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>lion053_BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115010</GUID>
+          <Name>Subway Factory Module: Bridge Conveyor</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_subway_bridge_01.png</IconFilename>
+          <InfoDescription>2100115001</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>2100115000</BuildingCategoryName>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_subway_bridge_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>2100115658</DefaultSkinName>
+            <DefaultSkinCategoryName>2100115654</DefaultSkinCategoryName>
+            <DefaultSkinDescription>2100115660</DefaultSkinDescription>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100115662</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>20000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>35</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>25</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>5</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <Amount>30</Amount>
+              </Item>
+            </Costs>
+        </Cost>
+        <Mesh />
+        <Selection />
+        <Constructable />
+        <SoundEmitter>
+            <ActiveSounds>
+                <Item>
+                    <Sound>216883</Sound>
+                </Item>
+                <Item>
+                    <Sound>235839</Sound>
+                </Item>
+                <Item>
+                    <Sound>280053</Sound>
+                </Item>
+            </ActiveSounds>
+        </SoundEmitter>
+        <FactoryBase />
+        <LogisticNode />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>500</Amount>
+              <InactiveAmount>500</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product>
+              <Amount>5</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable />
+        <IncidentInfectable />
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost>
+        </Electrifiable>
+        <AmbientMoodProvider />
+        <Attackable />
+        <UpgradeList>
+          <DefaultBuff>2100115228</DefaultBuff>
+        </UpgradeList>
+        <Pausable />
+        <FeedbackController />
+        <Infolayer />
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2100115046</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>25</ProductionBuffDistance>
+        </BuffFactory>
+        <Culture>
+          <HasPollution>1</HasPollution>
+          <Attractiveness>-2</Attractiveness>
+        </Culture>
+        <Ornament>
+          <OrnamentDescription>2100115011</OrnamentDescription>
+        </Ornament>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="694">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115662</GUID>
+          <Name>Subway Factory Module: Bridge Conveyor Uneven Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_subway_bridge_01.png</IconFilename>
+        </Standard>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Skin>
+          <SkinName>2100115659</SkinName>
+          <SkinDescription>2100115661</SkinDescription>
+          <SkinCategoryDescription>2100115654</SkinCategoryDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_subway_bridge_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Subway Factory Module Connection Building-->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>lion053_BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115012</GUID>
+          <Name>Subway Factory Module: Connection Building</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_connector_flat_roof_03.png</IconFilename>
+          <InfoDescription>2100115001</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>2100115000</BuildingCategoryName>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_connector_3x2_flat_roof_03.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>2100115666</DefaultSkinName>
+            <DefaultSkinCategoryName>2100115654</DefaultSkinCategoryName>
+            <DefaultSkinDescription>2100115660</DefaultSkinDescription>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100115663</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100115664</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100115665</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>12000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>25</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>5</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <Amount>20</Amount>
+              </Item>
+            </Costs>
+        </Cost>
+        <Mesh />
+        <Selection />
+        <Constructable />
+        <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>280030</Sound>
+              </Item>
+            </ActiveSounds>
+        </SoundEmitter>
+        <FactoryBase />
+        <LogisticNode />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>450</Amount>
+              <InactiveAmount>450</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>30</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable />
+        <IncidentInfectable />
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost>
+        </Electrifiable>
+        <AmbientMoodProvider />
+        <Attackable />
+        <UpgradeList>
+          <DefaultBuff>2100115228</DefaultBuff>
+        </UpgradeList>
+        <Pausable />
+        <FeedbackController />
+        <Infolayer />
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2100115046</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>25</ProductionBuffDistance>
+        </BuffFactory>
+        <Culture>
+          <HasPollution>1</HasPollution>
+          <Attractiveness>-2</Attractiveness>
+        </Culture>
+        <Ornament>
+          <OrnamentDescription>2100115013</OrnamentDescription>
+        </Ornament>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="694">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115663</GUID>
+          <Name>Subway Factory Module: Flat Roof Uneven</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_connector_flat_roof_03.png</IconFilename>
+        </Standard>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Skin>
+          <SkinName>2100115663</SkinName>
+          <SkinDescription>2100115661</SkinDescription>
+          <SkinCategoryDescription>2100115654</SkinCategoryDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_connector_3x2_flat_roof_04.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115664</GUID>
+          <Name>Subway Factory Module: Mansard Roof Straight</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_connector_mansard_roof_03.png</IconFilename>
+        </Standard>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Skin>
+          <SkinName>2100115664</SkinName>
+          <SkinDescription>2100115660</SkinDescription>
+          <SkinCategoryDescription>2100115654</SkinCategoryDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_connector_3x2_mansard_roof_03.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115665</GUID>
+          <Name>Subway Factory Module: Mansard Roof Uneven</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_connector_mansard_roof_03.png</IconFilename>
+        </Standard>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Skin>
+          <SkinName>2100115665</SkinName>
+          <SkinDescription>2100115661</SkinDescription>
+          <SkinCategoryDescription>2100115654</SkinCategoryDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_connector_3x2_mansard_roof_04.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Subway Factory Module Connection Building with Street-->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>lion053_BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115014</GUID>
+          <Name>Subway Factory Module: Connection Building with Street</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_connector_flat_roof_01.png</IconFilename>
+          <InfoDescription>2100115001</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>2100115000</BuildingCategoryName>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_connector_3x2_flat_roof_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>2100115666</DefaultSkinName>
+            <DefaultSkinCategoryName>2100115654</DefaultSkinCategoryName>
+            <DefaultSkinDescription>2100115660</DefaultSkinDescription>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100115667</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100115668</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100115669</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>10000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>25</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>5</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <Amount>20</Amount>
+              </Item>
+            </Costs>
+        </Cost>
+        <Mesh />
+        <Selection />
+        <Constructable />
+        <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>280030</Sound>
+              </Item>
+            </ActiveSounds>
+        </SoundEmitter>
+        <FactoryBase />
+        <LogisticNode />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>350</Amount>
+              <InactiveAmount>350</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>15</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable />
+        <IncidentInfectable />
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost>
+        </Electrifiable>
+        <AmbientMoodProvider />
+        <Attackable />
+        <UpgradeList>
+          <DefaultBuff>2100115228</DefaultBuff>
+        </UpgradeList>
+        <Pausable />
+        <FeedbackController />
+        <Infolayer />
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2100115046</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>25</ProductionBuffDistance>
+        </BuffFactory>
+        <Culture>
+          <HasPollution>1</HasPollution>
+          <Attractiveness>-2</Attractiveness>
+        </Culture>
+        <Ornament>
+          <OrnamentDescription>2100115015</OrnamentDescription>
+        </Ornament>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="694">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115667</GUID>
+          <Name>Subway Factory Module: Flat Roof Uneven</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_connector_flat_roof_01.png</IconFilename>
+        </Standard>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Skin>
+          <SkinName>2100115667</SkinName>
+          <SkinDescription>2100115661</SkinDescription>
+          <SkinCategoryDescription>2100115654</SkinCategoryDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_connector_3x2_flat_roof_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115668</GUID>
+          <Name>Subway Factory Module: Mansard Roof Straight</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_connector_mansard_roof_01.png</IconFilename>
+        </Standard>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Skin>
+          <SkinName>2100115668</SkinName>
+          <SkinDescription>2100115660</SkinDescription>
+          <SkinCategoryDescription>2100115654</SkinCategoryDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_connector_3x2_mansard_roof_01.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115669</GUID>
+          <Name>Subway Factory Module: Mansard Roof Uneven</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_connector_mansard_roof_01.png</IconFilename>
+        </Standard>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Skin>
+          <SkinName>2100115669</SkinName>
+          <SkinDescription>2100115661</SkinDescription>
+          <SkinCategoryDescription>2100115654</SkinCategoryDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_connector_3x2_mansard_roof_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Subway Factory Module Medium Processing (Cables) -->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115016</GUID>
+          <Name>Subway Factory Module: Medium Processing (Cables)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/scenario/goods/icon_electric_cable_3.png</IconFilename>
+          <InfoDescription>2100115032</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>2100115000</BuildingCategoryName>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_medium_processing_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>45000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>75</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>45</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>15</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <Amount>50</Amount>
+              </Item>
+            </Costs>
+        </Cost>
+        <Mesh />
+        <Selection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <Constructable />
+        <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>239836</Sound>
+              </Item>
+              <Item>
+                <Sound>214813</Sound>
+              </Item>
+              <Item>
+                <Sound>239860</Sound>
+              </Item>
+            </ActiveSounds>
+        </SoundEmitter>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010230</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010255</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>6280</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>60</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+        </FactoryBase>
+        <LogisticNode />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1500</Amount>
+              <InactiveAmount>1500</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>200</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable>
+          <MandatoryIndustrialization>1</MandatoryIndustrialization>
+        </Industrializable>
+        <IncidentInfectable />
+        <Electrifiable>
+          <ElectricityBoost>1</ElectricityBoost>
+        </Electrifiable>
+        <AmbientMoodProvider />
+        <Attackable />
+        <UpgradeList />
+        <Pausable />
+        <FeedbackController />
+        <Infolayer />
+        <Culture>
+          <HasPollution>1</HasPollution>
+          <Attractiveness>-5</Attractiveness>
+        </Culture>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Subway Factory Module Large Processing (Motors) -->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115018</GUID>
+          <Name>Subway Factory Module: Large Processing (Motors)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/production_goods/icon_motor.png</IconFilename>
+          <InfoDescription>2100115032</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>2100115000</BuildingCategoryName>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_large_processing_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>70000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>110</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>80</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>25</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <Amount>95</Amount>
+              </Item>
+            </Costs>
+        </Cost>
+        <Mesh />
+        <Selection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <Constructable />
+        <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>200682</Sound>
+              </Item>
+              <Item>
+                <Sound>273645</Sound>
+              </Item>
+              <Item>
+                <Sound>214813</Sound>
+              </Item>
+              <Item>
+                <Sound>239852</Sound>
+              </Item>
+            </ActiveSounds>
+        </SoundEmitter>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>6280</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010241</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010219</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>5390</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>90</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+        </FactoryBase>
+        <LogisticNode />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>2500</Amount>
+              <InactiveAmount>2500</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010116</Product>
+              <Amount>350</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable>
+          <MandatoryIndustrialization>1</MandatoryIndustrialization>
+        </Industrializable>
+        <IncidentInfectable />
+        <Electrifiable>
+          <ElectricityBoost>1</ElectricityBoost>
+        </Electrifiable>
+        <AmbientMoodProvider />
+        <Attackable />
+        <UpgradeList />
+        <Pausable />
+        <FeedbackController />
+        <Infolayer />
+        <Culture>
+          <HasPollution>1</HasPollution>
+          <Attractiveness>-5</Attractiveness>
+        </Culture>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Subway Factory Module Press Works -->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115020</GUID>
+          <Name>Subway Factory Module: Metal Sheets Press</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_metal_sheets_01.png</IconFilename>
+          <InfoDescription>2100115032</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>2100115000</BuildingCategoryName>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_press_works_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>2100115653</DefaultSkinName>
+            <DefaultSkinCategoryName>2100115654</DefaultSkinCategoryName>
+            <DefaultSkinDescription>2100115655</DefaultSkinDescription>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100115656</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>45000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>90</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>70</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>25</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <Amount>75</Amount>
+              </Item>
+            </Costs>
+        </Cost>
+        <Mesh />
+        <Selection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <Constructable />
+        <SoundEmitter>
+         <ActiveSounds>
+            <Item>
+             <Sound>216009</Sound>
+            </Item>
+            <Item>
+             <Sound>200802</Sound>
+            </Item>
+            <Item>
+             <Sound>201637</Sound>
+            </Item>
+         </ActiveSounds>
+        </SoundEmitter>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010219</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010234</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>2100115034</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>60</CycleTime>
+          <IsMainFactory>1</IsMainFactory>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+          <ProductionOutputInfotip>2100115981</ProductionOutputInfotip>
+        </FactoryBase>
+        <Factory7 />
+        <LogisticNode />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1800</Amount>
+              <InactiveAmount>1800</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>150</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable>
+          <MandatoryIndustrialization>1</MandatoryIndustrialization>
+        </Industrializable>
+        <IncidentInfectable />
+        <Electrifiable>
+          <ElectricityBoost>1</ElectricityBoost>
+        </Electrifiable>
+        <AmbientMoodProvider />
+        <Attackable />
+        <UpgradeList>
+          <DefaultBuff>2100115221</DefaultBuff>
+        </UpgradeList>
+        <Pausable />
+        <FeedbackController />
+        <Infolayer />
+        <Culture>
+          <HasPollution>1</HasPollution>
+          <Attractiveness>-4</Attractiveness>
+        </Culture>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="694">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115656</GUID>
+          <Name>Subway Factory Module: Metal Sheets Press Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_press_works_01.png</IconFilename>
+        </Standard>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Skin>
+          <SkinName>2100115656</SkinName>
+          <SkinDescription>2100115657</SkinDescription>
+          <SkinCategoryDescription>2100115654</SkinCategoryDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_press_works_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Subway Factory Module Large Chimney-->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>lion053_BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115022</GUID>
+          <Name>Subway Factory Module: Large Chimney</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_large_chimney_01.png</IconFilename>
+          <InfoDescription>2100115001</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>2100115000</BuildingCategoryName>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_large_chimney_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>14500</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>40</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>20</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <Amount>15</Amount>
+              </Item>
+            </Costs>
+        </Cost>
+        <Mesh />
+        <Selection />
+        <Constructable />
+        <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>279511</Sound>
+              </Item>
+            </ActiveSounds>
+        </SoundEmitter>
+        <FactoryBase />
+        <LogisticNode />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>750</Amount>
+              <InactiveAmount>750</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product>
+              <Amount>30</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable />
+        <IncidentInfectable />
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost>
+        </Electrifiable>
+        <AmbientMoodProvider />
+        <Attackable />
+        <UpgradeList>
+          <DefaultBuff>2100115228</DefaultBuff>
+        </UpgradeList>
+        <Pausable />
+        <FeedbackController />
+        <Infolayer />
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2100115046</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>25</ProductionBuffDistance>
+        </BuffFactory>
+        <Culture>
+          <HasPollution>1</HasPollution>
+          <Attractiveness>-5</Attractiveness>
+        </Culture>
+        <Ornament>
+          <OrnamentDescription>2100115023</OrnamentDescription>
+        </Ornament>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Subway Factory Module Underground Conveyor-->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>lion053_BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115024</GUID>
+          <Name>Subway Factory Module: Underground Conveyor</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_underground_conveyor_01.png</IconFilename>
+          <InfoDescription>2100115001</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>2100115000</BuildingCategoryName>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_underground_conveyor_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>7500</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>20</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+            </Costs>
+        </Cost>
+        <Mesh />
+        <Selection />
+        <Constructable />
+        <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>216877</Sound>
+              </Item>
+              <Item>
+                <Sound>270398</Sound>
+              </Item>
+            </ActiveSounds>
+        </SoundEmitter>
+        <FactoryBase />
+        <LogisticNode />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>450</Amount>
+              <InactiveAmount>450</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>20</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable />
+        <IncidentInfectable />
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost>
+        </Electrifiable>
+        <AmbientMoodProvider />
+        <Attackable>
+          <HasRuinState>0</HasRuinState>
+        </Attackable>
+        <UpgradeList>
+          <DefaultBuff>2100115228</DefaultBuff>
+        </UpgradeList>
+        <Pausable />
+        <FeedbackController />
+        <Infolayer />
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2100115046</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>25</ProductionBuffDistance>
+        </BuffFactory>
+        <Culture>
+          <HasPollution>1</HasPollution>
+          <Attractiveness>-2</Attractiveness>
+        </Culture>
+        <Ornament>
+          <OrnamentDescription>2100115025</OrnamentDescription>
+        </Ornament>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Subway Factory Module Connection Tower-->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>lion053_BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115026</GUID>
+          <Name>Subway Factory Module: Connection Tower</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_tower_straight_01.png</IconFilename>
+          <InfoDescription>2100115001</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>2100115000</BuildingCategoryName>
+          <BuildModeStartVariation>0</BuildModeStartVariation>
+          <InfluencedByNeighbors>
+            <Item>
+              <Building>2100115026</Building>
+            </Item>
+            <Item>
+              <Building>2100115008</Building>
+            </Item>
+            <Item>
+              <Building>2100115010</Building>
+            </Item>
+            <Item>
+              <Building>2100115012</Building>
+            </Item>
+            <Item>
+              <Building>2100115014</Building>
+            </Item>
+            <Item>
+              <Building>2100115028</Building>
+            </Item>
+            <Item>
+              <Building>2100115030</Building>
+            </Item>
+          </InfluencedByNeighbors>
+          <InfluencedVariationDirection>
+            <Item />
+            <Item>
+              <Direction>2</Direction>
+              <Type>End</Type>
+            </Item>
+            <Item>
+              <Direction>3</Direction>
+              <Type>End</Type>
+            </Item>
+            <Item>
+              <Direction>1</Direction>
+              <Type>Corner</Type>
+            </Item>
+            <Item>
+              <Type>End</Type>
+            </Item>
+            <Item>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <Direction>2</Direction>
+              <Type>Corner</Type>
+            </Item>
+            <Item>
+              <Direction>2</Direction>
+              <Type>TCrossing</Type>
+            </Item>
+            <Item>
+              <Direction>1</Direction>
+              <Type>End</Type>
+            </Item>
+            <Item>
+              <Type>Corner</Type>
+            </Item>
+            <Item>
+              <Direction>1</Direction>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <Direction>1</Direction>
+              <Type>TCrossing</Type>
+            </Item>
+            <Item>
+              <Direction>3</Direction>
+              <Type>Corner</Type>
+            </Item>
+            <Item>
+              <Type>TCrossing</Type>
+            </Item>
+            <Item>
+              <Direction>3</Direction>
+              <Type>TCrossing</Type>
+            </Item>
+            <Item>
+              <Type>Crossing</Type>
+            </Item>
+          </InfluencedVariationDirection>
+          <BuildingBlockPool>
+            <Corner>
+              <Pool>
+                <Item>
+                  <Variation>2</Variation>
+                </Item>
+              </Pool>
+            </Corner>
+            <Mid>
+              <Pool>
+                <Item>
+                  <Variation>0</Variation>
+                  <DirectionOffet>1</DirectionOffet>
+                </Item>
+              </Pool>
+            </Mid>
+            <TCrossing>
+              <Pool>
+                <Item>
+                  <Variation>4</Variation>
+                  <DirectionOffet>3</DirectionOffet>
+                </Item>
+              </Pool>
+            </TCrossing>
+            <Crossing>
+              <Pool>
+                <Item>
+                  <Variation>3</Variation>
+                </Item>
+              </Pool>
+            </Crossing>
+            <End>
+              <Pool>
+                <Item>
+                  <Variation>1</Variation>
+                  <DirectionOffet>3</DirectionOffet>
+                </Item>
+              </Pool>
+            </End>
+            <Single>
+              <Pool>
+                <Item>
+                  <Variation>5</Variation>
+                </Item>
+              </Pool>
+            </Single>
+          </BuildingBlockPool>
+          <VariationIcons>
+            <Item>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_tower_straight_01.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_tower_end_01.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_tower_corner_01.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_tower_xcross_01.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_tower_tcross_01.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_tower_single_01.png</IconFilename>
+            </Item>
+          </VariationIcons>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_connection_tower_02_straight.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_connection_tower_02_end.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_connection_tower_02_corner.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_connection_tower_02_xcross.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_connection_tower_02_tcross.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_connection_tower_02_single.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>15000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>30</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>20</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <Amount>25</Amount>
+              </Item>
+            </Costs>
+        </Cost>
+        <Mesh />
+        <Selection />
+        <Constructable />
+        <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>280042</Sound>
+              </Item>
+            </ActiveSounds>
+        </SoundEmitter>
+        <FactoryBase />
+        <LogisticNode />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>450</Amount>
+              <InactiveAmount>300</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product>
+              <Amount>75</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable />
+        <IncidentInfectable />
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost>
+        </Electrifiable>
+        <AmbientMoodProvider />
+        <Attackable />
+        <UpgradeList>
+          <DefaultBuff>2100115228</DefaultBuff>
+        </UpgradeList>
+        <Pausable />
+        <FeedbackController />
+        <Infolayer />
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2100115046</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>25</ProductionBuffDistance>
+        </BuffFactory>
+        <Culture>
+          <HasPollution>1</HasPollution>
+          <Attractiveness>-2</Attractiveness>
+        </Culture>
+        <Ornament>
+          <OrnamentDescription>2100115027</OrnamentDescription>
+        </Ornament>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Subway Factory Module Walkway Straight-->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>lion053_BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115028</GUID>
+          <Name>Subway Factory Module: Connection Walkway Straight</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_connection_walkway_02.png</IconFilename>
+          <InfoDescription>2100115681</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>2100115000</BuildingCategoryName>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_connection_walkway_02.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>2100115670</DefaultSkinName>
+            <DefaultSkinCategoryName>2100115654</DefaultSkinCategoryName>
+            <DefaultSkinDescription>2100115671</DefaultSkinDescription>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100115672</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>1000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+            </Costs>
+        </Cost>
+        <Mesh />
+        <Selection />
+        <Constructable />
+        <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>200809</Sound>
+              </Item>
+              <Item>
+                <Sound>200666</Sound>
+              </Item>
+            </ActiveSounds>
+        </SoundEmitter>
+        <FactoryBase />
+        <LogisticNode />
+        <Maintenance />
+        <Industrializable />
+        <IncidentInfectable />
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost>
+        </Electrifiable>
+        <AmbientMoodProvider />
+        <Attackable />
+        <UpgradeList />
+        <Pausable />
+        <FeedbackController />
+        <Infolayer />
+        <BuffFactory />
+        <Culture>
+          <HasPollution>0</HasPollution>
+        </Culture>
+        <Ornament>
+          <OrnamentDescription>2100115029</OrnamentDescription>
+          <OrnamentUnit>5</OrnamentUnit>
+        </Ornament>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="694">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115672</GUID>
+          <Name>Subway Factory Module: Walkway Long</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_connection_walkway_01.png</IconFilename>
+        </Standard>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Skin>
+          <SkinName>2100115672</SkinName>
+          <SkinDescription>2100115673</SkinDescription>
+          <SkinCategoryDescription>2100115654</SkinCategoryDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_connection_walkway_01.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Subway Factory Module Walkway Corner-->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>lion053_BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115030</GUID>
+          <Name>Subway Factory Module: Connection Walkway Corner</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_factory_module_connection_walkway_corner_01.png</IconFilename>
+          <InfoDescription>2100115681</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>2100115000</BuildingCategoryName>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_connection_walkway_corner.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>2000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>15</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <Amount>15</Amount>
+              </Item>
+            </Costs>
+        </Cost>
+        <Mesh />
+        <Selection />
+        <Constructable />
+        <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>200809</Sound>
+              </Item>
+              <Item>
+                <Sound>200666</Sound>
+              </Item>
+            </ActiveSounds>
+        </SoundEmitter>
+        <FactoryBase />
+        <LogisticNode />
+        <Maintenance />
+        <Industrializable />
+        <IncidentInfectable />
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost>
+        </Electrifiable>
+        <AmbientMoodProvider />
+        <Attackable />
+        <UpgradeList />
+        <Pausable />
+        <FeedbackController />
+        <Infolayer />
+        <BuffFactory />
+        <Culture>
+          <HasPollution>0</HasPollution>
+        </Culture>
+        <Ornament>
+          <OrnamentDescription>2100115031</OrnamentDescription>
+          <OrnamentUnit>5</OrnamentUnit>
+        </Ornament>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Subway Factory Module Warehouse-->
+  <ModOp Type="addNextSibling" GUID="1010371">
+    <Asset>
+      <Template>Warehouse</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115033</GUID>
+          <Name>Subway Factory Module: Warehouse</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_warehouse.png</IconFilename>
+          <InfoDescription>2975</InfoDescription>
+        </Standard>
+        <Blocking>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
+        <Building>
+          <BuildingType>Logistic</BuildingType>
+          <BuildingCategoryName>2100115000</BuildingCategoryName>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>6500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection>
+          <GUIType>Warehouse</GUIType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_factory\subway_factory_module_warehouse_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>200834</Sound>
+            </Item>
+          </ActiveSounds>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <Locked />
+        <Infolayer />
+        <FeedbackController />
+        <Warehouse>
+          <WarehouseStorage>
+            <StorageMax>25</StorageMax>
+          </WarehouseStorage>
+        </Warehouse>
+        <LogisticNode>
+          <QueueConfiguration>
+            <ProcessingQueueParallelCount>4</ProcessingQueueParallelCount>
+          </QueueConfiguration>
+        </LogisticNode>
+        <UpgradeList />
+        <AmbientMoodProvider />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>450</Amount>
+              <InactiveAmount>375</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <StorageBase />
+        <Pausable />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Subway Factory Module Buffs -->
+
+  <ModOp Type="addNextSibling" GUID="135117">
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115040</GUID>
+          <Name>Subway Factory Module Entrance Buff</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_entrance_buff_01.png</IconFilename>
+          <InfoDescription>2100115003</InfoDescription> <!-- Fluff Text -->
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2100115240</GUID>
+            </Item>
+            <Item>
+              <GUID>2100115016</GUID>
+            </Item>
+            <Item>
+              <GUID>2100115018</GUID>
+            </Item>
+            <Item>
+              <GUID>2100115020</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Percental>1</Percental>
+            <Value>5</Value>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <Buff />
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Percental>1</Percental>
+            <Value>15</Value>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade>
+            <IncidentExplosionIncreaseUpgrade>
+                <Value>-15</Value>
+                <Percental>1</Percental>
+            </IncidentExplosionIncreaseUpgrade>
+            <IncidentFireIncreaseUpgrade>
+                <Value>-15</Value>
+                <Percental>1</Percental>
+            </IncidentFireIncreaseUpgrade>
+            <IncidentRiotIncreaseUpgrade>
+                <Value>-15</Value>
+                <Percental>1</Percental>
+            </IncidentRiotIncreaseUpgrade>
+        </IncidentInfectableUpgrade>
+        <CultureUpgrade>
+            <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <InfluenceSourceUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115041</GUID>
+          <Name>Subway Factory Module Administration Buff</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_administration_buff_01.png</IconFilename>
+          <InfoDescription>2100115005</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2100115240</GUID>
+            </Item>
+            <Item>
+              <GUID>2100115016</GUID>
+            </Item>
+            <Item>
+              <GUID>2100115018</GUID>
+            </Item>
+            <Item>
+              <GUID>2100115020</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>-10</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <Buff />
+        <FactoryUpgrade>
+            <ProductivityUpgrade>
+                <Value>25</Value>
+                <Percental>1</Percental>
+            </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade>
+            <IncidentExplosionIncreaseUpgrade>
+                <Value>-15</Value>
+                <Percental>1</Percental>
+            </IncidentExplosionIncreaseUpgrade>
+            <IncidentFireIncreaseUpgrade>
+                <Value>-15</Value>
+                <Percental>1</Percental>
+            </IncidentFireIncreaseUpgrade>
+            <IncidentRiotIncreaseUpgrade>
+                <Value>-15</Value>
+                <Percental>1</Percental>
+            </IncidentRiotIncreaseUpgrade>
+        </IncidentInfectableUpgrade>
+        <CultureUpgrade>
+            <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <InfluenceSourceUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <!-- DEPRECATED -->
+          <GUID>2100115042</GUID>
+          <Name>Subway Factory Module Material Development and Testing Buff</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_material_development_buff_01.png</IconFilename>
+          <InfoDescription>2100115007</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2100115020</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <BuildingUpgrade>
+            <WorkforceAmountUpgrade>
+                <Value>-30</Value>
+                <Percental>1</Percental>
+            </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <Buff />
+        <FactoryUpgrade>
+            <ReplaceInputs>
+                <Item>
+                    <OldInput>1010219</OldInput>
+                    <NewInput>838</NewInput>
+                </Item>
+                <Item>
+                    <OldInput>1010234</OldInput>
+                    <NewInput>1414</NewInput>
+                </Item>
+            </ReplaceInputs>
+            <ProductivityUpgrade>
+                <Value>35</Value>
+                <Percental>1</Percental>
+            </ProductivityUpgrade>
+            <AdditionalOutput>
+              <Item>
+                <Product>1414</Product>
+                <Amount>1</Amount>
+                <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              </Item>
+            </AdditionalOutput>
+        </FactoryUpgrade>
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade>
+            <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <InfluenceSourceUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115983</GUID>
+          <Name>Material Development and Testing Buff: Aluminium</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_material_development_buff_03.png</IconFilename>
+          <InfoDescription>2100115007</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2100115020</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <BuildingUpgrade>
+            <WorkforceAmountUpgrade>
+                <Value>-50</Value>
+                <Percental>1</Percental>
+            </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <Buff />
+        <FactoryUpgrade>
+            <ReplaceInputs>
+                <Item>
+                    <OldInput>1010219</OldInput>
+                    <NewInput>838</NewInput>
+                </Item>
+            </ReplaceInputs>
+            <ProductivityUpgrade>
+                <Value>50</Value>
+                <Percental>1</Percental>
+            </ProductivityUpgrade>
+            <AdditionalOutput>
+              <Item>
+                <Product>838</Product>
+                <Amount>1</Amount>
+                <AdditionalOutputCycle>4</AdditionalOutputCycle>
+              </Item>
+            </AdditionalOutput>
+        </FactoryUpgrade>
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade>
+            <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <InfluenceSourceUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115985</GUID>
+          <Name>Material Development and Testing Buff: Lubricant</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_material_development_buff_02.png</IconFilename>
+          <InfoDescription>2100115007</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2100115020</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <BuildingUpgrade>
+            <MaintenanceUpgrade>
+              <Value>-50</Value>
+              <Percental>1</Percental>
+            </MaintenanceUpgrade>
+        </BuildingUpgrade>
+        <Buff />
+        <FactoryUpgrade>
+            <ReplaceInputs>
+                <Item>
+                  <OldInput>1010234</OldInput>
+                  <NewInput>1414</NewInput>
+                </Item>
+            </ReplaceInputs>
+            <ProductivityUpgrade>
+                <Value>50</Value>
+                <Percental>1</Percental>
+            </ProductivityUpgrade>
+            <AdditionalOutput>
+              <Item>
+                <Product>1414</Product>
+                <Amount>1</Amount>
+                <AdditionalOutputCycle>4</AdditionalOutputCycle>
+              </Item>
+            </AdditionalOutput>
+        </FactoryUpgrade>
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade>
+            <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <InfluenceSourceUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115987</GUID>
+          <Name>Material Development and Testing Buff: Celluloid</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_material_development_buff_04.png</IconFilename>
+          <InfoDescription>2100115007</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2100115018</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <BuildingUpgrade>
+            <ReplacingWorkforce>1010115</ReplacingWorkforce>
+        </BuildingUpgrade>
+        <Buff />
+        <FactoryUpgrade>
+            <ReplaceInputs>
+                <Item>
+                  <OldInput>1010241</OldInput>
+                  <NewInput>135150</NewInput>
+                </Item>
+            </ReplaceInputs>
+            <ProductivityUpgrade>
+                <Value>50</Value>
+                <Percental>1</Percental>
+            </ProductivityUpgrade>
+            <AdditionalOutput>
+              <Item>
+                <Product>135150</Product>
+                <Amount>1</Amount>
+                <AdditionalOutputCycle>4</AdditionalOutputCycle>
+              </Item>
+            </AdditionalOutput>
+        </FactoryUpgrade>
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade>
+            <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <InfluenceSourceUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115045</GUID>
+          <Name>Subway Factory Module Press Works Buff</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_metal_sheets_buff_01.png</IconFilename>
+          <InfoDescription>2100115021</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2100115240</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <BuildingUpgrade />
+        <Buff />
+        <FactoryUpgrade>
+            <ProductivityUpgrade>
+              <Value>100</Value>
+              <Percental>1</Percental>
+            </ProductivityUpgrade>
+            <ReplaceInputs>
+              <Item>
+                <OldInput>1010219</OldInput>
+                <NewInput>2100115034</NewInput>
+              </Item>
+            </ReplaceInputs>
+        </FactoryUpgrade>
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade>
+            <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <InfluenceSourceUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115046</GUID>
+          <Name>Subway Factory Module Common Productivity Buff</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_common_productivity_buff_01.png</IconFilename>
+          <InfoDescription>2100115013</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2100115240</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>1</AllowStacking>
+        </ItemEffect>
+        <BuildingUpgrade />
+        <Buff />
+        <FactoryUpgrade>
+            <ProductivityUpgrade>
+                <Value>15</Value>
+                <Percental>1</Percental>
+            </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade>
+            <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <InfluenceSourceUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115228</GUID>
+          <Name>Subway Factory Module Common Productivity Fake Buff</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_common_productivity_buff_01.png</IconFilename>
+          <InfoDescription>2100115013</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2100115229</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <BuildingUpgrade />
+        <Buff />
+        <FactoryUpgrade>
+            <ProductivityUpgrade>
+                <Value>15</Value>
+                <Percental>1</Percental>
+            </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade>
+            <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <InfluenceSourceUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <!-- DEPRECATED -->
+          <GUID>2100115039</GUID>
+          <Name>Subway Factory Module Press Works Fake Buff</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_metal_sheets_buff_01.png</IconFilename>
+          <InfoDescription>2100115021</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2100115229</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <BuildingUpgrade />
+        <Buff />
+        <FactoryUpgrade>
+            <ProductivityUpgrade>
+                <Value>100</Value>
+                <Percental>1</Percental>
+            </ProductivityUpgrade>
+            <ReplaceInputs>
+                <Item>
+                    <OldInput>1010219</OldInput>
+                    <NewInput>2100115034</NewInput>
+                </Item>
+            </ReplaceInputs>
+        </FactoryUpgrade>
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade>
+            <HideBuff>0</HideBuff>
+        </CultureUpgrade>
+        <InfluenceSourceUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="249965">
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115221</GUID>
+          <Name>Press Works Buff Forward</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_metal_sheets_buff_01.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect />
+        <EffectForward>
+          <ForwardEffect>2100115045</ForwardEffect>
+          <ForwardEffectRange>25</ForwardEffectRange>
+          <ForwardEffectScope>Radius</ForwardEffectScope>
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Palace Skilled Labour Act Buff -->
+  <ModOp Type="addNextSibling" GUID="269280">
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115824</GUID>
+          <Name>Productivity - Decree 3 Buff_Motors</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_manufacturing_reform.png</IconFilename>
+          <InfoDescription>269438</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2100115018</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <BuildingUpgrade />
+        <Buff />
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>5390</Product>
+              <Amount>1</Amount>
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade />
+        <InfluenceSourceUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115825</GUID>
+          <Name>Productivity - Decree 3 Buff_Subways</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_manufacturing_reform.png</IconFilename>
+          <InfoDescription>269438</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2100115240</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <BuildingUpgrade />
+        <Buff />
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>2100115241</Product>
+              <Amount>1</Amount>
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade />
+        <InfluenceSourceUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="add" GUID="269399" Path="/Values/FactoryUpgrade/AdditionalOutput" Condition="!/Values/FactoryUpgrade/AdditionalOutput/Item[Product='5390']">
+    <Item>
+      <Product>5390</Product>
+      <AdditionalOutputCycle>3</AdditionalOutputCycle>
+      <Amount>1</Amount>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="269399" Path="/Values/FactoryUpgrade/AdditionalOutput">
+    <Item>
+      <Product>2100115241</Product>
+      <AdditionalOutputCycle>3</AdditionalOutputCycle>
+      <Amount>1</Amount>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="269397" Path="/Values/EffectContainer/Effects">
+    <Item>
+      <Effect>2100115824</Effect>
+    </Item>
+    <Item>
+      <Effect>2100115825</Effect>
+    </Item>
+  </ModOp>
+
+</ModOps>

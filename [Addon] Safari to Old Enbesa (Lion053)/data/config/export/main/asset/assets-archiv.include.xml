@@ -1,0 +1,1234 @@
+
+<!--Safari to Old Enbesa V2.3-->
+
+<!-- Archiv // To keep compatibility with old saves -->
+
+<ModOps>
+
+  <!-- # DEPRECATED: Special Ornaments Safari ARCHIV-->
+  <ModOp Type="addNextSibling" GUID="114436">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119318</GUID>
+          <Name>Special Ornaments Safari</Name>          
+          <InfoDescription>2100119359</InfoDescription>
+        </Standard>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <AssociatedRegions>Africa</AssociatedRegions>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <BuildModeStartVariation>0</BuildModeStartVariation>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>500</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/lamps/building_spotlight_small_animated_01_paved.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/lamps/building_spotlight_big_animated_01_paved.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data\dlc06\graphics\mod_buildings\safari_ornaments\archiv\ornaments_fountain_01_enbesa.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/ornamental/seasonpass/s02_fountain_elephant_2x3_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vehicles/airballoons/ornaments_airballoon_01_beach.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vehicles/airballoons/ornaments_airballoon_02_paved.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vehicles/airballoons/ornaments_airballoon_03_paved.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/safari_ornaments/enbesa_lookout_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/safari_ornaments/enbesa_watchtower_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/safari_ornaments/woodcutter_camp_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/safari_ornaments/red_tent_small_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/safari_ornaments/red_tent_big_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/safari_ornaments/tunnel_entrance_02_02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/safari_ornaments/mining_colony01_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vehicles/1x1_trains/railway_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vehicles/1x1_trains/railway_cargo_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vehicles/bus_02_sand.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vehicles/bus_03_sand.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/safari_ornaments/book_shelf_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh />
+        <SoundEmitter />
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>2100119359</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # DEPRECATED: Ruins and Pillars ARCHIV-->
+  <ModOp Type="addNextSibling" GUID="114436">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119319</GUID>
+          <Name>Ruins and Pillars</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/narative_item/icon_ornament_pillars_0.png</IconFilename>
+          <InfoDescription>2100119360</InfoDescription>
+        </Standard>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <AssociatedRegions>Africa</AssociatedRegions>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <BuildModeStartVariation>0</BuildModeStartVariation>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>750</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/pillars/enbesa_temple_kit_pillar_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/pillars/enbesa_temple_kit_pillar_03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/statues/temple_kit_statue_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/statues/headstone_b.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/pillars/enbesa_pillar_ancient.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/ruins/desert_temple_03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/ruins/material_temple_destroyed.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/ruins/hero_monument.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/ruins/ruined_camp.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/pillars/obelisk_02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/pillars/obelisk_02.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh />
+        <SoundEmitter />
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>2100119360</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # DEPRECATED: Temples and Towers ARCHIV-->
+  <ModOp Type="addNextSibling" GUID="114436">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119320</GUID>
+          <Name>Tempels and Towers</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/narative_item/icon_ornament_temples_0.png</IconFilename>
+          <InfoDescription>2100119361</InfoDescription>
+        </Standard>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <AssociatedRegions>Africa</AssociatedRegions>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <BuildModeStartVariation>0</BuildModeStartVariation>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/tempel_towers/3rd_party_questobject.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/tempel_towers/scriptorium.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/tempel_towers/pump_temple.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/tempel_towers/3rd_party_10_interactive_garden.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/tempel_towers/3rd_party_10_interactive_temple_church.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/tempel_towers/fortress_hut.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/tempel_towers/fortress_tower_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh />
+        <SoundEmitter />
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>17744</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # DEPRECATED: Walls ARCHIV 1 -->
+  <ModOp Type="addNextSibling" GUID="114436">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119321</GUID>
+          <Name>Walls</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/narative_item/icon_bus_03_0.png</IconFilename>
+          <InfoDescription>2100119362</InfoDescription>
+        </Standard>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <AssociatedRegions>Africa</AssociatedRegions>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>300</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/fortress_stair_02_right_decal.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_altar_02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_base_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_04.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_05.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/gates/archiv/temple_kit_wall_gate_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_simple_window_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/gates/cemetery_gate_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/gates/3rd_party_10_interactive_wall_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/gates/archiv/fortress_gate_03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/gates/fortress_gate_03_no_passing.cfg</Filename>
+            </Item>            
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh />
+        <SoundEmitter />
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>17744</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # DEPRECATED: Walls ARCHIV 2 - Walls with decal variations-->
+  <ModOp Type="addNextSibling" GUID="114436">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119338</GUID>
+          <Name>Walls with decal variations</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/narative_item/icon_ornament_walls_0.png</IconFilename>
+          <InfoDescription>2100119362</InfoDescription>
+        </Standard>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <AssociatedRegions>Africa</AssociatedRegions>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>350</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_base_01_decal_beach.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_base_01_decal_fence.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_base_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_01_decal_beach.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_01_decal_fence.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_02_decal_beach.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_02_decal_fence.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_03_decal_beach.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_03_decal_fence.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_04_decal_beach.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_04_decal_fence.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_04_decal_flowers.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_05_decal_beach.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_05_decal_fence.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_05_decal_flowers.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_simple_window_01_decal_beach.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_simple_window_01_decal_fence.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/archiv/temple_kit_wall_simple_window_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/gates/archiv/temple_kit_wall_gate_01_decal_beach.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/gates/archiv/temple_kit_wall_gate_01_decal_fence.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/walls/gates/archiv/temple_kit_wall_gate_01_decal_paved.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh />
+        <SoundEmitter />
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>17744</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # DEPRECATED: Vegetation ARCHIV-->
+  <ModOp Type="addNextSibling" GUID="114436">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119323</GUID>
+          <Name>Vegetation</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/narative_item/icon_ornament_plants_0.png</IconFilename>
+          <InfoDescription>2100119364</InfoDescription>
+        </Standard>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <AssociatedRegions>Africa</AssociatedRegions>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>100</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/acacia_large_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/acacia_large_02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/acacia_medium_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/acacia_medium_02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/stone_pine_large_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/stone_pine_medium_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/stone_pine_small_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/tree_jungle_palm_02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/tree_jungle_palm_02_beach.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/tree_jungle_palm_special_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/tree_jungle_palm_special_02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/cypress_tree_03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/bush_dead_01_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/bush_dry_large_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/bush_dry_large_03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/bush_dry_medium_02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/bush_colony02_missing_water_large_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/bush_colony02_missing_water_large_03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/bush_colony02_missing_water_medium_03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/bush_colony02_water_plant_04.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/grass_dry_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/grass_dry_03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/grass_dry_05.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/grass_missing_water_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/grass_watered_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/grass_watered_03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/vegetation/grass_watered_05.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh />
+        <SoundEmitter />
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>17744</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # DEPRECATED Effects ARCHIV-->
+  <ModOp Type="addNextSibling" GUID="114436">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119332</GUID>
+          <Name>Effects</Name>         
+          <InfoDescription>2100119369</InfoDescription>
+        </Standard>
+        <Blocking />
+        <Building>
+          <AssociatedRegions>Africa</AssociatedRegions>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <BuildModeStartVariation>0</BuildModeStartVariation>
+          <TerrainType>Terrain</TerrainType>
+        </Building>
+        <Cost />
+        <Selection />
+        <Object>
+          <Variations>            
+            <Item>
+              <Filename>data\dlc06\graphics\mod_buildings\water_ornaments\beach_decal_02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/effects/enbesa_desert_dust_big.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/effects/enbesa_desert_dust_small.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/effects/enbesa_waterfall.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/effects/archiv/ambient_fire_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/effects/archiv/ship_lamp_red_big_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/effects/archiv/ship_lamp_03_light_yellow.cfg</Filename>
+            </Item>            
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh />
+        <SoundEmitter />
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>17744</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # DEPRECATED: Enbesa Shipyard-->
+  <ModOp Type="addNextSibling" GUID="114436">
+    <Asset>
+      <Template>Shipyard</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119333</GUID>
+          <Name>Enbesa Shipyard</Name>         
+          <InfoDescription>2100119370</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>11150</BuildingCategoryName>
+          <SnapRadius>10</SnapRadius>
+          <TerrainType>Coast</TerrainType>
+          <AssociatedRegions>Africa</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>          
+        </Building>
+        <Blocking>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+          <HarbourAreaExpand>1</HarbourAreaExpand>
+        </Blocking>
+        <Mesh />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/shipyard/archiv/3rd_party_nomad_kontor.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <AmbientMoodProvider>
+          <Murmur>Harbor</Murmur>
+        </AmbientMoodProvider>
+        <Constructable />
+        <Selection>
+          <ParticipantMessageArcheType>Africa_Resident_tier01</ParticipantMessageArcheType>
+        </Selection>        
+        <Shipyard>
+          <AssemblyOptions>
+            <Item>
+              <Vehicle>2100119334</Vehicle>
+            </Item>
+            <Item>
+              <Vehicle>2100119337</Vehicle>
+            </Item>
+          </AssemblyOptions>
+        </Shipyard>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>7500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114356</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114402</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Locked />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>80</Amount>
+              <InactiveAmount>40</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>114340</Product>
+              <Amount>45</Amount>
+            </Item>
+          </Maintenances>
+          <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+        </Maintenance>
+        <Infolayer />
+        <Attackable>
+          <MaximumHitPoints>2000</MaximumHitPoints>
+          <HPBarOffset>4.5</HPBarOffset>
+          <PausedTimeIfAttacked>0</PausedTimeIfAttacked>
+          <SelfHealPerHealTick>5</SelfHealPerHealTick>
+          <DefenseByAIFactor>700</DefenseByAIFactor>          
+          <MoralePower>50</MoralePower>
+          <IslandWarFlag>102303</IslandWarFlag>
+          <ExplosionEffects>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>Shipyard</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <ExplosionEffectFilePath>data/graphics/effects/military/explosions/harbor_generic_xpl_02.cfg</ExplosionEffectFilePath>
+            </Item>
+            <Item>
+              <ExplosionEffectFilePath>data/graphics/effects/military/explosions/harbor_generic_xpl_03.cfg</ExplosionEffectFilePath>
+            </Item>
+          </ExplosionEffects>
+          <ExplosionEffectsMin>1</ExplosionEffectsMin>
+          <ExplosionEffectsMax>2</ExplosionEffectsMax>
+        </Attackable>
+        <Pausable />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>200896</Sound>
+            </Item>
+          </ActiveSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRuined>
+            <Item>
+              <Sound>203848</Sound>
+            </Item>
+          </BuildingRuined>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <IncidentInfectable />
+        <FeedbackController />
+        <Industrializable />
+        <UpgradeList />
+        <LogisticNode />
+        <StreetActivation />
+        <QuestObject />
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost>
+        </Electrifiable>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # DEPRECATED: Old Pier -->
+  <ModOp Type="addNextSibling" GUID="114436">
+    <Asset>
+      <Template>HarborLandingStage7</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119312</GUID>
+          <Name>Old Pier</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/narative_item/icon_pier_0.png</IconFilename>
+          <InfoDescription>2100119357</InfoDescription>
+        </Standard>
+        <Blocking>
+          <GroundDecalAsset>117730</GroundDecalAsset>
+          <GroundDecalInvisible>117731</GroundDecalInvisible>
+          <GroundDecalAssetExtra>100691</GroundDecalAssetExtra>
+          <HidePropsRadius>1</HidePropsRadius>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+          <HarbourAreaExpand>1</HarbourAreaExpand>
+        </Blocking>
+        <Building>
+          <BuildingCategoryName>11150</BuildingCategoryName>
+          <Destructable>1</Destructable>
+          <TerrainType>Water_Including_Coast</TerrainType>
+          <AssociatedRegions>Africa</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>45000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114356</Ingredient>
+              <Amount>65</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114402</Ingredient>
+              <Amount>125</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection>
+          <GUIType>Pier</GUIType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\dlc06\graphics\mod_buildings\landing_stage\archiv\harbor_militarymaster_building.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>200896</Sound>
+            </Item>
+          </ActiveSounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <Sound>206544</Sound>
+              </Item>
+            </BuildSuccessful>
+          </ConstructionSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRuined>
+            <Item>
+              <Sound>203848</Sound>
+            </Item>
+          </BuildingRuined>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <Locked />
+        <Infolayer />
+        <FeedbackController />
+        <MinimapToken />
+        <AmbientMoodProvider />
+        <LoadingPier>
+          <NumOfPiers>1</NumOfPiers>
+          <LoadingSpeed>2</LoadingSpeed>
+          <MinLoadingTime>5</MinLoadingTime>
+          <AllowExclusiveTrading>1</AllowExclusiveTrading>
+        </LoadingPier>
+        <Attackable>
+          <AttackableType>HarbourBuilding</AttackableType>
+          <MaximumHitPoints>9000</MaximumHitPoints>
+          <HPBarOffset>5.5</HPBarOffset>
+          <HasRuinState>1</HasRuinState>
+          <PausedTimeIfAttacked>0</PausedTimeIfAttacked>
+          <SelfHealPerHealTick>5</SelfHealPerHealTick>
+          <MilitaryDefensePoints>5</MilitaryDefensePoints>          
+          <MoralePower>150</MoralePower>
+          <IslandWarFlag>102303</IslandWarFlag>
+          <ExplosionEffects>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>HarborLandingStage7</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <ExplosionEffectFilePath>data/graphics/effects/military/explosions/harbor_generic_xpl_02.cfg</ExplosionEffectFilePath>
+            </Item>
+          </ExplosionEffects>
+          <ExplosionEffectsMin>2</ExplosionEffectsMin>
+          <ExplosionEffectsMax>2</ExplosionEffectsMax>
+        </Attackable>        
+        <StorageBase>
+          <ProductStorageList>120060</ProductStorageList>
+        </StorageBase>        
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>350</Amount>
+              <InactiveAmount>225</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <UpgradeList />          
+        <LogisticNode>
+          <TransporterCountMax>0</TransporterCountMax>
+        </LogisticNode>
+        <Upgradable />
+        <Culture>
+          <Attractiveness>50</Attractiveness>
+        </Culture>
+      </Values>
+    </Asset>
+  </ModOp>  
+
+  <!-- # DEPRECATED: Special Ornaments -->
+  <ModOp Type="addNextSibling" GUID="114436">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119445</GUID>
+          <Name>Special Ornaments Safari</Name>          
+          <InfoDescription>2100119359</InfoDescription>
+        </Standard>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <AssociatedRegions>Africa</AssociatedRegions>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <BuildModeStartVariation>0</BuildModeStartVariation>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>500</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Object>
+          <Variations>            
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/safari_ornaments/archiv/ornaments_fountain_01_enbesa.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/ornamental/seasonpass/s02_fountain_elephant_2x3_01.cfg</Filename>
+            </Item>            
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/safari_ornaments/enbesa_lookout_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/safari_ornaments/enbesa_watchtower_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/safari_ornaments/woodcutter_camp_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/safari_ornaments/red_tent_big_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/safari_ornaments/red_tent_small_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/safari_ornaments/tunnel_entrance_02_02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/safari_ornaments/mining_colony01_01.cfg</Filename>
+            </Item>            
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/safari_ornaments/book_shelf_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh />
+        <SoundEmitter />
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>2100119359</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # DEPRECATED: Water ornaments without quay, rocks on water-->
+  <ModOp Type="addNextSibling" GUID="114436">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119331</GUID>
+          <Name>Water ornaments</Name>          
+          <InfoDescription>2100119366</InfoDescription>
+        </Standard>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <AssociatedRegions>Africa</AssociatedRegions>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <BuildModeStartVariation>0</BuildModeStartVariation>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <TerrainType>Water_Including_Coast</TerrainType>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/water_ornaments/archiv/pebbles_03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/water_ornaments/archiv/secretpassage_rocks_03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/water_ornaments/archiv/secretpassage_rocks_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/water_ornaments/archiv/rock_colony02_07.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/water_ornaments/wooden_quay_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/water_ornaments/beach_decal_02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc07/graphics/buildings/ornamental/docks_ornament_bridge_closed_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc07/graphics/buildings/ornamental/docks_ornament_bridge_open_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh />
+        <SoundEmitter />
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>17744</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # DEPRECATED: Water ornaments with quay-->
+  <ModOp Type="addNextSibling" GUID="114436">
+    <Asset>
+      <Template>HarborOrnament</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119335</GUID>
+          <Name>Water ornaments with quay</Name>          
+          <InfoDescription>2100119367</InfoDescription>
+        </Standard>
+        <Blocking>
+          <GroundDecalAsset>117730</GroundDecalAsset>
+          <GroundDecalInvisible>117731</GroundDecalInvisible>
+        </Blocking>
+        <Building>
+          <AssociatedRegions>Africa</AssociatedRegions>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <BuildModeStartVariation>0</BuildModeStartVariation>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <TerrainType>Water_Including_Coast</TerrainType>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\dlc06\graphics\mod_buildings\water_ornaments\harbor_bench_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data\dlc06\graphics\mod_buildings\water_ornaments\harbor_benches_1x1.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc07/graphics/buildings/ornamental/docks_ornaments_harbor_lamp_01_1x1.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data\dlc06\graphics\mod_buildings\water_ornaments\harbor_kiosk_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc07/graphics/buildings/ornamental/docks_ornaments_boats_01_2x2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc07/graphics/buildings/ornamental/docks_ornaments_warehouse_01_2x2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc07/graphics/buildings/ornamental/docks_ornaments_harbor_crane_01_2x2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc07/graphics/buildings/ornamental/docks_ornaments_industrial_crane_01_2x3.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc07/graphics/buildings/ornamental/docks_lighthouse_01_2x2.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh />
+        <SoundEmitter />
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>2</OrnamentUnit>
+          <OrnamentDescription>17744</OrnamentDescription>
+          <PlazzaSize>1</PlazzaSize>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+
+</ModOps>

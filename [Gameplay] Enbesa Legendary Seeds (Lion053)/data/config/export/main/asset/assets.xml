@@ -1,0 +1,600 @@
+<!-- Legendary Seeds Enbesa -->
+
+<ModOps>
+
+  <!-- # Hibiscus fertility item-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119221</GUID>
+          <Name>Rooibos Seeds from the very south of Enbesa (Aspalathus linearis)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/fertilities/icon_hibiscus_seeds_0.png</IconFilename>
+          <InfoDescription>2100119229</InfoDescription>
+        </Standard>        
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <TradePrice>300000</TradePrice>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AddedFertility>114352</AddedFertility>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>114447</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>15</BaseMorale>
+          <ItemDifficulties>Hard</ItemDifficulties>
+        </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Flachs fertility item-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119222</GUID>
+          <Name>Fungi resistant flax from Kidushi Anitoni (Linum usitatissimum)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/fertilities/icon_flachs_seeds_0.png</IconFilename>
+          <InfoDescription>2100119229</InfoDescription>
+        </Standard>        
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <TradePrice>300000</TradePrice>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AddedFertility>114343</AddedFertility>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>114448</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>15</BaseMorale>
+          <ItemDifficulties>Hard</ItemDifficulties>
+        </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade />
+        <ModuleOwnerUpgrade>
+          <ModuleLimitPercent>5</ModuleLimitPercent>
+        </ModuleOwnerUpgrade>
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Teff fertility item-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119223</GUID>
+          <Name>Hawi's tiny tef seeds (Eragrostis tef)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/fertilities/icon_teff_seeds_0.png</IconFilename>
+          <InfoDescription>2100119229</InfoDescription>
+        </Standard>        
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <TradePrice>300000</TradePrice>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AddedFertility>114345</AddedFertility>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>114450</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>15</BaseMorale>
+          <ItemDifficulties>Hard</ItemDifficulties>
+        </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Indigo fertility item-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119224</GUID>
+          <Name>Adolf von Baeyers synthesized Indigo seeds (Indigofera tinctoria)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/fertilities/icon_indigo_seeds_0.png</IconFilename>
+          <InfoDescription>2100119229</InfoDescription>
+        </Standard>        
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <TradePrice>300000</TradePrice>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AddedFertility>114347</AddedFertility>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>114451</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>15</BaseMorale>
+          <ItemDifficulties>Hard</ItemDifficulties>
+        </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Spice fertility item-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119225</GUID>
+          <Name>Ketema's double crossed spices</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/fertilities/icon_spice_seeds_0.png</IconFilename>
+          <InfoDescription>2100119229</InfoDescription>
+        </Standard>        
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <TradePrice>300000</TradePrice>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AddedFertility>114348</AddedFertility>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>114452</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>15</BaseMorale>
+          <ItemDifficulties>Hard</ItemDifficulties>
+        </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Hummer fertility item-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>HarborOfficeItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119226</GUID>
+          <Name>Hasselbay's fast growing lobsters (Homarus gammarus)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/fertilities/icon_hummer_seeds_0.png</IconFilename>
+          <InfoDescription>2100119229</InfoDescription>
+        </Standard>        
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <TradePrice>300000</TradePrice>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AddedFertility>118727</AddedFertility>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>118729</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>15</BaseMorale>
+          <ItemDifficulties>Hard</ItemDifficulties>
+        </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>35</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Bees fertility item-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119227</GUID>
+          <Name>Ababe's Land of Milk and Honey for bees</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/fertilities/icon_bees_seeds_0.png</IconFilename>
+          <InfoDescription>2100119229</InfoDescription>
+        </Standard>        
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <TradePrice>300000</TradePrice>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>40</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AddedFertility>114349</AddedFertility>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>114453</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>15</BaseMorale>
+          <ItemDifficulties>Hard</ItemDifficulties>
+        </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <ModuleOwnerUpgrade>
+          <ModuleLimitPercent>-20</ModuleLimitPercent>
+        </ModuleOwnerUpgrade>
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # New item for the irrigation system-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119228</GUID>
+          <Name>Biniams complex mechanical flood gate system</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/fertilities/icon_floodgate_biniam_0.png</IconFilename>
+          <InfoDescription>2100119230</InfoDescription>          
+        </Standard>       
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <TradePrice>600000</TradePrice>
+        </Item>
+        <FactoryUpgrade />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>114544</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute />
+        <CultureUpgrade />
+        <BuildingUpgrade>
+          <MaintenanceUpgrade>
+            <Value>100</Value>
+            <Percental>1</Percental>
+          </MaintenanceUpgrade>
+        </BuildingUpgrade>
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked>
+          <DLCDependency>410071</DLCDependency>
+        </Locked>
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade>
+          <PipeCapacityUpgrade>
+            <Value>800</Value>
+          </PipeCapacityUpgrade>
+        </IrrigationUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Create new Itempool Legendary Seeds Enbesa TradeUnion-->
+  <ModOp Type="addNextSibling" GUID="22676">
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119231</GUID>
+          <Name>LegendarySeedsEnbesaTradeUnion</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool></ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Create new Itempool Legendary Seeds Enbesa HarborOffice-->
+  <ModOp Type="addNextSibling" GUID="22676">
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119232</GUID>
+          <Name>LegendarySeedsEnbesaHarborOffice</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool></ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Items to new Itempool Legendary Seeds Enbesa TradeUnion-->
+  <ModOp Type="add" GUID="2100119231" Path="/Values/RewardPool/ItemsPool">
+
+    <Item>
+      <ItemLink>2100119221</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119222</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119223</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119224</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119225</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119227</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119228</ItemLink>
+    </Item>
+  </ModOp>
+
+  <!-- # Add new Items to new Itempool Legendary Seeds Enbesa HarborOffice-->
+  <ModOp Type="add" GUID="2100119232" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>2100119226</ItemLink>
+    </Item>
+  </ModOp>
+
+  <!-- # Add new Items to associated AssetPool-->
+  <ModOp Type="add" GUID="129504" Path="/Values/AssetPool/AssetList">
+    <Item>
+      <Asset>2100119221</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119222</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119223</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119224</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119225</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119226</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119227</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119228</Asset>
+    </Item>
+  </ModOp>
+
+  <!-- # Add Itempools to existing Itempools with weight 10 and 2-->
+  <ModOp Type="add" GUID="130314,130304,130378,129990,127480,127479,127478,127476,127840" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>2100119231</ItemLink>
+      <!--Change Weight between 1 and 100; sensible values: 1 to 20-->
+      <Weight>10</Weight>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="130314,130304,130378,129990,127480,127479,127478,127476,127842" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>2100119232</ItemLink>
+      <!--Change Weight between 1 and 100; sensible values: 1 to 10-->
+      <Weight>2</Weight>
+    </Item>
+  </ModOp>
+
+
+  <!-- # Reset Trigger for new Items; 114336 includes 129504 which includes the items-->
+  <ModOp Type="addNextSibling" GUID="114336">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119233</GUID>
+          <Name>Rerun TriggerItems Intermediate Africa 2.0</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>114330</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionRegisterTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionRegisterTrigger>
+                    <TriggerAsset>114336</TriggerAsset>
+                  </ActionRegisterTrigger>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
+</ModOps>

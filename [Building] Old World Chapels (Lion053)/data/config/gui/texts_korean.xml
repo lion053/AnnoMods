@@ -1,0 +1,30 @@
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<Text>			
+			<GUID>2100115121</GUID>
+			<Text>예배당</Text>
+		</Text>	
+		<Text>			
+			<GUID>2100115122</GUID>
+			<Text>예배당 화려한</Text>
+		</Text>	
+		<Text>			
+			<GUID>2100115125</GUID>
+			<Text>주민들이 교회를 얻습니다</Text>
+		</Text>	
+		<Text>			
+			<GUID>2100115127</GUID>
+			<Text>1404 예배당</Text>
+		</Text>	
+		<Text>
+			<GUID>2100115156</GUID>
+			<Text>Old World Chapels</Text>
+		</Text>
+
+  </ModOp>
+
+</ModOps>

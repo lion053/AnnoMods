@@ -1,0 +1,52 @@
+{
+  "Version": "2.2",
+  "ModID": "lion053_Ornamental_Residences",
+  "IncompatibleIds": [],
+
+  "ModDependencies": null,
+
+  "Category": {
+    "Chinese": "Ornamental",
+    "English": "Ornamental",
+    "French": "Ornamental",
+    "German": "Ornamental",
+    "Italian": "Ornamental",
+    "Japanese": "Ornamental",
+    "Korean": "Ornamental",
+    "Polish": "Ornamental",
+    "Russian": "Ornamental",
+    "Spanish": "Ornamental",
+    "Taiwanese": "Ornamental"
+  },
+
+  "ModName": {
+    "Chinese": "Ornamental Residences (Lion053)",
+    "English": "Ornamental Residences (Lion053)",
+    "French": "Ornamental Residences (Lion053)",
+    "German": "Ornamental Residences (Lion053)",
+    "Italian": "Ornamental Residences (Lion053)",
+    "Japanese": "Ornamental Residences (Lion053)",
+    "Korean": "Ornamental Residences (Lion053)",
+    "Polish": "Ornamental Residences (Lion053)",
+    "Russian": "Ornamental Residences (Lion053)",
+    "Spanish": "Ornamental Residences (Lion053)",
+    "Taiwanese": "Ornamental Residences (Lion053)"
+  },
+  "Description": {
+    "Chinese": "Build farmer, worker, artisan, engineer, investor, scholar, jornalero, obrero, artista, shephard, elder and hacienda residences without street connection to fill gaps in your cities.",
+    "English": "Build farmer, worker, artisan, engineer, investor, scholar, jornalero, obrero, artista, shephard, elder and hacienda residences without street connection to fill gaps in your cities.",
+    "French": "Build farmer, worker, artisan, engineer, investor, scholar, jornalero, obrero, artista, shephard, elder and hacienda residences without street connection to fill gaps in your cities.",
+    "German": "Baue Bauern, Arbeiter, Handwerker, Ingenieurs, Investoren, Gelehrten, Jornalero, Obrero, Artista, Hirten, Ältesten und Hacienda Wohnhäuser ohne Straßenanbindung.",
+    "Italian": "Build farmer, worker, artisan, engineer, investor, scholar, jornalero, obrero, artista, shephard, elder and hacienda residences without street connection to fill gaps in your cities.",
+    "Japanese": "Build farmer, worker, artisan, engineer, investor, scholar, jornalero, obrero, artista, shephard, elder and hacienda residences without street connection to fill gaps in your cities.",
+    "Korean": "Build farmer, worker, artisan, engineer, investor, scholar, jornalero, obrero, artista, shephard, elder and hacienda residences without street connection to fill gaps in your cities.",
+    "Polish": "Build farmer, worker, artisan, engineer, investor, scholar, jornalero, obrero, artista, shephard, elder and hacienda residences without street connection to fill gaps in your cities.",
+    "Russian": "Build farmer, worker, artisan, engineer, investor, scholar, jornalero, obrero, artista, shephard, elder and hacienda residences without street connection to fill gaps in your cities.",
+    "Spanish": "Build farmer, worker, artisan, engineer, investor, scholar, jornalero, obrero, artista, shephard, elder and hacienda residences without street connection to fill gaps in your cities.",
+    "Taiwanese": "Build farmer, worker, artisan, engineer, investor, scholar, jornalero, obrero, artista, shephard, elder and hacienda residences without street connection to fill gaps in your cities."
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Lion053",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
+}

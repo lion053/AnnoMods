@@ -1,0 +1,686 @@
+
+<!-- Templates for Subway System -->
+
+<ModOps>
+
+	<!-- # Subway Factory -->
+	<ModOp Type="addNextSibling" Path="//Template[Name='FactoryBuilding7']">
+		<Template>
+			<Name>lion053_FactoryBuilding7</Name>
+			<Properties>
+				<Standard />
+				<Building>
+					<BuildingType>Factory</BuildingType>
+				</Building>
+				<Blocking />
+				<Cost />
+				<Object>
+					<IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
+				</Object>
+				<Mesh />
+				<Selection>
+					<GUIType>Production</GUIType>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+						  <ActionList />
+						</Values>
+					</OnSelection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Text />
+				<Constructable>
+            		<DestructionCategory>Production</DestructionCategory>
+          		</Constructable>
+				<Locked />
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>202368</Sound>
+							</Item>
+              			</BuildSuccessful>
+						<BuildFailed>
+							<Item>
+								<Sound>9818387</Sound>
+							</Item>
+						</BuildFailed>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<IncidentSounds>
+						<InfectedFire>
+							<Item>
+								<Sound>214659</Sound>
+							</Item>
+						</InfectedFire>
+          			</IncidentSounds>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+            		</BuildingRepaired>
+				</SoundEmitter>
+				<IncidentInfectable>
+					<Infectable>
+						<Fire>
+							<Communication>FireIndustry</Communication>
+						</Fire>
+						<Riot>
+							<Communication>RiotIndustry</Communication>
+							<InitiallySpreadToSameGUID>1</InitiallySpreadToSameGUID>
+						</Riot>
+						<Illness>
+							<Base>0</Base>
+							<Escalated>0</Escalated>
+							<Communication>IllnessIndustry</Communication>
+						</Illness>
+						<Explosion>
+							<Communication>ExplosionIndustry</Communication>
+						</Explosion>
+					</Infectable>
+					<Explosion>
+					  <ExplosionCoreDamage>2000</ExplosionCoreDamage>
+					  <DamageExplosionChance>15</DamageExplosionChance>
+					</Explosion>
+					<IncidentInfectionChanceFactors>
+					  <Fire>
+						<BaseChance>10</BaseChance>
+						<DensityDistance>20</DensityDistance>
+						<FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+						<FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+					  </Fire>
+					  <Riot>
+						<FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+						<FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+						<FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+						<HappinessThreshold>20</HappinessThreshold>
+					  </Riot>
+					  <Explosion>
+						<BaseChance>4</BaseChance>
+						<FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+						<FactoryOvertimeFactor>0.1</FactoryOvertimeFactor>
+						<FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+					  </Explosion>
+					</IncidentInfectionChanceFactors>
+				</IncidentInfectable>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Infolayer />
+				<Industrializable>
+					<MandatoryIndustrialization>1</MandatoryIndustrialization>
+				</Industrializable>
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+				</Electrifiable>
+				<Pausable>
+					<CanPauseManually>1</CanPauseManually>
+				</Pausable>
+				<UpgradeList />
+				<Factory7 />
+				<FactoryBase />
+				<LogisticNode />
+				<AmbientMoodProvider>
+            		<DynamicEnvironmentType>Building_Industry</DynamicEnvironmentType>
+					<Murmur>Factory</Murmur>
+          		</AmbientMoodProvider>
+				<Maintenance>
+					<IncomeCategory>ProductionBuildings</IncomeCategory>
+				</Maintenance>
+				<Attackable>
+					<AttackableType>IslandBuilding</AttackableType>
+            		<HasRuinState>1</HasRuinState>
+            		<SelfHealPerHealTick>6</SelfHealPerHealTick>
+          		</Attackable>
+				<Explosion />
+				<Culture>
+            		<CultureType>Factory</CultureType>
+          		</Culture>
+			</Properties>
+		</Template>
+	</ModOp>
+
+	<!-- # MTD -->
+	<ModOp Type="addNextSibling" Path="//Template[Name='FactoryBuilding7']">
+		<Template>
+			<Name>lion053_Upgradable_MTD</Name>
+			<Properties>
+				<Standard />
+				<Building>
+					<BuildingType>Factory</BuildingType>
+					<BuildModeRandomRotation>180</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate</AssociatedRegions>
+					<BuildingCategoryName>11152</BuildingCategoryName>
+					<AllowChangeVariation>1</AllowChangeVariation>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<DestructionConfirmation>1</DestructionConfirmation>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+				</Building>
+				<Blocking>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+				<Cost />
+				<Object>
+          			<IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
+					<Skins>
+                        <DefaultSkinName>2100115231</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+        		</Object>
+				<Mesh>
+					<SkyDayListener>1</SkyDayListener>
+				</Mesh>
+				<Selection>
+					<GUIType>Production</GUIType>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+					<ParticipantMessageTrigger>ClickKontor</ParticipantMessageTrigger>
+					<ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Constructable>
+         			<DestructionCategory>Production</DestructionCategory>
+        		</Constructable>
+				<Locked />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>280022</Sound>
+						</Item>
+					</ActiveSounds>
+					<IncidentSounds>
+						<InfectedFire>
+							<Item>
+								<Sound>214659</Sound>
+							</Item>
+						</InfectedFire>
+					</IncidentSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+							<Sound>202368</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildFailed>
+							<Item>
+							<Sound>9818387</Sound>
+							</Item>
+						</BuildFailed>
+						<BuildMoveStart>
+							<Item>
+							<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+							<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+							<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+            		</ConstructionSounds>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+            		</BuildingRepaired>
+				</SoundEmitter>
+				<FeedbackController>
+					<NightBehavior>HideAll</NightBehavior>
+				</FeedbackController>
+				<Infolayer />
+				<UpgradeList />
+				<Factory7 />
+          		<FactoryBase />
+				<LogisticNode>
+					<TransporterCountMax>1</TransporterCountMax>
+         			<TransporterAsset>120028</TransporterAsset>
+          			<REMOVE_THIS_LATER_FeedbackUnitTier>Level4</REMOVE_THIS_LATER_FeedbackUnitTier>
+          			<NeedsTransporterQueue>1</NeedsTransporterQueue>
+				</LogisticNode>
+				<BuffFactory>
+					<ProductionBuffScope>Area</ProductionBuffScope>
+				</BuffFactory>
+				<AmbientMoodProvider>
+					<AmbientMood>ResidenceTier5</AmbientMood>
+				</AmbientMoodProvider>
+				<Maintenance>
+					<IncomeCategory>AdministrationBuildings</IncomeCategory>
+				</Maintenance>
+				<Attackable>
+					<AttackableType>IslandBuilding</AttackableType>
+					<SelfHealPerHealTick>6</SelfHealPerHealTick>
+					<HasRuinState>1</HasRuinState>
+				</Attackable>
+				<Pausable />
+				<Industrializable>
+					<MandatoryIndustrialization>1</MandatoryIndustrialization>
+					<BoostedByIndustrialization>1</BoostedByIndustrialization>
+				</Industrializable>
+				<StreetActivation />
+				<Culture>
+					<CultureType>Factory</CultureType>
+				</Culture>
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+				</Electrifiable>
+				<Upgradable />
+				<BuildingUnique>
+					<Uniques>
+					  <Item>
+						<UniqueType>Mod1</UniqueType>
+						<UniqueScope>Area</UniqueScope>
+					  </Item>
+					</Uniques>
+				</BuildingUnique>
+			</Properties>
+		</Template>
+	</ModOp>
+
+	<!-- # Subway Stations -->
+	<ModOp Type="addNextSibling" Path="//Template[Name='FactoryBuilding7']">
+		<Template>
+			<Name>lion053_Subway_Station</Name>
+			<Properties>
+				<Standard />
+				<Building>
+					<BuildingType>Factory</BuildingType>
+					<BuildModeRandomRotation>180</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+				</Building>
+				<Blocking />
+				<Object />
+				<Cost />
+				<Mesh />
+				<Selection>
+					<GUIType>Production</GUIType>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+					<ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+				</Selection>
+				<Constructable />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>280018</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+							<Sound>202368</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildFailed>
+							<Item>
+							<Sound>9818387</Sound>
+							</Item>
+						</BuildFailed>
+						<BuildMoveStart>
+							<Item>
+							<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+							<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+							<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+            		</ConstructionSounds>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+					</BuildingRepaired>
+				</SoundEmitter>
+				<FactoryBase />
+				<LogisticNode />
+				<Locked/>
+				<Maintenance>
+					<IncomeCategory>ProductionBuildings</IncomeCategory>
+				</Maintenance>
+				<Industrializable>
+					<MandatoryIndustrialization>1</MandatoryIndustrialization>
+				</Industrializable>
+				<IncidentInfectable>
+					<Infectable>
+						<Illness>
+							<Base>0</Base>
+							<Escalated>0</Escalated>
+						</Illness>
+						<Explosion>
+							<Base>0</Base>
+							<Escalated>0</Escalated>
+						</Explosion>
+					</Infectable>
+					<IncidentInfectionChanceFactors>
+						<Fire>
+							<DensityDistance>0</DensityDistance>
+							<FactoryProductivityFactor>0.0</FactoryProductivityFactor>
+							<FactoryUndertimeFactor>0.00</FactoryUndertimeFactor>
+						</Fire>
+						<Riot>
+							<FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+							<FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+							<FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+							<HappinessThreshold>20</HappinessThreshold>
+						</Riot>
+					</IncidentInfectionChanceFactors>
+				</IncidentInfectable>
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+				</Electrifiable>
+				<AmbientMoodProvider>
+					<Murmur>EngineerHappy</Murmur>
+					<DynamicEnvironmentType>Building_Industry</DynamicEnvironmentType>
+				</AmbientMoodProvider>
+				<Attackable>
+					<AttackableType>IslandBuilding</AttackableType>
+					<MaximumHitPoints>8000</MaximumHitPoints>
+				</Attackable>
+				<UpgradeList />
+				<Pausable />
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Infolayer />
+				<BuffFactory />
+				<Culture>
+					<CultureType>Factory</CultureType>
+				</Culture>
+				<Nameable />
+			</Properties>
+		</Template>
+	</ModOp>
+
+	<!-- # Subway Factory Modules -->
+	<ModOp Type="addNextSibling" Path="//Template[Name='FactoryBuilding7']">
+		<Template>
+			<Name>lion053_BuffFactoryModule</Name>
+			<Properties>
+				<Standard />
+				<Building>
+					<BuildingType>Factory</BuildingType>
+					<AllowChangeVariation>1</AllowChangeVariation>
+					<AssociatedRegions>Moderate</AssociatedRegions>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+				</Building>
+				<Blocking />
+				<Object>
+					<IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
+				</Object>
+				<Cost />
+				<Mesh />
+				<Selection>
+					<GUIType>Generic</GUIType>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+					<ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+				</Selection>
+				<Constructable>
+            		<DestructionCategory>Production</DestructionCategory>
+          		</Constructable>
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+						  <Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+						  <Item>
+							<Sound>202368</Sound>
+						  </Item>
+						</BuildSuccessful>
+						<BuildFailed>
+						  <Item>
+							<Sound>9818387</Sound>
+						  </Item>
+						</BuildFailed>
+						<BuildMoveStart>
+						  <Item>
+							<Sound>9818755</Sound>
+						  </Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+						  <Item>
+							<Sound>203995</Sound>
+						  </Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+						  <Item>
+							<Sound>200141</Sound>
+						  </Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+            		</BuildingRepaired>
+					<MaterialType>Metal</MaterialType>
+				</SoundEmitter>
+				<FactoryBase>
+					<ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          			<ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+				</FactoryBase>
+				<Locked />
+				<LogisticNode>
+					<TransporterCountMax>0</TransporterCountMax>
+				</LogisticNode>
+				<Maintenance>
+					<IncomeCategory>ProductionBuildings</IncomeCategory>
+				</Maintenance>
+				<Industrializable>
+					<BoostedByIndustrialization>0</BoostedByIndustrialization>
+				</Industrializable>
+				<IncidentInfectable>
+					<Infectable>
+						<Fire>
+							<Communication>FireIndustry</Communication>
+						</Fire>
+						<Riot>
+							<Communication>RiotIndustry</Communication>
+							<InitiallySpreadToSameGUID>1</InitiallySpreadToSameGUID>
+						</Riot>
+						<Illness>
+							<Base>0</Base>
+							<Escalated>0</Escalated>
+							<Communication>IllnessIndustry</Communication>
+						</Illness>
+						<Explosion>
+							<Communication>ExplosionIndustry</Communication>
+							<Base>0</Base>
+                            <Escalated>0</Escalated>
+						</Explosion>
+					</Infectable>
+					<IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>20</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                        <Riot>
+                            <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                            <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                            <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                            <HappinessThreshold>20</HappinessThreshold>
+                        </Riot>
+                    </IncidentInfectionChanceFactors>
+				</IncidentInfectable>
+				<Electrifiable />
+				<AmbientMoodProvider>
+					<DynamicEnvironmentType>Building_Industry</DynamicEnvironmentType>
+					<Murmur>Factory</Murmur>
+          		</AmbientMoodProvider>
+				<Attackable>
+					<AttackableType>IslandBuilding</AttackableType>
+            		<HasRuinState>1</HasRuinState>
+					<MaximumHitPoints>3500</MaximumHitPoints>
+            		<SelfHealPerHealTick>6</SelfHealPerHealTick>
+          		</Attackable>
+				<UpgradeList />
+				<Pausable>
+					<CanPauseManually>1</CanPauseManually>
+				</Pausable>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Infolayer />
+				<Culture />
+				<BuffFactory />
+				<Ornament />
+			</Properties>
+		</Template>
+	</ModOp>
+
+	<!-- # Ornaments -->
+	<ModOp Type="addNextSibling" Path="//Template[Name='FactoryBuilding7']">
+		<Template>
+			<Name>lion053_Ornament_with_Buff</Name>
+			<Properties>
+				<Standard>
+					<InfoDescription>163093</InfoDescription>
+				</Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+        			<DeletePropsRadius>0</DeletePropsRadius>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildModeRandomRotation>180</BuildModeRandomRotation>
+					<AllowChangeVariation>1</AllowChangeVariation>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+				</Building>
+				<Cost />
+				<Selection>
+					<GUIType>Generic</GUIType>
+					<OnSelection>
+					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+					<Values>
+						<ActionList />
+					</Values>
+					</OnSelection>
+					<Colors>
+					<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
+				</Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>202368</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildFailed>
+							<Item>
+								<Sound>9818387</Sound>
+							</Item>
+						</BuildFailed>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+				</SoundEmitter>
+				<Locked />
+				<FeedbackController>
+					<NightBehavior>HideAll</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<PlazzaSize>20</PlazzaSize>
+				</Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+				<BuffFactory />
+				<FactoryBase />
+				<UpgradeList />
+				<Maintenance />
+				<LogisticNode />
+			</Properties>
+		</Template>
+	</ModOp>
+
+</ModOps>

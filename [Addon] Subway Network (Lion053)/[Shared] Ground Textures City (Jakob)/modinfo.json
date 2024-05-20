@@ -1,0 +1,45 @@
+{
+  "Version": "1.0",
+  "ModID": "shared-ground-textures-city-jakob",
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "English": "Ground Textures City (Jakob)",
+    "Chinese": "Ground Textures City (Jakob)",
+    "French": "Ground Textures City (Jakob)",
+    "German": "Ground Textures City (Jakob)",
+    "Italian": "Ground Textures City (Jakob)",
+    "Japanese": "Ground Textures City (Jakob)",
+    "Korean": "Ground Textures City (Jakob)",
+    "Polish": "Ground Textures City (Jakob)",
+    "Russian": "Ground Textures City (Jakob)",
+    "Spanish": "Ground Textures City (Jakob)",
+    "Taiwanese": "Ground Textures City (Jakob)"
+  },
+  "CreatorName": "Jakob",
+  "CreatorContact": "https://github.com/jakobharder/anno-1800-jakobs-mods",
+  "Description": {
+    "English": "# City Ground Textures\n\nModular ground textures used and shared by other mods.\n",
+    "Chinese": null,
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  }
+}

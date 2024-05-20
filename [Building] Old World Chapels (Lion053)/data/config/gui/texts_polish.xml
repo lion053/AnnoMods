@@ -1,0 +1,30 @@
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<Text>			
+			<GUID>2100115121</GUID>
+			<Text>Kaplica</Text>
+		</Text>	
+		<Text>			
+			<GUID>2100115122</GUID>
+			<Text>Kaplica, kolorowy</Text>
+		</Text>	
+		<Text>			
+			<GUID>2100115125</GUID>
+			<Text>Zaspokaja potrzeby kościoła</Text>
+		</Text>	
+		<Text>			
+			<GUID>2100115127</GUID>
+			<Text>1404 Kaplica</Text>
+		</Text>	
+		<Text>
+			<GUID>2100115156</GUID>
+			<Text>Old World Chapels</Text>
+		</Text>
+
+  </ModOp>
+
+</ModOps>

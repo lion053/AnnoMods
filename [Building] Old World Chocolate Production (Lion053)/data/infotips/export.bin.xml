@@ -1,0 +1,453 @@
+<ModOps>
+
+  <!-- # Production Output Infotip Combined with Buff Infotip (not used yet, since FactoryOutput + BuffFactory won´t work together smoothly in the statistics menu) -->
+  <ModOp Type="addNextSibling" Path ="//InfoTipData[Guid='25000208']">
+    <InfoTipData>
+      <Guid>2100118238</Guid>
+      <ChildCount>6</ChildCount>
+      <!-- Regular Output info -->
+      <InfoElement>
+        <ElementType>1</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconGUID>501701</IconGUID> <!-- Icon transporter loading -->
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>100371</TextGUID> <!-- Header "Output Storage" -->
+          <Style />
+        </Text>
+        <Value>
+          <Style />
+        </Value>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>5</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Text>
+          <TextGUID>17465</TextGUID> <!-- "Storage" -->
+          <Style />
+        </Text>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconText>[AssetData([RefGuid]) Icon]</IconText> <!-- any goods icon -->
+          <Style />
+        </Icon>
+        <Text>
+          <Text>[AssetData([RefGuid]) Text]</Text> <!-- any goods name -->
+          <Style />
+        </Text>
+        <Value>
+          <Text>[Selection Object Logistic StorageAmount([RefGuid]) &gt;&gt; storagegood]/[Selection Object Logistic StorageCapacity([RefGuid]) &gt;&gt; storagegood]</Text>
+          <Style />
+        </Value>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <Condition>[Selection Object Logistic FreeSpace([RefGuid])]</Condition>
+          </VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconGUID>501701</IconGUID> <!-- Icon transporter loading -->
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>100406</TextGUID> <!-- "Full Output Storage"-->
+          <Style />
+        </Text>
+        <Value>
+          <Style />
+        </Value>
+        <WarningType>
+          <WarningType>2</WarningType>
+        </WarningType>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>4</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>4</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>1</CompareOperator>
+            </CompareOperator>
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>270044</ExpectedValueInt> <!-- Fuel Station Test -->
+            <Condition>[Selection Object GUID]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>1</CompareOperator>
+            </CompareOperator>
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>118571</ExpectedValueInt> <!-- Fuel Station OW -->
+            <Condition>[Selection Object GUID]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>1</CompareOperator>
+            </CompareOperator>
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>269840</ExpectedValueInt> <!-- Fuel Station NW -->
+            <Condition>[Selection Object GUID]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>1</CompareOperator>
+            </CompareOperator>
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>119028</ExpectedValueInt> <!-- Fuel Station Africa -->
+            <Condition>[Selection Object GUID]</Condition>
+          </VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>6</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Style />
+          </Text>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>5</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <TextGUID>100375</TextGUID> <!-- "In Island Storage" -->
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconText>[AssetData([RefGuid]) Icon]</IconText>
+            <Style />
+          </Icon>
+          <Text>
+            <Text>[AssetData([RefGuid]) Text]</Text>
+            <Style />
+          </Text>
+          <Value>
+            <Text>[Selection Object Area Economy StorageAmount([RefGuid]) &gt;&gt; storagegood]/[Selection Object Area Economy StorageCapacity([RefGuid]) &gt;&gt; storagegood]</Text>
+            <Style />
+          </Value>
+          <WarningType />
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>8</ElementType>
+          <ChildCount>2</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <ChildCount>1</ChildCount>
+              <VisibilityElement>
+                <ElementType>
+                  <ElementType>1</ElementType>
+                </ElementType>
+                <CompareOperator />
+                <ResultType>
+                  <ResultType>1</ResultType>
+                </ResultType>
+                <Condition>[Area Current Economy FreeSpace([RefGuid])]</Condition>
+              </VisibilityElement>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconGUID>501703</IconGUID>
+              <Style />
+            </Icon>
+            <Text>
+              <TextGUID>22030</TextGUID> <!-- "Island Storage Full" -->
+              <Style />
+            </Text>
+            <Value>
+              <Style />
+            </Value>
+            <WarningType>
+              <WarningType>2</WarningType>
+            </WarningType>
+            <BackgroundType />
+          </InfoElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <ChildCount>2</ChildCount>
+              <VisibilityElement>
+                <ElementType>
+                  <ElementType>1</ElementType>
+                </ElementType>
+                <CompareOperator />
+                <ResultType />
+                <ExpectedValueBool>False</ExpectedValueBool>
+                <Condition>[Selection Object Factory TeleportsProducedGoodsDirectlyIntoAreaStorage]</Condition>
+              </VisibilityElement>
+              <VisibilityElement>
+                <ElementType>
+                  <ElementType>1</ElementType>
+                </ElementType>
+                <CompareOperator />
+                <ResultType />
+                <Condition>[Selection Object Factory NoWarehouseInRange]</Condition>
+              </VisibilityElement>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconGUID>501703</IconGUID>
+              <Style />
+            </Icon>
+            <Text>
+              <TextGUID>2762</TextGUID> <!-- "No Warehouse in Range"-->
+              <Style />
+            </Text>
+            <Value>
+              <Style />
+            </Value>
+            <WarningType>
+              <WarningType>2</WarningType>
+            </WarningType>
+            <BackgroundType />
+          </InfoElement>
+        </InfoElement>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>6</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Text>
+          <Style />
+        </Text>
+      </InfoElement>
+      <!-- Added Buff infotip -->
+      <InfoElement>
+        <ElementType>2</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconGUID>2100118205</IconGUID>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2100118205</TextGUID>
+          <Style />
+        </Text>
+        <SubText>
+          <TextGUID>2363</TextGUID> <!-- "Effect" -->
+          <Style />
+        </SubText>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>5</CompareOperator>
+            </CompareOperator>
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <Condition>[ToolOneHelper ItemOrBuffEffectTargets(2100118205)]</Condition>
+          </VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>5</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData(20085) Text][ItemAssetData(2100118205) ItemOrBuffEffectTargetsFormatted]</Text> <!-- 20085 = "Affects" -->
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>19</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <TemplateGUID>454144439</TemplateGUID> <!-- All kinds of buffs -->
+        <Variables>
+          <None>
+            <ID>1840762361</ID>
+            <Name>ItemGuid</Name>
+            <Source>[ItemAssetData(2100118205) Guid]</Source>
+          </None>
+          <None>
+            <ID>1840762361</ID>
+            <Name>ItemGuid</Name>
+            <Source>[ItemAssetData(2100118205) Guid]</Source>
+          </None>
+          <None>
+            <ID>1840762361</ID>
+            <Name>ItemGuid</Name>
+            <Source>[ItemAssetData(2100118205) Guid]</Source>
+          </None>
+        </Variables>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>4</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>0</CompareOperator>
+            </CompareOperator>
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <Condition>[Item BuffFluff([RefGuid])]</Condition>
+          </VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>6</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Style />
+          </Text>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>18</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData([Item BuffFluff(2100118205)]) Text]</Text> <!-- fluff text needs to be defined in your buff: /Values/Buff/PossibleFluffTexts to be shown here -->
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+      </InfoElement>
+      <Variables />
+    </InfoTipData>
+  </ModOp>
+
+</ModOps>

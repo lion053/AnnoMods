@@ -1,0 +1,64 @@
+{
+  "Version": "1.3",
+  "ModID": "lion053_Enbesa_Tourism",
+  "IncompatibleIds": null,
+  "ModDependencies": [
+    "shared-infotip-fix-tourist-buildings-lion053"
+  ],
+  "LoadAfterIds": [
+    "FamTaubeLexy_NewWorldHotels"
+  ],
+  "Category": {
+    "Chinese": "Addon",
+    "English": "Addon",
+    "French": "Addon",
+    "German": "Addon",
+    "Italian": "Addon",
+    "Japanese": "Addon",
+    "Korean": "Addon",
+    "Polish": "Addon",
+    "Russian": "Addon",
+    "Spanish": "Addon",
+    "Taiwanese": "Addon"
+  },
+  "ModName": {
+    "Chinese": "Enbesa Tourism (Lion053)",
+    "English": "Enbesa Tourism (Lion053)",
+    "French": "Enbesa Tourism (Lion053)",
+    "German": "Enbesa Tourism (Lion053)",
+    "Italian": "Enbesa Tourism (Lion053)",
+    "Japanese": "Enbesa Tourism (Lion053)",
+    "Korean": "Enbesa Tourism (Lion053)",
+    "Polish": "Enbesa Tourism (Lion053)",
+    "Russian": "Enbesa Tourism (Lion053)",
+    "Spanish": "Enbesa Tourism (Lion053)",
+    "Taiwanese": "Enbesa Tourism (Lion053)"
+  },
+  "Description": {
+    "Chinese": "file::readme.md",
+    "English": "file::readme.md",
+    "French": "file::readme.md",
+    "German": "file::readme_german.md",
+    "Italian": "file::readme.md",
+    "Japanese": "file::readme.md",
+    "Korean": "file::readme.md",
+    "Polish": "file::readme.md",
+    "Russian": "file::readme.md",
+    "Spanish": "file::readme.md",
+    "Taiwanese": "file::readme.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "LandOfLions",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "Tourism",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "lion053",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

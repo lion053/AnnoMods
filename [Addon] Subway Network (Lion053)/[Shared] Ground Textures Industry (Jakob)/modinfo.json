@@ -1,0 +1,45 @@
+{
+  "Version": "1.0.1",
+  "ModID": "shared-ground-textures-industry-jakob",
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "English": "Ground Textures Industry (Jakob)",
+    "Chinese": "Ground Textures Industry (Jakob)",
+    "French": "Ground Textures Industry (Jakob)",
+    "German": "Ground Textures Industry (Jakob)",
+    "Italian": "Ground Textures Industry (Jakob)",
+    "Japanese": "Ground Textures Industry (Jakob)",
+    "Korean": "Ground Textures Industry (Jakob)",
+    "Polish": "Ground Textures Industry (Jakob)",
+    "Russian": "Ground Textures Industry (Jakob)",
+    "Spanish": "Ground Textures Industry (Jakob)",
+    "Taiwanese": "Ground Textures Industry (Jakob)"
+  },
+  "CreatorName": "Jakob",
+  "CreatorContact": "https://github.com/jakobharder/anno-1800-jakobs-mods",
+  "Description": {
+    "English": "# Industry Ground Textures\n\nModular ground textures used and shared by other mods.\n\n## Changes\n\n- 1.0.1: Fixed stone_1x1. Preferably use concrete_stone_1x1 though.\n",
+    "Chinese": null,
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  }
+}

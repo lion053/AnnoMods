@@ -1,0 +1,58 @@
+{
+  "Version": "1.1",
+  "ModID": "lion053_Legendary_Seeds_Enbesa",
+  "IncompatibleIds": [],
+  "ModDependencies": null,
+
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+
+  "ModName": {
+    "Chinese": "Legendary Seeds _Enbesa_ (Lion053)",
+    "English": "Legendary Seeds _Enbesa_ (Lion053)",
+    "French": "Legendary Seeds _Enbesa_ (Lion053)",
+    "German": "Legendary Seeds _Enbesa_ (Lion053)",
+    "Italian": "Legendary Seeds _Enbesa_ (Lion053)",
+    "Japanese": "Legendary Seeds _Enbesa_ (Lion053)",
+    "Korean": "Legendary Seeds _Enbesa_ (Lion053)",
+    "Polish": "Legendary Seeds _Enbesa_ (Lion053)",
+    "Russian": "Legendary Seeds _Enbesa_ (Lion053)",
+    "Spanish": "Legendary Seeds _Enbesa_ (Lion053)",
+    "Taiwanese": "Legendary Seeds _Enbesa_ (Lion053)"
+  },
+
+  "Description": {
+    "Chinese": "file::readme.md",
+    "English": "file::readme.md",
+    "French": "file::readme.md",
+    "German": "file::readme.md",
+    "Italian": "file::readme.md",
+    "Japanese": "file::readme.md",
+    "Korean": "file::readme.md",
+    "Polish": "file::readme.md",
+    "Russian": "file::readme.md",
+    "Spanish": "file::readme.md",
+    "Taiwanese": "file::readme.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "LandofLions",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Lion053",
+  "CreatorContact": "https://discord.gg/ycmFNKaG",
+  "Image": null
+}

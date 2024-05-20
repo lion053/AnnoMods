@@ -1,0 +1,136 @@
+<ModOps>
+
+ <!-- Asset List: GUIDs in ascending order-->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115080</GUID>
+			<Text>Advanced Paper Mill</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115081</GUID>
+			<Text>Advanced Paper Mill</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115082</GUID>
+			<Text>Paper Recipe List</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115083</GUID>
+			<Text>The Advanced Paper Mill allows you to industrially produce paper using a variety of different manufacturing processes: The more advanced the process, the greater the output.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115084</GUID>
+			<Text>Recipe: Sulfite Process</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115085</GUID>
+			<Text>Invented in the second half of the 19th century, it enabled the efficient splitting of wood for the first time by adding a compound of lime and sulfur(dioxide). Together with this, the wood is boiled down under high pressure for several hours, then crushed and dried. The resulting wood cellulose is cheap, very pure and is therefore suitable for direct further processing into paper.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115086</GUID>
+			<Text>Recipe: Woolen Rags</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115087</GUID>
+			<Text>Advanced Paper Mill</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115088</GUID>
+			<Text>After old, worn out clothes have been shredded and pounded, they are mixed with water to make a pulp. If you dip a sieve in it, a thin layer of pulp is deposited, which, after pressing and drying, results in a sheet of paper.</Text>
+		</Text>
+		<!--
+		<Text>
+			<GUID>2100115089</GUID>
+			<Text>Sulfur</Text>
+		</Text>
+		<Text>
+			<GUID>2100115090</GUID>
+			<Text>Sulfur Module</Text>
+		</Text>
+		<Text>
+			<GUID>2100115091</GUID>
+			<Text>Iron, copper and zinc mines produce sulfur as extra output, when this module is placed next to them. Requires coal as input.&amp;#xA;&amp;#xD;&amp;#xA;&amp;#xD;&amp;lt;font overrideTextColor=&quot;true&quot; color=&apos;#2d7fb8&apos;&amp;gt;Demand&amp;lt;/font&amp;gt;&amp;lt;font overrideTextColor=&quot;true&quot; color=&apos;#edc891&apos;&amp;gt; per Cycle (01:30):&amp;lt;/font&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;font overrideTextColor=&quot;true&quot; color=&apos;#edc891&apos;&amp;gt;1t &amp;lt;img height=&apos;24&apos; width=&apos;24&apos; src=&quot;[AssetData(1010304) Icon]&quot;/&amp;gt; [AssetData(1010226) Text]&amp;lt;/font&amp;gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115092</GUID>
+			<Text>Mine Module</Text>
+		</Text>
+		<Text>
+			<GUID>2100115093</GUID>
+			<Text>Roasting Sulfidic Ore</Text>
+		</Text>
+		<Text>
+			<GUID>2100115094</GUID>
+			<Text>Sulfur dioxide can be obtained from sulfidic iron, copper and zinc ores by roasting them for several hours.</Text>
+		</Text> -->
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115095</GUID>
+			<Text>Paper</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115096</GUID>
+			<Text>Produces paper in the Old World using different recipes</Text>
+		</Text>
+		<Text>
+			<GUID>2100115097</GUID>
+			<Text /> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115098</GUID>
+			<Text>Unlock Trigger</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100115099</GUID>
+			<Text /> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115270</GUID>
+			<Text>This recipe is unlocked at 750 Engineers</Text>
+		</Text>
+		<!--<Text>
+			<GUID>2100115721</GUID>
+			<Text>Sulfur Module Fake</Text>
+		</Text> -->
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115722</GUID>
+			<Text>Paper Mill Old World Unlock</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115723</GUID>
+			<Text>Paper Mill Old World Unlock Creative Mode</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115724</GUID>
+			<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Recipe: Blank&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115725</GUID>
+			<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Recipe: Woolen Rags&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115726</GUID>
+			<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Recipe: Sulfite Process&lt;/font&gt;</Text>
+		</Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,2108 @@
+<!-- OW Chocolate Production v1.0 -->
+
+<ModOps>
+
+<!-- # Buildings -->
+<Group>
+
+  <!-- # Chocolate Industrial Production -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="1010341">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>2100118200</GUID>
+            <Name>Chocolate Factory</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_chocolate.png</IconFilename>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+            <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+          </Building>
+          <Blocking />
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>75000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>25</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>45</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>30</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>15</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <Amount>20</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data\graphics\mod_buildings\lion_053\chocolate_industrial_production\chocolate_factory_ow_01.cfg</Filename>
+              </Item>
+            </Variations>
+            <Skins>
+              <DefaultSkinName>1010341</DefaultSkinName>
+              <DefaultSkinDescription>23853</DefaultSkinDescription>
+            </Skins>
+          </Object>
+          <Mesh />
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+            <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Text>
+            <TextOverride>1010341</TextOverride>
+          </Text>
+          <Constructable />
+          <Locked />
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>200809</Sound>
+              </Item>
+              <Item>
+                <Sound>200658</Sound>
+              </Item>
+            </ActiveSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+          </SoundEmitter>
+          <FeedbackController />
+          <Infolayer />
+          <UpgradeList />
+          <Factory7 />
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>1010239</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+              <Item>
+                <Product>1010254</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+              <Item>
+                <Product>5385</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <CycleTime>60</CycleTime>
+            <FactoryOutputs>
+              <Item>
+                <Product>1010258</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <IsMainFactory>0</IsMainFactory>
+          </FactoryBase>
+          <LogisticNode />
+          <AmbientMoodProvider />
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>2500</Amount>
+                <InactiveAmount>1250</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010117</Product>
+                <Amount>200</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <AttackableType>IslandBuilding</AttackableType>
+            <MaximumHitPoints>5750</MaximumHitPoints>
+            <SelfHealPerHealTick>4</SelfHealPerHealTick>
+          </Attackable>
+          <Pausable />
+          <IncidentInfectable>
+            <Explosion>
+              <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <DensityDistance>20</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+              </Fire>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Industrializable>
+            <MandatoryIndustrialization>1</MandatoryIndustrialization>
+          </Industrializable>
+          <Culture>
+            <CultureType>Culture</CultureType>
+          </Culture>
+          <QuestObject />
+          <Electrifiable />
+          <EcoSystemProvider />
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+  <!-- # Chocolate Manufactory Production -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="1010341">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>2100118204</GUID>
+            <Name>Manufactory Chocolate Production (Chocolaterie)</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_chocolate.png</IconFilename>
+            <InfoDescription>2100118236</InfoDescription>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+            <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+          </Building>
+          <Blocking />
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>20000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>15</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>5</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data\graphics\mod_buildings\lion_053\chocolate_manufactory_production\chocolate_manufactory_ow_01.cfg</Filename>
+              </Item>
+            </Variations>
+            <Skins>
+              <DefaultSkinName>1010341</DefaultSkinName>
+              <DefaultSkinDescription>23853</DefaultSkinDescription>
+            </Skins>
+          </Object>
+          <Mesh />
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+            <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Text />
+          <Constructable />
+          <Locked />
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>200809</Sound>
+              </Item>
+              <Item>
+                <Sound>200658</Sound>
+              </Item>
+            </ActiveSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+          </SoundEmitter>
+          <FeedbackController />
+          <Infolayer />
+          <UpgradeList />
+          <Factory7 />
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>1010239</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+              <Item>
+                <Product>1010254</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+              <Item>
+                <Product>5385</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <CycleTime>240</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
+            <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+            <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+          </FactoryBase>
+          <LogisticNode>
+            <TransporterAsset>120028</TransporterAsset>
+          </LogisticNode>
+          <AmbientMoodProvider />
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>750</Amount>
+                <InactiveAmount>375</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010116</Product>
+                <Amount>15</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <AttackableType>IslandBuilding</AttackableType>
+            <MaximumHitPoints>2750</MaximumHitPoints>
+            <SelfHealPerHealTick>4</SelfHealPerHealTick>
+          </Attackable>
+          <Pausable />
+          <IncidentInfectable>
+            <Explosion>
+              <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <DensityDistance>20</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+              </Fire>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Culture>
+            <CultureType>Culture</CultureType>
+            <Attractiveness>25</Attractiveness>
+          </Culture>
+          <BuffFactory>
+            <ProductionBuffs>
+              <Item>
+                <ProductivityBuff>2100118205</ProductivityBuff>
+                <ProductivityThresholdUp>0.49</ProductivityThresholdUp>
+              </Item>
+            </ProductionBuffs>
+            <ProductionBuffScope>Radius</ProductionBuffScope>
+            <ProductionBuffDistance>45</ProductionBuffDistance>
+          </BuffFactory>
+          <QuestObject />
+          <Industrializable>
+            <BoostedByIndustrialization>0</BoostedByIndustrialization>
+          </Industrializable>
+          <Electrifiable>
+            <ElectricityBoost>0</ElectricityBoost>
+            <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+          </Electrifiable>
+          <EcoSystemProvider />
+        </Values>
+      </Asset>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="191910">
+      <Asset>
+        <Template>TownhallBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2100118205</GUID>
+            <Name>Chocolaterie Garibaldi</Name>
+            <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_chocolatier_garibaldi_buff.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>194026</GUID>
+              </Item>
+              <Item>
+                <GUID>194016</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <BuildingUpgrade />
+          <Buff>
+            <PossibleFluffTexts>
+              <Item>
+                <FluffText>2100118216</FluffText>
+              </Item>
+            </PossibleFluffTexts>
+          </Buff>
+          <PopulationUpgrade />
+          <ResidenceUpgrade>
+            <AdditionalHappiness>2</AdditionalHappiness>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeed>1010258</ProvidedNeed>
+                <AmountInPercent>-10</AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeed>133532</ProvidedNeed>
+                <AmountInPercent>-15</AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+          <IncidentInfectableUpgrade>
+            <IncidentRiotIncreaseUpgrade>
+              <Value>-2</Value>
+            </IncidentRiotIncreaseUpgrade>
+          </IncidentInfectableUpgrade>
+          <CultureUpgrade />
+          <InfluenceSourceUpgrade />
+          <WarehouseUpgrade />
+          <DistributionUpgrade />
+          <ItemContainerUpgrade />
+          <FactoryUpgrade />
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+  <!-- # Sugar Refinery OW -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="114436">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>2100118206</GUID>
+            <Name>Sugar Refinery</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_salt.png</IconFilename>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+            <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+          </Building>
+          <Blocking />
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>35000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>25</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>20</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>5</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <Amount>25</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data\graphics\mod_buildings\lion_053\sugar_refinery_ow\sugar_refinery_ow_01.cfg</Filename>
+              </Item>
+            </Variations>
+            <Skins>
+              <DefaultSkinName>1010317</DefaultSkinName>
+              <DefaultSkinDescription>23853</DefaultSkinDescription>
+            </Skins>
+          </Object>
+          <Mesh />
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+            <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Text>
+            <TextOverride>1010317</TextOverride>
+          </Text>
+          <Constructable />
+          <Locked />
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>200815</Sound>
+              </Item>
+              <Item>
+                <Sound>200613</Sound>
+              </Item>
+            </ActiveSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+          </SoundEmitter>
+          <FeedbackController>
+            <NightBehavior>HideNone</NightBehavior>
+          </FeedbackController>
+          <Infolayer />
+          <UpgradeList />
+          <Factory7 />
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>2100118222</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <CycleTime>30</CycleTime>
+            <FactoryOutputs>
+              <Item>
+                <Product>1010239</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <IsMainFactory>0</IsMainFactory>
+          </FactoryBase>
+          <LogisticNode />
+          <AmbientMoodProvider />
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>1100</Amount>
+                <InactiveAmount>550</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010117</Product>
+                <Amount>150</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <AttackableType>IslandBuilding</AttackableType>
+            <MaximumHitPoints>2500</MaximumHitPoints>
+            <SelfHealPerHealTick>4</SelfHealPerHealTick>
+          </Attackable>
+          <Pausable />
+          <IncidentInfectable>
+            <Explosion>
+              <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <DensityDistance>20</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+              </Fire>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Industrializable>
+            <MandatoryIndustrialization>1</MandatoryIndustrialization>
+          </Industrializable>
+          <Culture>
+            <CultureType>Culture</CultureType>
+          </Culture>
+          <QuestObject />
+          <Electrifiable />
+          <EcoSystemProvider />
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+  <!-- # Sugar Beet Farm and Field -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="100655">
+      <Asset>
+        <Template>FarmBuilding</Template>
+        <Values>
+          <Standard>
+            <GUID>2100118219</GUID>
+            <Name>Sugar Beets Farm</Name>
+            <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_sugar_beets2.png</IconFilename>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+          </Building>
+          <Blocking />
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>6500</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data\graphics\mod_buildings\lion_053\sugar_beets_farm\sugar_beets_farm_01.cfg</Filename>
+              </Item>
+            </Variations>
+            <Skins>
+              <DefaultSkinName>2100118220</DefaultSkinName>
+              <DefaultSkinDescription>23853</DefaultSkinDescription>
+              <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            </Skins>
+          </Object>
+          <Mesh />
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+            <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Constructable />
+          <Locked />
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>214800</Sound>
+              </Item>
+              <Item>
+                <Sound>239828</Sound>
+              </Item>
+            </ActiveSounds>
+            <ConstructionSounds>
+              <BuildMoveSuccess>
+                <Item>
+                  <VectorElement>
+                    <InheritedIndex>0</InheritedIndex>
+                    <InheritanceMapV2>
+                      <Entry>
+                        <TemplateName>FarmBuilding</TemplateName>
+                        <Index>0</Index>
+                      </Entry>
+                    </InheritanceMapV2>
+                  </VectorElement>
+                  <Sound>214783</Sound>
+                </Item>
+              </BuildMoveSuccess>
+            </ConstructionSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+            <MaterialType>Wood</MaterialType>
+          </SoundEmitter>
+          <FeedbackController />
+          <Infolayer />
+          <UpgradeList />
+          <Factory7>
+            <NeededFertility>2100118221</NeededFertility>
+          </Factory7>
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>2100118222</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>120</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <LogisticNode />
+          <ModuleOwner>
+            <ModuleLimits>
+              <Main>
+                <Limit>108</Limit>
+              </Main>
+            </ModuleLimits>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>2100118220</ModuleGUID>
+              </Item>
+            </ConstructionOptions>
+            <AdditionalModule>269837</AdditionalModule>
+            <AdjustModuleOrientationOnceSpecialModuleWasPlaced>1</AdjustModuleOrientationOnceSpecialModuleWasPlaced>
+            <FertilizerModuleData>
+              <Module>25240</Module>
+            </FertilizerModuleData>
+            <ModuleBuildRadius>25</ModuleBuildRadius> <!-- 0 = must be main building adjacent -->
+            <HardFarmsConfig>2</HardFarmsConfig>
+            <FarmType>PlantFarm</FarmType>
+          </ModuleOwner>
+          <AmbientMoodProvider>
+            <AmbientMood>AgricultureBuildingsEurope</AmbientMood>
+          </AmbientMoodProvider>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>250</Amount>
+                <InactiveAmount>125</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010052</Product>
+                <Amount>25</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <AttackableType>IslandBuilding</AttackableType>
+            <MaximumHitPoints>2000</MaximumHitPoints>
+            <SelfHealPerHealTick>4</SelfHealPerHealTick>
+          </Attackable>
+          <IncidentInfectable>
+            <Infectable>
+              <Illness>
+                <Escalated>0</Escalated>
+              </Illness>
+              <Explosion>
+                <Base>0</Base>
+                <Escalated>0</Escalated>
+              </Explosion>
+            </Infectable>
+            <Explosion>
+              <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <DensityFactor>0.025</DensityFactor>
+                <DensityDistance>20</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+              </Fire>
+              <Riot>
+                <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                <HappinessThreshold>20</HappinessThreshold>
+              </Riot>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Pausable />
+          <Culture>
+            <CultureType>Landscaping</CultureType>
+          </Culture>
+          <QuestObject />
+          <Industrializable />
+          <Motorizable>
+            <MotorizableType>Tractor</MotorizableType>
+          </Motorizable>
+          <EcoSystemProvider />
+          <MonoCulture />
+        </Values>
+      </Asset>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="100657">
+      <Asset>
+        <Template>Farmfield</Template>
+        <Values>
+          <Standard>
+            <GUID>2100118220</GUID>
+            <Name>Sugar Beet Field</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_farmfield_module.png</IconFilename>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+          </Building>
+          <Blocking>
+            <GroundDecalAsset>102510</GroundDecalAsset>
+            <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+          </Blocking>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>15</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data\graphics\mod_buildings\lion_053\sugar_beets_farm\sugar_beets_field_01.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data\graphics\mod_buildings\lion_053\sugar_beets_farm\sugar_beets_field_02.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data\graphics\mod_buildings\lion_053\sugar_beets_farm\sugar_beets_field_03.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data\graphics\mod_buildings\lion_053\sugar_beets_farm\sugar_beets_field_04.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data\graphics\mod_buildings\lion_053\sugar_beets_farm\sugar_beets_field_05.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data\graphics\mod_buildings\lion_053\sugar_beets_farm\sugar_beets_field_06.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data\graphics\mod_buildings\lion_053\sugar_beets_farm\sugar_beets_field_07.cfg</Filename>
+              </Item>
+            </Variations>
+            <Skins>
+              <DefaultSkinName>2100118220</DefaultSkinName>
+              <DefaultSkinDescription>23853</DefaultSkinDescription>
+              <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            </Skins>
+          </Object>
+          <Mesh />
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+          </Selection>
+          <Constructable />
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+          <SoundEmitter />
+          <FeedbackController />
+          <Infolayer />
+          <BuildingModule />
+          <AmbientMoodProvider>
+            <DynamicEnvironmentType>None</DynamicEnvironmentType>
+          </AmbientMoodProvider>
+          <ModuleIrrigation />
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- Feedback spawned on fields -->
+    <ModOp Type="add" GUID="2001096" Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings">
+      <Item>
+        <Building>2100118219</Building>
+        <PersonSpawners>
+          <Item>
+            <UnitClass>141674</UnitClass>
+          </Item>
+        </PersonSpawners>
+        <VehicleSpawners>
+          <Item>
+            <UnitClass>270095</UnitClass>
+          </Item>
+          <Item>
+            <UnitClass>25272</UnitClass>
+            <VehicleType>Fertilizer</VehicleType>
+          </Item>
+        </VehicleSpawners>
+      </Item>
+    </ModOp>
+    <!-- PALACE: "Land Reform Act" Policy -->
+    <ModOp Type="addNextSibling" GUID="269191">
+      <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>2100118240</GUID>
+            <Name>Productivity - Decree 1 Buff_mod</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_agricultural_subsidy.png</IconFilename>
+            <InfoDescription>269415</InfoDescription>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>2100118219</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <Text>
+            <TextOverride>269198</TextOverride>
+          </Text>
+          <FactoryUpgrade>
+            <AdditionalOutput>
+              <Item>
+                <Product>2100118222</Product>
+                <AdditionalOutputCycle>2</AdditionalOutputCycle>
+                <Amount>1</Amount>
+              </Item>
+            </AdditionalOutput>
+          </FactoryUpgrade>
+          <BuildingUpgrade />
+          <Buff />
+          <CultureUpgrade />
+          <ModuleOwnerUpgrade />
+          <IncidentInfectableUpgrade />
+          <PowerplantUpgrade />
+          <IndustrializableUpgrade />
+          <ItemContainerUpgrade />
+          <IncidentInfluencerUpgrade />
+          <IrrigationUpgrade />
+          <EcoSystemProviderUpgrade />
+          <ResourceUpgrade />
+        </Values>
+      </Asset>
+    </ModOp>
+    <ModOp Type="add" GUID="269365" Path="/Values/EffectContainer/Effects">
+      <Item>
+        <Effect>2100118240</Effect>
+      </Item>
+    </ModOp>
+    <!-- Because 269366 is defined as <EffectUsedForInfoTip> in 269365 -->
+    <ModOp Type="add" GUID="269366" Path="/Values/FactoryUpgrade/AdditionalOutput">
+      <Item>
+        <Product>2100118222</Product>
+        <AdditionalOutputCycle>2</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </ModOp>
+  </Group>
+
+</Group>
+
+<!-- # Sugar Beet Product and Fertility -->
+<Group>
+  <ModOp Type="addNextSibling" GUID="1010569">
+    <Asset>
+      <Template>Fertility</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118221</GUID>
+          <Name>Sugar Beet Fertility</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_sugar_beets2.png</IconFilename>
+        </Standard>
+        <Fertility />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="add" GUID="5000000" Path="/Values/Region/AllowedFertilities">
+    <Item>
+      <Fertility>2100118221</Fertility>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="500204" Path="/Values/MinimapScene/FertilityOrder">
+    <Item>
+      <GUID>2100118221</GUID>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="141508,141509,141511,141512,141513,141514,141515,141516,141518,141519,141521,141523,141524,141525,142436,142438,142439,142442,142443,142445,142447" Path="/Values/FertilitySet/Fertilities">
+    <Item>
+      <Fertility>2100118221</Fertility>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="120014">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118222</GUID>
+          <Name>Sugar Beets</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_sugar_beets2.png</IconFilename>
+          <InfoDescription>11735</InfoDescription>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11702</ProductCategory>
+          <BasePrice>150</BasePrice>
+          <CivLevel>5</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>10</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>5</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addPrevSibling" GUID="120055" Path="/Values/ProductStorageList/ProductList/Item[Product='1010239']">
+    <Item>
+      <Product>2100118222</Product>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="502233" Path="/Values/ProductList/List">
+    <Item>
+      <Product>2100118222</Product>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="502004,502037" Path="/Values/ProductList/List/Item[Product='120014']">
+    <Item>
+      <Product>2100118222</Product>
+    </Item>
+  </ModOp>
+  <ModOp Type="addPrevSibling" GUID="502021" Path="/Values/ProductList/List/Item[Product='1010239']">
+    <Item>
+      <Product>2100118222</Product>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item[Unlock='131852']/Trades">
+    <Item>
+      <Level>Rare</Level>
+      <Good>2100118222</Good>
+    </Item>
+  </ModOp>
+</Group>
+
+<!-- # New Items -->
+<Group>
+  <ModOp Type="addNextSibling" GUID="125072"> <!-- must be an item which is not in a group used for expedition reward pools otherwise items will always be available via rescue missions -->
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118223</GUID>
+          <Name>Sugar Beet Seeds</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_fertility_sugar_beets.png</IconFilename>
+          <InfoDescription>2100118224</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Rare</Rarity>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>80000</TradePrice>
+          <TradePriceOnlineCurrency>80000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <AddedFertility>2100118221</AddedFertility>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2100118219</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute />
+        <CultureUpgrade />
+        <BuildingUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118225</GUID>
+          <Name>Hybrid Sugar Beet Seeds</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_fertility_sugar_beets.png</IconFilename>
+          <InfoDescription>2100118237</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Epic</Rarity>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>160000</TradePrice>
+          <TradePriceOnlineCurrency>160000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AddedFertility>2100118221</AddedFertility>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2100118219</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute />
+        <CultureUpgrade />
+        <BuildingUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118226</GUID>
+          <Name>Hieronymus Hess, Pioneer of Beet Distillation</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_hieronymus_hess.png</IconFilename>
+          <InfoDescription>2100118227</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>550000</TradePrice>
+          <TradePriceOnlineCurrency>550000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>70</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010216</Product>
+              <Amount>1</Amount>
+              <AdditionalOutputCycle>9</AdditionalOutputCycle>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>1010251</OldInput>
+              <NewInput>2100118222</NewInput>
+            </Item>
+            <Item>
+              <OldInput>1010195</OldInput>
+              <NewInput>2100118222</NewInput>
+            </Item>
+          </ReplaceInputs>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1500200679</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>5</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>35</Amount>
+            </Item>
+            <Item>
+              <Attribute>Navigation</Attribute>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard;Average</ItemDifficulties>
+        </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade>
+          <MaintenanceUpgrade>
+            <Value>30</Value>
+            <Percental>1</Percental>
+          </MaintenanceUpgrade>
+        </BuildingUpgrade>
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118228</GUID>
+          <Name>Frid Jacobson, Professional Fermenter</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_frid_jacobson.png</IconFilename>
+          <InfoDescription>2100118229</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>550000</TradePrice>
+          <TradePriceOnlineCurrency>550000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>135130</Product>
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+          <!-- 2nd AdditionalOutput if Jakob's Biogas mod is active, see ModOp below -->
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1500301953</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>5</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>30</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard;Average</ItemDifficulties>
+        </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118230</GUID>
+          <Name>Willy Wonka, Magical Chocolate Manufacturer</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_willy_wonka.png</IconFilename>
+          <InfoDescription>2100118231</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1000000</TradePrice>
+          <TradePriceOnlineCurrency>1000000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010258</Product>
+              <AdditionalOutputCycle>5</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>135186</Product>
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>135229</Product>
+              <AdditionalOutputCycle>7</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>133183</Product>
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1500301954</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>5</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>45</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>35</Amount>
+            </Item>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkEntertainer</Attribute>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard;Average</ItemDifficulties>
+        </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade>
+          <ProvideIndustrialization>1</ProvideIndustrialization>
+        </IndustrializableUpgrade>
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118234</GUID>
+          <Name>Longbottom's Variable Sugarpress</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_sugarcane_press.png</IconFilename>
+          <InfoDescription>2100118235</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Rare</Rarity>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>150000</TradePrice>
+          <TradePriceOnlineCurrency>150000</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>2100118222</OldInput>
+              <NewInput>1010251</NewInput>
+            </Item>
+            <Item>
+              <OldInput>1010251</OldInput>
+              <NewInput>2100118222</NewInput>
+            </Item>
+          </ReplaceInputs>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1500301953</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute />
+        <CultureUpgrade />
+        <BuildingUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="add" GUID="2100118228" Path="/Values/ItemEffect/EffectTargets" Condition="#jakob_biogas">
+    <Item>
+      <GUID>1500010010</GUID>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="2100118228" Path="/Values/FactoryUpgrade/AdditionalOutput" Condition="#jakob_biogas">
+    <Item>
+      <Product>112706</Product>
+      <AdditionalOutputCycle>9</AdditionalOutputCycle>
+      <Amount>1</Amount>
+    </Item>
+  </ModOp>
+
+  <!-- Items to pools -->
+  <ModOp Type="add" GUID="192840,193079,192732,193963,192909" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>2100118226</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100118228</ItemLink>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="193940,192679,190002,193032,191278" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>2100118234</ItemLink>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="192690,191247" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>2100118225</ItemLink>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="192689,191240,191283" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>2100118223</ItemLink>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="130182" Path="/Values/AssetPool/AssetList">
+    <Item>
+      <Asset>2100118223</Asset>
+    </Item>
+    <Item>
+      <Asset>2100118225</Asset>
+    </Item>
+    <Item>
+      <Asset>2100118226</Asset>
+    </Item>
+    <Item>
+      <Asset>2100118228</Asset>
+    </Item>
+    <Item>
+      <Asset>2100118234</Asset>
+    </Item>
+  </ModOp>
+  <!-- Willy Wonka to Grand Gallery -->
+  <ModOp Type="addNextSibling" GUID="8550">
+    <Asset>
+      <Template>ScenarioWorkshopItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118232</GUID>
+          <Name>GG_Item_WillyWonka_Permits</Name>
+        </Standard>
+        <Text />
+        <ScenarioWorkshopItem>
+          <AssetReference>2100118230</AssetReference>
+          <BuildPermits>1</BuildPermits>
+        </ScenarioWorkshopItem>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="8594">
+    <Asset>
+      <Template>ScenarioWorkshopPackage</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118233</GUID>
+          <Name>GG_Item_WillyWonka_Window</Name>
+        </Standard>
+        <ScenarioWorkshopPackage>
+          <ScenarioWorkshopItems>
+            <Item>
+              <ScenarioWorkshopItem>2100118232</ScenarioWorkshopItem>
+            </Item>
+          </ScenarioWorkshopItems>
+          <RubberDots>100</RubberDots>
+          <PackageRubberDotScaleFactor>1.5</PackageRubberDotScaleFactor>
+          <PackageMaxCount>99</PackageMaxCount>
+          <PackageDescription>0</PackageDescription>
+          <PackageFluffText>0</PackageFluffText>
+        </ScenarioWorkshopPackage>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="1252" Path="/Values/ScenarioWorkshopScene/ScenarioWorkshopCategories/Items/ScenarioWorkshopCategory/Item[ScenarioWorkshopPackage='4305']">
+    <Item>
+      <ScenarioWorkshopPackage>2100118233</ScenarioWorkshopPackage>
+    </Item>
+  </ModOp>
+
+</Group>
+
+<!-- # Adapt OW-Production Chains -->
+<Group>
+  <!-- Chocolate (for both regions, NW and OW, there´s already a different chain, thus the OW chain can be adapted easily) -->
+  <!-- Fall back, if chain was removed by another mod -->
+  <ModOp Type="addNextSibling" GUID="500447" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010364']" Condition="!/Values/ConstructionCategory/BuildingList/Item[Building='500014']">
+    <Item>
+      <Building>500014</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500018']" Condition="!/Values/ConstructionCategory/BuildingList/Item[Building='500014']">
+    <Item>
+      <Building>500014</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="replace" GUID="500014" Path="/Values/ProductionChain">
+        <ProductionChain>
+          <Building>2100118200</Building>
+          <Tier1>
+            <Item>
+              <Building>1010332</Building>
+            </Item>
+            <Item>
+              <Building>2100118206</Building>
+              <Tier2>
+                <Item>
+                  <Building>2100118219</Building>
+                </Item>
+              </Tier2>
+            </Item>
+            <Item>
+              <Building>1010263</Building>
+              <ForceIcon>5385</ForceIcon>
+            </Item>
+            <Item>
+              <Building>2100118204</Building>
+            </Item>
+          </Tier1>
+        </ProductionChain>
+  </ModOp>
+  <!-- Lemonade, Cognac -->
+  <ModOp Type="replace" GUID="137607,137599" Path="/Values/ProductionChain/Tier1/Item[Building='1010317']/Building">
+      <Building>2100118206</Building>
+  </ModOp>
+  <ModOp Type="replace" GUID="137607,137599" Path="/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='1010329']/Building">
+    <Building>2100118219</Building>
+  </ModOp>
+  <!-- Chewing Gum (a separate chain for OW is required) -->
+  <ModOp Type="addNextSibling" GUID="137604">
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118212</GUID>
+          <Name>Chewing gum chain OW</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_bubble_gum.png</IconFilename>
+        </Standard>
+        <ProductionChain>
+          <Building>135185</Building>
+          <Tier1>
+            <Item>
+              <Building>1010333</Building>
+            </Item>
+            <Item>
+              <Building>2100118206</Building>
+              <Tier2>
+                <Item>
+                  <Building>2100118219</Building>
+                </Item>
+              </Tier2>
+            </Item>
+            <Item>
+              <Building>133030</Building>
+            </Item>
+          </Tier1>
+        </ProductionChain>
+        <Locked />
+        <Text>
+          <TextOverride>137604</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="replace" GUID="500447,500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='137604']">
+    <Item>
+      <Building>2100118212</Building>
+    </Item>
+  </ModOp>
+</Group>
+
+<!-- # Add buildings to Pools -->
+<Group>
+  <ModOp Type="add" GUID="368,6000018,193856,190897" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100118200</GUID>
+    </Item>
+    <Item>
+      <GUID>2100118204</GUID>
+    </Item>
+    <Item>
+      <GUID>2100118206</GUID>
+    </Item>
+    <Item>
+      <GUID>2100118219</GUID>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="194006,191471,190011,190865,192566" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100118219</GUID>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="1500301953" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100118206</GUID>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="1500301954" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100118200</GUID>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190685,190687,191330" Path="/Values/ItemEffect/EffectTargets">
+    <Item>
+      <GUID>2100118219</GUID>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="270158" Path="/Values/AssetPool/AssetList">
+    <Item>
+      <Asset>2100118219</Asset>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="142313" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100118200</Building>
+    </Item>
+    <Item>
+      <Building>2100118206</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="142309" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100118219</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="2001092" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100118204</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+    <Item>
+      <Factory>2100118200</Factory>
+    </Item>
+    <Item>
+      <Factory>2100118204</Factory>
+    </Item>
+    <Item>
+      <Factory>2100118206</Factory>
+    </Item>
+    <Item>
+      <Factory>2100118219</Factory>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="1010346,1010347,601882,601883,601884,601886,601888,601889,601890,601891" Path="/Values/Building/InfluencedByNeighbors">
+    <Item>
+      <Building>2100118204</Building>
+    </Item>
+  </ModOp>
+</Group>
+
+<!-- # Unlock -->
+<Group>
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118201</GUID>
+          <Name>Trigger Unlock 01</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000004</Context>
+                <CounterAmount>1750</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100118200</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100118204</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100118206</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100118219</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100118222</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100118223</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100118225</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100118226</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100118228</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100118230</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100118234</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118213</GUID>
+          <Name>Chewing Gum Trigger Unhide</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/3rdparty_unknown.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition>
+                <SubConditionCompletionOrder>MutuallyExclusive</SubConditionCompletionOrder>
+              </Condition>
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>410085</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2100118212</Asset>
+                      </Item>
+                    </UnhideAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionPlayerCounter</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionPlayerCounter>
+                          <Context>601882</Context>
+                          <CounterAmount>1</CounterAmount>
+                        </ConditionPlayerCounter>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionPlayerCounter</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionPlayerCounter>
+                          <Context>601888</Context>
+                          <CounterAmount>1</CounterAmount>
+                        </ConditionPlayerCounter>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118214</GUID>
+          <Name>Chewing Gum Trigger Unlock</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/3rdparty_unknown.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition>
+                <SubConditionCompletionOrder>MutuallyExclusive</SubConditionCompletionOrder>
+              </Condition>
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>410085</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100118212</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionPlayerCounter</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionPlayerCounter>
+                          <Context>601883</Context>
+                          <CounterAmount>1</CounterAmount>
+                        </ConditionPlayerCounter>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionPlayerCounter</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionPlayerCounter>
+                          <Context>601889</Context>
+                          <CounterAmount>1</CounterAmount>
+                        </ConditionPlayerCounter>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118202</GUID>
+          <Name>Unlock Creative Mode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsCreativeMode</Template>
+            <Values>
+              <Condition />
+              <ConditionIsCreativeMode />
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100118200</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100118204</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100118206</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100118219</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100118222</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100118223</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100118225</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100118226</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100118228</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100118230</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100118234</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118217</GUID>
+          <Name>Unlock Creative Mode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>410085</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100118212</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionIsCreativeMode</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionIsCreativeMode />
+                        <ConditionPropsNegatable />
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+</Group>
+
+<!-- Make Gennaro work again in the Old World -->
+<ModOp Type="replace" GUID='191334' Path="/Values/BuildingUpgrade/ReplacingWorkforce" Condition="#HacknerTradeUnionOverhaul">
+    <ReplacingWorkforce>0</ReplacingWorkforce>
+</ModOp>
+
+</ModOps>

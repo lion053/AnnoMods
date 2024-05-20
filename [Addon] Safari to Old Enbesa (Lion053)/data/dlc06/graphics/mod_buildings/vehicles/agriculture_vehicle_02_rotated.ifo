@@ -1,0 +1,102 @@
+<Info>
+  <BoundingBox>
+    <Name>BoundingBox</Name>
+    <Position>
+      <xf>-0.8539006</xf>
+      <yf>0.4232024</yf>
+      <zf>0.03612673</zf>
+    </Position>
+    <Rotation>
+      <xf>0</xf>
+      <yf>0</yf>
+      <zf>0</zf>
+      <wf>1</wf>
+    </Rotation>
+    <Extents>
+      <xf>2.216454</xf>
+      <yf>1.691321</yf>
+      <zf>1.441551</zf>
+    </Extents>
+  </BoundingBox>
+  <MeshBoundingBox>
+    <Name>MeshBoundingBox</Name>
+    <Position>
+      <xf>-0.04648435</xf>
+      <yf>0.5811524</yf>
+      <zf>0.001171872</zf>
+    </Position>
+    <Rotation>
+      <xf>0</xf>
+      <yf>0</yf>
+      <zf>0</zf>
+      <wf>1</wf>
+    </Rotation>
+    <Extents>
+      <xf>0.9746094</xf>
+      <yf>0.6344727</yf>
+      <zf>0.4871094</zf>
+    </Extents>
+  </MeshBoundingBox>
+  <DisableFeedbackArea>0</DisableFeedbackArea>
+<BuildBlocker>
+<Position>
+<xf>-0.5</xf>
+<zf>-0.5</zf>
+</Position>
+<Position>
+<xf>-0.5</xf>
+<zf>0.5</zf>
+</Position>
+<Position>
+<xf>0.5</xf>
+<zf>0.5</zf>
+</Position>
+<Position>
+<xf>0.5</xf>
+<zf>-0.5</zf>
+</Position>
+</BuildBlocker>
+  <IntersectBox>
+    <Name>Hitbox84</Name>
+    <Position>
+      <xf>-0.04470325</xf>
+      <yf>-4.001268</yf>
+      <zf>0.04071152</zf>
+    </Position>
+    <Rotation>
+      <xf>0</xf>
+      <yf>0</yf>
+      <zf>0</zf>
+      <wf>1</wf>
+    </Rotation>
+    <Extents>
+      <xf>0.105786</xf>
+      <yf>0.1035216</yf>
+      <zf>0.05235767</zf>
+    </Extents>
+  </IntersectBox>
+  <Sequence>
+    <Id>1000</Id>
+    <Duration>3333</Duration>
+    <Looped>1</Looped>
+    <Speed>1</Speed>
+  </Sequence>
+  <Sequence>
+    <Id>2000</Id>
+    <Duration>3120</Duration>
+    <Looped>1</Looped>
+    <Speed>1</Speed>
+  </Sequence>
+  <Sequence>
+    <Id>4000</Id>
+    <Duration>166</Duration>
+    <Looped>1</Looped>
+    <Speed>1</Speed>
+  </Sequence>
+  <Sequence>
+    <Id>3000</Id>
+    <Duration>166</Duration>
+    <Looped>1</Looped>
+    <Speed>1</Speed>
+  </Sequence>
+</Info>

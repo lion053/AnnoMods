@@ -1,0 +1,5 @@
+<ModOps>
+  <ModOp Path="/Values/Culture/Attractiveness" GUID="2100119501,2100119502,2100119503,2100119504,2100119505,2100119506,2100119507" Type="replace">
+    <Attractiveness>25</Attractiveness>
+  </ModOp>
+</ModOps>

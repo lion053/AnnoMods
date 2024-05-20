@@ -1,0 +1,15 @@
+
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<GUID>2100115150</GUID>
+			<Text>Local Department: Knight's Castle</Text>
+		</Text>
+
+  </ModOp>
+
+</ModOps>

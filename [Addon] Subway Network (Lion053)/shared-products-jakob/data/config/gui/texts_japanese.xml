@@ -1,0 +1,36 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440224</GUID>
+      <Text>ヘンプ</Text>
+    </Text>
+    <Text>
+      <GUID>1500010102</GUID>
+      <Text>チーズ</Text>
+    </Text>
+    <Text>
+      <GUID>1500010120</GUID>
+      <Text>イワシ</Text>
+    </Text>
+    <Text>
+      <GUID>1500010127</GUID>
+      <Text>スーツ</Text>
+    </Text>
+    <Text>
+      <GUID>1500010153</GUID>
+      <Text>ツール</Text>
+    </Text>
+    <Text>
+      <GUID>1500010836</GUID>
+      <Text>野菜</Text>
+    </Text>
+    <Text>
+      <GUID>1500010847</GUID>
+      <Text>お茶</Text>
+    </Text>
+    <Text>
+      <GUID>1500010105</GUID>
+      <Text>オリーブ</Text>
+    </Text>
+  </ModOp>
+</ModOps>

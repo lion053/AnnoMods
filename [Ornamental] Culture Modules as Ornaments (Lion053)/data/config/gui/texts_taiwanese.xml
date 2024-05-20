@@ -1,0 +1,44 @@
+<ModOps>
+    <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>2100119500</GUID>
+      			<Text>装饰用文化模块</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119501</GUID>
+      			<Text>植物园：水塘</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119502</GUID>
+      			<Text>植物园：巨树</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119503</GUID>
+      			<Text>博物馆：神庙</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119504</GUID>
+      			<Text>博物馆：镶嵌画</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119505</GUID>
+      			<Text>博物馆：其他</Text>
+		</Text>
+		<Text>
+				<GUID>2100119506</GUID>
+				<Text>动物园：园舍</Text>
+   		</Text>
+   		<Text>
+				<GUID>2100119507</GUID>
+				<Text>动物园：鸟/鱼</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119508</GUID>
+      			<Text>装饰用文化模块可以增加城市的吸引力</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119513</GUID>
+      			<Text>Culture Ornaments Trigger</Text>
+		</Text>	
+    </ModOp>
+</ModOps>

@@ -1,0 +1,172 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>2100118200</GUID>
+			<Text>Chocolate Industrial Production</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118201</GUID>
+			<Text>Trigger_sandbox</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118202</GUID>
+			<Text>Trigger_creative</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118203</GUID>
+			<Text>Rinderweide</Text>
+		</Text>
+		<Text>
+			<GUID>2100118204</GUID>
+			<Text>Chocolaterie Garibaldi</Text>
+		</Text>
+		<Text>
+			<GUID>2100118205</GUID>
+			<Text>Chocolaterie Garibaldi</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118206</GUID>
+			<Text>Zuckerraffinerie</Text>
+		</Text>
+		<Text>
+			<GUID>2100118207</GUID>
+			<Text>InfoTip Cattle Farm OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118208</GUID>
+			<Text>Weiden erzeugen Milch</Text>
+		</Text>
+		<Text>
+			<GUID>2100118209</GUID>
+			<Text>Bietet dem Vieh eine Fläche zum Weiden. Zusätzlich produziert jede Weide 1 Tonne Milch je Zyklus. Klicken Sie auf eine Weide um ihre aktuelle Produktivität zu sehen.</Text>
+		</Text>
+		<Text>
+			<!-- FOR TRANSLATION: Search for the Guid 8143 in your language text file; from the result copy only the translated term for 'secondary goods' -->
+			<GUID>2100118210</GUID>
+			<Text>Nebenprodukte:</Text>
+		</Text>
+		<Text>
+			<GUID>2100118211</GUID>
+			<Text>Weide Output</Text>
+		</Text>
+		<Text>
+			<GUID>2100118212</GUID>
+			<Text>Chewing gum chain OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118213</GUID>
+			<Text>Trigger_chewing_gum_unhide</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118214</GUID>
+			<Text>Trigger_chewing_gum_unlock</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118215</GUID>
+			<Text>1t/Weide/Zyklus</Text>
+		</Text>
+		<Text>
+			<GUID>2100118216</GUID>
+			<Text>Bei Garibaldi's kreieren die besten Chocolatiers des Landes die zartesten Versuchungen seit es Schokolade gibt... nicht einmal der geschäftigste Finanzjongleur kann da widerstehen.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118217</GUID>
+			<Text>Trigger_chewing_gum_creative</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118218</GUID>
+			<Text>Trigger_pasture_artisans</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118219</GUID>
+			<Text>Zuckerrübenfarm</Text>
+		</Text>
+		<Text>
+			<GUID>2100118220</GUID>
+			<Text>Zuckerrübenfeld</Text>
+		</Text>
+		<Text>
+			<GUID>2100118221</GUID>
+			<Text>Zuckerrüben-Fruchtbarkeit</Text>
+		</Text>
+		<Text>
+			<GUID>2100118222</GUID>
+			<Text>Zuckerrüben</Text>
+		</Text>
+		<Text>
+			<GUID>2100118223</GUID>
+			<Text>Zuckerrübensaatgut</Text>
+		</Text>
+		<Text>
+			<GUID>2100118224</GUID>
+			<Text>&lt;b&gt;Beta vulgaris&lt;/b&gt; Dieses Saatgut hilft Ihnen, viele Zuckerrübenfelder auf fremdem Boden anzulegen.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118225</GUID>
+			<Text>Gekreuztes Zuckerrübensaatgut</Text>
+		</Text>
+		<Text>
+			<GUID>2100118226</GUID>
+			<Text>Hieronymus Hess, Pionier der Rübendestillation</Text>
+		</Text>
+		<Text>
+			<GUID>2100118227</GUID>
+			<Text>Während die Kontinentalblockade Napoleons zu Beginn des Jahrhunderts für einen Mangel an Kolonialwaren sorgte und so zum Anbau einheimischer Zuckerrüben führte, machte sich Hess bald mit deren Verwendung in der Rumproduktion einen Namen. Nach dem Ende der Blockade wollte niemand mehr etwas von Rum aus Zuckerrüben wissen und so verschlug es ihn in die Neue Welt, wo er seitdem unbemerkt Zuckerrüben statt Zuckerrohr destilliert.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118228</GUID>
+			<Text>Frid Jacobson, Professioneller Fermentierer</Text>
+		</Text>
+		<Text>
+			<GUID>2100118229</GUID>
+			<Text>Vielfach begabt und eine Koryphäe auf dem Gebiet der organischen Chemie. Neben gut bezahlten Positionen in Industrieunternehmen versteht er es, seine Arbeit nicht nur einem kleinen Fachpublikum, sondern auch der breiten Öffentlichkeit erfolgreich zu präsentieren. Seine Buchreihe zum Thema „Fermentation für den Hausgebrauch“ ist ein Bestseller.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118230</GUID>
+			<Text>Willy Wonka, Magischer Schokoladenfabrikant</Text>
+		</Text>
+		<Text>
+			<GUID>2100118231</GUID>
+			<Text>“Keine andere Fabrik auf der Welt mischt ihre Schokolade nach dem Wasserfallprinzip... Aber es ist der einzige Weg, wenn Sie es genau richtig wollen.”</Text>
+		</Text>
+		<Text>
+			<GUID>2100118232</GUID>
+			<Text>GG_item</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118233</GUID>
+			<Text>GG_package</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118234</GUID>
+			<Text>Longbottom's Variable Zuckerpresse</Text>
+		</Text>
+		<Text>
+			<GUID>2100118235</GUID>
+			<Text>Ein schnell und unkompliziert ein- und austauschbares Werkzeug zum optimierten Zerkleinern und Pressen von Zuckerrohr.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118236</GUID>
+			<Text>Bufft Gebäude innerhalb des Radius.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118237</GUID>
+			<Text>&lt;b&gt;Beta vulgaris&lt;/b&gt; Dieses Saatgut wurde für das Wachstum auf einer breiten Vielfalt von Böden und einen gesteigerten Ertrag an Zuckerrüben gezüchtet!</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118238</GUID>
+			<Text>InfoTip Cattle Farm OW (construction menu)</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118239</GUID>
+			<Text>Unlock Pastures Creative Mode</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118240</GUID>
+			<Text>Land Reform Act Buff</Text> <!-- no translation needed -->
+		</Text>
+  </ModOp>
+
+</ModOps>

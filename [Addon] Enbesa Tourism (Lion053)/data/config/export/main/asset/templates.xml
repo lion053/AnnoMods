@@ -1,0 +1,640 @@
+
+<!-- Templates for Enbesa Tourism -->
+
+<ModOps>
+
+	<!-- # Hotels -->
+	<ModOp Type="addNextSibling" Path="//Template[Name='FactoryBuilding7']">
+		<Template>
+			<Name>lion053_Hotel</Name>
+			<Properties>
+				<Standard>
+                    <GUID>2100119466</GUID>
+                    <Name>Enbesa Hotel</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_enbesa_lodge_modules_0.png</IconFilename>
+                    <InfoDescription>134986</InfoDescription>
+                </Standard>
+                <Blocking />
+                <Building>
+                    <BuildingType>Factory</BuildingType>
+                    <BuildingCategoryName>134987</BuildingCategoryName>
+                    <AssociatedRegions>Africa</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>8500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>114356</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>114402</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                            <Amount>5</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/dlc08/graphics/buildings/special/hotel/hotel_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>601445</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Selection>
+                    <StaticHelpEntryPoint>TouristSeasonHotels1</StaticHelpEntryPoint>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Resident_Tourist</ParticipantMessageArcheType>
+                </Selection>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>410084</DLCDependency>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Upgradable />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>279519</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <ConstructionSounds>
+                        <BuildSuccessful>
+                            <Item>
+                                <Sound>200776</Sound>
+                            </Item>
+                            <Item>
+                                <Sound>279596</Sound>
+                            </Item>
+                        </BuildSuccessful>
+                        <BuildUpgradeFailed>
+                            <Item>
+                                <Sound>9818387</Sound>
+                            </Item>
+                        </BuildUpgradeFailed>
+                        <BuildFailed>
+                            <Item>
+                                <Sound>9818387</Sound>
+                            </Item>
+                        </BuildFailed>
+                        <BuildMoveStart>
+                            <Item>
+                                <Sound>9818755</Sound>
+                            </Item>
+                        </BuildMoveStart>
+                        <BuildMoveSuccess>
+                            <Item>
+                                <Sound>203995</Sound>
+                            </Item>
+                        </BuildMoveSuccess>
+                        <BuildMoveEnd>
+                            <Item>
+                                <Sound>200141</Sound>
+                            </Item>
+                        </BuildMoveEnd>
+                    </ConstructionSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                        <InfectedIllness>
+                            <Item>
+                                <Sound>214756</Sound>
+                            </Item>
+                        </InfectedIllness>
+                        <InfectedRiot>
+                            <Item>
+                                <Sound>222229</Sound>
+                            </Item>
+                        </InfectedRiot>
+                        <ExplosionOneShots>
+                            <Item>
+                                <Sound>203849</Sound>
+                            </Item>
+                        </ExplosionOneShots>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                    <MaterialType>Stone</MaterialType>
+                </SoundEmitter>
+                <Infolayer />
+                <FeedbackController />
+                <Residence7>
+                    <PopulationLevel7>601379</PopulationLevel7>
+                    <ResidentMax>500</ResidentMax> <!-- requires default value for this population tier -->
+                    <ResidentsRequiredForUpgrade>500</ResidentsRequiredForUpgrade>
+                    <ResidentsOccupancyThresholdMax>0.15</ResidentsOccupancyThresholdMax>
+                    <MoveInMs>900</MoveInMs>
+                    <MoveOutMs>1000</MoveOutMs>
+                    <MoveRandomMs>200</MoveRandomMs>
+                    <IsBaseResidence>0</IsBaseResidence>
+                </Residence7>
+                <LogisticNode>
+                    <REMOVE_THIS_LATER_FeedbackUnitTier>Level4</REMOVE_THIS_LATER_FeedbackUnitTier>
+					<TransporterCountMax>0</TransporterCountMax>
+          			<TransporterAsset>1010106</TransporterAsset>
+          			<NeedsTransporterQueue>0</NeedsTransporterQueue>
+                </LogisticNode>
+                <AmbientMoodProvider>
+                    <AmbientMood>ResidenceTier5</AmbientMood>
+                    <Murmur>Tourist_Cafe</Murmur>
+                    <DynamicEnvironmentType>ResidenceT5</DynamicEnvironmentType>
+                    <HappinessDependentMurmur>
+                        <Angry>
+                            <Murmur>InvestorUnhappy</Murmur>
+                        </Angry>
+                        <Unhappy>
+                            <Murmur>InvestorContent</Murmur>
+                        </Unhappy>
+                        <Neutral>
+                            <Murmur>InvestorContent</Murmur>
+                        </Neutral>
+                        <Happy>
+                            <Murmur>InvestorHappy</Murmur>
+                        </Happy>
+                        <Euphoric>
+                            <Murmur>InvestorHappy</Murmur>
+                        </Euphoric>
+                    </HappinessDependentMurmur>
+                </AmbientMoodProvider>
+                <UpgradeList />
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+					<HasRuinState>1</HasRuinState>
+					<MaximumHitPoints>3500</MaximumHitPoints>
+					<SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <IncidentInfectable>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <BaseChance>3</BaseChance>
+                            <DensityFactor>0.025</DensityFactor>
+                            <DensityDistance>15</DensityDistance>
+                        </Fire>
+                        <Illness>
+                            <BaseChance>3</BaseChance>
+                            <HitpointFactor>0.1</HitpointFactor>
+                            <DensityFactor>0.025</DensityFactor>
+                            <DensityDistance>15</DensityDistance>
+                            <DilapidatedFactor>10</DilapidatedFactor>
+                            <FactoryOvertimeFactor>0.3</FactoryOvertimeFactor>
+                            <FactoryUndertimeFactor>0.15</FactoryUndertimeFactor>
+                            <ResidenceFullOvertimeChance>20</ResidenceFullOvertimeChance>
+                            <ResidenceFullUndertimeChance>-15</ResidenceFullUndertimeChance>
+                        </Illness>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Pausable />
+                <Culture />
+                <StreetActivation />
+                <InfluenceSource />
+                <BuildPermit>
+                  <PermitSource>2100119921</PermitSource>
+                  <VisibleWithoutPermits>1</VisibleWithoutPermits>
+                </BuildPermit>
+			</Properties>
+		</Template>
+	</ModOp>
+
+    <!-- # Tourism Pier / only to get rid of the bus sign -->
+    <ModOp Type="addNextSibling" Path="//Template[Name='FactoryBuilding7']">
+        <Template>
+            <Name>lion053_tourist_pier</Name>
+            <Properties>
+                <Standard>
+                    <ID>TourismPier</ID>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11150</BuildingCategoryName>
+                    <SnapRadius>4</SnapRadius>
+                    <TerrainType>Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HarbourAreaExpand>1</HarbourAreaExpand>
+                </Blocking>
+                <Mesh>
+                    <DefaultSequence>default</DefaultSequence>
+                </Mesh>
+                <Object>
+                    <Skins>
+                        <DefaultSkinName>100429</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <AmbientMoodProvider>
+                    <IslandAttractivityDependentMurmur>
+                        <Item>
+                            <Attractivity>-99999</Attractivity>
+                            <Murmur>TouristsLowAttractiveness</Murmur>
+                        </Item>
+                        <Item>
+                            <Attractivity>4000</Attractivity>
+                            <Murmur>TouristsMedAttractiveness</Murmur>
+                        </Item>
+                        <Item>
+                            <Attractivity>8000</Attractivity>
+                            <Murmur>TouristsHighAttractiveness</Murmur>
+                        </Item>
+                    </IslandAttractivityDependentMurmur>
+                </AmbientMoodProvider>
+                <Constructable />
+                <Selection>
+                    <GUIType>VisitorHarbor</GUIType>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <StaticHelpEntryPoint>TouristSeasonTourists</StaticHelpEntryPoint>
+                </Selection>
+                <Text />
+                <Cost />
+                <VisitorHarbor />
+                <Infolayer />
+                <BuildingUnique>
+                    <Uniques>
+                        <Item>
+                            <UniqueType>VisitorHarbor</UniqueType>
+                            <UniqueScope>Area</UniqueScope>
+                        </Item>
+                    </Uniques>
+                </BuildingUnique>
+                <Locked />
+                <Attackable>
+                    <AttackableType>HarbourBuilding</AttackableType>
+                    <MaximumHitPoints>5000</MaximumHitPoints>
+                    <PausedTimeIfAttacked>0</PausedTimeIfAttacked>
+                    <HPBarOffset>5</HPBarOffset>
+                    <MoralePower>25</MoralePower>
+                    <IslandWarFlag>102303</IslandWarFlag>
+                    <ExplosionEffectsMin>2</ExplosionEffectsMin>
+                    <ExplosionEffectsMax>2</ExplosionEffectsMax>
+                    <SelfHealPerHealTick>5</SelfHealPerHealTick>
+                    <HasRuinState>1</HasRuinState>
+                    <RuinSmokeParticles>
+                        <Item>
+                            <SmokeParticleFilePath>data/graphics/effects/military/explosions/damage_smoke_01.cfg</SmokeParticleFilePath>
+                        </Item>
+                    </RuinSmokeParticles>
+                    <RuinSmokeParticlesMin>1</RuinSmokeParticlesMin>
+                    <RuinSmokeParticlesMax>3</RuinSmokeParticlesMax>
+                    <RuinSmokeParticleRectBorderPercent>0.2</RuinSmokeParticleRectBorderPercent>
+                    <ExplosionEffects>
+                        <Item />
+                    </ExplosionEffects>
+                    <SelfHealPerHealTick>300</SelfHealPerHealTick>
+                </Attackable>
+                <LogisticNode />
+                <Maintenance>
+                    <IncomeCategory>HarbourBuildings</IncomeCategory>
+                </Maintenance>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200896</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>200260</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <DestroySounds>
+                        <Item>
+                          <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <ConstructionSounds>
+                        <BuildSuccessful>
+                            <Item>
+                            <Sound>206544</Sound>
+                            </Item>
+                        </BuildSuccessful>
+                        <BuildFailed>
+                            <Item>
+                              <Sound>9818387</Sound>
+                            </Item>
+                        </BuildFailed>
+                        <BuildMoveStart>
+                            <Item>
+                              <Sound>9818755</Sound>
+                            </Item>
+                        </BuildMoveStart>
+                        <BuildMoveSuccess>
+                            <Item>
+                              <Sound>203995</Sound>
+                            </Item>
+                        </BuildMoveSuccess>
+                        <BuildMoveEnd>
+                            <Item>
+                              <Sound>200141</Sound>
+                            </Item>
+                        </BuildMoveEnd>
+                    </ConstructionSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                            <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRuined>
+                        <Item>
+                            <Sound>203848</Sound>
+                        </Item>
+                    </BuildingRuined>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <Pausable />
+                <UpgradeList />
+                <Culture>
+                    <CultureType>NatureBonus</CultureType>
+                </Culture>
+                <StreetActivation />
+                <FeedbackController />
+                <Upgradable>
+                    <NextGUID>0</NextGUID>
+                    <CurrentTier>1</CurrentTier>
+                    <UpgradeCost />
+                </Upgradable>
+                <PublicService />
+            </Properties>
+        </Template>
+    </ModOp>
+
+    <!-- # Restaurant and Bar / only to get rid of the bus sign -->
+    <ModOp Type="addNextSibling" Path="//Template[Name='FactoryBuilding7']">
+        <Template>
+            <Name>lion053_restaurant</Name>
+            <Properties>
+                <Standard />
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking />
+                <Object />
+                <Cost />
+                <Mesh />
+                <Selection>
+                    <GUIType>Production</GUIType>
+                    <StaticHelpEntryPoint>TouristSeasonVenues</StaticHelpEntryPoint>
+                    <OnSelection>
+                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                    <Values>
+                        <ActionList />
+                    </Values>
+                    </OnSelection>
+                    <ParticipantMessageTrigger>ClickRecipeBuffFactory</ParticipantMessageTrigger>
+                    <ParticipantMessageArcheType>Resident_Tourist</ParticipantMessageArcheType>
+                </Selection>
+                <Text />
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <DestroySounds>
+                    <Item>
+                        <Sound>9818756</Sound>
+                    </Item>
+                    </DestroySounds>
+                    <ConstructionSounds>
+                    <BuildFailed>
+                        <Item>
+                        <Sound>9818387</Sound>
+                        </Item>
+                    </BuildFailed>
+                    <BuildMoveStart>
+                        <Item>
+                        <Sound>9818755</Sound>
+                        </Item>
+                    </BuildMoveStart>
+                    <BuildMoveSuccess>
+                        <Item>
+                        <Sound>203995</Sound>
+                        </Item>
+                    </BuildMoveSuccess>
+                    <BuildMoveEnd>
+                        <Item>
+                        <Sound>200141</Sound>
+                        </Item>
+                    </BuildMoveEnd>
+                    </ConstructionSounds>
+                </SoundEmitter>
+                <FactoryBase />
+                <LogisticNode>
+                    <ResetOnGUIDChange>1</ResetOnGUIDChange>
+                </LogisticNode>
+                <Maintenance>
+                    <ConsumerPriority>1</ConsumerPriority>
+                    <IncomeCategory>Restaurants</IncomeCategory>
+                </Maintenance>
+                <Industrializable />
+                <IncidentInfectable>
+                    <Infectable>
+                    <Riot>
+                        <Base>0</Base>
+                        <Escalated>0</Escalated>
+                    </Riot>
+                    <Explosion>
+                        <Base>0</Base>
+                        <Escalated>0</Escalated>
+                    </Explosion>
+                    </Infectable>
+                    <IncidentInfectionChanceFactors>
+                    <Fire>
+                        <DensityDistance>20</DensityDistance>
+                        <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                        <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                    </Fire>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Electrifiable />
+                <AmbientMoodProvider />
+                <Attackable>
+                    <MaximumHitPoints>2000</MaximumHitPoints>
+                    <HasRuinState>1</HasRuinState>
+                </Attackable>
+                <UpgradeList />
+                <Pausable>
+                    <CanPauseManually>1</CanPauseManually>
+                </Pausable>
+                <FeedbackController />
+                <Infolayer />
+                <BuffFactory>
+                    <BaseBuffScope>Radius</BaseBuffScope>
+                </BuffFactory>
+                <RecipeBuilding>
+                    <RecipeBuildingType>Restaurant</RecipeBuildingType>
+                </RecipeBuilding>
+                <Culture />
+                <Nameable />
+            </Properties>
+        </Template>
+    </ModOp>
+
+    <!-- # Monument / only to get rid of the bus sign -->
+    <ModOp Type="addNextSibling" Path="//Template[Name='FactoryBuilding7']">
+        <Template>
+            <Name>lion053_monument</Name>
+            <Properties>
+            <Standard>
+                <InfoDescription>100027</InfoDescription>
+            </Standard>
+            <Building>
+                <BuildingType>Factory</BuildingType>
+                <BuildingCategoryName>100002</BuildingCategoryName>
+                <DestructionConfirmation>1</DestructionConfirmation>
+            </Building>
+            <Blocking />
+            <Cost />
+            <Object>
+                <IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
+            </Object>
+            <Mesh />
+            <Selection>
+                <GUIType>Production</GUIType>
+                <OnSelection>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                    <ActionList />
+                </Values>
+                </OnSelection>
+            </Selection>
+            <Text />
+            <Constructable>
+                <DestructionCategory>Production</DestructionCategory>
+            </Constructable>
+            <Locked />
+            <SoundEmitter>
+                <DestroySounds>
+                    <Item>
+                        <Sound>9818756</Sound>
+                    </Item>
+                </DestroySounds>
+                <ConstructionSounds>
+                    <BuildFailed>
+                        <Item>
+                            <Sound>9818387</Sound>
+                        </Item>
+                    </BuildFailed>
+                    <BuildSuccessful>
+                        <Item>
+                            <Sound>200776</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>279596</Sound>
+                        </Item>
+                    </BuildSuccessful>
+                    <BuildUpgrade>
+                        <Item>
+                            <Sound>201232</Sound>
+                        </Item>
+                    </BuildUpgrade>
+                    <BuildMoveStart>
+                        <Item>
+                            <Sound>9818755</Sound>
+                        </Item>
+                    </BuildMoveStart>
+                    <BuildMoveSuccess>
+                        <Item>
+                            <Sound>203995</Sound>
+                        </Item>
+                    </BuildMoveSuccess>
+                    <BuildMoveEnd>
+                        <Item>
+                            <Sound>200141</Sound>
+                        </Item>
+                    </BuildMoveEnd>
+                </ConstructionSounds>
+                <BuildingRepaired>
+                    <Item>
+                      <Sound>203866</Sound>
+                    </Item>
+                </BuildingRepaired>
+                <SpawnSounds>
+                    <Item>
+                      <Sound>200912</Sound>
+                    </Item>
+                </SpawnSounds>
+            </SoundEmitter>
+            <FeedbackController>
+                <NightBehavior>HideNone</NightBehavior>
+                <StopOldSequenceWhenStartingNewOne>1</StopOldSequenceWhenStartingNewOne>
+            </FeedbackController>
+            <Infolayer />
+            <FactoryBase />
+            <LogisticNode />
+            <Monument>
+                <ConstructionStateText>
+                <Interrupted>
+                    <Text>163011</Text>
+                </Interrupted>
+                <OutOfWorkforce>
+                    <Text>163026</Text>
+                </OutOfWorkforce>
+                <WaitingForResources>
+                    <Text>163012</Text>
+                </WaitingForResources>
+                <Processing>
+                    <Text>163010</Text>
+                </Processing>
+                </ConstructionStateText>
+                <PhaseCompletedNotification>501327</PhaseCompletedNotification>
+            </Monument>
+            <Culture>
+                <CultureType>Monument</CultureType>
+            </Culture>
+            <AmbientMoodProvider />
+            <Maintenance>
+                <IncomeCategory>CultureBuildings</IncomeCategory>
+            </Maintenance>
+            <Attackable />
+            <Pausable />
+            <BuildingUnique />
+            <UpgradeList />
+            <Industrializable>
+                <BoostedByIndustrialization>0</BoostedByIndustrialization>
+            </Industrializable>
+            <QuestObject />
+            <Electrifiable />
+            </Properties>
+        </Template>
+    </ModOp>
+
+</ModOps>

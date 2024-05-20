@@ -1,0 +1,54 @@
+{
+  "Version": "1.4",
+  "ModID": "lion053_paper_mill_ow",
+  "IncompatibleIds": [],
+  "ModDependencies": "shared-sulfur-production-lion053",
+  "DeprecateIds": null,
+
+  "Category": {
+    "Chinese": "Building",
+    "English": "Building",
+    "French": "Building",
+    "German": "Building",
+    "Italian": "Building",
+    "Japanese": "Building",
+    "Korean": "Building",
+    "Polish": "Building",
+    "Russian": "Building",
+    "Spanish": "Building",
+    "Taiwanese": "Building"
+  },
+
+  "ModName": {
+    "Chinese": "OW Paper Mill (Lion053)",
+    "English": "OW Paper Mill (Lion053)",
+    "French": "OW Paper Mill (Lion053)",
+    "German": "OW Paper Mill (Lion053)",
+    "Italian": "OW Paper Mill (Lion053)",
+    "Japanese": "OW Paper Mill (Lion053)",
+    "Korean": "OW Paper Mill (Lion053)",
+    "Polish": "OW Paper Mill (Lion053)",
+    "Russian": "OW Paper Mill (Lion053)",
+    "Spanish": "OW Paper Mill (Lion053)",
+    "Taiwanese": "OW Paper Mill (Lion053)"
+  },
+
+  "Description": {
+    "Chinese": "file::readme.md",
+    "English": "file::readme.md",
+    "French": "file::readme.md",
+    "German": "file::readme.md",
+    "Italian": "file::readme.md",
+    "Japanese": "file::readme.md",
+    "Korean": "file::readme.md",
+    "Polish": "file::readme.md",
+    "Russian": "file::readme.md",
+    "Spanish": "file::readme.md",
+    "Taiwanese": "file::readme.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Lion053",
+  "CreatorContact": "https://discord.gg/ycmFNKaG",
+  "Image": null
+}

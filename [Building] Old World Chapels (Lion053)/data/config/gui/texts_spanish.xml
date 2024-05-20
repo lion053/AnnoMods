@@ -1,0 +1,30 @@
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<Text>			
+			<GUID>2100115121</GUID>
+			<Text>Capilla</Text>
+		</Text>	
+		<Text>			
+			<GUID>2100115122</GUID>
+			<Text>Capilla, vistoso</Text>
+		</Text>	
+		<Text>			
+			<GUID>2100115125</GUID>
+			<Text>Satisface la necesidad de una iglesia</Text>
+		</Text>	
+		<Text>			
+			<GUID>2100115127</GUID>
+			<Text>1404 Capilla</Text>
+		</Text>	
+		<Text>
+			<GUID>2100115156</GUID>
+			<Text>Old World Chapels</Text>
+		</Text>
+
+  </ModOp>
+
+</ModOps>

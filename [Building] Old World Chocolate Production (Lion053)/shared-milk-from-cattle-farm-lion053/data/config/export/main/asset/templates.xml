@@ -1,0 +1,113 @@
+<!-- Milk from Cattle Farm v1.0 -->
+
+<ModOps>
+
+  <ModOp Type="addNextSibling" Template="Farmfield">
+    <Template>
+      <Name>lion053_PastureFactoryModule</Name>
+      <Properties>
+        <Standard />
+        <Text />
+        <Building>
+          <BuildingType>BuildingModule</BuildingType>
+          <BuildingCategoryName>11175</BuildingCategoryName>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AllowChangeVariation>1</AllowChangeVariation>
+        </Building>
+        <Blocking>
+          <GroundDecalAsset>101201</GroundDecalAsset>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+          <DisableDefaultTrafficFeedback>1</DisableDefaultTrafficFeedback>
+        </Blocking>
+        <Mesh />
+        <FactoryBase>
+          <WarehouseTransporterAsset>0</WarehouseTransporterAsset>
+          <TeleportProducedGoodsIntoAreaStorage>1</TeleportProducedGoodsIntoAreaStorage>
+        </FactoryBase>
+        <FeedbackController />
+        <Pausable />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <UnlockSecondGUI>0</UnlockSecondGUI>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Attackable />
+        <Maintenance />
+        <AmbientMoodProvider>
+          <DynamicEnvironmentType>None</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <LogisticNode />
+        <Constructable>
+          <DestructionCategory>Production</DestructionCategory>
+        </Constructable>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <IncidentInfectable>
+          <Infectable>
+            <Fire>
+              <Base>0</Base>
+            </Fire>
+            <Riot>
+              <Base>0</Base>
+            </Riot>
+            <Illness>
+              <Base>0</Base>
+            </Illness>
+            <Explosion>
+              <Base>0</Base>
+            </Explosion>
+          </Infectable>
+        </IncidentInfectable>
+        <Object />
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>278974</Sound>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <Sound>202402</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+            </BuildMoveStart>
+            <BuildMoveSuccess>
+              <Item>
+                <Sound>202402</Sound>
+              </Item>
+            </BuildMoveSuccess>
+            <BuildMoveEnd>
+              <Item>
+                <Sound>200141</Sound>
+              </Item>
+            </BuildMoveEnd>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <Cost />
+        <BuildingModule />
+        <Infolayer />
+        <UpgradeList />
+        <Electrifiable />
+        <Industrializable />
+        <Factory7 />
+      </Properties>
+    </Template>
+  </ModOp>
+
+</ModOps>

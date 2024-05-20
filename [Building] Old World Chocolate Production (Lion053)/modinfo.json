@@ -1,0 +1,63 @@
+{
+  "Version": "1.1",
+  "ModID": "lion053-ow-chocolate-production",
+  "IncompatibleIds": [],
+  "ModDependencies": [
+    "shared-milk-from-cattle-farm-lion053",
+    "shared-pools-and-definitions",
+    "shared-ground-textures-city-jakob",
+    "shared-ground-textures-industry-jakob"
+  ],
+  "LoadAfterIds": [
+    "*",
+    "shared-pools-and-definitions",
+    "jakob_small_malls"
+  ],
+
+  "Category": {
+    "Chinese": "Building",
+    "English": "Building",
+    "French": "Building",
+    "German": "Building",
+    "Italian": "Building",
+    "Japanese": "Building",
+    "Korean": "Building",
+    "Polish": "Building",
+    "Russian": "Building",
+    "Spanish": "Building",
+    "Taiwanese": "Building"
+  },
+
+  "ModName": {
+    "Chinese": "OW Chocolate Production (Lion053)",
+    "English": "OW Chocolate Production (Lion053)",
+    "French": "OW Chocolate Production (Lion053)",
+    "German": "OW Chocolate Production (Lion053)",
+    "Italian": "OW Chocolate Production (Lion053)",
+    "Japanese": "OW Chocolate Production (Lion053)",
+    "Korean": "OW Chocolate Production (Lion053)",
+    "Polish": "OW Chocolate Production (Lion053)",
+    "Russian": "OW Chocolate Production (Lion053)",
+    "Spanish": "OW Chocolate Production (Lion053)",
+    "Taiwanese": "OW Chocolate Production (Lion053)"
+  },
+
+  "Description": {
+    "Chinese": "file::readme.md",
+    "English": "file::readme.md",
+    "French": "file::readme.md",
+    "German": "file::readme.md",
+    "Italian": "file::readme.md",
+    "Japanese": "file::readme.md",
+    "Korean": "file::readme.md",
+    "Polish": "file::readme.md",
+    "Russian": "file::readme.md",
+    "Spanish": "file::readme.md",
+    "Taiwanese": "file::readme.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Lion053",
+  "CreatorContact": "https://discord.gg/ycmFNKaG",
+  "Image": null
+}

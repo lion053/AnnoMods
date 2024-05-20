@@ -1,0 +1,212 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118200</GUID>
+			<Text>Chocolate Industrial Production</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118201</GUID>
+			<Text>Trigger_sandbox</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118202</GUID>
+			<Text>Trigger_creative</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118203</GUID>
+			<Text>Пастбище для скота</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118204</GUID>
+			<Text>Шоколатье Гарибальди</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118205</GUID>
+			<Text>Chocolaterie Garibaldi</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118206</GUID>
+			<Text>Сахарный Завод</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118207</GUID>
+			<Text>InfoTip Cattle Farm OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118208</GUID>
+			<Text>Пастбища снабжают молоком</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118209</GUID>
+			<Text>Предоставляет территорию для выпаса скота. Кроме того, каждое пастбище дает 1 тонну молока за каждый цикл. Нажмите на пастбище, чтобы увидеть его текущую продуктивность.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<!-- FOR TRANSLATION: Search for the Guid 8143 in your language text file; from the result copy only the translated term for 'secondary goods' -->
+			<GUID>2100118210</GUID>
+			<Text>дополнительную продукцию:</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118211</GUID>
+			<Text>Производительность пастбища</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118212</GUID>
+			<Text>Chewing gum chain OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118213</GUID>
+			<Text>Trigger_chewing_gum_unhide</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118214</GUID>
+			<Text>Trigger_chewing_gum_unlock</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118215</GUID>
+			<Text>1т/пастбище/цикл</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118216</GUID>
+			<Text>В том месте откуда прибыл Гарибальди, лучшие шоколатье создают самые изысканные искушения с момента изобретения шоколада... Даже самый занятой финансовый воротила не сможет устоять.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118217</GUID>
+			<Text>Trigger_chewing_gum_creative</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118218</GUID>
+			<Text>Trigger_pasture_artisans</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118219</GUID>
+			<Text>Ферма сахарной свеклы</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118220</GUID>
+			<Text>Поле сахарной свеклы</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118221</GUID>
+			<Text>Сахарная свекла плодородность</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118222</GUID>
+			<Text>Сахарная свекла</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118223</GUID>
+			<Text>Семена сахарной свеклы</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118224</GUID>
+			<Text>&lt;b&gt;Свекла обыкновенная&lt;/b&gt; Эти семена помогут вам вырастить обильные поля сахарной свеклы на чуждой почве.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118225</GUID>
+			<Text>Гибридные семена сахарной свеклы</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118226</GUID>
+			<Text>Иероним Хесс, Пионер перегонки свеклы</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118227</GUID>
+			<Text>В то время как континентальная блокада Наполеона в начале века вызвала нехватку колониальных товаров и привела к выращиванию местной сахарной свеклы, Гесс вскоре сделал себе имя, используя ее в производстве рома. После окончания блокады никто ничего не хотел знать о роме из сахарной свеклы, и так он оказался в Новом Свете, где с тех пор незаметно перегоняет сахарную свеклу вместо сахарного тростника.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118228</GUID>
+			<Text>Фрид Якобсон, Специалист в области ферментации</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118229</GUID>
+			<Text>Разносторонний талант и светило в области органической химии. Помимо хорошо оплачиваемых должностей в промышленных компаниях, он умеет успешно презентовать свою работу не только небольшой специализированной аудитории, но и широкой публике. Его серия книг на тему «Брожение для домашнего использования» является давней бестселлером.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118230</GUID>
+			<Text>Вилли Вонка, Производитель волшебного шоколада</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118231</GUID>
+			<Text>“Ни одна другая фабрика в мире не смешивает шоколад с помощью водопада… Но это единственный способ, если вы хотите знать.”</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118232</GUID>
+			<Text>GG_item</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118233</GUID>
+			<Text>GG_package</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118234</GUID>
+			<Text>Переменный пресс для сахарного тростника Лонгботтома</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118235</GUID>
+			<Text>Инструмент, который можно быстро и легко установить и снять для оптимизации измельчения и прессования сахарного тростника.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118236</GUID>
+			<Text>Усиливает здания в радиусе действия.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118237</GUID>
+			<Text>&lt;b&gt;Свекла обыкновенная&lt;/b&gt; Эти семена адаптированы для выращивания на самых разных почвах и обеспечивают повышенную урожайность сахарной свеклы!</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118238</GUID>
+			<Text>InfoTip Cattle Farm OW (construction menu)</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118239</GUID>
+			<Text>Unlock Pastures Creative Mode</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118240</GUID>
+			<Text>Land Reform Act Buff</Text> <!-- no translation needed -->
+		</Text>
+  </ModOp>
+
+</ModOps>

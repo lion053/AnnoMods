@@ -1,0 +1,58 @@
+{
+  "Version": "1.4",
+  "ModID": "lion053_21_Legendary_Items",
+  "IncompatibleIds": [],
+  "ModDependencies": [
+    "shared-pools-and-definitions"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions"
+  ],
+
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+
+  "ModName": {
+    "Chinese": "21 Legendary Items (Lion053)",
+    "English": "21 Legendary Items (Lion053)",
+    "French": "21 Legendary Items (Lion053)",
+    "German": "21 Legendary Items (Lion053)",
+    "Italian": "21 Legendary Items (Lion053)",
+    "Japanese": "21 Legendary Items (Lion053)",
+    "Korean": "21 Legendary Items (Lion053)",
+    "Polish": "21 Legendary Items (Lion053)",
+    "Russian": "21 Legendary Items (Lion053)",
+    "Spanish": "21 Legendary Items (Lion053)",
+    "Taiwanese": "21 Legendary Items (Lion053)"
+  },
+
+  "Description": {
+    "Chinese": "file::readme.md",
+    "English": "file::readme.md",
+    "French": "file::readme.md",
+    "German": "file::readme.md",
+    "Italian": "file::readme.md",
+    "Japanese": "file::readme.md",
+    "Korean": "file::readme.md",
+    "Polish": "file::readme.md",
+    "Russian": "file::readme.md",
+    "Spanish": "file::readme.md",
+    "Taiwanese": "file::readme.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Lion053",
+  "CreatorContact": "https://discord.gg/ycmFNKaG",
+  "Image": null
+}

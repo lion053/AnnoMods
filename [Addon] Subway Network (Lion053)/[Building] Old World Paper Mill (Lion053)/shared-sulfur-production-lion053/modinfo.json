@@ -1,0 +1,54 @@
+{
+  "Version": "1.0",
+  "ModID": "shared-sulfur-production-lion053",
+  "IncompatibleIds": [],
+  "ModDependencies": null,
+  "DeprecateIds": null,
+
+  "Category": {
+    "Chinese": "Shared",
+    "English": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+
+  "ModName": {
+    "Chinese": "Sulfur Production (Lion053)",
+    "English": "Sulfur Production (Lion053)",
+    "French": "Sulfur Production (Lion053)",
+    "German": "Sulfur Production (Lion053)",
+    "Italian": "Sulfur Production (Lion053)",
+    "Japanese": "Sulfur Production (Lion053)",
+    "Korean": "Sulfur Production (Lion053)",
+    "Polish": "Sulfur Production (Lion053)",
+    "Russian": "Sulfur Production (Lion053)",
+    "Spanish": "Sulfur Production (Lion053)",
+    "Taiwanese": "Sulfur Production (Lion053)"
+  },
+
+  "Description": {
+    "Chinese": "file::readme.md",
+    "English": "file::readme.md",
+    "French": "file::readme.md",
+    "German": "file::readme.md",
+    "Italian": "file::readme.md",
+    "Japanese": "file::readme.md",
+    "Korean": "file::readme.md",
+    "Polish": "file::readme.md",
+    "Russian": "file::readme.md",
+    "Spanish": "file::readme.md",
+    "Taiwanese": "file::readme.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Lion053",
+  "CreatorContact": "https://discord.gg/ycmFNKaG",
+  "Image": null
+}

@@ -1,0 +1,212 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118200</GUID>
+			<Text>Producción Industrial de Chocolate</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118201</GUID>
+			<Text>Trigger_sandbox</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118202</GUID>
+			<Text>Trigger_creative</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118203</GUID>
+			<Text>Pasto de ganado</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118204</GUID>
+			<Text>Chocolatería Garibaldi</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118205</GUID>
+			<Text>Chocolatería Garibaldi</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118206</GUID>
+			<Text>Refinería de azúcar</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118207</GUID>
+			<Text>Consejo informativo Granja ganadera OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118208</GUID>
+			<Text>Los pastos dan leche</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118209</GUID>
+			<Text>Proporciona un área para que paste el ganado. Además, cada pasto produce 1 tonelada de leche en cada ciclo. Haga clic en un pasto para ver su productividad actual.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<!-- FOR TRANSLATION: Search for the Guid 8143 in your language text file; from the result copy only the translated term for 'secondary goods' -->
+			<GUID>2100118210</GUID>
+			<Text>Bienes secundarios:</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118211</GUID>
+			<Text>Producción de pastos</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118212</GUID>
+			<Text>Cadena de chicle OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118213</GUID>
+			<Text>Trigger_chewing_gum_unhide</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118214</GUID>
+			<Text>Trigger_chewing_gum_unlock</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118215</GUID>
+			<Text>1t/pasto/ciclo</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118216</GUID>
+			<Text>En Garibaldi's los mejores chocolateros del país crean las tentaciones más delicadas desde que se inventó el chocolate... ni el más activo malabarista financiero podrá resistirse.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118217</GUID>
+			<Text>Trigger_chewing_gum_creative</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118218</GUID>
+			<Text>Trigger_pasture_artisans</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118219</GUID>
+			<Text>Granja de remolacha azucarera</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118220</GUID>
+			<Text>Campo de remolacha azucarera</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118221</GUID>
+			<Text>Fertilidad de la remolacha azucarera</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118222</GUID>
+			<Text>Remolacha azucarera</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118223</GUID>
+			<Text>Semillas de remolacha azucarera</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118224</GUID>
+			<Text>&lt;b&gt;Beta vulgaris&lt;/b&gt; Estas semillas pueden ayudarle a cultivar abundantes campos de remolacha azucarera en suelo extraño.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118225</GUID>
+			<Text>Semillas híbridas de remolacha azucarera</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118226</GUID>
+			<Text>Hieronymus Hess, pionero de la destilación de remolacha</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118227</GUID>
+			<Text>Mientras que el bloqueo continental impuesto por Napoleón a principios de siglo provocó una escasez de productos coloniales y condujo al cultivo de remolacha azucarera autóctona, Hess pronto se hizo un nombre con su uso en la producción de ron. Después del fin del bloqueo, nadie quería saber nada sobre el ron de remolacha azucarera, por lo que terminó en el Nuevo Mundo, donde desde entonces destila remolacha azucarera en lugar de caña de azúcar, sin ser notado.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118228</GUID>
+			<Text>Frid Jacobson, Fermentador profesional</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118229</GUID>
+			<Text>Polifacético y una luminaria en el campo de la química orgánica. Además de ocupar puestos bien remunerados en empresas industriales, sabe cómo presentar con éxito su trabajo no sólo a un pequeño público especializado, sino también al público en general. Su serie de libros sobre el tema "Fermentación para uso doméstico" es una de mis favoritas desde hace mucho tiempo.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118230</GUID>
+			<Text>Willy Wonka, Fabricante de chocolate mágico</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118231</GUID>
+			<Text>“Ninguna otra fábrica en el mundo mezcla su chocolate en cascada... Pero es la única manera si lo quieres en su punto.”</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118232</GUID>
+			<Text>GG_item</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118233</GUID>
+			<Text>GG_package</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118234</GUID>
+			<Text>Prensa variable de azúcar de Longbottom</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118235</GUID>
+			<Text>Una herramienta que se puede instalar y quitar rápida y fácilmente para optimizar el triturado y prensado de la caña de azúcar.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118236</GUID>
+			<Text>Mejora los edificios dentro del radio.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118237</GUID>
+			<Text>&lt;b&gt;Beta vulgaris&lt;/b&gt; ¡Estas semillas se han adaptado para crecer en una amplia gama de suelos y con un mayor rendimiento de remolacha azucarera!</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118238</GUID>
+			<Text>InfoTip Cattle Farm OW (construction menu)</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118239</GUID>
+			<Text>Unlock Pastures Creative Mode</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118240</GUID>
+			<Text>Land Reform Act Buff</Text> <!-- no translation needed -->
+		</Text>
+  </ModOp>
+
+</ModOps>

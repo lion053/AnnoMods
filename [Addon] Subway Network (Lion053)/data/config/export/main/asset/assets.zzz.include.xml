@@ -1,0 +1,113 @@
+<!-- # Imya Tweaks -->
+<ModOps>
+  <ModOp Type="replace" GUID="2100115243,2100115255" Path="/Values/BuffFactory/PublicServiceData/FullSatisfactionDistance" ModOpID="subway_station_full_range" Skip="1">
+    <FullSatisfactionDistance>25</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100115243,2100115255" Path="/Values/BuffFactory/PublicServiceData/NoSatisfactionDistance" ModOpID="subway_station_no_range" Skip="1">
+    <NoSatisfactionDistance>25</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100115294,2100115239,2100115299,2100115248,2100115210,2100115250,2100115212,2100115230,2100115937,2100115938,2100115939,2100115940" Path="/Values/EffectForward/ForwardEffectRange" ModOpID="subway_station_buff_range" Skip="1">
+    <ForwardEffectRange>25</ForwardEffectRange>
+  </ModOp>
+  <ModOp Type="replace" GUID="15000001" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='2100115204']" ModOpID="subway_need_workers" Skip="1">
+    <Item>
+      <Product>2100115204</Product>
+      <HappinessValue>6</HappinessValue>
+      <MoneyValue>50</MoneyValue>
+      <FullWeightPopulationCount>7000</FullWeightPopulationCount>
+      <NoWeightPopulationCount>6999</NoWeightPopulationCount>
+    </Item>
+  </ModOp>
+  <ModOp Type="replace" GUID="15000002" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='2100115204']" ModOpID="subway_need_artisans" Skip="1">
+    <Item>
+      <Product>2100115204</Product>
+      <HappinessValue>6</HappinessValue>
+      <MoneyValue>70</MoneyValue>
+      <FullWeightPopulationCount>7000</FullWeightPopulationCount>
+      <NoWeightPopulationCount>6999</NoWeightPopulationCount>
+    </Item>
+  </ModOp>
+  <ModOp Type="replace" GUID="118745" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='2100115204']" ModOpID="subway_need_scholars" Skip="1">
+    <Item>
+      <Product>2100115204</Product>
+      <HappinessValue>6</HappinessValue>
+      <MoneyValue>80</MoneyValue>
+      <FullWeightPopulationCount>7000</FullWeightPopulationCount>
+      <NoWeightPopulationCount>6999</NoWeightPopulationCount>
+    </Item>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100115240" Path="/Values/FactoryBase/CycleTime" ModOpID="subway_factory_cycle" Skip="1">
+    <CycleTime>180</CycleTime>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100115020" Path="/Values/FactoryBase/CycleTime" ModOpID="metal_sheets_press_cycle" Skip="1">
+    <CycleTime>90</CycleTime>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="subway_station_full_range" ExposeID="Public Service Full Satisfaction Distance" Kind="Slider" Description="Defines the street range within the public service of a subway station is provided by 100 %.&#xD;&#xA;Default value is 25.">
+    <SliderDefinition Min="10" Max="50" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="subway_station_no_range" ExposeID="Public Service No Satisfaction Distance" Kind="Slider" Description="The Delta defined by Full and No Satisfaction Distance describes the street range within the public service of a subway station is provided by less than 100 %. Therefore this value must be at least as high as the Full Satisfaction Distance.&#xD;&#xA;Default value is 25.">
+    <SliderDefinition Min="10" Max="50" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::ForwardEffectRange" ModOpID="subway_station_buff_range" ExposeID="Buff Distance" Kind="Slider" Description="Defines the street range within the policy buffs of a subway station are forwarded. For logic reasons the value SHOULD be the same as the 'Public Service Full Satisfaction Distance'.&#xD;&#xA;Default value is 25.">
+    <SliderDefinition Min="10" Max="50" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Item[Product='2100115204']" ModOpID="subway_need_workers" ExposeID="Subway Need for Workers" Kind="Toggle" Description="Off = No Subway Need for Workers&#xD;&#xA;On = Subway Need for Workers&#xD;&#xA;Note that you still need 7.000 Investors to unlock the mod.">
+    <AltValue>
+      <Item>
+        <Product>0</Product>
+        <HappinessValue>0</HappinessValue>
+        <MoneyValue>0</MoneyValue>
+        <FullWeightPopulationCount>0</FullWeightPopulationCount>
+        <NoWeightPopulationCount>0</NoWeightPopulationCount>
+        <IsConsideredByAI>0</IsConsideredByAI>
+      </Item>
+    </AltValue>
+  </ImyaExpose>
+  <ImyaExpose Path="self::Item[Product='2100115204']" ModOpID="subway_need_artisans" ExposeID="Subway Need for Artisans" Kind="Toggle" Description="Off = No Subway Need for Artisans&#xD;&#xA;On = Subway Need for Artisans&#xD;&#xA;Note that you still need 7.000 Investors to unlock the mod.">
+    <AltValue>
+      <Item>
+        <Product>0</Product>
+        <HappinessValue>0</HappinessValue>
+        <MoneyValue>0</MoneyValue>
+        <FullWeightPopulationCount>0</FullWeightPopulationCount>
+        <NoWeightPopulationCount>0</NoWeightPopulationCount>
+        <IsConsideredByAI>0</IsConsideredByAI>
+      </Item>
+    </AltValue>
+  </ImyaExpose>
+  <ImyaExpose Path="self::Item[Product='2100115204']" ModOpID="subway_need_scholars" ExposeID="Subway Need for Scholars" Kind="Toggle" Description="Off = No Subway Need for Scholars&#xD;&#xA;On = Subway Need for Scholars&#xD;&#xA;Note that you still need 7.000 Investors to unlock the mod.">
+    <AltValue>
+      <Item>
+        <Product>0</Product>
+        <HappinessValue>0</HappinessValue>
+        <MoneyValue>0</MoneyValue>
+        <FullWeightPopulationCount>0</FullWeightPopulationCount>
+        <NoWeightPopulationCount>0</NoWeightPopulationCount>
+        <IsConsideredByAI>0</IsConsideredByAI>
+      </Item>
+    </AltValue>
+  </ImyaExpose>
+  <ImyaExpose Path="self::CycleTime" ModOpID="subway_factory_cycle" ExposeID="Subway Factory Cycle Time (seconds)" Kind="Enum" Description="Default value is 180 seconds.">
+    <FixedValues>
+      <Value>90</Value>
+      <Value>120</Value>
+      <Value>150</Value>
+      <Value>180</Value>
+      <Value>210</Value>
+      <Value>240</Value>
+      <Value>270</Value>
+      <Value>300</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaExpose Path="self::CycleTime" ModOpID="metal_sheets_press_cycle" ExposeID="Metal Sheets Press Cycle Time (seconds)" Kind="Enum" Description="Default value is 90 seconds.">
+    <FixedValues>
+      <Value>30</Value>
+      <Value>60</Value>
+      <Value>90</Value>
+      <Value>120</Value>
+      <Value>150</Value>
+    </FixedValues>
+  </ImyaExpose>
+  <ImyaTweaks Title="Custom Settings" />
+  <Include File="./assets.zzz.include.imyatweak.include.xml" />
+</ModOps>

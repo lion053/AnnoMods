@@ -1,0 +1,131 @@
+<Info>
+<BoundingBox>
+<Name>BoundingBox</Name>
+<Position>
+<xf>0.002441406</xf>
+<yf>0.681982</yf>
+<zf>0.007019043</zf>
+</Position>
+<Rotation>
+<xf>0</xf>
+<yf>0</yf>
+<zf>0</zf>
+<wf>1</wf>
+</Rotation>
+<Extents>
+<xf>0.5014648</xf>
+<yf>0.6754398</yf>
+<zf>0.1438599</zf>
+</Extents>
+</BoundingBox>
+<MeshBoundingBox>
+<Name>MeshBoundingBox</Name>
+<Position>
+<xf>0.002441406</xf>
+<yf>0.681982</yf>
+<zf>0.007019043</zf>
+</Position>
+<Rotation>
+<xf>0</xf>
+<yf>0</yf>
+<zf>0</zf>
+<wf>1</wf>
+</Rotation>
+<Extents>
+<xf>0.5014648</xf>
+<yf>0.6754398</yf>
+<zf>0.1438599</zf>
+</Extents>
+</MeshBoundingBox>
+<DisableFeedbackArea>0</DisableFeedbackArea>
+<FeedbackBlocker>
+		<Position>
+			<xf>0.248797</xf>
+			<zf>-0.250000</zf>
+		</Position>
+		<Position>
+			<xf>0.248797</xf>
+			<zf>-0.500000</zf>
+		</Position>
+		<Position>
+			<xf>0.500000</xf>
+			<zf>-0.500000</zf>
+		</Position>
+		<Position>
+			<xf>0.500000</xf>
+			<zf>-0.250000</zf>
+		</Position>
+	</FeedbackBlocker>
+	<FeedbackBlocker>
+		<Position>
+			<xf>-0.493592</xf>
+			<zf>-0.250000</zf>
+		</Position>
+		<Position>
+			<xf>-0.493592</xf>
+			<zf>-0.500000</zf>
+		</Position>
+		<Position>
+			<xf>-0.242389</xf>
+			<zf>-0.500000</zf>
+		</Position>
+		<Position>
+			<xf>-0.242389</xf>
+			<zf>-0.250000</zf>
+		</Position>
+	</FeedbackBlocker>
+	<FeedbackBlocker>
+		<Position>
+			<xf>-0.493592</xf>
+			<zf>0.493766</zf>
+		</Position>
+		<Position>
+			<xf>-0.493592</xf>
+			<zf>0.243766</zf>
+		</Position>
+		<Position>
+			<xf>-0.242389</xf>
+			<zf>0.243766</zf>
+		</Position>
+		<Position>
+			<xf>-0.242389</xf>
+			<zf>0.493766</zf>
+		</Position>
+	</FeedbackBlocker>
+	<BuildBlocker>
+		<Position>
+			<xf>-0.500000</xf>
+			<zf>-0.500000</zf>
+		</Position>
+		<Position>
+			<xf>-0.500000</xf>
+			<zf>0.500000</zf>
+		</Position>
+		<Position>
+			<xf>0.500000</xf>
+			<zf>0.500000</zf>
+		</Position>
+		<Position>
+			<xf>0.500000</xf>
+			<zf>-0.500000</zf>
+		</Position>
+	</BuildBlocker>
+	<FeedbackBlocker>
+		<Position>
+			<xf>0.242827</xf>
+			<zf>0.250000</zf>
+		</Position>
+		<Position>
+			<xf>0.242827</xf>
+			<zf>0.500000</zf>
+		</Position>
+		<Position>
+			<xf>0.500000</xf>
+			<zf>0.500000</zf>
+		</Position>
+		<Position>
+			<xf>0.500000</xf>
+			<zf>0.250000</zf>
+		</Position>
+	</FeedbackBlocker>
+</Info>

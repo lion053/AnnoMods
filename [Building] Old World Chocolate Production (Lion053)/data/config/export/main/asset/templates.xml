@@ -1,0 +1,15 @@
+<ModOps>
+
+  <!-- Add the 3x3 chocolate manufactory production to Jakob's Commercial Street buildings so their direction / variation get influenced -->
+  <ModOp Type="add" Template="JakobsMall" Path="/Properties/Building/InfluencedByNeighbors">
+    <Item>
+      <Building>2100118204</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" Template="JakobsMallOrnamental" Path="/Properties/Building/InfluencedByNeighbors">
+    <Item>
+      <Building>2100118204</Building>
+    </Item>
+  </ModOp>
+
+</ModOps>

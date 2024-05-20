@@ -1,0 +1,608 @@
+<!-- Elevators No DLC v1.0 -->
+<!-- Guids -->
+<!-- 2100115900 = Small Elevator Factory -->
+<!-- 2100115901 = Unlock Sandbox -->
+<!-- 2100115902 = not used -->
+<!-- 2100115903 = Unlock Creative Mode -->
+<!-- 2100115904 = Unlock Sandbox No DLC -->
+<!-- 2100115905 = Unlock Creative Mode No DLC -->
+<!-- 2100115906 = Elevator Chain No DLC -->
+
+<ModOps>
+
+<!-- # Building -->
+<ModOp Type="addNextSibling" GUID="1010364">
+  <Asset>
+    <Template>FactoryBuilding7</Template>
+    <Values>
+      <Standard>
+        <GUID>2100115900</GUID>
+        <Name>Small Elevator Factory</Name>
+        <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_elevator.png</IconFilename>
+      </Standard>
+      <Building>
+        <BuildModeRandomRotation>180</BuildModeRandomRotation>
+        <AssociatedRegions>Moderate</AssociatedRegions>
+      </Building>
+      <Blocking />
+      <Object>
+        <Variations>
+          <Item>
+            <Filename>data\graphics\mod_buildings\lion_053\small_elevator_factory\small_elevator_factory_01.cfg</Filename>
+          </Item>
+        </Variations>
+        <Skins>
+          <DefaultSkinName>2100115900</DefaultSkinName>
+          <DefaultSkinDescription>23853</DefaultSkinDescription>
+          <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+        </Skins>
+      </Object>
+      <Cost>
+        <Costs>
+          <Item>
+            <Ingredient>1010017</Ingredient>
+            <Amount>30000</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010196</Ingredient>
+            <Amount>15</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010205</Ingredient>
+            <Amount>20</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010218</Ingredient>
+            <Amount>15</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010207</Ingredient>
+            <Amount>10</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010202</Ingredient>
+            <Amount>15</Amount>
+          </Item>
+        </Costs>
+      </Cost>
+      <Mesh />
+      <Selection>
+        <GUIType>Production</GUIType>
+        <OnSelection>
+          <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+          <Values>
+            <ActionList />
+          </Values>
+        </OnSelection>
+        <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        <Colors>
+          <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+        </Colors>
+      </Selection>
+      <Text>
+        <TextOverride>134622</TextOverride>
+      </Text>
+      <Constructable />
+      <Locked />
+      <SoundEmitter>
+        <ActiveSounds>
+          <Item>
+            <VectorElement>
+              <InheritedIndex>0</InheritedIndex>
+              <InheritanceMapV2>
+                <Entry>
+                  <TemplateName>Multifactory</TemplateName>
+                  <Index>0</Index>
+                </Entry>
+              </InheritanceMapV2>
+            </VectorElement>
+          </Item>
+          <Item>
+            <Sound>280048</Sound>
+          </Item>
+        </ActiveSounds>
+      </SoundEmitter>
+      <Factory7 />
+      <FactoryBase>
+        <FactoryInputs>
+          <Item>
+            <Product>1010219</Product>
+            <Amount>1</Amount>
+            <StorageAmount>4</StorageAmount>
+          </Item>
+          <Item>
+            <Product>1010242</Product>
+            <Amount>1</Amount>
+            <StorageAmount>4</StorageAmount>
+          </Item>
+          <Item>
+            <Product>1010224</Product>
+            <Amount>1</Amount>
+            <StorageAmount>4</StorageAmount>
+          </Item>
+        </FactoryInputs>
+        <CycleTime>90</CycleTime>
+        <FactoryOutputs>
+          <Item>
+            <Product>134623</Product>
+            <Amount>1</Amount>
+            <StorageAmount>3</StorageAmount>
+          </Item>
+        </FactoryOutputs>
+        <IsMainFactory>0</IsMainFactory>
+      </FactoryBase>
+      <LogisticNode />
+      <Maintenance>
+        <Maintenances>
+          <Item>
+            <Product>1010017</Product>
+            <Amount>450</Amount>
+            <InactiveAmount>225</InactiveAmount>
+          </Item>
+          <Item>
+            <Product>1010115</Product>
+            <Amount>250</Amount>
+          </Item>
+        </Maintenances>
+      </Maintenance>
+      <Industrializable>
+        <MandatoryIndustrialization>1</MandatoryIndustrialization>
+      </Industrializable>
+      <IncidentInfectable>
+        <Explosion>
+          <ExplosionCoreDamage>2000</ExplosionCoreDamage>
+          <DamageExplosionChance>15</DamageExplosionChance>
+        </Explosion>
+        <IncidentInfectionChanceFactors>
+          <Explosion>
+            <BaseChance>4</BaseChance>
+          </Explosion>
+        </IncidentInfectionChanceFactors>
+      </IncidentInfectable>
+      <Electrifiable />
+      <AmbientMoodProvider>
+        <Murmur>Factory</Murmur>
+      </AmbientMoodProvider>
+      <Attackable>
+        <AttackableType>IslandBuilding</AttackableType>
+        <MaximumHitPoints>3500</MaximumHitPoints>
+        <SelfHealPerHealTick>6</SelfHealPerHealTick>
+      </Attackable>
+      <UpgradeList />
+      <Pausable />
+      <FeedbackController>
+        <NightBehavior>HideNone</NightBehavior>
+      </FeedbackController>
+      <Infolayer />
+      <Culture>
+        <Attractiveness>-2</Attractiveness>
+        <HasPollution>1</HasPollution>
+      </Culture>
+    </Values>
+  </Asset>
+</ModOp>
+
+<!-- # Production Chain -->
+<!-- adapt existing chain if dlc-12 is active -->
+<ModOp Type="add" GUID="137602" Path="/Values/ProductionChain/Tier1" Condition="!/Values/ProductionChain/Tier1[Item='2100115900']">
+  <Item>
+    <Building>2100115900</Building>
+  </Item>
+</ModOp>
+<!-- insert new chain if dlc-12 is not owned / active -->
+<ModOp Type="addNextSibling" GUID="1010328">
+  <Asset>
+    <Template>ProductionChain</Template>
+    <Values>
+      <Standard>
+        <GUID>2100115906</GUID>
+        <Name>Elevator Chain No DLC</Name>
+        <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_elevator.png</IconFilename>
+      </Standard>
+      <ProductionChain>
+        <Building>2100115900</Building>
+        <Tier1>
+          <Item>
+            <Building>1010297</Building>
+            <Tier2>
+              <Item>
+                <Building>1010305</Building>
+              </Item>
+              <Item>
+                <Building>1010304</Building>
+              </Item>
+            </Tier2>
+          </Item>
+          <Item>
+            <Building>1010320</Building>
+            <Tier2>
+              <Item>
+                <Building>1010266</Building>
+              </Item>
+            </Tier2>
+          </Item>
+          <Item>
+            <Building>1010302</Building>
+            <Tier2>
+              <Item>
+                <Building>1010297</Building>
+                <Tier3>
+                  <Item>
+                    <Building>1010305</Building>
+                  </Item>
+                  <Item>
+                    <Building>1010304</Building>
+                  </Item>
+                </Tier3>
+              </Item>
+              <Item>
+                <Building>1010282</Building>
+                <Tier3>
+                  <Item>
+                    <Building>1010307</Building>
+                  </Item>
+                  <Item>
+                    <Building>1010308</Building>
+                  </Item>
+                </Tier3>
+              </Item>
+            </Tier2>
+          </Item>
+        </Tier1>
+      </ProductionChain>
+      <Locked />
+      <Text>
+        <TextOverride>137602</TextOverride>
+      </Text>
+    </Values>
+  </Asset>
+</ModOp>
+
+<!-- # Construction Menu -->
+<ModOp Type="addNextSibling" GUID="500447,500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500021']" Condition="!/Values/ConstructionCategory/BuildingList/Item[Building='2100115906']">
+  <Item>
+    <Building>2100115906</Building>
+  </Item>
+</ModOp>
+
+<!-- # Pools / Items -->
+<ModOp Type="add" Path="//ItemEffect/EffectTargets[Item/GUID='134622']">
+  <Item>
+    <GUID>2100115900</GUID>
+  </Item>
+</ModOp>
+<ModOp Type="addNextSibling" GUID="194023" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='134622']">
+  <Item>
+    <GUID>2100115900</GUID>
+  </Item>
+</ModOp>
+<ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings">
+  <Item>
+    <Building>2100115900</Building>
+  </Item>
+</ModOp>
+<ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+  <Item>
+    <Factory>2100115900</Factory>
+  </Item>
+</ModOp>
+
+<!-- # Unlock -->
+<Group>
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115904</GUID>
+          <Name>Unlock Sandbox No DLC</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>410085</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable>
+                <NegateCondition>1</NegateCondition>
+              </ConditionPropsNegatable>
+            </Values>
+          </TriggerCondition>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionUnlocked</Template>
+                      <Values>
+                        <ConditionUnlocked>
+                          <UnlockNeeded>1010303</UnlockNeeded>
+                        </ConditionUnlocked>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100115900</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115906</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>134623</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115905</GUID>
+          <Name>Unlock Creative Mode NO DLC</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsCreativeMode</Template>
+            <Values>
+              <Condition />
+              <ConditionIsCreativeMode />
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionIsDLCActive</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionIsDLCActive>
+                          <DLCAssetList>
+                            <Item>
+                              <DLCAsset>410085</DLCAsset>
+                            </Item>
+                          </DLCAssetList>
+                        </ConditionIsDLCActive>
+                        <ConditionPropsNegatable>
+                          <NegateCondition>1</NegateCondition>
+                        </ConditionPropsNegatable>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100115900</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115906</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>134623</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115901</GUID>
+          <Name>Unlock Sandbox</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>410085</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                          <Condition />
+                          <ConditionPlayerCounter>
+                            <PlayerCounter>ObjectBuilt</PlayerCounter>
+                            <Context>134622</Context>
+                            <ComparisonOp>AtLeast</ComparisonOp>
+                            <CounterAmount>1</CounterAmount>
+                            <CounterScope>Global</CounterScope>
+                          </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+            <!--<Item> This Condition is not displayed properly in the construction menu infotip, but quest is completed successfully as soon as 134622 is built anyway.
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionQuestState</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionQuestState>
+                          <ConditionQuestStateStates>Reached;Failed;AbortedAutomatically;AbortedManually</ConditionQuestStateStates>
+                          <ConditionQuestStateQuestGUID>135901</ConditionQuestStateQuestGUID>
+                        </ConditionQuestState>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item> -->
+          </SubTriggers>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100115900</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115903</GUID>
+          <Name>Unlock Creative Mode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsCreativeMode</Template>
+            <Values>
+              <Condition />
+              <ConditionIsCreativeMode />
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionIsDLCActive</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionIsDLCActive>
+                          <DLCAssetList>
+                            <Item>
+                              <DLCAsset>410085</DLCAsset>
+                            </Item>
+                          </DLCAssetList>
+                        </ConditionIsDLCActive>
+                        <ConditionPropsNegatable />
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100115900</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+</Group>
+
+</ModOps>

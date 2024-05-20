@@ -1,0 +1,13 @@
+<ModOps>
+  <ModOp Path="/Values/Culture/Attractiveness" GUID="2100115150" Type="replace">
+    <Attractiveness>100</Attractiveness>
+  </ModOp>
+  <ModOp Path="/Values/BuildingUnique/Uniques" GUID="2100115150" Type="replace">
+    <Uniques>
+      <Item>
+        <UniqueType>PalaceMinistry</UniqueType>
+        <UniqueScope>Area</UniqueScope>
+      </Item>
+    </Uniques>
+  </ModOp>
+</ModOps>

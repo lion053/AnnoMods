@@ -1,0 +1,1388 @@
+
+<ModOps>
+
+  <!-- Guids in ascending order -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>2100118000</GUID>
+			<Text>Miombo Woodlands I/II</Text>
+		</Text>
+		<Text>
+			<GUID>2100118001</GUID>
+			<Text>Miombo Woodlands II/II</Text>
+		</Text>
+		<Text>
+			<GUID>2100118002</GUID>
+			<Text>Enbesan Highlands I/II</Text>
+		</Text>
+		<Text>
+			<GUID>2100118003</GUID>
+			<Text>Enbesan Highlands II/II</Text>
+		</Text>
+		<Text>
+			<GUID>2100118004</GUID>
+			<Text>Teeming Lakes I/III</Text>
+		</Text>
+		<Text>
+			<GUID>2100118005</GUID>
+			<Text>Teeming Lakes II/III</Text>
+		</Text>
+		<Text>
+			<GUID>2100118006</GUID>
+			<Text>Teeming Lakes III/III</Text>
+		</Text>
+		<Text>
+			<GUID>2100118007</GUID>
+			<Text>Proud Savannah I/II</Text>
+		</Text>
+		<Text>
+			<GUID>2100118008</GUID>
+			<Text>Proud Savannah II/II</Text>
+		</Text>
+		<Text>
+			<GUID>2100118009</GUID>
+			<Text>Great Desert I/I</Text>
+		</Text>
+		<Text>
+			<GUID>2100118010</GUID>
+			<Text>Group_Text_Murmurs_Safari_Modules</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118011</GUID>
+			<Text>Wahenoor, don't tell me you didn't take the bait again that I had specially prepared for today's exploration?</Text>
+		</Text>
+		<Text>
+			<GUID>2100118012</GUID>
+			<Text>If we are not careful, we can quickly get lost in the mountainous highlands. Kala recently met a private who never returned from his expedition... wait...</Text>
+		</Text>
+		<Text>
+			<GUID>2100118013</GUID>
+			<Text>Look, over there behind the baobab tree! Two rare Nyalas! Our tourists have to see them! So quickly mark the area on the map.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118014</GUID>
+			<Text>Zair, I'll bet you a bowl of spices that this footprint belongs to a rhino. Come on, let's follow the trail!</Text>
+		</Text>
+		<Text>
+			<GUID>2100118015</GUID>
+			<Text>Hey, don't dawdle, Isaac, we have to be back before sunset. I don't want to encounter a pride of lions in the dark.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118016</GUID>
+			<Text>The view from up here should be a highlight on our new safari. Don't you think so, Zair? Endless expanses, huge herds of zebras, wildebeests, elephants...</Text>
+		</Text>
+		<Text>
+			<GUID>2100118017</GUID>
+			<Text>Let's put some meat bait out here. Then we wait and see if any hyenas come running. Their giggle always reminds me of Kyria's...</Text>
+		</Text>
+		<Text>
+			<GUID>2100118018</GUID>
+			<Text>Tank filled, engine checked, equipment loaded, Wahenoor we can go. Today we explore areas east of here.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118019</GUID>
+			<Text>Oh my God, it's hot today. Please give me that bottle of goat's milk! What? You've already drunk it?!?</Text>
+		</Text>
+		<Text>
+			<GUID>2100118020</GUID>
+			<Text>What is still missing for a unique safari through our blessed country? Crocodiles, Mulatu, crocodiles! Let's head west to the Niongo River, where we should come across a few specimens.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118021</GUID>
+			<Text>Our map is now quite full of suitable places for an interesting safari, don't you think Wahenoor? We have even discovered Geladas!</Text>
+		</Text>
+		<Text>
+			<GUID>2100118022</GUID>
+			<Text>Don't go too far into the marshy reed landscape, Isaac, otherwise we'll get stuck with the bus. You can't miss the flamingos and cranes here anyway.</Text>
+		</Text>
+		<!-- Guids 2100118023 - 2100118084 used for icon guids in assets-groups-for-exhibitions.include.xml -->
+		<Text>
+			<GUID>2100118085</GUID>
+			<Text>Group_Text_Murmurs_Specialist_Items</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118086</GUID>
+			<Text>Where have I left my glasses again? What did you say? On my head?</Text>
+		</Text>
+		<Text>
+			<GUID>2100118087</GUID>
+			<Text>Wahenoor, I don't have time for this now. I have to go to the town hall for an appointment with the head of the district.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118088</GUID>
+			<Text>Have you heard? Kyria went out for a fancy dinner with Abebe last night! With Abebe! Surely he doesn't even have a single chronicle at home!</Text>
+		</Text>
+		<Text>
+			<GUID>2100118089</GUID>
+			<Text>If someone like Ironbright came to Enbesa, everything here would be industrialised in no time. Not a nice idea. What do you think, Isaac?</Text>
+		</Text>
+		<Text>
+			<GUID>2100118090</GUID>
+			<Text>Our new campaign to recruit foreign specialists already seems to be bearing fruit. Even Emperor Ketema is impressed.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118091</GUID>
+			<Text>I really didn't think that the new typewriters would be so easy to use. They're just a bit noisy.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118092</GUID>
+			<Text>Zair, is the gift basket for the agricultural experts ready yet? The ship is due to arrive at 3 p.m., so you need to be ready at the pier. Don't tell me you've forgotten?</Text>
+		</Text>
+		<Text>
+			<GUID>2100118093</GUID>
+			<Text>The mayor wants an overview of all expats living here by tomorrow. Let's do this right away.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118094</GUID>
+			<Text>Oh, an office job like this is nice. Not in the blazing sun all day, no drudgery in the field...</Text>
+		</Text>
+		<Text>
+			<GUID>2100118095</GUID>
+			<Text>Next week we will be attending a trade fair in the Old World for the first time. There we will present the full beauty and grandeur of Enbesa. I have already asked Wahenoor to pick out the finest ceramics and the most magnificent chronicles.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118096</GUID>
+			<Text>Cleaning schedule for ALL offices, calendar week 37:&#xD;&#xA;Monday: Wahenoor&#xD;&#xA;Tuesday: Isaac&#xD;&#xA;Wednesday: Kyria&#xD;&#xA;Thursday: Zair&#xD;&#xA;Friday: Abebe</Text>
+		</Text>
+		<Text>
+			<GUID>2100118097</GUID>
+			<Text>Whoever invented coffee must have been a genius. Zair, be so good as to bring me another cup.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118098</GUID>
+			<Text>Group_Text_Murmurs_Lodge_Expansion</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118099</GUID>
+			<Text>The demand for comfortable accommodation is high. But we don't want huge bed castles here. It is important to us to remain true to the local architectural style.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118100</GUID>
+			<Text>In the meantime, a hotel on the river was being considered. But the pump operators and farmers opposed this. It would have been too expensive anyway.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118101</GUID>
+			<Text>We like to decorate some of the room walls with pictures of old Enbesan temple paintings.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118102</GUID>
+			<Text>What is the most important thing in good accommodations? Fly screens!</Text>
+		</Text>
+		<Text>
+			<GUID>2100118103</GUID>
+			<Text>Before we turn a new accommodation into reality, we first build a small model out of wood and clay to get a better idea of its shape.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118104</GUID>
+			<Text>Isaac, have you already processed form b2? You know that otherwise we can't continue working with form b3.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118105</GUID>
+			<Text>Some accommodations even have a small pool to relax in. Apparently this is modern today and standard in the Old World. But I think that's a waste of precious water. What do you think, Wahenoor?</Text>
+		</Text>
+		<Text>
+			<GUID>2100118106</GUID>
+			<Text>Zair, when you have completed your apprenticeship and are responsible yourself, always remember: crane sites must be compacted.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118107</GUID>
+			<Text>All lodge modules must not exceed the height of the main building.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118108</GUID>
+			<Text>Planning for new accommodation will only begin when the management of the lodge registers the need for it and suitable building land has been designated by the town hall.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118109</GUID>
+			<Text>Whoever invented coffee must have been a genius. Zair, be so good as to bring me another cup.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118110</GUID>
+			<Text>Where have I left my glasses again? What did you say? On my head?</Text>
+		</Text>
+		<Text>
+			<GUID>2100118111</GUID>
+			<Text>Ornaments for your Tourists</Text>
+		</Text>
+		<Text>
+			<GUID>2100118112</GUID>
+			<Text>Large Lookout</Text>
+		</Text>
+		<Text>
+			<GUID>2100118113</GUID>
+			<Text>Lodge Suitcases</Text>
+		</Text>
+		<Text>
+			<GUID>2100118114</GUID>
+			<Text>Lodge Signpost</Text>
+		</Text>
+		<Text>
+			<GUID>2100118115</GUID>
+			<Text>Lodge Pavilion</Text>
+		</Text>
+		<Text>
+			<GUID>2100118116</GUID>
+			<Text>For a handful of coins you can look for small and large animals without having to approach them yourself.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118117</GUID>
+			<Text>Its easy to lose yourself in the city, this signpost ensures that all Tourists find their way to the lodge.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118118</GUID>
+			<Text>A wooden pavilion perfect for sitting back, relaxing, and observing the hustle and bustle of Enbesa's busiest cities.</Text>
+		</Text>
+		<!-- 2100118119 used only in Safari to Old Enbesa -->
+		<Text>
+			<GUID>2100118120</GUID>
+			<Text>Markets</Text>
+		</Text>
+		<Text>
+			<GUID>2100118121</GUID>
+			<Text>Airballoon Tour</Text>
+		</Text>
+		<Text>
+			<GUID>2100118122</GUID>
+			<Text>Souvenir Shop</Text>
+		</Text>
+		<Text>
+			<GUID>2100118123</GUID>
+			<Text>Dynamic Service Range Tutorial Quest</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118124</GUID>
+			<Text>Asset Pool Ornaments</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118125</GUID>
+			<Text>Asset Pool Nationalpark Modules</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118126</GUID>
+			<Text>Enbesa_tourism_unlock_02</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118127</GUID>
+			<Text>Enbesa_tourism_unlock_03</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118128</GUID>
+			<Text>Enbesa_tourism_unlock_04</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118129</GUID>
+			<Text>Enbesa_tourism_unlock_05</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118130</GUID>
+			<Text>Enbesa_tourism_unlock_06</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118131</GUID>
+			<Text>The more &lt;b&gt;Nationalpark Modules&lt;/b&gt; you build on an island, the larger the public service range of all &lt;b&gt;Nationalpark Main Buildings&lt;/b&gt; on an island.&lt;br /&gt;&lt;br /&gt;Click on any Nationalpark Main Building to see the current range buff in the user interface.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118132</GUID>
+			<Text>Dynamic Service Range Tutorial Quest Trigger</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118133</GUID>
+			<Text>3x1 Street Markets</Text>
+		</Text>
+		<Text>
+			<GUID>2100118134</GUID>
+			<Text>Lodges Tourists temporarily, providing Customers.&#xD;&#xA;&#xD;&#xA;Press Ctrl V for variations.</Text>
+		</Text>
+		<!-- 2100118135 used only in Safari to Old Enbesa -->
+		<Text>
+			<GUID>2100118136</GUID>
+			<Text>Safari Bus Stop</Text>
+		</Text>
+		<Text>
+			<GUID>2100118137</GUID>
+			<Text>RewardTrigger_20_Modules</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118138</GUID>
+			<Text>RewardTrigger_less_than_20_Modules</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118139</GUID>
+			<Text>PlayerCounter Nationalpark Modules</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118140</GUID>
+			<Text>We'd rather go on a Safari</Text>
+		</Text>
+		<Text>
+			<GUID>2100118141</GUID>
+			<Text>Creative Mode Trigger</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118142</GUID>
+			<Text>Patch of sand</Text>
+		</Text>
+		<Text>
+			<GUID>2100118143</GUID>
+			<Text>Lodge Signpost</Text>
+		</Text>
+		<Text>
+			<GUID>2100118144</GUID>
+			<Text>Lodge Suitcases</Text>
+		</Text>
+		<Text>
+			<GUID>2100118145</GUID>
+			<Text>Lodge Pavillion</Text>
+		</Text>
+		<Text>
+			<GUID>2100118146</GUID>
+			<Text>Sand decal</Text>
+		</Text>
+		<Text>
+			<GUID>2100118147</GUID>
+			<Text>Alternative ground texture</Text>
+		</Text>
+		<Text>
+			<GUID>2100118148</GUID>
+			<Text>Grass decal</Text>
+		</Text>
+		<Text>
+			<GUID>2100118149</GUID>
+			<Text>Trigger 2b</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118150</GUID>
+			<Text>Tourism Authority</Text>
+		</Text>
+		<Text>
+			<GUID>2100118151</GUID>
+			<Text>Tourism Pier Switch Trigger</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118152</GUID>
+			<Text>Tourism Pier Switch</Text> <!-- no translation needed -->
+		</Text>
+		<!-- START: Shared with Safari to Old Enbesa -->
+		<Text>
+			<GUID>2100119250</GUID>
+			<Text>Enclosed Palms</Text>
+		</Text>
+		<Text>
+			<GUID>2100119251</GUID>
+			<Text>Enclosed Pines</Text>
+		</Text>
+		<Text>
+			<GUID>2100119252</GUID>
+			<Text>Enclosed Acacias</Text>
+		</Text>
+		<Text>
+			<GUID>2100119260</GUID>
+			<Text>Drag in any direction to build systems</Text>
+		</Text>
+		<Text>
+			<GUID>2100119268</GUID>
+			<Text>Street Markets</Text>
+		</Text>
+		<Text>
+			<GUID>2100119269</GUID>
+			<Text>3x1 sized markets over a street.&#xD;&#xA;&#xD;&#xA;Press Ctrl V for variations.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119283</GUID>
+			<Text>Grand Enbesa Fountain</Text>
+		</Text>
+		<Text>
+			<GUID>2100119284</GUID>
+			<Text>It is strictly forbidden to take the coins out of the fountain.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119292</GUID>
+			<Text>Wildlife Watchtower</Text>
+		</Text>
+		<Text>
+			<GUID>2100119293</GUID>
+			<Text>From up there you not only have a better view of Enbesa's wildlife, but you also stay at a safe distance from big cats.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119296</GUID>
+			<Text>Small Lookout</Text>
+		</Text>
+		<Text>
+			<GUID>2100119297</GUID>
+			<Text>Equipped with a telescope invented by famous Optometrist Otto.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119362</GUID>
+			<Text>Because lions are everywhere!</Text>
+		</Text>
+		<Text>
+			<GUID>2100119380</GUID>
+			<Text>Red Colored Wall</Text>
+		</Text>
+		<Text>
+			<GUID>2100119381</GUID>
+			<Text>Blue Colored Wall</Text>
+		</Text>
+		<Text>
+			<GUID>2100119420</GUID>
+			<Text>Simple Lamp</Text>
+		</Text>
+		<Text>
+			<GUID>2100119421</GUID>
+			<Text>Crossed Lamp</Text>
+		</Text>
+		<Text>
+			<GUID>2100119422</GUID>
+			<Text>Lamp over Street</Text>
+		</Text>
+		<Text>
+			<GUID>2100119426</GUID>
+			<Text>Since the introduction of modern street lighting, the authorities have registered a significant increase in people strolling through the streets at night.</Text>
+		</Text>
+		<!-- END: Shared with Safari to Old Enbesa -->
+		<Text>
+			<GUID>2100119466</GUID>
+			<Text>Lodge: Module</Text>
+		</Text>
+		<Text>
+			<GUID>2100119467</GUID>
+			<Text>Lodge: Main Building</Text>
+		</Text>
+		<Text>
+			<GUID>2100119468</GUID>
+			<Text>Airballoon Tour</Text>
+		</Text>
+		<Text>
+			<GUID>2100119469</GUID>
+			<Text>Nationalpark</Text>
+		</Text>
+		<Text>
+			<GUID>2100119470</GUID>
+			<Text>Souvenir Shop</Text>
+		</Text>
+		<Text>
+			<GUID>2100119471</GUID>
+			<Text>Lodge: Main Building</Text>
+		</Text>
+		<Text>
+			<GUID>2100119472</GUID>
+			<Text>Tourists</Text>
+		</Text>
+		<Text>
+			<GUID>2100119473</GUID>
+			<Text>Welcome adventurous and wealthy tourists to the Land of Lions</Text>
+		</Text>
+		<Text>
+			<GUID>2100119474</GUID>
+			<Text>Enbesa Tourism Trigger</Text>
+		</Text>
+		<Text>
+			<GUID>2100119475</GUID>
+			<Text>Lush grass, sprawling bushes and shady acacias - some of the largest land vertebrates feel right at home here.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119476</GUID>
+			<Text>Far away from the coast, beyond the savannah, lies the highlands, which are difficult to access. Some of the rarest animals are waiting to be discovered here.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119477</GUID>
+			<Text>From shallow lakes in the savannah to shoulder-deep swamps in the tropical coastal areas.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119478</GUID>
+			<Text>&lt;br /&gt;&lt;br /&gt;&lt;font size="24"&gt;&lt;b&gt;AN IMPORTANT MATTER&lt;/b&gt;&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;&lt;font size="22"&gt;Filled with pride, I can announce that our country has now made significant progress. Not only in politics, society, technology and trade, but also in its reputation among wealthy nations from all corners of the globe.&lt;br /&gt;It is therefore time to take the next step and open up our blessed country to tourism. In doing so, we will integrate it even more closely with the world and at the same time open up new sources of income.&lt;br /&gt;This is undoubtedly a major challenge. But who, if not you, would be up to it. I remember only too well how the empire was always able to rely on your skills and expertise in the past.&lt;br /&gt;Stand by the Empire once again and bring the rich diversity of our culture and landscape out into the world.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Emperor Ketema&lt;/b&gt;&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100119479</GUID>
+			<Text>Nationalpark Modules</Text>
+		</Text>
+		<Text>
+			<GUID>2100119480</GUID>
+			<Text>Public Service (by Bus)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119481</GUID>
+			<Text>The hottest and driest place in Enbesa begins behind the highlands. But even there, there is plenty to discover.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119482</GUID>
+			<Text>The heart of the savannah: gigantic herds roam here in search of food and water, always pursued by the king of the animals.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119483</GUID>
+			<Text>IntroduceTourists_Popup_Trigger</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119484</GUID>
+			<Text>TutorialQuest_BusSkin_Trigger</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119485</GUID>
+			<Text>Savannah Trail</Text>
+		</Text>
+		<Text>
+			<GUID>2100119486</GUID>
+			<Text>Watch out for Lions when strolling through the Savannah. This is not an English Park!</Text>
+		</Text>
+		<Text>
+			<GUID>2100119487</GUID>
+			<Text>Attract Tourists</Text>
+		</Text>
+		<Text>
+			<GUID>2100119488</GUID>
+			<Text>Wildlife Discovery</Text>
+		</Text>
+		<Text>
+			<GUID>2100119489</GUID>
+			<Text>Build Permits and Items</Text>
+		</Text>
+		<Text>
+			<GUID>2100119490</GUID>
+			<Text>Discover new hotspots you can offer in your Safari, acquire new specialists or work on building permits to expand your lodge.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119491</GUID>
+			<Text>Discover murderous carnivores on their hunt for prey, follow huge herds through the vast plains of your savannah and adore the gentle , but giant beeings strolling through the bush.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119492</GUID>
+			<Text>Tourism Authority</Text>
+		</Text>
+		<Text>
+			<GUID>2100119493</GUID>
+			<Text>Enter the building</Text>
+		</Text>
+		<Text>
+			<GUID>2100119494</GUID>
+			<Text>Discovered Safari Hotspots</Text>
+		</Text>
+		<Text>
+			<GUID>2100119495</GUID>
+			<Text>Tourism Authority</Text>
+		</Text>
+		<Text>
+			<GUID>2100119496</GUID>
+			<Text>Wildlife Discovery</Text>
+		</Text>
+		<Text>
+			<GUID>2100119497</GUID>
+			<Text>Item Asset Pool</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119498</GUID>
+			<Text>Nationalpark Module Empty</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119499</GUID>
+			<Text>Tourist Ornaments</Text>
+		</Text>
+		<!-- START: Shared with Safari to Old Enbesa -->
+		<Text>
+			<GUID>2100119676</GUID>
+			<Text>Market Sound attenuated</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119680</GUID>
+			<Text>Tree with seating.&#xD;&#xA;&#xD;&#xA;Press Ctrl V for variations.</Text>
+		</Text>
+		<!-- END: Shared with Safari to Old Enbesa -->
+		<Text>
+			<GUID>2100119801</GUID>
+			<Text>Enbesan Highlands I/II</Text>
+		</Text>
+		<Text>
+			<GUID>2100119802</GUID>
+			<Text>Enbesan Highlands II/II</Text>
+		</Text>
+		<Text>
+			<GUID>2100119803</GUID>
+			<Text>Miombo Woodlands I/II</Text>
+		</Text>
+		<Text>
+			<GUID>2100119804</GUID>
+			<Text>Miombo Woodlands II/II</Text>
+		</Text>
+		<Text>
+			<GUID>2100119805</GUID>
+			<Text>Teeming Lakes I/III</Text>
+		</Text>
+		<Text>
+			<GUID>2100119806</GUID>
+			<Text>Teeming Lakes II/III</Text>
+		</Text>
+		<Text>
+			<GUID>2100119807</GUID>
+			<Text>Teeming Lakes III/III</Text>
+		</Text>
+		<Text>
+			<GUID>2100119808</GUID>
+			<Text>Proud Savannah I/II</Text>
+		</Text>
+		<Text>
+			<GUID>2100119809</GUID>
+			<Text>Proud Savannah II/II</Text>
+		</Text>
+		<Text>
+			<GUID>2100119810</GUID>
+			<Text>Great Desert I/I</Text>
+		</Text>
+		<Text> <!-- export.bin.xml -->
+			<GUID>2100119811</GUID>
+			<Text>Range Increase</Text>
+		</Text>
+		<Text>
+			<GUID>2100119812</GUID>
+			<Text>Your Nationalpark Modules increase the Public Service Range by:</Text>
+		</Text>
+		<Text>
+			<GUID>2100119813</GUID>
+			<Text>Nationalpark Module Buff</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119814</GUID>
+			<Text>Nationalpark Module ForwardBuff</Text> <!-- no translation needed -->
+		</Text>
+		<Text> <!-- export.bin.xml -->
+			<GUID>2100119815</GUID>
+			<Text>An item is required to construct the Lodge Modules. They can be acquired by the Tourism Authority.</Text>
+		</Text>
+		<Text> <!-- export.bin.xml -->
+			<GUID>2100119816</GUID>
+			<Text>An item is required to construct the Lodge Modules.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119817</GUID>
+			<Text>Rhino_01</Text> <!-- no translation needed -->
+		</Text>
+		<Text> <!-- export.bin.xml -->
+			<GUID>2100119818</GUID>
+			<Text>An item is required to construct the Nationalpark Modules. They can be acquired by the Tourism Authority.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119819</GUID>
+			<Text>Miombo Woodlands I/II</Text>
+		</Text>
+		<Text>
+			<GUID>2100119820</GUID>
+			<Text>Miombo Woodlands II/II</Text>
+		</Text>
+		<Text>
+			<GUID>2100119821</GUID>
+			<Text>Proud Savannah II/II</Text>
+		</Text>
+		<Text>
+			<GUID>2100119822</GUID>
+			<Text>Proud Savannah I/II</Text>
+		</Text>
+		<Text>
+			<GUID>2100119823</GUID>
+			<Text>Teeming Lakes I/III</Text>
+		</Text>
+		<Text>
+			<GUID>2100119824</GUID>
+			<Text>Teeming Lakes III/III</Text>
+		</Text>
+		<Text>
+			<GUID>2100119825</GUID>
+			<Text>Teeming Lakes II/III</Text>
+		</Text>
+		<Text>
+			<GUID>2100119826</GUID>
+			<Text>Enbesan Highlands I/II</Text>
+		</Text>
+		<Text>
+			<GUID>2100119827</GUID>
+			<Text>Enbesan Highlands II/II</Text>
+		</Text>
+		<Text>
+			<GUID>2100119828</GUID>
+			<Text>Great Desert I/I</Text>
+		</Text>
+		<Text> <!-- export.bin.xml -->
+			<GUID>2100119829</GUID>
+			<Text>An item is required to construct the Nationalpark Modules.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119830</GUID>
+			<Text>Provisions</Text>
+		</Text>
+		<Text>
+			<GUID>2100119831</GUID>
+			<Text>Clothing</Text>
+		</Text>
+		<Text>
+			<GUID>2100119832</GUID>
+			<Text>Reconnaissance Equipment</Text>
+		</Text>
+		<Text>
+			<GUID>2100119833</GUID>
+			<Text>Herbivore Bait</Text>
+		</Text>
+		<Text>
+			<GUID>2100119834</GUID>
+			<Text>Predator Bait</Text>
+		</Text>
+		<Text>
+			<GUID>2100119835</GUID>
+			<Text>They are everywhere</Text>
+		</Text>
+		<Text>
+			<GUID>2100119836</GUID>
+			<Text>They are everywhere</Text>
+		</Text>
+		<Text>
+			<GUID>2100119837</GUID>
+			<Text>Easy to find</Text>
+		</Text>
+		<Text>
+			<GUID>2100119838</GUID>
+			<Text>Easy to find</Text>
+		</Text>
+		<Text>
+			<GUID>2100119839</GUID>
+			<Text>With a little experience</Text>
+		</Text>
+		<Text>
+			<GUID>2100119840</GUID>
+			<Text>With a little experience</Text>
+		</Text>
+		<Text>
+			<GUID>2100119841</GUID>
+			<Text>Challenging to find</Text>
+		</Text>
+		<Text>
+			<GUID>2100119842</GUID>
+			<Text>Challenging to find</Text>
+		</Text>
+		<Text>
+			<GUID>2100119843</GUID>
+			<Text>Only for professionals</Text>
+		</Text>
+		<Text>
+			<GUID>2100119844</GUID>
+			<Text>Only for professionals</Text>
+		</Text>
+		<Text>
+			<GUID>2100119845</GUID>
+			<Text>Provisions</Text>
+		</Text>
+		<Text>
+			<GUID>2100119846</GUID>
+			<Text>Provide your scouts with some provisions. Of course, cool, fresh goat's milk is a must on a hot day in the savannah!</Text>
+		</Text>
+		<Text>
+			<GUID>2100119847</GUID>
+			<Text>Clothing</Text>
+		</Text>
+		<Text>
+			<GUID>2100119848</GUID>
+			<Text>An expedition into the unknown savannah can only succeed with the right clothing.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119849</GUID>
+			<Text>Reconnaissance Equipment</Text>
+		</Text>
+		<Text>
+			<GUID>2100119850</GUID>
+			<Text>Mapping equipment, some lights for the night, and fast vehicles to evade hungry predators... maybe...</Text>
+		</Text>
+		<Text>
+			<GUID>2100119851</GUID>
+			<Text>Herbivore Baits</Text>
+		</Text>
+		<Text>
+			<GUID>2100119852</GUID>
+			<Text>A few cleverly placed baits should increase the chances of attracting interesting species from the bush.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119853</GUID>
+			<Text>Carnivore Baits</Text>
+		</Text>
+		<Text>
+			<GUID>2100119854</GUID>
+			<Text>Be quick and careful when placing the bait to avoid becoming one yourself...</Text>
+		</Text>
+		<Text>
+			<GUID>2100119855</GUID>
+			<Text>Nationalpark Modules</Text>
+		</Text>
+		<Text>
+			<GUID>2100119856</GUID>
+			<Text>Welcome to our Office</Text>
+		</Text>
+		<Text>
+			<GUID>2100119857</GUID>
+			<Text>Delegate a task</Text>
+		</Text>
+		<Text>
+			<GUID>2100119858</GUID>
+			<Text>Attractiveness</Text>
+		</Text>
+		<Text>
+			<GUID>2100119859</GUID>
+			<Text>Reward</Text>
+		</Text>
+		<Text>
+			<GUID>2100119860</GUID>
+			<Text>The Tourism Authority has successfully completed the task assigned to it</Text>
+		</Text>
+		<Text>
+			<GUID>2100119861</GUID>
+			<Text>Your Contribution</Text>
+		</Text>
+		<Text>
+			<GUID>2100119862</GUID>
+			<Text>These animals roam almost everywhere. Even couch potatos from the Old World would recognize them...</Text>
+		</Text>
+		<Text>
+			<GUID>2100119863</GUID>
+			<Text>Animal species that could be discovered quickly with some basic equipment</Text>
+		</Text>
+		<Text>
+			<GUID>2100119864</GUID>
+			<Text>They may looked leisurely, harmless, or cute, but it was a good decision by our experienced scout not to get too close.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119865</GUID>
+			<Text>During the day they usually hide and doze. But due to excellent preparation we were able to locate some specimens.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119866</GUID>
+			<Text>Very rare animals, whose detection required a lot of time, perseverance and the best possible equipment</Text>
+		</Text>
+		<Text>
+			<GUID>2100119867</GUID>
+			<Text>Specialists Acquisition</Text>
+		</Text>
+		<Text>
+			<GUID>2100119868</GUID>
+			<Text>Specialists from all over the world</Text>
+		</Text>
+		<Text>
+			<GUID>2100119869</GUID>
+			<Text>Common Specialists</Text>
+		</Text>
+		<Text>
+			<GUID>2100119870</GUID>
+			<Text>Common Specialists Guildhouse</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119871</GUID>
+			<Text>Common Specialists Townhall</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119872</GUID>
+			<Text>Common Specialists Harbor Office</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119873</GUID>
+			<Text>Uncommon Specialists</Text>
+		</Text>
+		<Text>
+			<GUID>2100119874</GUID>
+			<Text>Uncommon Specialists Guildhouse</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119875</GUID>
+			<Text>Uncommon Specialists Townhall</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119876</GUID>
+			<Text>Uncommon Specialists Harbor Office</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119877</GUID>
+			<Text>Rare Specialists</Text>
+		</Text>
+		<Text>
+			<GUID>2100119878</GUID>
+			<Text>Rare Specialists Guildhouse</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119879</GUID>
+			<Text>Rare Specialists Townhall</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119880</GUID>
+			<Text>Rare Specialists Harbor Office</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119881</GUID>
+			<Text>Epic Specialists</Text>
+		</Text>
+		<Text>
+			<GUID>2100119882</GUID>
+			<Text>Epic Specialists Guildhouse</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119883</GUID>
+			<Text>Epic Specialists Townhall</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119884</GUID>
+			<Text>Epic Specialists Harbor Office</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119885</GUID>
+			<Text>Legendary Specialists</Text>
+		</Text>
+		<Text>
+			<GUID>2100119886</GUID>
+			<Text>Legendary Specialists Guildhouse</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119887</GUID>
+			<Text>Legendary Specialists Townhall</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119888</GUID>
+			<Text>Legendary Specialists Harbor Office</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119889</GUID>
+			<Text>Mostly unknown employees with average skills and low salary expectations.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119890</GUID>
+			<Text>Better known in some professional circles; they may be persuaded by a few amenities.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119891</GUID>
+			<Text>Their current employers know what they have in them. Poach attempts require some effort.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119892</GUID>
+			<Text>They enjoy high reputation in their industry and know how to impress with their skills. Heavy artillery is needed for settlement.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119893</GUID>
+			<Text>Absolute luminaries in their field and known far beyond specialist circles. They expect the best or nothing.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119894</GUID>
+			<Text>Treats</Text>
+		</Text>
+		<Text>
+			<GUID>2100119895</GUID>
+			<Text>Drinks</Text>
+		</Text>
+		<Text>
+			<GUID>2100119896</GUID>
+			<Text>Office Supplies</Text>
+		</Text>
+		<Text>
+			<GUID>2100119897</GUID>
+			<Text>Gifts</Text>
+		</Text>
+		<Text>
+			<GUID>2100119898</GUID>
+			<Text>Treats</Text>
+		</Text>
+		<Text>
+			<GUID>2100119899</GUID>
+			<Text>Drinks</Text>
+		</Text>
+		<!-- 2100119900 used in another mod -->
+		<Text>
+			<GUID>2100119901</GUID>
+			<Text>Gifts</Text>
+		</Text>
+		<Text>
+			<GUID>2100119902</GUID>
+			<Text>The physical well-being needs to be taken care of</Text>
+		</Text>
+		<Text>
+			<GUID>2100119903</GUID>
+			<Text>A few refreshments to keep a cool head during the negotiations</Text>
+		</Text>
+		<Text>
+			<GUID>2100119904</GUID>
+			<Text>Everything the office needs for a successful acquisition</Text>
+		</Text>
+		<Text>
+			<GUID>2100119905</GUID>
+			<Text>A few little touches of traditional Enbesan craftsmanship to flatter the specialists</Text>
+		</Text>
+		<Text>
+			<GUID>2100119906</GUID>
+			<Text>Specialists Acquisition</Text>
+		</Text>
+		<Text>
+			<GUID>2100119907</GUID>
+			<Text>Lodge Expansion</Text>
+		</Text>
+		<Text>
+			<GUID>2100119908</GUID>
+			<Text>Additional Lodge Modules</Text>
+		</Text>
+		<Text>
+			<GUID>2100119909</GUID>
+			<Text>Lodge Expansion</Text>
+		</Text>
+		<Text>
+			<GUID>2100119910</GUID>
+			<Text>A single Lodge Module</Text>
+		</Text>
+		<Text>
+			<GUID>2100119911</GUID>
+			<Text>Two Lodge Modules</Text>
+		</Text>
+		<Text>
+			<GUID>2100119912</GUID>
+			<Text>Three Lodge Modules</Text>
+		</Text>
+		<!-- 2100119913 not used -->
+		<Text>
+			<GUID>2100119914</GUID>
+			<Text>Tight budgets, yield-optimised design specifications, lack of work equipment... It was difficult for your architects and civil engineers to work under these conditions.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119915</GUID>
+			<Text>With sufficient financial and labour resources, your experts were able to design stylish and comfortable accommodations.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119916</GUID>
+			<Text>Everything that was needed and much more was provided. Your architects didn't even want to stop designing more and more accommodations.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119917</GUID>
+			<Text>Paper</Text>
+		</Text>
+		<Text>
+			<GUID>2100119918</GUID>
+			<Text>Typewriter</Text>
+		</Text>
+		<Text>
+			<GUID>2100119919</GUID>
+			<Text>Wanza Timber</Text>
+		</Text>
+		<Text>
+			<GUID>2100119920</GUID>
+			<Text>Clay</Text>
+		</Text>
+		<Text>
+			<GUID>2100119921</GUID>
+			<Text>Tourism Authority</Text>
+		</Text>
+		<Text>
+			<GUID>2100119922</GUID>
+			<Text>Office Supplies</Text>
+		</Text>
+		<Text>
+			<GUID>2100119923</GUID>
+			<Text>Airballoon Tour</Text>
+		</Text>
+		<Text>
+			<GUID>2100119924</GUID>
+			<Text>Tourist Mooring</Text>
+		</Text>
+		<Text>
+			<GUID>2100119925</GUID>
+			<Text>Souvenir Shop</Text>
+		</Text>
+		<Text>
+			<GUID>2100119926</GUID>
+			<Text>Enbesa Tourism Pier</Text>
+		</Text>
+		<Text>
+			<GUID>2100119927</GUID>
+			<Text>Restaurant</Text>
+		</Text>
+		<Text>
+			<GUID>2100119928</GUID>
+			<Text>Restaurant Recipe List</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119929</GUID>
+			<Text>Enbesa's top restaurants don't just serve local specialties. Here, passionate chefs enchant the palates of hungry tourists with the best of fusion cuisine from all over the world. All the dishes have only one thing in common: they are as intensely seasoned as the sun burns down in Enbesa's evening sky.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119930</GUID>
+			<Text>Restaurant Chef's Seafood Stew</Text>
+		</Text>
+		<Text>
+			<GUID>2100119931</GUID>
+			<Text>Chef's Seafood Stew</Text>
+		</Text>
+		<Text>
+			<GUID>2100119932</GUID>
+			<Text>Rumor mill: When the lobster he ordered wasn't delivered one day, the chef helped himself to the fish. When the fish wasn't there the next day, he ordered squid. But when he arrived on the third day, lobster, fish and squid had been delivered. In order not to spoil anything, he threw everything into the stew at once and delighted his guests like never before.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119933</GUID>
+			<Text>Restaurant Chips Mayai</Text>
+		</Text>
+		<Text>
+			<GUID>2100119934</GUID>
+			<Text>Chips Mayai</Text>
+		</Text>
+		<Text>
+			<GUID>2100119935</GUID>
+			<Text>Unhealthy to no end, it's heavy on the stomach and your fingers get greasy when you eat it. But despite this, or precisely because of this, there is little that will make your guests, young and old, happier.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119936</GUID>
+			<Text>Restaurant Sambusa</Text>
+		</Text>
+		<Text>
+			<GUID>2100119937</GUID>
+			<Text>Sambusa</Text>
+		</Text>
+		<Text>
+			<GUID>2100119938</GUID>
+			<Text>Exotic tortillas made in Enbesa: wafer-thin dumplings encase a filling of fresh teff vegetables and dried meat marinated in coconut oil. It is not uncommon for tourists to order a few more and take them with them on their safari...</Text>
+		</Text>
+		<Text>
+			<GUID>2100119939</GUID>
+			<Text>Restaurant Ndizi na Nyama</Text>
+		</Text>
+		<Text>
+			<GUID>2100119940</GUID>
+			<Text>Ndizi na Nyama</Text>
+		</Text>
+		<Text>
+			<GUID>2100119941</GUID>
+			<Text>This stew is at home in the endless expanses of plateaus and savannahs far from the coast and is prepared there in countless variations by the locals. The basic recipe for two people: Cook five unripe green bananas, 300 g tender beef and four bunches of fresh teff over low heat for three hours. Serve hot with Ugali, the traditional Enbesan corn porridge.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119942</GUID>
+			<Text>Bar</Text>
+		</Text>
+		<Text>
+			<GUID>2100119943</GUID>
+			<Text>Bar Recipe List</Text>
+		</Text>
+		<Text>
+			<GUID>2100119944</GUID>
+			<Text>Fruity beers, spicy cocktails or just a tea: thanks to Enbesa's exotic aromas and spices, even experienced connoisseurs from the old and new world will get their money's worth. And with subdued Enbesan music playing in the background, this is simply the perfect place to chat with other tourists and locals after a day full of adventures, to laugh, dance or ponder whatever you feel like.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119945</GUID>
+			<Text>Bar Safari Beer</Text>
+		</Text>
+		<Text>
+			<GUID>2100119946</GUID>
+			<Text>Safari Beer</Text>
+		</Text>
+		<Text>
+			<GUID>2100119947</GUID>
+			<Text>A cool lager, but refined with the juice of all kinds of citrus fruits and a little salt peter for an extra kick. Just the thing to refresh yourself.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119948</GUID>
+			<Text>Bar Chai Maziwa</Text>
+		</Text>
+		<Text>
+			<GUID>2100119949</GUID>
+			<Text>Chai Maziwa</Text>
+		</Text>
+		<Text>
+			<GUID>2100119950</GUID>
+			<Text>For everyone who prefers to avoid alcohol on their adventure vacation so that they don't suddenly find themselves completely drunk in front of a pack of lions and philosophizing about the speed of industrialization. The strong taste of fresh goat's milk can be softened by adding any amount of sugar.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119951</GUID>
+			<Text>Bar Enbesa Sunset</Text>
+		</Text>
+		<Text>
+			<GUID>2100119952</GUID>
+			<Text>Enbesa Sunset</Text>
+		</Text>
+		<Text>
+			<GUID>2100119953</GUID>
+			<Text>Perfect for a relaxed nightcap after an exhausting and exciting safari. Locals enjoy listening to their tourists recalling the impressions of the day. Because with advanced consumption, the distant observation of a lion quickly turns into a fight for life and death, the unimpressed passing elephant into a raging bull that you could just barely escape from.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119954</GUID>
+			<Text>Bar Konyagi Tonic</Text>
+		</Text>
+		<Text>
+			<GUID>2100119955</GUID>
+			<Text>Konyagi Tonic</Text>
+		</Text>
+		<Text>
+			<GUID>2100119956</GUID>
+			<Text>The name like a cognac, the taste like a gin, the use like a vodka, but the base is a rum, refined with a strong note of cinnamon. The Konyagi is unique in many ways. Its full potential is developed in combination with tonic water, made from herbs containing quinine. Even the ancestors of the elders knew that this drink could even help prevent illnesses. What more could a tourist's heart want?</Text>
+		</Text>
+		<Text>
+			<GUID>2100119957</GUID>
+			<Text>Chef's Seafood Stew</Text>
+		</Text>
+		<Text>
+			<GUID>2100119958</GUID>
+			<Text>Chef's Seafood Stew</Text>
+		</Text>
+		<Text>
+			<GUID>2100119959</GUID>
+			<Text>Chef's Seafood Stew</Text>
+		</Text>
+		<Text>
+			<GUID>2100119960</GUID>
+			<Text>Chips Mayai</Text>
+		</Text>
+		<Text>
+			<GUID>2100119961</GUID>
+			<Text>Chips Mayai</Text>
+		</Text>
+		<Text>
+			<GUID>2100119962</GUID>
+			<Text>Chips Mayai</Text>
+		</Text>
+		<Text>
+			<GUID>2100119963</GUID>
+			<Text>Sambusa</Text>
+		</Text>
+		<Text>
+			<GUID>2100119964</GUID>
+			<Text>Sambusa</Text>
+		</Text>
+		<Text>
+			<GUID>2100119965</GUID>
+			<Text>Sambusa</Text>
+		</Text>
+		<Text>
+			<GUID>2100119966</GUID>
+			<Text>Ndizi na Nyama</Text>
+		</Text>
+		<Text>
+			<GUID>2100119967</GUID>
+			<Text>Ndizi na Nyama</Text>
+		</Text>
+		<Text>
+			<GUID>2100119968</GUID>
+			<Text>Ndizi na Nyama</Text>
+		</Text>
+		<Text>
+			<GUID>2100119969</GUID>
+			<Text>Safari Beer</Text>
+		</Text>
+		<Text>
+			<GUID>2100119970</GUID>
+			<Text>Safari Beer</Text>
+		</Text>
+		<Text>
+			<GUID>2100119971</GUID>
+			<Text>Safari Beer</Text>
+		</Text>
+		<Text>
+			<GUID>2100119972</GUID>
+			<Text>Chai Maziwa</Text>
+		</Text>
+		<Text>
+			<GUID>2100119973</GUID>
+			<Text>Chai Maziwa</Text>
+		</Text>
+		<Text>
+			<GUID>2100119974</GUID>
+			<Text>Chai Maziwa</Text>
+		</Text>
+		<Text>
+			<GUID>2100119975</GUID>
+			<Text>Enbesa Sunset</Text>
+		</Text>
+		<Text>
+			<GUID>2100119976</GUID>
+			<Text>Enbesa Sunset</Text>
+		</Text>
+		<Text>
+			<GUID>2100119977</GUID>
+			<Text>Enbesa Sunset</Text>
+		</Text>
+		<Text>
+			<GUID>2100119978</GUID>
+			<Text>Konyagi Tonic</Text>
+		</Text>
+		<Text>
+			<GUID>2100119979</GUID>
+			<Text>Konyagi Tonic</Text>
+		</Text>
+		<Text>
+			<GUID>2100119980</GUID>
+			<Text>Konyagi Tonic</Text>
+		</Text>
+		<Text>
+			<GUID>2100119981</GUID>
+			<Text>This is the main building of your lodge: Here, tourists will find the reception, a large ballroom, club rooms, administration offices...&#xD;&#xA;&#xD;&#xA;Provides a public service to your tourists.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119982</GUID>
+			<Text>Where your tourists, adventurers and backpackers set their first foot on your enchanted lands.&#xD;&#xA;&#xD;&#xA;Enables visitors and tourists.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119983</GUID>
+			<Text>Safari Bus</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119984</GUID>
+			<Text>Safari Bus</Text>
+		</Text>
+		<Text>
+			<GUID>2100119985</GUID>
+			<Text>A converted bus with a reinforced chassis, increased seating position and better off-road protection. Won't win any beauty awards, but it's functional.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119986</GUID>
+			<Text>Connects your Lodge Modules with the Nationalpark Modules.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119987</GUID>
+			<Text>This is the central department for all activities aimed at increasing tourism in Enbesa. Assign tasks to discover new hotspots in the savannah, plan lodge expansions or convince experts from around the world to use their knowledge in Enbesa.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119988</GUID>
+			<Text>Provides a public service to your tourists.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119989</GUID>
+			<Text>Bus System Enbesa Tutorial Quest</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119990</GUID>
+			<Text>In Enbesa three types of buildings need a connection to a busstop:&lt;br /&gt;&lt;b&gt;Tourist Pier&lt;/b&gt;, &lt;b&gt;Lodge Modules&lt;/b&gt; and &lt;b&gt;Nationalpark Modules&lt;/b&gt;, which provide their hotspot needs via bus.&lt;br /&gt;&lt;br /&gt;Select any busstop and change the skin of the busses to the &lt;b&gt;Safari Bus&lt;/b&gt; skin.&#xD;&#xA;&#xD;&#xA;The bus skins can be set per region, so your choice in Enbesa does not affect the skins in other regions.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119991</GUID>
+			<Text>Nationalpark: Main Building</Text>
+		</Text>
+		<Text>
+			<GUID>2100119992</GUID>
+			<Text>Restaurant</Text>
+		</Text>
+		<Text>
+			<GUID>2100119993</GUID>
+			<Text>Bar</Text>
+		</Text>
+		<Text>
+			<GUID>2100119994</GUID>
+			<Text>Lion_01</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119995</GUID>
+			<Text>Lion_02</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119996</GUID>
+			<Text>Lion_03</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119997</GUID>
+			<Text>Elephant_African_01</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119998</GUID>
+			<Text>Elephant_African_02</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119999</GUID>
+			<Text>Elephant_African_03</Text> <!-- no translation needed -->
+		</Text>
+		<!-- Text replacement -->
+		<Text>
+			<GUID>20030</GUID>
+			<Text>Reward</Text>
+		</Text>
+
+  </ModOp>
+
+</ModOps>

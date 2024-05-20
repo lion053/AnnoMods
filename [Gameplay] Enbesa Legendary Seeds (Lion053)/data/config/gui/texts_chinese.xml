@@ -1,0 +1,66 @@
+
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<!--Items-->
+
+		<Text>
+			<GUID>2100119221</GUID>
+			<Text>南安贝沙地区的传统茶种 (木槿生产力)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119222</GUID>
+			<Text>奇杜西·安尼托尼的抗菌亚麻种子 (亚麻生产力)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119223</GUID>
+			<Text>夏威夷小种苔麸苗 (苔麸生产力)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119224</GUID>
+			<Text>阿道夫·冯·拜尔斯的杂交靛蓝种子 (木兰生产力)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119225</GUID>
+			<Text>柯提马的复合香料种子</Text>
+		</Text>
+		<Text>
+			<GUID>2100119226</GUID>
+			<Text>哈塞尔贝的速生龙虾苗 (龙虾生产力)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119227</GUID>
+			<Text>Ababe´s Land of Milk and Honey for bees</Text>
+		</Text>
+		<Text>
+			<GUID>2100119228</GUID>
+			<Text>比尼安的精密门闸</Text>
+		</Text>
+		<Text>
+			<GUID>2100119229</GUID>
+			<Text>有了这些特殊的种子，你的牧羊人就不会再头疼作物生产力问题了。</Text>
+		</Text>
+		<Text>
+			<GUID>2100119230</GUID>
+			<Text>比尼安的最新发明：一种由齿轮、水泵和闸门制成的复杂机械，将水分配到大面积地区。</Text>
+		</Text>
+		<Text>
+			<GUID>2100119231</GUID>
+			<Text>Legendary Seeds Enbesa TradeUnion</Text>
+		</Text>
+		<Text>
+			<GUID>2100119232</GUID>
+			<Text>Legendary Seeds Enbesa HarborOffice</Text>
+		</Text>
+		<Text>
+			<GUID>2100119233</GUID>
+			<Text>Item Rerun Trigger</Text>
+		</Text>
+		
+								
+  </ModOp>
+
+</ModOps>

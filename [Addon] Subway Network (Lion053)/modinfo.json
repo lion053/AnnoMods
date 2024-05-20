@@ -1,0 +1,76 @@
+{
+  "Version": "2.0",
+  "ModID": "subway_network_lion053",
+  "IncompatibleIds": null,
+  "LoadAfterIds": [
+    "shared-pools-and-definitions"
+  ],
+  "ModDependencies": [
+    "shared-ground-textures-city-jakob",
+    "shared-ground-textures-industry-jakob",
+    "shared-products-jakob",
+    "shared-pools-and-definitions",
+    "shared-small-elevator-factory-lion053",
+    "lion053_paper_mill_ow"
+  ],
+
+  "Category": {
+    "Chinese": "Addon",
+    "English": "Addon",
+    "French": "Addon",
+    "German": "Addon",
+    "Italian": "Addon",
+    "Japanese": "Addon",
+    "Korean": "Addon",
+    "Polish": "Addon",
+    "Russian": "Addon",
+    "Spanish": "Addon",
+    "Taiwanese": "Addon"
+  },
+
+  "ModName": {
+    "Chinese": "Subway Network 2.0 (Lion053)",
+    "English": "Subway Network 2.0 (Lion053)",
+    "French": "Subway Network 2.0 (Lion053)",
+    "German": "Subway Network 2.0 (Lion053)",
+    "Italian": "Subway Network 2.0 (Lion053)",
+    "Japanese": "Subway Network 2.0 (Lion053)",
+    "Korean": "Subway Network 2.0 (Lion053)",
+    "Polish": "Subway Network 2.0 (Lion053)",
+    "Russian": "Subway Network 2.0 (Lion053)",
+    "Spanish": "Subway Network 2.0 (Lion053)",
+    "Taiwanese": "Subway Network 2.0 (Lion053)"
+  },
+
+  "Description": {
+    "Chinese": "file::readme.md",
+    "English": "file::readme.md",
+    "French": "file::readme.md",
+    "German": "file::readme_german.md",
+    "Italian": "file::readme.md",
+    "Japanese": "file::readme.md",
+    "Korean": "file::readme.md",
+    "Polish": "file::readme.md",
+    "Russian": "file::readme.md",
+    "Spanish": "file::readme.md",
+    "Taiwanese": "file::readme.md"
+  },
+
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "LandOfLions",
+      "Dependant": "partly"
+    },
+    {
+      "DLC": "HighLife",
+      "Dependant": "partly"
+    },
+    {
+      "DLC": "NewWorldRising",
+      "Dependant": "partly"
+    }
+  ],
+  "CreatorName": "Lion053",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
+}

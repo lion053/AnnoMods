@@ -1,0 +1,1195 @@
+
+<!-- Enbesa Spectacles Production -->
+<!-- GUIDs in this mod: 2100115700 - 2100115720 // 199002300 shared with Extra Goods Mod by Taludas -->
+
+<ModOps>
+
+  <!-- # Replace existing glasses chain in Enbesa, keep Guid -> no need for fall back -->
+
+  <ModOp Type="replace" GUID='117740' Path="/Values/Standard/IconFilename">
+    <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_enbesa_glasses_01.png</IconFilename>
+  </ModOp>
+
+  <ModOp Type="replace" GUID='117740' Path="/Values/ProductionChain">
+    <ProductionChain>
+      <Building>2100115706</Building>
+      <Tier1>
+        <Item>
+          <Building>2100115705</Building>
+          <Tier2>
+            <Item>
+              <Building>2100115701</Building>
+            </Item>
+            <Item>
+              <Building>2100115702</Building>
+              <Tier3>
+                <Item>
+                  <Building>1010339</Building>
+                </Item>
+                <Item>
+                  <Building>114440</Building>
+                </Item>
+              </Tier3>
+            </Item>
+          </Tier2>
+        </Item>
+        <Item>
+          <Building>122963</Building>
+        </Item>
+      </Tier1>
+    </ProductionChain>
+  </ModOp>
+
+  <!-- # Adapt lanternsmith production chain to Enbesa quartz and glass production -->
+
+  <ModOp Type="remove" GUID="117714" Path="/Values/ProductionChain/Tier1/Item[Building='1010319']">
+  </ModOp>
+
+  <ModOp Type="add" GUID='117714' Path="/Values/ProductionChain/Tier1">
+    <Item>
+      <Building>2100115705</Building>
+      <Tier2>
+        <Item>s <Building>2100115701</Building>
+        </Item>
+        <Item>
+          <Building>2100115702</Building>
+          <Tier3>
+            <Item>
+              <Building>1010339</Building>
+            </Item>
+            <Item>
+              <Building>114440</Building>
+            </Item>
+          </Tier3>
+        </Item>
+      </Tier2>
+    </Item>
+  </ModOp>
+
+  <!-- # Quartz Production-->
+  <ModOp Type="addNextSibling" GUID="114436">
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115701</GUID>
+          <Name>Quartz Production</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_quartz_sand.png</IconFilename>
+        </Standard>
+        <Building>
+          <TerrainType>Coast</TerrainType>
+          <AssociatedRegions>Africa</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking>
+          <GroundDecalAsset>117730</GroundDecalAsset>
+          <GroundDecalInvisible>117731</GroundDecalInvisible>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>12500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114356</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114402</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>9</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/mod_buildings/lion053/glasses_production/quartz/quartz_production_v1.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <ParticipantMessageArcheType>Africa_Resident_tier01</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>239838</Sound>
+            </Item>
+          </ActiveSounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <Sound>214784</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildMoveSuccess>
+              <Item>
+                <Sound>214784</Sound>
+              </Item>
+            </BuildMoveSuccess>
+          </ConstructionSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRuined>
+            <Item>
+              <Sound>203848</Sound>
+            </Item>
+          </BuildingRuined>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+          <MaterialType>Wood</MaterialType>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryOutputs>
+            <Item>
+              <Product>1010228</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>40</ClampedMaxTransporterLogisticCost>
+          <IsMainFactory>0</IsMainFactory>
+          <CycleTime>25</CycleTime>
+        </FactoryBase>
+        <LogisticNode />
+        <AmbientMoodProvider>
+          <Murmur>Africa_Farms</Murmur>
+          <DynamicEnvironmentType>Harbor</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>100</Amount>
+              <InactiveAmount>50</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>114340</Product>
+              <Amount>25</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <MaximumHitPoints>2000</MaximumHitPoints>
+          <HPBarOffset>4</HPBarOffset>
+          <PausedTimeIfAttacked>0</PausedTimeIfAttacked>
+          <SelfHealPerHealTick>5</SelfHealPerHealTick>
+          <DefenseByAIFactor>100</DefenseByAIFactor>
+          <MoralePower>25</MoralePower>
+          <IslandWarFlag>102303</IslandWarFlag>
+          <RuinSmokeParticles>
+            <Item>
+              <SmokeParticleFilePath>data/graphics/effects/military/explosions/damage_smoke_01.cfg</SmokeParticleFilePath>
+            </Item>
+          </RuinSmokeParticles>
+          <RuinSmokeParticlesMin>1</RuinSmokeParticlesMin>
+          <RuinSmokeParticlesMax>3</RuinSmokeParticlesMax>
+          <RuinSmokeParticleRectBorderPercent>0.2</RuinSmokeParticleRectBorderPercent>
+          <ExplosionEffects>
+            <Item>
+              <ExplosionEffectFilePath>data/graphics/effects/military/explosions/harbor_generic_xpl_02.cfg</ExplosionEffectFilePath>
+            </Item>
+          </ExplosionEffects>
+          <ExplosionEffectsMin>1</ExplosionEffectsMin>
+          <ExplosionEffectsMax>2</ExplosionEffectsMax>
+        </Attackable>
+        <Pausable />
+        <IncidentInfectable>
+          <Infectable>
+            <Explosion>
+              <Base>0</Base>
+              <Escalated>0</Escalated>
+            </Explosion>
+          </Infectable>
+          <Explosion>
+            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <BaseChance>2.5</BaseChance>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+            <Riot>
+              <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+              <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+              <HappinessThreshold>20</HappinessThreshold>
+            </Riot>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Industrializable>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+        </Industrializable>
+        <Culture>
+          <CultureType>Culture</CultureType>
+        </Culture>
+        <QuestObject />
+        <Electrifiable />
+        <EcoSystemProvider />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Soda Production-->
+  <ModOp Type="addNextSibling" GUID="114436">
+    <Asset>
+      <Template>lion053_FactoryBuilding7_watered</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115702</GUID>
+          <Name>Soda Production</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/narative_item/icon_soda_01.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Africa</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>17000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114356</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114402</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/mod_buildings/lion053/glasses_production/soda/soda_factory_v1.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <ParticipantMessageArcheType>Africa_Resident_tier02</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>239836</Sound>
+            </Item>
+          </ActiveSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010256</Product>
+              <Amount>1</Amount>
+              <StorageAmount>3</StorageAmount>
+            </Item>
+            <Item>
+              <Product>114358</Product>
+              <Amount>1</Amount>
+              <StorageAmount>3</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>50</ClampedMaxTransporterLogisticCost>
+          <FactoryOutputs>
+            <Item>
+              <Product>1999002300</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>60</CycleTime>
+          <IsMainFactory>0</IsMainFactory> <!-- set to 1 via conditional ModOp in Docklands Import code -->
+        </FactoryBase>
+        <LogisticNode />
+        <AmbientMoodProvider>
+          <Murmur>Africa_Factories</Murmur>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>150</Amount>
+              <InactiveAmount>100</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>114341</Product>
+              <Amount>45</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <MaximumHitPoints>5250</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable />
+        <IncidentInfectable>
+          <Explosion>
+            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityDistance>20</DensityDistance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+            <Riot>
+              <HappinessThreshold>20</HappinessThreshold>
+            </Riot>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Industrializable>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+        </Industrializable>
+        <Watered>
+          <RequiresWater>1</RequiresWater>
+          <MissingWaterInfolayer>119857</MissingWaterInfolayer>
+        </Watered>
+        <Culture />
+        <QuestObject />
+        <Electrifiable />
+        <EcoSystemProvider />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Glass Production-->
+  <ModOp Type="addNextSibling" GUID="114436">
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115705</GUID>
+          <Name>Glass Production</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_glass.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Africa</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>25000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114356</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114402</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010224</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/mod_buildings/lion053/glasses_production/glass/glass_production_v1.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <ParticipantMessageArcheType>Africa_Resident_tier02</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>270300</Sound>
+            </Item>
+            <Item>
+              <Sound>270294</Sound>
+            </Item>
+          </ActiveSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010228</Product>
+              <Amount>1</Amount>
+              <StorageAmount>3</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1999002300</Product>
+              <Amount>1</Amount>
+              <StorageAmount>3</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>50</ClampedMaxTransporterLogisticCost>
+          <FactoryOutputs>
+            <Item>
+              <Product>1010241</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>30</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode />
+        <AmbientMoodProvider>
+          <Murmur>Africa_Factories</Murmur>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>100</Amount>
+              <InactiveAmount>100</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>114341</Product>
+              <Amount>100</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <MaximumHitPoints>5250</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable />
+        <IncidentInfectable>
+          <Explosion>
+            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityDistance>20</DensityDistance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+            <Riot>
+              <HappinessThreshold>20</HappinessThreshold>
+            </Riot>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Industrializable>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+        </Industrializable>
+        <Culture />
+        <QuestObject />
+        <Electrifiable />
+        <EcoSystemProvider />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Glasses Production-->
+  <ModOp Type="addNextSibling" GUID="114436">
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115706</GUID>
+          <Name>Glasses Production</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_enbesa_glasses_01.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Africa</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking>
+          <BlockWater>1</BlockWater>
+        </Blocking>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>32000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114356</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114402</Ingredient>
+              <Amount>35</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>118724</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/mod_buildings/lion053/glasses_production/glasses/glasses_production_v1.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Africa_Resident_tier02</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>239444</Sound>
+            </Item>
+            <Item>
+              <Sound>239348</Sound>
+            </Item>
+          </ActiveSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010241</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>114356</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>45</ClampedMaxTransporterLogisticCost>
+          <FactoryOutputs>
+            <Item>
+              <Product>120030</Product>
+              <Amount>1</Amount>
+              <StorageAmount>3</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>75</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode />
+        <AmbientMoodProvider>
+          <Murmur>Factory</Murmur>
+          <DynamicEnvironmentType>None</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>850</Amount>
+              <InactiveAmount>400</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>114341</Product>
+              <Amount>150</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <MaximumHitPoints>3750</MaximumHitPoints>
+          <SelfHealPerHealTick>6</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable />
+        <IncidentInfectable>
+          <Infectable>
+            <Explosion>
+              <Base>0</Base>
+              <Escalated>0</Escalated>
+            </Explosion>
+          </Infectable>
+          <Explosion>
+            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityDistance>20</DensityDistance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+            <Riot>
+              <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+              <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+              <HappinessThreshold>20</HappinessThreshold>
+            </Riot>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Industrializable>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+        </Industrializable>
+        <Culture>
+          <CultureType>Culture</CultureType>
+        </Culture>
+        <QuestObject />
+        <Electrifiable />
+        <EcoSystemProvider />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # New product Soda-->
+  <ModOp Type="addNextSibling" GUID="1010255">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002300</GUID>
+          <Name>Soda</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/narative_item/icon_soda_01.png</IconFilename>
+          <InfoDescription>1999002301</InfoDescription>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11702</ProductCategory> <!-- raw material -->
+          <BasePrice>500</BasePrice> <!-- same as brass-->
+          <CivLevel>5</CivLevel> <!-- ignore -->
+          <AssociatedRegion>Africa;Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+            <Item>
+              <RegionType>Africa</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <FluffText>1999002302</FluffText>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Docklands Import -->
+  <ModOp Type="merge" GUID="2100115702" Path="/Values/FactoryBase/IsMainFactory" Condition="!//FactoryBase[FactoryOutputs/Item/Product='1999002300']/IsMainFactory[text()='1']">
+    <IsMainFactory>1</IsMainFactory>
+  </ModOp>
+  <ModOp Type="add" GUID="502239" Path="/Values/ProductList/List" Condition="!/Values/ProductList/List/Item[Product='1999002300']">
+    <Item>
+      <Product>1999002300</Product>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131817']/TradeLevels/Item[Unlock='131846']/Trades/Item[Good='1010255']"
+        Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1999002300']">
+    <Item>
+      <Level>Rare</Level>
+      <Good>1999002300</Good>
+    </Item>
+  </ModOp>
+
+  <!-- # Product Lists -->
+
+  <ModOp Type="addPrevSibling" GUID="120055" Path="/Values/ProductStorageList/ProductList/Item[Product='1010228']" Condition="!/Values/ProductStorageList/ProductList/Item[Product='1999002300']">
+    <Item>
+      <Product>1999002300</Product>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addPrevSibling" GUID="502069" Path="/Values/ProductList/List/Item[Product='114390']">
+    <Item>
+      <Product>1010228</Product>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addPrevSibling" GUID="502070" Path="/Values/ProductList/List/Item[Product='114370']">
+    <Item>
+      <Product>1999002300</Product>
+    </Item>
+    <Item>
+      <Product>1010241</Product>
+    </Item>
+    <Item>
+      <Product>120030</Product>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addPrevSibling" GUID="502075,502049" Path="/Values/ProductList/List/Item[Product='1010228']">
+    <Item>
+      <Product>1999002300</Product>
+    </Item>
+  </ModOp>
+
+  <!-- Adjust product orders in the menus to be consistent with game progress / unlocks -->
+  <ModOp Type="remove" GUID="502072" Path="/Values/ProductList/List/Item[Product='1010241']"></ModOp>
+  <ModOp Type="addPrevSibling" GUID="502072" Path="/Values/ProductList/List/Item[Product='120030']">
+    <Item>
+      <Product>1999002300</Product>
+    </Item>
+    <Item>
+      <Product>1010228</Product>
+    </Item>
+    <Item>
+      <Product>1010241</Product>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="140037,130041,140042,140044,130055,117720,134717" Path="/Values/AssetPool/AssetList/">
+    <Item>
+      <Asset>1999002300</Asset>
+    </Item>
+  </ModOp>
+
+  <!-- # Adjust products to be shown in Enbesa / OW statistics overview (fixes vanilla bug which causes glass / quartz not to be shown in lanternsmith statistics)-->
+
+  <ModOp Type="replace" GUID='1010228,1010241' Path="/Values/Product/AssociatedRegion">
+    <AssociatedRegion>Moderate;Africa</AssociatedRegion>
+  </ModOp>
+
+  <ModOp Type="replace" GUID='1010256' Path="/Values/Product/AssociatedRegion">
+    <AssociatedRegion>Moderate;Colony01;Africa</AssociatedRegion>
+  </ModOp>
+
+  <ModOp Type="replace" GUID='114358' Path="/Values/Product/AssociatedRegion">
+    <AssociatedRegion>Moderate;Africa</AssociatedRegion>
+  </ModOp>
+
+  <!-- # Dynamic Feedback -->
+
+  <ModOp Type="add" GUID="117762" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100115701</Building>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="117763" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100115702</Building>
+    </Item>
+    <Item>
+      <Building>2100115705</Building>
+    </Item>
+    <Item>
+      <Building>2100115706</Building>
+    </Item>
+  </ModOp>
+
+  <!-- # Buildings to item pools-->
+
+  <ModOp Type="add" GUID="6000018,193856,368,192566,190886,193400,191508" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100115701</GUID>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="6000018,193856,368,192566" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100115705</GUID>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="6000018,193856,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100115702</GUID>
+    </Item>
+    <Item>
+      <GUID>2100115706</GUID>
+    </Item>
+  </ModOp>
+
+  <!-- # Add buildings to specific items-->
+
+  <ModOp Type="add" GUID="1500010714" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs"> <!-- Pool from Shared Pools and Definitions -->
+    <Item>
+      <GUID>2100115701</GUID>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="1500011903" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs"> <!-- Pool from Shared Pools and Definitions -->
+    <Item>
+      <GUID>2100115705</GUID>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="1500200688" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs"> <!-- Pool from Shared Pools and Definitions -->
+    <Item>
+      <GUID>2100115706</GUID>
+    </Item>
+  </ModOp>
+
+  <!-- # New item for the Soda factory-->
+
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115707</GUID>
+          <Name>Prof. Solvay, Master of Calcination</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_prof_solvay_01.png</IconFilename>
+          <InfoDescription>2100115708</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Epic</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>420000</TradePrice>
+          <TradePriceOnlineCurrency>50</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2100115704</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>24808</Product>
+              <AdditionalOutputCycle>10</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>-30</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <PopulationUpgrade />
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>25</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>3470</FluffText>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade />
+        <VisitorHarborUpgrade />
+        <CultureUpgrade />
+        <IncidentInfectableUpgrade />
+        <IncidentInfluencerUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <VisualEffectWhenActive />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="191593">
+    <Asset>
+      <Template>ItemEffectTargetPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115704</GUID>
+          <Name>soda factories</Name>
+          <IconFilename></IconFilename>
+        </Standard>
+        <ItemEffectTargetPool>
+          <EffectTargetGUIDs>
+            <Item>
+              <GUID>2100115702</GUID>
+            </Item>
+          </EffectTargetGUIDs>
+        </ItemEffectTargetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="add" GUID="127455,127829,130303" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>2100115707</ItemLink>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="129504" Path="/Values/AssetPool/AssetList">
+    <Item>
+      <Asset>2100115707</Asset>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="114336">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115716</GUID>
+          <Name>Rerun TriggerItems Intermediate Africa 2.0</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>114330</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionRegisterTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionRegisterTrigger>
+                    <TriggerAsset>114336</TriggerAsset>
+                  </ActionRegisterTrigger>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # BoostableFactories pool -->
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+    <Item>
+      <Factory>2100115701</Factory>
+    </Item>
+    <Item>
+      <Factory>2100115702</Factory>
+    </Item>
+    <Item>
+      <Factory>2100115705</Factory>
+    </Item>
+    <Item>
+      <Factory>2100115706</Factory>
+    </Item>
+  </ModOp>
+
+  <!-- # Change banner shown when reaching 600 elders -->
+  <ModOp Type="replace" GUID="125534" Path="/Values/Notification">
+    <Notification>
+      <NotificationType>
+        <Template>MainNotification</Template>
+        <Values>
+          <MainNotification>
+            <Title>16981</Title>
+            <NotificationMainIconAsset>2100115706</NotificationMainIconAsset>
+            <Icon01>1010241</Icon01>
+            <Icon02>1999002300</Icon02>
+            <Icon03>114470</Icon03>
+            <Icon04>117668</Icon04>
+            <BackgroundAnimation>data\ui\video\ui_alpha\main_banner\africa_tier2_a.bk2</BackgroundAnimation>
+          </MainNotification>
+          <BaseNotification>
+            <NotificationText>125537</NotificationText>
+            <NotificationAudioAsset>202372</NotificationAudioAsset>
+          </BaseNotification>
+          <NotificationSubtitle>
+            <Subtitle>265159</Subtitle>
+          </NotificationSubtitle>
+        </Values>
+      </NotificationType>
+    </Notification>
+  </ModOp>
+
+  <!-- # Unlock -->
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115719</GUID>
+          <Name>Enbesa Glasses Trigger Unlock</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_enbesa_glasses_01.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>114330</Context>
+                <CounterAmount>600</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100115701</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115702</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1999002300</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115705</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115706</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115720</GUID>
+          <Name>Enbesa Glasses Trigger Unlock Creative Mode</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_enbesa_glasses_01.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsCreativeMode</Template>
+            <Values>
+              <Condition />
+              <ConditionIsCreativeMode />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100115701</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115702</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1999002300</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115705</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115706</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
+</ModOps>

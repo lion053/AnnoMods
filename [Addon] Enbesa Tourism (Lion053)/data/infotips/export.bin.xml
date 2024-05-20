@@ -1,0 +1,401 @@
+<ModOps>
+
+<!-- # Dynamic Range Buff Infotip for Nationalpark Main Building -->
+  <ModOp Type ="addNextSibling" Path ="//InfoTipData[Guid='454144439']/InfoElement/InfoElement[InfoElement/Text/TextGUID = '20083']">
+    <InfoElement>
+      <ElementType>8</ElementType>
+      <ChildCount>2</ChildCount>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>2100119811</ExpectedValueInt> <!-- Infotip linked to this DefaultBuff -->
+            <Condition>[ItemAssetData({ItemGuid}) Guid]</Condition>
+          </VisibilityElement>
+          <OperatorType>
+            <OperatorType>1</OperatorType>
+          </OperatorType>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <InfoElement>
+        <ElementType>5</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Text>
+          <TextGUID>2100119812</TextGUID> <!-- "Your Nationalpark Modules increase the public service range by: " -->
+          <Style />
+        </Text>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconGUID>2100119991</IconGUID> <!-- Safari Icon -->
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2321</TextGUID> <!-- "Range" -->
+          <Style />
+        </Text>
+        <Value>
+          <Text>+[Selection Object Factory ProductivityUpgrade &gt;&gt; percentage]%</Text> <!-- make use of the (fake) ProductivityUpgrade -->
+          <Style />
+        </Value>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+    </InfoElement>
+  </ModOp>
+
+<!-- # Change build permit info descriptions of buildings in construction menus to fit lodge modules and nationalpark modules -->
+<Group>
+  <!-- 1st: If there are no build permits gained by the player -->
+  <ModOp Type ="addNextSibling" Path ="//InfoTipData[Guid='25000020']/InfoElement/InfoElement[InfoElement/Text/TextGUID = '22395']">
+    <InfoElement>
+      <ElementType>5</ElementType>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>7</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType />
+            <Condition>[BuildPermits NeedsBuildPermit([RefGuid])]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>3</CompareOperator>
+            </CompareOperator>
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <Condition>[BuildPermits BuildPermits([RefGuid])]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType />
+            <ExpectedValueBool>False</ExpectedValueBool>
+            <Condition>[Research IsGodlikePermit([ToolOneHelper BuildCost([RefGuid]) Costs AT(0) ProductGUID])]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>2100118150</ExpectedValueInt>
+            <Condition>[ToolOneHelper PermitSource([RefGuid])]</Condition>
+          </VisibilityElement>          
+          <OperatorType />
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <Text>
+        <TextGUID>2100119815</TextGUID>
+        <Style />
+      </Text>
+      <BackgroundType />
+    </InfoElement>
+
+    <InfoElement>
+      <ElementType>5</ElementType>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>7</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType />
+            <Condition>[BuildPermits NeedsBuildPermit([RefGuid])]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>3</CompareOperator>
+            </CompareOperator>
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <Condition>[BuildPermits BuildPermits([RefGuid])]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType />
+            <ExpectedValueBool>False</ExpectedValueBool>
+            <Condition>[Research IsGodlikePermit([ToolOneHelper BuildCost([RefGuid]) Costs AT(0) ProductGUID])]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>2100119921</ExpectedValueInt>
+            <Condition>[ToolOneHelper PermitSource([RefGuid])]</Condition>
+          </VisibilityElement>          
+          <OperatorType />
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <Text>
+        <TextGUID>2100119818</TextGUID>
+        <Style />
+      </Text>
+      <BackgroundType />
+    </InfoElement>
+
+    <!-- 2nd: If there are build permits available -->
+
+    <InfoElement>
+      <ElementType>5</ElementType>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>3</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType />
+            <Condition>[BuildPermits NeedsBuildPermit([RefGuid])]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>5</CompareOperator>
+            </CompareOperator>
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <Condition>[BuildPermits BuildPermits([RefGuid])]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType />
+            <ExpectedValueBool>False</ExpectedValueBool>
+            <Condition>[Research IsGodlikePermit([ToolOneHelper BuildCost([RefGuid]) Costs AT(0) ProductGUID])]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>2100118150</ExpectedValueInt>
+            <Condition>[ToolOneHelper PermitSource([RefGuid])]</Condition>
+          </VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <Text>
+        <TextGUID>2100119816</TextGUID>
+        <Style />
+      </Text>
+      <BackgroundType />
+    </InfoElement>
+
+    <InfoElement>
+      <ElementType>5</ElementType>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>3</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType />
+            <Condition>[BuildPermits NeedsBuildPermit([RefGuid])]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>5</CompareOperator>
+            </CompareOperator>
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <Condition>[BuildPermits BuildPermits([RefGuid])]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType />
+            <ExpectedValueBool>False</ExpectedValueBool>
+            <Condition>[Research IsGodlikePermit([ToolOneHelper BuildCost([RefGuid]) Costs AT(0) ProductGUID])]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>2100119921</ExpectedValueInt>
+            <Condition>[ToolOneHelper PermitSource([RefGuid])]</Condition>
+          </VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <Text>
+        <TextGUID>2100119829</TextGUID>
+        <Style />
+      </Text>
+      <BackgroundType />
+    </InfoElement>
+  </ModOp>
+
+  <!-- 3rd: Make exceptions to disable vanilla build permit infotips for the lodge modules -->
+  <ModOp Type="add" Path="//InfoTipData[Guid='25000020']/InfoElement/InfoElement/InfoElement[Text/TextGUID='22396']/VisibilityElement/VisibilityElement">
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator> <!-- is not -->
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>2100118150</ExpectedValueInt>
+      <Condition>[ToolOneHelper PermitSource([RefGuid])]</Condition>
+    </VisibilityElement>
+  </ModOp>
+
+  <ModOp Type="add" Path="//InfoTipData[Guid='25000020']/InfoElement/InfoElement/InfoElement[Text/TextGUID='22395']/VisibilityElement/VisibilityElement">
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator> <!-- is not -->
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>2100118150</ExpectedValueInt>
+      <Condition>[ToolOneHelper PermitSource([RefGuid])]</Condition>
+    </VisibilityElement>
+  </ModOp>
+
+  <!-- 3rd: Make exceptions to disable vanilla build permit infotips for the nationalpark modules -->
+  <ModOp Type="add" Path="//InfoTipData[Guid='25000020']/InfoElement/InfoElement/InfoElement[Text/TextGUID='22396']/VisibilityElement/VisibilityElement">
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator> <!-- is not -->
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>2100119921</ExpectedValueInt>
+      <Condition>[ToolOneHelper PermitSource([RefGuid])]</Condition>
+    </VisibilityElement>
+  </ModOp>
+
+  <ModOp Type="add" Path="//InfoTipData[Guid='25000020']/InfoElement/InfoElement/InfoElement[Text/TextGUID='22395']/VisibilityElement/VisibilityElement">
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator> <!-- is not -->
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>2100119921</ExpectedValueInt>
+      <Condition>[ToolOneHelper PermitSource([RefGuid])]</Condition>
+    </VisibilityElement>
+  </ModOp>
+</Group>
+
+</ModOps>

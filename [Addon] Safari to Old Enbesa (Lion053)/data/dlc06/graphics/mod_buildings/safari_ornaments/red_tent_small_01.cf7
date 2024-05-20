@@ -1,0 +1,41 @@
+
+ <DummyRoot>
+  <hasValue>1</hasValue>
+  <Name />
+  <Dummies />
+  <Id>1</Id>
+  <Groups>
+   <i>
+    <hasValue>1</hasValue>
+    <Name>resident_sleep</Name>
+    <Id>2</Id>
+    <Groups />
+    <Dummies>
+     <i>
+      <Name>resident_sleep_0</Name>
+      <HeightAdaptationMode>1</HeightAdaptationMode>
+      <Position>
+       <x>0.057551</x>
+       <y>0.010000</y>
+       <z>0.074965</z>
+      </Position>
+      <RotationY>0.517856</RotationY>
+      <Extents>
+       <x>0.100000</x>
+       <y>0.100000</y>
+       <z>0.100000</z>
+      </Extents>
+      <Id>3</Id>
+      <hasValue>1</hasValue>
+      <RotationY>0.000000</RotationY>
+     </i>
+    </Dummies>
+   </i>
+  </Groups>
+ </DummyRoot>
+ <IdCounter>3</IdCounter>
+ <SplineData />
+ <FeedbackDefinition>
+  <FeedbackConfigs />
+  <ValidSequenceIDs>CDATA[8 0 1]</ValidSequenceIDs>
+ </FeedbackDefinition>

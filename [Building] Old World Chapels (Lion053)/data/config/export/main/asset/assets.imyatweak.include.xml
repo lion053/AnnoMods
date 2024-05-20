@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Path="/Values/PublicService/FullSatisfactionDistance" GUID="2100115121,2100115127" Type="replace">
+    <FullSatisfactionDistance>25</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="/Values/PublicService/NoSatisfactionDistance" GUID="2100115121,2100115127" Type="replace">
+    <NoSatisfactionDistance>35</NoSatisfactionDistance>
+  </ModOp>
+</ModOps>

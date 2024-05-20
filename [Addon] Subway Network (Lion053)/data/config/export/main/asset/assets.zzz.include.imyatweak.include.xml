@@ -1,0 +1,47 @@
+<ModOps>
+  <ModOp Path="/Values/BuffFactory/PublicServiceData/FullSatisfactionDistance" GUID="2100115243,2100115255" Type="replace">
+    <FullSatisfactionDistance>25</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="/Values/BuffFactory/PublicServiceData/NoSatisfactionDistance" GUID="2100115243,2100115255" Type="replace">
+    <NoSatisfactionDistance>25</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="/Values/EffectForward/ForwardEffectRange" GUID="2100115294,2100115239,2100115299,2100115248,2100115210,2100115250,2100115212,2100115230" Type="replace">
+    <ForwardEffectRange>25</ForwardEffectRange>
+  </ModOp>
+  <ModOp Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='2100115204']" GUID="15000001" Type="replace">
+    <Item>
+      <Product>0</Product>
+      <HappinessValue>0</HappinessValue>
+      <MoneyValue>0</MoneyValue>
+      <FullWeightPopulationCount>0</FullWeightPopulationCount>
+      <NoWeightPopulationCount>0</NoWeightPopulationCount>
+      <IsConsideredByAI>0</IsConsideredByAI>
+    </Item>
+  </ModOp>
+  <ModOp Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='2100115204']" GUID="15000002" Type="replace">
+    <Item>
+      <Product>0</Product>
+      <HappinessValue>0</HappinessValue>
+      <MoneyValue>0</MoneyValue>
+      <FullWeightPopulationCount>0</FullWeightPopulationCount>
+      <NoWeightPopulationCount>0</NoWeightPopulationCount>
+      <IsConsideredByAI>0</IsConsideredByAI>
+    </Item>
+  </ModOp>
+  <ModOp Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='2100115204']" GUID="118745" Type="replace">
+    <Item>
+      <Product>0</Product>
+      <HappinessValue>0</HappinessValue>
+      <MoneyValue>0</MoneyValue>
+      <FullWeightPopulationCount>0</FullWeightPopulationCount>
+      <NoWeightPopulationCount>0</NoWeightPopulationCount>
+      <IsConsideredByAI>0</IsConsideredByAI>
+    </Item>
+  </ModOp>
+  <ModOp Path="/Values/FactoryBase/CycleTime" GUID="2100115240" Type="replace">
+    <CycleTime>180</CycleTime>
+  </ModOp>
+  <ModOp Path="/Values/FactoryBase/CycleTime" GUID="2100115020" Type="replace">
+    <CycleTime>90</CycleTime>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,1206 @@
+<ModOps>
+
+	<!-- Guids in ascending order -->
+
+    <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<Text> <!-- TODO translation --> <!-- Shared with Enbesa Tourism -->
+			<GUID>2100118112</GUID>
+			<Text>Gran Mirador</Text>
+		</Text>
+		<Text> <!-- TODO translation --> <!-- Shared with Enbesa Tourism -->
+			<GUID>2100118116</GUID>
+			<Text>Por un puñado de monedas podrás buscar animales pequeños y grandes sin tener que acercarte a ellos tú mismo.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118119</GUID>
+			<Text>Gran Mercado</Text>
+		</Text>
+		<Text> <!-- TODO translation --> <!-- Shared with Enbesa Tourism -->
+			<GUID>2100118142</GUID>
+			<Text>parche de arena</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119234</GUID>
+			<Text>Astillero Enbesa</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119235</GUID>
+			<Text>Goleta de Enbesa</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119236</GUID>
+			<Text>Un carguero pequeño pero ágil y barato.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119237</GUID>
+			<Text>Clipper Enbesano</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119238</GUID>
+			<Text>El orgullo de los comerciantes enbesanos: Elegancia combinada con una enorme capacidad de carga.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119239</GUID>
+			<Text>Adornos de palacio modulares</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119240</GUID>
+			<Text>Buque Mercante Enbesano</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119241</GUID>
+			<Text>Una combinación de goleta y cañonera, diseñada para comerciantes que desean defenderse.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119242</GUID>
+			<Text>Cañonera Enbesana</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119243</GUID>
+			<Text>Barco militar pequeño y ágil, armado con cañones frontales de corto alcance. Extremadamente rápido.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119244</GUID>
+			<Text>Revestimiento Enbesano</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119245</GUID>
+			<Text>Pequeñas embarcaciones para excursiones costeras. No los envíes a la guerra.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119246</GUID>
+			<Text>Fragata Enbesana</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119247</GUID>
+			<Text>Barco militar fiable y polivalente con movilidad media y cañones laterales de alcance medio.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119248</GUID>
+			<Text>Arcadas</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119249</GUID>
+			<Text>Ve de A a B sin exponerte al sol abrasador.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119250</GUID>
+			<Text>Palmas cerradas</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119251</GUID>
+			<Text>Pinos cerrados</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119252</GUID>
+			<Text>Acacias cerradas</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119254</GUID>
+			<Text>Puerta de la muralla de la ciudad</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119255</GUID>
+			<Text>Una puerta majestuosa que deja a la gente asombrada al atravesarla.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119256</GUID>
+			<Text>Puerta pequeña de la muralla de la ciudad</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119257</GUID>
+			<Text>Una pequeña y discreta puerta de la muralla de la ciudad. Ideal, si quieres colarte en la ciudad...</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119258</GUID>
+			<Text>Muralla</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119259</GUID>
+			<Text>Esta muralla de la ciudad, a la altura de un rascacielos, protege a sus residentes no solo de los depredadores voraces, sino también de los codiciosos bárbaros y atacantes.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119260</GUID>
+			<Text>Arrastra en cualquier dirección para construir sistemas.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119261</GUID>
+			<Text>Protección de la isla</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119262</GUID>
+			<Text>Unidades militares AF</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119263</GUID>
+			<Text>Puertas de tamaño 1x1. Presione Ctrl V para variaciones.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119264</GUID>
+			<Text>Ala: Sistema</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119265</GUID>
+			<Text>Muelle Viejo</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119266</GUID>
+			<Text>Gran Mercado</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119267</GUID>
+			<Text>Un mercado de lujo que no deja nada que desear.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119268</GUID>
+			<Text>Mercadillos</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119269</GUID>
+			<Text>3x1 Mercados de gran tamaño sobre una calle.&#xD;&#xA;&#xD;&#xA;Presione Ctrl V para variaciones.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119270</GUID>
+			<Text>Residencias</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119271</GUID>
+			<Text>Residencias familiares extendidas</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119272</GUID>
+			<Text>Residencias para pastores, ancianos y familias extensas</Text>
+		</Text>
+		<Text>
+			<GUID>111114</GUID> <!-- note: reason for this guid in population.include.xml -->
+			<Text>Familias extendidas</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119274</GUID>
+			<Text>Familia extendida enojada</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119275</GUID>
+			<Text>Familia extendida infeliz</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119276</GUID>
+			<Text>Familia extendida de contenido</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119277</GUID>
+			<Text>Familia extendida feliz</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119278</GUID>
+			<Text>Familia extendida eufórica</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119279</GUID>
+			<Text>Adorno de palacio modular&#xD;&#xA;&#xD;&#xA;Arrastra en cualquier dirección para construir sistemas.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119280</GUID>
+			<Text>Activar el desbloqueo de residencias familiares extendidas</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119281</GUID>
+			<Text>Proporciona 50 % de fuerza laboral de pastores y 50 % de ancianos.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119282</GUID>
+			<Text>Adornos varios</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119283</GUID>
+			<Text>Fuente de la Gran Enbesa</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119284</GUID>
+			<Text>Está estrictamente prohibido sacar las monedas de la fuente.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119285</GUID>
+			<Text>Minas abandonadas</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119286</GUID>
+			<Text>Algunos escuchan voces en el susurro del viento desde las profundidades de las minas olvidadas hace mucho tiempo... pero eso probablemente se debe a que hay demasiadas amapolas en las pipas de tabaco, como señala Biniam.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119287</GUID>
+			<Text>Estantería de libros públicos</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119288</GUID>
+			<Text>Una estantería pública para el intercambio de libros usados.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119289</GUID>
+			<Text>Tienda pequeña</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119290</GUID>
+			<Text>Adecuado como lugar para dormir, trastero... para adivinación...</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119291</GUID>
+			<Text>Tienda grande</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119292</GUID>
+			<Text>Atalaya de vida silvestre</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119293</GUID>
+			<Text>Desde allí no sólo tendrás una mejor visión de la fauna de Enbesa, sino que también te mantendrás a una distancia segura de los grandes felinos.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119294</GUID>
+			<Text>Campamento de leñadores</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119295</GUID>
+			<Text>Negocios privados.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119296</GUID>
+			<Text>Pequeño mirador</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119297</GUID>
+			<Text>Equipado con un telescopio inventado por el famoso optometrista Otto.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119298</GUID>
+			<Text>Sólo una colorida mezcla de diferentes adornos.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119299</GUID>
+			<Text>Activar el modo creativo de familia extendida</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119300</GUID>
+			<Text>Vieja Enbesa</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119301</GUID>
+			<Text>Más variabilidad para Enbesa</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119302</GUID>
+			<Text>1x1 Residencias de pastores</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119303</GUID>
+			<Text>Mucho espacio para tus ciudadanos</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119304</GUID>
+			<Text>Cúpula</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119305</GUID>
+			<Text>Entrada grande</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119306</GUID>
+			<Text>Torre del Monasterio</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119307</GUID>
+			<Text>Mercados de terceros</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119308</GUID>
+			<Text>Granja de Té Rooibos Tradicional del Sur de Enbesa</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119309</GUID>
+			<Text>Tejedora de alfombras tradicional del Sur de Enbesa</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119310</GUID>
+			<Text>Oficina de puerto</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119311</GUID>
+			<Text>Ayuntamiento</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119312</GUID>
+			<Text>Muelle Viejo</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119313</GUID>
+			<Text>Granja para las especias cruzadas dobles de Ketema</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119314</GUID>
+			<Text>Depósito</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119315</GUID>
+			<Text>1x1 Residencias para personas mayores</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119316</GUID>
+			<Text>Proporciona un servicio público a sus residentes.&#xD;&#xA;&#xD;&#xA;Un espléndido palacio para el bienestar y la relajación.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119317</GUID>
+			<Text>Servicio público</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119318</GUID>
+			<Text>Adornos de safari</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119319</GUID>
+			<Text>Ruinas y pilares</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119320</GUID>
+			<Text>Templos y Torres</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119321</GUID>
+			<Text>Paredes</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119322</GUID>
+			<Text>Gente animada</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119323</GUID>
+			<Text>Vegetación</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119324</GUID>
+			<Text>rocas</Text>
+		</Text>
+		<!-- 2100119325 only used in Enbesa Tourism -->
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119326</GUID>
+			<Text>Muelle de Visitantes (Ornamental)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119327</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119328</GUID>
+			<Text>animales</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119329</GUID>
+			<Text>Sólo con fines decorativos. Instalar "Enbesa Turismo" para hacerlo funcional.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119330</GUID>
+			<Text>Gran Baño Termal</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119331</GUID>
+			<Text>Adornos sobre el agua</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119332</GUID>
+			<Text>Misceláneas</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119333</GUID>
+			<Text>Astillero Enbesa</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119334</GUID>
+			<Text>Barco pesquero a motor pequeño</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119335</GUID>
+			<Text>Adornos sobre el agua con muelle.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119336</GUID>
+			<Text>Buques mercantes</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119337</GUID>
+			<Text>Pequeño barco pesquero de vela</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119338</GUID>
+			<Text>Variación de vinilos para paredes.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119341</GUID>
+			<Text>¿A quién le pertenece?</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119350</GUID>
+			<Text>Donde tus turistas, aventureros y mochileros ponen su primer pie en tus tierras encantadas.&#xD;&#xA;&#xD;&#xA;Ampliable a muelle funcional con Enbesa Turismo Mod.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119351</GUID>
+			<Text>Un pequeño punto de servicio del monasterio con alcance reducido.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119352</GUID>
+			<Text>Mercados de islas de terceros.&#xD;&#xA;&#xD;&#xA;Presione Ctrl V para variaciones.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119353</GUID>
+			<Text>Antigua finca tradicional de té Rooibos del Sur de Enbesa. ¿Máquinas? ¿Canales de agua? ¿Especialistas extranjeros? Nunca he oido hablar de eso</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119354</GUID>
+			<Text>Produce alfombras artesanales en los colores más vivos, que expresan toda la magia de Enbesa</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119355</GUID>
+			<Text>El origen de las especias doblemente cruzadas de Ketema. El arte del fitomejoramiento requiere mucha paciencia, experiencia y conocimientos que se transmiten de generación en generación.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119356</GUID>
+			<Text>Un ayuntamiento representativo con 4 espacios para objetos.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119357</GUID>
+			<Text>Proporciona espacio adicional para que los barcos carguen y descarguen mercancías.&#xD;&#xA;&#xD;&#xA;Alguna vez fue una fortaleza inexpugnable para defender la ciudad y ahora se utiliza para la logística de importación y exportación.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119358</GUID>
+			<Text>Un pequeño almacén</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119359</GUID>
+			<Text>Pilares antiguos</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119360</GUID>
+			<Text>Los restos de magníficos templos de la antigüedad.&#xD;&#xA;&#xD;&#xA;Presione Ctrl V para variaciones.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119361</GUID>
+			<Text>Templos y torres bien conservados de la antigüedad.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119362</GUID>
+			<Text>¡Porque los leones están en todas partes!</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119363</GUID>
+			<Text>Trae vida a tus ciudades.&#xD;&#xA;&#xD;&#xA;Presione Ctrl V para variaciones.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119364</GUID>
+			<Text>Hierba, arbustos, acacias, pinos y palmeras.&#xD;&#xA;&#xD;&#xA;Presione Ctrl V para variaciones.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119365</GUID>
+			<Text>Rocas para colocar en el terreno.&#xD;&#xA;&#xD;&#xA;Presione Ctrl V para variaciones.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119366</GUID>
+			<Text>Nadie sabe exactamente con qué propósito fue construido.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119367</GUID>
+			<Text>Hierba, arbustos, acacias, pinos y palmeras.&#xD;&#xA;&#xD;&#xA;Presione Ctrl V para variaciones.&#xD;&#xA;&#xD;&#xA;Utilice el pincel para cambiar la piel del suelo.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119368</GUID>
+			<Text>Trae vida a tu sabana.&#xD;&#xA;&#xD;&#xA;Presione Ctrl V para variaciones.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119369</GUID>
+			<Text>Polvo y cascada.&#xD;&#xA;&#xD;&#xA;Presione Ctrl V para variaciones.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119370</GUID>
+			<Text>Proporciona algo de sombra.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119371</GUID>
+			<Text>Envíos para todos los fines.&#xD;&#xA;&#xD;&#xA;Presione Ctrl V para variaciones.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119372</GUID>
+			<Text>Edificios de servicios públicos</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119373</GUID>
+			<Text>Edificios portuarios funcionales</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119374</GUID>
+			<Text>Edificios agrícolas</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119375</GUID>
+			<Text>Entrada al Baño Termal</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119376</GUID>
+			<Text>Gran muro del templo</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119377</GUID>
+			<Text>Muro del templo mediano</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119378</GUID>
+			<Text>Pequeño muro del templo</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119379</GUID>
+			<Text>Muro del templo roto</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119380</GUID>
+			<Text>Pared de color rojo</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119381</GUID>
+			<Text>Pared de color azul</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119382</GUID>
+			<Text>Muros y arcadas</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119383</GUID>
+			<Text>Puertas de pared 1x1</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119384</GUID>
+			<Text>Acacias</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119385</GUID>
+			<Text>Pinos</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119386</GUID>
+			<Text>Palmas</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119387</GUID>
+			<Text>Arbustos de plátano</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119388</GUID>
+			<Text>Arbustos</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119389</GUID>
+			<Text>Vegetación</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119390</GUID>
+			<Text>Tejedor de lino tradicional</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119391</GUID>
+			<Text>Molino de harina de teff especiado tradicional</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119392</GUID>
+			<Text>Palmas</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119393</GUID>
+			<Text>Fabricante de velas tradicionales</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119394</GUID>
+			<Text>Jardín de hierbas tradicionales</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119395</GUID>
+			<Text>Estatua de Anubis</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119396</GUID>
+			<Text>Estatua de Horus</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119397</GUID>
+			<Text>Leon de Oro</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119398</GUID>
+			<Text>Aron Habrit</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119399</GUID>
+			<Text>Elefante dorado (l/r)</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119400</GUID>
+			<Text>Estatua del faraón</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119401</GUID>
+			<Text>Memorial del faraón</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119402</GUID>
+			<Text>Representaciones de deidades antiguas, figuras simbólicas y gobernantes.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119403</GUID>
+			<Text>Estatuas</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119404</GUID>
+			<Text>Pilar del templo antiguo</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119405</GUID>
+			<Text>Pilar del templo antiguo con fuego</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119406</GUID>
+			<Text>Pilar del templo antiguo cúbico</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119407</GUID>
+			<Text>Obelisco cúbico</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119408</GUID>
+			<Text>Obelisco circular</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119409</GUID>
+			<Text>¡No te inclines!</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119410</GUID>
+			<Text>Pilares</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119411</GUID>
+			<Text>Pilares antiguos</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119412</GUID>
+			<Text>Restos</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119413</GUID>
+			<Text>Si escuchas con atención, podrás oír a los antepasados susurrándote historias...</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119414</GUID>
+			<Text>Templos antiguos 1x1</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119415</GUID>
+			<Text>Pequeño salón antiguo</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119416</GUID>
+			<Text>Torres antiguas</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119417</GUID>
+			<Text>Templos y Torres</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119418</GUID>
+			<Text>Dale a tus ciudadanos un espacio para la meditación y la reflexión espiritual.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119419</GUID>
+			<Text>Gran Salón Antiguo</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119420</GUID>
+			<Text>Lámpara sencilla</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119421</GUID>
+			<Text>Lámpara cruzada</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119422</GUID>
+			<Text>Lámpara sobre la calle</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119423</GUID>
+			<Text>Focos llamativos</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119424</GUID>
+			<Text>Iluminación</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119425</GUID>
+			<Text>Ilumina tus ciudades</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119426</GUID>
+			<Text>Desde la introducción del alumbrado público moderno, las autoridades han registrado un aumento significativo de personas que pasean por las calles por la noche.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119427</GUID>
+			<Text>Efectos</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119428</GUID>
+			<Text>Barcos de guerra</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119429</GUID>
+			<Text>Usa el botón de apariencia para rotar los barcos 45°</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119430</GUID>
+			<Text>Buques mercantes rotados</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119431</GUID>
+			<Text>Barcos de guerra rotados</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119432</GUID>
+			<Text>Vehículos</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119433</GUID>
+			<Text>Vehículos terrestres</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119434</GUID>
+			<Text>Trenes (1x1)</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119435</GUID>
+			<Text>Globos aerostáticos</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119436</GUID>
+			<Text>Conéctalos con caminos</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119437</GUID>
+			<Text>Diferentes tipos de vehículos para tierra, agua y aire.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119438</GUID>
+			<Text>Utilice el botón de diseño para girar los vehículos 45°</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119439</GUID>
+			<Text>Vehículos terrestres rotados</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119440</GUID>
+			<Text>Observa a los leones desde una distancia segura... ¡pero no te caigas!</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119441</GUID>
+			<Text>Entrada Mediana</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119442</GUID>
+			<Text>Ala (para recortar)</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119443</GUID>
+			<Text>Torre</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119444</GUID>
+			<Text>Puente</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119445</GUID>
+			<Text>Adornos de safari</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119447</GUID>
+			<Text>El uso de lino de Kidushi Anitoni (Linum usitatissimum), particularmente poco exigente y resistente a los hongos, significa menos rendimiento, pero excelentes propiedades de procesamiento.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119448</GUID>
+			<Text>¿Los conocidos pequeños granos de tef de Hawi (Eragrostis tef) mezclados con las especias doblemente cruzadas de Ketema? Un sabor al que nadie puede resistirse.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119449</GUID>
+			<Text>Los apicultores no crían abejas, sino que mantienen enjambres silvestres de abejas melíferas de las tierras bajas del este de Enbesa, a las que atraen con alojamientos adecuados. Invierten el tiempo ahorrado en fabricar velas</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119450</GUID>
+			<Text>Un pequeño jardín lleno de hierbas que crecen hasta en el suelo más árido</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119451</GUID>
+			<Text>Granjas Tradicionales</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119452</GUID>
+			<Text>Vehículos terrestres para todos los fines.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119453</GUID>
+			<Text>Tres variaciones de color de Globos aerostáticos.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119454</GUID>
+			<Text>Tres variaciones de tren</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119455</GUID>
+			<Text>Desde la delicada hierba hasta las poderosas acacias</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119461</GUID>
+			<Text>Suelo de hierba</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119462</GUID>
+			<Text>Terreno de playa</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119463</GUID>
+			<Text>Vehículos terrestres girados en un ángulo diferente de 90°</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119464</GUID>
+			<Text>Los barcos mercantes giraron en un ángulo diferente de 90°</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119465</GUID>
+			<Text>Los barcos de guerra giraban en un ángulo diferente de 90°.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119650</GUID>
+			<Text>Rocas de agua</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119651</GUID>
+			<Text>Rompeolas tan altos como casas.&#xD;&#xA;&#xD;&#xA;Presione Ctrl V para variaciones.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119652</GUID>
+			<Text>Embarcadero 1x1</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119653</GUID>
+			<Text>Perfecto para un chapuzón en el mar.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119654</GUID>
+			<Text>Embarcadero (para enganchar a los activos)</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119655</GUID>
+			<Text>Perfecto para un chapuzón en el mar.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119656</GUID>
+			<Text>Barriles del puerto</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119657</GUID>
+			<Text>Mercancías portuarias</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119661</GUID>
+			<Text>Banco junto al mar con palmera</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119662</GUID>
+			<Text>Quiosco del puerto</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119669</GUID>
+			<Text>Faro</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119670</GUID>
+			<Text>Muelle de carga pequeño</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119671</GUID>
+			<Text>Calcomanía de playa</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119672</GUID>
+			<Text>Porque a nadie le gustan las playas hechas de piedras...</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119673</GUID>
+			<Text>Adornos de agua</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119674</GUID>
+			<Text>Adornos para la costa y zona de aguas.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119675</GUID>
+			<Text>Servicios públicos</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119676</GUID>
+			<Text>Sonido de mercado atenuado</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119677</GUID>
+			<Text>Edificios funcionales para la zona de costa y aguas.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119678</GUID>
+			<Text>Gran Baño Termal</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119679</GUID>
+			<Text>Adorno de Palacio modular</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100119680</GUID>
+			<Text>Árbol con asientos.&#xD;&#xA;&#xD;&#xA;Presione Ctrl V para variaciones.</Text>
+		</Text>
+
+    </ModOp>
+
+</ModOps>

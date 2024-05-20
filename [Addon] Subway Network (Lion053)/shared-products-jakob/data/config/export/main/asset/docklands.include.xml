@@ -1,0 +1,595 @@
+<ModOps>
+  <!-- # Canned Fish: Feedl -->
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1500010120']">
+    <ModOp Type="add" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131809']/TradeLevels/Item/Trades[Item/Good='1010217']">
+      <Item>
+        <Level>Rare</Level>
+        <Good>1500010120</Good>
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="131764"
+      Condition="!//FactoryBase[FactoryOutputs/Item/Product='1500010120']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301131</GUID>
+            <Name>IsMainFactory_Fake: Canned Fish</Name>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/graphics/buildings/production/processing_06/processing_06.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>1010227</Product>
+                <Amount>1</Amount>
+                <StorageAmount>3</StorageAmount>
+              </Item>
+              <Item>
+                <Product>1010200</Product>
+                <Amount>1</Amount>
+                <StorageAmount>3</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>1500010120</Product>
+                <Amount>1</Amount>
+                <StorageAmount>2</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010115</Product>
+                <Amount>1200</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+        </Values>
+      </Asset>
+    </ModOp>
+
+  </Group>
+
+  <!-- # Cheese: Feedl -->
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1500010102']">
+    <ModOp Type="addNextSibling" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131809']/TradeLevels/Item/Trades/Item[Good='1010238'][last()]">
+      <Item>
+        <Good>1500010102</Good>
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="131764"
+      Condition="!//FactoryBase[FactoryOutputs/Item/Product='1500010130']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1500010130</GUID>
+            <Name>IsMainFactory_Fake: Cheese</Name>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data\graphics\buildings\public\logistic_01\logistic_01.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>5385</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>1500010102</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010115</Product>
+                <Amount>130</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- # Hemp: Tattershire -->
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1440224']">
+    <ModOp Type="addPrevSibling" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item/Trades/Item[Good='1010194']">
+      <Item>
+        <Good>1440224</Good>
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="131764"
+      Condition="!//FactoryBase[FactoryOutputs/Item/Product='1500301134']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FarmBuilding</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301134</GUID>
+            <Name>IsMainFactory_Fake: Hemp</Name>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data\graphics\buildings\production\agriculture_03\agriculture_03.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>1440224</Product>
+                <Amount>1</Amount>
+                <StorageAmount>2</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010052</Product>
+                <Amount>16</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <ModuleOwner>
+            <ModuleLimits>
+              <Main>
+                <Limit>0</Limit>
+              </Main>
+            </ModuleLimits>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>1010270</ModuleGUID>
+              </Item>
+            </ConstructionOptions>
+          </ModuleOwner>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- # Olives: Tattershire -->
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1500010105']">
+    <ModOp Type="addNextSibling" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item/Trades/Item[Good='1010198']">
+      <Item>
+        <Good>1500010105</Good>
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="131764"
+      Condition="!//FactoryBase[FactoryOutputs/Item/Product='1500301136']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FarmBuilding</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301136</GUID>
+            <Name>IsMainFactory_Fake: Olives</Name>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/dlc08/graphics/buildings/production/tree_planter/tree_planter_cherry.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>1500010105</Product>
+                <Amount>1</Amount>
+                <StorageAmount>2</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010052</Product>
+                <Amount>170</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <ModuleOwner>
+            <ModuleLimits>
+              <Main>
+                <Limit>75</Limit>
+              </Main>
+            </ModuleLimits>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>1010270</ModuleGUID>
+              </Item>
+            </ConstructionOptions>
+          </ModuleOwner>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- # Docklands: Chanteuse -->
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1500010127']">
+    <ModOp Type="addNextSibling" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131765']/TradeLevels/Item/Trades/Item[Good='1010247']">
+      <Item>
+        <Level>Uncommon</Level>
+        <Good>1500010127</Good>
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="131764"
+      Condition="!//FactoryBase[FactoryOutputs/Item/Product='1500010127']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1500011151</GUID>
+            <Name>IsMainfactory_Fake: Suits</Name>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/dlc06/graphics/buildings/production/production_colony02_31/production_colony02_31.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>114391</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+              <Item>
+                <Product>1010197</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>1500010127</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010116</Product>
+                <Amount>600</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- # Tea: Feedl -->
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1500010847']">
+    <ModOp Type="add" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131767']/TradeLevels/Item/Trades[Item/Good='120032']">
+      <Item>
+        <Level>Rare</Level>
+        <Good>1500010847</Good>
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="131764"
+      Condition="!//FactoryBase[FactoryOutputs/Item/Product='1500010942']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1500010942</GUID>
+            <Name>IsMainFactory fake</Name>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>90</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+          </Building>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data\graphics\buildings\public\logistic_01\logistic_01.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>1500010847</Product>
+                <Amount>1</Amount>
+                <StorageAmount>2</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>90</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010117</Product>
+                <Amount>190</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- # Tools: Kitea -->
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1500010153']">
+    <ModOp Type="add" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131811']/TradeLevels/Item[Trades/Item/Good='1010240']/Trades">
+      <Item>
+        <Level>Rare</Level>
+        <Good>1500010153</Good>
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="131764"
+      Condition="!//FactoryBase[FactoryOutputs/Item/Product='1500010948']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1500010948</GUID>
+            <Name>IsMainfactory_Fake: Tools</Name>
+            <IconFilename>data\ui\2kimages\main\3dicons\icon_tools.png</IconFilename>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Blocking />
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data\graphics\buildings\public\logistic_01\logistic_01.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>120008</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+              <Item>
+                <Product>1010219</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>1500010153</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010115</Product>
+                <Amount>330</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- # Vegetables : Tattershire -->
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1500010836']">
+    <ModOp Type="addPrevSibling" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item/Trades/Item[Good='1010195']">
+      <!-- feedl -->
+      <Item>
+        <Good>1500010836</Good>
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="1010265"
+      Condition="!//FactoryBase[FactoryOutputs/Item/Product='1500010836']/IsMainFactory[text()='1']">
+      <Asset>
+        <BaseAssetGUID>1010265</BaseAssetGUID>
+        <Values>
+          <Standard>
+            <GUID>1500010949</GUID>
+            <Name>IsMainfactory_Fake: Vegetables</Name>
+            <IconFilename>data/ui/jakob/icon_vegetables.png</IconFilename>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data\graphics\buildings\public\logistic_01\logistic_01.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>400</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>4</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>1500010836</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <ModuleOwner>
+            <ModuleLimits>
+              <Main>
+                <Limit>72</Limit>
+              </Main>
+            </ModuleLimits>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>1500010944</ModuleGUID>
+              </Item>
+            </ConstructionOptions>
+            <AdditionalModule>269837</AdditionalModule>
+            <ModuleBuildRadius>26</ModuleBuildRadius>
+            <FarmType>PlantFarm</FarmType>
+          </ModuleOwner>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>50</Amount>
+                <InactiveAmount>25</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010052</Product>
+                <Amount>40</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- # Product Lists -->
+  <Group>
+    <ModOp Type="add" GUID="502234"
+      Condition="!/Values/ProductList/List/Item[Product='1500010120']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1500010120</Product>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="502234"
+      Condition="!/Values/ProductList/List/Item[Product='1500010102']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1500010102</Product>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="502233"
+      Condition="!/Values/ProductList/List/Item[Product='1440224']"
+      Path="/Values/ProductList">
+      <Item>
+        <Product>1440224</Product>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="502233"
+      Condition="!/Values/ProductList/List/Item[Product='1500010105']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1500010105</Product>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="502235"
+      Condition="!/Values/ProductList/List/Item[Product='1500010127']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1500010127</Product>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="502234"
+      Condition="!/Values/ProductList/List/Item[Product='1500010847']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1500010847</Product>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="502238"
+      Condition="!/Values/ProductList/List/Item[Product='1500010153']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1500010153</Product>
+      </Item>
+    </ModOp>
+    <ModOp Type="addPrevSibling" GUID="502233"
+      Condition="!/Values/ProductList/List/Item[Product='1500010836']"
+      Path="/Values/ProductList/List/Item[Product='1010195']">
+      <Item>
+        <Product>1500010836</Product>
+      </Item>
+    </ModOp>
+  </Group>
+</ModOps>

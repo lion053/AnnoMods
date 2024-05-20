@@ -1,0 +1,119 @@
+<ModOps>
+
+ <!-- Asset List: GUIDs in ascending order-->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<GUID>2100115080</GUID>
+			<Text>Molino de Papel avanzado</Text>
+		</Text>
+		<Text>
+			<GUID>2100115081</GUID>
+			<Text>Molino de Papel avanzado</Text>
+		</Text>
+		<Text>
+			<GUID>2100115082</GUID>
+			<Text>Lista de receta para Papel</Text>
+		</Text>
+		<Text>
+			<GUID>2100115083</GUID>
+			<Text>El molino de papel avanzado te permite producir papel de forma industrial, usando una variedad de procesos de manufactura. Entre más complejo sea el proceso, habrá mayor rendimiento.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115084</GUID>
+			<Text>Receta: Proceso de Sulfito</Text>
+		</Text>
+		<Text>
+			<GUID>2100115085</GUID>
+			<Text>Inventado en la segunda mitad del siglo XIX, permitió por primera vez triturar eficazmente la madera añadiendo un compuesto de cal y azufre (dióxido). Posteriormente la madera se hierve a alta presión durante varias horas, se tritura y se seca. La celulosa de madera resultante es barata, muy pura y por consiguiente adecuada para su posterior transformación directa en papel.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115086</GUID>
+			<Text>Receta: Trapos de lana</Text>
+		</Text>
+		<Text>
+			<GUID>2100115087</GUID>
+			<Text>Molino de papel avanzado</Text>
+		</Text>
+		<Text>
+			<GUID>2100115088</GUID>
+			<Text>Despues de triturar ropa vieja y gastada, esta se mezcla para hacer una pulpa, la cual es colada, prensada y secada para la  elaboración de papel.</Text>
+		</Text>
+		<!--
+		<Text>
+			<GUID>2100115089</GUID>
+			<Text>Sulfur</Text>
+		</Text>
+		<Text>
+			<GUID>2100115090</GUID>
+			<Text>Sulfur Module</Text>
+		</Text>
+		<Text>
+			<GUID>2100115091</GUID>
+			<Text>Iron, copper and zinc mines produce sulfur as extra output, when this module is placed next to them. Requires coal as input.&amp;#xA;&amp;#xD;&amp;#xA;&amp;#xD;&amp;lt;font overrideTextColor=&quot;true&quot; color=&apos;#2d7fb8&apos;&amp;gt;Demand&amp;lt;/font&amp;gt;&amp;lt;font overrideTextColor=&quot;true&quot; color=&apos;#edc891&apos;&amp;gt; per Cycle (01:30):&amp;lt;/font&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;font overrideTextColor=&quot;true&quot; color=&apos;#edc891&apos;&amp;gt;1t &amp;lt;img height=&apos;24&apos; width=&apos;24&apos; src=&quot;[AssetData(1010304) Icon]&quot;/&amp;gt; [AssetData(1010226) Text]&amp;lt;/font&amp;gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115092</GUID>
+			<Text>Mine Module</Text>
+		</Text>
+		<Text>
+			<GUID>2100115093</GUID>
+			<Text>Roasting Sulfidic Ore</Text>
+		</Text>
+		<Text>
+			<GUID>2100115094</GUID>
+			<Text>Sulfur dioxide can be obtained from sulfidic iron, copper and zinc ores by roasting them for several hours.</Text>
+		</Text> -->
+		<Text>
+			<GUID>2100115095</GUID>
+			<Text>Papel</Text>
+		</Text>
+		<Text>
+			<GUID>2100115096</GUID>
+			<Text>Produce papel en el viejo mundo con diferentes recetas</Text>
+		</Text>
+		<Text>
+			<GUID>2100115097</GUID>
+			<Text /> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115098</GUID>
+			<Text>Unlock Trigger</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100115099</GUID>
+			<Text /> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100115270</GUID>
+			<Text>Esta receta se desbloquea con 750 ingenieros</Text>
+		</Text>
+		<!--<Text>
+			<GUID>2100115721</GUID>
+			<Text>Sulfur Module Fake</Text>
+		</Text> -->
+		<Text>
+			<GUID>2100115722</GUID>
+			<Text>Paper Mill Old World Unlock</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100115723</GUID>
+			<Text>Paper Mill Old World Unlock Creative Mode</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100115724</GUID>
+			<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Receta: blanqueo&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115725</GUID>
+			<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Receta: Trapos de lana&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115726</GUID>
+			<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Receta: proceso de sulfito&lt;/font&gt;</Text>
+		</Text>
+  </ModOp>
+
+</ModOps>

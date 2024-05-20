@@ -1,0 +1,2581 @@
+<ModOps>
+
+  <!-- # Output Infotip for Subway Stations -->
+  <ModOp Type="addNextSibling" Path ="//InfoTipData[Guid='25000208']">
+    <InfoTipData>
+      <Guid>2100115829</Guid>
+      <ChildCount>6</ChildCount>
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <!-- Public Service -->
+        <InfoElement>
+          <ElementType>1</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconGUID>2100115204</IconGUID>
+            <Style />
+          </Icon>
+          <Text>
+            <TextGUID>2100115204</TextGUID>
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>5</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <TextGUID>11144</TextGUID> <!-- "Provides a public service to your residents"-->
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>6</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Style />
+          </Text>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>9</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <TextGUID>2100115929</TextGUID> <!-- Subway Network Level -->
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>5</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <TextGUID>2100115931</TextGUID> <!-- Explanation text -->
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconGUID>2100115290</IconGUID>
+            <Style />
+          </Icon>
+          <Text>
+            <TextGUID>2100115290</TextGUID>
+            <Style />
+          </Text>
+          <Value>
+            <Text>&lt;font color='0xff817f87'&gt;[AssetData(22213) Text]&lt;/font&gt;</Text>
+            <Style />
+          </Value>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconGUID>2100115295</IconGUID>
+            <Style />
+          </Icon>
+          <Text>
+            <TextGUID>2100115295</TextGUID>
+            <Style />
+          </Text>
+          <Value>
+            <TextGUID>2100115952</TextGUID>
+            <Style />
+          </Value>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconGUID>2100115206</IconGUID>
+            <Style />
+          </Icon>
+          <Text>
+            <TextGUID>2100115206</TextGUID>
+            <Style />
+          </Text>
+          <Value>
+            <TextGUID>2100115966</TextGUID>
+            <Style />
+          </Value>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconGUID>2100115205</IconGUID>
+            <Style />
+          </Icon>
+          <Text>
+            <TextGUID>2100115205</TextGUID>
+            <Style />
+          </Text>
+          <Value>
+            <TextGUID>2100115968</TextGUID>
+            <Style />
+          </Value>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>5</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <TextGUID>2100115980</TextGUID> <!-- "Your current level is:" -->
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+      </InfoElement>
+      <!-- Modest Subway Network -->
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator>
+            <CompareOperator>0</CompareOperator>
+          </CompareOperator>
+          <ResultType>
+            <ResultType>2</ResultType>
+          </ResultType>
+          <ExpectedValueFloat>0</ExpectedValueFloat>
+          <Condition>[Selection Object Factory ProductivityUpgrade]</Condition>
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>2</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconGUID>2100115674</IconGUID> <!-- Modest Subway Network -->
+            <Style />
+          </Icon>
+          <Text>
+            <TextGUID>2100115925</TextGUID> <!-- "Modest" -->
+            <Style />
+          </Text>
+          <SubText>
+            <TextGUID>2100115200</TextGUID> <!-- "Subway Network" -->
+            <Style />
+          </SubText>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>5</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData(20085) Text] &lt;font overrideTextColor="true" color='#41dcd7'&gt;[ItemAssetData(2100115293) ItemOrBuffEffectTargetsFormatted]&lt;/font&gt;</Text>
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>19</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <TemplateGUID>454144439</TemplateGUID>
+          <Variables>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115293) Guid]</Source>
+            </None>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115293) Guid]</Source>
+            </None>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115293) Guid]</Source>
+            </None>
+          </Variables>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>5</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData(20085) Text] &lt;font overrideTextColor="true" color='#41dcd7'&gt;[ItemAssetData(2100115933) ItemOrBuffEffectTargetsFormatted]&lt;/font&gt;</Text>
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>19</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <TemplateGUID>454144439</TemplateGUID>
+          <Variables>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115933) Guid]</Source>
+            </None>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115933) Guid]</Source>
+            </None>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115933) Guid]</Source>
+            </None>
+          </Variables>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>5</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData(20085) Text] &lt;font overrideTextColor="true" color='#41dcd7'&gt;[ItemAssetData(2100115211) ItemOrBuffEffectTargetsFormatted]&lt;/font&gt;</Text>
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <!-- Do not use the Template for GoodsConsumptionAmount in this case to get rid of the automatically added separator lines -->
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconGUID>1010343</IconGUID> <!-- Icon Residence -->
+            <Style />
+          </Icon>
+          <Text>
+            <Text>[AssetData(11414) Text]:</Text> <!-- "Goods Consumption:" -->
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>7</ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconText>[AssetData([ItemAssetData(2100115211) GoodConsumptionProvidedNeed(#index0#)]) Icon]</IconText>
+              <Style />
+            </Icon>
+            <Text>
+              <Text>[AssetData([ItemAssetData(2100115211) GoodConsumptionProvidedNeed(#index0#)]) Text]</Text>
+              <Style />
+            </Text>
+            <Value>
+              <Text>-[ItemAssetData(2100115211) GoodConsumptionAmountInPercent(#index0#) &gt;&gt; sellShipPrice]%</Text>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <Source>[ItemAssetData(2100115211) GoodConsumptionCount]</Source>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>7</ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconText>[AssetData([ItemAssetData(2100115211) GoodConsumptionIncreasedNeed(#index0#)]) Icon]</IconText>
+              <Style />
+            </Icon>
+            <Text>
+              <Text>[AssetData([ItemAssetData(2100115211) GoodConsumptionIncreasedNeed(#index0#)]) Text]</Text>
+              <Style />
+            </Text>
+            <Value>
+              <Text>[ItemAssetData(2100115211) GoodConsumptionIncreasedAmountInPercent(#index0#) &gt;&gt; balance]%</Text>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <Source>[ItemAssetData(2100115211) GoodConsumptionIncreasedCount]</Source>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>6</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Style />
+          </Text>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>18</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData(2100115217) Text]</Text>
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+      </InfoElement>
+      <!-- Ordinary Subway Network -->
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator>
+            <CompareOperator>0</CompareOperator>
+          </CompareOperator>
+          <ResultType>
+            <ResultType>2</ResultType>
+          </ResultType>
+          <ExpectedValueFloat>0.5</ExpectedValueFloat>
+          <Condition>[Selection Object Factory ProductivityUpgrade]</Condition>
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>2</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconGUID>2100115675</IconGUID> <!-- Ordinary Subway Network -->
+            <Style />
+          </Icon>
+          <Text>
+            <TextGUID>2100115926</TextGUID> <!-- "Ordinary" -->
+            <Style />
+          </Text>
+          <SubText>
+            <TextGUID>2100115200</TextGUID>
+            <Style />
+          </SubText>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>5</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData(20085) Text] &lt;font overrideTextColor="true" color='#41dcd7'&gt;[ItemAssetData(2100115298) ItemOrBuffEffectTargetsFormatted]&lt;/font&gt;</Text>
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>19</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <TemplateGUID>454144439</TemplateGUID>
+          <Variables>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115298) Guid]</Source>
+            </None>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115298) Guid]</Source>
+            </None>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115298) Guid]</Source>
+            </None>
+          </Variables>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>5</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData(20085) Text] &lt;font overrideTextColor="true" color='#41dcd7'&gt;[ItemAssetData(2100115934) ItemOrBuffEffectTargetsFormatted]&lt;/font&gt;</Text>
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>19</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <TemplateGUID>454144439</TemplateGUID>
+          <Variables>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115934) Guid]</Source>
+            </None>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115934) Guid]</Source>
+            </None>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115934) Guid]</Source>
+            </None>
+          </Variables>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>5</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData(20085) Text] &lt;font overrideTextColor="true" color='#41dcd7'&gt;[ItemAssetData(2100115251) ItemOrBuffEffectTargetsFormatted]&lt;/font&gt;</Text>
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <!-- Do not use the Template for GoodsConsumptionAmount in this case to get rid of the automatically added separator lines -->
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconGUID>1010343</IconGUID> <!-- Icon Residence -->
+            <Style />
+          </Icon>
+          <Text>
+            <Text>[AssetData(11414) Text]:</Text> <!-- "Goods Consumption:" -->
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>7</ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconText>[AssetData([ItemAssetData(2100115251) GoodConsumptionProvidedNeed(#index0#)]) Icon]</IconText>
+              <Style />
+            </Icon>
+            <Text>
+              <Text>[AssetData([ItemAssetData(2100115251) GoodConsumptionProvidedNeed(#index0#)]) Text]</Text>
+              <Style />
+            </Text>
+            <Value>
+              <Text>-[ItemAssetData(2100115251) GoodConsumptionAmountInPercent(#index0#) &gt;&gt; sellShipPrice]%</Text>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <Source>[ItemAssetData(2100115251) GoodConsumptionCount]</Source>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>7</ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconText>[AssetData([ItemAssetData(2100115251) GoodConsumptionIncreasedNeed(#index0#)]) Icon]</IconText>
+              <Style />
+            </Icon>
+            <Text>
+              <Text>[AssetData([ItemAssetData(2100115251) GoodConsumptionIncreasedNeed(#index0#)]) Text]</Text>
+              <Style />
+            </Text>
+            <Value>
+              <Text>[ItemAssetData(2100115251) GoodConsumptionIncreasedAmountInPercent(#index0#) &gt;&gt; balance]%</Text>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <Source>[ItemAssetData(2100115251) GoodConsumptionIncreasedCount]</Source>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>6</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Style />
+          </Text>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>18</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData(2100115218) Text]</Text>
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+      </InfoElement>
+      <!-- Remarkable Subway Network -->
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator>
+            <CompareOperator>0</CompareOperator>
+          </CompareOperator>
+          <ResultType>
+            <ResultType>2</ResultType>
+          </ResultType>
+          <ExpectedValueFloat>1.0</ExpectedValueFloat>
+          <Condition>[Selection Object Factory ProductivityUpgrade]</Condition>
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>2</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconGUID>2100115676</IconGUID> <!-- Remarkable Subway Network -->
+            <Style />
+          </Icon>
+          <Text>
+            <TextGUID>2100115927</TextGUID> <!-- "Remarkable" -->
+            <Style />
+          </Text>
+          <SubText>
+            <TextGUID>2100115200</TextGUID>
+            <Style />
+          </SubText>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>5</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData(20085) Text] &lt;font overrideTextColor="true" color='#41dcd7'&gt;[ItemAssetData(2100115209) ItemOrBuffEffectTargetsFormatted]&lt;/font&gt;</Text>
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>19</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <TemplateGUID>454144439</TemplateGUID>
+          <Variables>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115209) Guid]</Source>
+            </None>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115209) Guid]</Source>
+            </None>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115209) Guid]</Source>
+            </None>
+          </Variables>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>5</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData(20085) Text] &lt;font overrideTextColor="true" color='#41dcd7'&gt;[ItemAssetData(2100115935) ItemOrBuffEffectTargetsFormatted]&lt;/font&gt;</Text>
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>19</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <TemplateGUID>454144439</TemplateGUID>
+          <Variables>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115935) Guid]</Source>
+            </None>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115935) Guid]</Source>
+            </None>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115935) Guid]</Source>
+            </None>
+          </Variables>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>5</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData(20085) Text] &lt;font overrideTextColor="true" color='#41dcd7'&gt;[ItemAssetData(2100115261) ItemOrBuffEffectTargetsFormatted]&lt;/font&gt;</Text>
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <!-- Do not use the Template for GoodsConsumptionAmount in this case to get rid of the automatically added separator lines -->
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconGUID>1010343</IconGUID> <!-- Icon Residence -->
+            <Style />
+          </Icon>
+          <Text>
+            <Text>[AssetData(11414) Text]:</Text> <!-- "Goods Consumption:" -->
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>7</ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconText>[AssetData([ItemAssetData(2100115261) GoodConsumptionProvidedNeed(#index0#)]) Icon]</IconText>
+              <Style />
+            </Icon>
+            <Text>
+              <Text>[AssetData([ItemAssetData(2100115261) GoodConsumptionProvidedNeed(#index0#)]) Text]</Text>
+              <Style />
+            </Text>
+            <Value>
+              <Text>-[ItemAssetData(2100115261) GoodConsumptionAmountInPercent(#index0#) &gt;&gt; sellShipPrice]%</Text>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <Source>[ItemAssetData(2100115261) GoodConsumptionCount]</Source>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>7</ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconText>[AssetData([ItemAssetData(2100115261) GoodConsumptionIncreasedNeed(#index0#)]) Icon]</IconText>
+              <Style />
+            </Icon>
+            <Text>
+              <Text>[AssetData([ItemAssetData(2100115261) GoodConsumptionIncreasedNeed(#index0#)]) Text]</Text>
+              <Style />
+            </Text>
+            <Value>
+              <Text>[ItemAssetData(2100115261) GoodConsumptionIncreasedAmountInPercent(#index0#) &gt;&gt; balance]%</Text>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <Source>[ItemAssetData(2100115261) GoodConsumptionIncreasedCount]</Source>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>6</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Style />
+          </Text>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>18</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData(2100115219) Text]</Text>
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+      </InfoElement>
+      <!-- Superior Subway Network -->
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator>
+            <CompareOperator>0</CompareOperator>
+          </CompareOperator>
+          <ResultType>
+            <ResultType>2</ResultType>
+          </ResultType>
+          <ExpectedValueFloat>1.5</ExpectedValueFloat>
+          <Condition>[Selection Object Factory ProductivityUpgrade]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+        <InfoElement>
+          <ElementType>2</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconGUID>2100115677</IconGUID> <!-- Superior Subway Network -->
+            <Style />
+          </Icon>
+          <Text>
+            <TextGUID>2100115928</TextGUID> <!-- "Superior" -->
+            <Style />
+          </Text>
+          <SubText>
+            <TextGUID>2100115200</TextGUID>
+            <Style />
+          </SubText>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>5</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData(20085) Text] &lt;font overrideTextColor="true" color='#41dcd7'&gt;[ItemAssetData(2100115215) ItemOrBuffEffectTargetsFormatted]&lt;/font&gt;</Text>
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>19</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <TemplateGUID>454144439</TemplateGUID>
+          <Variables>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115215) Guid]</Source>
+            </None>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115215) Guid]</Source>
+            </None>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115215) Guid]</Source>
+            </None>
+          </Variables>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>5</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData(20085) Text] &lt;font overrideTextColor="true" color='#41dcd7'&gt;[ItemAssetData(2100115936) ItemOrBuffEffectTargetsFormatted]&lt;/font&gt;</Text>
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>19</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <TemplateGUID>454144439</TemplateGUID>
+          <Variables>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115936) Guid]</Source>
+            </None>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115936) Guid]</Source>
+            </None>
+            <None>
+              <ID>1840762361</ID>
+              <Name>ItemGuid</Name>
+              <Source>[ItemAssetData(2100115936) Guid]</Source>
+            </None>
+          </Variables>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>5</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData(20085) Text] &lt;font overrideTextColor="true" color='#41dcd7'&gt;[ItemAssetData(2100115289) ItemOrBuffEffectTargetsFormatted]&lt;/font&gt;</Text>
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <!-- Do not use the Template for GoodsConsumptionAmount in this case to get rid of the automatically added separator lines -->
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconGUID>1010343</IconGUID> <!-- Icon Residence -->
+            <Style />
+          </Icon>
+          <Text>
+            <Text>[AssetData(11414) Text]:</Text> <!-- "Goods Consumption:" -->
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>7</ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconText>[AssetData([ItemAssetData(2100115289) GoodConsumptionProvidedNeed(#index0#)]) Icon]</IconText>
+              <Style />
+            </Icon>
+            <Text>
+              <Text>[AssetData([ItemAssetData(2100115289) GoodConsumptionProvidedNeed(#index0#)]) Text]</Text>
+              <Style />
+            </Text>
+            <Value>
+              <Text>-[ItemAssetData(2100115289) GoodConsumptionAmountInPercent(#index0#) &gt;&gt; sellShipPrice]%</Text>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <Source>[ItemAssetData(2100115289) GoodConsumptionCount]</Source>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>7</ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconText>[AssetData([ItemAssetData(2100115289) GoodConsumptionIncreasedNeed(#index0#)]) Icon]</IconText>
+              <Style />
+            </Icon>
+            <Text>
+              <Text>[AssetData([ItemAssetData(2100115289) GoodConsumptionIncreasedNeed(#index0#)]) Text]</Text>
+              <Style />
+            </Text>
+            <Value>
+              <Text>[ItemAssetData(2100115289) GoodConsumptionIncreasedAmountInPercent(#index0#) &gt;&gt; balance]%</Text>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <Source>[ItemAssetData(2100115289) GoodConsumptionIncreasedCount]</Source>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>6</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Style />
+          </Text>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>18</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData(2100115220) Text]</Text>
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+      </InfoElement>
+      <Variables />
+    </InfoTipData>
+  </ModOp>
+
+  <!-- # Remove regular "On Island" counts from Midsize and Large Subway Station Infotip -->
+  <ModOp Type="merge" Path="//InfoTipData[Guid='25000020']/InfoElement/InfoElement/InfoElement[Value/Text='[AreaManager AreaObjects ObjectLists BuildingsWithGameLogicCount([RefGuid])]']/VisibilityElement">
+    <ChildCount>2</ChildCount>
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>2100115256</ExpectedValueInt> <!-- Midsize Subway Station -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>2100115267</ExpectedValueInt> <!-- Midsize Subway Station -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+  </ModOp>
+
+  <!-- # Add custom "On Island" counts for Midsize and Large Subway Station Infotip -->
+  <ModOp Type="addNextSibling" Path="//InfoTipData[Guid='25000020']/InfoElement/InfoElement/InfoElement[Value/Text='[AreaManager AreaObjects ObjectLists BuildingsWithGameLogicCount([RefGuid])]']">
+    <InfoElement>
+      <ElementType>4</ElementType>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator />
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>2100115256</ExpectedValueInt> <!-- Midsize Subway Station -->
+          <Condition>[RefGuid]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <Icon>
+        <IconGUID>501655</IconGUID> <!-- Building Icon -->
+        <Style />
+      </Icon>
+      <Text>
+        <TextGUID>13157</TextGUID> <!-- "On Island" -->
+        <Style />
+      </Text>
+      <WarningType />
+      <BackgroundType />
+    </InfoElement>
+    <InfoElement>
+      <ElementType>4</ElementType>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator />
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>2100115256</ExpectedValueInt> <!-- Midsize Subway Station -->
+          <Condition>[RefGuid]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <Icon>
+        <IconGUID>500418</IconGUID> <!-- Monument Construction Icon -->
+        <Style />
+      </Icon>
+      <Text>
+        <TextGUID>2100115826</TextGUID> <!-- "Construction Phase 1:" -->
+        <Style />
+      </Text>
+      <Value>
+        <Text>[AreaManager AreaObjects ObjectLists BuildingsWithGameLogicCount(2100115256)]</Text>
+        <Style />
+      </Value>
+      <WarningType />
+      <BackgroundType />
+    </InfoElement>
+    <InfoElement>
+      <ElementType>4</ElementType>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator />
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>2100115256</ExpectedValueInt> <!-- Midsize Subway Station -->
+          <Condition>[RefGuid]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <Icon>
+        <IconGUID>500421</IconGUID> <!-- Monument Construction Icon -->
+        <Style />
+      </Icon>
+      <Text>
+        <TextGUID>2100115827</TextGUID> <!-- "Construction Phase 2:" -->
+        <Style />
+      </Text>
+      <Value>
+        <Text>[AreaManager AreaObjects ObjectLists BuildingsWithGameLogicCount(2100115259)]</Text>
+        <Style />
+      </Value>
+      <WarningType />
+      <BackgroundType />
+    </InfoElement>
+    <InfoElement>
+      <ElementType>4</ElementType>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator />
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>2100115256</ExpectedValueInt> <!-- Midsize Subway Station -->
+          <Condition>[RefGuid]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <Icon>
+        <IconGUID>2100115243</IconGUID> <!-- Midsize Subway Station Icon -->
+        <Style />
+      </Icon>
+      <Text>
+        <TextGUID>2100115828</TextGUID> <!-- "Finished Stations:" -->
+        <Style />
+      </Text>
+      <Value>
+        <Text>[AreaManager AreaObjects ObjectLists BuildingsWithGameLogicCount(2100115243)]</Text>
+        <Style />
+      </Value>
+      <WarningType />
+      <BackgroundType />
+    </InfoElement>
+    <InfoElement>
+      <ElementType>4</ElementType>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator />
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>2100115267</ExpectedValueInt> <!-- Large Subway Station -->
+          <Condition>[RefGuid]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <Icon>
+        <IconGUID>501655</IconGUID> <!-- Building Icon -->
+        <Style />
+      </Icon>
+      <Text>
+        <TextGUID>13157</TextGUID> <!-- "On Island" -->
+        <Style />
+      </Text>
+      <WarningType />
+      <BackgroundType />
+    </InfoElement>
+    <InfoElement>
+      <ElementType>4</ElementType>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator />
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>2100115267</ExpectedValueInt> <!-- Large Subway Station -->
+          <Condition>[RefGuid]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <Icon>
+        <IconGUID>500418</IconGUID> <!-- Monument Construction Icon -->
+        <Style />
+      </Icon>
+      <Text>
+        <TextGUID>2100115826</TextGUID> <!-- "Construction Phase 1:" -->
+        <Style />
+      </Text>
+      <Value>
+        <Text>[AreaManager AreaObjects ObjectLists BuildingsWithGameLogicCount(2100115267)]</Text>
+        <Style />
+      </Value>
+      <WarningType />
+      <BackgroundType />
+    </InfoElement>
+    <InfoElement>
+      <ElementType>4</ElementType>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator />
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>2100115267</ExpectedValueInt> <!-- Large Subway Station -->
+          <Condition>[RefGuid]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <Icon>
+        <IconGUID>500421</IconGUID> <!-- Monument Construction Icon -->
+        <Style />
+      </Icon>
+      <Text>
+        <TextGUID>2100115827</TextGUID> <!-- "Construction Phase 2:" -->
+        <Style />
+      </Text>
+      <Value>
+        <Text>[AreaManager AreaObjects ObjectLists BuildingsWithGameLogicCount(2100115268)]</Text>
+        <Style />
+      </Value>
+      <WarningType />
+      <BackgroundType />
+    </InfoElement>
+    <InfoElement>
+      <ElementType>4</ElementType>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator />
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>2100115267</ExpectedValueInt> <!-- Large Subway Station -->
+          <Condition>[RefGuid]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <Icon>
+        <IconGUID>2100115255</IconGUID> <!-- Large Subway Station Icon -->
+        <Style />
+      </Icon>
+      <Text>
+        <TextGUID>2100115828</TextGUID> <!-- "Finished Stations:" -->
+        <Style />
+      </Text>
+      <Value>
+        <Text>[AreaManager AreaObjects ObjectLists BuildingsWithGameLogicCount(2100115255)]</Text>
+        <Style />
+      </Value>
+      <WarningType />
+      <BackgroundType />
+    </InfoElement>
+  </ModOp>
+
+  <!-- # Production Output Infotip for MTD I-IV -->
+  <ModOp Type="addNextSibling" Path ="//InfoTipData[Guid='25000208']">
+    <InfoTipData>
+      <Guid>2100115976</Guid>
+      <ChildCount>6</ChildCount>
+        <InfoElement>
+          <ElementType>1</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData(2100115977) Text]</Text>
+            <Style>
+              <Style>1</Style>
+            </Style>
+          </Text>
+          <Value>
+            <Text />
+            <Style />
+          </Value>
+          <BackgroundType>
+            <BackgroundType>0</BackgroundType>
+          </BackgroundType>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>2</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <ChildCount>1</ChildCount>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>2100115972</ExpectedValueInt>
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconText>[AssetData([RefGuid]) Icon]</IconText>
+            <Style />
+          </Icon>
+          <Text>
+            <Text>[AssetData([RefGuid]) Text]</Text>
+            <Style />
+          </Text>
+          <SubText>
+            <TextGUID>2100115941</TextGUID> <!-- "Level 1" -->
+            <Style />
+          </SubText>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>2</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <ChildCount>1</ChildCount>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>2100115973</ExpectedValueInt>
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconText>[AssetData([RefGuid]) Icon]</IconText>
+            <Style />
+          </Icon>
+          <Text>
+            <Text>[AssetData([RefGuid]) Text]</Text>
+            <Style />
+          </Text>
+          <SubText>
+            <TextGUID>2100115942</TextGUID> <!-- "Level 2" -->
+            <Style />
+          </SubText>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>2</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <ChildCount>1</ChildCount>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>2100115974</ExpectedValueInt>
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconText>[AssetData([RefGuid]) Icon]</IconText>
+            <Style />
+          </Icon>
+          <Text>
+            <Text>[AssetData([RefGuid]) Text]</Text>
+            <Style />
+          </Text>
+          <SubText>
+            <TextGUID>2100115943</TextGUID> <!-- "Level 3" -->
+            <Style />
+          </SubText>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>2</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <ChildCount>1</ChildCount>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>2100115975</ExpectedValueInt>
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconText>[AssetData([RefGuid]) Icon]</IconText>
+            <Style />
+          </Icon>
+          <Text>
+            <Text>[AssetData([RefGuid]) Text]</Text>
+            <Style />
+          </Text>
+          <SubText>
+            <TextGUID>2100115944</TextGUID> <!-- "Level 4" -->
+            <Style />
+          </SubText>
+          <BackgroundType />
+        </InfoElement>
+      <Variables />
+    </InfoTipData>
+  </ModOp>
+
+  <!-- # Dynamic Productivity Buff Infotip for Subway Depot -->
+  <ModOp Type ="addNextSibling" Path ="//InfoTipData[Guid='454144439']/InfoElement/InfoElement[InfoElement/Text/TextGUID = '20083' and InfoElement/VisibilityElement/ElementType/ElementType='2' and InfoElement/ElementType='5']">
+    <InfoElement>
+      <ElementType>8</ElementType>
+      <ChildCount>2</ChildCount>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>2100115913</ExpectedValueInt> <!-- Infotip linked to this DefaultBuff -->
+            <Condition>[ItemAssetData({ItemGuid}) Guid]</Condition>
+          </VisibilityElement>
+          <OperatorType>
+            <OperatorType>1</OperatorType>
+          </OperatorType>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <InfoElement>
+        <ElementType>5</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Text>
+          <TextGUID>2100115914</TextGUID> <!-- "Each station of your island's Subway Network increases the workload (productivity) of the Subway Depot by 10 %." -->
+          <Style />
+        </Text>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconGUID>501655</IconGUID> <!-- Building Icon -->
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>13157</TextGUID> <!-- "On Island" -->
+          <Style />
+        </Text>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconGUID>2100115243</IconGUID>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2100115243</TextGUID>
+          <Style />
+        </Text>
+        <Value>
+          <Text>[AreaManager AreaObjects ObjectLists BuildingsWithGameLogicCount(2100115243)]</Text>
+          <Style />
+        </Value>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconGUID>2100115255</IconGUID>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2100115255</TextGUID>
+          <Style />
+        </Text>
+        <Value>
+          <Text>[AreaManager AreaObjects ObjectLists BuildingsWithGameLogicCount(2100115255)]</Text>
+          <Style />
+        </Value>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>6</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Text>
+          <Style />
+        </Text>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconGUID>2100115912</IconGUID> <!-- Subway Depot Icon -->
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>14437</TextGUID> <!-- "Productivity" -->
+          <Style />
+        </Text>
+        <Value>
+          <Text>+[Selection Object Factory ProductivityUpgrade &gt;&gt; percentage]%</Text>
+          <Style />
+        </Value>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+    </InfoElement>
+  </ModOp>
+
+  <!-- # Production Output Infotip for Subway Depot -->
+  <ModOp Type="addNextSibling" Path ="//InfoTipData[Guid='25000208']">
+    <InfoTipData>
+      <Guid>2100115908</Guid>
+      <ChildCount>6</ChildCount>
+      <InfoElement>
+        <ElementType>1</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconGUID>2100115909</IconGUID>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2100115909</TextGUID>
+          <Style />
+        </Text>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>5</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Text>
+          <Text>[AssetData(20085) Text][ItemAssetData(2100115919) ItemOrBuffEffectTargetsFormatted]</Text> <!-- 20085 = "Affects" -->
+          <Style />
+        </Text>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>6</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Text>
+          <Style />
+        </Text>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconGUID>2100115204</IconGUID>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2100115920</TextGUID>
+          <Style />
+        </Text>
+        <Value>
+          <Text />
+          <Style />
+        </Value>
+        <WarningType>
+          <WarningType>0</WarningType>
+        </WarningType>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>5</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Text>
+          <TextGUID>2100115918</TextGUID>
+          <Style />
+        </Text>
+        <BackgroundType />
+      </InfoElement>
+      <Variables />
+    </InfoTipData>
+  </ModOp>
+
+  <!-- # Production Input Infotip for Subway Depot -->
+
+  <!-- Remove original input infotip for the following inputs -->
+  <ModOp Type="add" Path="//InfoTipData[Guid='25000206']/InfoElement/VisibilityElement[VisibilityElement/Condition='[ProductAssetData([RefGuid]) IsAbstract]' and not(VisibilityElement/ExpectedValueBool='False')]">
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>2100115924</ExpectedValueInt> <!-- defect subways -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+  </ModOp>
+  <ModOp Type="add" Path="//InfoTipData[Guid='25000206']/InfoElement/VisibilityElement[VisibilityElement/Condition='[ProductAssetData([RefGuid]) IsAbstract]' and VisibilityElement/ExpectedValueBool='False']">
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>2100115262</ExpectedValueInt> <!-- Construction Plans I -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>2100115273</ExpectedValueInt> <!-- Construction Plans II -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>2100115274</ExpectedValueInt> <!-- Construction Plans III -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>2100115275</ExpectedValueInt> <!-- Construction Plans IV -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+  </ModOp>
+
+  <!-- Add special input infotips for the following inputs -->
+  <ModOp Type="add" Path="//InfoTipData[Guid='25000206']">
+    <InfoElement>
+      <ElementType>8</ElementType>
+      <ChildCount>1</ChildCount>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator>
+            <CompareOperator>0</CompareOperator>
+          </CompareOperator>
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>2100115924</ExpectedValueInt> <!-- defect subways -->
+          <Condition>[RefGuid]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <InfoElement>
+        <ElementType>1</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconText>[AssetData(2100115923) Icon]</IconText>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2100115923</TextGUID>
+          <Style />
+        </Text>
+        <Value>
+          <Style />
+        </Value>
+        <BackgroundType />
+      </InfoElement>
+    </InfoElement>
+    <InfoElement>
+      <ElementType>8</ElementType>
+      <ChildCount>1</ChildCount>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator>
+            <CompareOperator>0</CompareOperator>
+          </CompareOperator>
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>2100115262</ExpectedValueInt> <!-- construction plans MTD I -->
+          <Condition>[RefGuid]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <InfoElement>
+        <ElementType>18</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Text>
+          <Text>[AssetData(2100115284) Text]</Text>
+          <Style />
+        </Text>
+        <BackgroundType />
+      </InfoElement>
+    </InfoElement>
+    <InfoElement>
+      <ElementType>8</ElementType>
+      <ChildCount>1</ChildCount>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator>
+            <CompareOperator>0</CompareOperator>
+          </CompareOperator>
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>2100115273</ExpectedValueInt> <!-- construction plans MTD II -->
+          <Condition>[RefGuid]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <InfoElement>
+        <ElementType>18</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Text>
+          <Text>[AssetData(2100115276) Text]</Text>
+          <Style />
+        </Text>
+        <BackgroundType />
+      </InfoElement>
+    </InfoElement>
+    <InfoElement>
+      <ElementType>8</ElementType>
+      <ChildCount>1</ChildCount>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator>
+            <CompareOperator>0</CompareOperator>
+          </CompareOperator>
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>2100115274</ExpectedValueInt> <!-- construction plans MTD III -->
+          <Condition>[RefGuid]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <InfoElement>
+        <ElementType>18</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Text>
+          <Text>[AssetData(2100115277) Text]</Text>
+          <Style />
+        </Text>
+        <BackgroundType />
+      </InfoElement>
+    </InfoElement>
+    <InfoElement>
+      <ElementType>8</ElementType>
+      <ChildCount>1</ChildCount>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator>
+            <CompareOperator>0</CompareOperator>
+          </CompareOperator>
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>2100115275</ExpectedValueInt> <!-- construction plans MTD IV -->
+          <Condition>[RefGuid]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <InfoElement>
+        <ElementType>18</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Text>
+          <Text>[AssetData(2100115278) Text]</Text>
+          <Style />
+        </Text>
+        <BackgroundType />
+      </InfoElement>
+    </InfoElement>
+  </ModOp>
+
+  <!-- Production Output Infotip for Press Works -->
+  <ModOp Type="addNextSibling" Path ="//InfoTipData[Guid='25000208']">
+    <InfoTipData>
+      <Guid>2100115981</Guid>
+      <ChildCount>6</ChildCount>
+      <!-- Regular Output info -->
+      <InfoElement>
+        <ElementType>1</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconGUID>501701</IconGUID> <!-- Icon transporter loading -->
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>100371</TextGUID> <!-- Header "Output Storage" -->
+          <Style />
+        </Text>
+        <Value>
+          <Style />
+        </Value>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>5</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Text>
+          <TextGUID>17465</TextGUID> <!-- "Storage" -->
+          <Style />
+        </Text>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconText>[AssetData([RefGuid]) Icon]</IconText> <!-- any goods icon -->
+          <Style />
+        </Icon>
+        <Text>
+          <Text>[AssetData([RefGuid]) Text]</Text> <!-- any goods name -->
+          <Style />
+        </Text>
+        <Value>
+          <Text>[Selection Object Logistic StorageAmount([RefGuid]) &gt;&gt; storagegood]/[Selection Object Logistic StorageCapacity([RefGuid]) &gt;&gt; storagegood]</Text>
+          <Style />
+        </Value>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <Condition>[Selection Object Logistic FreeSpace([RefGuid])]</Condition>
+          </VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconGUID>501701</IconGUID> <!-- Icon transporter loading -->
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>100406</TextGUID> <!-- "Full Output Storage"-->
+          <Style />
+        </Text>
+        <Value>
+          <Style />
+        </Value>
+        <WarningType>
+          <WarningType>2</WarningType>
+        </WarningType>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>4</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>6</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Style />
+          </Text>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>5</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <TextGUID>100375</TextGUID> <!-- "In Island Storage" -->
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconText>[AssetData([RefGuid]) Icon]</IconText>
+            <Style />
+          </Icon>
+          <Text>
+            <Text>[AssetData([RefGuid]) Text]</Text>
+            <Style />
+          </Text>
+          <Value>
+            <Text>[Selection Object Area Economy StorageAmount([RefGuid]) &gt;&gt; storagegood]/[Selection Object Area Economy StorageCapacity([RefGuid]) &gt;&gt; storagegood]</Text>
+            <Style />
+          </Value>
+          <WarningType />
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>8</ElementType>
+          <ChildCount>2</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <ChildCount>1</ChildCount>
+              <VisibilityElement>
+                <ElementType>
+                  <ElementType>1</ElementType>
+                </ElementType>
+                <CompareOperator />
+                <ResultType>
+                  <ResultType>1</ResultType>
+                </ResultType>
+                <Condition>[Area Current Economy FreeSpace([RefGuid])]</Condition>
+              </VisibilityElement>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconGUID>501703</IconGUID>
+              <Style />
+            </Icon>
+            <Text>
+              <TextGUID>22030</TextGUID> <!-- "Island Storage Full" -->
+              <Style />
+            </Text>
+            <Value>
+              <Style />
+            </Value>
+            <WarningType>
+              <WarningType>2</WarningType>
+            </WarningType>
+            <BackgroundType />
+          </InfoElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <ChildCount>2</ChildCount>
+              <VisibilityElement>
+                <ElementType>
+                  <ElementType>1</ElementType>
+                </ElementType>
+                <CompareOperator />
+                <ResultType />
+                <ExpectedValueBool>False</ExpectedValueBool>
+                <Condition>[Selection Object Factory TeleportsProducedGoodsDirectlyIntoAreaStorage]</Condition>
+              </VisibilityElement>
+              <VisibilityElement>
+                <ElementType>
+                  <ElementType>1</ElementType>
+                </ElementType>
+                <CompareOperator />
+                <ResultType />
+                <Condition>[Selection Object Factory NoWarehouseInRange]</Condition>
+              </VisibilityElement>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconGUID>501703</IconGUID>
+              <Style />
+            </Icon>
+            <Text>
+              <TextGUID>2762</TextGUID> <!-- "No Warehouse in Range"-->
+              <Style />
+            </Text>
+            <Value>
+              <Style />
+            </Value>
+            <WarningType>
+              <WarningType>2</WarningType>
+            </WarningType>
+            <BackgroundType />
+          </InfoElement>
+        </InfoElement>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>6</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Text>
+          <Style />
+        </Text>
+      </InfoElement>
+      <!-- Added Buff infotip -->
+      <InfoElement>
+        <ElementType>2</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconGUID>2100115045</IconGUID>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2100115045</TextGUID>
+          <Style />
+        </Text>
+        <SubText>
+          <TextGUID>2363</TextGUID> <!-- "Effect" -->
+          <Style />
+        </SubText>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>5</CompareOperator>
+            </CompareOperator>
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <Condition>[ToolOneHelper ItemOrBuffEffectTargets(2100115045)]</Condition>
+          </VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>5</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData(20085) Text][ItemAssetData(2100115045) ItemOrBuffEffectTargetsFormatted]</Text> <!-- 20085 = "Affects" -->
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>19</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <TemplateGUID>454144439</TemplateGUID> <!-- All kinds of buffs -->
+        <Variables>
+          <None>
+            <ID>1840762361</ID>
+            <Name>ItemGuid</Name>
+            <Source>[ItemAssetData(2100115045) Guid]</Source>
+          </None>
+          <None>
+            <ID>1840762361</ID>
+            <Name>ItemGuid</Name>
+            <Source>[ItemAssetData(2100115045) Guid]</Source>
+          </None>
+          <None>
+            <ID>1840762361</ID>
+            <Name>ItemGuid</Name>
+            <Source>[ItemAssetData(2100115045) Guid]</Source>
+          </None>
+        </Variables>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>4</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>0</CompareOperator>
+            </CompareOperator>
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <Condition>[Item BuffFluff([RefGuid])]</Condition>
+          </VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>6</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Style />
+          </Text>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>18</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData(2100115021) Text]</Text>
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+      </InfoElement>
+      <Variables />
+    </InfoTipData>
+  </ModOp>
+
+
+</ModOps>

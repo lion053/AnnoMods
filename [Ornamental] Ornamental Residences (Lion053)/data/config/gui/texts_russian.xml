@@ -1,0 +1,66 @@
+<ModOps>
+	
+    <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>2100119700</GUID>
+      			<Text>Farmer residence</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119701</GUID>
+      			<Text>Worker residence</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119702</GUID>
+      			<Text>Artisan residence</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119703</GUID>
+      			<Text>Engineer residence</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119704</GUID>
+      			<Text>Investor residence</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119705</GUID>
+      			<Text>Scholar residence</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119706</GUID>
+      			<Text>Obrero residence</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119707</GUID>
+      			<Text>Jornalero residence</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119708</GUID>
+      			<Text>Shepherd residence</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119709</GUID>
+      			<Text>Elder residence</Text>
+		</Text>
+		<Text>
+				<GUID>2100119713</GUID>
+				<Text>Artista residence</Text>
+   		</Text>
+		<Text>
+				<GUID>2100119714</GUID>
+				<Text>Hacienda residence</Text>
+		</Text>		
+		<Text>
+     			<GUID>2100119710</GUID>
+      			<Text>Ornamental Residences</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119711</GUID>
+      			<Text>Residences without function</Text>
+		</Text>		
+		<Text>
+				<GUID>2100119716</GUID>
+				<Text>- For Sale - Contact: Bader Real Estate, Lexington Avenue 228, Cape Trewlaney</Text>
+   		</Text>	
+		
+    </ModOp>
+</ModOps>

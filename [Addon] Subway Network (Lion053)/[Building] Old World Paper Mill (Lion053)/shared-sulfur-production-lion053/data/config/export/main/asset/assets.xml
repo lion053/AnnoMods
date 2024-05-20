@@ -1,0 +1,311 @@
+<!-- Sulfur Production (Lion053) -->
+
+<!-- How to use -->
+<!-- Include this shared mod as a sub mod into your main mod's data folder. -->
+<!-- Add the module guid to your production chain if you want to use the predefined building (as is, no customization in your mod!). -->
+<!-- Define unlocks in your own mod -->
+<!-- Please do not change values here! -->
+
+<ModOps>
+
+<!-- # Product Sulfur-->
+<Group>
+  <ModOp Type="addNextSibling" GUID="1010225">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115089</GUID>
+          <Name>Sulfur</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\sulfur_production\icon_sulfur.png</IconFilename>
+          <InfoDescription>11776</InfoDescription>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11703</ProductCategory>
+          <BasePrice>500</BasePrice>
+          <CivLevel>4</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Product Lists -->
+  <ModOp Type="addPrevSibling" GUID="120055" Path="/Values/ProductStorageList/ProductList/Item[Product='1010222']" Condition="!/Values/ProductStorageList/ProductList/Item[Product='2100115089']">
+    <Item>
+      <Product>2100115089</Product>
+    </Item>
+  </ModOp>
+  <ModOp Type="addPrevSibling" GUID="502007,502020,502066,502043" Path="/Values/ProductList/List/Item[Product='1010222']" Condition="!/Values/ProductList/List/Item[Product='2100115089']">
+    <Item>
+      <Product>2100115089</Product>
+    </Item>
+  </ModOp>
+</Group>
+
+<!-- # Sulfur Module -->
+<Group>
+  <ModOp Type="addNextSibling" GUID="1010310">
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115090</GUID>
+          <Name>Sulfur Module</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\sulfur_production\icon_sulfur.png</IconFilename>
+          <InfoDescription>2100115091</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>2100115092</BuildingCategoryName>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <!-- if product shows max. int value in docklands, probably no region is assigned to its main factory -->
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\sulfur_module\mining_sulfur_module_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>3500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <Constructable />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>279511</Sound>
+            </Item>
+            <Item>
+              <Sound>216871</Sound>
+            </Item>
+          </ActiveSounds>
+        </SoundEmitter>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010226</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>90</CycleTime>
+          <MissingConnectionInfolayer>500449</MissingConnectionInfolayer>
+          <IsMainFactory>0</IsMainFactory>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+        </FactoryBase>
+        <LogisticNode>
+          <TransporterAsset>120028</TransporterAsset>
+          <TransporterCountMax>1</TransporterCountMax>
+        </LogisticNode>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>150</Amount>
+              <InactiveAmount>100</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010117</Product>
+              <Amount>10</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+        </Industrializable>
+        <IncidentInfectable />
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost>
+        </Electrifiable>
+        <AmbientMoodProvider />
+        <Attackable />
+        <UpgradeList />
+        <Pausable />
+        <FeedbackController />
+        <Infolayer />
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2100115093</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>5</ProductionBuffDistance>
+        </BuffFactory>
+        <Culture>
+          <HasPollution>1</HasPollution>
+          <Attractiveness>-5</Attractiveness>
+        </Culture>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Sulfur Module Buff -->
+  <ModOp Type="addNextSibling" GUID="135117">
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115093</GUID>
+          <Name>Roasting Sulfidic Ore</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\sulfur_production\icon_sulfur.png</IconFilename>
+          <InfoDescription>2100115094</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1010305</GUID>
+            </Item>
+            <Item>
+              <GUID>1010308</GUID>
+            </Item>
+            <Item>
+              <GUID>1010307</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Percental>1</Percental>
+            <Value>10</Value>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <Buff />
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>2100115089</Product>
+              <Amount>1</Amount>
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade />
+        <InfluenceSourceUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Sulfur output to Gritty Gas Extractor Item -->
+  <ModOp Type="add" GUID="116167" Path="/Values/FactoryUpgrade/AdditionalOutput" Condition="!/Values/FactoryUpgrade/AdditionalOutput[Item/Product='2100115089']">
+    <Item>
+      <Product>2100115089</Product>
+      <AdditionalOutputCycle>8</AdditionalOutputCycle>
+      <Amount>1</Amount>
+    </Item>
+  </ModOp>
+  <!-- Spawn Feedback -->
+  <ModOp Type="add" GUID="142313" Path="/Values/FeedbackBuildingGroup/Buildings" Condition="!/Values/FeedbackBuildingGroup/Buildings[Item/Building='2100115090']">
+    <Item>
+      <Building>2100115090</Building>
+    </Item>
+  </ModOp>
+</Group>
+
+<!-- # Enable Dockland Import -->
+<Group>
+  <ModOp Type="addNextSibling" GUID="116029" Condition="!//FactoryBase[FactoryOutputs/Item/Product='2100115089']/IsMainFactory[text()='1']">
+    <Asset>
+      <BaseAssetGUID>116029</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100115721</GUID>
+          <Name>Sulfur Module Fake</Name>
+        </Standard>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010226</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>45</CycleTime>
+          <IsMainFactory>1</IsMainFactory>
+          <FactoryOutputs>
+            <!-- if product shows max. int value in docklands, probably no FactoryOutput is defined for this product's main factory -->
+            <Item>
+              <Product>2100115089</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+        </FactoryBase>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>112654</Product>
+              <Amount>50</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable>
+          <MandatoryIndustrialization>1</MandatoryIndustrialization>
+        </Industrializable>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="add" GUID="502236" Path="/Values/ProductList/List" Condition="!/Values/ProductList/List/Item[Product='2100115089']">
+      <Item>
+        <Product>2100115089</Product>
+      </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131815']/TradeLevels/Item[Unlock='131844']/Trades/Item[Good='1010256']"
+         Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='2100115089']">
+      <Item>
+        <Level>Rare</Level>
+        <Good>2100115089</Good>
+      </Item>
+  </ModOp>
+</Group>
+
+</ModOps>

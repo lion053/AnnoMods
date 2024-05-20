@@ -1,0 +1,212 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			
+			<GUID>2100118200</GUID>
+			<Text>Chocolate Industrial Production</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			
+			<GUID>2100118201</GUID>
+			<Text>Trigger_sandbox</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			
+			<GUID>2100118202</GUID>
+			<Text>Trigger_creative</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			
+			<GUID>2100118203</GUID>
+			<Text>牧场</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118204</GUID>
+			<Text>加里波第巧克力商店</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118205</GUID>
+			<Text>Chocolaterie Garibaldi</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			
+			<GUID>2100118206</GUID>
+			<Text>制糖厂</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118207</GUID>
+			<Text>InfoTip Cattle Farm OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			
+			<GUID>2100118208</GUID>
+			<Text>牧场产出牛奶</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118209</GUID>
+			<Text>为牲畜提供吃草的地方。此外，每个牧场每个周期生产1吨牛奶。点击一个牧场可以看到它的生产力。</Text>
+		</Text>
+		<Text>
+			
+			<!-- FOR TRANSLATION: Search for the Guid 8143 in your language text file; from the result copy only the translated term for 'secondary goods' -->
+			<GUID>2100118210</GUID>
+			<Text>副产品：</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118211</GUID>
+			<Text>牧场产出</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118212</GUID>
+			<Text>Chewing gum chain OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			
+			<GUID>2100118213</GUID>
+			<Text>Trigger_chewing_gum_unhide</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			
+			<GUID>2100118214</GUID>
+			<Text>Trigger_chewing_gum_unlock</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			
+			<GUID>2100118215</GUID>
+			<Text>1吨/牧场/轮</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118216</GUID>
+			<Text>这些巧克力来自加里波第。在那里，这个国家最好的巧克力师创造了自巧克力发明以来最精致的诱惑……即使是最忙碌的金融骗子也无法抗拒。</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118217</GUID>
+			<Text>Trigger_chewing_gum_creative</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			
+			<GUID>2100118218</GUID>
+			<Text>Trigger_pasture_artisans</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			
+			<GUID>2100118219</GUID>
+			<Text>甜菜农场</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118220</GUID>
+			<Text>甜菜田</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118221</GUID>
+			<Text>甜菜生产力</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118222</GUID>
+			<Text>甜菜</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118223</GUID>
+			<Text>甜菜种子</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118224</GUID>
+			<Text>&lt;b&gt;优质的甜菜种子&lt;/b&gt; 这些种子可以帮助你在各种土壤中种植大量的甜菜。</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118225</GUID>
+			<Text>混种甜菜种子</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118226</GUID>
+			<Text>“甜菜制糖先驱”希罗尼穆斯·赫斯</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118227</GUID>
+			<Text>当拿破仑时代的大陆封锁政策导致美洲糖短缺，并导致种植本地甜菜时，赫斯很快就因使用甜菜酿造朗姆酒而出名。封锁结束后，没有人想再买甜菜制成的朗姆酒。所以他最终来到了新大陆，在那里他一直用甜菜而不是甘蔗酿酒，没有人注意到。</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118228</GUID>
+			<Text>“发酵专家”弗里德·雅各布森</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118229</GUID>
+			<Text>他多才多艺，是有机化学领域的杰出人物。除了在工业公司担任高薪职位外，他还热衷于科普工作。他知道如何成功地向专业观众展示自己的作品，同时也很会向公众展示自己的作品。他关于“家用发酵”这一主题的系列丛书深受读者喜爱。</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118230</GUID>
+			<Text>“巧克力魔术师”威利·旺卡</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118231</GUID>
+			<Text>“世界上没有其他工厂用巧克力瀑布来混合巧克力原料……但如果你想做出恰到好处的完美巧克力，这是唯一的方法。”</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118232</GUID>
+			<Text>GG_item</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			
+			<GUID>2100118233</GUID>
+			<Text>GG_package</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			
+			<GUID>2100118234</GUID>
+			<Text>隆巴顿可调榨糖机</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118235</GUID>
+			<Text>一种可以快速方便地安装和拆卸的工具，用于优化甘蔗的粉碎和压榨。</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118236</GUID>
+			<Text>为范围内的住宅提供增益。</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118237</GUID>
+			<Text>&lt;b&gt;Beta vulgaris&lt;/b&gt; These seeds have been adapted to grow in a very wide range of soils, and with increased Sugar Beets yield!</Text>
+		</Text>
+		<Text>
+			
+			<GUID>2100118238</GUID>
+			<Text>InfoTip Cattle Farm OW (construction menu)</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			
+			<GUID>2100118239</GUID>
+			<Text>Unlock Pastures Creative Mode</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			
+			<GUID>2100118240</GUID>
+			<Text>Land Reform Act Buff</Text> <!-- no translation needed -->
+		</Text>
+  </ModOp>
+
+</ModOps>

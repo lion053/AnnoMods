@@ -1,0 +1,77 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>2100118203</GUID>
+			<Text>Rinderweide</Text>
+		</Text>
+		<Text>
+			<GUID>2100118207</GUID>
+			<Text>InfoTip Cattle Farm OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118208</GUID>
+			<Text>Weiden erzeugen Milch</Text>
+		</Text>
+		<Text>
+			<GUID>2100118209</GUID>
+			<Text>Bietet dem Vieh eine Fläche zum Weiden. Zusätzlich produziert jede Weide 1 Tonne Milch je Zyklus. Klicken Sie auf eine Weide um ihre aktuelle Produktivität zu sehen.</Text>
+		</Text>
+		<Text>
+			<!-- FOR TRANSLATION: Search for the Guid 8143 in your language text file; from the result copy only the translated term for 'secondary goods' -->
+			<GUID>2100118210</GUID>
+			<Text>Nebenprodukte:</Text>
+		</Text>
+		<Text>
+			<GUID>2100118211</GUID>
+			<Text>Weide Output</Text>
+		</Text>
+		<Text>
+			<GUID>2100118215</GUID>
+			<Text>1t/Weide/Zyklus</Text>
+		</Text>
+		<Text>
+			<GUID>2100118218</GUID>
+			<Text>Unlock Pastures Sandbox</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118238</GUID>
+			<Text>InfoTip Cattle Farm OW (construction menu)</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118239</GUID>
+			<Text>Unlock Pastures Creative Mode</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118241</GUID>
+			<Text>AI Pasture OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118242</GUID>
+			<Text>AI Farm OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118243</GUID>
+			<Text>Canned Food Chain AI</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118244</GUID>
+			<Text>AI Farm NW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118245</GUID>
+			<Text>AI Pasture NW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118246</GUID>
+			<Text>Burrito Chain AI</Text> <!-- no translation needed -->
+		</Text>
+  </ModOp>
+
+</ModOps>

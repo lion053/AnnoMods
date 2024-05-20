@@ -1,0 +1,52 @@
+{
+  "Version": "1.0",
+  "ModID": "shared-infotip-fix-tourist-buildings-lion053",
+  "IncompatibleIds": null,
+  "LoadAfterIds": null,
+  "ModDependencies": null,
+
+  "Category": {
+    "Chinese": "Shared",
+    "English": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Infotip Fix Tourist Buildings (Lion053)",
+    "English": "Infotip Fix Tourist Buildings (Lion053)",
+    "French": "Infotip Fix Tourist Buildings (Lion053)",
+    "German": "Infotip Fix Tourist Buildings (Lion053)",
+    "Italian": "Infotip Fix Tourist Buildings (Lion053)",
+    "Japanese": "Infotip Fix Tourist Buildings (Lion053)",
+    "Korean": "Infotip Fix Tourist Buildings (Lion053)",
+    "Polish": "Infotip Fix Tourist Buildings (Lion053)",
+    "Russian": "Infotip Fix Tourist Buildings (Lion053)",
+    "Spanish": "Infotip Fix Tourist Buildings (Lion053)",
+    "Taiwanese": "Infotip Fix Tourist Buildings (Lion053)"
+  },
+  "Description": {
+    "Chinese": "Fixes the 'Visitor Pier Upgrade Button Infotip' for mod-visitor-piers. Fixes the 'Happiness Infotip' for mod-hotels (by default they use the wrong residence infotip).",
+    "English": "Fixes the 'Visitor Pier Upgrade Button Infotip' for mod-visitor-piers. Fixes the 'Happiness Infotip' for mod-hotels (by default they use the wrong residence infotip).",
+    "French": "Fixes the 'Visitor Pier Upgrade Button Infotip' for mod-visitor-piers. Fixes the 'Happiness Infotip' for mod-hotels (by default they use the wrong residence infotip).",
+    "German": "Fixes the 'Visitor Pier Upgrade Button Infotip' for mod-visitor-piers. Fixes the 'Happiness Infotip' for mod-hotels (by default they use the wrong residence infotip).",
+    "Italian": "Fixes the 'Visitor Pier Upgrade Button Infotip' for mod-visitor-piers. Fixes the 'Happiness Infotip' for mod-hotels (by default they use the wrong residence infotip).",
+    "Japanese": "Fixes the 'Visitor Pier Upgrade Button Infotip' for mod-visitor-piers. Fixes the 'Happiness Infotip' for mod-hotels (by default they use the wrong residence infotip).",
+    "Korean": "Fixes the 'Visitor Pier Upgrade Button Infotip' for mod-visitor-piers. Fixes the 'Happiness Infotip' for mod-hotels (by default they use the wrong residence infotip).",
+    "Polish": "Fixes the 'Visitor Pier Upgrade Button Infotip' for mod-visitor-piers. Fixes the 'Happiness Infotip' for mod-hotels (by default they use the wrong residence infotip).",
+    "Russian": "Fixes the 'Visitor Pier Upgrade Button Infotip' for mod-visitor-piers. Fixes the 'Happiness Infotip' for mod-hotels (by default they use the wrong residence infotip).",
+    "Spanish": "Fixes the 'Visitor Pier Upgrade Button Infotip' for mod-visitor-piers. Fixes the 'Happiness Infotip' for mod-hotels (by default they use the wrong residence infotip).",
+    "Taiwanese": "Fixes the 'Visitor Pier Upgrade Button Infotip' for mod-visitor-piers. Fixes the 'Happiness Infotip' for mod-hotels (by default they use the wrong residence infotip)."
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "lion053",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

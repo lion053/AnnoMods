@@ -1,0 +1,61 @@
+<ModOps>
+    <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>2100119700</GUID>
+      			<Text>Bauernhaus</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119701</GUID>
+      			<Text>Arbeiterhaus</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119702</GUID>
+      			<Text>Handwerkerhaus</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119703</GUID>
+      			<Text>Ingenieurshaus</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119704</GUID>
+      			<Text>Investorenhaus</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119705</GUID>
+      			<Text>Gelehrtenhaus</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119706</GUID>
+      			<Text>Obrerohaus</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119707</GUID>
+      			<Text>Jornalerohaus</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119708</GUID>
+      			<Text>Hirtenhaus</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119709</GUID>
+      			<Text>Ältestenhaus</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119712</GUID>
+      			<Text>Platzhalter Trigger</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119710</GUID>
+      			<Text>Ornamentale Wohnhäuser</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119711</GUID>
+      			<Text>Funktionslose Wohngebäude</Text>
+		</Text>	
+		<Text>
+				<GUID>2100119716</GUID>
+				<Text>- Zu Verkaufen - Kontakt: Bader Real Estate, Lexingten Avenue 228, Kap Trewlaney</Text>
+   		</Text>		
+		
+    </ModOp>
+</ModOps>

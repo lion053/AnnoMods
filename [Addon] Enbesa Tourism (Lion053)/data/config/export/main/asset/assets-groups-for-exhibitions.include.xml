@@ -1,0 +1,1308 @@
+
+<!-- # Tourism Authority Event Murmur Texts and Icons -->
+
+<ModOps>
+
+    <!-- # Event Type: Safari Modules -->
+    <ModOp Type="addPrevSibling" GUID='18803' Path="../../GUID['-57049693']">
+      <Group>
+          <GUID>2100118010</GUID>
+          <Assets>
+              <Asset>
+                <Template>Text</Template>
+                <Values>
+                  <Standard>
+                    <GUID>2100118011</GUID>
+                    <Name>Event Murmur 1</Name>
+                  </Standard>
+                  <Text>
+                    <LocaText>
+                      <English>
+                        <Text>Wahenoor, don't tell me you didn't take the bait again that I had specially prepared for today's exploration?</Text>
+                        <Status>Exported</Status>
+                      </English>
+                    </LocaText>
+                    <LineID>25654</LineID>
+                  </Text>
+                </Values>
+                </Asset>
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>2100118012</GUID>
+                      <Name>Event Murmur 2</Name>
+                    </Standard>
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>If we are not careful, we can quickly get lost in the mountainous highlands. Kala recently met a private who never returned from his expedition... wait...</Text>
+                          <Status>Exported</Status>
+                        </English>
+                      </LocaText>
+                      <LineID>25654</LineID>
+                    </Text>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>2100118013</GUID>
+                      <Name>Event Murmur 3</Name>
+                    </Standard>
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>Look, over there behind the baobab tree! Two rare Nyalas! Our tourists have to see them! So quickly mark the area on the map.</Text>
+                          <Status>Exported</Status>
+                        </English>
+                      </LocaText>
+                      <LineID>25654</LineID>
+                    </Text>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>2100118014</GUID>
+                      <Name>Event Murmur 4</Name>
+                    </Standard>
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>Zair, I'll bet you a bowl of spices that this footprint belongs to a rhino. Come on, let's follow the trail!</Text>
+                          <Status>Exported</Status>
+                        </English>
+                      </LocaText>
+                      <LineID>25654</LineID>
+                    </Text>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>2100118015</GUID>
+                      <Name>Event Murmur 5</Name>
+                    </Standard>
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>Hey, don't dawdle, Isaac, we have to be back before sunset. I don't want to encounter a pride of lions in the dark.</Text>
+                          <Status>Exported</Status>
+                        </English>
+                      </LocaText>
+                      <LineID>25654</LineID>
+                    </Text>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>2100118016</GUID>
+                      <Name>Event Murmur 6</Name>
+                    </Standard>
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>The view from up here should be a highlight on our new safari. Don't you think so, Zair? Endless expanses, huge herds of zebras, wildebeests, elephants...</Text>
+                          <Status>Exported</Status>
+                        </English>
+                      </LocaText>
+                      <LineID>25654</LineID>
+                    </Text>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>2100118017</GUID>
+                      <Name>Event Murmur 7</Name>
+                    </Standard>
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>Let's put some meat bait out here. Then we wait and see if any hyenas come running. Their giggle always reminds me of Kyria's...</Text>
+                          <Status>Exported</Status>
+                        </English>
+                      </LocaText>
+                      <LineID>25654</LineID>
+                    </Text>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>2100118018</GUID>
+                      <Name>Event Murmur 8</Name>
+                    </Standard>
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>Tank filled, engine checked, equipment loaded, Wahenoor we can go. Today we explore areas east of here.</Text>
+                          <Status>Exported</Status>
+                        </English>
+                      </LocaText>
+                      <LineID>25654</LineID>
+                    </Text>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>2100118019</GUID>
+                      <Name>Event Murmur 9</Name>
+                    </Standard>
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>Oh my God, it's hot today. Please give me that bottle of goat's milk! What? You've already drunk it?!?</Text>
+                          <Status>Exported</Status>
+                        </English>
+                      </LocaText>
+                      <LineID>25654</LineID>
+                    </Text>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>2100118020</GUID>
+                      <Name>Event Murmur 10</Name>
+                    </Standard>
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>What is still missing for a unique safari through our blessed country? Crocodiles, Mulatu, crocodiles! Let's head west to the Niongo River, where we should come across a few specimens.</Text>
+                          <Status>Exported</Status>
+                        </English>
+                      </LocaText>
+                      <LineID>25654</LineID>
+                    </Text>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>2100118021</GUID>
+                      <Name>Event Murmur 11</Name>
+                    </Standard>
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>Our map is now quite full of suitable places for an interesting safari, don't you think Wahenoor? We have even discovered Geladas!</Text>
+                          <Status>Exported</Status>
+                        </English>
+                      </LocaText>
+                      <LineID>25654</LineID>
+                    </Text>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>2100118022</GUID>
+                      <Name>Event Murmur 12</Name>
+                    </Standard>
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>Don't go too far into the marshy reed landscape, otherwise we'll get stuck with the bus. You can't miss the flamingos and cranes here anyway.</Text>
+                          <Status>Exported</Status>
+                        </English>
+                      </LocaText>
+                      <LineID>25654</LineID>
+                    </Text>
+                  </Values>
+                </Asset>
+          </Assets>
+      </Group>
+    </ModOp>
+
+    <!-- # Event Type: Specialist Items -->
+    <ModOp Type="addPrevSibling" GUID='18803' Path="../../GUID['-57049693']">
+        <Group>
+            <GUID>2100118085</GUID>
+            <Assets>
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>2100118086</GUID>
+                      <Name>Event Murmur 1</Name>
+                    </Standard>
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>Where have I left my glasses again? What did you say? On my head?</Text>
+                          <Status>Exported</Status>
+                        </English>
+                      </LocaText>
+                      <LineID>25654</LineID>
+                    </Text>
+                  </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118087</GUID>
+                        <Name>Event Murmur 2</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>Wahenoor, I don't have time for this now. I have to go to the town hall for an appointment with the head of the district.</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118088</GUID>
+                        <Name>Event Murmur 3</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>Have you heard? Kyria went out for a fancy dinner with Abebe last night! With Abebe! Surely he doesn't even have a single chronicle at home!</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118089</GUID>
+                        <Name>Event Murmur 4</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>If someone like Ironbright came to Enbesa, everything here would be industrialised in no time. Not a nice idea. What do you think, Isaac?</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118090</GUID>
+                        <Name>Event Murmur 5</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>Our new campaign to recruit foreign specialists already seems to be bearing fruit. Even Emperor Ketema is impressed.</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118091</GUID>
+                        <Name>Event Murmur 6</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>I really didn't think that the new typewriters would be so easy to use. They're just a bit noisy.</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118092</GUID>
+                        <Name>Event Murmur 7</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>Zair, is the gift basket for the agricultural experts ready yet? The ship is due to arrive at 3 p.m., so you need to be ready at the pier. Don't tell me you've forgotten?</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118093</GUID>
+                        <Name>Event Murmur 8</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>The mayor wants an overview of all expats living here by tomorrow. Let's do this right away.</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118094</GUID>
+                        <Name>Event Murmur 9</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>Oh, an office job like this is nice. Not in the blazing sun all day, no drudgery in the field...</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118095</GUID>
+                        <Name>Event Murmur 10</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>Next week we will be attending a trade fair in the Old World for the first time. There we will present the full beauty and grandeur of Enbesa. I have already asked Wahenoor to pick out the finest ceramics and the most magnificent chronicles.</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118096</GUID>
+                        <Name>Event Murmur 11</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>Cleaning schedule for ALL offices, calendar week 37:&#xD;&#xA;Monday: Wahenoor&#xD;&#xA;Tuesday: Isaac&#xD;&#xA;Wednesday: Kyria&#xD;&#xA;Thursday: Zair&#xD;&#xA;Friday: Abebe</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118097</GUID>
+                        <Name>Event Murmur 12</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>Whoever invented coffee must have been a genius. Zair, be so good as to bring me another cup.</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+            </Assets>
+        </Group>
+    </ModOp>
+
+    <!-- # Event Type: Lodge Expansion -->
+    <ModOp Type="addPrevSibling" GUID='18803' Path="../../GUID['-57049693']">
+        <Group>
+            <GUID>2100118098</GUID>
+            <Assets>
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>2100118099</GUID>
+                      <Name>Event Murmur 1</Name>
+                    </Standard>
+                    <Text>
+                      <LocaText>
+                        <English>
+                          <Text>The demand for comfortable accommodation is high. But we don't want huge bed castles here. It is important to us to remain true to the local architectural style.</Text>
+                          <Status>Exported</Status>
+                        </English>
+                      </LocaText>
+                      <LineID>25654</LineID>
+                    </Text>
+                  </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118100</GUID>
+                        <Name>Event Murmur 2</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>In the meantime, a hotel on the river was being considered. But the pump operators and farmers opposed this. It would have been too expensive anyway.</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118101</GUID>
+                        <Name>Event Murmur 3</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>We like to decorate some of the room walls with pictures of old Enbesan temple paintings.</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118102</GUID>
+                        <Name>Event Murmur 4</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>What is the most important thing in good accommodations? Fly screens!</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118103</GUID>
+                        <Name>Event Murmur 5</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>Before we turn a new shelter into reality, we first build a small model out of wood and clay to get a better idea of its shape.</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118104</GUID>
+                        <Name>Event Murmur 6</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>Isaac, have you already processed form b2? You know that otherwise we can't continue working with form b3.</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118105</GUID>
+                        <Name>Event Murmur 7</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>Some accommodations even have a small pool to relax in. Apparently this is modern today and standard in the Old World. But I think that's a waste of precious water. What do you think, Wahenoor?</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118106</GUID>
+                        <Name>Event Murmur 8</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>Zair, when you have completed your apprenticeship and are responsible yourself, always remember: crane sites must be compacted.</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118107</GUID>
+                        <Name>Event Murmur 9</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>All lodge modules must not exceed the height of the main building.</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118108</GUID>
+                        <Name>Event Murmur 10</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>Planning for new accommodation will only begin when the management of the lodge registers the need for it and suitable building land has been designated by the town hall.</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118109</GUID>
+                        <Name>Event Murmur 11</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>Whoever invented coffee must have been a genius. Zair, be so good as to bring me another cup.</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>2100118110</GUID>
+                        <Name>Event Murmur 12</Name>
+                      </Standard>
+                      <Text>
+                        <LocaText>
+                          <English>
+                            <Text>Where have I left my glasses again? What did you say? On my head?</Text>
+                            <Status>Exported</Status>
+                          </English>
+                        </LocaText>
+                        <LineID>25654</LineID>
+                      </Text>
+                    </Values>
+                  </Asset>
+            </Assets>
+        </Group>
+    </ModOp>
+
+    <!-- # Icon Group: Safari Items -->
+    <ModOp Type="addPrevSibling" GUID='18803' Path="../../GUID['-57049693']">
+        <Group>
+            <GUID>2100118023</GUID>
+            <Assets>
+                <Asset>
+                    <Template>GuildhouseItem</Template>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118024</GUID>
+                            <Name>Shepherd</Name>
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_enbesan_cook_1.png</IconFilename>               
+                        </Standard>            
+                        <Item>                    
+                            <ItemType>Specialist</ItemType>
+                        </Item>
+                        <FactoryUpgrade />                
+                        <ItemEffect />                
+                        <ItemAction />
+                        <ExpeditionAttribute />               
+                        <CultureUpgrade />
+                        <BuildingUpgrade />
+                        <ModuleOwnerUpgrade />
+                        <IncidentInfluencerUpgrade />
+                        <IncidentInfectableUpgrade />
+                        <ResidenceUpgrade />
+                        <PopulationUpgrade />
+                        <IndustrializableUpgrade />
+                        <Locked />
+                        <Buff />
+                        <CraftableItem />
+                        <HeaterUpgrade />
+                        <PowerplantUpgrade />
+                        <IrrigationUpgrade />
+                        <EcoSystemProviderUpgrade />
+                    </Values>
+                </Asset>                
+                <Asset>
+                    <BaseAssetGUID>2100118024</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118026</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_enbesan_cook_1.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118024</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118027</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_enbesan_cook_2.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118024</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118028</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_enbesan_cook_3a.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118024</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118029</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_enbesan_cook_3b.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118024</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118030</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_ewahedo_faith_1.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118024</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118031</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_ewahedo_faith_2.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118024</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118032</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_herder_1.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118024</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118033</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_herder_2.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118024</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118034</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_herder_3a.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118024</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118035</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_herder_3b.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118024</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118036</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_innkeeper_1a.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118024</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118037</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_innkeeper_1b.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118024</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118038</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_innkeeper_2.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118024</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118039</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_keeper_of_tradition_1.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118024</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118040</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_keeper_of_tradition_2.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118024</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118041</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_keeper_of_tradition_3.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118024</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118042</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_plants_adept_1.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118024</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118043</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_traditional_handcraft_3a.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118024</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118044</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_traditional_handcraft_3b.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+            </Assets>
+        </Group>
+    </ModOp>
+
+    <!-- # Icon Group: Specialist Acquisition -->
+    <ModOp Type="addPrevSibling" GUID='18803' Path="../../GUID['-57049693']">
+        <Group>
+            <GUID>2100118025</GUID>
+            <Assets>
+                <Asset>
+                    <Template>GuildhouseItem</Template>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118045</GUID>
+                            <Name>Elder</Name>
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_amazing_tailor.png</IconFilename>               
+                        </Standard>            
+                        <Item>                    
+                            <ItemType>Specialist</ItemType>
+                        </Item>
+                        <FactoryUpgrade />                
+                        <ItemEffect />                
+                        <ItemAction />
+                        <ExpeditionAttribute />               
+                        <CultureUpgrade />
+                        <BuildingUpgrade />
+                        <ModuleOwnerUpgrade />
+                        <IncidentInfluencerUpgrade />
+                        <IncidentInfectableUpgrade />
+                        <ResidenceUpgrade />
+                        <PopulationUpgrade />
+                        <IndustrializableUpgrade />
+                        <Locked />
+                        <Buff />
+                        <CraftableItem />
+                        <HeaterUpgrade />
+                        <PowerplantUpgrade />
+                        <IrrigationUpgrade />
+                        <EcoSystemProviderUpgrade />
+                    </Values>
+                </Asset>                
+                <Asset>
+                    <BaseAssetGUID>2100118045</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118046</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_amazing_tailor_b.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118045</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118047</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_dean_1.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118045</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118048</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_dean_2.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118045</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118049</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_enbesa_expatriate_1.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118045</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118050</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_enbesa_expatriate_2.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118045</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118051</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_enbesa_expatriate_3.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118045</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118052</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_ewahedo_faith_3.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118045</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118053</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_horticulturist_2.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118045</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118054</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_horticulturist_2a.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>210011845</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118055</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_horticulturist_2b.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118045</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118056</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_innkeeper_3a.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118045</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118057</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_politician.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118045</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118058</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_tailor_3.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118045</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118059</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_telecommunication_expert_2.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118045</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118060</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_telecommunications_expert_3.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>                
+            </Assets>
+        </Group>
+    </ModOp>
+
+    <!-- # Icon Group: Lodge Expansion -->
+    <ModOp Type="addPrevSibling" GUID='18803' Path="../../GUID['-57049693']">
+        <Group>
+            <GUID>2100118061</GUID>
+            <Assets>
+                <Asset>
+                    <Template>GuildhouseItem</Template>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118062</GUID>
+                            <Name>Scholar</Name>
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_dean_2.png</IconFilename>               
+                        </Standard>            
+                        <Item>                    
+                            <ItemType>Specialist</ItemType>
+                        </Item>
+                        <FactoryUpgrade />                
+                        <ItemEffect />                
+                        <ItemAction />
+                        <ExpeditionAttribute />               
+                        <CultureUpgrade />
+                        <BuildingUpgrade />
+                        <ModuleOwnerUpgrade />
+                        <IncidentInfluencerUpgrade />
+                        <IncidentInfectableUpgrade />
+                        <ResidenceUpgrade />
+                        <PopulationUpgrade />
+                        <IndustrializableUpgrade />
+                        <Locked />
+                        <Buff />
+                        <CraftableItem />
+                        <HeaterUpgrade />
+                        <PowerplantUpgrade />
+                        <IrrigationUpgrade />
+                        <EcoSystemProviderUpgrade />
+                    </Values>
+                </Asset>                
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118063</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_enbesa_expatriate_2.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118064</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_enbesa_expatriate_3.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118065</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_enbesan_cook_2.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118066</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_enbesan_cook_3a.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>21001180367</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_ewahedo_faith_1.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118068</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_firebrigade_africa.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118069</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_herder_2.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118070</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_horticulturist_2.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118071</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_horticulturist_2a.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118072</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_horticulturist_2b.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118073</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_innkeeper_1a.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118074</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_innkeeper_1b.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118075</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_innkeeper_3a.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118076</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_plants_adept_2.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118077</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_politician.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118078</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_sea_master_1.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118079</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_sea_master_2.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118080</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_tailor_3.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118081</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_traditional_handcraft_3a.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118082</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_traditional_handcraft_3b.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118083</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_traditional_handicraft_1.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+                <Asset>
+                    <BaseAssetGUID>2100118062</BaseAssetGUID>
+                    <Values>
+                        <Standard>
+                            <GUID>2100118084</GUID>                            
+                            <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_water_use_expert_1.png</IconFilename>               
+                        </Standard>                        
+                    </Values>
+                </Asset>
+            </Assets>
+        </Group>
+    </ModOp>
+    
+</ModOps>

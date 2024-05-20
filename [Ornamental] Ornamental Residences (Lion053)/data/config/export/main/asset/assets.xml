@@ -1,0 +1,1677 @@
+
+<!--Add Residences as Ornaments-->
+
+<!-- GUIDS in this mod: 2100119700 to 2100119716-->
+
+<ModOps>
+
+<!-- # Create Construction Category -->
+  <ModOp Type="addNextSibling" GUID='500946'>
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>2100119710</GUID>
+                    <Name>Residence Placeholders</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_residence_menu_0.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>2100119700</Building>
+                        </Item>
+                        <Item>
+                            <Building>2100119701</Building>
+                        </Item>
+                        <Item>
+                            <Building>2100119702</Building>
+                        </Item>
+                        <Item>
+                            <Building>2100119703</Building>
+                        </Item>
+                        <Item>
+                            <Building>2100119704</Building>
+                        </Item>
+                        <Item>
+                            <Building>2100119705</Building>
+                        </Item>
+                        <Item>
+                            <Building>2100119707</Building>
+                        </Item>
+                        <Item>
+                            <Building>2100119706</Building>
+                        </Item>
+                        <Item>
+                            <Building>2100119713</Building>
+                        </Item>
+                        <Item>
+                            <Building>2100119714</Building>
+                        </Item>
+                        <Item>
+                            <Building>2100119708</Building>
+                        </Item>
+                        <Item>
+                            <Building>2100119709</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>2100119711</CategoryDescription>
+                </ConstructionCategory>
+            </Values>
+        </Asset>
+  </ModOp>
+
+<!-- # Old World: Beautification Menu, Classic Category, after Grand Gallery Menu-->
+  <ModOp Type="addNextSibling" GUID='500069' Path="/Values/ConstructionCategory/BuildingList/Item[Building='4751']">
+        <Item>
+           <Building>2100119710</Building>
+        </Item>
+  </ModOp>
+
+<!-- # Old World: Beautification Menu, City Category, after Miscellaneous Menu-->
+  <ModOp Type="addNextSibling" GUID='500068' Path="/Values/ConstructionCategory/BuildingList/Item[Building='501496']">
+    <Item>
+      <Building>2100119710</Building>
+    </Item>
+  </ModOp>
+
+<!-- # New World: Beautification Menu, Classic Category, after Grand Gallery Menu -->
+  <ModOp Type="addNextSibling" GUID='500079' Path="/Values/ConstructionCategory/BuildingList/Item[Building='4751']">
+    <Item>
+      <Building>2100119710</Building>
+    </Item>
+  </ModOp>
+
+<!-- # New World: Beautification Menu, City Category, after Miscellaneous Menu-->
+  <ModOp Type="addNextSibling" GUID='500055' Path="/Values/ConstructionCategory/BuildingList/Item[Building='8536']">
+    <Item>
+      <Building>2100119710</Building>
+    </Item>
+  </ModOp>
+
+<!-- # Enbesa: Elder tier, right after monastery -->
+  <ModOp Type="addNextSibling" GUID='114554' Path="/Values/ConstructionCategory/BuildingList/Item[Building='114520']">
+    <Item>
+      <Building>2100119710</Building>
+    </Item>
+  </ModOp>
+
+<!-- # Enbesa: Culture type, right after park ornaments menu -->
+  <ModOp Type="addNextSibling" GUID='119015' Path="/Values/ConstructionCategory/BuildingList/Item[Building='130700']">
+    <Item>
+      <Building>2100119710</Building>
+    </Item>
+  </ModOp>
+
+<!-- # Assets configuration -->
+
+  <!-- # Farmer -->
+  <ModOp Type="addNextSibling" GUID='1010364'>
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119700</GUID>
+          <Name>Farmer residence ornament</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_farmer_0.png</IconFilename>
+        </Standard>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>          
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier01_estate01/residence_tier01_estate01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier01_estate02/residence_tier01_estate02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier01_estate03/residence_tier01_estate03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier01_estate04/residence_tier01_estate04.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>1010343</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            <OverrideDefaultIcon>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc06/icon_tier01_default.png</OverrideDefaultIcon>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>694</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>702</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>716</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Constructable />
+        <Mesh>
+          <ForbidCollapseEffect>1</ForbidCollapseEffect>
+        </Mesh>
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <Sound>9818759</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+            </BuildMoveStart>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>9</OrnamentUnit>
+          <OrnamentDescription>2100119716</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+        <Culture />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Worker -->
+  <ModOp Type="addNextSibling" GUID='1010364'>
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119701</GUID>
+          <Name>Worker residence ornament</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_worker_0.png</IconFilename>
+        </Standard>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>          
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier02_estate01/residence_tier02_estate01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier02_estate02/residence_tier02_estate02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier02_estate03/residence_tier02_estate03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier02_estate04/residence_tier02_estate04.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier02_estate05/residence_tier02_estate05.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>1010344</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            <OverrideDefaultIcon>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc06/icon_tier02_default.png</OverrideDefaultIcon>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>698</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>709</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>717</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>5244</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>30488</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Constructable />
+        <Mesh>
+          <ForbidCollapseEffect>1</ForbidCollapseEffect>
+        </Mesh>
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <Sound>9818759</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+            </BuildMoveStart>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>9</OrnamentUnit>
+          <OrnamentDescription>2100119716</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+        <Culture />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Artisan -->
+  <ModOp Type="addNextSibling" GUID='1010364'>
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119702</GUID>
+          <Name>Artisan residence ornament</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_artisan_0.png</IconFilename>
+        </Standard>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>3500</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier03_estate01/residence_tier03_estate01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier03_estate02/residence_tier03_estate02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier03_estate03/residence_tier03_estate03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier03_estate04/residence_tier03_estate04.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>1010345</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            <OverrideDefaultIcon>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc06/icon_tier03_default.png</OverrideDefaultIcon>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>699</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>710</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>718</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>5248</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>30493</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Constructable />
+        <Mesh>
+          <ForbidCollapseEffect>1</ForbidCollapseEffect>
+        </Mesh>
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <Sound>9818759</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+            </BuildMoveStart>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>9</OrnamentUnit>
+          <OrnamentDescription>2100119716</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+        <Culture />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Engineer-->
+  <ModOp Type="addNextSibling" GUID='1010364'>
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119703</GUID>
+          <Name>Engineer residence ornament</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_engineer_0.png</IconFilename>
+        </Standard>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <AllowChangeVariation>1</AllowChangeVariation>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <InfluencedByNeighbors>
+            <Item>
+              <Building>2100119703</Building>
+            </Item>
+            <Item>
+              <Building>2100119704</Building>
+            </Item>
+          </InfluencedByNeighbors>
+          <BuildingBlockPool>
+            <DontCare>
+              <Pool>
+                <Item>
+                  <Variation>4</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>1</DirectionOffet>
+                  <Variation>5</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>2</DirectionOffet>
+                  <Variation>6</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>3</DirectionOffet>
+                  <Variation>7</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>1</DirectionOffet>
+                  <Variation>1</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>2</DirectionOffet>
+                  <Variation>2</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>3</DirectionOffet>
+                  <Variation>3</Variation>
+                </Item>
+              </Pool>
+            </DontCare>
+            <Corner>
+              <Pool>
+                <Item />
+                <Item>
+                  <DirectionOffet>2</DirectionOffet>
+                  <Variation>1</Variation>
+                </Item>
+                <Item>
+                  <Variation>2</Variation>
+                </Item>
+              </Pool>
+            </Corner>
+            <Mid>
+              <Pool>
+                <Item>
+                  <Variation>3</Variation>
+                </Item>
+                <Item>
+                  <Variation>4</Variation>
+                </Item>
+                <Item>
+                  <Variation>5</Variation>
+                </Item>
+                <Item>
+                  <Variation>6</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>2</DirectionOffet>
+                  <Variation>3</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>2</DirectionOffet>
+                  <Variation>4</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>2</DirectionOffet>
+                  <Variation>5</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>2</DirectionOffet>
+                  <Variation>6</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>1</DirectionOffet>
+                  <Variation>7</Variation>
+                </Item>
+              </Pool>
+            </Mid>
+          </BuildingBlockPool>
+          <InfluencedVariationDirection>
+            <Item />
+            <Item>
+              <Direction>1</Direction>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <Type>Corner</Type>
+            </Item>
+            <Item>
+              <Direction>1</Direction>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <Direction>1</Direction>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <Direction>1</Direction>
+              <Type>Corner</Type>
+            </Item>
+            <Item>
+              <Direction>1</Direction>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <Direction>3</Direction>
+              <Type>Corner</Type>
+            </Item>
+            <Item>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <Direction>2</Direction>
+              <Type>Corner</Type>
+            </Item>
+            <Item>
+              <Direction>1</Direction>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <Type>Mid</Type>
+            </Item>
+            <Item />
+          </InfluencedVariationDirection>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>4500</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier04_01/residence_tier04_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier04_02/residence_tier04_02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier04_03/residence_tier04_03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier04_04/residence_tier04_04.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier04_05/residence_tier04_05.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier04_06/residence_tier04_06.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier04_07/residence_tier04_07.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier04_08/residence_tier04_08.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>1010346</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            <OverrideDefaultIcon>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc06/icon_tier04_default.png</OverrideDefaultIcon>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>700</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>722</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>711</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Constructable />
+        <Mesh>
+          <ForbidCollapseEffect>1</ForbidCollapseEffect>
+        </Mesh>
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <Sound>9818759</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+            </BuildMoveStart>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>9</OrnamentUnit>
+          <OrnamentDescription>2100119716</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+        <Culture />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Investor -->
+  <ModOp Type="addNextSibling" GUID='1010364'>
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119704</GUID>
+          <Name>Investor residence ornament</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_investor_0.png</IconFilename>
+        </Standard>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <AllowChangeVariation>1</AllowChangeVariation>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <InfluencedByNeighbors>
+            <Item>
+              <Building>2100119703</Building>
+            </Item>
+            <Item>
+              <Building>2100119704</Building>
+            </Item>
+          </InfluencedByNeighbors>
+          <BuildingBlockPool>
+            <DontCare>
+              <Pool>
+                <Item />
+                <Item>
+                  <DirectionOffet>1</DirectionOffet>
+                  <Variation>1</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>2</DirectionOffet>
+                  <Variation>2</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>1</DirectionOffet>
+                  <Variation>3</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>3</DirectionOffet>
+                  <Variation>4</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>1</DirectionOffet>
+                  <Variation>5</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>3</DirectionOffet>
+                  <Variation>6</Variation>
+                </Item>
+              </Pool>
+            </DontCare>
+            <Corner>
+              <Pool>
+                <Item>
+                  <Variation>1</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>3</DirectionOffet>
+                </Item>
+                <Item>
+                  <DirectionOffet>3</DirectionOffet>
+                  <Variation>2</Variation>
+                </Item>
+              </Pool>
+            </Corner>
+            <Mid>
+              <Pool>
+                <Item>
+                  <Variation>4</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>1</DirectionOffet>
+                  <Variation>3</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>1</DirectionOffet>
+                  <Variation>5</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>3</DirectionOffet>
+                  <Variation>3</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>2</DirectionOffet>
+                  <Variation>4</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>3</DirectionOffet>
+                  <Variation>5</Variation>
+                </Item>
+              </Pool>
+            </Mid>
+          </BuildingBlockPool>
+          <InfluencedVariationDirection>
+            <Item />
+            <Item>
+              <Direction>1</Direction>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <Type>Corner</Type>
+            </Item>
+            <Item>
+              <Direction>1</Direction>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <Direction>1</Direction>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <Direction>1</Direction>
+              <Type>Corner</Type>
+            </Item>
+            <Item>
+              <Direction>1</Direction>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <Direction>3</Direction>
+              <Type>Corner</Type>
+            </Item>
+            <Item>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <Direction>2</Direction>
+              <Type>Corner</Type>
+            </Item>
+            <Item>
+              <Direction>1</Direction>
+              <Type>Mid</Type>
+            </Item>
+            <Item>
+              <Type>Mid</Type>
+            </Item>
+            <Item />
+          </InfluencedVariationDirection>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>5000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier05_01/residence_tier05_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier05_02/residence_tier05_02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier05_03/residence_tier05_03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier05_04/residence_tier05_04.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier05_05/residence_tier05_05.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier05_06/residence_tier05_06.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_tier05_07/residence_tier05_07.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>1010347</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            <OverrideDefaultIcon>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc06/icon_tier05_default.png</OverrideDefaultIcon>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>701</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>723</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>712</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>33022</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Constructable />
+        <Mesh>
+          <ForbidCollapseEffect>1</ForbidCollapseEffect>
+        </Mesh>
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <Sound>9818759</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+            </BuildMoveStart>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>9</OrnamentUnit>
+          <OrnamentDescription>2100119716</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+        <Culture />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Scholar -->
+  <ModOp Type="addNextSibling" GUID='1010364'>
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119705</GUID>
+          <Name>Scholar residence ornament</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_scholars_0.png</IconFilename>
+        </Standard>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>          
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>8000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/residence/residence_tier06_estate01/residence_tier06_estate01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/residence/residence_tier06_estate02/residence_tier06_estate02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/residence/residence_tier06_estate03/residence_tier06_estate03.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh>
+          <ForbidCollapseEffect>1</ForbidCollapseEffect>
+        </Mesh>
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <Sound>9818759</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+            </BuildMoveStart>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>9</OrnamentUnit>
+          <OrnamentDescription>2100119716</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+        <Culture>
+          <Attractiveness>5</Attractiveness>
+        </Culture>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Jornalero -->
+  <ModOp Type="addNextSibling" GUID='1010364'>
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119707</GUID>
+          <Name>Jornalero residence ornament</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_jornalero_0.png</IconFilename>
+        </Standard>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>          
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_colony01_tier01_estate01/residence_colony01_tier01_estate01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_colony01_tier01_estate02/residence_colony01_tier01_estate02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_colony01_tier01_estate03/residence_colony01_tier01_estate03.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh>
+          <ForbidCollapseEffect>1</ForbidCollapseEffect>
+        </Mesh>
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <Sound>9818759</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+            </BuildMoveStart>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>9</OrnamentUnit>
+          <OrnamentDescription>2100119716</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+        <Culture />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Obrero -->
+  <ModOp Type="addNextSibling" GUID='1010364'>
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119706</GUID>
+          <Name>Obrero residence ornament</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_obrera_0.png</IconFilename>
+        </Standard>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>          
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2500</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_colony01_tier02_estate01/residence_colony01_tier02_estate01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_colony01_tier02_estate02/residence_colony01_tier02_estate02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_colony01_tier02_estate03/residence_colony01_tier02_estate03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_colony01_tier02_estate04/residence_colony01_tier02_estate04.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/residence/residence_colony01_tier02_estate05/residence_colony01_tier02_estate05.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh>
+          <ForbidCollapseEffect>1</ForbidCollapseEffect>
+        </Mesh>
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <Sound>9818759</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+            </BuildMoveStart>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>9</OrnamentUnit>
+          <OrnamentDescription>2100119716</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+        <Culture />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Artista -->
+  <ModOp Type="addNextSibling" GUID='1010364'>
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119713</GUID>
+          <Name>Artista residence ornament</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_artista_0.png</IconFilename>
+        </Standard>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>          
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>3500</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc12/graphics/buildings/residence/residence_colony01_tier03_estate01/residence_colony01_tier03_estate01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc12/graphics/buildings/residence/residence_colony01_tier03_estate02/residence_colony01_tier03_estate02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc12/graphics/buildings/residence/residence_colony01_tier03_estate03/residence_colony01_tier03_estate03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc12/graphics/buildings/residence/residence_colony01_tier03_estate04/residence_colony01_tier03_estate04.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh>
+          <ForbidCollapseEffect>1</ForbidCollapseEffect>
+        </Mesh>
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <Sound>9818759</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+            </BuildMoveStart>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>9</OrnamentUnit>
+          <OrnamentDescription>2100119716</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+        <Culture />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Hacienda -->
+  <ModOp Type="addNextSibling" GUID='1010364'>
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119714</GUID>
+          <Name>Hacienda residence ornament</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_hacienda_module_0.png</IconFilename>
+        </Standard>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>          
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>3000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc10/graphics/buildings/special/hacienda/living_space_module/living_space_module_tier01_estate01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc10/graphics/buildings/special/hacienda/living_space_module/living_space_module_tier01_estate02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc10/graphics/buildings/special/hacienda/living_space_module/living_space_module_tier01_estate03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc10/graphics/buildings/special/hacienda/living_space_module/living_space_module_tier02_estate01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc10/graphics/buildings/special/hacienda/living_space_module/living_space_module_tier02_estate02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc10/graphics/buildings/special/hacienda/living_space_module/living_space_module_tier02_estate03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc12/graphics/buildings/special/hacienda/living_space_module/living_space_module_tier03_estate01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc12/graphics/buildings/special/hacienda/living_space_module/living_space_module_tier03_estate02.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh>
+          <ForbidCollapseEffect>1</ForbidCollapseEffect>
+        </Mesh>
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <Sound>9818759</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+            </BuildMoveStart>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>9</OrnamentUnit>
+          <OrnamentDescription>2100119716</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+        <Culture />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Shepherds -->
+  <ModOp Type="addNextSibling" GUID='1010364'>
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119708</GUID>
+          <Name>Shepherds residence ornament</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_shepherd_0.png</IconFilename>
+        </Standard>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>          
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/residence/residence_colony02_tier01_estate01/residence_colony02_tier01_estate01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/residence/residence_colony02_tier01_estate02/residence_colony02_tier01_estate02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/residence/residence_colony02_tier01_estate03/residence_colony02_tier01_estate03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/residence/residence_colony02_tier01_estate04/residence_colony02_tier01_estate04.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh>
+          <ForbidCollapseEffect>1</ForbidCollapseEffect>
+        </Mesh>
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <Sound>9818759</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+            </BuildMoveStart>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>9</OrnamentUnit>
+          <OrnamentDescription>2100119716</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+        <Culture />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Elders -->
+  <ModOp Type="addNextSibling" GUID='1010364'>
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119709</GUID>
+          <Name>Elders residence ornament</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_elder_0.png</IconFilename>
+        </Standard>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>          
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/residence/residence_colony02_tier02_estate01/residence_colony02_tier02_estate01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/residence/residence_colony02_tier02_estate02/residence_colony02_tier02_estate02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/residence/residence_colony02_tier02_estate03/residence_colony02_tier02_estate03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/residence/residence_colony02_tier02_estate04/residence_colony02_tier02_estate04.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh>
+          <ForbidCollapseEffect>1</ForbidCollapseEffect>
+        </Mesh>
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <Sound>9818759</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+            </BuildMoveStart>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>9</OrnamentUnit>
+          <OrnamentDescription>2100119716</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+        <Culture />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Feedback Building Groups -->
+  <ModOp Type="add" GUID="2001013" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100119700</Building>
+    </Item>
+    <Item>
+      <Building>2100119707</Building>
+    </Item>
+    <Item>
+      <Building>2100119708</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="2001089" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100119701</Building>
+    </Item>
+    <Item>
+      <Building>2100119706</Building>
+    </Item>
+    <Item>
+      <Building>2100119709</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="2001090" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100119702</Building>
+    </Item>
+    <Item>
+      <Building>2100119713</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="2001091" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100119703</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="2001092" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100119704</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="142933" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100119705</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="142785" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100119714</Building>
+    </Item>
+  </ModOp>
+
+  <!-- # Unlock -->
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119717</GUID>
+          <Name>Trigger Unlock</Name>
+          <IconFilename/>
+        </Standard>
+        <Trigger>
+ 	       <TriggerCondition>
+            <Template>ConditionAlwaysTrue</Template>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+         </TriggerCondition>
+         <TriggerActions>
+            <Item>
+             <TriggerAction>
+               <Template>ActionUnlockAsset</Template>
+              <Values>
+               <Action/>
+               <ActionUnlockAsset>
+				        <UnlockAssets>
+                 <Item>
+					         <Asset>2100119700</Asset>
+           	     </Item>
+                 <Item>
+					         <Asset>2100119701</Asset>
+           	     </Item>
+				         <Item>
+					         <Asset>2100119702</Asset>
+           	     </Item>
+                 <Item>
+					         <Asset>2100119703</Asset>
+           	     </Item>
+                 <Item>
+					         <Asset>2100119704</Asset>
+           	     </Item>
+                 <Item>
+					         <Asset>2100119705</Asset>
+           	     </Item>
+                 <Item>
+					         <Asset>2100119706</Asset>
+           	     </Item>
+                 <Item>
+					         <Asset>2100119707</Asset>
+           	     </Item>
+                 <Item>
+					         <Asset>2100119708</Asset>
+           	     </Item>
+                 <Item>
+					         <Asset>2100119709</Asset>
+           	     </Item>
+                 <Item>
+                   <Asset>2100119713</Asset>
+                 </Item>
+                 <Item>
+                   <Asset>2100119714</Asset>
+                 </Item>
+                </UnlockAssets>
+               </ActionUnlockAsset>
+              </Values>
+             </TriggerAction>
+            </Item>
+         </TriggerActions>
+        </Trigger>
+        <TriggerSetup/>
+      </Values>
+    </Asset>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,52 @@
+<Info><BoundingBox><Name></>
+<Position><xf>0.115967</>
+<yf>0.183197</>
+<zf>0.059814</>
+</>
+<Rotation><xf>0.000000</>
+<yf>0.000000</>
+<zf>0.000000</>
+<wf>1.000000</>
+</>
+<Direction>0.000000</>
+<Extents><xf>0.974854</>
+<yf>0.276031</>
+<zf>0.912842</>
+</>
+</>
+<MeshBoundingBox><Name></>
+<Position><xf>0.115967</>
+<yf>0.183197</>
+<zf>0.059814</>
+</>
+<Rotation><xf>0.000000</>
+<yf>0.000000</>
+<zf>0.000000</>
+<wf>1.000000</>
+</>
+<Direction>0.000000</>
+<Extents><xf>0.974854</>
+<yf>0.276031</>
+<zf>0.912842</>
+</>
+</>
+<DisableFeedbackArea>0</DisableFeedbackArea>
+<BuildBlocker>
+    <Position>
+      <xf>-0.5</xf>
+      <zf>-0.5</zf>
+    </Position>
+    <Position>
+      <xf>-0.5</xf>
+      <zf>0.5</zf>
+    </Position>
+    <Position>
+      <xf>0.5</xf>
+      <zf>0.5</zf>
+    </Position>
+    <Position>
+      <xf>0.5</xf>
+      <zf>-0.5</zf>
+    </Position>
+</BuildBlocker>
+</>

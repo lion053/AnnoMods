@@ -1,0 +1,1093 @@
+
+<!--Safari to Old Enbesa V2.3-->
+
+<!-- Shipyard and functional ships // GUIDs: 2.100.119.234 - 2.100.119.247 -->
+
+<ModOps>
+
+  <!-- # Enbesa Shipyard-->
+  <ModOp Type="addNextSibling" GUID="114436">
+    <Asset>
+      <Template>Shipyard</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119234</GUID>
+          <Name>Enbesa Shipyard</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_sail_shipyard.png</IconFilename>
+          <InfoDescription>1090</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>11150</BuildingCategoryName>
+          <SnapRadius>10</SnapRadius>
+          <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+          <TerrainType>Coast</TerrainType>
+          <AssociatedRegions>Africa</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+          <HarbourAreaExpand>1</HarbourAreaExpand>
+          <GroundDecalAsset>117730</GroundDecalAsset>
+          <GroundDecalInvisible>117731</GroundDecalInvisible>
+          <GroundDecalAssetExtra>100691</GroundDecalAssetExtra>
+        </Blocking>
+        <Mesh />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\dlc06\graphics\mod_buildings\shipyard\enbesa_shipyard_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>1010520</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+          </Skins>
+        </Object>
+        <AmbientMoodProvider>
+          <Murmur>Harbor</Murmur>
+        </AmbientMoodProvider>
+        <Constructable />
+        <Selection>
+          <ParticipantMessageArcheType>Africa_Resident_tier01</ParticipantMessageArcheType>
+        </Selection>        
+        <Shipyard>
+          <AssemblyOptions>
+            <Item>
+              <Vehicle>2100119334</Vehicle>
+            </Item>
+            <Item>
+              <Vehicle>2100119337</Vehicle>
+            </Item>
+            <Item>
+              <Vehicle>2100119235</Vehicle>
+            </Item>
+            <Item>
+              <Vehicle>2100119237</Vehicle>
+            </Item>
+            <Item>
+              <Vehicle>2100119242</Vehicle>
+            </Item>
+            <Item>
+              <Vehicle>2100119240</Vehicle>
+            </Item>           
+            <Item>
+              <Vehicle>2100119246</Vehicle>
+            </Item>
+            <Item>
+              <Vehicle>2100119244</Vehicle>
+            </Item>
+          </AssemblyOptions>
+        </Shipyard>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>11500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114356</Ingredient>
+              <Amount>35</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114402</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Locked />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>120</Amount>
+              <InactiveAmount>60</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>114340</Product>
+              <Amount>120</Amount>
+            </Item>
+          </Maintenances>
+          <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+        </Maintenance>
+        <Infolayer />
+        <Attackable>
+          <MaximumHitPoints>4000</MaximumHitPoints>
+          <HPBarOffset>4.5</HPBarOffset>
+          <PausedTimeIfAttacked>0</PausedTimeIfAttacked>
+          <SelfHealPerHealTick>5</SelfHealPerHealTick>
+          <DefenseByAIFactor>700</DefenseByAIFactor>
+          <MoralePower>50</MoralePower>
+          <IslandWarFlag>102303</IslandWarFlag>
+          <ExplosionEffects>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>Shipyard</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <ExplosionEffectFilePath>data/graphics/effects/military/explosions/harbor_generic_xpl_02.cfg</ExplosionEffectFilePath>
+            </Item>
+            <Item>
+              <ExplosionEffectFilePath>data/graphics/effects/military/explosions/harbor_generic_xpl_03.cfg</ExplosionEffectFilePath>
+            </Item>
+          </ExplosionEffects>
+          <ExplosionEffectsMin>1</ExplosionEffectsMin>
+          <ExplosionEffectsMax>2</ExplosionEffectsMax>
+        </Attackable>
+        <Pausable />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>200896</Sound>
+            </Item>
+          </ActiveSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRuined>
+            <Item>
+              <Sound>203848</Sound>
+            </Item>
+          </BuildingRuined>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <IncidentInfectable />
+        <FeedbackController />
+        <Industrializable>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization> <!-- hides "improved by electricity" in the infotip UI -->
+        </Industrializable>
+        <UpgradeList />
+        <LogisticNode />
+        <StreetActivation />
+        <QuestObject />
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost> <!-- no productivity boost, no influence on the UI -->
+        </Electrifiable>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Enbesa Motor Fisherboat -->
+  <ModOp Type="addNextSibling" GUID="114436">
+    <Asset>
+      <Template>TradeShip</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119334</GUID>
+          <Name>Enbesa Motor Fisherboat</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_rowing_boat.png</IconFilename>
+          <InfoDescription>2100119245</InfoDescription>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/shipyard/colony_02_worker_feedback_boat_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins />
+        </Object>
+        <Mesh>
+          <MeshPlacement>OnWaterSlope</MeshPlacement>
+        </Mesh>
+        <Selection>
+          <MultiSelectable>1</MultiSelectable>
+        </Selection>
+        <Walking>
+          <ReservationLength>7</ReservationLength>
+          <ReservationWidth>4</ReservationWidth>
+          <PathPlannerLayer>Water</PathPlannerLayer>
+          <ExpensiveDirSmoothing>1</ExpensiveDirSmoothing>
+          <TurnAroundRadius>2</TurnAroundRadius>
+          <Acceleration>3</Acceleration>
+          <Deceleration>4</Deceleration>
+          <TurnRadius>2</TurnRadius>
+          <TurnSpeed>75</TurnSpeed>
+          <TurnDeceleration>0</TurnDeceleration>
+          <TurnMovement>0</TurnMovement>
+          <LeaningMaxAngle>-35</LeaningMaxAngle>
+          <ForwardSpeed>2.5</ForwardSpeed>
+          <WindMinSlowdownFactor>0.5</WindMinSlowdownFactor>
+          <WindSlowdownEffectOnTurningSpeed>0.35</WindSlowdownEffectOnTurningSpeed>
+          <WindMaxSpeedupFactor>1.8</WindMaxSpeedupFactor>
+          <WindSpeedupEffectOnTurningSpeed>0.85</WindSpeedupEffectOnTurningSpeed>
+          <CurveSegmentDensity>High</CurveSegmentDensity>
+        </Walking>        
+        <CommandQueue>
+          <FormationPriority>1</FormationPriority>
+          <TradeShipPoints>1</TradeShipPoints>
+          <PriorityShipList>2</PriorityShipList>
+        </CommandQueue>
+        <Drifting>
+          <OverrideAssetWidthAndLength>0</OverrideAssetWidthAndLength>
+          <Length>2.2</Length>
+        </Drifting>
+        <Collector />
+        <Attackable>
+          <MaximumHitPoints>300</MaximumHitPoints>
+          <HPBarOffset>4.5</HPBarOffset>
+          <AlertRange>150</AlertRange>
+          <SelfHealPerHealTick>0.533</SelfHealPerHealTick>
+          <SelfHealPausedTimeIfAttacked>60000</SelfHealPausedTimeIfAttacked>
+        </Attackable>
+        <MinimapToken>
+          <TokenAsset>2001947</TokenAsset>
+          <StrategicMapAsset>500433</StrategicMapAsset>
+        </MinimapToken>
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>238319</Sound>
+            </Item>
+          </DestroySounds>
+          <VehicleSounds>
+            <MovementStart>
+              <Item>
+                <Sound>236630</Sound>
+              </Item>
+            </MovementStart>
+          </VehicleSounds>
+        </SoundEmitter>
+        <UpgradeList />
+        <QuestObject />
+        <Infolayer />
+        <ItemContainer>
+          <SocketCount>2</SocketCount>
+          <SlotCount>1</SlotCount>
+          <StackLimit>1</StackLimit>
+        </ItemContainer>
+        <FeedbackController />
+        <Draggable />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>114356</Ingredient>
+              <Amount>2</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114391</Ingredient>
+              <Amount>1</Amount>
+            </Item>
+          </Costs>
+          <InfluenceCostType>TradeShip</InfluenceCostType>
+          <InfluenceCostPoints>0</InfluenceCostPoints>
+        </Cost>
+        <Craftable>
+          <CraftingTime>18000</CraftingTime>
+        </Craftable>
+        <TradeRouteVehicle />
+        <Locked />
+        <Nameable />
+        <MetaPersistent />
+        <ExpeditionAttribute>
+          <BaseMorale>10</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Might</Attribute>
+            </Item>
+            <Item>
+              <Attribute>Navigation</Attribute>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkTradeShip</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkSailingShip</Attribute>
+              <Amount>1</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+        <ShipMaintenance>
+          <Maintenance>5</Maintenance>
+        </ShipMaintenance>
+        <Sellable />
+        <Stance />
+        <Rentable />
+        <WorldMapSound />
+        <Pausable />
+        <ShipIncident />
+        <SoundEmitterCommandBarks>
+          <BarkMapping>
+            <Selection>
+              <AudioPool>700090</AudioPool>
+            </Selection>
+            <MoveCommand>
+              <AudioPool>700091</AudioPool>
+            </MoveCommand>
+            <EscortCommand>
+              <AudioPool>700121</AudioPool>
+            </EscortCommand>
+            <PatrolCommand>
+              <AudioPool>700120</AudioPool>
+            </PatrolCommand>
+            <SelectionDamaged>
+              <AudioPool>700119</AudioPool>
+            </SelectionDamaged>
+          </BarkMapping>
+        </SoundEmitterCommandBarks>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Enbesa  Sailing Fisherboat -->
+  <ModOp Type="addNextSibling" GUID="114436">
+    <Asset>
+      <Template>TradeShip</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119337</GUID>
+          <Name>Enbesa Sailing Fisherboat</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_rowing_boat.png</IconFilename>
+          <InfoDescription>2100119245</InfoDescription>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc06/graphics/mod_buildings/shipyard/colony_02_small_feedback_boat_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins />
+        </Object>
+        <Mesh>
+          <MeshPlacement>OnWaterSlope</MeshPlacement>
+        </Mesh>
+        <Selection>
+          <MultiSelectable>1</MultiSelectable>
+        </Selection>
+        <Walking>
+          <ReservationLength>7</ReservationLength>
+          <ReservationWidth>4</ReservationWidth>
+          <PathPlannerLayer>Water</PathPlannerLayer>
+          <ExpensiveDirSmoothing>1</ExpensiveDirSmoothing>
+          <TurnAroundRadius>2</TurnAroundRadius>
+          <Acceleration>2</Acceleration>
+          <Deceleration>3</Deceleration>
+          <TurnRadius>2</TurnRadius>
+          <TurnSpeed>75</TurnSpeed>
+          <TurnDeceleration>0</TurnDeceleration>
+          <TurnMovement>0</TurnMovement>
+          <LeaningMaxAngle>-35</LeaningMaxAngle>
+          <ForwardSpeed>1.5</ForwardSpeed>
+          <WindMinSlowdownFactor>0.5</WindMinSlowdownFactor>
+          <WindSlowdownEffectOnTurningSpeed>0.35</WindSlowdownEffectOnTurningSpeed>
+          <WindMaxSpeedupFactor>1.8</WindMaxSpeedupFactor>
+          <WindSpeedupEffectOnTurningSpeed>0.85</WindSpeedupEffectOnTurningSpeed>
+          <CurveSegmentDensity>High</CurveSegmentDensity>
+        </Walking>        
+        <CommandQueue>
+          <FormationPriority>1</FormationPriority>
+          <TradeShipPoints>1</TradeShipPoints>
+          <PriorityShipList>2</PriorityShipList>
+        </CommandQueue>
+        <Drifting>
+          <OverrideAssetWidthAndLength>0</OverrideAssetWidthAndLength>
+          <Length>2.2</Length>
+        </Drifting>
+        <Collector />
+        <Attackable>
+          <MaximumHitPoints>300</MaximumHitPoints>
+          <HPBarOffset>4.5</HPBarOffset>
+          <AlertRange>150</AlertRange>
+          <SelfHealPerHealTick>0.533</SelfHealPerHealTick>
+          <SelfHealPausedTimeIfAttacked>60000</SelfHealPausedTimeIfAttacked>
+        </Attackable>
+        <MinimapToken>
+          <TokenAsset>2001947</TokenAsset>
+          <StrategicMapAsset>500433</StrategicMapAsset>
+        </MinimapToken>
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>238319</Sound>
+            </Item>
+          </DestroySounds>
+          <VehicleSounds>
+            <MovementStart>
+              <Item>
+                <Sound>236630</Sound>
+              </Item>
+            </MovementStart>
+          </VehicleSounds>
+        </SoundEmitter>
+        <UpgradeList />
+        <QuestObject />
+        <Infolayer />
+        <ItemContainer>
+          <SocketCount>2</SocketCount>
+          <SlotCount>1</SlotCount>
+          <StackLimit>1</StackLimit>
+        </ItemContainer>
+        <FeedbackController />
+        <Draggable />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>114356</Ingredient>
+              <Amount>2</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114391</Ingredient>
+              <Amount>1</Amount>
+            </Item>
+          </Costs>
+          <InfluenceCostType>TradeShip</InfluenceCostType>
+          <InfluenceCostPoints>0</InfluenceCostPoints>
+        </Cost>
+        <Craftable>
+          <CraftingTime>18000</CraftingTime>
+        </Craftable>
+        <TradeRouteVehicle />
+        <Locked />
+        <Nameable />
+        <MetaPersistent />
+        <ExpeditionAttribute>
+          <BaseMorale>10</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Might</Attribute>
+            </Item>
+            <Item>
+              <Attribute>Navigation</Attribute>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkTradeShip</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkSailingShip</Attribute>
+              <Amount>1</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+        <ShipMaintenance>
+          <Maintenance>5</Maintenance>
+        </ShipMaintenance>
+        <Sellable />
+        <Stance />
+        <Rentable />
+        <WorldMapSound />
+        <Pausable />
+        <ShipIncident />
+        <SoundEmitterCommandBarks>
+          <BarkMapping>
+            <Selection>
+              <AudioPool>700090</AudioPool>
+            </Selection>
+            <MoveCommand>
+              <AudioPool>700091</AudioPool>
+            </MoveCommand>
+            <EscortCommand>
+              <AudioPool>700121</AudioPool>
+            </EscortCommand>
+            <PatrolCommand>
+              <AudioPool>700120</AudioPool>
+            </PatrolCommand>
+            <SelectionDamaged>
+              <AudioPool>700119</AudioPool>
+            </SelectionDamaged>
+          </BarkMapping>
+        </SoundEmitterCommandBarks>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Enbesa  Schooner -->
+  <ModOp Type="addNextSibling" GUID="100441">
+    <Asset>
+      <BaseAssetGUID>100438</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100119235</GUID>
+          <Name>Enbesan Schooner (Trade)</Name>
+          <InfoDescription>2100119236</InfoDescription>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\dlc06\graphics\mod_buildings\shipyard\enbesa_schooner_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>100438</DefaultSkinName>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>133393</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Walking>
+          <Acceleration>1.8</Acceleration> <!-- base value 2.0 -->
+          <Deceleration>3.8</Deceleration> <!-- base value 4.0 -->
+          <ForwardSpeed>5.0</ForwardSpeed> <!-- base value 4.4 -->
+        </Walking>
+        <Attackable>
+          <MaximumHitPoints>1500</MaximumHitPoints> <!-- base value 1000 -->
+        </Attackable>
+        <ItemContainer>
+          <SocketCount>1</SocketCount>
+          <SlotCount>2</SlotCount>
+        </ItemContainer>
+        <UpgradeList />
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>114356</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114391</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+          </Costs>
+          <InfluenceCostType>TradeShip</InfluenceCostType>
+          <InfluenceCostPoints>2</InfluenceCostPoints>
+        </Cost>
+        <ShipMaintenance>
+          <Maintenance>40</Maintenance> <!-- base value 15 -->
+        </ShipMaintenance>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Enbesa  Clipper -->
+  <ModOp Type="addNextSibling" GUID="100441">
+    <Asset>
+      <BaseAssetGUID>100441</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100119237</GUID>
+          <Name>Enbesan Clipper (Trade)</Name>          
+          <InfoDescription>2100119238</InfoDescription>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\dlc06\graphics\mod_buildings\shipyard\enbesa_clipper_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>100441</DefaultSkinName>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>133387</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>        
+        <Walking>          
+          <Acceleration>0.85</Acceleration> <!-- base value 1 -->
+          <Deceleration>1.8</Deceleration> <!-- base value 2 -->
+          <ForwardSpeed>6.0</ForwardSpeed> <!-- base value 5.5 -->
+        </Walking>        
+        <Attackable>
+          <MaximumHitPoints>3000</MaximumHitPoints> <!-- base value 2500 -->
+        </Attackable>        
+        <ItemContainer>
+          <SocketCount>2</SocketCount> <!-- base value 1 -->
+          <SlotCount>4</SlotCount>
+        </ItemContainer>    
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>    
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>114356</Ingredient>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114391</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+          </Costs>
+          <InfluenceCostType>TradeShip</InfluenceCostType>
+          <InfluenceCostPoints>4</InfluenceCostPoints>
+        </Cost>        
+        <ShipMaintenance>
+          <Maintenance>220</Maintenance> <!-- base value 1 -->
+        </ShipMaintenance>        
+      </Values>
+    </Asset>    
+  </ModOp>
+
+  <!-- # Enbesa  Merchant Ship -->
+  <ModOp Type="addNextSibling" GUID="100437">
+    <Asset>
+      <BaseAssetGUID>100437</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100119240</GUID>
+          <Name>Enbesan Merchant Ship (Military)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_ship.png</IconFilename>
+          <InfoDescription>2100119241</InfoDescription>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\dlc06\graphics\mod_buildings\shipyard\enbesa_merchant_ship_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>100437</DefaultSkinName>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>133391</SkinAssetGuid>
+              </Item>              
+            </SkinList>
+          </Skins>
+        </Object>
+        <Walking>
+          <ForwardSpeed>8</ForwardSpeed>
+          <Acceleration>2</Acceleration>
+          <Deceleration>4</Deceleration>
+        </Walking>
+        <Attackable>
+          <MaximumHitPoints>2000</MaximumHitPoints>
+          <AlertRange>150</AlertRange>
+          <HPBarOffset>7.5</HPBarOffset>
+          <AccuracyWidth>2</AccuracyWidth>
+          <SelfHealPerHealTick>1.2</SelfHealPerHealTick>
+          <SelfHealPausedTimeIfAttacked>35000</SelfHealPausedTimeIfAttacked>
+        </Attackable>
+        <Attacker>
+          <ShootingTracking>Front</ShootingTracking>
+          <BaseDamage>100</BaseDamage>
+          <ReloadTime>25</ReloadTime>
+          <AttackRange>55</AttackRange>
+          <LineOfSightRange>100</LineOfSightRange>
+          <ProjectileAsset>102277</ProjectileAsset>          
+        </Attacker>
+        <ItemContainer>
+          <SocketCount>2</SocketCount>
+          <SlotCount>2</SlotCount>
+        </ItemContainer>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>114356</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114391</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010221</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+          </Costs>
+          <InfluenceCostType>WarShip</InfluenceCostType>
+          <InfluenceCostPoints>5</InfluenceCostPoints>
+        </Cost>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Might</Attribute>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Attribute>Navigation</Attribute>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkMilitaryShip</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkSailingShip</Attribute>
+              <Amount>1</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+        <ShipMaintenance>
+          <Maintenance>175</Maintenance>
+        </ShipMaintenance>
+        <Sellable>
+          <Baseprice>
+            <Item>
+              <Amount>20500</Amount>
+            </Item>
+          </Baseprice>
+        </Sellable>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Enbesa  Gunboat -->
+  <ModOp Type="addNextSibling" GUID="100437">
+    <Asset>
+      <BaseAssetGUID>100437</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100119242</GUID>
+          <Name>Enbesan Gunboat (Military)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/ships/icon_ship_gunboat.png</IconFilename>
+          <InfoDescription>2100119243</InfoDescription>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/vehicle/gunboat/gunboat.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>100437</DefaultSkinName>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>133391</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>133401</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>        
+        <Walking>          
+          <Acceleration>1.9</Acceleration>
+          <Deceleration>3.9</Deceleration>
+          <ForwardSpeed>10</ForwardSpeed>          
+        </Walking>                
+        <Attackable>
+          <MaximumHitPoints>1250</MaximumHitPoints>          
+        </Attackable>
+        <Attacker>
+          <ShootingTracking>Front</ShootingTracking>
+          <BaseDamage>110</BaseDamage>
+          <ReloadTime>45</ReloadTime>
+          <AttackRange>45</AttackRange>          
+        </Attacker>        
+        <ItemContainer>
+          <SocketCount>2</SocketCount>
+          <SlotCount>1</SlotCount>
+        </ItemContainer>        
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>114356</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114391</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010221</Ingredient>
+              <Amount>7</Amount>
+            </Item>
+          </Costs>
+          <InfluenceCostType>WarShip</InfluenceCostType>
+          <InfluenceCostPoints>4</InfluenceCostPoints>
+        </Cost>        
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>        
+        <ShipMaintenance>
+          <Maintenance>80</Maintenance>
+        </ShipMaintenance>        
+      </Values>
+     </Asset>
+    </ModOp>
+
+  <!-- # Enbesa  Ship of the Line -->
+  <ModOp Type="addNextSibling" GUID="100440"> 
+     <Asset>
+      <BaseAssetGUID>100440</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100119244</GUID>
+          <Name>Enbesan Liner (Military)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/ships/icon_ship_liner.png</IconFilename>
+          <InfoDescription>1086</InfoDescription>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/vehicle/man_of_war/man_of_war.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>100440</DefaultSkinName>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>133392</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>133402</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>643</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>24330</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>25140</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>25701</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>25702</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>4723</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>        
+        <Walking>          
+          <Acceleration>1</Acceleration>
+          <Deceleration>1</Deceleration>          
+          <ForwardSpeed>5.5</ForwardSpeed>
+          <WindMinSlowdownFactor>0.4</WindMinSlowdownFactor>          
+          <WindMaxSpeedupFactor>1.9</WindMaxSpeedupFactor>          
+        </Walking>
+        <Attackable>
+          <MaximumHitPoints>4500</MaximumHitPoints>          
+          <SelfHealPerHealTick>1.9</SelfHealPerHealTick>          
+        </Attackable>
+        <Attacker>
+          <BaseDamage>550</BaseDamage>
+          <ReloadTime>90</ReloadTime>          
+          <AttackRange>68</AttackRange>
+        </Attacker>        
+        <ItemContainer>
+          <SocketCount>3</SocketCount>
+          <SlotCount>3</SlotCount>
+        </ItemContainer>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>114356</Ingredient>
+              <Amount>60</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114391</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010221</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+          </Costs>
+          <InfluenceCostType>WarShip</InfluenceCostType>
+          <InfluenceCostPoints>16</InfluenceCostPoints>
+        </Cost>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>        
+        <ShipMaintenance>
+          <Maintenance>300</Maintenance>
+        </ShipMaintenance>
+      </Values>
+     </Asset>
+  </ModOp>
+
+  <!-- # Enbesa  Frigate -->
+  <ModOp Type="addNextSibling" GUID="100439"> 
+     <Asset>
+      <BaseAssetGUID>100439</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100119246</GUID>
+          <Name>Enbesan Frigate (Military)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/ships/icon_ship_frigatte.png</IconFilename>
+          <InfoDescription>2100119247</InfoDescription>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/vehicle/frigate/frigate.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>100439</DefaultSkinName>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>133390</SkinAssetGuid>
+              </Item>              
+            </SkinList>
+          </Skins>
+        </Object>        
+        <Walking>          
+          <Acceleration>1.4</Acceleration>
+          <Deceleration>1.9</Deceleration>          
+          <ForwardSpeed>6.2</ForwardSpeed>
+          <WindMinSlowdownFactor>0.4</WindMinSlowdownFactor>          
+          <WindMaxSpeedupFactor>1.9</WindMaxSpeedupFactor>          
+        </Walking>        
+        <Attackable>
+          <MaximumHitPoints>3500</MaximumHitPoints>
+          <AlertRange>150</AlertRange>          
+          <SelfHealPerHealTick>1.389</SelfHealPerHealTick>
+          <SelfHealPausedTimeIfAttacked>60000</SelfHealPausedTimeIfAttacked>
+        </Attackable>
+        <Attacker>
+          <BaseDamage>150</BaseDamage>
+          <ReloadTime>45</ReloadTime>          
+          <AttackRange>60</AttackRange>          
+        </Attacker>        
+        <ItemContainer>
+          <SocketCount>2</SocketCount>
+          <SlotCount>3</SlotCount>
+        </ItemContainer>        
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>114356</Ingredient>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114391</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010221</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+          </Costs>
+          <InfluenceCostType>WarShip</InfluenceCostType>
+          <InfluenceCostPoints>8</InfluenceCostPoints>
+        </Cost>        
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>        
+        <ShipMaintenance>
+          <Maintenance>150</Maintenance>
+        </ShipMaintenance>        
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Pools -->
+
+  <ModOp Type="add" GUID="142872" Path="/Values/FeedbackSessionDescription/HarborConfig/SpawnBuildings">
+    <Item>
+      <BuildingAsset>2100119234</BuildingAsset>
+      <WorkerAmount>5</WorkerAmount>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="2001013" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100119234</Building>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="190783,192466" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100119234</GUID>
+    </Item>    
+  </ModOp> 
+
+  <ModOp Type="add" GUID="191454,191455,193982,1398" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100119235</GUID>
+    </Item>
+    <Item>
+      <GUID>2100119237</GUID>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="191454,191455,191458,1398,193986" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100119240</GUID>
+    </Item>
+    <Item>
+      <GUID>2100119242</GUID>
+    </Item>
+    <Item>
+      <GUID>2100119244</GUID>
+    </Item>
+    <Item>
+      <GUID>2100119246</GUID>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="400095" Path="/Values/Trigger/TriggerCondition/Values/ConditionBurningObject/BurningObjects">
+    <Item>
+      <BurningObjectGUID>2100119235</BurningObjectGUID>
+    </Item>
+    <Item>
+      <BurningObjectGUID>2100119237</BurningObjectGUID>
+    </Item>
+    <Item>
+      <BurningObjectGUID>2100119240</BurningObjectGUID>
+    </Item>
+    <Item>
+      <BurningObjectGUID>2100119242</BurningObjectGUID>
+    </Item>
+    <Item>
+      <BurningObjectGUID>2100119244</BurningObjectGUID>
+    </Item>
+    <Item>
+      <BurningObjectGUID>2100119246</BurningObjectGUID>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="700065" Path="/Values/PlayerCounterContextPool/Contexts">
+    <Item>
+      <Asset>2100119235</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119237</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119240</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119242</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119244</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119246</Asset>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="119965" Path="/Values/PlayerCounterContextPool/Contexts">    
+    <Item>
+      <Asset>2100119240</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119242</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119244</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119246</Asset>
+    </Item>
+  </ModOp>  
+
+</ModOps>

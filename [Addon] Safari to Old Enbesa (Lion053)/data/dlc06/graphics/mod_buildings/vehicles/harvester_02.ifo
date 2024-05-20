@@ -1,0 +1,96 @@
+<Info>
+  <BoundingBox>
+    <Name>BoundingBox</Name>
+    <Position>
+      <xf>-1.649244</xf>
+      <yf>1.151436</yf>
+      <zf>-0.05066752</zf>
+    </Position>
+    <Rotation>
+      <xf>0</xf>
+      <yf>0</yf>
+      <zf>0</zf>
+      <wf>1</wf>
+    </Rotation>
+    <Extents>
+      <xf>2.92915</xf>
+      <yf>3.387298</yf>
+      <zf>2.059359</zf>
+    </Extents>
+  </BoundingBox>
+  <MeshBoundingBox>
+    <Name>MeshBoundingBox</Name>
+    <Position>
+      <xf>-0.1107422</xf>
+      <yf>0.8608715</yf>
+      <zf>-0.01200497</zf>
+    </Position>
+    <Rotation>
+      <xf>0</xf>
+      <yf>0</yf>
+      <zf>0</zf>
+      <wf>1</wf>
+    </Rotation>
+    <Extents>
+      <xf>1.136426</xf>
+      <yf>0.8556324</yf>
+      <zf>0.6952148</zf>
+    </Extents>
+  </MeshBoundingBox>
+  <DisableFeedbackArea>0</DisableFeedbackArea>
+<BuildBlocker>
+<Position>
+<xf>-0.5</xf>
+<zf>-0.5</zf>
+</Position>
+<Position>
+<xf>-0.5</xf>
+<zf>0.5</zf>
+</Position>
+<Position>
+<xf>0.5</xf>
+<zf>0.5</zf>
+</Position>
+<Position>
+<xf>0.5</xf>
+<zf>-0.5</zf>
+</Position>
+</BuildBlocker>
+  <Dummy>
+    <Name>first_person_cam</Name>
+    <Position>
+      <xf>-0.1865386</xf>
+      <yf>1.366299</yf>
+      <zf>0.15</zf>
+    </Position>
+    <Rotation>
+      <xf>0</xf>
+      <yf>-0.006449417</yf>
+      <zf>0</zf>
+      <wf>0.9999794</wf>
+    </Rotation>
+    <Extents>
+      <xf>0.1</xf>
+      <yf>0.1</yf>
+      <zf>0.1</zf>
+    </Extents>
+  </Dummy>
+  <Sequence>
+    <Id>1000</Id>
+    <Duration>36360</Duration>
+    <Looped>1</Looped>
+    <Speed>1</Speed>
+  </Sequence>
+  <Sequence>
+    <Id>2000</Id>
+    <Duration>4761</Duration>
+    <Looped>1</Looped>
+    <Speed>0.7</Speed>
+  </Sequence>
+  <Sequence>
+    <Id>4000</Id>
+    <Duration>36360</Duration>
+    <Looped>1</Looped>
+    <Speed>1</Speed>
+  </Sequence>
+</Info>

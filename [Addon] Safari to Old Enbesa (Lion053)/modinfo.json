@@ -1,0 +1,57 @@
+{
+  "Version": "3.0",
+  "ModID": "lion053_Safari_to_Old_Enbesa",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+
+  "Category": {
+    "Chinese": "Addon",
+    "English": "Addon",
+    "French": "Addon",
+    "German": "Addon",
+    "Italian": "Addon",
+    "Japanese": "Addon",
+    "Korean": "Addon",
+    "Polish": "Addon",
+    "Russian": "Addon",
+    "Spanish": "Addon",
+    "Taiwanese": "Addon"
+  },
+  "ModName": {
+    "Chinese": "Safari to Old Enbesa (Lion053)",
+    "English": "Safari to Old Enbesa (Lion053)",
+    "French": "Safari to Old Enbesa (Lion053)",
+    "German": "Safari to Old Enbesa (Lion053)",
+    "Italian": "Safari to Old Enbesa (Lion053)",
+    "Japanese": "Safari to Old Enbesa (Lion053)",
+    "Korean": "Safari to Old Enbesa (Lion053)",
+    "Polish": "Safari to Old Enbesa (Lion053)",
+    "Russian": "Safari to Old Enbesa (Lion053)",
+    "Spanish": "Safari to Old Enbesa (Lion053)",
+    "Taiwanese": "Safari to Old Enbesa (Lion053)"
+  },
+  "Description": {
+    "Chinese": "file::readme.md",
+    "English": "file::readme.md",
+    "French": "file::readme.md",
+    "German": "file::readme_german.md",
+    "Italian": "file::readme.md",
+    "Japanese": "file::readme.md",
+    "Korean": "file::readme.md",
+    "Polish": "file::readme.md",
+    "Russian": "file::readme.md",
+    "Spanish": "file::readme.md",
+    "Taiwanese": "file::readme.md"
+  },
+
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "LandOfLions",
+      "Dependant": "required"
+    }    
+  ],
+  "CreatorName": "lion053",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image" : null
+}

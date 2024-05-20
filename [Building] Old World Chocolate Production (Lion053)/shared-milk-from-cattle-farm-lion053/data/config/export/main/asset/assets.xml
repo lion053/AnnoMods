@@ -1,0 +1,815 @@
+<!-- Milk from Cattle Farm v1.0 -->
+
+<ModOps>
+
+<!-- # Milk from Cattle Farm -->
+<Group>
+  <!-- Implementation of milk production via vanilla cattle farms without being dependent on electricity (and dlc12) -->
+  <!-- When DLC-12 is not active / not owned = Milk from cattle farms in Old World and New World -->
+  <!-- When DLC-12 is active = Milk from cattle farms only in the Old World; New World is untouched then and electricity is needed for milk production -->
+  <!-- AIs use separated farms and pastures with new guids but with basegame properties, hence they are not affected by milk production -->
+  <!-- Compatible with 'Cattle needs to be butchered' and 'Pescetarians', however there are two side-effects on these mods: -->
+  <!-- 'Cattle needs to butchered': AI won't care about that mod anymore, they simply produce beef like in vanilla -->
+  <!-- 'Pescetarians': The 'Dairy Farm' originally produces milk through its main building, with this mod their pastures produce milk as well => replace in cheese chain with cattle farm? -->
+  <!-- Compatible with new and existing saves -->
+
+  <!-- Adjustments for cattle farm and cattle pasture properties -->
+  <ModOp Type="merge" GUID="1010263" Path="/Values/Maintenance/Maintenances/Item[Product='1010052']">
+    <Amount>25</Amount> <!-- vanilla value = 20 -->
+  </ModOp>
+  <ModOp Type="merge" GUID="1010263" Path="/Values/Object/Variations/Item/Filename">
+    <Filename>data\graphics\mod_buildings\lion_053\cattle_farm_ow\cattle_farm_ow.cfg</Filename>
+  </ModOp>
+  <ModOp Type="merge" GUID="1010263,101269" Path="/Values/FactoryBase">
+    <ProductionOutputInfotip>2100118207</ProductionOutputInfotip>
+  </ModOp>
+  <ModOp Type="replace" GUID="1010271" Path="/Template">
+    <Template>lion053_PastureFactoryModule</Template>
+  </ModOp>
+  <ModOp Type="merge" GUID="1010271" Path="/Values">
+    <Standard>
+      <InfoDescription>2100118209</InfoDescription>
+    </Standard>
+    <FactoryBase>
+      <FactoryInputs>
+        <Item>
+          <Product>2100118203</Product> <!-- visible fake input needed for pasture icon instead of cultivation icon -->
+        </Item>
+      </FactoryInputs>
+      <FactoryOutputs>
+        <Item>
+          <Product>5385</Product>
+          <Amount>1</Amount>
+          <StorageAmount>1</StorageAmount>
+        </Item>
+      </FactoryOutputs>
+      <CycleTime>120</CycleTime>
+      <WarehouseTransporterAsset>0</WarehouseTransporterAsset>
+      <ClampedMaxTransporterLogisticCost>0.1</ClampedMaxTransporterLogisticCost>
+    </FactoryBase>
+    <LogisticNode>
+      <TransporterCountMax>0</TransporterCountMax>
+      <NeedsTransporterQueue>0</NeedsTransporterQueue>
+    </LogisticNode>
+    <Factory7>
+      <IsAgriculture>1</IsAgriculture>
+    </Factory7>
+    <BuildingModule>
+      <PlazaSize>20</PlazaSize>
+    </BuildingModule>
+    <AmbientMoodProvider>
+      <AmbientMood>AgricultureBuildingsEurope</AmbientMood>
+    </AmbientMoodProvider>
+    <Attackable>
+      <AttackableType>IslandBuilding</AttackableType>
+    </Attackable>
+    <Pausable>
+      <CanPauseManually>1</CanPauseManually>
+    </Pausable>
+    <Warehouse /> <!-- to avoid missing warehouse icons above the pastures due to fake input -->
+    <Electrifiable>
+      <ElectricityBoost>0</ElectricityBoost>
+      <ElectrifiedEffect>0</ElectrifiedEffect>
+    </Electrifiable>
+    <Industrializable>
+      <MandatoryIndustrialization>0</MandatoryIndustrialization>
+      <BoostedByIndustrialization>0</BoostedByIndustrialization>
+    </Industrializable>
+  </ModOp>
+  <!-- Adjust milk product -->
+  <ModOp Type="add" GUID="5385" Path="/Values/Product/AssociatedRegion" Condition="!/Values/Product[AssociatedRegion='Moderate']">;Moderate</ModOp> <!-- valid argument -->
+  <ModOp Type="add" GUID="5385" Path="/Values/Product/ProductionRegions" Condition="!/Values/Product/ProductionRegions[Item/RegionType='Moderate']">
+    <Item>
+      <RegionType>Moderate</RegionType>
+    </Item>
+  </ModOp>
+  <!-- Pasture Fake Input -->
+  <ModOp Type="addNextSibling" GUID="5385">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118203</GUID>
+          <Name>Cattle Pasture</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_general_module_01.png</IconFilename>
+          <InfoDescription>8005</InfoDescription>
+        </Standard>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Product>
+          <DeltaOnly>1</DeltaOnly>
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Moderate;Colony01</AssociatedRegion>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+  </ModOp>
+</Group>
+
+<!-- # New assets for AI -->
+<Group>
+  <!-- New old cattle farms and cattle pastures for AI (otherwise AI would only build the main building but no modules anymore, because it seems they don´t like modules with FactoryBase) -->
+  <ModOp Type="addNextSibling" GUID="1010263">
+    <Asset>
+      <Template>FarmBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118242</GUID>
+          <Name>Cattle Farm for AI OW</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_meat_raw.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <SecondPartyRelevant>1</SecondPartyRelevant>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>6</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/production/agriculture_02/agriculture_02.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>2100118242</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+          </Skins>
+        </Object>
+        <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Text>
+          <TextOverride>101269</TextOverride>
+        </Text>
+        <Constructable />
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>214800</Sound>
+            </Item>
+            <Item>
+              <Sound>206307</Sound>
+            </Item>
+          </ActiveSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7>
+          <IsAgriculture>0</IsAgriculture>
+        </Factory7>
+        <FactoryBase>
+          <FactoryOutputs>
+            <Item>
+              <Product>1010193</Product>
+              <Amount>1</Amount>
+              <StorageAmount>1</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>110</CycleTime> <!-- default value is 120, therefore AI chooses this factory automatically -->
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode />
+        <ModuleOwner>
+          <ModuleLimits>
+            <Main>
+              <Limit>4</Limit>
+            </Main>
+          </ModuleLimits>
+          <ConstructionOptions>
+            <Item>
+              <ModuleGUID>2100118241</ModuleGUID>
+            </Item>
+          </ConstructionOptions>
+          <AdditionalModule>269957</AdditionalModule>
+          <ModuleBuildRadius>7</ModuleBuildRadius>
+          <FarmType>AnimalFarm</FarmType>
+        </ModuleOwner>
+        <AmbientMoodProvider>
+          <AmbientMood>AgricultureBuildingsEurope</AmbientMood>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>50</Amount>
+              <InactiveAmount>25</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010052</Product>
+              <Amount>20</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>1500</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <IncidentInfectable>
+          <Infectable>
+            <Illness>
+              <Escalated>0</Escalated>
+            </Illness>
+            <Explosion>
+              <Base>0</Base>
+              <Escalated>0</Escalated>
+            </Explosion>
+          </Infectable>
+          <Explosion>
+            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityFactor>0.025</DensityFactor>
+              <DensityDistance>20</DensityDistance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+            <Riot>
+              <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+              <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+              <HappinessThreshold>20</HappinessThreshold>
+            </Riot>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Pausable />
+        <Culture>
+          <CultureType>Military</CultureType>
+        </Culture>
+        <QuestObject />
+        <Industrializable>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+        </Industrializable>
+        <Motorizable>
+          <MotorizableType>Silo</MotorizableType>
+        </Motorizable>
+        <EcoSystemProvider />
+        <MonoCulture />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Farmfield</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118241</GUID>
+          <Name>Cattle Pasture for AI OW</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_general_module_01.png</IconFilename>
+          <InfoDescription>15222</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>11175</BuildingCategoryName>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <SecondPartyRelevant>1</SecondPartyRelevant>
+        </Building>
+        <Blocking>
+          <GroundDecalAsset>101201</GroundDecalAsset>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>50</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/production/agriculture_02/agriculture_02_field_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/production/agriculture_02/agriculture_02_field_02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/production/agriculture_02/agriculture_02_field_03.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>2100118241</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+          </Skins>
+        </Object>
+        <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Text>
+          <TextOverride>1010271</TextOverride>
+        </Text>
+        <Constructable />
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <SoundEmitter />
+        <FeedbackController />
+        <Infolayer />
+        <BuildingModule />
+        <AmbientMoodProvider>
+          <DynamicEnvironmentType>None</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <ModuleIrrigation />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>FarmBuilding_Electrifiable</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118244</GUID>
+          <Name>Cattle Farm for AI NW</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_meat_raw.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Colony01</AssociatedRegions>
+          <SecondPartyRelevant>1</SecondPartyRelevant>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>6</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/production/agriculture_colony01_09/agriculture_colony01_09.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>2100118244</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+          </Skins>
+        </Object>
+        <Mesh />
+        <Selection>
+          <OnSelection>
+            <Values>
+              <ActionList />
+            </Values>
+            <Template>Actions</Template>
+          </OnSelection>
+          <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Text>
+          <TextOverride>101269</TextOverride>
+        </Text>
+        <Constructable />
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>200795</Sound>
+            </Item>
+            <Item>
+              <Sound>200567</Sound>
+            </Item>
+          </ActiveSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7>
+          <IsAgriculture>0</IsAgriculture>
+        </Factory7>
+        <FactoryBase>
+          <FactoryOutputs>
+            <Item>
+              <Product>1010193</Product>
+              <Amount>1</Amount>
+              <StorageAmount>2</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>50</CycleTime>
+        </FactoryBase>
+        <LogisticNode />
+        <ModuleOwner>
+          <ModuleLimits>
+            <Main>
+              <Limit>6</Limit>
+            </Main>
+          </ModuleLimits>
+          <ConstructionOptions>
+            <Item>
+              <ModuleGUID>2100118245</ModuleGUID>
+            </Item>
+          </ConstructionOptions>
+          <AdditionalModule>269958</AdditionalModule>
+          <AddModuleLimit>0</AddModuleLimit>
+          <FarmType>AnimalFarm</FarmType>
+        </ModuleOwner>
+        <AmbientMoodProvider>
+          <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>25</Amount>
+              <InactiveAmount>13</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010366</Product>
+              <Amount>20</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>1500</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <IncidentInfectable>
+          <Infectable>
+            <Illness>
+              <Escalated>0</Escalated>
+            </Illness>
+            <Explosion>
+              <Base>0</Base>
+              <Escalated>0</Escalated>
+            </Explosion>
+          </Infectable>
+          <Explosion>
+            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityFactor>0.025</DensityFactor>
+              <DensityDistance>20</DensityDistance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+            <Riot>
+              <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+              <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+              <HappinessThreshold>20</HappinessThreshold>
+            </Riot>
+          </IncidentInfectionChanceFactors>
+          <PerIncidentProximityEffect>
+            <Fire>
+              <ProximityEffect>
+                <Item>
+                  <Distance>2</Distance>
+                  <InfectionChanceDebuff>2.5</InfectionChanceDebuff>
+                </Item>
+                <Item>
+                  <IntensityThreshold>30</IntensityThreshold>
+                  <Distance>2</Distance>
+                  <InfectionChanceDebuff>5</InfectionChanceDebuff>
+                </Item>
+                <Item>
+                  <IntensityThreshold>60</IntensityThreshold>
+                  <Distance>2</Distance>
+                  <InfectionChanceDebuff>7.5</InfectionChanceDebuff>
+                </Item>
+                <Item>
+                  <IntensityThreshold>90</IntensityThreshold>
+                  <Distance>2</Distance>
+                </Item>
+              </ProximityEffect>
+            </Fire>
+            <Riot>
+              <ProximityEffect>
+                <Item>
+                  <Distance>2</Distance>
+                  <InfectionChanceDebuff>2.5</InfectionChanceDebuff>
+                </Item>
+                <Item>
+                  <IntensityThreshold>30</IntensityThreshold>
+                  <Distance>2</Distance>
+                  <InfectionChanceDebuff>5</InfectionChanceDebuff>
+                </Item>
+                <Item>
+                  <IntensityThreshold>60</IntensityThreshold>
+                  <Distance>2</Distance>
+                  <InfectionChanceDebuff>7.5</InfectionChanceDebuff>
+                </Item>
+                <Item>
+                  <IntensityThreshold>90</IntensityThreshold>
+                  <Distance>2</Distance>
+                </Item>
+              </ProximityEffect>
+            </Riot>
+            <Illness>
+              <ProximityEffect>
+                <Item>
+                  <Distance>2</Distance>
+                  <InfectionChanceDebuff>2.5</InfectionChanceDebuff>
+                </Item>
+                <Item>
+                  <IntensityThreshold>30</IntensityThreshold>
+                  <Distance>2</Distance>
+                  <InfectionChanceDebuff>5</InfectionChanceDebuff>
+                </Item>
+                <Item>
+                  <IntensityThreshold>60</IntensityThreshold>
+                  <Distance>2</Distance>
+                  <InfectionChanceDebuff>7.5</InfectionChanceDebuff>
+                </Item>
+                <Item>
+                  <IntensityThreshold>90</IntensityThreshold>
+                  <Distance>2</Distance>
+                </Item>
+              </ProximityEffect>
+            </Illness>
+          </PerIncidentProximityEffect>
+        </IncidentInfectable>
+        <Pausable />
+        <Culture>
+          <CultureType>Military</CultureType>
+        </Culture>
+        <QuestObject />
+        <Industrializable>
+          <TransporterIndustrializationFactory>1010104</TransporterIndustrializationFactory>
+          <TransporterIndustrializationWarehouse>1010104</TransporterIndustrializationWarehouse>
+        </Industrializable>
+        <Motorizable>
+          <MotorizableType>Silo</MotorizableType>
+        </Motorizable>
+        <EcoSystemProvider />
+        <MonoCulture />
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost>
+          <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+        </Electrifiable>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Farmfield</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118245</GUID>
+          <Name>Cattle Pasture for AI NW</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_general_module_01.png</IconFilename>
+          <InfoDescription>15222</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>11175</BuildingCategoryName>
+          <AssociatedRegions>Colony01</AssociatedRegions>
+          <SecondPartyRelevant>1</SecondPartyRelevant>
+        </Building>
+        <Blocking>
+          <GroundDecalAsset>101201</GroundDecalAsset>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>50</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/production/agriculture_colony01_09_module/agriculture_colony01_09_module_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/production/agriculture_colony01_09_module/agriculture_colony01_09_module_02.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Text>
+          <TextOverride>101281</TextOverride>
+        </Text>
+        <Constructable />
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <SoundEmitter />
+        <FeedbackController />
+        <Infolayer />
+        <BuildingModule />
+        <AmbientMoodProvider>
+          <DynamicEnvironmentType>None</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <ModuleIrrigation />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118243</GUID>
+          <Name>Canned Food Chain AI</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_canned_goulash.png</IconFilename>
+        </Standard>
+        <ProductionChain>
+          <Building>1010295</Building>
+          <Tier1>
+            <Item>
+              <Building>1010305</Building>
+            </Item>
+            <Item>
+              <Building>1010293</Building>
+              <Tier2>
+                <Item>
+                  <Building>2100118242</Building>
+                </Item>
+                <Item>
+                  <Building>100654</Building>
+                </Item>
+              </Tier2>
+            </Item>
+          </Tier1>
+          <InfoTipHeight>550</InfoTipHeight>
+        </ProductionChain>
+        <Locked />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118246</GUID>
+          <Name>Burrito Chain AI</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_burrito.png</IconFilename>
+        </Standard>
+        <ProductionChain>
+          <Building>101271</Building>
+          <Tier1>
+            <Item>
+              <Building>2100118244</Building>
+            </Item>
+            <Item>
+              <Building>101270</Building>
+            </Item>
+          </Tier1>
+        </ProductionChain>
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="add" GUID="25000191,500945" Path="/Values/ConstructionCategory/BuildingList">
+    <Item>
+      <Building>2100118243</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="25000194,500950" Path="/Values/ConstructionCategory/BuildingList">
+    <Item>
+      <Building>2100118246</Building>
+    </Item>
+  </ModOp>
+</Group>
+
+<!-- # Unlock -->
+<Group>
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118218</GUID>
+          <Name>Unlock Pastures Sandbox</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000002</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>5385</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1010271</Asset> <!-- necessary due to template change -->
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118239</GUID>
+          <Name>Unlock Pastures Creative Mode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsCreativeMode</Template>
+            <Values>
+              <Condition />
+              <ConditionIsCreativeMode />
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>5385</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1010271</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+</Group>
+
+</ModOps>

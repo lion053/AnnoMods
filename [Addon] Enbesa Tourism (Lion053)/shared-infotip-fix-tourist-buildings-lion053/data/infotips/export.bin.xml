@@ -1,0 +1,133 @@
+<ModOps>
+
+  <!-- This mod adds support for custom visitor piers and custom hotels to show the correct infotips used in vanilla assets. -->
+
+  <!-- *** 1 *** -->
+  <!-- Visitor Pier support is done by replacing vanilla conditions which use harcoded guids for exceptions, with more general conditions based on properties a certain building has -->
+  <!-- IMPORTANT -->
+  <!-- Conditions which check for properties an asset has... -->
+  <!-- are always TRUE, if the property is present in an asset -->
+  <!-- are always FALSE, if the property is not present in an asset -->
+  <!-- Therefore it is not possible to check if an asset does not have a certain property -->
+  <!-- Example -->
+  <!-- Asset A: has properties 1 2 3 4 -->
+  <!-- Asset B: has properties 2 3 4   -->
+  <!-- Asset C: has properties 2 3 4 5 -->
+  <!-- Now a condition wants to check for : "Asset has not property 5" -->
+  <!-- Intuitive result would be: Asset A = True; Asset B = True; Asset C = False -->
+  <!-- However the actual result due to the logic above is: Asset A = False; Asset B = False; Asset C = True -> this is obvisiously not what we wanted to check, but the opposite -->
+
+  <ModOp Type="replace" Path ="//InfoTipData[Guid='500934']/InfoElement/VisibilityElement/VisibilityElement[Condition='[Selection Object GUID]' and ExpectedValueInt='100429' and CompareOperator/CompareOperator='1']">
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator />
+      <ResultType>
+        <ResultType>0</ResultType>
+      </ResultType>
+      <ExpectedValueBool>True</ExpectedValueBool>
+      <Condition>[Selection Object IsWarehouse]</Condition> <!-- Oil Harbour has IsWarehouse, Visitor Pier doesn´t, therefore this property can be used to distinguish both -->
+    </VisibilityElement>
+  </ModOp>
+  <ModOp Type="replace" Path ="//InfoTipData[Guid='500934']/InfoElement/VisibilityElement/VisibilityElement[Condition='[Selection Object GUID]' and ExpectedValueInt='100429' and CompareOperator[not(CompareOperator)]]" AllowNoMatch="1">
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator />
+      <ResultType>
+        <ResultType>0</ResultType>
+      </ResultType>
+      <ExpectedValueBool>True</ExpectedValueBool>
+      <Condition>[Selection Object VisitorHarbor]</Condition> <!-- Visitor Pier has VisitorPier, Oil Harbour doesn´t, therefore this property can be used to distinguish both -->
+    </VisibilityElement>
+  </ModOp>
+
+  <!-- *** 2 *** -->
+  <!-- Hotel infotips support is done by replacing vanilla conditions which use harcoded guids for exceptions with conditions whether tourists live in the selected asset -->
+<Group>
+  <!-- Remove Pollution from all Tourist Lodging Happiness Infotips -->
+  <ModOp Type ="replace" Path ="//InfoTipData[Guid='501045']/InfoElement[InfoElement/VisibilityElement/VisibilityElement[Condition='[Selection Object AreaManager Happiness PollutionHappiness]'and CompareOperator/CompareOperator='2']]/VisibilityElement/VisibilityElement">
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>601379</ExpectedValueInt>
+      <Condition>[Selection Object Residence PopulationLevel Guid]</Condition>
+    </VisibilityElement>
+  </ModOp>
+  <!-- Remove WorkingConditions from all Tourist Lodging Happiness Infotips -->
+  <ModOp Type ="replace" Path ="//InfoTipData[Guid='501045']/InfoElement[InfoElement/VisibilityElement/VisibilityElement[Condition='[Selection Object Residence HappinessWorkingCondition]'and CompareOperator/CompareOperator='2']]/VisibilityElement/VisibilityElement">
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>601379</ExpectedValueInt>
+      <Condition>[Selection Object Residence PopulationLevel Guid]</Condition>
+    </VisibilityElement>
+  </ModOp>
+  <!-- Add Attractivity for all Tourist Lodging Happiness Infotips -->
+  <ModOp Type ="replace" Path ="//InfoTipData[Guid='501045']/InfoElement[InfoElement/VisibilityElement/VisibilityElement[Condition='[Selection Object Residence HappinessByAttractivity]'and CompareOperator/CompareOperator='2']]/VisibilityElement/VisibilityElement">
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator />
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>601379</ExpectedValueInt>
+      <Condition>[Selection Object Residence PopulationLevel Guid]</Condition>
+    </VisibilityElement>
+  </ModOp>
+  <!-- Add Hotspots for all Tourist Lodging Happiness Infotips -->
+  <ModOp Type ="replace" Path ="//InfoTipData[Guid='501045']/InfoElement[InfoElement/VisibilityElement/VisibilityElement[Condition='[Selection Object Residence HappinessByHotspots]'and CompareOperator/CompareOperator='2']]/VisibilityElement/VisibilityElement">
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator />
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>601379</ExpectedValueInt>
+      <Condition>[Selection Object Residence PopulationLevel Guid]</Condition>
+    </VisibilityElement>
+  </ModOp>
+  <!-- Adjust Luxury Needs Infotip for all Tourist Lodgings -->
+  <ModOp Type ="replace" Path ="//InfoTipData[Guid='501048']/InfoElement[InfoElement/VisibilityElement/VisibilityElement[Condition='[Selection Object Residence HappinessByNeeds]'and CompareOperator/CompareOperator='2']]/VisibilityElement/VisibilityElement/ExpectedValueInt">
+    <ExpectedValueInt>601379</ExpectedValueInt>
+  </ModOp>
+  <ModOp Type ="replace" Path ="//InfoTipData[Guid='501048']/InfoElement[InfoElement/VisibilityElement/VisibilityElement[Condition='[Selection Object Residence HappinessByNeeds]'and CompareOperator/CompareOperator='2']]/VisibilityElement/VisibilityElement/Condition">
+    <Condition>[Selection Object Residence PopulationLevel Guid]</Condition>
+  </ModOp>
+  <!-- Adjust Newspaper Happiness Infotip for all Tourist Lodgings -->
+  <ModOp Type ="replace" Path ="//InfoTipData[Guid='500165']/InfoElement[InfoElement/VisibilityElement/VisibilityElement[Condition='[Selection Object AreaManager Happiness GlobalNewspaperHappiness]'and CompareOperator/CompareOperator='2']]/VisibilityElement/VisibilityElement/ExpectedValueInt">
+    <ExpectedValueInt>601379</ExpectedValueInt>
+  </ModOp>
+  <ModOp Type ="replace" Path ="//InfoTipData[Guid='500165']/InfoElement[InfoElement/VisibilityElement/VisibilityElement[Condition='[Selection Object AreaManager Happiness GlobalNewspaperHappiness]'and CompareOperator/CompareOperator='2']]/VisibilityElement/VisibilityElement/Condition">
+    <Condition>[Selection Object Residence PopulationLevel Guid]</Condition>
+  </ModOp>
+  <!-- Adjust Warfare Happiness Infotip for all Tourist Lodgings -->
+  <ModOp Type ="replace" Path ="//InfoTipData[Guid='501044']/InfoElement[VisibilityElement/VisibilityElement[ExpectedValueInt='601445']]/VisibilityElement/VisibilityElement/Condition">
+    <Condition>[Selection Object Residence PopulationLevel Guid]</Condition>
+  </ModOp>
+  <ModOp Type ="replace" Path ="//InfoTipData[Guid='501044']/InfoElement[VisibilityElement/VisibilityElement[ExpectedValueInt='601445']]/VisibilityElement/VisibilityElement/ExpectedValueInt">
+    <ExpectedValueInt>601379</ExpectedValueInt>
+  </ModOp>
+</Group>
+
+</ModOps>

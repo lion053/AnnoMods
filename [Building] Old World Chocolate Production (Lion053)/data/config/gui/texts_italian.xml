@@ -1,0 +1,171 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>2100118200</GUID>
+			<Text>Chocolate Industrial Production</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118201</GUID>
+			<Text>Trigger_sandbox</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118202</GUID>
+			<Text>Trigger_creative</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118203</GUID>
+			<Text>Pascolo del bestiame</Text>
+		</Text>
+		<Text>
+			<GUID>2100118204</GUID>
+			<Text>Cioccolateria Garibaldi</Text>
+		</Text>
+		<Text>
+			<GUID>2100118205</GUID>
+			<Text>Chocolaterie Garibaldi</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118206</GUID>
+			<Text>Raffineria di zucchero</Text>
+		</Text>
+		<Text>
+			<GUID>2100118207</GUID>
+			<Text>InfoTip Cattle Farm OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118208</GUID>
+			<Text>Pascoli forniscono latte</Text>
+		</Text>
+		<Text>
+			<GUID>2100118209</GUID>
+			<Text>Fornisce un'area in cui il bestiame può pascolare. Inoltre ogni pascolo produce 1 tonnellata di latte per ogni ciclo. Clicca su un pascolo per vedere la sua produttivita attuale.</Text>
+		</Text>
+		<Text>
+			<!-- FOR TRANSLATION: Search for the Guid 8143 in your language text file; from the result copy only the translated term for 'secondary goods' -->
+			<GUID>2100118210</GUID>
+			<Text>Beni secondari:</Text>
+		</Text>
+		<Text>
+			<GUID>2100118211</GUID>
+			<Text>Produzione del pascolo</Text>
+		</Text>
+		<Text>
+			<GUID>2100118212</GUID>
+			<Text>Chewing gum chain OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118213</GUID>
+			<Text>Trigger_chewing_gum_unhide</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118214</GUID>
+			<Text>Trigger_chewing_gum_unlock</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118215</GUID>
+			<Text>1t/pascolo/ciclo</Text>
+		</Text>
+		<Text>
+			<GUID>2100118216</GUID>
+			<Text>Da Garibaldi i migliori cioccolatieri del paese creano le tentazioni più delicate da quando il cioccolato è stato inventato... nemmeno il più impegnato dei giocolieri finanziari può resistere.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118217</GUID>
+			<Text>Trigger_chewing_gum_creative</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118218</GUID>
+			<Text>Trigger_pasture_artisans</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118219</GUID>
+			<Text>Fattoria di Barbabietola</Text>
+		</Text>
+		<Text>
+			<GUID>2100118220</GUID>
+			<Text>Campo di Barbabietole</Text>
+		</Text>
+		<Text>
+			<GUID>2100118221</GUID>
+			<Text>Fertilità delle Barbabietole</Text>
+		</Text>
+		<Text>
+			<GUID>2100118222</GUID>
+			<Text>Barbabietole da Zucchero</Text>
+		</Text>
+		<Text>
+			<GUID>2100118223</GUID>
+			<Text>Semi di Barbabietola</Text>
+		</Text>
+		<Text>
+			<GUID>2100118224</GUID>
+			<Text>&lt;b&gt;Beta vulgaris&lt;/b&gt; Questi semi ti aiuteranno a coltivare molti campi di Barbabietole in un terreno non adatto.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118225</GUID>
+			<Text>Semi di Barbabietola ibrida</Text>
+		</Text>
+		<Text>
+			<GUID>2100118226</GUID>
+			<Text>Hieronymus Hess, Pioniere della Distillazione della Barbabietola</Text>
+		</Text>
+		<Text>
+			<GUID>2100118227</GUID>
+			<Text>Mentre il blocco continentale di Napoleone all'inizio del secolo causò una carenza di beni coloniali e portò alla coltivazione di barbabietole da zucchero autoctone, Hess si fece presto un nome con il loro utilizzo nella produzione di rum. Dopo la fine del blocco, nessuno volle più saperne del rum ricavato dalle barbabietole da zucchero e così Hess finì nel Nuovo Mondo, dove da allora distilla barbabietole da zucchero al posto della canna da zucchero, senza essere notato.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118228</GUID>
+			<Text>Frid Jacobson, Fermentatore Professionista</Text>
+		</Text>
+		<Text>
+			<GUID>2100118229</GUID>
+			<Text>Talento poliedrico e luminare nel campo della chimica organica. Oltre a ricoprire posizioni ben retribuite in aziende industriali, sa come presentare con successo il suo lavoro non solo a un piccolo pubblico di specialisti, ma anche al grande pubblico. La sua serie di libri sul tema "Fermentazione per uso domestico" è da tempo molto apprezzata.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118230</GUID>
+			<Text>Willy Wonka, Magico Fabbricante di Cioccolato</Text>
+		</Text>
+		<Text>
+			<GUID>2100118231</GUID>
+			<Text>"Nessun'altra fabbrica al mondo mescola il cioccolato a cascata. Ma è l'unico modo se lo vuoi proprio giusto."</Text>
+		</Text>
+		<Text>
+			<GUID>2100118232</GUID>
+			<Text>GG_item</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118233</GUID>
+			<Text>GG_package</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118234</GUID>
+			<Text>Longbottom's Pressa Variabile per Zucchero</Text>
+		</Text>
+		<Text>
+			<GUID>2100118235</GUID>
+			<Text>Uno strumento che può essere installato e rimosso rapidamente e facilmente per ottimizzare la frantumazione e la pressatura della canna da zucchero.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118236</GUID>
+			<Text>Colpisce gli edifici nel raggio.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118237</GUID>
+			<Text>&lt;b&gt;Beta vulgaris&lt;/b&gt; Questi semi si adattano a un numero molto elevato di terreni; inoltre, la resa di Barbabietole è maggiore!</Text>
+		</Text>
+		<Text>
+			<GUID>2100118238</GUID>
+			<Text>InfoTip Cattle Farm OW (construction menu)</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118239</GUID>
+			<Text>Unlock Pastures Creative Mode</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118240</GUID>
+			<Text>Land Reform Act Buff</Text> <!-- no translation needed -->
+		</Text>
+  </ModOp>
+
+</ModOps>

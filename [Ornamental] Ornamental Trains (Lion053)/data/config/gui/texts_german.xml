@@ -1,0 +1,137 @@
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<GUID>2100115500</GUID>
+			<Text>Ornamentale Züge</Text>
+		</Text>
+		<Text>
+			<GUID>2100115501</GUID>
+			<Text>Güterzug: Lok</Text>
+		</Text>	
+		<Text>
+			<GUID>2100115502</GUID>
+			<Text>U-Bahn: Triebwagen</Text>
+		</Text>
+		<Text>
+			<GUID>2100115503</GUID>
+			<Text>Dekorieren Sie Ihre Industriebezirke</Text>
+		</Text>
+		<Text>
+			<GUID>2100115504</GUID>
+			<Text>Erhöht die Lagerkapazität nahegelegener Lagerhäuser</Text>
+		</Text>
+		<Text>
+			<GUID>2100115505</GUID>
+			<Text>Güterzug Buff</Text>
+		</Text>
+		<Text>
+			<GUID>2100115506</GUID>
+			<Text>Ornamentale Passagierzüge</Text>
+		</Text>
+		<Text>
+			<GUID>2100115507</GUID>
+			<Text>Die Lösung gegen verstopfte Straßen? Ihre Ingenieure sind sich sicher, dass ...</Text>
+		</Text>
+		<Text>
+			<GUID>2100115508</GUID>
+			<Text>Güterzug: Gas</Text>
+		</Text>
+		<Text>
+			<GUID>2100115509</GUID>
+			<Text>Güterzug: Kisten</Text>
+		</Text>
+		<Text>
+			<GUID>2100115510</GUID>
+			<Text>Güterzug: Baumaterial</Text>
+		</Text>
+		<Text>
+			<GUID>2100115511</GUID>
+			<Text>Güterzug: Dampfwagen</Text>
+		</Text>
+		<Text>
+			<GUID>2100115512</GUID>
+			<Text>Güterzug: Kohle</Text>
+		</Text>
+		<Text>
+			<GUID>2100115513</GUID>
+			<Text>Güterzug: Öl</Text>
+		</Text>
+		<Text>
+			<GUID>2100115514</GUID>
+			<Text>Güterzug: Holzstämme</Text>
+		</Text>
+		<Text>
+			<GUID>2100115515</GUID>
+			<Text>U-Bahn: Waggon</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115516</GUID>
+			<Text>Unlock</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115517</GUID>
+			<Text>Steampunk Skin</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115518</GUID>
+			<Text>Steampunk Skin</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115519</GUID>
+			<Text>Steampunk Skin</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115520</GUID>
+			<Text>Steampunk Skin</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115521</GUID>
+			<Text>Steampunk Skin</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115522</GUID>
+			<Text>Steampunk Skin</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115523</GUID>
+			<Text>Steampunk Skin</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115524</GUID>
+			<Text>Steampunk Skin</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115525</GUID>
+			<Text>Steampunk Skin</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115526</GUID>
+			<Text>Steampunk Skin</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100115527</GUID>
+			<Text /> <!-- no translation needed -->
+		</Text>
+		<Text>  <!-- TODO translation -->  <!-- no translation needed -->
+			<GUID>2100115528</GUID>
+			<Text>&lt;font size="32"&gt;&lt;b &gt;Ornamental Trains (Lion053)&lt;/b &gt;&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;&lt;b &gt;Changelog v1.4&lt;/b &gt; &lt;br/&gt;&lt;br/&gt;- Add a steampunk skin for all trains. Use the skin painter tool from your tool bar or select any ornamental train and choose the skin in the UI.&lt;br/&gt;&lt;br/&gt;- Reduced vertex count of barely visible mesh parts&lt;br/&gt;&lt;br/&gt;- Add Chinese translation, thanks to hanthe2th!</Text>
+		</Text>
+
+  </ModOp>
+
+</ModOps>

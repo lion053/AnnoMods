@@ -1,0 +1,210 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118200</GUID>
+			<Text>Chocolate Industrial Production</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118201</GUID>
+			<Text>Trigger_sandbox</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118202</GUID>
+			<Text>Trigger_creative</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118203</GUID>
+			<Text>Pâturage</Text>
+		</Text>
+		<Text>
+			<GUID>2100118204</GUID>
+			<Text>Chocolaterie Garibaldi</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118205</GUID>
+			<Text>Chocolaterie Garibaldi</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118206</GUID>
+			<Text>Raffinerie de sucre</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118207</GUID>
+			<Text>InfoTip Cattle Farm OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118208</GUID>
+			<Text>Les pâturages produisent du lait</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118209</GUID>
+			<Text>Fournit une zone de pâturage pour le bétail. En outre, chaque pâturage produit 1 tonne de lait par cycle. Cliquez sur un pâturage pour connaître sa productivité actuelle.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<!-- FOR TRANSLATION: Search for the Guid 8143 in your language text file; from the result copy only the translated term for 'secondary goods' -->
+			<GUID>2100118210</GUID>
+			<Text>Biens secondaires :</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118211</GUID>
+			<Text>Sortie de pâturage</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118212</GUID>
+			<Text>Chewing gum chain OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118213</GUID>
+			<Text>Trigger_chewing_gum_unhide</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118214</GUID>
+			<Text>Trigger_chewing_gum_unlock</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118215</GUID>
+			<Text>1t/pâturage/cycle</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118216</GUID>
+			<Text>Chez Garibaldi, les meilleurs chocolatiers du pays créent les tentations les plus délicates depuis que le chocolat a été inventé... même le jongleur financier le plus occupé ne peut y résister.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118217</GUID>
+			<Text>Trigger_chewing_gum_creative</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118218</GUID>
+			<Text>Trigger_pasture_artisans</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118219</GUID>
+			<Text>Exploitation de betteraves sucrières</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118220</GUID>
+			<Text>Champ de betteraves sucrières</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118221</GUID>
+			<Text>Fertilité de betteraves sucrières</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118222</GUID>
+			<Text>Betteraves sucrières</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118223</GUID>
+			<Text>Graines de betteraves sucrières</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118224</GUID>
+			<Text>&lt;b&gt;Beta vulgaris&lt;/b&gt; Ces semences peuvent vous aider à cultiver d'abondants champs de betteraves sucrières dans un sol étranger.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118225</GUID>
+			<Text>Graines de betteraves sucrières hybrides</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118226</GUID>
+			<Text>Hieronymus Hess, Pionnier de la distillation de betteraves</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118227</GUID>
+			<Text>Alors que le blocus continental imposé par Napoléon au début du siècle a provoqué une pénurie de produits coloniaux et entraîné la culture de betteraves sucrières indigènes, Hess s'est rapidement fait un nom grâce à leur utilisation dans la production de rhum. Après la fin du blocus, personne ne voulait savoir ce qu'était le rhum fabriqué à partir de betteraves sucrières et il s'est donc retrouvé dans le Nouveau Monde, où il distille depuis lors, sans se faire remarquer, des betteraves sucrières au lieu de cannes à sucre.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118228</GUID>
+			<Text>Frid Jacobson, Fermenteur professionnel</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118229</GUID>
+			<Text>Un talent multiple et une sommité dans le domaine de la chimie organique. Outre les postes bien rémunérés qu'il occupe dans des entreprises industrielles, il sait comment présenter avec succès son travail non seulement à un petit public de spécialistes, mais aussi au grand public. Sa série de livres sur le thème de la "Fermentation à usage domestique" est depuis longtemps très appréciée.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118230</GUID>
+			<Text>Willy Wonka, Fabricant de chocolat magique</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118231</GUID>
+			<Text>“Aucune autre usine au monde ne mélange son chocolat en cascade... Mais c'est la seule façon d'obtenir un chocolat parfait.”</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118232</GUID>
+			<Text>GG_item</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118233</GUID>
+			<Text>GG_package</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118234</GUID>
+			<Text>Presse à sucre variable Longbottom</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118235</GUID>
+			<Text>Un outil qui peut être installé et retiré rapidement et facilement pour optimiser le broyage et le pressage de la canne à sucre.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118236</GUID>
+			<Text>Affecte les bâtiments dans le rayon.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118237</GUID>
+			<Text>&lt;b&gt;Beta vulgaris&lt;/b&gt; Ces semences ont été adaptées pour pousser dans une très large gamme de sols, et avec un rendement accru de la betterave sucrière !</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118238</GUID>
+			<Text>InfoTip Cattle Farm OW (construction menu)</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118239</GUID>
+			<Text>Unlock Pastures Creative Mode</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118240</GUID>
+			<Text>Land Reform Act Buff</Text> <!-- no translation needed -->
+		</Text>
+  </ModOp>
+
+</ModOps>

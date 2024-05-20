@@ -1,0 +1,38 @@
+<ModOps>
+    <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>2100119500</GUID>
+      			<Text>Ornamentale Kulturmodule</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119501</GUID>
+      			<Text>Botanik: Wassermodule</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119502</GUID>
+      			<Text>Botanik: Baummodule</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119503</GUID>
+      			<Text>Museum: Tempelmodule</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119504</GUID>
+      			<Text>Museum: Mosaikmodule</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119505</GUID>
+      			<Text>Museum: Sonstiges</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119507</GUID>
+      			<Text>Kulturmodule steigern die Attraktivität Ihrer Stadt</Text>
+		</Text>
+		<Text>
+     			<GUID>2100119513</GUID>
+      			<Text>Culture Ornaments Trigger</Text>
+		</Text>
+		
+		
+    </ModOp>
+</ModOps>

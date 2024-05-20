@@ -1,0 +1,489 @@
+
+<!-- Subway Network 2.0 -->
+
+<ModOps>
+
+<!-- ******************************************************************************** -->
+<!-- Subway Depot -->
+<!-- ________________________________________________________________________________ -->
+
+  <!-- # Subway Depot -->
+  <ModOp Type="addNextSibling" GUID="1010301">
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115912</GUID>
+          <Name>Subway Depot</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_depot_01.png</IconFilename>
+          <InfoDescription>2100115920</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>11151</BuildingCategoryName>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <!-- forbid rotation once built because railroad-blockers do not rotate with building; issue if they're off-center -->
+          <AllowCodeToControlRotation>0</AllowCodeToControlRotation>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles> <!-- to remove railtracks after building was destroyed / has been moved -->
+        </Blocking>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>120000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>75</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>70</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>115</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\subway_depot\subway_depot_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>101250</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+          </Skins>
+        </Object>
+        <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <Constructable>
+          <DestructionCategory>Production</DestructionCategory>
+        </Constructable>
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>239444</Sound>
+            </Item>
+            <Item>
+              <Sound>239348</Sound>
+            </Item>
+          </ActiveSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <SelectionSounds>
+            <Item>
+              <Sound>207551</Sound>
+            </Item>
+          </SelectionSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer>
+          <!-- This is displayed when hovering over the built building via mouse if no other infolayer which has a higher priority is active (see priority list) -->
+          <DefaultInfoLayer>2100115917</DefaultInfoLayer>
+        </Infolayer>
+        <UpgradeList>
+          <DefaultBuff>2100115913</DefaultBuff>
+        </UpgradeList>
+        <Factory7 />
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1500010153</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>180</CycleTime>
+          <FactoryOutputs>
+            <Item>
+              <Product>2100115909</Product>
+              <Amount>0</Amount>
+              <StorageAmount>1</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <ProductionOutputInfotip>2100115908</ProductionOutputInfotip>
+        </FactoryBase>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>2100115911</ProductivityBuff>
+              <ProductivityThresholdUp>0.01</ProductivityThresholdUp>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Area</ProductionBuffScope> <!-- valid type -->
+        </BuffFactory>
+        <LogisticNode />       
+        <AmbientMoodProvider>
+          <Murmur>Factory</Murmur>
+          <DynamicEnvironmentType>None</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1000</Amount>
+              <InactiveAmount>5500</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>250</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>6750</MaximumHitPoints>
+          <SelfHealPerHealTick>6</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable />
+        <IncidentInfectable>
+          <Infectable>
+            <Explosion>
+              <Base>0</Base>
+              <Escalated>0</Escalated>
+            </Explosion>
+          </Infectable>
+          <Explosion>
+            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityDistance>20</DensityDistance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+            <Riot>
+              <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+              <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+              <HappinessThreshold>20</HappinessThreshold>
+            </Riot>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Industrializable>
+          <MandatoryIndustrialization>1</MandatoryIndustrialization>
+        </Industrializable>
+        <Culture>
+          <CultureType>Culture</CultureType>
+          <HasPollution>1</HasPollution>
+          <Attractiveness>-3</Attractiveness>
+        </Culture>
+        <Electrifiable />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="add" GUID='100451' Path="/Values">
+    <ModuleOwner>
+      <ModuleLimits>
+        <Main>
+          <Limit>0</Limit>
+        </Main>
+      </ModuleLimits>
+      <ConstructionOptions>
+        <Item>
+          <ModuleGUID>0</ModuleGUID>
+        </Item>
+      </ConstructionOptions>
+      <FertilizerModuleData>
+        <Module>2100115912</Module>
+      </FertilizerModuleData>
+      <AdditionalModule>0</AdditionalModule>
+      <ModuleBuildRadius>0</ModuleBuildRadius>
+      <FarmType>NoFarm</FarmType>
+    </ModuleOwner>
+    <Motorizable>
+      <MotorizableType>None</MotorizableType>
+    </Motorizable>
+    <Electrifiable>
+      <ShowPowerInObjectMenu>1</ShowPowerInObjectMenu>
+    </Electrifiable>
+  </ModOp>
+
+  <!-- # Input / Ouput Products -->
+  <ModOp Type="addNextSibling" GUID="1010242">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115909</GUID>
+          <Name>Subway Depot (Fake Output)</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_maintained_subway_01.png</IconFilename>
+          <InfoDescription>11776</InfoDescription>
+        </Standard>
+        <Text>
+          <TextOverride>2100115912</TextOverride>
+        </Text>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Product>
+          <ProductCategory>11703</ProductCategory>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <IsAbstract>1</IsAbstract>
+          <DeltaOnly>1</DeltaOnly>
+          <HideInUI>1</HideInUI>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115924</GUID>
+          <Name>Defect Subways (Fake Input)</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_defect_subway_01.png</IconFilename>
+          <InfoDescription>11776</InfoDescription>
+        </Standard>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Product>
+          <ProductCategory>11703</ProductCategory>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <IsAbstract>1</IsAbstract>
+          <DeltaOnly>1</DeltaOnly>
+          <HideInUI>0</HideInUI>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="120055" Path="/Values/ProductStorageList/ProductList">
+    <Item>
+        <Product>2100115909</Product>
+    </Item>
+  </ModOp>
+
+  <!-- # Infolayer -->
+  <ModOp Type="addNextSibling" GUID="114291">
+    <Asset>
+      <Template>InfoLayerIcon</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115917</GUID>
+          <Name>Subway Depot Infolayer</Name>
+        </Standard>
+        <InfoLayerIcon>
+          <Config>data\graphics\mod_buildings\lion053\effects\subway_depot_effect.cfg</Config>
+          <PopupDelay>0</PopupDelay>
+        </InfoLayerIcon>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Provides sidings and maintains your subways</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>27154</LineID>
+        </Text>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115923</GUID>
+          <Name>Defect Subways InfoLayer</Name>
+          <IconFilename>data/ui/2kimages/main/icons/icon_warning_outlined.png</IconFilename>
+        </Standard>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="add" GUID="140695" Path="/Values/InfolayerConfig/InfoLayerPriority">
+    <Item>
+      <Icon>2100115917</Icon>
+    </Item>
+  </ModOp>
+
+  <!-- # Buff Mechanic for Subway Depot -->
+  
+  <ModOp Type="addNextSibling" GUID="124206">
+    <!-- This buff is linked in infotips and displayed in the Subway Depot UI as DefaultBuff: Changes its values dynamically depending on the number of subway stations on an island -->
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+          <Standard>
+            <!-- Guid used in infotips.xml -->
+            <GUID>2100115913</GUID>
+            <Name>Subway Depot Dynamic Fake Buff</Name>
+            <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_need_01.png</IconFilename>
+          </Standard>
+          <ItemEffect />
+          <FactoryUpgrade />
+          <BuildingUpgrade />
+          <Buff />
+          <CultureUpgrade>
+            <HideBuff>0</HideBuff>
+          </CultureUpgrade>
+          <ModuleOwnerUpgrade />
+          <IncidentInfectableUpgrade />
+          <PowerplantUpgrade />
+          <IndustrializableUpgrade />
+          <ItemContainerUpgrade />
+          <IncidentInfluencerUpgrade />
+          <IrrigationUpgrade />
+          <EcoSystemProviderUpgrade />
+          <ResourceUpgrade />
+      </Values>
+    </Asset>
+    <!-- This buff is attached via ForwardBuff to each Subway Station as DefaultBuff to increase the workload (== productivity) of the Subway Depot -->
+    <!-- Via infotips.xml the sum of currently active buffs is displayed as 'productivity increase' in buff 2100115913, which is visible in the Subway Depot UI -->
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+          <Standard>
+              <GUID>2100115915</GUID>
+              <Name>Subway Station Workload Buff</Name>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_need_01.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+              <EffectTargets>
+                  <Item>
+                      <GUID>2100115912</GUID>
+                  </Item>
+              </EffectTargets>
+          </ItemEffect>
+          <FactoryUpgrade>
+            <ProductivityUpgrade>
+              <Value>10</Value>
+              <Percental>1</Percental>
+            </ProductivityUpgrade>
+          </FactoryUpgrade>
+          <BuildingUpgrade />
+          <Buff/>
+          <CultureUpgrade>
+            <HideBuff>1</HideBuff>
+          </CultureUpgrade>
+          <ModuleOwnerUpgrade />
+          <IncidentInfectableUpgrade />
+          <PowerplantUpgrade />
+          <IndustrializableUpgrade />
+          <ItemContainerUpgrade />
+          <IncidentInfluencerUpgrade />
+          <IrrigationUpgrade />
+          <EcoSystemProviderUpgrade />
+          <ResourceUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115916</GUID>
+          <Name>Subway Station Productivity ForwardBuff</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_need_01.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect />
+        <EffectForward>
+          <ForwardEffect>2100115915</ForwardEffect>
+          <ForwardEffectScope>Area</ForwardEffectScope> <!-- valid type -->
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+    <!-- This helper-buff is only used to display the buff-target in the Subway Depot / MTD buff-output infotip -->
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+          <Standard>
+            <!-- Guid used in infotips.xml -->
+            <GUID>2100115919</GUID>
+            <Name>Subway Depot Static Fake Buff</Name>
+            <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_need_01.png</IconFilename>
+          </Standard>
+          <ItemEffect>
+            <EffectTargets>
+              <Item>
+                <GUID>2100115287</GUID>
+              </Item>
+            </EffectTargets>
+          </ItemEffect>
+          <FactoryUpgrade />
+          <BuildingUpgrade />
+          <Buff />
+          <CultureUpgrade>
+            <HideBuff>0</HideBuff>
+          </CultureUpgrade>
+          <ModuleOwnerUpgrade />
+          <IncidentInfectableUpgrade />
+          <PowerplantUpgrade />
+          <IndustrializableUpgrade />
+          <ItemContainerUpgrade />
+          <IncidentInfluencerUpgrade />
+          <IrrigationUpgrade />
+          <EcoSystemProviderUpgrade />
+          <ResourceUpgrade />
+      </Values>
+    </Asset>
+    <!-- As soon as the Subway Depot is working, it changes the input of all Subway Stations to the regular 'Subways' product via Buff, so that they can provide their services -->
+    <Asset>
+      <Template>TownhallBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115911</GUID>
+          <Name>Depot Replace Input Buff</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_depot_01.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2100115287</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <BuildingUpgrade />
+        <Buff />
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <InfluenceSourceUpgrade />
+        <WarehouseUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+        <FactoryUpgrade>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>2100115924</OldInput>
+              <NewInput>2100115241</NewInput>
+            </Item>
+          </ReplaceInputs>
+        </FactoryUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,54 @@
+{
+  "Version": "1.0",
+  "ModID": "shared-small-elevator-factory-lion053",
+  "IncompatibleIds": [],
+  "ModDependencies": "shared-ground-textures-industry-jakob",
+  "LoadAfterIds": null,
+
+  "Category": {
+    "Chinese": "Shared",
+    "English": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+
+  "ModName": {
+    "Chinese": "Small Elevator Factory (Lion053)",
+    "English": "Small Elevator Factory (Lion053)",
+    "French": "Small Elevator Factory (Lion053)",
+    "German": "Small Elevator Factory (Lion053)",
+    "Italian": "Small Elevator Factory (Lion053)",
+    "Japanese": "Small Elevator Factory (Lion053)",
+    "Korean": "Small Elevator Factory (Lion053)",
+    "Polish": "Small Elevator Factory (Lion053)",
+    "Russian": "Small Elevator Factory (Lion053)",
+    "Spanish": "Small Elevator Factory (Lion053)",
+    "Taiwanese": "Small Elevator Factory (Lion053)"
+  },
+
+  "Description": {
+    "Chinese": "Adds a small elevator factory which unlocks if DLC-09 is not owned / active at 5.000 investors; or, if DLC-09 is active, after 134622 is built. Allows to include elevators as construction material to modded buildings.",
+    "English": "Adds a small elevator factory which unlocks if DLC-09 is not owned / active at 5.000 investors; or, if DLC-09 is active, after 134622 is built. Allows to include elevators as construction material to modded buildings.",
+    "French": "Adds a small elevator factory which unlocks if DLC-09 is not owned / active at 5.000 investors; or, if DLC-09 is active, after 134622 is built. Allows to include elevators as construction material to modded buildings.",
+    "German": "Adds a small elevator factory which unlocks if DLC-09 is not owned / active at 5.000 investors; or, if DLC-09 is active, after 134622 is built. Allows to include elevators as construction material to modded buildings.",
+    "Italian": "Adds a small elevator factory which unlocks if DLC-09 is not owned / active at 5.000 investors; or, if DLC-09 is active, after 134622 is built. Allows to include elevators as construction material to modded buildings.",
+    "Japanese": "Adds a small elevator factory which unlocks if DLC-09 is not owned / active at 5.000 investors; or, if DLC-09 is active, after 134622 is built. Allows to include elevators as construction material to modded buildings.",
+    "Korean": "Adds a small elevator factory which unlocks if DLC-09 is not owned / active at 5.000 investors; or, if DLC-09 is active, after 134622 is built. Allows to include elevators as construction material to modded buildings.",
+    "Polish": "Adds a small elevator factory which unlocks if DLC-09 is not owned / active at 5.000 investors; or, if DLC-09 is active, after 134622 is built. Allows to include elevators as construction material to modded buildings.",
+    "Russian": "Adds a small elevator factory which unlocks if DLC-09 is not owned / active at 5.000 investors; or, if DLC-09 is active, after 134622 is built. Allows to include elevators as construction material to modded buildings.",
+    "Spanish": "Adds a small elevator factory which unlocks if DLC-09 is not owned / active at 5.000 investors; or, if DLC-09 is active, after 134622 is built. Allows to include elevators as construction material to modded buildings.",
+    "Taiwanese": "Adds a small elevator factory which unlocks if DLC-09 is not owned / active at 5.000 investors; or, if DLC-09 is active, after 134622 is built. Allows to include elevators as construction material to modded buildings."
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Lion053",
+  "CreatorContact": "https://discord.gg/ycmFNKaG",
+  "Image": null
+}

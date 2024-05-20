@@ -1,0 +1,54 @@
+{
+  "Version": "1.1",
+  "ModID": "shared-milk-from-cattle-farm-lion053",
+  "IncompatibleIds": [],
+  "ModDependencies": null,
+  "LoadAfterIds": null,
+
+  "Category": {
+    "Chinese": "Shared",
+    "English": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+
+  "ModName": {
+    "Chinese": "Milk from Cattle Farm (Lion053)",
+    "English": "Milk from Cattle Farm (Lion053)",
+    "French": "Milk from Cattle Farm (Lion053)",
+    "German": "Milk from Cattle Farm (Lion053)",
+    "Italian": "Milk from Cattle Farm (Lion053)",
+    "Japanese": "Milk from Cattle Farm (Lion053)",
+    "Korean": "Milk from Cattle Farm (Lion053)",
+    "Polish": "Milk from Cattle Farm (Lion053)",
+    "Russian": "Milk from Cattle Farm (Lion053)",
+    "Spanish": "Milk from Cattle Farm (Lion053)",
+    "Taiwanese": "Milk from Cattle Farm (Lion053)"
+  },
+
+  "Description": {
+    "Chinese": "Each cattle farm pasture produces 1t of milk per cycle in the Old and New World. Dlc-12 is not required, but when active this mod only affects the Old World. See assets.xml for further comments.",
+    "English": "Each cattle farm pasture produces 1t of milk per cycle in the Old and New World. Dlc-12 is not required, but when active this mod only affects the Old World. See assets.xml for further comments.",
+    "French": "Each cattle farm pasture produces 1t of milk per cycle in the Old and New World. Dlc-12 is not required, but when active this mod only affects the Old World. See assets.xml for further comments.",
+    "German": "Each cattle farm pasture produces 1t of milk per cycle in the Old and New World. Dlc-12 is not required, but when active this mod only affects the Old World. See assets.xml for further comments.",
+    "Italian": "Each cattle farm pasture produces 1t of milk per cycle in the Old and New World. Dlc-12 is not required, but when active this mod only affects the Old World. See assets.xml for further comments.",
+    "Japanese": "Each cattle farm pasture produces 1t of milk per cycle in the Old and New World. Dlc-12 is not required, but when active this mod only affects the Old World. See assets.xml for further comments.",
+    "Korean": "Each cattle farm pasture produces 1t of milk per cycle in the Old and New World. Dlc-12 is not required, but when active this mod only affects the Old World. See assets.xml for further comments.",
+    "Polish": "Each cattle farm pasture produces 1t of milk per cycle in the Old and New World. Dlc-12 is not required, but when active this mod only affects the Old World. See assets.xml for further comments.",
+    "Russian": "Each cattle farm pasture produces 1t of milk per cycle in the Old and New World. Dlc-12 is not required, but when active this mod only affects the Old World. See assets.xml for further comments.",
+    "Spanish": "Each cattle farm pasture produces 1t of milk per cycle in the Old and New World. Dlc-12 is not required, but when active this mod only affects the Old World. See assets.xml for further comments.",
+    "Taiwanese": "Each cattle farm pasture produces 1t of milk per cycle in the Old and New World. Dlc-12 is not required, but when active this mod only affects the Old World. See assets.xml for further comments."
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Lion053",
+  "CreatorContact": "https://discord.gg/ycmFNKaG",
+  "Image": null
+}

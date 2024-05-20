@@ -1,0 +1,54 @@
+{
+  "Version": "1.2",
+  "ModID": "lion053_ow_chapels",
+  "IncompatibleIds": [],
+  "ModDependencies": null,
+
+  "Category": {
+    "Chinese": "Building",
+    "English": "Building",
+    "French": "Building",
+    "German": "Building",
+    "Italian": "Building",
+    "Japanese": "Building",
+    "Korean": "Building",
+    "Polish": "Building",
+    "Russian": "Building",
+    "Spanish": "Building",
+    "Taiwanese": "Building"
+  },
+
+  "ModName": {
+    "Chinese": "Old World Chapels (Lion053)",
+    "English": "Old World Chapels (Lion053)",
+    "French": "Old World Chapels (Lion053)",
+    "German": "Old World Chapels (Lion053)",
+    "Italian": "Old World Chapels (Lion053)",
+    "Japanese": "Old World Chapels (Lion053)",
+    "Korean": "Old World Chapels (Lion053)",
+    "Polish": "Old World Chapels (Lion053)",
+    "Russian": "Old World Chapels (Lion053)",
+    "Spanish": "Old World Chapels (Lion053)",
+    "Taiwanese": "Old World Chapels (Lion053)"
+  },
+
+  "Description": {
+    "Chinese": "file::readme.md",
+    "English": "file::readme.md",
+    "French": "file::readme.md",
+    "German": "file::readme.md",
+    "Italian": "file::readme.md",
+    "Japanese": "file::readme.md",
+    "Korean": "file::readme.md",
+    "Polish": "file::readme.md",
+    "Russian": "file::readme.md",
+    "Spanish": "file::readme.md",
+    "Taiwanese": "file::readme.md"
+  },
+  
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Lion053",
+  "CreatorContact": "https://discord.gg/ycmFNKaG",
+  "Image": null
+}

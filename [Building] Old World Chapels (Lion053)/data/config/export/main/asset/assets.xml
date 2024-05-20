@@ -1,0 +1,428 @@
+<ModOps>
+  <!-- Old World Chapel -->
+  <!--# Add Building to OW Farmers and City Menu -->
+  <ModOp Type="addNextSibling" GUID="25000189,500094" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010358']">
+    <Item>
+      <Building>2100115156</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="501484">
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115156</GUID>
+          <Name>Old World Chapels Menu</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\icon_ow_chapel.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList>
+            <Item>
+              <Building>2100115121</Building>
+            </Item>
+            <Item>
+              <Building>2100115127</Building>
+            </Item>
+          </BuildingList>
+        </ConstructionCategory>
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!--# Add Building to Pools -->
+  <ModOp Type="add" GUID="2001013" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100115121</Building>
+    </Item>
+    <Item>
+      <Building>2100115127</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="190136,191501,190784,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100115121</GUID>
+    </Item>
+    <Item>
+      <GUID>2100115127</GUID>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="269456,191705,191706,191707,191741,191742,191743" Path="/Values/ItemEffect/EffectTargets">
+    <Item>
+      <GUID>2100115121</GUID>
+    </Item>
+    <Item>
+      <GUID>2100115127</GUID>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="111261" Path="/Values/PlayerCounterContextPool/Contexts">
+    <Item>
+      <Asset>2100115121</Asset>
+    </Item>
+    <Item>
+      <Asset>2100115127</Asset>
+    </Item>
+  </ModOp>
+  <!--# Add Building -->
+  <ModOp Type="addNextSibling" GUID="1010359">
+    <Asset>
+      <BaseAssetGUID>1010359</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100115121</GUID>
+          <Name>Old World Chapel</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\icon_ow_chapel.png</IconFilename>
+          <InfoDescription>2100115125</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\lion053\mod_buildings\ow_chapel\ow_chapel_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>2100115121</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\icon_ow_chapel_default_skin.png</OverrideDefaultIcon>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100115122</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Mesh />
+        <Selection />
+        <Constructable />
+        <Locked />
+        <SoundEmitter />
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <LogisticNode />
+        <PublicService>
+          <FullSatisfactionDistance>25</FullSatisfactionDistance>
+          <NoSatisfactionDistance>35</NoSatisfactionDistance>
+          <PublicServiceOutputs>
+            <Item>
+              <Product>1010350</Product>
+            </Item>
+          </PublicServiceOutputs>
+        </PublicService>
+        <AmbientMoodProvider />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>20</Amount>
+              <InactiveAmount>5</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>2750</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable />
+        <IncidentInfectable />
+        <Culture />
+        <MusicInfluencer>
+          <RelevantSkinGUIDs>
+            <Item>
+            </Item>
+          </RelevantSkinGUIDs>
+        </MusicInfluencer>
+      </Values>
+    </Asset>
+    <Asset>
+      <BaseAssetGUID>1010359</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100115127</GUID>
+          <Name>1404 Chapel</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\icon_ow_chapel_1404.png</IconFilename>
+          <InfoDescription>2100115125</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\lion053\mod_buildings\1404_chapel\1404_chapel.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>2100115121</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+          </Skins>
+        </Object>
+        <Mesh />
+        <Selection />
+        <Constructable />
+        <Locked />
+        <SoundEmitter />
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <LogisticNode />
+        <PublicService>
+          <FullSatisfactionDistance>25</FullSatisfactionDistance>
+          <NoSatisfactionDistance>35</NoSatisfactionDistance>
+          <PublicServiceOutputs>
+            <Item>
+              <Product>1010350</Product>
+            </Item>
+          </PublicServiceOutputs>
+        </PublicService>
+        <AmbientMoodProvider />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>20</Amount>
+              <InactiveAmount>5</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>2750</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable />
+        <IncidentInfectable />
+        <Culture />
+        <MusicInfluencer>
+          <RelevantSkinGUIDs>
+            <Item>
+            </Item>
+          </RelevantSkinGUIDs>
+        </MusicInfluencer>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="694">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115122</GUID>
+          <Name>Small Chapel Colorful</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\icon_ow_chapel_skin03.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100115122</SkinName>
+          <SkinDescription>731</SkinDescription>
+          <SkinCategoryDescription>5757</SkinCategoryDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\lion053\mod_buildings\ow_chapel\ow_chapel_skin03_01.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!--# Add Church Luxury Need to Farmers -->
+  <ModOp Type="add" GUID="15000000" Path="/Values/PopulationLevel7/PopulationInputs">
+    <Item>
+      <Product>1010350</Product>
+      <HappinessValue>6</HappinessValue>
+      <MoneyValue>12</MoneyValue>
+      <FullWeightPopulationCount>200</FullWeightPopulationCount>
+      <NoWeightPopulationCount>199</NoWeightPopulationCount>
+      <IsConsideredByAI>0</IsConsideredByAI>
+    </Item>
+  </ModOp>
+  <!--# Unhide and Unlock -->
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115128</GUID>
+          <Name>Unlock</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\icon_ow_chapel.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000000</Context>
+                <CounterAmount>100</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2100115121</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115127</Asset>
+                      </Item>
+                    </UnhideAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115129</GUID>
+          <Name>Unlock</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\icon_ow_chapel.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000000</Context>
+                <CounterAmount>200</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100115121</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115122</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115127</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115155</GUID>
+          <Name>Unlock Creative Mode</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\icon_ow_chapel.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Values>
+              <ConditionPropsNegatable />
+              <Condition />
+              <ConditionIsCreativeMode />
+            </Values>
+            <Template>ConditionIsCreativeMode</Template>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100115121</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115122</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115127</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!--# Imya Tweak -->
+  <ModOp Type="replace" GUID="2100115121,2100115127" Path="/Values/PublicService/FullSatisfactionDistance" ModOpID="FullSatisfaction" Skip="1">
+    <FullSatisfactionDistance>25</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100115121,2100115127" Path="/Values/PublicService/NoSatisfactionDistance" ModOpID="NoSatisfaction" Skip="1">
+    <NoSatisfactionDistance>35</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaTweaks Title="Custom Settings" />
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="FullSatisfaction" ExposeID="Full Satisfaction Range" Description="The range within the public service of a chapel is provided by 100 %&#xD;&#xA;Default value is 25." Kind="Slider">
+    <SliderDefinition Min="10" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="NoSatisfaction" ExposeID="No Satisfaction Range" Description="The Delta defined by Full and No Satisfaction Range describes the street range within the public service of a chapel is provided by less than 100 %. Therefore this value must be at least as high as the Full Satisfaction Distance.&#xD;&#xA;Default value is 35." Kind="Slider">
+    <SliderDefinition Min="10" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./assets.imyatweak.include.xml" />
+</ModOps>

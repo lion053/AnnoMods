@@ -1,0 +1,762 @@
+<!-- Old World Paper Mill (Lion053) -->
+<!-- Loading order: Mods which add to this recipe list have to be loaded AFTER this mod, otherwise recipe(s) won´t show up ingame. -->
+
+<ModOps>
+
+  <!-- # Production Chain -->
+  <ModOp Type="addNextSibling" GUID="117702">
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115095</GUID>
+          <Name>Paper Chain OW</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\goods_africa\icon_paper.png</IconFilename>
+          <InfoDescription>2100115096</InfoDescription>
+        </Standard>
+        <ProductionChain>
+          <Building>2100115080</Building>
+          <Tier1>
+            <Item>
+              <Building>2100115087</Building>
+              <Tier2>
+                <Item>
+                  <Building>1010315</Building>
+                  <Tier3>
+                    <Item>
+                      <Building>1010267</Building>
+                    </Item>
+                  </Tier3>
+                </Item>
+              </Tier2>
+            </Item>
+            <Item>
+              <Building>2100115081</Building>
+              <Tier2>
+                <Item>
+                  <Building>1010266</Building>
+                </Item>
+                <Item>
+                  <Building>2100115090</Building>
+                  <Tier3>
+                    <Item>
+                      <Building>1010304</Building>
+                    </Item>
+                  </Tier3>
+                </Item>
+                <Item>
+                  <Building>1010309</Building>
+                </Item>
+              </Tier2>
+            </Item>
+          </Tier1>
+        </ProductionChain>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Construction Menu -->
+  <ModOp Type="addNextSibling" GUID="25000190" Path="Values/ConstructionCategory/BuildingList/Item[Building='1010360']" Condition="!/Values[Standard/GUID='25000190']/ConstructionCategory/BuildingList/Item[Building='2100115095']">
+    <Item>
+      <Building>2100115095</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="500945" Path="Values/ConstructionCategory/BuildingList/Item[Building='500006']" Condition="!/Values[Standard/GUID='500945']/ConstructionCategory/BuildingList/Item[Building='2100115095']">
+    <Item>
+      <Building>2100115095</Building>
+    </Item>
+  </ModOp>
+
+  <!-- # Adapt Product Paper -->
+  <ModOp Type="add" GUID="117702" Path="/Values/Product/ProductionRegions">
+    <Item>
+      <RegionType>Moderate</RegionType>
+    </Item>
+  </ModOp>
+
+  <!-- # Recipe List -->
+  <ModOp Type="addNextSibling" GUID="132743">
+    <Asset>
+      <Template>RecipeList</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115082</GUID>
+          <Name>RecipeList Paper Mill</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_paper.png</IconFilename>
+        </Standard>
+        <RecipeList>
+          <Recipes>
+            <Item>
+              <Recipe>2100115086</Recipe>
+            </Item>
+            <Item>
+              <Recipe>2100115084</Recipe>
+            </Item>
+          </Recipes>
+          <RecipeListType>Factory</RecipeListType>
+          <RecipeListMoodImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_chemical.png</RecipeListMoodImage>
+          <RecipeListDescription>2100115083</RecipeListDescription>
+        </RecipeList>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Blank Paper Mill Building -->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115080</GUID>
+          <Name>Paper Mill Old World - Recipe: Blank</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\goods_africa\icon_paper.png</IconFilename>
+          <InfoDescription>2100115724</InfoDescription>
+        </Standard>
+        <Building>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <BuildingCategoryName>132773</BuildingCategoryName>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>4500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\paper_mill_ow\paper_mill_ow_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>216871</Sound>
+              <!-- saw mill -->
+            </Item>
+            <Item>
+              <Sound>202354</Sound>
+              <!-- saw mill -->
+            </Item>
+            <Item>
+              <Sound>200802</Sound>
+              <!-- multifactory -->
+            </Item>
+            <Item>
+              <Sound>201637</Sound>
+              <!-- multifactory -->
+            </Item>
+          </ActiveSounds>
+        </SoundEmitter>
+        <FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
+        <FactoryBase>
+          <IsMainFactory>0</IsMainFactory>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+        </FactoryBase>
+        <LogisticNode />
+        <AmbientMoodProvider />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>250</Amount>
+              <InactiveAmount>175</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>175</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable />
+        <Pausable />
+        <IncidentInfectable />
+        <Industrializable />
+        <Electrifiable />
+        <Culture>
+          <HasPollution>0</HasPollution>
+        </Culture>
+        <RecipeBuilding>
+          <RecipeList>2100115082</RecipeList>
+          <RecipeBuildingType>Multifactory</RecipeBuildingType>
+          <IsBlank>1</IsBlank>
+        </RecipeBuilding>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Woolen Rags Recipe -->
+  <ModOp Type="addNextSibling" GUID="133374">
+    <Asset>
+      <Template>Recipe</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115086</GUID>
+          <Name>Recipe_Paper_Woolen_Rags</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\paper_mill_ow\icon_paper_recipe_1.png</IconFilename>
+        </Standard>
+        <Recipe>
+          <RecipeBuilding>2100115087</RecipeBuilding>
+          <RecipeDescriptionText>2100115088</RecipeDescriptionText>
+          <RecipeImage>data\ui\2kimages\main\assets\recipebook\paper_mill_ow\icon_paper_mood_0.png</RecipeImage>
+          <RecipeIngredientUIData>
+            <Item>
+              <PosX>5</PosX>
+              <PosY>15</PosY>
+              <UICirclePointer>SouthEast</UICirclePointer>
+            </Item>
+          </RecipeIngredientUIData>
+        </Recipe>
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- # Woolen Rags Paper Mill Building -->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115087</GUID>
+          <Name>Paper Mill Old World - Recipe: Woolen Rags</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\paper_mill_ow\icon_paper_recipe_1.png</IconFilename>
+          <InfoDescription>2100115725</InfoDescription>
+        </Standard>
+        <Building>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <BuildingCategoryName>132773</BuildingCategoryName>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>4500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\paper_mill_ow\paper_mill_ow_02.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>216871</Sound>
+            </Item>
+            <Item>
+              <Sound>202354</Sound>
+            </Item>
+            <Item>
+              <Sound>200802</Sound>
+            </Item>
+            <Item>
+              <Sound>201637</Sound>
+            </Item>
+          </ActiveSounds>
+        </SoundEmitter>
+        <FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010237</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>117702</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>90</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+        </FactoryBase>
+        <LogisticNode />
+        <AmbientMoodProvider />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>200</Amount>
+              <InactiveAmount>125</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>85</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable />
+        <Pausable />
+        <IncidentInfectable />
+        <Industrializable />
+        <Electrifiable />
+        <Culture />
+        <RecipeBuilding>
+          <RecipeList>2100115082</RecipeList>
+          <RecipeBuildingType>Multifactory</RecipeBuildingType>
+        </RecipeBuilding>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Wood and Sulfide Recipe-->
+  <ModOp Type="addNextSibling" GUID="133374">
+    <Asset>
+      <Template>Recipe</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115084</GUID>
+          <Name>Recipe_Paper_Wood_and_Sulfide</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\paper_mill_ow\icon_paper_recipe_2.png</IconFilename>
+        </Standard>
+        <Recipe>
+          <RecipeBuilding>2100115081</RecipeBuilding>
+          <RecipeDescriptionText>2100115085</RecipeDescriptionText>
+          <RecipeImage>data\ui\2kimages\main\assets\recipebook\paper_mill_ow\icon_paper_mood_0.png</RecipeImage>
+          <RecipeIngredientUIData>
+            <Item>
+              <PosX>10</PosX>
+              <PosY>15</PosY>
+              <UICirclePointer>SouthEast</UICirclePointer>
+            </Item>
+            <Item>
+              <PosX>390</PosX>
+              <PosY>50</PosY>
+              <UICirclePointer>SouthWest</UICirclePointer>
+            </Item>
+            <Item>
+              <PosX>-15</PosX>
+              <PosY>275</PosY>
+              <UICirclePointer>East</UICirclePointer>
+            </Item>
+          </RecipeIngredientUIData>
+          <RecipeUnlockConditionText>2100115270</RecipeUnlockConditionText>
+        </Recipe>
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- # Wood and Sulfide Paper Mill Building-->
+  <ModOp Type="addNextSibling" GUID="1010303">
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115081</GUID>
+          <Name>Paper Mill Old World - Recipe: Wood and Sulfide</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\paper_mill_ow\icon_paper_recipe_2.png</IconFilename>
+          <InfoDescription>2100115726</InfoDescription>
+        </Standard>
+        <Building>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <BuildingCategoryName>132773</BuildingCategoryName>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>4500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\paper_mill_ow\paper_mill_ow_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>216871</Sound>
+            </Item>
+            <Item>
+              <Sound>202354</Sound>
+            </Item>
+            <Item>
+              <Sound>200802</Sound>
+            </Item>
+            <Item>
+              <Sound>201637</Sound>
+            </Item>
+          </ActiveSounds>
+        </SoundEmitter>
+        <FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>120008</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>2100115089</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010231</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>117702</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>30</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+        </FactoryBase>
+        <LogisticNode />
+        <AmbientMoodProvider />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>250</Amount>
+              <InactiveAmount>175</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>175</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable />
+        <Pausable />
+        <IncidentInfectable />
+        <Industrializable />
+        <Electrifiable />
+        <Culture />
+        <RecipeBuilding>
+          <RecipeList>2100115082</RecipeList>
+          <RecipeBuildingType>Multifactory</RecipeBuildingType>
+        </RecipeBuilding>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- # Buildings to Pools -->
+<Group>
+  <!-- Dynamic feedback -->
+  <ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100115087</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="142313" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100115081</Building>
+    </Item>
+  </ModOp>
+  <!-- Item buff pools-->
+  <ModOp Type="add" GUID="6000018,193856,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100115087</GUID>
+    </Item>
+    <Item>
+      <GUID>2100115081</GUID>
+    </Item>
+  </ModOp>
+  <!-- BoostableFactories -->
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+    <Item>
+      <Factory>2100115087</Factory>
+    </Item>
+    <Item>
+      <Factory>2100115081</Factory>
+    </Item>
+  </ModOp>
+</Group>
+
+  <!-- # Unlock -->
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115722</GUID>
+          <Name>Paper Mill Old World Unlock</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_paper.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000001</Context>
+                <CounterAmount>750</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100115080</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115087</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115086</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115095</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>117702</Asset>
+                      </Item>
+                    </UnlockAssets>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2100115090</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115084</Asset>
+                      </Item>
+                    </UnhideAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115098</GUID>
+          <Name>Paper Mill Old World Unlock</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_paper.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>750</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100115081</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115084</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115090</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115089</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115723</GUID>
+          <Name>Paper Mill Old World Unlock Creative Mode</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_paper.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Values>
+              <ConditionPropsNegatable />
+              <Condition />
+              <ConditionIsCreativeMode />
+            </Values>
+            <Template>ConditionIsCreativeMode</Template>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100115080</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115081</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115084</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115086</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115087</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115089</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115090</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100115095</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>117702</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,50 @@
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">			
+			
+		<Text>
+			<GUID>2100115701</GUID>
+			<Text>Enbesanische Quarzgrube</Text>
+		</Text>
+		<Text>
+			<GUID>2100115702</GUID>
+			<Text>Soda-Fabrik</Text>
+		</Text>
+		<Text>
+			<GUID>1999002300</GUID>
+			<Text>Soda</Text>
+		</Text>
+		<Text>
+			<GUID>1999002301</GUID>
+			<Text>Die chemische Revolution, die Eure Getränke aufpeppt.</Text>
+		</Text>
+		<Text>
+			<GUID>1999002302</GUID>
+			<Text>Sehr hilfreich bei gelegentlichem Sodbrennen.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115704</GUID>
+			<Text>Soda-Fabriken</Text>
+		</Text>
+		<Text>
+			<GUID>2100115705</GUID>
+			<Text>Enbesanische Glashütte</Text>
+		</Text>
+		<Text>
+			<GUID>2100115706</GUID>
+			<Text>Enbesanische Brillenfabrik</Text>
+		</Text>	
+		<Text>
+			<GUID>2100115707</GUID>
+			<Text>Prof. Desmond Solvay, Meister der Kalzinierung</Text>
+		</Text>	
+		<Text>
+			<GUID>2100115708</GUID>
+			<Text>Kongenialer Bruder des Chemikers, Unternehmers und Philanthropen Ernest Solvay, der um 1860 das Ammoniak-Soda-Verfahren zur Herstellung von Natriumcarbonat (Soda) erfand, ein wichtiges Flussmittel bei der Glasherstellung und Bestandteil von Waschmittel.</Text>
+		</Text>	
+				
+  </ModOp>
+
+</ModOps>

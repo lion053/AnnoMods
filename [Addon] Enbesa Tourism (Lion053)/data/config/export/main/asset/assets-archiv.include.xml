@@ -1,0 +1,535 @@
+
+
+    <!-- Implementation via Items: 'Dynamic range buffs for public services' via items require SetBuffs as single items are not allowed to have default buffs (CTD) -->
+    <!-- However, the game does not allow any differences in properties between an empty socket module and the guid-changed module after socketing -->
+    <!-- Therefore, item / module based public services / bus needs result in CTDs -> implementation via regular modules necessary -->
+
+
+<!-- # Item Allocation Type
+    <ModOp Type="add" GUID="6000017" Path="/Values/ItemConfig/AllocationIcons">
+        <Item>
+            <Allocation>Mod5</Allocation>
+            <AllocationIcon>data\ui\2kimages\main\3dicons\lion053\icon_safari_tour3.png</AllocationIcon>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="6000017" Path="/Values/ItemConfig/AllocationText">
+        <Mod5>
+            <Text>2100119499</Text>
+            <ItemSearchText />
+        </Mod5>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="2344">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>2100119499</GUID>
+                    <Name>Nationalpark</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_safari_tour3.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                    <English>
+                        <Text>Nationalpark</Text>
+                        <Status>Exported</Status>
+                    </English>
+                    </LocaText>
+                    <LineID>14275</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="merge" GUID="501516" Path="/Values/ItemFilter/ItemCategories/Item[CategoryAsset='18021']/ItemTypes[not(contains(.,' (Mod5)'))]"
+           Content="@501516/ItemFilter/ItemCategories/Item[CategoryAsset='18021']/ItemTypes/text()">
+           <ItemTypes><ModOpContent/>;Mod5</ItemTypes>
+    </ModOp>
+
+    <ModOp Type="merge" GUID="502015" Path="/Values/ItemFilter/ItemCategories/Item[CategoryAsset='18021']/ItemTypes[not(contains(.,' (Mod5)'))]"
+           Content="@502015/ItemFilter/ItemCategories/Item[CategoryAsset='18021']/ItemTypes/text()">
+           <ItemTypes><ModOpContent/>;Mod5</ItemTypes>
+    </ModOp>
+
+    <ModOp Type="merge" GUID="113879" Path="/Values/ItemFilter/ItemCategories/Item[CategoryAsset='18021']/ItemTypes[not(contains(.,' (Mod5)'))]"
+           Content="@113879/ItemFilter/ItemCategories/Item[CategoryAsset='18021']/ItemTypes/text()">
+           <ItemTypes><ModOpContent/>;Mod5</ItemTypes>
+    </ModOp>
+
+    <ModOp Type="merge" GUID="116632" Path="/Values/ItemFilter/ItemCategories/Item[CategoryAsset='18021']/ItemTypes[not(contains(.,' (Mod5)'))]"
+           Content="@116632/ItemFilter/ItemCategories/Item[CategoryAsset='18021']/ItemTypes/text()">
+           <ItemTypes><ModOpContent/>;Mod5</ItemTypes>
+    </ModOp>
+
+    <ModOp Type="merge" GUID="24345" Path="/Values/ItemFilter/ItemCategories/Item[CategoryAsset='18021']/ItemTypes[not(contains(.,' (Mod5)'))]"
+           Content="@24345/ItemFilter/ItemCategories/Item[CategoryAsset='18021']/ItemTypes/text()">
+           <ItemTypes><ModOpContent/>;Mod5</ItemTypes>
+    </ModOp>
+    <ModOp Type="merge" GUID="501516" Path="/Values/ItemFilter/ItemCategories/Item[CategoryAsset='18432']/ItemTypes[not(contains(.,' (Mod5)'))]"
+           Content="@501516/ItemFilter/ItemCategories/Item[CategoryAsset='18432']/ItemTypes/text()">
+           <ItemTypes><ModOpContent/>;Mod5</ItemTypes>
+    </ModOp> -->
+
+    <!-- # Safari Item Hidden Fake Set -->
+    <!-- <ModOp Type="addNextSibling" GUID="124198">
+        <Asset>
+            <Template>ItemSet</Template>
+            <Values>
+              <Standard>
+                  <GUID>2100119478</GUID>
+                  <Name>Hidden Fake Set</Name>
+                  <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_safari_tour3.png</IconFilename>
+                  <InfoDescription>124203</InfoDescription>
+              </Standard>
+              <ItemSocketSet>
+                  <SetBuff>2100119485</SetBuff>
+                  <BuffScope>Area</BuffScope>
+                  <DLCMoodImage>data/ui/2kimages/main/assets16/dlc/bgr_dlc_card_landoflions.png</DLCMoodImage>
+              </ItemSocketSet>
+              <Locked>
+                  <DLCDependency>410071</DLCDependency>
+              </Locked>
+            </Values>
+        </Asset>
+    </ModOp> -->
+
+    <!-- # Safari Item Hidden Fake Setbuff -->
+    <!-- <ModOp Type="addNextSibling" GUID="124198">
+        <Asset>
+            <Template>TownhallBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>2100119485</GUID>
+                    <Name>Hidden Fake Setbuff</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_elephant.png</IconFilename>
+                    <InfoDescription>124213</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>2100119991</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <FactoryUpgrade>
+                  <ProductivityUpgrade>
+                    <Value>1</Value>
+                    <Percental>1</Percental>
+                  </ProductivityUpgrade>
+                </FactoryUpgrade>
+                <BuildingUpgrade>
+                  <PublicServiceFullSatisfactionDistance>
+                    <Value>1</Value>
+                    <Percental>1</Percental>
+                  </PublicServiceFullSatisfactionDistance>
+                  <PublicServiceNoSatisfactionDistance>
+                    <Value>1</Value>
+                    <Percental>1</Percental>
+                  </PublicServiceNoSatisfactionDistance>
+                </BuildingUpgrade>
+                <Buff />
+                <PopulationUpgrade />
+                <ResidenceUpgrade />
+                <IncidentInfectableUpgrade />
+                <CultureUpgrade>
+                  <HideBuff>1</HideBuff>
+                </CultureUpgrade>
+                <InfluenceSourceUpgrade />
+                <WarehouseUpgrade />
+                <DistributionUpgrade />
+                <ItemContainerUpgrade />
+            </Values>
+        </Asset>
+    </ModOp> -->
+
+    <!-- # Safari Items -->
+    <!-- <ModOp Type="addNextSibling" GUID="124198">
+        <Asset>
+          <Template>CultureItem</Template>
+          <Values>
+            <Standard>
+                <GUID>2100119801</GUID>
+                <Name>Enbesan Highlands I/II</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_enbesan_wolf.png</IconFilename>
+                <InfoDescription>124175</InfoDescription>
+            </Standard>
+            <Item>
+                <Rarity>Narrative</Rarity>
+                <ItemSet>2100119478</ItemSet>
+                <TradePrice>0</TradePrice>
+                <TradePriceOnlineCurrency>0</TradePriceOnlineCurrency>
+                <Allocation>Mod5</Allocation>
+            </Item>
+            <Cost />
+            <CultureUpgrade>
+                <ChangeModule>2100119826</ChangeModule>
+                <AttractivenessUpgrade>
+                    <Value>50</Value>
+                </AttractivenessUpgrade>
+                <AdditionalModuleSoundLoop>203431</AdditionalModuleSoundLoop>
+            </CultureUpgrade>
+            <BuildingUpgrade />
+            <ExpeditionAttribute>
+                <BaseMorale>0</BaseMorale>
+                <ExpeditionAttributes />
+                <FluffText>124175</FluffText>
+            </ExpeditionAttribute>
+            <Locked>
+                <DLCDependency>410071</DLCDependency>
+            </Locked>
+          </Values>
+        </Asset>
+        <Asset>
+            <Template>CultureItem</Template>
+            <Values>
+              <Standard>
+                <GUID>2100119802</GUID>
+                <Name>Enbesan Highlands II/II</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_gelada.png</IconFilename>
+                <InfoDescription>124167</InfoDescription>
+              </Standard>
+              <Item>
+                <Rarity>Narrative</Rarity>
+                <ItemSet>2100119478</ItemSet>
+                <TradePrice>0</TradePrice>
+                <TradePriceOnlineCurrency>0</TradePriceOnlineCurrency>
+                <Allocation>Mod5</Allocation>
+              </Item>
+              <Cost />
+              <CultureUpgrade>
+                <ChangeModule>2100119827</ChangeModule>
+                <AttractivenessUpgrade>
+                  <Value>50</Value>
+                </AttractivenessUpgrade>
+                <AdditionalModuleSoundLoop>270202</AdditionalModuleSoundLoop>
+              </CultureUpgrade>
+              <BuildingUpgrade />
+              <ExpeditionAttribute>
+                <BaseMorale>0</BaseMorale>
+                <FluffText>124167</FluffText>
+              </ExpeditionAttribute>
+              <Locked>
+                <DLCDependency>410071</DLCDependency>
+              </Locked>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>CultureItem</Template>
+            <Values>
+              <Standard>
+                <GUID>2100119803</GUID>
+                <Name>Miombo Woodlands I/II</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_giraffe.png</IconFilename>
+                <InfoDescription>124194</InfoDescription>
+              </Standard>
+              <Item>
+                <Rarity>Narrative</Rarity>
+                <ItemSet>2100119478</ItemSet>
+                <TradePrice>0</TradePrice>
+                <TradePriceOnlineCurrency>0</TradePriceOnlineCurrency>
+                <Allocation>Mod5</Allocation>
+              </Item>
+              <Cost />
+              <CultureUpgrade>
+                <ChangeModule>2100119819</ChangeModule>
+                <AttractivenessUpgrade>
+                  <Value>50</Value>
+                </AttractivenessUpgrade>
+                <AdditionalModuleSoundLoop>270244</AdditionalModuleSoundLoop>
+              </CultureUpgrade>
+              <BuildingUpgrade />
+              <ExpeditionAttribute>
+                <BaseMorale>0</BaseMorale>
+                <FluffText>124194</FluffText>
+              </ExpeditionAttribute>
+              <Locked>
+                <DLCDependency>410071</DLCDependency>
+              </Locked>
+            </Values>
+        </Asset>
+        <Asset>
+          <Template>CultureItem</Template>
+          <Values>
+            <Standard>
+              <GUID>2100119804</GUID>
+              <Name>Miombo Woodlands II/II</Name>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_elephant.png</IconFilename>
+              <InfoDescription>124194</InfoDescription>
+            </Standard>
+            <Item>
+              <Rarity>Narrative</Rarity>
+              <ItemSet>2100119478</ItemSet>
+              <TradePrice>0</TradePrice>
+              <TradePriceOnlineCurrency>0</TradePriceOnlineCurrency>
+              <Allocation>Mod5</Allocation>
+            </Item>
+            <Cost />
+            <CultureUpgrade>
+              <ChangeModule>2100119820</ChangeModule>
+              <AttractivenessUpgrade>
+                <Value>50</Value>
+              </AttractivenessUpgrade>
+              <AdditionalModuleSoundLoop>203325</AdditionalModuleSoundLoop>
+            </CultureUpgrade>
+            <ExpeditionAttribute>
+              <BaseMorale>0</BaseMorale>
+              <FluffText>124194</FluffText>
+            </ExpeditionAttribute>
+            <Locked>
+              <DLCDependency>410071</DLCDependency>
+            </Locked>
+          </Values>
+      </Asset>
+        <Asset>
+            <Template>CultureItem</Template>
+            <Values>
+              <Standard>
+                <GUID>2100119805</GUID>
+                <Name>Teeming Lakes I/III</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_hippotanamus.png</IconFilename>
+                <InfoDescription>124188</InfoDescription>
+              </Standard>
+              <Item>
+                <Rarity>Narrative</Rarity>
+                <ItemSet>2100119478</ItemSet>
+                <TradePrice>0</TradePrice>
+                <TradePriceOnlineCurrency>0</TradePriceOnlineCurrency>
+                <Allocation>Mod5</Allocation>
+              </Item>
+              <Cost />
+              <CultureUpgrade>
+                <ChangeModule>2100119823</ChangeModule>
+                <AttractivenessUpgrade>
+                  <Value>50</Value>
+                </AttractivenessUpgrade>
+                <AdditionalModuleSoundLoop>270246</AdditionalModuleSoundLoop>
+              </CultureUpgrade>
+              <BuildingUpgrade />
+              <ExpeditionAttribute>
+                <BaseMorale>0</BaseMorale>
+                <FluffText>124188</FluffText>
+              </ExpeditionAttribute>
+              <Locked>
+                <DLCDependency>410071</DLCDependency>
+              </Locked>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>CultureItem</Template>
+            <Values>
+              <Standard>
+                <GUID>2100119806</GUID>
+                <Name>Teeming Lakes II/III</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_crocodile.png</IconFilename>
+                <InfoDescription>18089</InfoDescription>
+              </Standard>
+              <Item>
+                <Rarity>Narrative</Rarity>
+                <ItemSet>2100119478</ItemSet>
+                <TradePrice>0</TradePrice>
+                <TradePriceOnlineCurrency>0</TradePriceOnlineCurrency>
+                <Allocation>Mod5</Allocation>
+              </Item>
+              <Cost />
+              <CultureUpgrade>
+                <ChangeModule>2100119825</ChangeModule>
+                <AttractivenessUpgrade>
+                  <Value>50</Value>
+                </AttractivenessUpgrade>
+                <AdditionalModuleSoundLoop>203307</AdditionalModuleSoundLoop>
+              </CultureUpgrade>
+              <BuildingUpgrade />
+              <ExpeditionAttribute>
+                <BaseMorale>0</BaseMorale>
+                <FluffText>18089</FluffText>
+              </ExpeditionAttribute>
+              <Locked>
+                <DLCDependency>410071</DLCDependency>
+              </Locked>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>CultureItem</Template>
+            <Values>
+              <Standard>
+                <GUID>2100119807</GUID>
+                <Name>Teeming Lakes III/III</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_flamingo.png</IconFilename>
+                <InfoDescription>124171</InfoDescription>
+              </Standard>
+              <Item>
+                <Rarity>Narrative</Rarity>
+                <ItemSet>2100119478</ItemSet>
+                <TradePrice>0</TradePrice>
+                <TradePriceOnlineCurrency>0</TradePriceOnlineCurrency>
+                <Allocation>Mod5</Allocation>
+              </Item>
+              <Cost />
+              <CultureUpgrade>
+                <ChangeModule>2100119824</ChangeModule>
+                <AttractivenessUpgrade>
+                  <Value>50</Value>
+                </AttractivenessUpgrade>
+                <AdditionalModuleSoundLoop>270240</AdditionalModuleSoundLoop>
+              </CultureUpgrade>
+              <BuildingUpgrade />
+              <ExpeditionAttribute>
+                <BaseMorale>0</BaseMorale>
+                <FluffText>124171</FluffText>
+              </ExpeditionAttribute>
+              <Locked>
+                <DLCDependency>410071</DLCDependency>
+              </Locked>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>CultureItem</Template>
+            <Values>
+              <Standard>
+                <GUID>2100119808</GUID>
+                <Name>Proud Savannah I/II</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_lion.png</IconFilename>
+                <InfoDescription>124184</InfoDescription>
+              </Standard>
+              <Item>
+                <Rarity>Narrative</Rarity>
+                <ItemSet>2100119478</ItemSet>
+                <TradePrice>0</TradePrice>
+                <TradePriceOnlineCurrency>0</TradePriceOnlineCurrency>
+                <Allocation>Mod5</Allocation>
+              </Item>
+              <Cost />
+              <CultureUpgrade>
+                <ChangeModule>2100119822</ChangeModule>
+                <AttractivenessUpgrade>
+                  <Value>50</Value>
+                </AttractivenessUpgrade>
+                <AdditionalModuleSoundLoop>270250</AdditionalModuleSoundLoop>
+              </CultureUpgrade>
+              <BuildingUpgrade />
+              <ExpeditionAttribute>
+                <BaseMorale>0</BaseMorale>
+                <FluffText>124184</FluffText>
+              </ExpeditionAttribute>
+              <Locked>
+                <DLCDependency>410071</DLCDependency>
+              </Locked>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>CultureItem</Template>
+            <Values>
+              <Standard>
+                <GUID>2100119809</GUID>
+                <Name>Proud Savannah II/II</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_zebra.png</IconFilename>
+                <InfoDescription>124177</InfoDescription>
+              </Standard>
+              <Item>
+                <Rarity>Narrative</Rarity>
+                <ItemSet>2100119478</ItemSet>
+                <TradePrice>0</TradePrice>
+                <TradePriceOnlineCurrency>0</TradePriceOnlineCurrency>
+                <Allocation>Mod5</Allocation>
+              </Item>
+              <Cost />
+              <CultureUpgrade>
+                <ChangeModule>2100119821</ChangeModule>
+                <AttractivenessUpgrade>
+                  <Value>50</Value>
+                </AttractivenessUpgrade>
+                <AdditionalModuleSoundLoop>203435</AdditionalModuleSoundLoop>
+              </CultureUpgrade>
+              <BuildingUpgrade />
+              <ExpeditionAttribute>
+                <BaseMorale>0</BaseMorale>
+                <FluffText>124177</FluffText>
+              </ExpeditionAttribute>
+              <Locked>
+                <DLCDependency>410071</DLCDependency>
+              </Locked>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>CultureItem</Template>
+            <Values>
+              <Standard>
+                <GUID>2100119810</GUID>
+                <Name>Great Desert I/I</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_dromedary.png</IconFilename>
+                <InfoDescription>124185</InfoDescription>
+              </Standard>
+              <Item>
+                <Rarity>Narrative</Rarity>
+                <ItemSet>2100119478</ItemSet>
+                <TradePrice>0</TradePrice>
+                <TradePriceOnlineCurrency>0</TradePriceOnlineCurrency>
+                <Allocation>Mod5</Allocation>
+              </Item>
+              <Cost />
+              <CultureUpgrade>
+                <ChangeModule>2100119828</ChangeModule>
+                <AttractivenessUpgrade>
+                  <Value>50</Value>
+                </AttractivenessUpgrade>
+                <AdditionalModuleSoundLoop>203297</AdditionalModuleSoundLoop>
+              </CultureUpgrade>
+              <BuildingUpgrade />
+              <ExpeditionAttribute>
+                <BaseMorale>0</BaseMorale>
+                <FluffText>124185</FluffText>
+              </ExpeditionAttribute>
+              <Locked>
+                <DLCDependency>410071</DLCDependency>
+              </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="130172">
+        <Asset>
+            <Template>AssetPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>2100119497</GUID>
+                    <Name>Safari Items Pool</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier03.png</IconFilename>
+                </Standard>
+                <AssetPool>
+                    <AssetList>
+                        <Item>
+                            <Asset>2100119801</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>2100119802</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>2100119803</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>2100119804</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>2100119805</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>2100119806</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>2100119807</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>2100119808</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>2100119809</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>2100119810</Asset>
+                        </Item>
+                    </AssetList>
+                </AssetPool>
+            </Values>
+        </Asset>
+    </ModOp>  -->

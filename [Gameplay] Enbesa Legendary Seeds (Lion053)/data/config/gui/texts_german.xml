@@ -1,0 +1,66 @@
+
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<!--Items-->
+
+		<Text>
+			<GUID>2100119221</GUID>
+			<Text>Rooibos Samen aus dem äußersten Süden Enbesa´s (Aspalathus linearis)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119222</GUID>
+			<Text>Gegen Pilzkrankheiten resistenter Flachs aus Kidushi Anitoni (Linum usitatissimum)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119223</GUID>
+			<Text>Hawi´s winzige Teff-Samen (Eragrostis tef)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119224</GUID>
+			<Text>Adolf von Baeyers synthetisierte Indigo-Samen (Indigofera tinctoria)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119225</GUID>
+			<Text>Ketema´s doppelt gekreuzte Gewürzmischung</Text>
+		</Text>
+		<Text>
+			<GUID>2100119226</GUID>
+			<Text>Hasselbay´s schnell wachsende Hummer (Homarus gammarus)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119227</GUID>
+			<Text>Ababe´s Schlaraffenland für Bienen</Text>
+		</Text>
+		<Text>
+			<GUID>2100119228</GUID>
+			<Text>Biniams komplexes mechanisches Schleusentorsystem</Text>
+		</Text>
+		<Text>
+			<GUID>2100119229</GUID>
+			<Text>Mit diesen speziellen Samen wird Ihren Hirten keine Fruchtbarkeit mehr fehlen.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119230</GUID>
+			<Text>Biniams neueste Entwicklung: Ein kompliziertes Zusammenspiel von Getrieben, Pumpen und Schleusen, um Wasser über große Flächen zu verteilen.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119231</GUID>
+			<Text>Legendary Seeds Enbesa TradeUnion</Text>
+		</Text>
+		<Text>
+			<GUID>2100119232</GUID>
+			<Text>Legendary Seeds Enbesa HarborOffice</Text>
+		</Text>
+		<Text>
+			<GUID>2100119233</GUID>
+			<Text>Item Rerun Trigger</Text>
+		</Text>
+		
+								
+  </ModOp>
+
+</ModOps>

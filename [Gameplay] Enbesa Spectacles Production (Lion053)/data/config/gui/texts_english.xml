@@ -1,0 +1,50 @@
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">			
+			
+		<Text>
+			<GUID>2100115701</GUID>
+			<Text>Enbesa Sand Mine</Text>
+		</Text>
+		<Text>
+			<GUID>2100115702</GUID>
+			<Text>Soda Factory</Text>
+		</Text>
+		<Text>
+			<GUID>1999002300</GUID>
+			<Text>Soda</Text>
+		</Text>
+		<Text>
+			<GUID>1999002301</GUID>
+			<Text>The chemical revolution to add sparks to your drinks.</Text>
+		</Text>
+		<Text>
+			<GUID>1999002302</GUID>
+			<Text>Treats heartburn like a charm.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115704</GUID>
+			<Text>Soda Factories</Text>
+		</Text>
+		<Text>
+			<GUID>2100115705</GUID>
+			<Text>Enbesa Glassmakers</Text>
+		</Text>
+		<Text>
+			<GUID>2100115706</GUID>
+			<Text>Enbesa Spectacle Factory</Text>
+		</Text>	
+		<Text>
+			<GUID>2100115707</GUID>
+			<Text>Prof. Desmond Solvay, Master of Calcination</Text>
+		</Text>	
+		<Text>
+			<GUID>2100115708</GUID>
+			<Text>Congenial brother of chemist, entrepreneur and philanthropist Ernest Solvay, who invented in 1860 the ammonia-soda process for the production of sodium carbonate (soda), a key flux in glassmaking and a component of detergents.</Text>
+		</Text>	
+				
+  </ModOp>
+
+</ModOps>

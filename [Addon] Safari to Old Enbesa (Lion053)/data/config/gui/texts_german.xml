@@ -1,0 +1,971 @@
+<ModOps>
+
+	<!-- Guids in ascending order -->
+
+    <ModOp Type="add" Path="/TextExport/Texts">
+		
+		<Text> <!-- Shared with Enbesa Tourism -->
+			<GUID>2100118112</GUID>
+			<Text>Großer Aussichtspunkt</Text>
+		</Text>
+		<Text> <!-- Shared with Enbesa Tourism -->
+			<GUID>2100118116</GUID>
+			<Text>Für eine handvoll Münzen können Sie nach kleinen und großen Tieren Ausschau halten ohne sich diesen selbst nähern zu müssen.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118119</GUID>
+			<Text>Luxuriöser Markt</Text>
+		</Text>
+		<Text> <!-- Shared with Enbesa Tourism -->
+			<GUID>2100118142</GUID>
+			<Text>Sandfläche</Text>
+		</Text>
+		<Text>
+			<GUID>2100119234</GUID>
+			<Text>Enbesanische Werft</Text>
+		</Text>
+		<Text>
+			<GUID>2100119235</GUID>
+			<Text>Enbesanischer Schooner</Text>
+		</Text>
+		<Text>
+			<GUID>2100119236</GUID>
+			<Text>Ein kleines Frachtschiff, dafür agil und günstig.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119237</GUID>
+			<Text>Enbesanischer Clipper</Text>
+		</Text>
+		<Text>
+			<GUID>2100119238</GUID>
+			<Text>Der Stolz enbesanischer Händler: Eleganz kombiniert mit einer großen Frachtkapazität.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119239</GUID>
+			<Text>Modulare Palast Ornamente</Text>
+		</Text>
+		<Text>
+			<GUID>2100119240</GUID>
+			<Text>Enbesanisches Kaufmannsschiff</Text>
+		</Text>
+		<Text>
+			<GUID>2100119241</GUID>
+			<Text>Eine Kombination aus Schooner und Kanonenboot, konstruiert für Kaufleute, die sich gern selbst verteidigen.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119242</GUID>
+			<Text>Enbesanisches Kanonenboot</Text>
+		</Text>
+		<Text>
+			<GUID>2100119243</GUID>
+			<Text>Kleines und wendiges Kriegsschiff, das mit Kurzdistanzkanonen ausgestattet ist. Extrem schnell.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119244</GUID>
+			<Text>Enbesanisches Linienschiff</Text>
+		</Text>
+		<Text>
+			<GUID>2100119245</GUID>
+			<Text>Winzige Boote für küstennahe Gewässer. Schicken Sie sie nicht in den Krieg.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119246</GUID>
+			<Text>Enbesanische Frigatte</Text>
+		</Text>
+		<Text>
+			<GUID>2100119247</GUID>
+			<Text>Verlässliches, universelles Kriegsschiff mit durchschnittlicher Wendigkeit und Kanonen mittlerer Reichweite.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119248</GUID>
+			<Text>Arkaden</Text>
+		</Text>
+		<Text>
+			<GUID>2100119249</GUID>
+			<Text>Kommen Sie von A nach B, ohne der sengenden Sonne ausgesetzt zu sein.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119250</GUID>
+			<Text>Umzäunte Palmen</Text>
+		</Text>
+		<Text>
+			<GUID>2100119251</GUID>
+			<Text>Umzäunte Pinien</Text>
+		</Text>
+		<Text>
+			<GUID>2100119252</GUID>
+			<Text>Umzäunte Akazien</Text>
+		</Text>
+		<Text>
+			<GUID>2100119254</GUID>
+			<Text>Stadtmauer: Tor</Text>
+		</Text>
+		<Text>
+			<GUID>2100119255</GUID>
+			<Text>Ein majestätisches Tor, welches die Menschen vollr Ehrfurcht hindurchgehen lässt.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119256</GUID>
+			<Text>Stadtmauer: Kleines Tor</Text>
+		</Text>
+		<Text>
+			<GUID>2100119257</GUID>
+			<Text>Ein kleines, unauffälliges Tor. Ideal, wenn Sie sich in die Stadt schleichen wollen...</Text>
+		</Text>
+		<Text>
+			<GUID>2100119258</GUID>
+			<Text>Stadtmauer</Text>
+		</Text>
+		<Text>
+			<GUID>2100119259</GUID>
+			<Text>Diese wolkenkratzerhohe Stadtmauer schützt Ihre Bewohner nicht nur vor gefräßigen Raubtieren, sondern auch vor gierigen Barbaren und Angreifern.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119260</GUID>
+			<Text>Ziehen Sie in eine beliebige Richtung um Systeme zu bauen.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119261</GUID>
+			<Text>Inselverteidigung</Text>
+		</Text>
+		<Text>
+			<GUID>2100119262</GUID>
+			<Text>AF Military Units</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119263</GUID>
+			<Text>Tore, 1x1 Felder groß. Drücken Sie Strg V zum Wechsel der Variante.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119264</GUID>
+			<Text>Flügel: System</Text>
+		</Text>
+		<Text>
+			<GUID>2100119265</GUID>
+			<Text>Alte Anlegestelle</Text>
+		</Text>
+		<Text>
+			<GUID>2100119266</GUID>
+			<Text>Luxuriöser Markt</Text>
+		</Text>
+		<Text>
+			<GUID>2100119267</GUID>
+			<Text>Ein luxuriöser Markt, der keine Wünsche offen lässt.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119268</GUID>
+			<Text>Straßenmärkte</Text>
+		</Text>
+		<Text>
+			<GUID>2100119269</GUID>
+			<Text>3x1 große Märkte über einer Straße.&#xD;&#xA;&#xD;&#xA;Drücken Sie Strg V zum Wechsel der Variante.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119270</GUID>
+			<Text>Wohnhäuser</Text>
+		</Text>
+		<Text>
+			<GUID>2100119271</GUID>
+			<Text>Großfamilien Wohnhaus</Text>
+		</Text>
+		<Text>
+			<GUID>2100119272</GUID>
+			<Text>Wohnäuser für Hirten, Älteste und Großfamilien</Text>
+		</Text>
+		<Text>
+			<GUID>2100119273</GUID>
+			<Text>Großfamilien</Text>
+		</Text>
+		<Text>
+			<GUID>2100119274</GUID>
+			<Text>Wütende Großfamilie</Text>
+		</Text>
+		<Text>
+			<GUID>2100119275</GUID>
+			<Text>Unglückliche Großfamilie</Text>
+		</Text>
+		<Text>
+			<GUID>2100119276</GUID>
+			<Text>Zufriedene Großfamilie</Text>
+		</Text>
+		<Text>
+			<GUID>2100119277</GUID>
+			<Text>Glückliche Großfamilie</Text>
+		</Text>
+		<Text>
+			<GUID>2100119278</GUID>
+			<Text>Euphorische Großfamilie</Text>
+		</Text>
+		<Text>
+			<GUID>2100119279</GUID>
+			<Text>Modulares Palast-Ornament&#xD;&#xA;&#xD;&#xA;Ziehen Sie in eine beliebige Richtung um Systeme zu bauen.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119280</GUID>
+			<Text>Trigger Unlock Extended Family Residences</Text>
+		</Text>
+		<Text>
+			<GUID>2100119281</GUID>
+			<Text>Stellt 50 % Hirten und 50 % Ältesten Arbeitskraft bereit.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119282</GUID>
+			<Text>Sonstige Ornamente</Text>
+		</Text>
+		<Text>
+			<GUID>2100119283</GUID>
+			<Text>Großer Enbesa-Brunnen</Text>
+		</Text>
+		<Text>
+			<GUID>2100119284</GUID>
+			<Text>Es ist strengstens verboten, die Münzen aus dem Brunnen zu nehmen.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119285</GUID>
+			<Text>Verlassene Minen</Text>
+		</Text>
+		<Text>
+			<GUID>2100119286</GUID>
+			<Text>Manche hören Stimmen im säuselnden Wind aus den Tiefen der lang vergessenen Minen... aber das liegt vermutlich an zu viel Mohn in den Tabakpfeiffen, wie Biniam bemerkt.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119287</GUID>
+			<Text>Öffentlicher Bücherschrank</Text>
+		</Text>
+		<Text>
+			<GUID>2100119288</GUID>
+			<Text>Ein öffentlicher Bücherschrank um gebrauchte Chroniken auszutauschen.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119289</GUID>
+			<Text>Kleines Zelt</Text>
+		</Text>
+		<Text>
+			<GUID>2100119290</GUID>
+			<Text>Geeignet als Schlafplatz, Lagerraum... für die Wahrsagerei...</Text>
+		</Text>
+		<Text>
+			<GUID>2100119291</GUID>
+			<Text>Großes Zelt</Text>
+		</Text>
+		<Text>
+			<GUID>2100119292</GUID>
+			<Text>Wildtier-Aussichtsturm</Text>
+		</Text>
+		<Text>
+			<GUID>2100119293</GUID>
+			<Text>Von hier oben haben Sie nicht nur einen besseren Ausblick auf Enbesa's Fauna, Sie bleiben auch auf sichere Distanz zu Raubkatzen.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119294</GUID>
+			<Text>Holzfäller Camp</Text>
+		</Text>
+		<Text>
+			<GUID>2100119295</GUID>
+			<Text>Private Business</Text>
+		</Text>
+		<Text>
+			<GUID>2100119296</GUID>
+			<Text>Kleiner Aussichtspunkt</Text>
+		</Text>
+		<Text>
+			<GUID>2100119297</GUID>
+			<Text>Ausgestattet mit einem Fernrohr, erfunden von niemand geringerem als dem Berühmten Optiker Otto.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119298</GUID>
+			<Text>Ein Mix verschiedenster Ornamente.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119299</GUID>
+			<Text>Trigger Extended Family Creative Mode</Text>
+		</Text>
+		<Text>
+			<GUID>2100119300</GUID>
+			<Text>Old Enbesa</Text>
+		</Text>
+		<Text>
+			<GUID>2100119301</GUID>
+			<Text>Mehr Vielfalt für Enbesa</Text>
+		</Text>
+		<Text>
+			<GUID>2100119302</GUID>
+			<Text>1x1 Hirten Wohnhäuser</Text>
+		</Text>
+		<Text>
+			<GUID>2100119303</GUID>
+			<Text>Eine Menge Platz für Ihre Bürger</Text>
+		</Text>
+		<Text>
+			<GUID>2100119304</GUID>
+			<Text>Kuppel</Text>
+		</Text>
+		<Text>
+			<GUID>2100119305</GUID>
+			<Text>Großer Eingang</Text>
+		</Text>
+		<Text>
+			<GUID>2100119306</GUID>
+			<Text>Klosterturm</Text>
+		</Text>
+		<Text>
+			<GUID>2100119307</GUID>
+			<Text>3rd Party Märkte</Text>
+		</Text>
+		<Text>
+			<GUID>2100119308</GUID>
+			<Text>Traditionelle Rooibos Tee-Farm im Süden Enbesas</Text>
+		</Text>
+		<Text>
+			<GUID>2100119309</GUID>
+			<Text>Traditionelle Teppichknüpferei im Süden Enbesas</Text>
+		</Text>
+		<Text>
+			<GUID>2100119310</GUID>
+			<Text>Hafenmeisterei</Text>
+		</Text>
+		<Text>
+			<GUID>2100119311</GUID>
+			<Text>Rathaus</Text>
+		</Text>
+		<Text>
+			<GUID>2100119312</GUID>
+			<Text>Alte Anlegestelle</Text>
+		</Text>
+		<Text>
+			<GUID>2100119313</GUID>
+			<Text>Farm für Ketema's doppelt gekreuzte Gewürze</Text>
+		</Text>
+		<Text>
+			<GUID>2100119314</GUID>
+			<Text>Lagerhaus</Text>
+		</Text>
+		<Text>
+			<GUID>2100119315</GUID>
+			<Text>1x1 Ältesten Wohnhäuser</Text>
+		</Text>
+		<Text>
+			<GUID>2100119316</GUID>
+			<Text>Bietet Ihren Bewohnern einen öffentlichen Dienst.&#xD;&#xA;&#xD;&#xA;Ein prächtiger Palast zum Wohlfühlen und Entspannen</Text>
+		</Text>
+		<Text>
+			<GUID>2100119317</GUID>
+			<Text>Öffentlicher Dienst</Text>
+		</Text>
+		<Text>
+			<GUID>2100119318</GUID>
+			<Text>Safari Ornamente</Text>
+		</Text>
+		<Text>
+			<GUID>2100119319</GUID>
+			<Text>Ruinen und Säulen</Text>
+		</Text>
+		<Text>
+			<GUID>2100119320</GUID>
+			<Text>Tempel und Türme</Text>
+		</Text>
+		<Text>
+			<GUID>2100119321</GUID>
+			<Text>Mauern</Text>
+		</Text>
+		<Text>
+			<GUID>2100119322</GUID>
+			<Text>Animierte Einwohner</Text>
+		</Text>
+		<Text>
+			<GUID>2100119323</GUID>
+			<Text>Vegetation</Text>
+		</Text>
+		<Text>
+			<GUID>2100119324</GUID>
+			<Text>Felsen</Text>
+		</Text>
+		<!-- 2100119325 only used in Enbesa Tourism -->
+		<Text>
+			<GUID>2100119326</GUID>
+			<Text>Besucherhafen (Ornamental)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119327</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100119328</GUID>
+			<Text>Tiere</Text>
+		</Text>
+		<Text>
+			<GUID>2100119329</GUID>
+			<Text>Nur für dekorative Zwecke. Installieren Sie "Enbesa Tourism" für eine funktionale Version.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119330</GUID>
+			<Text>Großes Thermalbad</Text>
+		</Text>
+		<Text>
+			<GUID>2100119331</GUID>
+			<Text>Ornamente im Wasser</Text>
+		</Text>
+		<Text>
+			<GUID>2100119332</GUID>
+			<Text>Sonstiges</Text>
+		</Text>
+		<Text>
+			<GUID>2100119333</GUID>
+			<Text>Enbesanische Werft</Text>
+		</Text>
+		<Text>
+			<GUID>2100119334</GUID>
+			<Text>Kleines Fischerboot mit Motor</Text>
+		</Text>
+		<Text>
+			<GUID>2100119335</GUID>
+			<Text>Ornamente auf Wasser mit Kai</Text>
+		</Text>
+		<Text>
+			<GUID>2100119336</GUID>
+			<Text>Handelsschiffe</Text>
+		</Text>
+		<Text>
+			<GUID>2100119337</GUID>
+			<Text>Kleines Fischerboot mit Segel</Text>
+		</Text>
+		<Text>
+			<GUID>2100119338</GUID>
+			<Text>Mauern mit Bodentextur</Text>
+		</Text>
+		<Text>
+			<GUID>2100119341</GUID>
+			<Text>Wem der wohl gehört?</Text>
+		</Text>
+		<Text>
+			<GUID>2100119350</GUID>
+			<Text>Hier setzen Ihre Touristen, Abenteurer und Backpacker ihren ersten Fuß auf Ihr zauberhaftes Land</Text>
+		</Text>
+		<Text>
+			<GUID>2100119351</GUID>
+			<Text>Bietet ausgewählte Dienste eines Klosters an. Reduzierte Reichweite.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119352</GUID>
+			<Text>Märkte von 3rd Party Inseln.&#xD;&#xA;&#xD;&#xA; Drücken Sie Strg V zum Wechsel der Variante.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119353</GUID>
+			<Text>Eine alte traditionelle Farm für Rooibos-Tee aus Süd-Enbesa. Maschinen? Wasserkanäle? Ausländische Spezialisten? Niemals davon gehört</Text>
+		</Text>
+		<Text>
+			<GUID>2100119354</GUID>
+			<Text>Produziert handgefertigte Teppiche in den leuchtendsten Farben, die die Magie Enbesas beschreiben</Text>
+		</Text>
+		<Text>
+			<GUID>2100119355</GUID>
+			<Text>Ursprung Ketemas doppelt gekreuzter Gewürze. Die Kunst der Pflanzenzüchtung erfordert viel Geduld, Erfahrung und Fachwissen, das von Generation zu Generation weitergegeben wird.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119356</GUID>
+			<Text>Ein repräsentatives Rathaus mit 4 Item Slots.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119357</GUID>
+			<Text>Bietet zusätzlichen Platz, um Schiffe zu be- und entladen.&#xD;&#xA;&#xD;&#xA;Einst eine uneinnehmbare Festung zur Verteidigung der Stadt, wird sie heute für die Import- und Exportlogistik genutzt.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119358</GUID>
+			<Text>Ein kleines Lagerhaus</Text>
+		</Text>
+		<Text>
+			<GUID>2100119359</GUID>
+			<Text>Antike Säulen</Text>
+		</Text>
+		<Text>
+			<GUID>2100119360</GUID>
+			<Text>Die Überreste prächtiger Tempel aus uralten Zeiten.&#xD;&#xA;&#xD;&#xA;Drücken Sie Strg V zum Wechsel der Variante.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119361</GUID>
+			<Text>Gut erhaltene historische Tempel und Türme</Text>
+		</Text>
+		<Text>
+			<GUID>2100119362</GUID>
+			<Text>Denn Löwen sind überall!</Text>
+		</Text>
+		<Text>
+			<GUID>2100119363</GUID>
+			<Text>Bringen Sie mehr Leben in Ihre Städte.&#xD;&#xA;&#xD;&#xA;Drücken Sie Strg V zum Wechsel der Variante.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119364</GUID>
+			<Text>Gras, Büsche, Akazien, Pinien, Palmen.&#xD;&#xA;&#xD;&#xA;Drücken Sie Strg V zum Wechsel der Variante.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119365</GUID>
+			<Text>Felsen auf Land platzierbar.&#xD;&#xA;&#xD;&#xA;Drücken Sie Strg V zum Wechsel der Variante.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119366</GUID>
+			<Text>Niemand weiß genau, für welchen Zweck er errichtet wurde.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119367</GUID>
+			<Text>Gras, Büsche, Akazien, Pinien, Palmen.&#xD;&#xA;&#xD;&#xA;Drücken Sie Strg V zum Wechsel der Variante.&#xD;&#xA;&#xD;&#xA;Nutzen Sie den Pinsel um den Skin der Bodentextur zu wechseln.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119368</GUID>
+			<Text>Bringen Sie Leben in Ihre Savanne.&#xD;&#xA;&#xD;&#xA;Drücken Sie Strg V zum Wechsel der Variante.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119369</GUID>
+			<Text>Staubwolken und Wasserfall.&#xD;&#xA;&#xD;&#xA;Drücken Sie Strg V zum Wechsel der Variante.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119370</GUID>
+			<Text>Bietet ein wenig Schatten.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119371</GUID>
+			<Text>Schiffe für alle Zwecke.&#xD;&#xA;&#xD;&#xA;Drücken Sie Strg V zum Wechsel der Variante.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119372</GUID>
+			<Text>Öffentliche Gebäude</Text>
+		</Text>
+		<Text>
+			<GUID>2100119373</GUID>
+			<Text>Funktionale Hafengebäude</Text>
+		</Text>
+		<Text>
+			<GUID>2100119374</GUID>
+			<Text>Bauernhöfe</Text>
+		</Text>
+		<Text>
+			<GUID>2100119375</GUID>
+			<Text>Entrance to the Thermal Bath</Text>
+		</Text>
+		<Text>
+			<GUID>2100119376</GUID>
+			<Text>Große Tempelmauer</Text>
+		</Text>
+		<Text>
+			<GUID>2100119377</GUID>
+			<Text>Mittlere Tempelmauer</Text>
+		</Text>
+		<Text>
+			<GUID>2100119378</GUID>
+			<Text>Kleine Tempelmauer</Text>
+		</Text>
+		<Text>
+			<GUID>2100119379</GUID>
+			<Text>Verfallene Tempelmauer</Text>
+		</Text>
+		<Text>
+			<GUID>2100119380</GUID>
+			<Text>Rot gefärbte Wand</Text>
+		</Text>
+		<Text>
+			<GUID>2100119381</GUID>
+			<Text>Blau gefärbte Wand</Text>
+		</Text>
+		<Text>
+			<GUID>2100119382</GUID>
+			<Text>Mauern und Arkaden</Text>
+		</Text>
+		<Text>
+			<GUID>2100119383</GUID>
+			<Text>Mauern: Tore 1x1</Text>
+		</Text>
+		<Text>
+			<GUID>2100119384</GUID>
+			<Text>Akazien</Text>
+		</Text>
+		<Text>
+			<GUID>2100119385</GUID>
+			<Text>Pinien</Text>
+		</Text>
+		<Text>
+			<GUID>2100119386</GUID>
+			<Text>Palmen</Text>
+		</Text>
+		<Text>
+			<GUID>2100119387</GUID>
+			<Text>Bananenstauden</Text>
+		</Text>
+		<Text>
+			<GUID>2100119388</GUID>
+			<Text>Büsche</Text>
+		</Text>
+		<Text>
+			<GUID>2100119389</GUID>
+			<Text>Vegetation</Text>
+		</Text>
+		<Text>
+			<GUID>2100119390</GUID>
+			<Text>Traditioneller Leinenweber</Text>
+		</Text>
+		<Text>
+			<GUID>2100119391</GUID>
+			<Text>Traditionalelle Gewürzmehlmühle</Text>
+		</Text>
+		<Text>
+			<GUID>2100119392</GUID>
+			<Text>Palmen</Text>
+		</Text>
+		<Text>
+			<GUID>2100119393</GUID>
+			<Text>Traditionaller Kerzenzieher</Text>
+		</Text>
+		<Text>
+			<GUID>2100119394</GUID>
+			<Text>Traditionaller Kräutergarten</Text>
+		</Text>
+		<Text>
+			<GUID>2100119395</GUID>
+			<Text>Anubis Statue</Text>
+		</Text>
+		<Text>
+			<GUID>2100119396</GUID>
+			<Text>Horus Statue</Text>
+		</Text>
+		<Text>
+			<GUID>2100119397</GUID>
+			<Text>Goldener Löwe</Text>
+		</Text>
+		<Text>
+			<GUID>2100119398</GUID>
+			<Text>Aron Habrit</Text>
+		</Text>
+		<Text>
+			<GUID>2100119399</GUID>
+			<Text>Goldener Elephant (l/r)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119400</GUID>
+			<Text>Pharao Statue</Text>
+		</Text>
+		<Text>
+			<GUID>2100119401</GUID>
+			<Text>Pharao Gedenkort</Text>
+		</Text>
+		<Text>
+			<GUID>2100119402</GUID>
+			<Text>Darstellungen uralter Gottheiten, Symbolfiguren und Herrscher</Text>
+		</Text>
+		<Text>
+			<GUID>2100119403</GUID>
+			<Text>Statuen</Text>
+		</Text>
+		<Text>
+			<GUID>2100119404</GUID>
+			<Text>Uralte Tempelsäule</Text>
+		</Text>
+		<Text>
+			<GUID>2100119405</GUID>
+			<Text>Uralte Tempelsäule mit Feuer</Text>
+		</Text>
+		<Text>
+			<GUID>2100119406</GUID>
+			<Text>Uralte Tempelsäule rechteckig</Text>
+		</Text>
+		<Text>
+			<GUID>2100119407</GUID>
+			<Text>Obelisk rechteckig</Text>
+		</Text>
+		<Text>
+			<GUID>2100119408</GUID>
+			<Text>Obelisk kreisförmig</Text>
+		</Text>
+		<Text>
+			<GUID>2100119409</GUID>
+			<Text>Nicht anlehnen!</Text>
+		</Text>
+		<Text>
+			<GUID>2100119410</GUID>
+			<Text>Säulen</Text>
+		</Text>
+		<Text>
+			<GUID>2100119411</GUID>
+			<Text>Uralte Säulen</Text>
+		</Text>
+		<Text>
+			<GUID>2100119412</GUID>
+			<Text>Ruinen</Text>
+		</Text>
+		<Text>
+			<GUID>2100119413</GUID>
+			<Text>Wenn Sie aufmerksam lauschen, hören Sie wie Ihre Vorfahren Ihnen Geschichten zuflüstern...</Text>
+		</Text>
+		<Text>
+			<GUID>2100119414</GUID>
+			<Text>Uralte Tempel 1x1</Text>
+		</Text>
+		<Text>
+			<GUID>2100119415</GUID>
+			<Text>Kleine uralte Tempelhalle</Text>
+		</Text>
+		<Text>
+			<GUID>2100119416</GUID>
+			<Text>Uralte Türme</Text>
+		</Text>
+		<Text>
+			<GUID>2100119417</GUID>
+			<Text>Tempel und Türme</Text>
+		</Text>
+		<Text>
+			<GUID>2100119418</GUID>
+			<Text>Bietet Ihren Bürgern Raum für Meditation und spirituelle Besinnung</Text>
+		</Text>
+		<Text>
+			<GUID>2100119419</GUID>
+			<Text>Große uralte Tempelhalle</Text>
+		</Text>
+		<Text>
+			<GUID>2100119420</GUID>
+			<Text>Einfache Straßenlaterne</Text>
+		</Text>
+		<Text>
+			<GUID>2100119421</GUID>
+			<Text>Gekreuzte Straßenlaterne</Text>
+		</Text>
+		<Text>
+			<GUID>2100119422</GUID>
+			<Text>Straßenlaterne über Straße</Text>
+		</Text>
+		<Text>
+			<GUID>2100119423</GUID>
+			<Text>Auffällige Spotlights</Text>
+		</Text>
+		<Text>
+			<GUID>2100119424</GUID>
+			<Text>Straßenlaternen</Text>
+		</Text>
+		<Text>
+			<GUID>2100119425</GUID>
+			<Text>Erleuchten Sie Ihre Städte</Text>
+		</Text>
+		<Text>
+			<GUID>2100119426</GUID>
+			<Text>Seit der Einführung moderner Straßenbeleuchtung, registrieren die Behörden einen signifikanten Anstieg der Nachtschwärmerei.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119427</GUID>
+			<Text>Effekte</Text>
+		</Text>
+		<Text>
+			<GUID>2100119428</GUID>
+			<Text>Kriegsschiffe</Text>
+		</Text>
+		<Text>
+			<GUID>2100119429</GUID>
+			<Text>Nutzen Sie den Pinsel um Schiffe um 45° zu rotieren</Text>
+		</Text>
+		<Text>
+			<GUID>2100119430</GUID>
+			<Text>Rotierte Handelsschiffe</Text>
+		</Text>
+		<Text>
+			<GUID>2100119431</GUID>
+			<Text>Rotierte Kriegsschiffe</Text>
+		</Text>
+		<Text>
+			<GUID>2100119432</GUID>
+			<Text>Vehikel</Text>
+		</Text>
+		<Text>
+			<GUID>2100119433</GUID>
+			<Text>Landfahrzeuge</Text>
+		</Text>
+		<Text>
+			<GUID>2100119434</GUID>
+			<Text>Züge (1x1)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119435</GUID>
+			<Text>Heißluftballon</Text>
+		</Text>
+		<Text>
+			<GUID>2100119436</GUID>
+			<Text>Mit Gleisen verbinden</Text>
+		</Text>
+		<Text>
+			<GUID>2100119437</GUID>
+			<Text>Verschiedene Vehikel für Land, Wasser und Luft</Text>
+		</Text>
+		<Text>
+			<GUID>2100119438</GUID>
+			<Text>Nutzen Sie den Pinsel um Landfahrzeuge um 45° zu rotieren</Text>
+		</Text>
+		<Text>
+			<GUID>2100119439</GUID>
+			<Text>Rotierte Landfahrzeuge</Text>
+		</Text>
+		<Text>
+			<GUID>2100119440</GUID>
+			<Text>Beobachten Sie Löwen aus der sicheren Entfernung... stürzen Sie nur nicht ab!</Text>
+		</Text>
+		<Text>
+			<GUID>2100119441</GUID>
+			<Text>Mittlerer Eingang</Text>
+		</Text>
+		<Text>
+			<GUID>2100119442</GUID>
+			<Text>Flügel (clipping)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119443</GUID>
+			<Text>Turm</Text>
+		</Text>
+		<Text>
+			<GUID>2100119444</GUID>
+			<Text>Brücke</Text>
+		</Text>
+		<Text>
+			<GUID>2100119445</GUID>
+			<Text>Safari Ornamente</Text>
+		</Text>
+		<Text>
+			<GUID>2100119447</GUID>
+			<Text>Der Einsatz des besonders anspruchslosen und pilzresistenten Flachs aus Kidushi Anitoni (Linum usitatissimum) bedeutet zwar weniger Ertrag, dafür exzellente Verarbeitungseigenschaften</Text>
+		</Text>
+		<Text>
+			<GUID>2100119448</GUID>
+			<Text>Hawi's gut bekannte winzige Teff Körner (Eragrostis tef) gepaart mit Ketema's doppelt gekreutzen Gewürzen? Ein Geschmack dem niemand widerstehen kann</Text>
+		</Text>
+		<Text>
+			<GUID>2100119449</GUID>
+			<Text>Die Imker züchten keine Bienen, sondern halten wilde Schwärme der Ost-Enbesanischen Hochlandbiene, die sie mit geeigneten Behausungen anlocken. Die eingesparte Zeit investieren sie in das Ziehen von Kerzen</Text>
+		</Text>
+		<Text>
+			<GUID>2100119450</GUID>
+			<Text>Ein kleiner Garten voll mit Kräutern, die selbst auf dem unfruchtbarsten Boden gedeihen</Text>
+		</Text>
+		<Text>
+			<GUID>2100119451</GUID>
+			<Text>Traditionelle Bauernhöfe</Text>
+		</Text>
+		<Text>
+			<GUID>2100119452</GUID>
+			<Text>Landfahrzeuge für alle Zwecke</Text>
+		</Text>
+		<Text>
+			<GUID>2100119453</GUID>
+			<Text>Drei Farbvarianten an Heißluftballons</Text>
+		</Text>
+		<Text>
+			<GUID>2100119454</GUID>
+			<Text>Drei Zugvarianten</Text>
+		</Text>
+		<Text>
+			<GUID>2100119455</GUID>
+			<Text>Von zierlichem Gras bis hin zu mächtigen Akazien</Text>
+		</Text>
+		<Text>
+			<GUID>2100119461</GUID>
+			<Text>Gras Untergrund</Text>
+		</Text>
+		<Text>
+			<GUID>2100119462</GUID>
+			<Text>Strand Untergrund</Text>
+		</Text>
+		<Text>
+			<GUID>2100119463</GUID>
+			<Text>Landfahrzeuge sind um 45° rotiert</Text>
+		</Text>
+		<Text>
+			<GUID>2100119464</GUID>
+			<Text>Handelsschiffe sind um 45° rotiert</Text>
+		</Text>
+		<Text>
+			<GUID>2100119465</GUID>
+			<Text>Kriegsschiffe sind um 45° rotiert</Text>
+		</Text>
+		<Text>
+			<GUID>2100119650</GUID>
+			<Text>Felsen im Wasser</Text>
+		</Text>
+		<Text>
+			<GUID>2100119651</GUID>
+			<Text>Wellenbrecher so hoch wie Häuser.&#xD;&#xA;&#xD;&#xA;Drücken Sie Strg V zum Wechsel der Variante.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119652</GUID>
+			<Text>Holzsteg 1x1</Text>
+		</Text>
+		<Text>
+			<GUID>2100119653</GUID>
+			<Text>Perfekt für einen Sprung ins Meer.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119654</GUID>
+			<Text>Holzsteg (um in andere Objekte zu clippen)</Text>
+		</Text>
+		<Text>
+			<GUID>2100119655</GUID>
+			<Text>Perfekt für einen Sprung ins Meer.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119656</GUID>
+			<Text>Hafenfässer</Text>
+		</Text>
+		<Text>
+			<GUID>2100119657</GUID>
+			<Text>Hafengüter</Text>
+		</Text>
+		<Text>
+			<GUID>2100119661</GUID>
+			<Text>Hafenbank mit Palme</Text>
+		</Text>
+		<Text>
+			<GUID>2100119662</GUID>
+			<Text>Hafen-Kiosk</Text>
+		</Text>
+		<Text>
+			<GUID>2100119669</GUID>
+			<Text>Leuchtturm</Text>
+		</Text>
+		<Text>
+			<GUID>2100119670</GUID>
+			<Text>Kleine Anlegestelle</Text>
+		</Text>
+		<Text>
+			<GUID>2100119671</GUID>
+			<Text>Strand Untergrund</Text>
+		</Text>
+		<Text>
+			<GUID>2100119672</GUID>
+			<Text>Denn niemand mag Strände aus Steinen...</Text>
+		</Text>
+		<Text>
+			<GUID>2100119673</GUID>
+			<Text>Ornamente im Wasser</Text>
+		</Text>
+		<Text>
+			<GUID>2100119674</GUID>
+			<Text>Ornamente für den Küsten- und Wasserbereich.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119675</GUID>
+			<Text>Öffentliche Gebäude</Text>
+		</Text>
+		<Text>
+			<GUID>2100119676</GUID>
+			<Text>Market Sound attenuated</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100119677</GUID>
+			<Text>Funktionale Gebäude für den Küsten- und Wasserbereich.</Text>
+		</Text>
+		<Text>
+			<GUID>2100119678</GUID>
+			<Text>Großes Thermalbad</Text>
+		</Text>
+		<Text>
+			<GUID>2100119679</GUID>
+			<Text>Modulares Palast-Ornament</Text>
+		</Text>
+		<Text>
+			<GUID>2100119680</GUID>
+			<Text>Baum mit Sitzplätzen&#xD;&#xA;&#xD;&#xA;Drücken Sie Strg V zum Wechsel der Variation.</Text>
+		</Text>
+
+    </ModOp>
+
+</ModOps>

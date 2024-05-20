@@ -1,0 +1,38 @@
+<ModOps>
+
+ <!-- Asset List: GUIDs in ascending order-->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<GUID>2100115089</GUID>
+			<Text>Sulfuros</Text>
+		</Text>
+		<Text>
+			<GUID>2100115090</GUID>
+			<Text>Módulo de Sulfuros</Text>
+		</Text>
+		<Text>
+			<GUID>2100115091</GUID>
+			<Text>Minas de hierro, cobre y Zinc producen azufre como producto derivado cuando este módulo es añadido. Consume carbón.&#xA;&#xD;&#xA;&#xD;&lt;font overrideTextColor="true" color='#2d7fb8'&gt;Demand&lt;/font&gt;&lt;font overrideTextColor="true" color='#edc891'&gt; per Cycle (01:30):&lt;/font&gt;&#xD;&#xA;&lt;font overrideTextColor="true" color='#edc891'&gt;1t &lt;img height='24' width='24' src="[AssetData(1010304) Icon]"/&gt; [AssetData(1010226) Text]&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115092</GUID>
+			<Text>Módulo de mina</Text>
+		</Text>
+		<Text>
+			<GUID>2100115093</GUID>
+			<Text>Quemador de mineral sulfídico</Text>
+		</Text>
+		<Text>
+			<GUID>2100115094</GUID>
+			<Text>El dióxido de azufre puede ser obtenido de hierro, cobre y zinc al ser quemado durante horas.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115721</GUID>
+			<Text>Sulfur Module Fake</Text> <!-- no translation needed -->
+		</Text>
+
+  </ModOp>
+
+</ModOps>

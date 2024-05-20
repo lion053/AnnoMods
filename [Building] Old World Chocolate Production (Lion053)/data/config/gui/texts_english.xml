@@ -1,0 +1,172 @@
+
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>2100118200</GUID>
+			<Text>Chocolate Industrial Production</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118201</GUID>
+			<Text>Trigger_sandbox</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118202</GUID>
+			<Text>Trigger_creative</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118203</GUID>
+			<Text>Cattle Pasture</Text>
+		</Text>
+		<Text>
+			<GUID>2100118204</GUID>
+			<Text>Chocolaterie Garibaldi</Text>
+		</Text>
+		<Text>
+			<GUID>2100118205</GUID>
+			<Text>Chocolaterie Garibaldi</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118206</GUID>
+			<Text>Sugar Refinery</Text>
+		</Text>
+		<Text>
+			<GUID>2100118207</GUID>
+			<Text>InfoTip Cattle Farm OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118208</GUID>
+			<Text>Pastures provide Milk</Text>
+		</Text>
+		<Text>
+			<GUID>2100118209</GUID>
+			<Text>Provides an area for livestock to graze in. Additionally each pasture produces 1 ton of milk each cycle. Click on a pasture to see its current productivity.</Text>
+		</Text>
+		<Text>
+			<!-- FOR TRANSLATION: Search for the Guid 8143 in your language text file; from the result copy only the translated term for 'secondary goods' -->
+			<GUID>2100118210</GUID>
+			<Text>Secondary goods:</Text>
+		</Text>
+		<Text>
+			<GUID>2100118211</GUID>
+			<Text>Pasture Output</Text>
+		</Text>
+		<Text>
+			<GUID>2100118212</GUID>
+			<Text>Chewing gum chain OW</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118213</GUID>
+			<Text>Trigger_chewing_gum_unhide</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118214</GUID>
+			<Text>Trigger_chewing_gum_unlock</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118215</GUID>
+			<Text>1t/pasture/cycle</Text>
+		</Text>
+		<Text>
+			<GUID>2100118216</GUID>
+			<Text>At Garibaldi's the country's best chocolatiers create the most delicate temptations since chocolate was invented... not even the busiest financial juggler can resist.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118217</GUID>
+			<Text>Trigger_chewing_gum_creative</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118218</GUID>
+			<Text>Trigger_pasture_artisans</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118219</GUID>
+			<Text>Sugar Beet Farm</Text>
+		</Text>
+		<Text>
+			<GUID>2100118220</GUID>
+			<Text>Sugar Beet Field</Text>
+		</Text>
+		<Text>
+			<GUID>2100118221</GUID>
+			<Text>Sugar Beet Fertility</Text>
+		</Text>
+		<Text>
+			<GUID>2100118222</GUID>
+			<Text>Sugar Beets</Text>
+		</Text>
+		<Text>
+			<GUID>2100118223</GUID>
+			<Text>Sugar Beet Seeds</Text>
+		</Text>
+		<Text>
+			<GUID>2100118224</GUID>
+			<Text>&lt;b&gt;Beta vulgaris&lt;/b&gt; These seeds can help you grow plentiful fields of Sugar Beets in alien soil.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118225</GUID>
+			<Text>Hybrid Sugar Beet Seeds</Text>
+		</Text>
+		<Text>
+			<GUID>2100118226</GUID>
+			<Text>Hieronymus Hess, Pioneer of Beet Distillation</Text>
+		</Text>
+		<Text>
+			<GUID>2100118227</GUID>
+			<Text>While Napoleon's continental blockade at the beginning of the century caused a shortage of colonial goods and led to the cultivation of native sugar beets, Hess soon made a name for himself with their use in rum production. After the end of the blockade, no one wanted to know anything about rum made from sugar beet and so he ended up in the New World, where he has been distilling sugar beet instead of sugar cane ever since, unnoticed.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118228</GUID>
+			<Text>Frid Jacobson, Professional Fermenter</Text>
+		</Text>
+		<Text>
+			<GUID>2100118229</GUID>
+			<Text>Multi-talented and a luminary in the field of organic chemistry. In addition to well-paid positions in industrial companies, he knows how to successfully present his work not only to a small specialist audience, but also to the general public. His book series on the subject of “Fermentation for domestic use” is a long-running favorite.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118230</GUID>
+			<Text>Willy Wonka, Magical Chocolate Manufacturer</Text>
+		</Text>
+		<Text>
+			<GUID>2100118231</GUID>
+			<Text>“No other factory in the world mixes its chocolate by waterfall… But it's the only way if you want it just right.”</Text>
+		</Text>
+		<Text>
+			<GUID>2100118232</GUID>
+			<Text>GG_item</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118233</GUID>
+			<Text>GG_package</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118234</GUID>
+			<Text>Longbottom's Variable Sugar Press</Text>
+		</Text>
+		<Text>
+			<GUID>2100118235</GUID>
+			<Text>A tool that can be installed and removed quickly and easily for optimized crushing and pressing of sugar cane.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118236</GUID>
+			<Text>Buff buildings within radius.</Text>
+		</Text>
+		<Text>
+			<GUID>2100118237</GUID>
+			<Text>&lt;b&gt;Beta vulgaris&lt;/b&gt; These seeds have been adapted to grow in a very wide range of soils, and with increased Sugar Beets yield!</Text>
+		</Text>
+		<Text>
+			<GUID>2100118238</GUID>
+			<Text>InfoTip Cattle Farm OW (construction menu)</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118239</GUID>
+			<Text>Unlock Pastures Creative Mode</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118240</GUID>
+			<Text>Land Reform Act Buff</Text> <!-- no translation needed -->
+		</Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,2015 @@
+<!-- 21 legendary Items -->
+
+<ModOps>
+
+  <!-- # Add new Item Bonny and Clyde-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>TownhallItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119190</GUID>
+          <Name>Bonny and Clyde</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/Bonny_Clyde_0.png</IconFilename>
+          <InfoDescription>2100119170</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>666000</TradePrice>
+          <TradePriceOnlineCurrency>500</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>190041</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <BuildingUpgrade />
+        <PopulationUpgrade />
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>35</Amount>
+            </Item>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Attribute>Melee</Attribute>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkHypnotist</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item />
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2100119170</FluffText>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade>
+          <AdditionalHappiness>-30</AdditionalHappiness>
+        </ResidenceUpgrade>
+        <VisitorHarborUpgrade />
+        <CultureUpgrade />
+        <IncidentInfectableUpgrade>
+          <IncidentIllnessIncreaseUpgrade>
+            <Value>5</Value>
+          </IncidentIllnessIncreaseUpgrade>
+          <IncidentRiotIncreaseUpgrade>
+            <Value>50</Value>
+          </IncidentRiotIncreaseUpgrade>
+        </IncidentInfectableUpgrade>
+        <IncidentInfluencerUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <VisualEffectWhenActive />
+        <FactoryUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Item Cornelius Vanderbilt-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119191</GUID>
+          <Name>Cornelius Vanderbilt</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/Cornelius_Vanderbilt_0.png</IconFilename>
+          <InfoDescription>2100119171</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>900000</TradePrice>
+          <TradePriceOnlineCurrency>500</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1500011901</GUID>
+            </Item>
+            <Item>
+              <GUID>1500200682</GUID>
+            </Item>
+            <Item>
+              <GUID>1500301946</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010218</Product>
+              <AdditionalOutputCycle>4</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1010224</Product>
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1010223</Product>
+              <AdditionalOutputCycle>10</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>-60</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <PopulationUpgrade />
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>35</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>45</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2100119171</FluffText>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade />
+        <VisitorHarborUpgrade />
+        <CultureUpgrade />
+        <IncidentInfectableUpgrade />
+        <IncidentInfluencerUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <VisualEffectWhenActive />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Item Charles Lloyd Rockateller-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119192</GUID>
+          <Name>Charles Lloyd Rockateller</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/Charles_Rockateller_0.png</IconFilename>
+          <InfoDescription>2100119172</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>800000</TradePrice>
+          <TradePriceOnlineCurrency>350</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>135669</GUID>
+            </Item>
+            <Item>
+              <GUID>135407</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>60</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>133532</Product>
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>135150</OldInput>
+              <NewInput>1010242</NewInput>
+            </Item>
+          </ReplaceInputs>
+        </FactoryUpgrade>
+        <BuildingUpgrade />
+        <PopulationUpgrade />
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>30</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2100119172</FluffText>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade />
+        <VisitorHarborUpgrade />
+        <CultureUpgrade />
+        <IncidentInfectableUpgrade />
+        <IncidentInfluencerUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <VisualEffectWhenActive />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Item Prof Linus Liquicious-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119193</GUID>
+          <Name>Prof Linus Liquicious</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/Prof_Linus_Liquicious_0.png</IconFilename>
+          <InfoDescription>2100119173</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>750000</TradePrice>
+          <TradePriceOnlineCurrency>300</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1500200672</GUID>
+            </Item>
+            <Item>
+              <GUID>1500200679</GUID>
+            </Item>
+            <Item>
+              <GUID>135418</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>40</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>135234</Product>
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1010257</Product>
+              <AdditionalOutputCycle>7</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>135130</Product>
+              <AdditionalOutputCycle>7</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1010216</Product>
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>6600</Product>
+              <AdditionalOutputCycle>9</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <BuildingUpgrade />
+        <PopulationUpgrade />
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>45</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>50</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2100119173</FluffText>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade />
+        <VisitorHarborUpgrade />
+        <CultureUpgrade />
+        <IncidentInfectableUpgrade />
+        <IncidentInfluencerUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <VisualEffectWhenActive />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Item Dewey Hasselbay, the Human Amphibian-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119194</GUID>
+          <Name>Dewey Hasselbay, the human Amphibian</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/Dewey_Hasselbay_0.png</IconFilename>
+          <InfoDescription>2100119174</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>810000</TradePrice>
+          <TradePriceOnlineCurrency>300</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1010278</GUID>
+            </Item>
+            <Item>
+              <GUID>118729</GUID>
+            </Item>
+            <Item>
+              <GUID>101262</GUID>
+            </Item>
+            <Item>
+              <GUID>1500301936</GUID>
+            </Item>
+            <Item>
+              <GUID>7919</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>35</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010200</Product>
+              <AdditionalOutputCycle>5</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>118728</Product>
+              <AdditionalOutputCycle>5</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1010256</Product>
+              <AdditionalOutputCycle>5</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>5380</Product>
+              <AdditionalOutputCycle>5</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <BuildingUpgrade />
+        <PopulationUpgrade />
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>35</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2100119174</FluffText>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade />
+        <VisitorHarborUpgrade />
+        <CultureUpgrade>
+          <AttractivenessUpgrade>
+            <Value>10</Value>
+          </AttractivenessUpgrade>
+        </CultureUpgrade>
+        <IncidentInfectableUpgrade />
+        <IncidentInfluencerUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <VisualEffectWhenActive />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="2100119194" Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010278']" Condition="#IndustrializedLowTierProductionFishery">
+    <Item>
+      <GUID>1404423000</GUID>
+    </Item>
+  </ModOp>
+
+  <!-- # Add new Item Frank Stone, the butcher-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119195</GUID>
+          <Name>Frank Stone the butcher</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/Frank_Stone_0.png</IconFilename>
+          <InfoDescription>2100119175</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>930000</TradePrice>
+          <TradePriceOnlineCurrency>300</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1500200674</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010193</Product>
+              <AdditionalOutputCycle>4</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>1010215</Product>
+              <AdditionalOutputCycle>5</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>114359</Product>
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>112705</Product>
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <BuildingUpgrade>
+          <ReplacingWorkforce>1010052</ReplacingWorkforce>
+          <WorkforceAmountUpgrade>
+            <Value>20</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <PopulationUpgrade />
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>45</Amount>
+            </Item>
+            <Item>
+              <Attribute>Melee</Attribute>
+              <Amount>45</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2100119175</FluffText>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade />
+        <VisitorHarborUpgrade />
+        <CultureUpgrade>
+          <AttractivenessUpgrade>
+            <Value>-2</Value>
+          </AttractivenessUpgrade>
+        </CultureUpgrade>
+        <IncidentInfectableUpgrade />
+        <IncidentInfluencerUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <VisualEffectWhenActive />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Item Priscilla Lovetroy-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>TownhallItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119196</GUID>
+          <Name>Priscilla Lovetroy</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/Priscilla_Lovetroy_0.png</IconFilename>
+          <InfoDescription>2100119176</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>690000</TradePrice>
+          <TradePriceOnlineCurrency>400</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>190041</GUID>
+            </Item>
+            <Item>
+              <GUID>1010361</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <BuildingUpgrade>
+          <PublicServiceFullSatisfactionDistance>
+            <Value>30</Value>
+            <Percental>1</Percental>
+          </PublicServiceFullSatisfactionDistance>
+          <PublicServiceNoSatisfactionDistance>
+            <Value>30</Value>
+            <Percental>1</Percental>
+          </PublicServiceNoSatisfactionDistance>
+          <MaintenanceUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </MaintenanceUpgrade>
+        </BuildingUpgrade>
+        <PopulationUpgrade />
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkHypnotist</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item />
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2100119176</FluffText>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade>
+          <NeedProvideNeedUpgrade>
+            <Item>
+              <ProvidedNeed>1010350</ProvidedNeed>
+              <SubstituteNeed>1010352</SubstituteNeed>
+            </Item>
+            <Item>
+              <ProvidedNeed>1010257</ProvidedNeed>
+              <SubstituteNeed>1010352</SubstituteNeed>
+            </Item>
+          </NeedProvideNeedUpgrade>
+          <AdditionalHappiness>10</AdditionalHappiness>
+        </ResidenceUpgrade>
+        <VisitorHarborUpgrade />
+        <CultureUpgrade />
+        <IncidentInfectableUpgrade />
+        <IncidentInfluencerUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <VisualEffectWhenActive />
+        <FactoryUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Item W.H. Twain, the first Gold digger-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119197</GUID>
+          <Name>W. H. Twain</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/W_Twain_0.png</IconFilename>
+          <InfoDescription>2100119177</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>750000</TradePrice>
+          <TradePriceOnlineCurrency>300</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>190786</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>112523</Product>
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>115980</Product>
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>30</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <PopulationUpgrade />
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>40</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2100119177</FluffText>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade />
+        <VisitorHarborUpgrade />
+        <CultureUpgrade />
+        <IncidentInfectableUpgrade>
+          <IncidentExplosionIncreaseUpgrade>
+            <Value>-5</Value>
+          </IncidentExplosionIncreaseUpgrade>
+        </IncidentInfectableUpgrade>
+        <IncidentInfluencerUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <VisualEffectWhenActive />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Item Sir Abraham Woolsworth-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119198</GUID>
+          <Name>Sir Abraham Woolsworth</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/Abraham_Woolsworth_0.png</IconFilename>
+          <InfoDescription>2100119178</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>850000</TradePrice>
+          <TradePriceOnlineCurrency>400</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1010289</GUID>
+            </Item>
+            <Item>
+              <GUID>6629</GUID>
+            </Item>
+            <Item>
+              <GUID>5879</GUID>
+            </Item>
+            <Item>
+              <GUID>1500300076</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010255</Product>
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <BuildingUpgrade />
+        <PopulationUpgrade />
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>50</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2100119178</FluffText>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade />
+        <VisitorHarborUpgrade />
+        <CultureUpgrade />
+        <IncidentInfectableUpgrade />
+        <IncidentInfluencerUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <VisualEffectWhenActive />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Item Tuvalu Mbesa, the Special Pipe Maker-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119199</GUID>
+          <Name>Tuvalu Mbesa</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/Tuvalu_Mbesa_0.png</IconFilename>
+          <InfoDescription>2100119179</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>400000</TradePrice>
+          <TradePriceOnlineCurrency>100</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1010342</GUID>
+            </Item>
+            <Item>
+              <GUID>114472</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>114364</Product>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>1010252</OldInput>
+              <NewInput>114364</NewInput>
+            </Item>
+          </ReplaceInputs>
+        </FactoryUpgrade>
+        <BuildingUpgrade />
+        <PopulationUpgrade />
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>50</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2100119179</FluffText>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade />
+        <VisitorHarborUpgrade />
+        <CultureUpgrade />
+        <IncidentInfectableUpgrade />
+        <IncidentInfluencerUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <VisualEffectWhenActive />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Ironbrights Torpedo (Projectile and Item)-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>ExplodingProjectile</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119200</GUID>
+          <Name>TorpedoProjectile_D</Name>
+        </Standard>
+        <Projectile>
+          <ShotHeight>0.5</ShotHeight>
+          <ProjectileSpeed>4.5</ProjectileSpeed>
+          <DamageType>Torpedo</DamageType>
+        </Projectile>
+        <Mesh />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/effects/military/projectiles/projectile_torpedo_02.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Exploder>
+          <InnerDamageRadius>4</InnerDamageRadius>
+          <InnerDamage>7000</InnerDamage>
+          <DebrisForceY>0</DebrisForceY>
+          <DebrisCount>0</DebrisCount>
+          <OuterDamageRadius>6</OuterDamageRadius>
+          <MinimumDamage>5000</MinimumDamage>
+        </Exploder>
+        <SoundEmitter>
+          <ProjectileSounds>
+            <ProjectileLaunch>
+              <Item>
+                <Sound>235861</Sound>
+              </Item>
+            </ProjectileLaunch>
+            <ProjectileImpact>
+              <Item>
+                <Sound>235860</Sound>
+              </Item>
+            </ProjectileImpact>
+          </ProjectileSounds>
+        </SoundEmitter>
+        <UpgradeList />
+        <ProjectileIncident />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ItemSpecialAction</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119201</GUID>
+          <Name>Ironbrights Torpedo</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/Ironbrights_Torpedo_1.png</IconFilename>
+          <InfoDescription>2100119181</InfoDescription>
+        </Standard>
+        <SpecialAction>
+          <MouseEffect>140112</MouseEffect>
+          <Projectile>2100119200</Projectile>
+        </SpecialAction>
+        <ItemEffect />
+        <ItemAction>
+          <ActionTarget>501575</ActionTarget>
+          <ActionDistance>180</ActionDistance>
+          <IsDestroyedAfterCooldown>1</IsDestroyedAfterCooldown>
+          <Charges>3</Charges>
+          <ActionDuration>1000</ActionDuration>
+          <ActiveBuff>193240</ActiveBuff>
+          <ActionDescription>22097</ActionDescription>
+          <CanEndItemAction>0</CanEndItemAction>
+          <StopMovementOnInteraction>0</StopMovementOnInteraction>
+        </ItemAction>
+        <Item>
+          <Allocation>Warship</Allocation>
+          <MaxStackSize>5</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <HasAction>1</HasAction>
+          <TradePrice>100000</TradePrice>
+        </Item>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Might</Attribute>
+              <Amount>20</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Average;Hard</ItemDifficulties>
+          <FluffText>2100119181</FluffText>
+        </ExpeditionAttribute>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <CraftableItem />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Blackbeards Pirate Flag-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>ActiveItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119202</GUID>
+          <Name>Blackbeards Captain Flag</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/Blackbeards_Flag_0.png</IconFilename>
+          <InfoDescription>2100119182</InfoDescription>
+        </Standard>
+        <Item>
+          <Allocation>Warship</Allocation>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <HasAction>1</HasAction>
+          <ExclusiveGroup>Flag</ExclusiveGroup>
+          <TradePrice>970000</TradePrice>
+        </Item>
+        <Cost />
+        <ItemAction>
+          <ActionDistance>20</ActionDistance>
+          <RepairSpeed>10</RepairSpeed>
+          <ActionCooldown>600000</ActionCooldown>
+          <ActionDuration>600000</ActionDuration>
+          <ActiveBuff>192175</ActiveBuff>
+          <ActionDescription>20071</ActionDescription>
+          <CanEndItemAction>0</CanEndItemAction>
+        </ItemAction>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Melee</Attribute>
+              <Amount>35</Amount>
+            </Item>
+            <Item>
+              <Attribute>Might</Attribute>
+              <Amount>35</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2100119182</FluffText>
+        </ExpeditionAttribute>
+        <SpecialAction />
+        <Locked />
+        <CraftableItem />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Item Wang Mingzuo, Guardian of the fortune cookies-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119203</GUID>
+          <Name>Wang Mingzuo</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/Wang_Mingzuo_0.png</IconFilename>
+          <InfoDescription>2100119183</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>820000</TradePrice>
+          <TradePriceOnlineCurrency>370</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>133533</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>100</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>1010241</OldInput>
+              <NewInput>135229</NewInput>
+            </Item>
+            <Item>
+              <OldInput>1010253</OldInput>
+              <NewInput>117702</NewInput>
+            </Item>
+            <Item>
+              <OldInput>134616</OldInput>
+              <NewInput>1010226</NewInput>
+            </Item>
+          </ReplaceInputs>
+          <AdditionalOutput>
+            <Item>
+              <Product>135229</Product>
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <BuildingUpgrade />
+        <PopulationUpgrade />
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>40</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2100119183</FluffText>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade />
+        <VisitorHarborUpgrade />
+        <CultureUpgrade />
+        <IncidentInfectableUpgrade />
+        <IncidentInfluencerUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <VisualEffectWhenActive />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Item Lord Coulter McBain-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119204</GUID>
+          <Name>Lord Coulter McBain</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/Coulter_McBain_0.png</IconFilename>
+          <InfoDescription>2100119184</InfoDescription>
+        </Standard>
+        <Item>
+          <Allocation>Lodge</Allocation>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>1000000</TradePrice>
+          <TradePriceOnlineCurrency>400</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1500301944</GUID>
+            </Item>
+            <Item>
+              <GUID>114703</GUID>
+            </Item>
+            <Item>
+              <GUID>114705</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <NeededAreaPercentUpgrade>
+            <Value>-30</Value>
+          </NeededAreaPercentUpgrade>
+          <AddedFertility>114236</AddedFertility>
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>-40</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <PopulationUpgrade />
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Attribute>Melee</Attribute>
+              <Amount>50</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2100119184</FluffText>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade />
+        <VisitorHarborUpgrade />
+        <CultureUpgrade />
+        <IncidentInfectableUpgrade />
+        <IncidentInfluencerUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <VisualEffectWhenActive />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Item Dakota Earp, King of the Cattle Trails-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119205</GUID>
+          <Name>Dakota Earp</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/Dakota_Earp_0.png</IconFilename>
+          <InfoDescription>2100119185</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>745000</TradePrice>
+          <TradePriceOnlineCurrency>300</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>193958</GUID>
+            </Item>
+            <Item>
+              <GUID>114439</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>114428</Product>
+              <AdditionalOutputCycle>5</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>-50</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <ModuleOwnerUpgrade>
+          <ModuleLimitPercent>-60</ModuleLimitPercent>
+        </ModuleOwnerUpgrade>
+        <PopulationUpgrade />
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Attribute>Melee</Attribute>
+              <Amount>50</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2100119185</FluffText>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade />
+        <VisitorHarborUpgrade />
+        <CultureUpgrade />
+        <IncidentInfectableUpgrade />
+        <IncidentInfluencerUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <VisualEffectWhenActive />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Item James Carson Hickock, Chief Marshal Commissioner-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>HarborOfficeItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119206</GUID>
+          <Name>James Carson Hickock</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/James_Hickock_0.png</IconFilename>
+          <InfoDescription>2100119186</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>980000</TradePrice>
+          <TradePriceOnlineCurrency>450</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>193480</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>50</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>113801</FluffText>
+        </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade />
+        <AttackerUpgrade />
+        <VisitorHarborUpgrade />
+        <PassiveTradeGoodGenUpgrade>
+          <GenProbability>40</GenProbability>
+          <GenPool>2100119186</GenPool>
+        </PassiveTradeGoodGenUpgrade>
+        <ShipyardUpgrade />
+        <Locked />
+        <AttackableUpgrade />
+        <ProjectileUpgrade />
+        <IncidentInfectableUpgrade />
+        <VehicleUpgrade />
+        <RepairCraneUpgrade />
+        <KontorUpgrade />
+        <CraftableItem />
+        <PierUpgrade>
+          <PierSpeedUpgrade>
+            <Value>100</Value>
+            <Percental>1</Percental>
+          </PierSpeedUpgrade>
+        </PierUpgrade>
+        <WarehouseUpgrade />
+        <ItemContainerUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Add associated Reward Pool-->
+  <ModOp Type="addNextSibling" GUID="193483">
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119207</GUID>
+          <Name>Crown Bay Goods</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>135230</ItemLink>
+              <MinAmount>10</MinAmount>
+              <MaxAmount>10</MaxAmount>
+              <Weight>20</Weight>
+            </Item>
+            <Item>
+              <ItemLink>135234</ItemLink>
+              <MinAmount>10</MinAmount>
+              <MaxAmount>10</MaxAmount>
+              <Weight>20</Weight>
+            </Item>
+            <Item>
+              <ItemLink>114414</ItemLink>
+              <MinAmount>10</MinAmount>
+              <MaxAmount>10</MaxAmount>
+              <Weight>20</Weight>
+            </Item>
+            <Item>
+              <ItemLink>120032</ItemLink>
+              <MinAmount>10</MinAmount>
+              <MaxAmount>10</MaxAmount>
+              <Weight>20</Weight>
+            </Item>
+            <Item>
+              <ItemLink>1010258</ItemLink>
+              <MinAmount>10</MinAmount>
+              <MaxAmount>10</MaxAmount>
+              <Weight>20</Weight>
+            </Item>
+          </ItemsPool>
+          <GenerateUniqueRewards>0</GenerateUniqueRewards>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Item Makataime "Black Eagle" Shekiakiak-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119208</GUID>
+          <Name>Makataime Shekiakiak</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/Makataime_Shekiakiak_0.png</IconFilename>
+          <InfoDescription>2100119188</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>840000</TradePrice>
+          <TradePriceOnlineCurrency>350</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>190865</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>65</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>-50</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <ModuleOwnerUpgrade>
+          <ModuleLimitPercent>-50</ModuleLimitPercent>
+        </ModuleOwnerUpgrade>
+        <PopulationUpgrade />
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>50</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2100119188</FluffText>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade />
+        <VisitorHarborUpgrade />
+        <CultureUpgrade />
+        <IncidentInfectableUpgrade />
+        <IncidentInfluencerUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <VisualEffectWhenActive />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Item Saint of the Death-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>VehicleItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119209</GUID>
+          <Name>Saint of the Death</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/Saint_of_the_Death_0.png</IconFilename>
+          <InfoDescription>2100119189</InfoDescription>
+        </Standard>
+        <Item>
+          <Allocation>Warship</Allocation>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ExclusiveGroup>Canons</ExclusiveGroup>
+          <TradePrice>1666666</TradePrice>
+        </Item>
+        <Cost />
+        <VehicleUpgrade />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Might</Attribute>
+              <Amount>100</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2100119189</FluffText>
+        </ExpeditionAttribute>
+        <AttackerUpgrade>
+          <BaseDamageUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </BaseDamageUpgrade>
+          <AttackRangeUpgrade>
+            <Value>30</Value>
+            <Percental>1</Percental>
+          </AttackRangeUpgrade>
+          <ReloadTimeUpgrade>
+            <Value>-90</Value>
+            <Percental>1</Percental>
+          </ReloadTimeUpgrade>
+          <AttackSpeedUpgrade>400</AttackSpeedUpgrade>
+        </AttackerUpgrade>
+        <AttackableUpgrade />
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <TradeShipUpgrade />
+        <CraftableItem />
+        <DivingBellUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Item Omar Al Zahir-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>TownhallItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119169</GUID>
+          <Name>Omar Al Zahir</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/Omar_Zahir_0.png</IconFilename>
+          <InfoDescription>2100119149</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>830000</TradePrice>
+          <TradePriceOnlineCurrency>400</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194018</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <BuildingUpgrade />
+        <PopulationUpgrade />
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkHypnotist</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item />
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2100119149</FluffText>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade>
+          <NeedProvideNeedUpgrade>
+            <Item>
+              <ProvidedNeed>135229</ProvidedNeed>
+              <SubstituteNeed>1010355</SubstituteNeed>
+            </Item>
+          </NeedProvideNeedUpgrade>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>120032</ProvidedNeed>
+              <AmountInPercent>-50</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+          <AdditionalHappiness>10</AdditionalHappiness>
+        </ResidenceUpgrade>
+        <VisitorHarborUpgrade />
+        <CultureUpgrade />
+        <IncidentInfectableUpgrade />
+        <IncidentInfluencerUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <VisualEffectWhenActive />
+        <FactoryUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Item Samuel Montgomery Lincoln-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>TownhallItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119168</GUID>
+          <Name>Samuel Montgomery Lincoln</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/Samuel_Lincoln_0.png</IconFilename>
+          <InfoDescription>2100119148</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>870000</TradePrice>
+          <TradePriceOnlineCurrency>400</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>26030</GUID>
+            </Item>
+            <Item>
+              <GUID>1500301950</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <BuildingUpgrade />
+        <PopulationUpgrade />
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkHypnotist</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item />
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2100119148</FluffText>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade>
+          <NeedProvideNeedUpgrade>
+            <Item>
+              <ProvidedNeed>120037</ProvidedNeed>
+              <SubstituteNeed>1010348</SubstituteNeed>
+            </Item>
+            <Item>
+              <ProvidedNeed>1010259</ProvidedNeed>
+              <SubstituteNeed>1010348</SubstituteNeed>
+            </Item>
+            <Item>
+              <ProvidedNeed>1010214</ProvidedNeed>
+              <SubstituteNeed>1010348</SubstituteNeed>
+            </Item>
+            <Item>
+              <ProvidedNeed>1010257</ProvidedNeed>
+              <SubstituteNeed>1010348</SubstituteNeed>
+            </Item>
+            <Item>
+              <ProvidedNeed>6600</ProvidedNeed>
+              <SubstituteNeed>1010348</SubstituteNeed>
+            </Item>
+          </NeedProvideNeedUpgrade>
+          <GoodConsumptionUpgrade />
+          <AdditionalHappiness>10</AdditionalHappiness>
+        </ResidenceUpgrade>
+        <VisitorHarborUpgrade />
+        <CultureUpgrade />
+        <IncidentInfectableUpgrade />
+        <IncidentInfluencerUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <VisualEffectWhenActive />
+        <FactoryUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Item Tatsumi Yamazaki-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>TownhallItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119167</GUID>
+          <Name>Tatsumi Yamazaki</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/Tatsumi_Yamazaki_0.png</IconFilename>
+          <InfoDescription>2100119147</InfoDescription>
+        </Standard>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <TradePrice>890000</TradePrice>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>114445</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <BuildingUpgrade />
+        <PopulationUpgrade>
+          <ResidentsUpgrade>
+            <Value>30</Value>
+            <Percental>1</Percental>
+          </ResidentsUpgrade>
+          <InputBenefitModifier>
+            <Item>
+              <Product>1010353</Product>
+              <AdditionalSupply>36</AdditionalSupply>
+              <AdditionalHappiness>10</AdditionalHappiness>
+              <AdditionalResearch>4</AdditionalResearch>
+            </Item>
+          </InputBenefitModifier>
+        </PopulationUpgrade>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>10</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>70</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <FluffText>2100119147</FluffText>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>114431</ProvidedNeed>
+              <AmountInPercent>-70</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed>1010257</ProvidedNeed>
+              <AmountInPercent>-40</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+        </ResidenceUpgrade>
+        <VisitorHarborUpgrade />
+        <CultureUpgrade />
+        <IncidentInfectableUpgrade />
+        <IncidentInfluencerUpgrade />
+        <Locked>
+          <DLCDependency>410071</DLCDependency>
+        </Locked>
+        <Buff />
+        <CraftableItem />
+        <VisualEffectWhenActive />
+        <FactoryUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Create new Itempool Specialists-->
+  <ModOp Type="addNextSibling" GUID="22676">
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119160</GUID>
+          <Name>SpecialistsGuildhouse</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool></ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="22676">
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119162</GUID>
+          <Name>SpecialistsTownhall</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool></ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Create new Itempool Consumables-->
+  <ModOp Type="addNextSibling" GUID="22676">
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119161</GUID>
+          <Name>Consumables</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool></ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Specialists-Itempool Guildhouse to existing Itempools with weight 2-->
+  <ModOp Type="add" GUID="192909,193211,192502,193527,193594,190982,190983,193963,193234,192975,193069" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>2100119160</ItemLink>
+      <Weight>2</Weight>
+    </Item>
+  </ModOp>
+
+  <!-- # Add new Specialists-Itempool Townhall to existing Itempools with weight 2-->
+  <ModOp Type="add" GUID="192909,193211,192502,193527,193594,190982,190983,192752,193234,192975,193069,192850" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>2100119162</ItemLink>
+      <Weight>2</Weight>
+    </Item>
+  </ModOp>
+
+  <!-- # Add new Consumables-Itempool to existing Itempools without weight -->
+  <ModOp Type="add" GUID="192717,192727,192707,192882,192599,190984,193005,193527,193594,192502,193211" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>2100119161</ItemLink>
+    </Item>
+  </ModOp>
+
+  <!-- # Add new Items to new Specialists-Itempool Guildhouse-->
+  <ModOp Type="add" GUID="2100119160" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>2100119191</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119192</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119193</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119194</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119195</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119197</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119198</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119199</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119203</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119204</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119205</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119206</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119208</ItemLink>
+    </Item>
+  </ModOp>
+
+  <!-- # Add new Items to new Specialists-Itempool Townhall-->
+  <ModOp Type="add" GUID="2100119162" Path="/Values/RewardPool/ItemsPool">
+
+    <Item>
+      <ItemLink>2100119190</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119196</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119169</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119168</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119167</ItemLink>
+    </Item>
+  </ModOp>
+
+  <!-- # Add new Items to new Consumables-Itempool-->
+  <ModOp Type="add" GUID="2100119161" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>2100119201</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119202</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119209</ItemLink>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="130172" Path="/Values/AssetPool/AssetList">
+    <Item>
+      <Asset>2100119190</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119191</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119192</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119193</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119194</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119195</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119196</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119197</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119198</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119199</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119201</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119202</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119203</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119204</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119205</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119206</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119208</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119209</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119169</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119168</Asset>
+    </Item>
+    <Item>
+      <Asset>2100119167</Asset>
+    </Item>
+
+  </ModOp>
+
+  <!-- # Reset Trigger for new Items; 130218 includes 130172 which includes the items-->
+  <ModOp Type="addNextSibling" GUID="130218">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119153</GUID>
+          <Name>Rerun TriggerItems Intermediate moderate 3.2</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000002</Context>
+                <CounterAmount>500</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionRegisterTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionRegisterTrigger>
+                    <TriggerAsset>130218</TriggerAsset>
+                  </ActionRegisterTrigger>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
+</ModOps>

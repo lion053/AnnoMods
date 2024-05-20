@@ -1,0 +1,137 @@
+<ModOps>
+
+ <!-- Asset List -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<GUID>2100115500</GUID>
+			<Text>火车装饰</Text>
+		</Text>
+		<Text>
+			<GUID>2100115501</GUID>
+			<Text>货运机车：车头</Text>
+		</Text>	
+		<Text>
+			<GUID>2100115502</GUID>
+			<Text>载客车厢：车尾</Text>
+		</Text>
+		<Text>
+			<GUID>2100115503</GUID>
+			<Text>装饰你的工业区</Text>
+		</Text>
+		<Text>
+			<GUID>2100115504</GUID>
+			<Text>增加附近仓库的存储容量</Text>
+		</Text>
+		<Text>
+			<GUID>2100115505</GUID>
+			<Text>Buff：火车</Text>
+		</Text>
+		<Text>
+			<GUID>2100115506</GUID>
+			<Text>装饰用旅客列车</Text>
+		</Text>
+		<Text>
+			<GUID>2100115507</GUID>
+			<Text>如何解决拥堵的街道？你们的工程师确信这就是答案……</Text>
+		</Text>
+		<Text>
+			<GUID>2100115508</GUID>
+			<Text>载货车厢：天然气瓶</Text>
+		</Text>
+		<Text>
+			<GUID>2100115509</GUID>
+			<Text>载货车厢：杂货</Text>
+		</Text>
+		<Text>
+			<GUID>2100115510</GUID>
+			<Text>载货车厢：红砖</Text>
+		</Text>
+		<Text>
+			<GUID>2100115511</GUID>
+			<Text>载货车厢：有棚</Text>
+		</Text>
+		<Text>
+			<GUID>2100115512</GUID>
+			<Text>载货车厢：载煤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115513</GUID>
+			<Text>载货车厢：油罐</Text>
+		</Text>
+		<Text>
+			<GUID>2100115514</GUID>
+			<Text>载货车厢：原木</Text>
+		</Text>
+		<Text>
+			<GUID>2100115515</GUID>
+			<Text>载客车厢：中间车</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115516</GUID>
+			<Text>Unlock</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115517</GUID>
+			<Text>Steampunk Skin</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115518</GUID>
+			<Text>Steampunk Skin</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115519</GUID>
+			<Text>Steampunk Skin</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115520</GUID>
+			<Text>Steampunk Skin</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115521</GUID>
+			<Text>Steampunk Skin</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115522</GUID>
+			<Text>Steampunk Skin</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115523</GUID>
+			<Text>Steampunk Skin</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115524</GUID>
+			<Text>Steampunk Skin</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115525</GUID>
+			<Text>Steampunk Skin</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115526</GUID>
+			<Text>Steampunk Skin</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100115527</GUID>
+			<Text /> <!-- no translation needed -->
+		</Text>
+		<Text>  <!-- TODO translation -->  <!-- no translation needed -->
+			<GUID>2100115528</GUID>
+			<Text>&lt;font size="32"&gt;&lt;b &gt;Ornamental Trains (Lion053)&lt;/b &gt;&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;&lt;b &gt;Changelog v1.4&lt;/b &gt; &lt;br/&gt;&lt;br/&gt;- Add a steampunk skin for all trains. Use the skin painter tool from your tool bar or select any ornamental train and choose the skin in the UI.&lt;br/&gt;&lt;br/&gt;- Reduced vertex count of barely visible mesh parts&lt;br/&gt;&lt;br/&gt;- Add Chinese translation, thanks to hanthe2th!</Text>
+		</Text>
+
+  </ModOp>
+
+</ModOps>

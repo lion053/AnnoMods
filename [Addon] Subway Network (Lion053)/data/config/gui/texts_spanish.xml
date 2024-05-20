@@ -1,0 +1,1639 @@
+<ModOps>
+
+ <!-- Guids in ascending order -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<GUID>2100115000</GUID>
+			<Text>Modulo de fábrica de metro</Text>
+		</Text>
+		<Text>
+			<GUID>2100115001</GUID>
+			<Text>Buffs the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Subway Factory&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115002</GUID>
+			<Text>Entrada de la fábrica</Text>
+		</Text>
+		<Text>
+			<GUID>2100115003</GUID>
+			<Text>Puerta central de la fábrica, para empleados y transporte logístico. Incrementa la seguridad y protección. ¿Trabajadores ebrios? son enviados a casa desde esta puerta. ¿Espías industriales? ni soñando.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115004</GUID>
+			<Text>Oficinas administrativas</Text>
+		</Text>
+		<Text>
+			<GUID>2100115005</GUID>
+			<Text>Oficinas bien iluminadas para aquellas tareas administrativas que toda gran fábrica necesita. No se te olvide saludar al jefe cuando te cruces con él.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115006</GUID>
+			<Text>Desarrollo y prueba de manteriales</Text>
+		</Text>
+		<Text>
+			<GUID>2100115007</GUID>
+			<Text>Más ligero, más fuerte, más barato. Tus ingenieros se encontrarán probando e investigando sobre los materiales que utilizas.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115008</GUID>
+			<Text>Pala grúa</Text>
+		</Text>
+		<Text>
+			<GUID>2100115009</GUID>
+			<Text>Carga y descarga constantemente material a granel. La mejora fue impulsada por el comité de salud laboral para mejorar las condiciones laborales.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115010</GUID>
+			<Text>Puente transportador</Text>
+		</Text>
+		<Text>
+			<GUID>2100115011</GUID>
+			<Text>Donde los bienes producidos son trasladados de un punto a otro en el taller.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115012</GUID>
+			<Text>Edificio de Conexión</Text>
+		</Text>
+		<Text>
+			<GUID>2100115013</GUID>
+			<Text>Espacio adicional para labores logísticas, de mantenimiento y auxiliares de cualquier tipo.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115014</GUID>
+			<Text>Edificio de conexión a la calle</Text>
+		</Text>
+		<Text>
+			<GUID>2100115015</GUID>
+			<Text>Espacio adicional para labores logísticas, de mantenimiento y auxiliares de cualquier tipo.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115016</GUID>
+			<Text>Fabrica de cableado</Text>
+		</Text>
+		<Text>
+			<GUID>2100115017</GUID>
+			<Text>Unhide Menu</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115018</GUID>
+			<Text>Planta de ensamblaje de motores</Text>
+		</Text>
+		<Text>
+			<GUID>2100115019</GUID>
+			<Text>Unlock Newspaper Panel of Experts</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115020</GUID>
+			<Text>Prensa para planchas metálicas</Text>
+		</Text>
+		<Text>
+			<GUID>2100115021</GUID>
+			<Text>Los procesos modernos de planchado en frío garantizan una alta precisión dimensional, y por tanto, una buena cobertura para tus trenes.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115022</GUID>
+			<Text>Chimenea grande</Text>
+		</Text>
+		<Text>
+			<GUID>2100115023</GUID>
+			<Text>Esta chimenea lanza partículas de hollín al aire muy por encima de los tejados de tu ciudad. Sin embargo no es un espectáculo agradable para sus habitantes.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115024</GUID>
+			<Text>Transportador subterráneo</Text>
+		</Text>
+		<Text>
+			<GUID>2100115025</GUID>
+			<Text>Donde los vagones de metro son transportados de un punto a otro.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115026</GUID>
+			<Text>Torre de conexión</Text>
+		</Text>
+		<Text>
+			<GUID>2100115027</GUID>
+			<Text>Espacio adicional para labores logísticas, de mantenimiento y auxiliares de cualquier tipo.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115028</GUID>
+			<Text>Puente de conexión recto</Text>
+		</Text>
+		<Text>
+			<GUID>2100115029</GUID>
+			<Text>Las mercancias pueden ser transportadas de manera fácil y rápida entre edificios, y las emisiones están totalmente protegidas desde el exterior.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115030</GUID>
+			<Text>esquina de puente de conexión</Text>
+		</Text>
+		<Text>
+			<GUID>2100115031</GUID>
+			<Text>Las mercancias pueden ser transportadas de manera fácil y rápida entre edificios, y las emisiones están totalmente protegidas desde el exterior.</Text>
+		</Text>
+		<Text>
+  			<GUID>2100115032</GUID>
+  			<Text>Produce bienes y mejora la &lt;font overrideTextColor="true" color='#41dcd7'&gt;Fábrica del Metro&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115033</GUID>
+			<Text>Almacén</Text>
+		</Text>
+		<Text>
+			<GUID>2100115034</GUID>
+			<Text>Hojas metálicas</Text>
+		</Text>
+		<Text>
+  			<GUID>2100115035</GUID>
+  			<Text>Requiere insumos para mejorar la &lt;font overrideTextColor="true" color='#41dcd7'&gt;Fábrica del Metro&lt;/font&gt;, &lt;font overrideTextColor="true" color='#41dcd7'&gt;Cable Factory&lt;/font&gt;, &lt;font overrideTextColor="true" color='#41dcd7'&gt;Motor Assembly Plant&lt;/font&gt; and &lt;font overrideTextColor="true" color='#41dcd7'&gt;Metal Sheets Press&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+  			<GUID>2100115036</GUID>
+  			<Text>Requiere insumos para mejorar la &lt;font overrideTextColor="true" color='#41dcd7'&gt;Fábrica del Metro&lt;/font&gt;, &lt;font overrideTextColor="true" color='#41dcd7'&gt;Cable Factory&lt;/font&gt;, &lt;font overrideTextColor="true" color='#41dcd7'&gt;Motor Assembly Plant&lt;/font&gt; and &lt;font overrideTextColor="true" color='#41dcd7'&gt;Metal Sheets Press&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115037</GUID>
+			<Text>Subway Car 03 Subway Bridge Vehicle</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115038</GUID>
+			<Text>Autoridad Metropolitana de Transportes</Text>
+		</Text>
+		<Text>
+			<GUID>2100115039</GUID>
+			<Text>Hojas Prefabricadas</Text>
+		</Text>
+		<Text>
+			<GUID>2100115040</GUID>
+			<Text>Mejorar la protección y seguridad</Text>
+		</Text>
+		<Text>
+			<GUID>2100115041</GUID>
+			<Text>Eficiencia, eficiencia y más eficiencia...</Text>
+		</Text>
+		<Text>
+			<GUID>2100115042</GUID>
+			<Text>Innovación en Materiales</Text>
+		</Text>
+		<Text>
+			<GUID>2100115043</GUID>
+			<Text>Producción interna</Text>
+		</Text>
+		<Text>
+			<GUID>2100115044</GUID>
+			<Text>Producción interna</Text>
+		</Text>
+		<Text>
+			<GUID>2100115045</GUID>
+			<Text>Hojas Prefabricadas</Text>
+		</Text>
+		<Text>
+			<GUID>2100115046</GUID>
+			<Text>Mejora de productividad estándar</Text>
+		</Text>
+		<Text>
+			<GUID>2100115047</GUID>
+			<Text>Litografía</Text>
+		</Text>
+		<Text>
+			<GUID>2100115048</GUID>
+			<Text>Boletos: Tinte índigo</Text>
+		</Text>
+		<Text>
+			<GUID>2100115049</GUID>
+			<Text>Boletos individuales, familiares, mensuales, anuales, para estudiantes y pensionados... la litografía los imprime todos.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115050</GUID>
+			<Text>Parklane Avenue Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115051</GUID>
+			<Text>Skyline Plaza Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115052</GUID>
+			<Text>Mediterranean Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115053</GUID>
+			<Text>Sunken City Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115054</GUID>
+			<Text>Shinto Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115055</GUID>
+			<Text>Dragon Garden Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115056</GUID>
+			<Text>Green Roof Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115057</GUID>
+			<Text>Red Roof Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115058</GUID>
+			<Text>Blue Roof Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115059</GUID>
+			<Text>Aspecto Avenida Parklane</Text>
+		</Text>
+		<Text>
+			<GUID>2100115060</GUID>
+			<Text>Una representación abstracta de un parque, o al menos eso es lo que quería representar el arquitecto.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115061</GUID>
+			<Text>Aspecto Skyline plaza</Text>
+		</Text>
+		<Text>
+			<GUID>2100115062</GUID>
+			<Text>Una espléndida estación para el centro financiero de tu metrópolis</Text>
+		</Text>
+		<Text>
+			<GUID>2100115063</GUID>
+			<Text>Aspecto Mediterráneo</Text>
+		</Text>
+		<Text>
+			<GUID>2100115064</GUID>
+			<Text>Las columnas monumentales y los agraciados arcos redondeados caracterizan a esta estación, todo un homenaje a la arquitectura clásica. </Text>
+		</Text>
+		<Text>
+			<GUID>2100115065</GUID>
+			<Text>Aspecto de tesoros hundidos</Text>
+		</Text>
+		<Text>
+			<GUID>2100115066</GUID>
+			<Text>Simplemente no sabían como decorar la estación...</Text>
+		</Text>
+		<Text>
+			<GUID>2100115067</GUID>
+			<Text>Aspecto del lejano oriente I</Text>
+		</Text>
+		<Text>
+			<GUID>2100115068</GUID>
+			<Text>Aquí es donde los arquitectos aparentemente condensan todas sus impresiones de sus viajes de estudio</Text>
+		</Text>
+		<Text>
+			<GUID>2100115069</GUID>
+			<Text>Aspecto del lejano oriente II</Text>
+		</Text>
+		<Text>
+			<GUID>2100115070</GUID>
+			<Text>Aquí es donde los arquitectos aparentemente condensan todas sus impresiones de sus viajes de estudio</Text>
+		</Text>
+		<Text>
+			<GUID>2100115071</GUID>
+			<Text>Aspecto con techos verdes</Text>
+		</Text>
+		<Text>
+			<GUID>2100115072</GUID>
+			<Text>Edificio de entrada con techos de color verde</Text>
+		</Text>
+		<Text>
+			<GUID>2100115073</GUID>
+			<Text>Aspecto con techos rojos</Text>
+		</Text>
+		<Text>
+			<GUID>2100115074</GUID>
+			<Text>Edificio de entrada con techos de color rojo</Text>
+		</Text>
+		<Text>
+			<GUID>2100115075</GUID>
+			<Text>Aspecto con techos Azules</Text>
+		</Text>
+		<Text>
+			<GUID>2100115076</GUID>
+			<Text>Edificio de entrada con techos de color azu</Text>
+		</Text>
+		<Text>
+			<GUID>2100115077</GUID>
+			<Text>Glass Roof Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115078</GUID>
+			<Text>Aspecto con techos de cristal</Text>
+		</Text>
+		<Text>
+			<GUID>2100115079</GUID>
+			<Text>Un techo elegante de cristal: puede ser benéfico en días lluviosos o un invernadero en días veraniegos</Text>
+		</Text>
+
+		<!-- 2100115080 - 2100115099 used by Paper Mill OW Mod -->
+
+		<Text>
+			<GUID>2100115200</GUID>
+			<Text>Red de metro</Text>
+		</Text>
+		<Text>
+			<GUID>2100115201</GUID>
+			<Text>Menú de construcción</Text>
+		</Text>
+		<Text>
+			<GUID>2100115203</GUID>
+			<Text>Estación pequeña de Metro</Text>
+		</Text>
+		<Text>
+			<GUID>2100115204</GUID>
+			<Text>Metro</Text>
+		</Text>
+		<Text>
+			<GUID>2100115205</GUID>
+			<Text>Red superior de metro</Text>
+		</Text>
+		<Text>
+			<GUID>2100115206</GUID>
+			<Text>Red de metro notablek</Text>
+		</Text>
+		<Text>
+			<GUID>2100115207</GUID>
+			<Text>Afecta a &lt;b&gt;todos los servicios públicos&lt;/b&gt;,&lt;b&gt; a todos los ingenieros&lt;/b&gt; y &lt;b&gt; a todas las residencias de inversores&lt;/b&gt; en el rango de calle de la estación mas cercana.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115208</GUID>
+			<Text>Attractivity Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115209</GUID>
+			<Text>Red de metro notable: servicio público Buff</Text>
+		</Text>
+		<Text>
+			<GUID>2100115210</GUID>
+			<Text>Public Service Range Buff Forward</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115211</GUID>
+			<Text>Red de metro modesta: mejora de residencias</Text>
+		</Text>
+		<Text>
+			<GUID>2100115212</GUID>
+			<Text>Public Service Range Buff Forward</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115213</GUID>
+			<Text>Afecta a &lt;b&gt;todos los servicios públicos&lt;/b&gt;,&lt;b&gt; a todos los ingenieros&lt;/b&gt; y &lt;b&gt; a todas las residencias de inversores&lt;/b&gt; en el rango de calle de la estación mas cercana.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115214</GUID>
+			<Text>Attractivity Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115215</GUID>
+			<Text>Red superior de metro: mejora de servicio público</Text>
+		</Text>
+		<Text>
+			<GUID>2100115216</GUID>
+			<Text>Subway Station Sound</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115217</GUID>
+			<Text>Solo unas cuantas estaciones, apenas cubren los puntos principales de tu ciudad.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115218</GUID>
+			<Text>La red de metro esta creciendo más y más, transformándose en un potente medio de transporte.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115219</GUID>
+			<Text>La red de metro ahora cubre todos los puntos de la ciudad, desde los suburbios hasta el centro.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115220</GUID>
+			<Text>Estos túneles ahora son conocidos como las catacumbas de la modernidad. Solo un puñado de metrópolis pueden presumir de tener una red de metro tan potente.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115222</GUID>
+			<Text>Entrada lateral y discreta que ahorra espacio</Text>
+		</Text>
+		<Text>
+			<GUID>2100115223</GUID>
+			<Text>Infraestructura del monumento</Text>
+		</Text>
+		<Text>
+			<GUID>2100115224</GUID>
+			<Text>Aspecto de rascacielos recto</Text>
+		</Text>
+		<Text>
+			<GUID>2100115225</GUID>
+			<Text>Se entremezcla entre imponentes rascacielos</Text>
+		</Text>
+		<Text>
+			<GUID>2100115226</GUID>
+			<Text>Aspecto de rascacielos esquinero</Text>
+		</Text>
+		<Text>
+			<GUID>2100115227</GUID>
+			<Text>Estos empleados especialmente capacitados saben qué pieza está buscando, incluso antes de que te des cuenta.&#xD;&#xA;mejora la &lt;font overrideTextColor="true" color='#41dcd7'&gt;Fabrica de Metro&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115228</GUID>
+			<Text>Standard Productivity Buff</Text> <!-- Fake Buff -->
+		</Text>
+		<Text>
+			<GUID>2100115229</GUID>
+			<Text>Subway Factory</Text> <!-- Subway Fake Factory -->
+		</Text>
+		<Text>
+			<GUID>2100115230</GUID>
+			<Text>Policy 04 Buff 03 Forward</Text>
+		</Text>
+		<Text>
+			<GUID>2100115231</GUID>
+			<Text>Autoridad Metropolitana de transportes (I/IV)</Text>
+		</Text>
+		<Text>
+			<GUID>2100115232</GUID>
+			<Text>Autoridad Metropolitana de Transportes(II/IV)</Text>
+		</Text>
+		<Text>
+			<GUID>2100115233</GUID>
+			<Text>Autoridad Metropolitana de Transportes (III/IV)</Text>
+		</Text>
+		<Text>
+			<GUID>2100115234</GUID>
+			<Text>Autoridad Metropolitana de Transportes (IV/IV)</Text>
+		</Text>
+		<Text>
+			<GUID>2100115235</GUID>
+			<Text>Aspecto de Ruta en recto</Text>
+		</Text>
+		<Text>
+			<GUID>2100115236</GUID>
+			<Text>Aspecto de Ruta en Diagonal</Text>
+		</Text>
+		<Text>
+			<GUID>2100115237</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115238</GUID>
+			<Text>Construcción del Tunel</Text>
+		</Text>
+		<Text>
+			<GUID>2100115239</GUID>
+			<Text>Policy 01 Buff 03 Forward</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115240</GUID>
+			<Text>Fabrica de Metro</Text>
+		</Text>
+		<Text>
+			<GUID>2100115241</GUID>
+			<Text>Trenes de Metro</Text>
+		</Text>
+		<Text>
+  			<GUID>2100115242</GUID>
+  			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115243</GUID>
+			<Text>Estación mediana de Metro</Text>
+		</Text>
+		<Text>
+			<GUID>2100115244</GUID>
+			<Text>Aspecto Vainilla</Text>
+		</Text>
+		<Text>
+			<GUID>2100115245</GUID>
+			<Text>Aspecto vida nocturna</Text>
+		</Text>
+		<Text>
+			<GUID>2100115246</GUID>
+			<Text>Aspecto colorido</Text>
+		</Text>
+		<Text>
+			<GUID>2100115247</GUID>
+			<Text>boletos de metro</Text>
+		</Text>
+		<Text>
+			<GUID>2100115248</GUID>
+			<Text>Policy 02 Buff 03 Forward</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115249</GUID>
+			<Text>Via atravesada por metro</Text>
+		</Text>
+		<Text>
+			<GUID>2100115250</GUID>
+			<Text>Policy 03 Buff 03 Forward</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115251</GUID>
+			<Text>Red de metro ordinaria: mejora de residencia</Text>
+		</Text>
+		<Text>
+			<GUID>2100115252</GUID>
+			<Text>Aspecto de estación de metro</Text>
+		</Text>
+		<Text>
+			<GUID>2100115253</GUID>
+			<Text>via atravesada por metro en diagonal</Text>
+		</Text>
+		<Text>
+			<GUID>2100115254</GUID>
+			<Text>La forma más rapida de viajar en tu metrópolis</Text>
+		</Text>
+		<Text>
+			<GUID>2100115255</GUID>
+			<Text>Estación grande de Metro</Text>
+		</Text>
+		<Text>
+			<GUID>2100115256</GUID>
+			<Text>Estación mediana de Metro: Construcción del tunel</Text>
+		</Text>
+		<Text>
+			<GUID>2100115257</GUID>
+			<Text> Los equipos pesados, como los escudos cilíndricos recientemente inventados, se abren camino lentamente a través de los estratos sólidos debajo de la ciudad. Inmediatamente después se instalan revestimientos de hierro fundido o tubos de hormigón para poder resistir todas las presiones del subsuelo" - notas de una conferencia de Bruno Ironbright</Text>
+		</Text>
+		<Text>
+			<GUID>2100115258</GUID>
+			<Text>Estación mediana de Metro</Text>
+		</Text>
+		<Text>
+			<GUID>2100115259</GUID>
+			<Text>Estación mediana de Metro: infraestructura técnica</Text>
+		</Text>
+		<Text>
+			<GUID>2100115260</GUID>
+			<Text>Los trabajadores colocan las vías, tiran las líneas eléctricas, equipan los túneles con lámparas, instalan ascensores y diseñan las estaciones según las ideas de los arquitectos.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115261</GUID>
+			<Text>Red de metro notable: mejora de residencias</Text>
+		</Text>
+		<Text>
+			<GUID>2100115262</GUID>
+			<Text>Tareas de Planificación, Construcción y Administración</Text>
+		</Text>
+		<Text>
+			<GUID>2100115263</GUID>
+			<Text>Aspecto vainilla</Text>
+		</Text>
+		<Text>
+			<GUID>2100115264</GUID>
+			<Text>Una fachada en yeso discreta y sencilla</Text>
+		</Text>
+		<Text>
+			<GUID>2100115265</GUID>
+			<Text>NewCityState_MassTransportation_Notification</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115266</GUID>
+			<Text>Transporte masivo</Text>
+		</Text>
+		<Text>
+			<GUID>2100115267</GUID>
+			<Text>Estación grande de Metro: Construcción del tunel</Text>
+		</Text>
+		<Text>
+			<GUID>2100115268</GUID>
+			<Text>Estación grande de Metro: Infraestructura Técnica</Text>
+		</Text>
+		<Text>
+			<GUID>2100115269</GUID>
+			<Text>Estación grande de Metro</Text>
+		</Text>
+
+		<!-- Guid 2100115270 used by Paper Mill OW mod -->
+
+		<Text>
+			<GUID>2100115271</GUID>
+			<Text>Ornamental Way Through Context Pool</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115272</GUID>
+			<Text>Subway Car 01 Factory Module Bridge Vehicle</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115273</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115274</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115275</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115276</GUID>
+			<Text>Los suministros de oficina como máquinas de escribir, papel de dibujo y reglas son propiedad de la Autoridad Metropolitana de Transportes, y no pueden ser sustraídos para su uso doméstico. La violación de estas normas será causal de despido. Atentamente, la administración.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115277</GUID>
+			<Text>Anuncio de los ganadores del concurso anual de aviones de papel: 1. Departamento de Construcción de Túneles: 520 puntos; 2. Contabilidad: 473 puntos; 3. Gestión de estaciones: 399 puntos; 4. Recursos Humanos: 238 puntos.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115278</GUID>
+			<Text>Debido a defectos técnicos en la sala de máquinas, los ascensores ocho y nueve estarán fuera de servicio hasta nuevo aviso. Por favor, use las escaleras para acceder a los pisos 49 a 59.-Atentamente, Administración.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115279</GUID>
+			<Text>Baker Street</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115280</GUID>
+			<Text>Subway Car 01 Way Through Vehicle</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115281</GUID>
+			<Text>Litografía</Text>
+		</Text>
+		<Text>
+			<GUID>2100115282</GUID>
+			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115283</GUID>
+  			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115284</GUID>
+			<Text> ...Los planos de construcción de los anclajes al suelo de doble pared se pueden encontrar en el pasillo 32, estante 12, compartimento 9. Se realizará una copia dentro de los 2 días hábiles posteriores a la presentación del formulario 72b.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115285</GUID>
+			<Text>Recipe List Printing Factory</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115286</GUID>
+			<Text>Boletos: Pigmentos minerales</Text>
+		</Text>
+		<!--<Text> Defined in Shared Pools and Definitions Mod
+			<GUID>2100115287</GUID>
+			<Text>Subway Stations</Text>
+		</Text> -->
+		<Text>
+			<GUID>2100115288</GUID>
+			<Text>Un departamento central gigante con miles de empleados trabajando en el mantenimiento y la expansión de la red de metro.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115289</GUID>
+			<Text>Red de Metro superior: mejora de residencia</Text>
+		</Text>
+		<Text>
+			<GUID>2100115290</GUID>
+			<Text>Red de metro modesta</Text>
+		</Text>
+		<Text>
+			<GUID>2100115291</GUID>
+			<Text>Afecta a &lt;b&gt;todos los servicios públicos&lt;/b&gt;,&lt;b&gt; a todos los ingenieros&lt;/b&gt; y &lt;b&gt; a todas las residencias de inversores&lt;/b&gt; en el rango de calle de la estación mas cercana.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115292</GUID>
+			<Text>Attractivity Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115293</GUID>
+			<Text>Red de Metro modesta: mejora de servicio público</Text>
+		</Text>
+		<Text>
+			<GUID>2100115294</GUID>
+			<Text>Public Service Range Buff Forward</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115295</GUID>
+			<Text>Red de metro Ordinaria</Text>
+		</Text>
+		<Text>
+			<GUID>2100115296</GUID>
+			<Text>Afecta a &lt;b&gt;todos los servicios públicos&lt;/b&gt;,&lt;b&gt; a todos los ingenieros&lt;/b&gt; y &lt;b&gt; a todas las residencias de inversores&lt;/b&gt; en el rango de calle de la estación mas cercana.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115297</GUID>
+			<Text>Attractivity Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115298</GUID>
+			<Text>Red de metro ordinaria; nejora de servicio públicof</Text>
+		</Text>
+		<Text>
+			<GUID>2100115299</GUID>
+			<Text>Public Service Range Buff Forward</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115600</GUID>
+			<Text>Panel of Experts</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115601</GUID>
+			<Text>¡La ciudad se hunde en el caos del tráfico!</Text>
+		</Text>
+		<Text>
+			<GUID>2100115602</GUID>
+			<Text>Un panel de 50 expertos, conformado por los más eminentes ingenieros y eruditos del imperio han estado discutiendo acerca de nuevos medios de transporte que puedan ayudar a mantener el funcionamiento de la metrópolis.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115603</GUID>
+			<Text>Image: Crowded Streets</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115604</GUID>
+			<Text>Council Decision</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115605</GUID>
+			<Text>El concejo municipal se decide por construir el metro!!</Text>
+		</Text>
+		<Text>
+			<GUID>2100115606</GUID>
+			<Text>Después de que hace unos meses la comisión de expertos se pronunciara a favor de la instalación de un metro, una escasa mayoría de 2/3 del ayuntamiento impulsó la construcción de una primera línea. Los políticos confirman que ahora es necesario crear una nueva dirección central de transportes, a la que, una vez terminada, se le encomendará la aplicación de la decisión del Consejo de hoy..</Text>
+		</Text>
+		<Text>
+			<GUID>2100115607</GUID>
+			<Text>Image: Headquarter</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115608</GUID>
+			<Text>First Station</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115609</GUID>
+			<Text>Se ha inaugurado la primera estación!!</Text>
+		</Text>
+		<Text>
+			<GUID>2100115610</GUID>
+			<Text>Después de un largo período de construcción y unos costes exorbitantes, se inauguró oficialmente la primera estación de metro en presencia de representantes de la política, la ciencia y la corte real. Los críticos, sin embargo, todavía dudan de su utilidad y piden que se cree una comisión de investigación contra el concejo municipal</Text>
+		</Text>
+		<Text>
+			<GUID>2100115611</GUID>
+			<Text>Image: Large Open Station</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115612</GUID>
+			<Text>Esta receta se desbloquea con 2700 artistas y después de que construyas al menos 15 rascacielos de inversores de nivel 3</Text>
+		</Text>
+		<Text>
+			<GUID>2100115613</GUID>
+			<Text>Esta receta se desbloquea con 1 anciano y después de que construyas al menos 15 rascacielos de inversores de nivel 3</Text>
+		</Text>
+		<Text>
+			<GUID>2100115614</GUID>
+			<Text>Boletos: pigmentos de carbón y hollín</Text>
+		</Text>
+		<Text>
+			<GUID>2100115615</GUID>
+			<Text>Litografía</Text>
+		</Text>
+		<Text>
+			<GUID>2100115616</GUID>
+			<Text>En este proceso, el carbón molido y las partículas de hollín son usadas como un agente colorante. las partículas son mezcladas con caucho, y a su vez mezcladas con calor a grandes temperaturas, para luego ser aplicadas al papel. Si la producción es ineficiente, la calidad será pobre, los boletos serán apenas legibles incluso antes de que sean comprados..</Text>
+		</Text>
+		<Text>
+			<GUID>2100115617</GUID>
+			<Text>Aspecto Amarillo y Azul</Text>
+		</Text>
+		<Text>
+			<GUID>2100115618</GUID>
+			<Text>La Autoridad Metropolitana de Transportes está lista para ser ascendida!</Text>
+		</Text>
+		<Text>
+			<GUID>2100115622</GUID>
+			<Text>La Autoridad Metropolitana de Transportes ha llegado a su límite!</Text>
+		</Text>
+		<Text>
+			<GUID>2100115623</GUID>
+			<Text>Camino recto con puente</Text>
+		</Text>
+		<Text>
+			<GUID>2100115624</GUID>
+			<Text>Camino recto sin Metro</Text>
+		</Text>
+		<Text>
+			<GUID>2100115625</GUID>
+			<Text>Camino recto a través de "24 casillas"</Text>
+		</Text>
+		<Text>
+			<GUID>2100115626</GUID>
+			<Text>El metro está pasando cada 30 segundos</Text>
+		</Text>
+		<Text>
+			<GUID>2100115627</GUID>
+			<Text>Ningún metro está pasando</Text>
+		</Text>
+		<Text>
+			<GUID>2100115628</GUID>
+			<Text>El metro genera 12 casillas detrás y luego avanza 24 casillas. Combínalo con el 3er aspecto</Text>
+		</Text>
+		<Text>
+			<GUID>2100115629</GUID>
+			<Text>El metro pasa de vez en cuando..</Text>
+		</Text>
+		<Text>
+			<GUID>2100115630</GUID>
+			<Text>Crocodiles in the Tunnels</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115631</GUID>
+			<Text>Cocodrilos en los túneles!!</Text>
+		</Text>
+		<Text>
+			<GUID>2100115632</GUID>
+			<Text>Testigos presenciales informan que criaturas monstruosas hacen travesuras en los túneles del metro y devoran a todo aquel que entra en ellos. ¡Entrevista con el famoso cazador Steen en la página 3!</Text>
+		</Text>
+		<Text>
+			<GUID>2100115633</GUID>
+			<Text>Image: Crocodiles in the Tunnels</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115634</GUID>
+			<Text>Trigger Newspaper Crocodiles</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115635</GUID>
+			<Text>Camino diagonal a través de puente</Text>
+		</Text>
+		<Text>
+			<GUID>2100115636</GUID>
+			<Text>Camino Diagonal sin Metro</Text>
+		</Text>
+		<Text>
+			<GUID>2100115637</GUID>
+			<Text>En este proceso se utilizan como colorantes, varios pigmentos de origen mineral. Son extremadamente resistentes al envejecimiento y conservan su color casi indefinidamente. ¡Tus boletos seguramente seguirán siendo legibles dentro de unos años!</Text>
+		</Text>
+		<Text>
+			<GUID>2100115638</GUID>
+			<Text>En este proceso se utiliza la tintura de Índigo como colorante. Ha sido uno de los colorantes más utilizados durante miles de años y se puede obtener de varias plantas que contienen índigo mediante una serie de procesos químicos. Desde finales del siglo XIX también se puede producir sintéticamente..</Text>
+		</Text>
+		<Text>
+			<GUID>2100115639</GUID>
+			<Text>Subway Stations Context Pool</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115640</GUID>
+			<Text>Aspecto de la Litografía</Text>
+		</Text>
+		<Text>
+			<GUID>2100115641</GUID>
+			<Text>Muros amarillos y techo azulf</Text>
+		</Text>
+		<Text>
+			<GUID>2100115642</GUID>
+			<Text>Muros rojos y techo azul</Text>
+		</Text>
+		<Text>
+			<GUID>2100115643</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115644</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115645</GUID>
+			<Text>Unlock Newspaper First Station Trigger</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115646</GUID>
+			<Text>Unlock Newspaper Crocodiles in the Tunnels Trigger</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115647</GUID>
+			<Text>Unlock Upgrade MTD II Trigger</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115648</GUID>
+			<Text>Unlock Upgrade MTD II Trigger</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115649</GUID>
+			<Text>Unlock Upgrade MTD II Trigger</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115650</GUID>
+			<Text>Unlock MTD IV upgraded Trigger</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115651</GUID>
+			<Text>Unlock Ticket Recipes Trigger 1</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115652</GUID>
+			<Text>Unlock Ticket Recipes Trigger 2</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115653</GUID>
+			<Text>Nueva entrega de prensa</Text>
+		</Text>
+		<Text>
+			<GUID>2100115654</GUID>
+			<Text>Aspectos de Modulo</Text>
+		</Text>
+		<Text>
+			<GUID>2100115655</GUID>
+			<Text>Una nueva prensa es entregada mediante transporte pesado</Text>
+		</Text>
+		<Text>
+			<GUID>2100115656</GUID>
+			<Text>Solo unos cuantos árboles</Text>
+		</Text>
+		<Text>
+			<GUID>2100115657</GUID>
+			<Text>Nada que ver por aquí</Text>
+		</Text>
+		<Text>
+			<GUID>2100115658</GUID>
+			<Text>igual</Text>
+		</Text>
+		<Text>
+			<GUID>2100115659</GUID>
+			<Text>desigual</Text>
+		</Text>
+		<Text>
+			<GUID>2100115660</GUID>
+			<Text>el edificio no se adapta a la altura del terreno</Text>
+		</Text>
+		<Text>
+			<GUID>2100115661</GUID>
+			<Text>El edificio se adapta a la altura del terreno</Text>
+		</Text>
+		<Text>
+			<GUID>2100115662</GUID>
+			<Text>Uneven</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115663</GUID>
+			<Text>Techo plano, desigual</Text>
+		</Text>
+		<Text>
+			<GUID>2100115664</GUID>
+			<Text>Techo de mansarda, igual</Text>
+		</Text>
+		<Text>
+			<GUID>2100115665</GUID>
+			<Text>Techo de mansarda, desigual</Text>
+		</Text>
+		<Text>
+			<GUID>2100115666</GUID>
+			<Text>Techo Plano, igual</Text>
+		</Text>
+		<Text>
+			<GUID>2100115667</GUID>
+			<Text>Techo Plano, desigual</Text>
+		</Text>
+		<Text>
+			<GUID>2100115668</GUID>
+			<Text>Techo de Mansarda, igual</Text>
+		</Text>
+		<Text>
+			<GUID>2100115669</GUID>
+			<Text>Techo de Mansarda, desigual</Text>
+		</Text>
+		<Text>
+			<GUID>2100115670</GUID>
+			<Text>Pasarela, corto</Text>
+		</Text>
+		<Text>
+			<GUID>2100115671</GUID>
+			<Text>Para construir módulo de pasarela tras módulo de pasarela</Text>
+		</Text>
+		<Text>
+			<GUID>2100115672</GUID>
+			<Text>Pasarela, largo</Text>
+		</Text>
+		<Text>
+			<GUID>2100115673</GUID>
+			<Text>para unir el módulo de pasarela en edificios</Text>
+		</Text>
+		<Text>
+			<GUID>2100115674</GUID>
+			<Text>Red de metro modesta</Text>
+		</Text>
+		<Text>
+			<GUID>2100115675</GUID>
+			<Text>Red de Metro ordinaria</Text>
+		</Text>
+		<Text>
+			<GUID>2100115676</GUID>
+			<Text>Red de Metro notable</Text>
+		</Text>
+		<Text>
+			<GUID>2100115677</GUID>
+			<Text>Red de Metro Superior</Text>
+		</Text>
+		<Text>
+			<GUID>2100115678</GUID>
+			<Text>Aspecto rojo y azul</Text>
+		</Text>
+		<Text>
+			<GUID>2100115679</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115680</GUID>
+			<Text>Unlock Creative Mode</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115681</GUID>
+			<Text>Genera una pequeña cantidad de atractivo para la ciudad</Text>
+		</Text>
+		<Text>
+			<GUID>2100115682</GUID>
+			<Text>Aspecto de Ladrillos</Text>
+		</Text>
+		<Text>
+			<GUID>2100115683</GUID>
+			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115684</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115685</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115686</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115687</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115688</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115689</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115690</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115691</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115692</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115693</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115694</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115695</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115696</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115697</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115698</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115699</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115800</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115801</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115802</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<!-- TODO translation -->
+  			<GUID>2100115803</GUID>
+  			<Text>Click on an Action Item to Buff the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Metal Sheets Press&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+  			<GUID>2100115804</GUID>
+  			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115805</GUID>
+			<Text>Unhide Menu</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115806</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115807</GUID>
+			<Text>Provee un servicio público a tus residentes cuando es terminado</Text>
+		</Text>
+		<Text>
+			<GUID>2100115808</GUID>
+			<Text>All Subway Goods</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115809</GUID>
+			<Text>Article: Módulos de fábrica de Metro</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115810</GUID>
+			<Text>Ironbrigth es elegido nuevo supervisor por la junta</Text>
+		</Text>
+		<Text>
+			<GUID>2100115811</GUID>
+			<Text>Los expertos informan que esto es consecuencia de un número cada vez mayor de incidentes y errores de producción, ya que se sospecha que la anterior dirección estaba abrumada por la maquinaria capitalista en rápido crecimiento.</Text>
+		</Text>
+		<Text>
+			<GUID>2100115812</GUID>
+			<Text>Image: Subway Factory Modules</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115813</GUID>
+			<Text>Subway Factory Modules Context Pool</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115814</GUID>
+			<Text>Subway Factory Modules</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115815</GUID>
+			<Text>Aspecto Blanco y Rojo</Text>
+		</Text>
+		<Text>
+			<GUID>2100115816</GUID>
+			<Text>Muros blancos con techos rojos</Text>
+		</Text>
+		<Text>
+			<GUID>2100115817</GUID>
+			<Text>Amarillo y azul</Text>
+		</Text>
+		<Text>
+			<GUID>2100115818</GUID>
+			<Text>Rojo y Azul</Text>
+		</Text>
+		<Text>
+			<GUID>2100115819</GUID>
+			<Text>Aspecto Amarillo y Azul</Text>
+		</Text>
+		<Text>
+			<GUID>2100115820</GUID>
+			<Text>Aspecto Rojo y Azul</Text>
+		</Text>
+		<Text>
+			<GUID>2100115821</GUID>
+			<Text>Unlock MTD I Creative Mode</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115822</GUID>
+			<Text>Metro</Text>
+		</Text>
+		<!--<Text>
+			<GUID>2100115823</GUID> Defined in Shared Pools and Definitions
+			<Text>Subway</Text>
+		</Text>-->
+		<Text>
+			<GUID>2100115824</GUID>
+			<Text>Productivity - Decree 3 Buff_Motors</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115825</GUID>
+			<Text>Productivity - Decree 3 Buff_Subways</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115826</GUID>
+			<Text>Construction Phase 1:</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115827</GUID>
+			<Text>Construction Phase 2:</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115828</GUID>
+			<Text>Finished Stations:</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115829</GUID>
+			<Text>Subway Station Output Infotip</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115908</GUID>
+			<Text>Subway Depot Output Infotip</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115909</GUID>
+			<Text>Subway Depot</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115910</GUID>
+			<Text>StandardSubwayStorageList</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115911</GUID>
+			<Text>Depot Replace Input Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115912</GUID>
+			<Text>Subway Depot</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115913</GUID>
+			<Text>Workload</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115914</GUID>
+			<Text>Each station of your island's Subway Network increases the workload (productivity) of the Subway Depot by 10 %.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115915</GUID>
+			<Text>Workload Increase</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115916</GUID>
+			<Text>Subway Station Workload ForwardBuff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115917</GUID>
+			<Text>Optional: You can connect this building with the railway</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115918</GUID>
+			<Text>This is the operative heart of your Subway Network. Here, subways are sided and maintained. Without this your Subway Network wouldn't function.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115919</GUID>
+			<Text>Subway Depot Static Fake Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115920</GUID>
+			<Text>Allows Subway Stations to operate</Text>
+		</Text>
+		<Text>
+			<GUID>2100115921</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115922</GUID>
+			<Text>Tools Workshop Trigger</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115923</GUID>
+			<Text>No production: The &lt;b&gt;Subway Depot&lt;/b&gt; on this island is out of service or does not exist!</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115924</GUID>
+			<Text>Subways</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115925</GUID>
+			<Text>Modest</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115926</GUID>
+			<Text>Ordinary</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115927</GUID>
+			<Text>Remarkable</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115928</GUID>
+			<Text>Superior</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115929</GUID>
+			<Text>Subway Network Level                                                         </Text> <!-- Do NOT shorten the empty space here, it has its use! -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115930</GUID>
+			<Text>Tools Workshop</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115931</GUID>
+			<Text>The more Subway Stations you build on an island, the better the Level of your Subway Network, the better its Buffs. To redeem a higher Level after unlock, &lt;font overrideTextColor="true" color='#edc891'&gt;upgrade&lt;/font&gt; your &lt;font overrideTextColor="true" color='#edc891'&gt;Metropolitan Transport Department&lt;/font&gt;.&#xD;&#xA;&#xD;&#xA;There are 4 Levels in total:</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115932</GUID>
+			<Text>Tools Chain</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115933</GUID>
+			<Text>Modest Subway Network: Factory Buff</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115934</GUID>
+			<Text>Ordinary Subway Network: Factory Buff</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115935</GUID>
+			<Text>Remarkable Subway Network: Factory Buff</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115936</GUID>
+			<Text>Superior Subway Network: Factory Buff</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115937</GUID>
+			<Text>Modest Subway Network: Factory Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115938</GUID>
+			<Text>Ordinary Subway Network: Factory Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115939</GUID>
+			<Text>Remarkable Subway Network: Factory Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115940</GUID>
+			<Text>Superior Subway Network: Factory Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115941</GUID>
+			<Text>Level 1</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115942</GUID>
+			<Text>Level 2</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115943</GUID>
+			<Text>Level 3</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115944</GUID>
+			<Text>Level 4</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115945</GUID>
+			<Text>Trigger Unlock Tools Sandbox</Text>  <!-- no need for translation -->
+		</Text>
+		<!-- <Text> Used in shared_inputoutputamountinfotips_mod_serp
+			<GUID>2100115950</GUID>
+			<Text>Production time</Text>
+		</Text> -->
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115946</GUID>
+			<Text>[AssetData(3460) Text]:&#xD;&#xA;[AssetData(1010205) Text]: 100t&#xD;&#xA;[AssetData(1010218) Text]: 115t&#xD;&#xA;[AssetData(1010207) Text]: 45t&#xD;&#xA;[AssetData(1010202) Text]: 110t&#xD;&#xA;[AssetData(134623) Text]: 30t</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115947</GUID>
+			<Text>[AssetData(3460) Text]:&#xD;&#xA;[AssetData(1010205) Text]: 135t&#xD;&#xA;[AssetData(1010218) Text]: 155t&#xD;&#xA;[AssetData(1010207) Text]: 75t&#xD;&#xA;[AssetData(1010202) Text]: 125t&#xD;&#xA;[AssetData(134623) Text]: 60t</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115948</GUID>
+			<Text>[AssetData(3460) Text]:&#xD;&#xA;[AssetData(1010205) Text]: 55t&#xD;&#xA;[AssetData(1010218) Text]: 85t&#xD;&#xA;[AssetData(1010207) Text]: 45t&#xD;&#xA;[AssetData(1010202) Text]: 55t&#xD;&#xA;[AssetData(134623) Text]: 15t</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115951</GUID>
+			<Text>Trigger Unlock Tools Creative</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115952</GUID>
+			<Text>&lt;font color='0xff817f87'&gt;Unlocks at 5 Subway Stations on an island&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115953</GUID>
+			<Text>We need a place where we can maintain and side our subways.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115954</GUID>
+			<Text>Each of your Subway Networks needs a &lt;b&gt;Subway Depot&lt;/b&gt; where Subways can be maintained and sided. Without this building your Subway Network wouldn't function.&lt;br/&gt;&lt;br/&gt;Subway Depots need &lt;b&gt;Tools&lt;/b&gt;, which are produced by the &lt;b&gt;Tools Workshop&lt;/b&gt;.&lt;br/&gt;</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115955</GUID>
+			<Text>QuestPool_SubwayDepot</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115956</GUID>
+			<Text>Subway Network: The Depot</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115957</GUID>
+			<Text>The &lt;b&gt;Tools Workshop&lt;/b&gt; can be found in the &lt;b&gt;Artisans&lt;/b&gt; or &lt;b&gt;Needs Tab&lt;/b&gt; next to the Sewing Machines Factory.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115958</GUID>
+			<Text>Subway Network: Upgrade MTD I</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115959</GUID>
+			<Text>The Metropolitan Transport Department (MTD) can be upgraded with the &lt;b&gt;Upgrade Button&lt;/b&gt; in your tool bar.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115960</GUID>
+			<Text>QuestPool_MTD I</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115961</GUID>
+			<Text>Unlock MTD I</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115962</GUID>
+			<Text>Unlock All</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115963</GUID>
+			<Text>Unlock All Relock</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115964</GUID>
+			<Text>Subway Network: Upgrade MTD II</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115965</GUID>
+			<Text>QuestLine Upgrade MTD</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115966</GUID>
+			<Text>&lt;font color='0xff817f87'&gt;Unlocks at 10 Subway Stations on an island&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115967</GUID>
+			<Text>Subway Network: Upgrade MTD III</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115968</GUID>
+			<Text>&lt;font color='0xff817f87'&gt;Unlocks at 15 Subway Stations on an island&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115969</GUID>
+			<Text>Upgrade MTD Infolayer</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115970</GUID>
+			<Text>Construction Permit</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115971</GUID>
+			<Text>Quest_spawn_mtd_upgrade_1to2</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115972</GUID>
+			<Text>MTD I Fake Output</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115973</GUID>
+			<Text>MTD II Fake Output</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115974</GUID>
+			<Text>MTD III Fake Output</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115975</GUID>
+			<Text>MTD IV Fake Output</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115976</GUID>
+			<Text>MTD I-IV Output Infotip</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115977</GUID>
+			<Text>Enables: </Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115978</GUID>
+			<Text>Quest_spawn_mtd_upgrade_2to3</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115979</GUID>
+			<Text>Quest_spawn_mtd_upgrade_3to4</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115980</GUID>
+			<Text>Your current Level on this island is:</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115981</GUID>
+			<Text>Production Output Infotip Press Works</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115982</GUID>
+			<Text>Material Innovation: [AssetData(838) Text]</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115983</GUID>
+			<Text>Material Innovation: [AssetData(838) Text]</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115984</GUID>
+			<Text>Material Innovation: [AssetData(1414) Text]</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115985</GUID>
+			<Text>Material Innovation: [AssetData(1414) Text]</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115986</GUID>
+			<Text>Material Innovation: [AssetData(135150) Text]</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115987</GUID>
+			<Text>Material Innovation: [AssetData(135150) Text]</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115988</GUID>
+			<Text>Unregister DonnyBader Notifications</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115989</GUID>
+			<Text>Steampunk Skin</Text> <!-- no need for translation -->
+		</Text>
+  </ModOp>
+
+</ModOps>

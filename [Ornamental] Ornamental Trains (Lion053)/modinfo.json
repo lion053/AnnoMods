@@ -1,0 +1,53 @@
+{
+  "Version": "1.4",
+  "ModID": "lion053_Ornamental_Trains",
+  "IncompatibleIds": [],
+  "ModDependencies": null,
+
+  "Category": {
+    "Chinese": "Ornamental",
+    "English": "Ornamental",
+    "French": "Ornamental",
+    "German": "Ornamental",
+    "Italian": "Ornamental",
+    "Japanese": "Ornamental",
+    "Korean": "Ornamental",
+    "Polish": "Ornamental",
+    "Russian": "Ornamental",
+    "Spanish": "Ornamental",
+    "Taiwanese": "Ornamental"
+  },
+
+  "ModName": {
+    "Chinese": "Ornamental Trains (Lion053)",
+    "English": "Ornamental Trains (Lion053)",
+    "French": "Ornamental Trains (Lion053)",
+    "German": "Ornamental Trains (Lion053)",
+    "Italian": "Ornamental Trains (Lion053)",
+    "Japanese": "Ornamental Trains (Lion053)",
+    "Korean": "Ornamental Trains (Lion053)",
+    "Polish": "Ornamental Trains (Lion053)",
+    "Russian": "Ornamental Trains (Lion053)",
+    "Spanish": "Ornamental Trains (Lion053)",
+    "Taiwanese": "Ornamental Trains (Lion053)"
+  },
+
+  "Description": {
+    "Chinese": "file::readme.md",
+    "English": "file::readme.md",
+    "French": "file::readme.md",
+    "German": "file::readme.md",
+    "Italian": "file::readme.md",
+    "Japanese": "file::readme.md",
+    "Korean": "file::readme.md",
+    "Polish": "file::readme.md",
+    "Russian": "file::readme.md",
+    "Spanish": "file::readme.md",
+    "Taiwanese": "file::readme.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,  
+  "CreatorName": "Lion053",
+  "CreatorContact": "https://discord.gg/ycmFNKaG",
+  "Image": null
+}

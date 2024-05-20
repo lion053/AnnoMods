@@ -1,0 +1,1047 @@
+<!-- Cultural Modules as Ornaments -->
+<!-- GUIDs in this mod: 2100119500 - 2100119515 -->
+<ModOps>
+  <!-- # Create new construction category-->
+  <ModOp Type="addNextSibling" GUID="500949">
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119500</GUID>
+          <Name>Cultural Ornaments</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_culture_0.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList>
+            <Item>
+              <Building>2100119501</Building>
+            </Item>
+            <Item>
+              <Building>2100119502</Building>
+            </Item>
+            <Item>
+              <Building>2100119503</Building>
+            </Item>
+            <Item>
+              <Building>2100119504</Building>
+            </Item>
+            <Item>
+              <Building>2100119505</Building>
+            </Item>
+            <Item>
+              <Building>2100119506</Building>
+            </Item>
+            <Item>
+              <Building>2100119507</Building>
+            </Item>
+          </BuildingList>
+          <CategoryDescription>2100119509</CategoryDescription>
+        </ConstructionCategory>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- # Unlock -->
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119515</GUID>
+          <Name>Culture Ornaments Trigger</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_culture_0.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionAlwaysTrue</Template>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100119501</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100119502</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100119503</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100119504</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100119505</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100119506</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100119507</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- # Old World: Add menu to Beautification Menu, Classic Category, after Grand Gallery Menu -->
+  <ModOp Type="addNextSibling" GUID="500069" Path="/Values/ConstructionCategory/BuildingList/Item[Building='4751']">
+    <Item>
+      <Building>2100119500</Building>
+    </Item>
+  </ModOp>
+  <!-- # Old World: Add menu to Beautification Menu, City Category, after Miscellaneous Menu-->
+  <ModOp Type="addNextSibling" GUID="500068" Path="/Values/ConstructionCategory/BuildingList/Item[Building='501496']">
+    <Item>
+      <Building>2100119500</Building>
+    </Item>
+  </ModOp>
+  <!-- # New World: Add menu to Beautification Menu, Classic Category, after Grand Gallery Menu -->
+  <ModOp Type="addNextSibling" GUID="500079" Path="/Values/ConstructionCategory/BuildingList/Item[Building='4751']">
+    <Item>
+      <Building>2100119500</Building>
+    </Item>
+  </ModOp>
+  <!-- # New World: Add menu to Beautification Menu, City Category, after Miscellaneous Menu-->
+  <ModOp Type="addNextSibling" GUID="500055" Path="/Values/ConstructionCategory/BuildingList/Item[Building='8536']">
+    <Item>
+      <Building>2100119500</Building>
+    </Item>
+  </ModOp>
+  <!-- # Enbesa: Add menu to Elder tier, right after monastery -->
+  <ModOp Type="addNextSibling" GUID="114554" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114520']">
+    <Item>
+      <Building>2100119500</Building>
+    </Item>
+  </ModOp>
+  <!-- # Enbesa: Add menu to Culture type, right after park ornaments menu -->
+  <ModOp Type="addNextSibling" GUID="119015" Path="/Values/ConstructionCategory/BuildingList/Item[Building='130700']">
+    <Item>
+      <Building>2100119500</Building>
+    </Item>
+  </ModOp>
+  <!--Assets configuration-->
+  <!-- # Botanical Ornaments Water -->
+  <ModOp Type="addNextSibling" GUID="1010372">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119501</GUID>
+          <Name>Botanical Ornaments Water</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_blue_lotus_0.png</IconFilename>
+        </Standard>
+        <Blocking />
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <BuildModeStartVariation>0</BuildModeStartVariation>
+          <VariationIcons>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_blue_lotus_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_great_star_coral_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_sacred_lotus_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_tiger_lotus_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_star_bright_lotus_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_lilies_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_reeds_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_staghorn_coral_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_perrys_giant_sunburst_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_giant_water_lily_0.png</IconFilename>
+            </Item>
+          </VariationIcons>
+        </Building>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_02/cultural_03_module_02_a/cultural_03_module_02_a.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_02/cultural_03_module_02_b/cultural_03_module_02_b.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_02/cultural_03_module_02_c/cultural_03_module_02_c.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_02/cultural_03_module_02_d/cultural_03_module_02_d.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_02/cultural_03_module_02_e/cultural_03_module_02_e.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_02/cultural_03_module_02_f/cultural_03_module_02_f.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_02/cultural_03_module_02_g/cultural_03_module_02_g.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_02/cultural_03_module_02_h/cultural_03_module_02_h.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_02/cultural_03_module_02_i/cultural_03_module_02_i.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_02/cultural_03_module_02_j/cultural_03_module_02_j.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Constructable />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh />
+        <SoundEmitter />
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>2100119508</OrnamentDescription>
+        </Ornament>
+        <Culture>
+          <Attractiveness>25</Attractiveness>
+        </Culture>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- # Botanical Ornaments Trees -->
+  <ModOp Type="addNextSibling" GUID="1010372">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119502</GUID>
+          <Name>Botanical Ornaments Trees</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_brazil_nut_tree_0.png</IconFilename>
+        </Standard>
+        <Blocking />
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <BuildModeStartVariation>0</BuildModeStartVariation>
+          <VariationIcons>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_cherry_blossom_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_snow_gum_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_jujube_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_rocky_mountain_fir_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_guayacan_de_manizales_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_hevea_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_coco_tree_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_palm_tree_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_rhododendron_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_banyan_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/plants/icon_brazil_nut_tree_0.png</IconFilename>
+            </Item>
+          </VariationIcons>
+        </Building>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_03/cultural_03_module_03_a/cultural_03_module_03_a.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_03/cultural_03_module_03_b/cultural_03_module_03_b.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_03/cultural_03_module_03_c/cultural_03_module_03_c.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_03/cultural_03_module_03_d/cultural_03_module_03_d.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_03/cultural_03_module_03_e/cultural_03_module_03_e.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_03/cultural_03_module_03_f/cultural_03_module_03_f.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_03/cultural_03_module_03_g/cultural_03_module_03_g.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_03/cultural_03_module_03_h/cultural_03_module_03_h.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_03/cultural_03_module_03_i/cultural_03_module_03_i.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_03/cultural_03_module_03_j/cultural_03_module_03_j.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_03/cultural_03_module_03_k/cultural_03_module_03_k.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Constructable />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh />
+        <SoundEmitter />
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>2100119508</OrnamentDescription>
+        </Ornament>
+        <Culture>
+          <Attractiveness>25</Attractiveness>
+        </Culture>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- # Museum Ornaments Temples -->
+  <ModOp Type="addNextSibling" GUID="1010372">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119503</GUID>
+          <Name>Museum Ornaments Temples</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_corinthian_temple_of_posseidon_0.png</IconFilename>
+        </Standard>
+        <Blocking />
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <BuildModeStartVariation>0</BuildModeStartVariation>
+          <VariationIcons>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_fasil_ghebbi_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_hor_statue_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_anpu_statue_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_obelixo_of_arksam_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_church_kidusi_anitoni_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_temple_of_nafir_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_smiley_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_ark_of_the_covenant_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_colums_of_law_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_orichalk_statue_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_temple_of_posseidon_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_atlantis_wall_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_mayan_house_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_mayan_seaport_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_mayan_temple_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_corinthian_olympean_remain_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_corinthian_temple_of_posseidon_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_roman_sanctuary_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_roman_forum_remains_0.png</IconFilename>
+            </Item>
+          </VariationIcons>
+        </Building>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_01/cultural_01_module_01/cultural_01_module_01_a.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_01/cultural_01_module_01/cultural_01_module_01_b.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_01/cultural_01_module_01/cultural_01_module_01_c.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_01/cultural_01_module_01/cultural_01_module_01_d.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_01/cultural_01_module_01/cultural_01_module_01_e.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_01/cultural_01_module_01/cultural_01_module_01_f.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_01/cultural_01_module_01/cultural_01_module_01_g.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_01/cultural_01_module_01/cultural_01_module_01_h.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc01/graphics/buildings/public/cultural/cultural_02/cultural_02_module_09/cultural_02_module_09_a/cultural_02_module_09_a.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc01/graphics/buildings/public/cultural/cultural_02/cultural_02_module_09/cultural_02_module_09_b/cultural_02_module_09_b.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc01/graphics/buildings/public/cultural/cultural_02/cultural_02_module_09/cultural_02_module_09_c/cultural_02_module_09_c.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc01/graphics/buildings/public/cultural/cultural_02/cultural_02_module_09/cultural_02_module_09_d/cultural_02_module_09_d.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_04/cultural_02_module_04_b/cultural_02_module_04_b.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_04/cultural_02_module_04_c/cultural_02_module_04_c.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_04/cultural_02_module_04_d/cultural_02_module_04_d.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_07/cultural_02_module_07_a/cultural_02_module_07_a.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_07/cultural_02_module_07_b/cultural_02_module_07_b.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_07/cultural_02_module_07_c/cultural_02_module_07_c.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_07/cultural_02_module_07_d/cultural_02_module_07_d.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Constructable />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh />
+        <SoundEmitter />
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>2100119508</OrnamentDescription>
+        </Ornament>
+        <Culture>
+          <Attractiveness>25</Attractiveness>
+        </Culture>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- # Museum Ornaments Mosaik -->
+  <ModOp Type="addNextSibling" GUID="1010372">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119504</GUID>
+          <Name>Museum Ornaments Mosaik</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_roman_mosaik_0.png</IconFilename>
+        </Standard>
+        <Blocking />
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <BuildModeStartVariation>0</BuildModeStartVariation>
+          <VariationIcons>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_lion_of_judah_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_yarobu_carving_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_mayan_glyphs_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_mayan_calendar_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_lascaux_painting_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_prehistorical_painting_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_roman_mosaik_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_corinthian_mosaik_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_viking_drakkar_carving_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_celtic_carving_0.png</IconFilename>
+            </Item>
+          </VariationIcons>
+        </Building>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_01/cultural_01_module_01/cultural_01_module_01_i.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_01/cultural_01_module_01/cultural_01_module_01_j.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_04/cultural_02_module_04_e/cultural_02_module_04_e.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_04/cultural_02_module_04_f/cultural_02_module_04_f.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_05/cultural_02_module_05_e/cultural_02_module_05_e.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_05/cultural_02_module_05_f/cultural_02_module_05_f.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_07/cultural_02_module_07_e/cultural_02_module_07_e.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_07/cultural_02_module_07_f/cultural_02_module_07_f.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_08/cultural_02_module_08_e/cultural_02_module_08_e.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_08/cultural_02_module_08_f/cultural_02_module_08_f.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Constructable />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh />
+        <SoundEmitter />
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>2100119508</OrnamentDescription>
+        </Ornament>
+        <Culture>
+          <Attractiveness>25</Attractiveness>
+        </Culture>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- # Museum Ornaments Divers -->
+  <ModOp Type="addNextSibling" GUID="1010372">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119505</GUID>
+          <Name>Museum Ornaments Divers</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_celtic_stonehenge_0.png</IconFilename>
+        </Standard>
+        <Blocking />
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <BuildModeStartVariation>0</BuildModeStartVariation>
+          <VariationIcons>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_nascan_tomb_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_museum_t_rex_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_museum_stegosaurus_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_museum_sauropodon_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_museum_mosasaurus_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_celtic_stonehenge_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_celtic_dolmen_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_viking_uppsala_altar_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_celtic_menhirs_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_inukshuk_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_pirujaqarvik_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_museum_mammoth_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_hms_terror_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_igluit_0.png</IconFilename>
+            </Item>
+          </VariationIcons>
+        </Building>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_04/cultural_02_module_04_a/cultural_02_module_04_a.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_05/cultural_02_module_05_a/cultural_02_module_05_a.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_05/cultural_02_module_05_b/cultural_02_module_05_b.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_05/cultural_02_module_05_c/cultural_02_module_05_c.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_05/cultural_02_module_05_d/cultural_02_module_05_d.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_08/cultural_02_module_08_a/cultural_02_module_08_a.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_08/cultural_02_module_08_b/cultural_02_module_08_b.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_08/cultural_02_module_08_c/cultural_02_module_08_c.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_08/cultural_02_module_08_d/cultural_02_module_08_d.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc03/graphics/buildings/public/cultural_colony03_02/cultural_colony03_module_01/cultural_02_colony03_module_01_a.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc03/graphics/buildings/public/cultural_colony03_02/cultural_colony03_module_01/cultural_02_colony03_module_01_b.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc03/graphics/buildings/public/cultural_colony03_02/cultural_colony03_module_02/cultural_02_colony03_module_02_a.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc03/graphics/buildings/public/cultural_colony03_02/cultural_colony03_module_02/cultural_02_colony03_module_02_b.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc03/graphics/buildings/public/cultural_colony03_02/cultural_colony03_module_02/cultural_02_colony03_module_02_c.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Constructable />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh />
+        <SoundEmitter />
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>2100119508</OrnamentDescription>
+        </Ornament>
+        <Culture>
+          <Attractiveness>25</Attractiveness>
+        </Culture>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- # Zoo Ornaments Mammals -->
+  <ModOp Type="addNextSibling" GUID="1010372">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119506</GUID>
+          <Name>Zoo Ornaments Mammals</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_elephant_0.png</IconFilename>
+        </Standard>
+        <Blocking />
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <BuildModeStartVariation>0</BuildModeStartVariation>
+          <VariationIcons>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_oryx_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_impala_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_mountain_nyala_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_zebra_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_wildebeest_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_waterbuffalo_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_dromedary_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_black_rhino_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_giraffe_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_elephant_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_spotted_hyena_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_caracal_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_cheeta_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_lion_0.png</IconFilename>
+            </Item>
+          </VariationIcons>
+        </Building>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_02/cultural_02_module_04/cultural_02_module_04_green_oryx.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_02/cultural_02_module_02/cultural_02_module_02_green_impala.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_02/cultural_02_module_02/cultural_02_module_02_green_nyala.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_02/cultural_02_module_04/cultural_02_module_04_dry_zebra.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_02/cultural_02_module_04/cultural_02_module_04_dry_wildebeest.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_01/cultural_01_module_04/cultural_01_module_04_water_buffalo.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_02/cultural_02_module_04/cultural_02_module_04_dry_dromedary.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_02/cultural_02_module_04/cultural_02_module_04_green_rhino.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_02/cultural_02_module_04/cultural_02_module_04_green_giraffe.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_02/cultural_02_module_04/cultural_02_module_04_green_elephant.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_02/cultural_02_module_02/cultural_02_module_02_dry_hyena.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_02/cultural_02_module_02/cultural_02_module_02_green_caracal.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_02/cultural_02_module_04/cultural_02_module_04_dry_cheetah.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_02/cultural_02_module_04/cultural_02_module_04_dry_lion.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Constructable />
+        <Text />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh />
+        <SoundEmitter />
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>2100119508</OrnamentDescription>
+        </Ornament>
+        <Culture>
+          <Attractiveness>25</Attractiveness>
+        </Culture>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- # Zoo Ornaments Birds and Pool -->
+  <ModOp Type="addNextSibling" GUID="1010372">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119507</GUID>
+          <Name>Zoo Ornaments - Birds and Animals with Pool</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_parrot_and_dolphin_0.png</IconFilename>
+        </Standard>
+        <Blocking />
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <BuildModeStartVariation>0</BuildModeStartVariation>
+          <VariationIcons>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_bird_of_paradise_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_storck_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_bearded_vulture_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_ostrich_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_flamingo_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_dolphin_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_false_killer_whale_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_polar_bear_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_walrus_0.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_hippotanamus_0.png</IconFilename>
+            </Item>
+          </VariationIcons>
+        </Building>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_01/cultural_01_module_01/cultural_01_module_01_parrot.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_01/cultural_01_module_01/cultural_01_module_01_stork.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_02/cultural_02_module_01/cultural_02_module_01_green_vulture.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_02/cultural_02_module_02/cultural_02_module_02_dry_ostrich.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_02/cultural_02_module_01/cultural_02_module_01_wet_flamingo.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_01/cultural_01_module_03/cultural_01_module_03_dolphin.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/public/cultural_01/cultural_01_module_03/cultural_01_module_03_orca.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc03/graphics/buildings/public/cultural_colony03_01/cultural_colony03_01_module_01/cultural_colony03_module_01_b.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc03/graphics/buildings/public/cultural_colony03_01/cultural_colony03_01_module_01/cultural_colony03_module_01_d.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/dlc06/graphics/buildings/public/cultural_02/cultural_02_module_03/cultural_02_module_03_hippo.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Constructable />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>1000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh />
+        <SoundEmitter />
+        <Locked />
+        <FeedbackController />
+        <Ornament>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>2100119508</OrnamentDescription>
+        </Ornament>
+        <Culture>
+          <Attractiveness>25</Attractiveness>
+        </Culture>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- # Imya Tweak -->
+  <ModOp Type="replace" GUID="2100119501,2100119502,2100119503,2100119504,2100119505,2100119506,2100119507" Path="/Values/Culture/Attractiveness" ModOpID="InfiniteCultureModules" Skip="1">
+    <Attractiveness>25</Attractiveness>
+  </ModOp>
+  <ImyaTweaks Title="Culture Modules as Ornaments" />
+  <ImyaExpose Path="self::Attractiveness" ModOpID="InfiniteCultureModules" ExposeID="Attractiveness" Description="The amount of attractiveness each module provides" Kind="Slider">
+    <SliderDefinition Min="0" Max="50" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./assets.imyatweak.include.xml" />
+</ModOps>

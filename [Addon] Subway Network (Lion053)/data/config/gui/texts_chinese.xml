@@ -1,0 +1,1564 @@
+<ModOps>
+
+ <!-- Guids in ascending order -->
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<GUID>2100115000</GUID>
+			<Text>地铁工厂模块</Text>
+		</Text>
+		<Text>
+			<GUID>2100115001</GUID>
+			<Text>影响 &lt;font overrideTextColor="true" color='#41dcd7'&gt; 地铁工厂 &lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115002</GUID>
+			<Text>工厂大门</Text>
+		</Text>
+		<Text>
+			<GUID>2100115003</GUID>
+			<Text>工厂大门为员工和物流运输提供保障。工人们醉酒闹事？在门口就被送走了。工业间谍？在大门门卫面前毫无意义！</Text>
+		</Text>
+		<Text>
+			<GUID>2100115004</GUID>
+			<Text>行政办公室</Text>
+		</Text>
+		<Text>
+			<GUID>2100115005</GUID>
+			<Text>光线充足的办公室可以满足大型工厂所需的所有行政任务。当你碰到主管时，别忘了问候他。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115006</GUID>
+			<Text>材料研发车间</Text>
+		</Text>
+		<Text>
+			<GUID>2100115007</GUID>
+			<Text>更轻、更强、更便宜——你们的工程师不断地研究和测试以改进所用的材料。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115008</GUID>
+			<Text>龙门起重机</Text>
+		</Text>
+		<Text>
+			<GUID>2100115009</GUID>
+			<Text>它可以快速装卸散装货物。为了改善工作条件，工会推动了这项投资。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115010</GUID>
+			<Text>桥式传送系统</Text>
+		</Text>
+		<Text>
+			<GUID>2100115011</GUID>
+			<Text>制成品自动从一个厂房运送到另一个。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115012</GUID>
+			<Text>连廊</Text>
+		</Text>
+		<Text>
+			<GUID>2100115013</GUID>
+			<Text>用于物流、维修等各种生产辅助工作的额外空间。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115014</GUID>
+			<Text>跨越街道，将建筑连接在一起</Text>
+		</Text>
+		<Text>
+			<GUID>2100115015</GUID>
+			<Text>用于物流、维修等各种生产辅助工作的额外空间。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115016</GUID>
+			<Text>电缆车间</Text>
+		</Text>
+		<Text>
+			<GUID>2100115017</GUID>
+			<Text>Unhide Menu</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115018</GUID>
+			<Text>马达组装车间</Text>
+		</Text>
+		<Text>
+			<GUID>2100115019</GUID>
+			<Text>Unlock Newspaper Panel of Experts</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115020</GUID>
+			<Text>金属板材车间</Text>
+		</Text>
+		<Text>
+			<GUID>2100115021</GUID>
+			<Text>现代冷成型工艺保证了高尺寸精度，因此非常适合您的列车外壳。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115022</GUID>
+			<Text>大型烟囱</Text>
+		</Text>
+		<Text>
+			<GUID>2100115023</GUID>
+			<Text>这个烟囱将烟灰颗粒喷射到离你所在城市天际线很远的地方。然而，对于你的居民来说，这不是一个美丽的景象。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115024</GUID>
+			<Text>地下传送系统</Text>
+		</Text>
+		<Text>
+			<GUID>2100115025</GUID>
+			<Text>地铁自动从一个车间运送到另一个车间。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115026</GUID>
+			<Text>连接塔</Text>
+		</Text>
+		<Text>
+			<GUID>2100115027</GUID>
+			<Text>用于物流、维修等各种生产辅助工作的额外空间。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115028</GUID>
+			<Text>连接桥-直</Text>
+		</Text>
+		<Text>
+			<GUID>2100115029</GUID>
+			<Text>货物可以在建筑物之间快速方便地运输，减少各种污染物的排放。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115030</GUID>
+			<Text>连接桥-转角</Text>
+		</Text>
+		<Text>
+			<GUID>2100115031</GUID>
+			<Text>货物可以在建筑物之间快速方便地运输，减少各种污染物的排放。</Text>
+		</Text>
+		<Text>
+  			<GUID>2100115032</GUID>
+  			<Text>生产货物并影响 &lt;font overrideTextColor="true" color='#41dcd7'&gt;地铁工厂&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115033</GUID>
+			<Text>仓库</Text>
+		</Text>
+		<Text>
+			<GUID>2100115034</GUID>
+			<Text>金属板材</Text>
+		</Text>
+		<Text>
+  			<GUID>2100115035</GUID>
+  			<Text>输入货物，可影响&lt;font overrideTextColor="true" color='#41dcd7'&gt;地铁工厂&lt;/font&gt;， &lt;font overrideTextColor="true" color='#41dcd7'&gt;电缆车间&lt;/font&gt;， &lt;font overrideTextColor="true" color='#41dcd7'&gt;马达组装车间&lt;/font&gt; 以及 &lt;font overrideTextColor="true" color='#41dcd7'&gt;金属板材车间&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+  			<GUID>2100115036</GUID>
+  			<Text>输入货物，可影响&lt;font overrideTextColor="true" color='#41dcd7'&gt;地铁工厂&lt;/font&gt;， &lt;font overrideTextColor="true" color='#41dcd7'&gt;电缆车间&lt;/font&gt;， &lt;font overrideTextColor="true" color='#41dcd7'&gt;马达组装车间&lt;/font&gt; 以及 &lt;font overrideTextColor="true" color='#41dcd7'&gt;金属板材车间&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115037</GUID>
+			<Text>Subway Car 03 Subway Bridge Vehicle</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115038</GUID>
+			<Text>大都会综合交通枢纽</Text>
+		</Text>
+		<Text>
+			<GUID>2100115039</GUID>
+			<Text>预制板</Text>
+		</Text>
+		<Text>
+			<GUID>2100115040</GUID>
+			<Text>高级安保</Text>
+		</Text>
+		<Text>
+			<GUID>2100115041</GUID>
+			<Text>效率，效率，效率……</Text>
+		</Text>
+		<Text>
+			<GUID>2100115042</GUID>
+			<Text>材料创新</Text>
+		</Text>
+		<Text>
+			<GUID>2100115043</GUID>
+			<Text>额外工厂车间</Text>
+		</Text>
+		<Text>
+			<GUID>2100115044</GUID>
+			<Text>额外工厂车间</Text>
+		</Text>
+		<Text>
+			<GUID>2100115045</GUID>
+			<Text>预制板</Text>
+		</Text>
+		<Text>
+			<GUID>2100115046</GUID>
+			<Text>额外工厂车间Buff</Text>
+		</Text>
+		<Text>
+			<GUID>2100115047</GUID>
+			<Text>票证印刷车间</Text>
+		</Text>
+		<Text>
+			<GUID>2100115048</GUID>
+			<Text>票证：靛蓝颜料</Text>
+		</Text>
+		<Text>
+			<GUID>2100115049</GUID>
+			<Text>次票，家庭票，月票，年票，学生和老人票…票证印刷车间要把它们全部印出来。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115050</GUID>
+			<Text>Parklane Avenue Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115051</GUID>
+			<Text>Skyline Plaza Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115052</GUID>
+			<Text>Mediterranean Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115053</GUID>
+			<Text>Sunken City Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115054</GUID>
+			<Text>Shinto Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115055</GUID>
+			<Text>Dragon Garden Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115056</GUID>
+			<Text>Green Roof Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115057</GUID>
+			<Text>Red Roof Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115058</GUID>
+			<Text>Blue Roof Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115059</GUID>
+			<Text>公园林荫道皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115060</GUID>
+			<Text>这是抽象的公园……至少建筑师是这么说的……</Text>
+		</Text>
+		<Text>
+			<GUID>2100115061</GUID>
+			<Text>天际线广场皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115062</GUID>
+			<Text>一个位于大都市金融中心的迷人车站</Text>
+		</Text>
+		<Text>
+			<GUID>2100115063</GUID>
+			<Text>地中海风情皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115064</GUID>
+			<Text>宏伟的圆柱和优雅的拱门是这个车站的特色，是对古典风格的致敬</Text>
+		</Text>
+		<Text>
+			<GUID>2100115065</GUID>
+			<Text>地下城皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115066</GUID>
+			<Text>他们只是不知道该如何设计车站……</Text>
+		</Text>
+		<Text>
+			<GUID>2100115067</GUID>
+			<Text>东亚皮肤I</Text>
+		</Text>
+		<Text>
+			<GUID>2100115068</GUID>
+			<Text>灵感显然来源于建筑师们在远方的学习旅行留下的印象</Text>
+		</Text>
+		<Text>
+			<GUID>2100115069</GUID>
+			<Text>远东皮肤II</Text>
+		</Text>
+		<Text>
+			<GUID>2100115070</GUID>
+			<Text>灵感显然来源于建筑师们在远方的学习旅行留下的印象</Text>
+		</Text>
+		<Text>
+			<GUID>2100115071</GUID>
+			<Text>绿屋顶皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115072</GUID>
+			<Text>带有绿色屋顶的地铁口</Text>
+		</Text>
+		<Text>
+			<GUID>2100115073</GUID>
+			<Text>红屋顶皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115074</GUID>
+			<Text>带有红色屋顶的地铁口</Text>
+		</Text>
+		<Text>
+			<GUID>2100115075</GUID>
+			<Text>蓝屋顶皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115076</GUID>
+			<Text>带有蓝色屋顶的地铁口</Text>
+		</Text>
+		<Text>
+			<GUID>2100115077</GUID>
+			<Text>Glass Roof Skin</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115078</GUID>
+			<Text>玻璃屋顶皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115079</GUID>
+			<Text>一个漂亮的玻璃穹顶：在恶劣的天气里是有益的，但在炎热的夏天就是一个大蒸笼</Text>
+		</Text>
+
+		<!-- 2100115080 - 2100115099 used by Paper Mill OW Mod -->
+
+		<Text>
+			<GUID>2100115200</GUID>
+			<Text>地铁网络</Text>
+		</Text>
+		<Text>
+			<GUID>2100115201</GUID>
+			<Text>建设菜单</Text>
+		</Text>
+		<Text>
+			<GUID>2100115203</GUID>
+			<Text>小型地铁站</Text>
+		</Text>
+		<Text>
+			<GUID>2100115204</GUID>
+			<Text>地铁</Text>
+		</Text>
+		<Text>
+			<GUID>2100115205</GUID>
+			<Text>传奇的地铁网络</Text>
+		</Text>
+		<Text>
+			<GUID>2100115206</GUID>
+			<Text>卓越的地铁网络</Text>
+		</Text>
+		<Text>
+			<GUID>2100115207</GUID>
+			<Text>影响在地铁站影响范围内的 &lt;b&gt;所有公共服务&lt;/b&gt;，&lt;b&gt; 所有工程师住宅&lt;/b&gt;以及&lt;b&gt; 所有投资人住宅&lt;/b&gt; 。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115208</GUID>
+			<Text>Attractivity Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115209</GUID>
+			<Text>卓越的地铁网络：公共服务增益</Text>
+		</Text>
+		<Text>
+			<GUID>2100115210</GUID>
+			<Text>Public Service Range Buff Forward</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115211</GUID>
+			<Text>平凡的地铁网络：住宅增益</Text>
+		</Text>
+		<Text>
+			<GUID>2100115212</GUID>
+			<Text>Public Service Range Buff Forward</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115213</GUID>
+			<Text>影响在地铁站影响范围内的&lt;b&gt;所有公共服务&lt;/b&gt;，&lt;b&gt; 所有工程师住宅&lt;/b&gt;以及&lt;b&gt;所有投资人住宅&lt;/b&gt;。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115214</GUID>
+			<Text>Attractivity Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115215</GUID>
+			<Text>卓越的地铁网络：公共服务增益</Text>
+		</Text>
+		<Text>
+			<GUID>2100115216</GUID>
+			<Text>Subway Station Sound</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115217</GUID>
+			<Text>只有几个车站，艰难地覆盖了这座城市的主要地标。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115218</GUID>
+			<Text>地铁网络越来越成为一种重要的交通工具。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115219</GUID>
+			<Text>这个地铁网络现在几乎覆盖了你们城市从郊区到市中心的每个地方。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115220</GUID>
+			<Text>市民认为本城的地铁隧道如现代的地鼠洞一般到处都是。只有少数大都市可以拥有如此强大的地铁网络。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115222</GUID>
+			<Text>不显眼，但节省空间的小小地铁口</Text>
+		</Text>
+		<Text>
+			<GUID>2100115223</GUID>
+			<Text>基础设施纪念碑</Text>
+		</Text>
+		<Text>
+			<GUID>2100115224</GUID>
+			<Text>摩天大楼-直排 皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115225</GUID>
+			<Text>与雄伟的高层建筑群融为一体</Text>
+		</Text>
+		<Text>
+			<GUID>2100115226</GUID>
+			<Text>摩天大楼-转角 皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115227</GUID>
+			<Text>这些训练有素的员工知道你要找的地方在哪里，甚至在你开始找之前。&#xD;&#xA;影响&lt;font overrideTextColor="true" color='#41dcd7'&gt;地铁工厂&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115228</GUID>
+			<Text>标准化生产增益</Text> <!-- Fake Buff -->
+		</Text>
+		<Text>
+			<GUID>2100115229</GUID>
+			<Text>Subway Factory</Text> <!-- Subway Fake Factory -->
+		</Text>
+		<Text>
+			<GUID>2100115230</GUID>
+			<Text>Policy 04 Buff 03 Forward</Text>
+		</Text>
+		<Text>
+			<GUID>2100115231</GUID>
+			<Text>大都会综合交通枢纽 (I/IV)</Text>
+		</Text>
+		<Text>
+			<GUID>2100115232</GUID>
+			<Text>大都会综合交通枢纽 (II/IV)</Text>
+		</Text>
+		<Text>
+			<GUID>2100115233</GUID>
+			<Text>大都会综合交通枢纽 (III/IV)</Text>
+		</Text>
+		<Text>
+			<GUID>2100115234</GUID>
+			<Text>大都会综合交通枢纽 (IV/IV)</Text>
+		</Text>
+		<Text>
+			<GUID>2100115235</GUID>
+			<Text>直通隧道皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115236</GUID>
+			<Text>斜角隧道皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115237</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115238</GUID>
+			<Text>隧道建设</Text>
+		</Text>
+		<Text>
+			<GUID>2100115239</GUID>
+			<Text>Policy 01 Buff 03 Forward</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115240</GUID>
+			<Text>地铁工厂</Text>
+		</Text>
+		<Text>
+			<GUID>2100115241</GUID>
+			<Text>地铁</Text>
+		</Text>
+		<Text>
+  			<GUID>2100115242</GUID>
+  			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115243</GUID>
+			<Text>中型地铁站</Text>
+		</Text>
+		<Text>
+			<GUID>2100115244</GUID>
+			<Text>经典皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115245</GUID>
+			<Text>夜生活皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115246</GUID>
+			<Text>多彩皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115247</GUID>
+			<Text>地铁票</Text>
+		</Text>
+		<Text>
+			<GUID>2100115248</GUID>
+			<Text>Policy 02 Buff 03 Forward</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115249</GUID>
+			<Text>地铁隧道-直行</Text>
+		</Text>
+		<Text>
+			<GUID>2100115250</GUID>
+			<Text>Policy 03 Buff 03 Forward</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115251</GUID>
+			<Text>良好地铁网络：住宅增益</Text>
+		</Text>
+		<Text>
+			<GUID>2100115252</GUID>
+			<Text>地铁站皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115253</GUID>
+			<Text>地铁隧道-斜角</Text>
+		</Text>
+		<Text>
+			<GUID>2100115254</GUID>
+			<Text>在你的都市最快的旅行方式</Text>
+		</Text>
+		<Text>
+			<GUID>2100115255</GUID>
+			<Text>大型地铁站</Text>
+		</Text>
+		<Text>
+			<GUID>2100115256</GUID>
+			<Text>中型地铁站</Text>
+		</Text>
+		<Text>
+			<GUID>2100115257</GUID>
+			<Text>“像最近发明的盾构机这样的重型设备，可以缓慢地在你的城市下面的固体地层中挖出一条隧道。只要随后在其中直接安装铸铁或混凝土管道，就可以在地下稳定维持一个隧道。”——“工程巨人”布鲁诺·艾蓉布莱特，《讲座讲义》</Text>
+		</Text>
+		<Text>
+			<GUID>2100115258</GUID>
+			<Text>中型地铁站</Text>
+		</Text>
+		<Text>
+			<GUID>2100115259</GUID>
+			<Text>中型地铁站：设施安装</Text>
+		</Text>
+		<Text>
+			<GUID>2100115260</GUID>
+			<Text>工人们根据建筑师的指示铺设轨道、拉电线、为隧道安装灯具、安装电梯和装修车站</Text>
+		</Text>
+		<Text>
+			<GUID>2100115261</GUID>
+			<Text>传奇的地铁网络：住宅增益</Text>
+		</Text>
+		<Text>
+			<GUID>2100115262</GUID>
+			<Text>规划、建设和管理地铁</Text>
+		</Text>
+		<Text>
+			<GUID>2100115263</GUID>
+			<Text>经典皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115264</GUID>
+			<Text>一个简单而不显眼的石膏立面</Text>
+		</Text>
+		<Text>
+			<GUID>2100115265</GUID>
+			<Text>NewCityState_MassTransportation_Notification</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115266</GUID>
+			<Text>大众交通</Text>
+		</Text>
+		<Text>
+			<GUID>2100115267</GUID>
+			<Text>大型地铁站</Text>
+		</Text>
+		<Text>
+			<GUID>2100115268</GUID>
+			<Text>大型地铁站：设施安装</Text>
+		</Text>
+		<Text>
+			<GUID>2100115269</GUID>
+			<Text>大型地铁站</Text>
+		</Text>
+
+		<!-- Guid 2100115270 used by Paper Mill OW mod -->
+
+		<Text>
+			<GUID>2100115271</GUID>
+			<Text>Ornamental Way Through Context Pool</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115272</GUID>
+			<Text>Subway Car 01 Factory Module Bridge Vehicle</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115273</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115274</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115275</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115276</GUID>
+			<Text>办公用品，如打字机、画纸或尺子是大都会综合交通部的财产，不得盗作个人使用！违规者将被立即解雇——真诚的，管理层。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115277</GUID>
+			<Text>一年一度的纸飞机比赛获奖名单公布：1.隧道建设部：520分；2. 会计部：473分；3.车站管理部：399分；4. 人事部：238分。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115278</GUID>
+			<Text>由于技术故障，8号和9号电梯暂停使用，恢复时间另行通知。请使用楼梯。——物业经理。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115279</GUID>
+			<Text>Baker Street</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115280</GUID>
+			<Text>Subway Car 01 Way Through Vehicle</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115281</GUID>
+			<Text>印刷厂</Text>
+		</Text>
+		<Text>
+			<GUID>2100115282</GUID>
+			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115283</GUID>
+  			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115284</GUID>
+			<Text>…双壁地锚的施工方案在9号图书馆的32排12列。请在递交表格72b后的2个工作日内提交副本备案。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115285</GUID>
+			<Text>Recipe List Printing Factory</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115286</GUID>
+			<Text>票证：矿物颜料</Text>
+		</Text>
+		<!--<Text> Defined in Shared Pools and Definitions Mod
+			<GUID>2100115287</GUID>
+			<Text>Subway Stations</Text>
+		</Text> -->
+		<Text>
+			<GUID>2100115288</GUID>
+			<Text>一个有有数千名员工的庞大中央部门在不停地进行地铁网络的维护与扩建。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115289</GUID>
+			<Text>卓越的地铁网络：住宅增益</Text>
+		</Text>
+		<Text>
+			<GUID>2100115290</GUID>
+			<Text>平凡的地铁网络</Text>
+		</Text>
+		<Text>
+			<GUID>2100115291</GUID>
+			<Text>影响在地铁站影响范围内的&lt;b&gt;所有公共服务&lt;/b&gt;，&lt;b&gt; 所有工程师住宅&lt;/b&gt;以及&lt;b&gt;所有投资人住宅&lt;/b&gt;。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115292</GUID>
+			<Text>Attractivity Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115293</GUID>
+			<Text>平凡的地铁网络：公共服务增益</Text>
+		</Text>
+		<Text>
+			<GUID>2100115294</GUID>
+			<Text>Public Service Range Buff Forward</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115295</GUID>
+			<Text>良好的地铁网络</Text>
+		</Text>
+		<Text>
+			<GUID>2100115296</GUID>
+			<Text>影响在地铁站影响范围内的&lt;b&gt;所有公共服务&lt;/b&gt;，&lt;b&gt; 所有工程师住宅&lt;/b&gt;以及&lt;b&gt;所有投资人住宅&lt;/b&gt;。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115297</GUID>
+			<Text>Attractivity Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115298</GUID>
+			<Text>良好的地铁网络：公共服务增益</Text>
+		</Text>
+		<Text>
+			<GUID>2100115299</GUID>
+			<Text>Public Service Range Buff Forward</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115600</GUID>
+			<Text>Panel of Experts</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115601</GUID>
+			<Text>城市城市交通陷入混乱！</Text>
+		</Text>
+		<Text>
+			<GUID>2100115602</GUID>
+			<Text>一个由帝国最优秀的工程师和学者组成的50人专家小组目前正在讨论创新的交通方式，以保持大城市的高效运转。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115603</GUID>
+			<Text>Image: Crowded Streets</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115604</GUID>
+			<Text>Council Decision</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115605</GUID>
+			<Text>市议会最终决定建设地铁！</Text>
+		</Text>
+		<Text>
+			<GUID>2100115606</GUID>
+			<Text>几个月前，市议会以三分之二的票数勉强通过了专家委员会提交的修建地铁的提议。本城第一条地铁线路的建设由此启动。市议会的政客决定，必须建立一个新的综合交通运输管理部门，该组织将被委派实施本市的地铁建设与管理工作。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115607</GUID>
+			<Text>Image: Headquarter</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115608</GUID>
+			<Text>First Station</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115609</GUID>
+			<Text>首个地铁站开通！</Text>
+		</Text>
+		<Text>
+			<GUID>2100115610</GUID>
+			<Text>在付出了漫长的建设周期和激增的成本后，首个地铁站在政界、科学界和宫廷代表的多方见证下正式开通。然而，批评人士仍然怀疑它们的用处，并呼吁成立一个针对市议会的调查委员会。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115611</GUID>
+			<Text>Image: Large Open Station</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115612</GUID>
+			<Text>这个配方在拥有2,700名工匠，且建造了至少15个 等级3-投资人摩天楼 时解锁</Text>
+		</Text>
+		<Text>
+			<GUID>2100115613</GUID>
+			<Text>这个配方在拥有1名长老，且建造了至少15个 等级3-投资人摩天楼 时解锁</Text>
+		</Text>
+		<Text>
+			<GUID>2100115614</GUID>
+			<Text>票证：煤烟颜料</Text>
+		</Text>
+		<Text>
+			<GUID>2100115615</GUID>
+			<Text>票证印刷车间</Text>
+		</Text>
+		<Text>
+			<GUID>2100115616</GUID>
+			<Text>此工艺的印刷工艺使用碎煤和煤烟颗粒被用作着色剂。这些矿物颗粒在高温下与粗麻布混合，然后用辊轧压涂在纸上。此生产效率低，且成品质量差。票证有时甚至在出售时都难以辨认。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115617</GUID>
+			<Text>黄蓝皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115618</GUID>
+			<Text>大都会综合交通部准备好升级了！</Text>
+		</Text>
+		<Text>
+			<GUID>2100115622</GUID>
+			<Text>大都会综合交通部建设已达到最后阶段了！</Text>
+		</Text>
+		<Text>
+			<GUID>2100115623</GUID>
+			<Text>有桥的直行隧道</Text>
+		</Text>
+		<Text>
+			<GUID>2100115624</GUID>
+			<Text>不通地铁的直行隧道</Text>
+		</Text>
+		<Text>
+			<GUID>2100115625</GUID>
+			<Text>直行隧道</Text>
+		</Text>
+		<Text>
+			<GUID>2100115626</GUID>
+			<Text>每30秒就有一辆地铁经过</Text>
+		</Text>
+		<Text>
+			<GUID>2100115627</GUID>
+			<Text>没有地铁经过</Text>
+		</Text>
+		<Text>
+			<GUID>2100115628</GUID>
+			<Text>一辆地铁从12格后生成，再开向24格外。可以将其与其他皮肤结合游玩！</Text>
+		</Text>
+		<Text>
+			<GUID>2100115629</GUID>
+			<Text>地铁不时经过……</Text>
+		</Text>
+		<Text>
+			<GUID>2100115630</GUID>
+			<Text>Crocodiles in the Tunnels</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115631</GUID>
+			<Text>隧道里的鳄鱼！</Text>
+		</Text>
+		<Text>
+			<GUID>2100115632</GUID>
+			<Text>目击者报告说，可怕的生物在地铁隧道里作恶，吞噬每一个进入隧道的人！——对著名的猎人斯蒂恩的专访在第3页！</Text>
+		</Text>
+		<Text>
+			<GUID>2100115633</GUID>
+			<Text>Image: Crocodiles in the Tunnels</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115634</GUID>
+			<Text>Trigger Newspaper Crocodiles</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115635</GUID>
+			<Text>有桥的斜角直通隧道</Text>
+		</Text>
+		<Text>
+			<GUID>2100115636</GUID>
+			<Text>不通地铁的斜角通道</Text>
+		</Text>
+		<Text>
+			<GUID>2100115637</GUID>
+			<Text>此工艺主要使用来自各种矿物的无机颜料作为着色剂。这些都是非常耐用的材料，使得几乎可以无限期地保持他们的颜色。你的票在几年后肯定还可辨认！</Text>
+		</Text>
+		<Text>
+			<GUID>2100115638</GUID>
+			<Text>在这个过程中，使用有机颜料靛蓝作为着色剂。几千年来，它一直是最常用的着色剂之一，可以通过一系列的化学过程从各种靛蓝植物中提取。自19世纪后期以来，它也可以化学合成。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115639</GUID>
+			<Text>Subway Stations Context Pool</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115640</GUID>
+			<Text>印刷厂皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115641</GUID>
+			<Text>黄墙蓝顶</Text>
+		</Text>
+		<Text>
+			<GUID>2100115642</GUID>
+			<Text>红墙蓝顶</Text>
+		</Text>
+		<Text>
+			<GUID>2100115643</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115644</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115645</GUID>
+			<Text>Unlock Newspaper First Station Trigger</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115646</GUID>
+			<Text>Unlock Newspaper Crocodiles in the Tunnels Trigger</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115647</GUID>
+			<Text>Unlock Upgrade MTD II Trigger</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115648</GUID>
+			<Text>Unlock Upgrade MTD II Trigger</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115649</GUID>
+			<Text>Unlock Upgrade MTD II Trigger</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115650</GUID>
+			<Text>Unlock MTD IV upgraded Trigger</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115651</GUID>
+			<Text>Unlock Ticket Recipes Trigger 1</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115652</GUID>
+			<Text>Unlock Ticket Recipes Trigger 2</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115653</GUID>
+			<Text>全新的印刷机</Text>
+		</Text>
+		<Text>
+			<GUID>2100115654</GUID>
+			<Text>模块皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115655</GUID>
+			<Text>一台用重型卡车运送的新印刷机</Text>
+		</Text>
+		<Text>
+			<GUID>2100115656</GUID>
+			<Text>就是一些树</Text>
+		</Text>
+		<Text>
+			<GUID>2100115657</GUID>
+			<Text>这儿没什么可看的......</Text>
+		</Text>
+		<Text>
+			<GUID>2100115658</GUID>
+			<Text>水平</Text>
+		</Text>
+		<Text>
+			<GUID>2100115659</GUID>
+			<Text>平行于地形</Text>
+		</Text>
+		<Text>
+			<GUID>2100115660</GUID>
+			<Text>建筑物不随地形变化，保持水平</Text>
+		</Text>
+		<Text>
+			<GUID>2100115661</GUID>
+			<Text>建筑物随地形变化，与地形保持水平</Text>
+		</Text>
+		<Text>
+			<GUID>2100115662</GUID>
+			<Text>Uneven</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115663</GUID>
+			<Text>带天台-平行于地形</Text>
+		</Text>
+		<Text>
+			<GUID>2100115664</GUID>
+			<Text>带顶棚-水平</Text>
+		</Text>
+		<Text>
+			<GUID>2100115665</GUID>
+			<Text>带顶棚-平行于地形</Text>
+		</Text>
+		<Text>
+			<GUID>2100115666</GUID>
+			<Text>带天台-水平</Text>
+		</Text>
+		<Text>
+			<GUID>2100115667</GUID>
+			<Text>带天台-平行于地形</Text>
+		</Text>
+		<Text>
+			<GUID>2100115668</GUID>
+			<Text>带顶棚-水平</Text>
+		</Text>
+		<Text>
+			<GUID>2100115669</GUID>
+			<Text>带顶棚-平行于地形</Text>
+		</Text>
+		<Text>
+			<GUID>2100115670</GUID>
+			<Text>连接桥-短</Text>
+		</Text>
+		<Text>
+			<GUID>2100115671</GUID>
+			<Text>用于跨道路连接模块</Text>
+		</Text>
+		<Text>
+			<GUID>2100115672</GUID>
+			<Text>连接桥-长</Text>
+		</Text>
+		<Text>
+			<GUID>2100115673</GUID>
+			<Text>用连接桥模块将建筑物连接起来</Text>
+		</Text>
+		<Text>
+			<GUID>2100115674</GUID>
+			<Text>平凡的地铁网络</Text>
+		</Text>
+		<Text>
+			<GUID>2100115675</GUID>
+			<Text>良好的地铁网络</Text>
+		</Text>
+		<Text>
+			<GUID>2100115676</GUID>
+			<Text>卓越的地铁网络</Text>
+		</Text>
+		<Text>
+			<GUID>2100115677</GUID>
+			<Text>传奇的地铁网络</Text>
+		</Text>
+		<Text>
+			<GUID>2100115678</GUID>
+			<Text>红蓝皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115679</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115680</GUID>
+			<Text>Unlock Creative Mode</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115681</GUID>
+			<Text>为城市带来少量的吸引力</Text>
+		</Text>
+		<Text>
+			<GUID>2100115682</GUID>
+			<Text>砖墙皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115683</GUID>
+			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115684</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115685</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115686</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115687</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115688</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115689</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115690</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115691</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115692</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115693</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115694</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115695</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115696</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115697</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115698</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115699</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115800</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115801</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115802</GUID>
+  			<Text />
+		</Text>
+		<Text>
+  			<GUID>2100115803</GUID>
+  			<Text>Click on an Action Item to Buff the &lt;font overrideTextColor="true" color='#41dcd7'&gt;Metal Sheets Press&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+  			<GUID>2100115804</GUID>
+  			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115805</GUID>
+			<Text>Unhide Menu</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115806</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115807</GUID>
+			<Text>完成后为您的居民提供公共服务</Text>
+		</Text>
+		<Text>
+			<GUID>2100115808</GUID>
+			<Text>All Subway Goods</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115809</GUID>
+			<Text>Article: Subway Factory Modules</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115810</GUID>
+			<Text>铁宝钢铁公司董事会选出了新的地铁工厂督察！</Text>
+		</Text>
+		<Text>
+			<GUID>2100115811</GUID>
+			<Text>知情人士报告称，这是生产事故数量不断增加的结果。因此，人们怀疑以前的管理层被迅速发展的资本集团所压倒。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115812</GUID>
+			<Text>Image: Subway Factory Modules</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115813</GUID>
+			<Text>Subway Factory Modules Context Pool</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115814</GUID>
+			<Text>Subway Factory Modules</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115815</GUID>
+			<Text>白红皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115816</GUID>
+			<Text>白墙红顶</Text>
+		</Text>
+		<Text>
+			<GUID>2100115817</GUID>
+			<Text>白墙红顶</Text>
+		</Text>
+		<Text>
+			<GUID>2100115818</GUID>
+			<Text>红蓝皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115819</GUID>
+			<Text>黄蓝皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115820</GUID>
+			<Text>红蓝皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100115821</GUID>
+			<Text>Unlock MTD I Creative Mode</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115822</GUID>
+			<Text>地铁</Text>
+		</Text>
+		<!--<Text>
+			<GUID>2100115823</GUID> Defined in Shared Pools and Definitions
+			<Text>Subway</Text>
+		</Text>-->
+		<Text>
+			<GUID>2100115824</GUID>
+			<Text>Productivity - Decree 3 Buff_Motors</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115825</GUID>
+			<Text>Productivity - Decree 3 Buff_Subways</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115826</GUID>
+			<Text>建设阶段1:</Text>
+		</Text>
+		<Text>
+			<GUID>2100115827</GUID>
+			<Text>建设阶段2:</Text>
+		</Text>
+		<Text>
+			<GUID>2100115828</GUID>
+			<Text>完成的车站:</Text>
+		</Text>
+		<Text>
+			<GUID>2100115829</GUID>
+			<Text>Subway Station Output Infotip</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115908</GUID>
+			<Text>Subway Depot Output Infotip</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115909</GUID>
+			<Text>Subway Depot</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115910</GUID>
+			<Text>StandardSubwayStorageList</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115911</GUID>
+			<Text>Depot Replace Input Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115912</GUID>
+			<Text>地铁车辆段</Text>
+		</Text>
+		<Text>
+			<GUID>2100115913</GUID>
+			<Text>工作量</Text>
+		</Text>
+		<Text>
+			<GUID>2100115914</GUID>
+			<Text>你岛屿上地铁网络每增加每一个站点，地铁车辆段的工作量(生产力)增加10%。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115915</GUID>
+			<Text>增加生产力</Text>
+		</Text>
+		<Text>
+			<GUID>2100115916</GUID>
+			<Text>Subway Station Workload ForwardBuff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115917</GUID>
+			<Text>Optional: You can connect this building with the railway</Text>
+		</Text>
+		<Text>
+			<GUID>2100115918</GUID>
+			<Text>这是你地铁网络的运作中心。在这里，地铁在这里停放、维护。没有这里，你的地铁网络就无法运作。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115919</GUID>
+			<Text>Subway Depot Static Fake Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115920</GUID>
+			<Text>允许地铁站投入运营</Text>
+		</Text>
+		<Text>
+			<GUID>2100115921</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100115922</GUID>
+			<Text>Tools Workshop Trigger</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115923</GUID>
+			<Text>无法生产：这座岛的&lt;b&gt;地铁车辆段&lt;/b&gt;没有建造或无法使用！</Text>
+		</Text>
+		<Text>
+			<GUID>2100115924</GUID>
+			<Text>地铁</Text>
+		</Text>
+		<Text>
+			<GUID>2100115925</GUID>
+			<Text>平凡</Text>
+		</Text>
+		<Text>
+			<GUID>2100115926</GUID>
+			<Text>良好</Text>
+		</Text>
+		<Text>
+			<GUID>2100115927</GUID>
+			<Text>卓越</Text>
+		</Text>
+		<Text>
+			<GUID>2100115928</GUID>
+			<Text>传奇</Text>
+		</Text>
+		<Text>
+			<GUID>2100115929</GUID>
+			<Text>地铁网络等级                                  </Text> <!-- Do NOT shorten the empty space here, it has its use! -->
+		</Text>
+		<Text>
+			<GUID>2100115930</GUID>
+			<Text>工具作坊</Text>
+		</Text>
+		<Text>
+			<GUID>2100115931</GUID>
+			<Text>你在岛上建造的地铁站越多，你的地铁网络水平就越高，增益等级也就越高。当地铁站数量达标后，&lt;font overrideTextColor="true" color='#edc891'&gt;升级&lt;/font&gt;你的&lt;font overrideTextColor="true" color='#edc891'&gt;大都会综合交通枢纽主建筑&lt;/font&gt;.&#xD;&#xA;&#xD;&#xA;以获得增益。增益一共有四级：</Text>
+		</Text>
+		<Text>
+			<GUID>2100115932</GUID>
+			<Text>Tools Chain</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115933</GUID>
+			<Text>平凡的地铁网络：工厂增益</Text>
+		</Text>
+		<Text>
+			<GUID>2100115934</GUID>
+			<Text>良好的地铁网络：工厂增益</Text>
+		</Text>
+		<Text>
+			<GUID>2100115935</GUID>
+			<Text>卓越的地铁网络：工厂增益</Text>
+		</Text>
+		<Text>
+			<GUID>2100115936</GUID>
+			<Text>良好的地铁网络：工厂增益</Text>
+		</Text>
+		<Text>
+			<GUID>2100115937</GUID>
+			<Text>Modest Subway Network: Factory Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115938</GUID>
+			<Text>Ordinary Subway Network: Factory Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115939</GUID>
+			<Text>Remarkable Subway Network: Factory Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115940</GUID>
+			<Text>Superior Subway Network: Factory Buff</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115941</GUID>
+			<Text>1级</Text>
+		</Text>
+		<Text>
+			<GUID>2100115942</GUID>
+			<Text>2级</Text>
+		</Text>
+		<Text>
+			<GUID>2100115943</GUID>
+			<Text>3级</Text>
+		</Text>
+		<Text>
+			<GUID>2100115944</GUID>
+			<Text>4级</Text>
+		</Text>
+		<Text>
+			<GUID>2100115945</GUID>
+			<Text>Trigger Unlock Tools Sandbox</Text>  <!-- no need for translation -->
+		</Text>
+		<!-- <Text> Used in shared_inputoutputamountinfotips_mod_serp
+			<GUID>2100115950</GUID>
+			<Text>Production time</Text>
+		</Text> -->
+		<Text>
+			<GUID>2100115946</GUID>
+			<Text>[AssetData(3460) Text]:&#xD;&#xA;[AssetData(1010205) Text]: 100t&#xD;&#xA;[AssetData(1010218) Text]: 115t&#xD;&#xA;[AssetData(1010207) Text]: 45t&#xD;&#xA;[AssetData(1010202) Text]: 110t&#xD;&#xA;[AssetData(134623) Text]: 30t</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115947</GUID>
+			<Text>[AssetData(3460) Text]:&#xD;&#xA;[AssetData(1010205) Text]: 135t&#xD;&#xA;[AssetData(1010218) Text]: 155t&#xD;&#xA;[AssetData(1010207) Text]: 75t&#xD;&#xA;[AssetData(1010202) Text]: 125t&#xD;&#xA;[AssetData(134623) Text]: 60t</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115948</GUID>
+			<Text>[AssetData(3460) Text]:&#xD;&#xA;[AssetData(1010205) Text]: 55t&#xD;&#xA;[AssetData(1010218) Text]: 85t&#xD;&#xA;[AssetData(1010207) Text]: 45t&#xD;&#xA;[AssetData(1010202) Text]: 55t&#xD;&#xA;[AssetData(134623) Text]: 15t</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115951</GUID>
+			<Text>Trigger Unlock Tools Creative</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115952</GUID>
+			<Text>&lt;font color='0xff817f87'&gt;岛上有5个地铁站时解锁&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115953</GUID>
+			<Text>我们需要一个地方来维护我们的地铁。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115954</GUID>
+			<Text>地铁网络需要一个&lt;b&gt;地铁车辆段&lt;/b&gt;，用来停放和维护地铁列车。没有这座建筑，你们的地铁网络就无法运转。&lt;br/&gt;&lt;br/&gt;地铁车辆段需要消耗&lt;b&gt;工具&lt;/b&gt;, ，造工具的建筑为&lt;b&gt;工具作坊&lt;/b&gt;.&lt;br/&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115955</GUID>
+			<Text>QuestPool_SubwayDepot</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115956</GUID>
+			<Text>地铁网络：地铁车辆段</Text>
+		</Text>
+		<Text>
+			<GUID>2100115957</GUID>
+			<Text>&lt;b&gt;工具作坊&lt;/b&gt;在&lt;b&gt;工匠选项卡&lt;/b&gt;或&lt;b&gt;消耗品选项卡&lt;/b&gt;，在缝纫机旁。</Text>
+		</Text>
+		<Text>
+			<GUID>2100115958</GUID>
+			<Text>地铁网络：升级1级大都会综合交通枢纽</Text>
+		</Text>
+		<Text>
+			<GUID>2100115959</GUID>
+			<Text>大都会综合交通枢纽可以用&lt;b&gt;升级按钮&lt;/b&gt;升级，该按钮在工具栏中</Text>
+		</Text>
+		<Text>
+			<GUID>2100115960</GUID>
+			<Text>QuestPool_MTD I</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115961</GUID>
+			<Text>Unlock MTD I</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115962</GUID>
+			<Text>Unlock All</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115963</GUID>
+			<Text>Unlock All Relock</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115964</GUID>
+			<Text>地铁网络：升级2级大都会综合交通枢纽</Text>
+		</Text>
+		<Text>
+			<GUID>2100115965</GUID>
+			<Text>QuestLine Upgrade MTD</Text>  <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115966</GUID>
+			<Text>&lt;font color='0xff817f87'&gt;岛上有10个地铁站时解锁&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115967</GUID>
+			<Text>地铁网络：升级3级大都会综合交通枢纽</Text>
+		</Text>
+		<Text>
+			<GUID>2100115968</GUID>
+			<Text>&lt;font color='0xff817f87'&gt;岛上有15个地铁站时解锁&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>2100115969</GUID>
+			<Text>Upgrade MTD Infolayer</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115970</GUID>
+			<Text>Construction Permit</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115971</GUID>
+			<Text>Quest_spawn_mtd_upgrade_1to2</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115972</GUID>
+			<Text>MTD I Fake Output</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115973</GUID>
+			<Text>MTD II Fake Output</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115974</GUID>
+			<Text>MTD III Fake Output</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115975</GUID>
+			<Text>MTD IV Fake Output</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115976</GUID>
+			<Text>MTD I-IV Output Infotip</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115977</GUID>
+			<Text>开启：</Text>
+		</Text>
+		<Text>
+			<GUID>2100115978</GUID>
+			<Text>Quest_spawn_mtd_upgrade_2to3</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115979</GUID>
+			<Text>Quest_spawn_mtd_upgrade_3to4</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<GUID>2100115980</GUID>
+			<Text>本岛目前地铁网络等级为：</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115981</GUID>
+			<Text>Production Output Infotip Press Works</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115982</GUID>
+			<Text>Material Innovation: [AssetData(838) Text]</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115983</GUID>
+			<Text>Material Innovation: [AssetData(838) Text]</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115984</GUID>
+			<Text>Material Innovation: [AssetData(1414) Text]</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115985</GUID>
+			<Text>Material Innovation: [AssetData(1414) Text]</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115986</GUID>
+			<Text>Material Innovation: [AssetData(135150) Text]</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115987</GUID>
+			<Text>Material Innovation: [AssetData(135150) Text]</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115988</GUID>
+			<Text>Unregister DonnyBader Notifications</Text> <!-- no need for translation -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100115989</GUID>
+			<Text>Steampunk Skin</Text> <!-- no need for translation -->
+		</Text>
+  </ModOp>
+
+</ModOps>

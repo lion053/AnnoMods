@@ -1,0 +1,484 @@
+<ModOps>
+  <!-- # Products -->
+  <ModOp Type="addNextSibling" GUID="1010217">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1500010120</GUID>
+          <Name>Canned Fish</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\icon_canned_food.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11704</ProductCategory>
+          <BasePrice>563</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>40</BaseMorale>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1500010102</GUID>
+          <Name>Cheese</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\icon_sheep_cheese.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11704</ProductCategory>
+          <BasePrice>80</BasePrice>
+          <CivLevel>2</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>30</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1440224</GUID> <!-- New Horizon GUID/product; bundled with permission -->
+          <Name>Hemp</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\plants\icon_hemp.png</IconFilename>
+          <InfoDescription>1500010017</InfoDescription>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11702</ProductCategory> <!-- natural products -->
+          <BasePrice>140</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate;Meta</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+            <Item>
+              <RegionType>Meta</RegionType> <!-- New Horizon: Asia -->
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>10</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>40</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <FluffText>12862</FluffText>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1500010105</GUID>
+          <Name>Olives</Name>
+          <IconFilename>data/ui/jakob/icon_olives.png</IconFilename>
+          <InfoDescription>1500010017</InfoDescription>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11702</ProductCategory> <!-- natural products -->
+          <BasePrice>40</BasePrice>
+          <CivLevel>2</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>10</BaseMorale>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1500010127</GUID>
+          <Name>Suits</Name>
+          <IconFilename>data/ui/jakob/icon_suits.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11704</ProductCategory>
+          <BasePrice>480</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>6</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>15</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <FluffText>129492</FluffText>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1500010847</GUID>
+          <Name>Tea</Name>
+          <IconFilename>data/ui/jakob/icon_tea.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11704</ProductCategory>
+          <BasePrice>100</BasePrice>
+          <CivLevel>2</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>30</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>15</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1500010153</GUID>
+          <Name>Tools</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\icon_tools.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11704</ProductCategory>
+          <BasePrice>240</BasePrice>
+          <CivLevel>2</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>10</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>50</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <FluffText>19796</FluffText>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1500010836</GUID>
+          <Name>Vegetables</Name>
+          <IconFilename>data/ui/jakob/icon_vegetables.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11704</ProductCategory>
+          <BasePrice>30</BasePrice>
+          <CivLevel>1</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>10</BaseMorale>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1500010825</GUID>
+          <Name>Ropes</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\icon_rope.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11707</ProductCategory>
+          <BasePrice>200</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>40</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>35</Amount>
+            </Item>
+            <Item>
+              <Attribute>Melee</Attribute>
+              <Amount>5</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Storage Lists -->
+  <Group>
+    <!-- Canned Fish: After Canned Food -->
+    <ModOp Type="addNextSibling" GUID="120055,120057"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1500010120']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010217']">
+      <Item>
+        <Product>1500010120</Product>
+      </Item>
+    </ModOp>
+    <!-- Cheese: After Sausages -->
+    <ModOp Type="addNextSibling" GUID="120055,120057"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1500010102']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010238']">
+      <Item>
+        <Product>1500010102</Product>
+      </Item>
+    </ModOp>
+    <!-- Ropes: After Coats/Hemp -->
+    <ModOp Type="addNextSibling" GUID="120055,120057"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1500010825']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010200']">
+      <Item>
+        <Product>1500010825</Product>
+      </Item>
+    </ModOp>
+    <!-- Hemp: After Coats -->
+    <ModOp Type="add" GUID="120055,120057"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1440224']"
+      Path="/Values/ProductStorageList/ProductList">
+      <Item>
+        <Product>1440224</Product>
+      </Item>
+    </ModOp>
+    <!-- Olives: After Grain -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1500010105']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010192']">
+      <Item>
+        <Product>1500010105</Product>
+      </Item>
+    </ModOp>
+    <!-- Suits: After Fur Coats -->
+    <ModOp Type="addNextSibling" GUID="120055,120057"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1500010127']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+      <Item>
+        <Product>1500010127</Product>
+      </Item>
+    </ModOp>
+    <!-- Tea: After Coffee -->
+    <ModOp Type="addNextSibling" GUID="120055,120057"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1500010847']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='120032']">
+      <Item>
+        <Product>1500010847</Product>
+      </Item>
+    </ModOp>
+    <!-- Tools: After Sewing Machines -->
+    <ModOp Type="addNextSibling" GUID="120055,120057"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1500010153']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010206']">
+      <Item>
+        <Product>1500010153</Product>
+      </Item>
+    </ModOp>
+    <!-- Vegetables: After Fish -->
+    <ModOp Type="addNextSibling" GUID="120055,120057"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1500010836']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010200']">
+      <Item>
+        <Product>1500010836</Product>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Tier Goods Lists -->
+  <Group>
+    <!-- Canned Fish: After Canned Food -->
+    <ModOp Type="addNextSibling" GUID="501997,502019,502006"
+      Condition="!~/Values/ProductList/List/Item[Product='1500010120']"
+      Path="/Values/ProductList/List/Item[Product='1010217']">
+      <Item>
+        <Product>1500010120</Product>
+      </Item>
+    </ModOp>
+    <!-- Cheese: After Sausages -->
+    <ModOp Type="addNextSibling" GUID="501996,502018,502005"
+      Condition="!~/Values/ProductList/List/Item[Product='1500010102']"
+      Path="/Values/ProductList/List/Item[Product='1010238']">
+      <Item>
+        <Product>1500010102</Product>
+      </Item>
+    </ModOp>
+    <!-- Ropes -->
+    <Group>
+      <!-- After Coats / Hemp -->
+      <ModOp Type="addNextSibling" GUID="502019,502006"
+        Condition="!~/Values/ProductList/List/Item[Product='1500010825']"
+        Path="/Values/ProductList/List/Item[Product='1010247']">
+        <Item>
+          <Product>1500010825</Product>
+        </Item>
+      </ModOp>
+      <!-- After Goulash -->
+      <ModOp Type="addNextSibling" GUID="502043"
+        Condition="!~/Values/ProductList/List/Item[Product='1500010825']"
+        Path="/Values/ProductList/List/Item[Product='1010215']">
+        <Item>
+          <Product>1500010825</Product>
+        </Item>
+      </ModOp>
+    </Group>
+    <!-- Hemp -->
+    <Group>
+      <!-- After Coats -->
+      <ModOp Type="addNextSibling" GUID="502019,502006"
+        Condition="!~/Values/ProductList/List/Item[Product='1440224']"
+        Path="/Values/ProductList/List/Item[Product='1010247']">
+        <Item>
+          <Product>1440224</Product>
+        </Item>
+      </ModOp>
+      <!-- After Furs -->
+      <ModOp Type="addNextSibling" GUID="502037"
+        Condition="!~/Values/ProductList/List/Item[Product='1440224']"
+        Path="/Values/ProductList/List/Item[Product='1010209']">
+        <Item>
+          <Product>1440224</Product>
+        </Item>
+      </ModOp>
+    </Group>
+    <!-- Olives: After Grain -->
+    <ModOp Type="addNextSibling" GUID="502018,502004,502037"
+      Condition="!~/Values/ProductList/List/Item[Product='1500010105']"
+      Path="/Values/ProductList/List/Item[Product='1010192']">
+      <Item>
+        <Product>1500010105</Product>
+      </Item>
+    </ModOp>
+    <!-- Suits: After Fur Coats -->
+    <ModOp Type="addNextSibling" GUID="501997,502019,502006"
+      Condition="!~/Values/ProductList/List/Item[Product='1500010127']"
+      Path="/Values/ProductList/List/Item[Product='1010247']">
+      <Item>
+        <Product>1500010127</Product>
+      </Item>
+    </ModOp>
+    <!-- Tea: After Coffee -->
+    <ModOp Type="addNextSibling" GUID="501998,502020,502066"
+      Condition="!~/Values/ProductList/List/Item[Product='1500010847']"
+      Path="/Values/ProductList/List/Item[Product='120032']">
+      <Item>
+        <Product>1500010847</Product>
+      </Item>
+    </ModOp>
+    <!-- Tools: After Sewing Machines -->
+    <ModOp Type="addNextSibling" GUID="501997,502019,502006"
+      Condition="!~/Values/ProductList/List/Item[Product='1500010153']"
+      Path="/Values/ProductList/List/Item[Product='1010206']">
+      <Item>
+        <Product>1500010153</Product>
+      </Item>
+    </ModOp>
+    <!-- Vegetables -->
+    <Group>
+      <!-- After Fish -->
+      <Group>
+        <ModOp Type="addNextSibling" GUID="502017,501995"
+          Condition="!~/Values/ProductList/List/Item[Product='1500010836']"
+          Path="/Values/ProductList/List/Item[Product='1010200']">
+          <Item>
+            <Product>1500010836</Product>
+          </Item>
+        </ModOp>
+      </Group>
+      <!-- Before Potatoes -->
+      <Group>
+        <ModOp Type="addPrevSibling" GUID="502004,502037"
+          Condition="!~/Values/ProductList/List/Item[Product='1500010836']"
+          Path="/Values/ProductList/List/Item[Product='1010195']">
+          <Item>
+            <Product>1500010836</Product>
+          </Item>
+        </ModOp>
+      </Group>
+    </Group>
+  </Group>
+</ModOps>
