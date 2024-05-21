@@ -7860,6 +7860,47 @@
         <TriggerSetup/>
       </Values>
     </Asset>
+
+    <!-- Update info text pop-up -->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115990</GUID>
+          <Name>Update info text pop-up</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionAlwaysTrue</Template>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionTriggerTextPopup</Template>
+                <Values>
+                  <ActionTriggerTextPopup>
+                    <PopupText>2100115991</PopupText>
+                    <TextPopupLayout>LetterQuest</TextPopupLayout>
+                  </ActionTriggerTextPopup>
+                  <Action />
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
   </ModOp>
 
   <!-- Imya Tweaks: Do not delete this file -->
