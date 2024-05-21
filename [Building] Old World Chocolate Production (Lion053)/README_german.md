@@ -42,6 +42,11 @@ Zur Schokoladenproduktion in einer großindustriellen Fabrik werden Kakaobohnen,
 
 **Changelog**
 
+*1.2*
+
+- Transporterreichweite der Zuckerrübenfarm reduziert
+- Zuckerrübenfelder könnenn nun in einem größeren Radius platziert werden
+
 *1.1*
 
 - Chinesische Übersetzung hinzugefügt, Dank an hanthe2th!

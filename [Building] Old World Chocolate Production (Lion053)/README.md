@@ -42,6 +42,11 @@ To produce chocolate by an industrial chocolate factory in the Old World you nee
 
 **Changelog**
 
+*1.2*
+
+- Fixed too high transporter ranges of sugar beet farms and chocolate factories
+- Sugar beet farm fields have a bigger radius within they are allowed to be built
+
 *1.1*
 
 - Add Chinese translation, thanks to hanthe2th!

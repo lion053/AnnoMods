@@ -128,6 +128,8 @@
               </Item>
             </FactoryOutputs>
             <IsMainFactory>0</IsMainFactory>
+            <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+            <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
           </FactoryBase>
           <LogisticNode />
           <AmbientMoodProvider />
@@ -673,6 +675,8 @@
             </FactoryOutputs>
             <CycleTime>120</CycleTime>
             <IsMainFactory>1</IsMainFactory>
+            <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+            <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
           </FactoryBase>
           <LogisticNode />
           <ModuleOwner>
@@ -691,7 +695,7 @@
             <FertilizerModuleData>
               <Module>25240</Module>
             </FertilizerModuleData>
-            <ModuleBuildRadius>25</ModuleBuildRadius> <!-- 0 = must be main building adjacent -->
+            <ModuleBuildRadius>40</ModuleBuildRadius> <!-- 0 = must be main building adjacent -->
             <HardFarmsConfig>2</HardFarmsConfig>
             <FarmType>PlantFarm</FarmType>
           </ModuleOwner>

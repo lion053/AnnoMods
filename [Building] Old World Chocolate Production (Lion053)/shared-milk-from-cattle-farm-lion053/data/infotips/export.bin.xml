@@ -420,7 +420,9 @@
             <ExpectedValueInt>1010263</ExpectedValueInt> <!-- cattle farm ow -->
             <Condition>[RefGuid]</Condition>
           </VisibilityElement>
-          <OperatorType />
+          <OperatorType>
+            <OperatorType>1</OperatorType>
+          </OperatorType>
         </VisibilityElement>
         <OperatorType />
       </VisibilityElement>
@@ -439,6 +441,7 @@
       <BackgroundType />
     </InfoElement>
   </ModOp>
+
   <ModOp Type="addNextSibling" Path ="//InfoTipData[Guid='25000020']/InfoElement/InfoElement/InfoElement/InfoElement[VisibilityElement/VisibilityElement/VisibilityElement/ExpectedValueInt='101269']"
   Condition="!//InfoTipData[Guid='25000020']/InfoElement/InfoElement/InfoElement/InfoElement[VisibilityElement/VisibilityElement/VisibilityElement/ExpectedValueInt='101269' and (VisibilityElement/VisibilityElement[VisibilityElement/Condition='[GameSetup IsDLCActive(24963)]' and VisibilityElement/CompareOperator/CompareOperator='1'])]">
     <InfoElement>
