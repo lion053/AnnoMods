@@ -264,9 +264,12 @@
         <Template>A7_QuestStatusQuo</Template>
         <Values>
           <Standard>
-            <GUID>2100115958</GUID>
+            <GUID>2100115992</GUID>
             <Name>Upgrade from MTD I</Name>
           </Standard>
+          <Text>
+            <TextOverride>2100115958</TextOverride>
+          </Text>
           <Quest>
             <InvitationMessage>
               <Notification>
@@ -632,7 +635,7 @@
                           <Condition />
                           <ConditionPlayerCounter>
                             <PlayerCounter>ObjectBuilt</PlayerCounter>
-                            <Context>2100115255</Context>
+                            <Context>2100115639</Context>
                             <ComparisonOp>AtLeast</ComparisonOp>
                             <CounterAmount>5</CounterAmount>
                             <CounterScope>Area</CounterScope>
@@ -668,7 +671,7 @@
                               <Template>ConditionObjectiveSignsAndFeedback</Template>
                               <Values>
                                 <ConditionObjectiveSignsAndFeedback>
-                                  <Infolayer>2100115969</Infolayer>
+                                  <Infolayer>2100115995</Infolayer>
                                 </ConditionObjectiveSignsAndFeedback>
                               </Values>
                             </SignsAndFeedback>
@@ -716,7 +719,7 @@
                     <Template>ConditionObjectSpawnedObject</Template>
                     <Values>
                       <ConditionObjectSpawnedObject>
-                        <ExecutionObject>2100115971</ExecutionObject>
+                        <ExecutionObject>2100115996</ExecutionObject>
                         <ObjectSpawnArea>
                           <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                           <Values>
@@ -755,9 +758,12 @@
         <Template>A7_QuestStatusQuo</Template>
         <Values>
           <Standard>
-            <GUID>2100115964</GUID>
+            <GUID>2100115993</GUID>
             <Name>Upgrade from MTD II</Name>
           </Standard>
+          <Text>
+            <TextOverride>2100115964</TextOverride>
+          </Text>
           <Quest>
             <InvitationMessage>
               <Notification>
@@ -1122,7 +1128,7 @@
                           <Condition />
                           <ConditionPlayerCounter>
                             <PlayerCounter>ObjectBuilt</PlayerCounter>
-                            <Context>2100115255</Context>
+                            <Context>2100115639</Context>
                             <ComparisonOp>AtLeast</ComparisonOp>
                             <CounterAmount>10</CounterAmount>
                             <CounterScope>Area</CounterScope>
@@ -1158,7 +1164,7 @@
                               <Template>ConditionObjectiveSignsAndFeedback</Template>
                               <Values>
                                 <ConditionObjectiveSignsAndFeedback>
-                                  <Infolayer>2100115969</Infolayer>
+                                  <Infolayer>2100115995</Infolayer>
                                 </ConditionObjectiveSignsAndFeedback>
                               </Values>
                             </SignsAndFeedback>
@@ -1206,7 +1212,7 @@
                     <Template>ConditionObjectSpawnedObject</Template>
                     <Values>
                       <ConditionObjectSpawnedObject>
-                        <ExecutionObject>2100115978</ExecutionObject>
+                        <ExecutionObject>2100115997</ExecutionObject>
                         <ObjectSpawnArea>
                           <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                           <Values>
@@ -1245,9 +1251,12 @@
         <Template>A7_QuestStatusQuo</Template>
         <Values>
           <Standard>
-            <GUID>2100115967</GUID>
+            <GUID>2100115994</GUID>
             <Name>Upgrade from MTD III</Name>
           </Standard>
+          <Text>
+            <TextOverride>2100115967</TextOverride>
+          </Text>
           <Quest>
             <InvitationMessage>
               <Notification>
@@ -1613,7 +1622,7 @@
                           <Condition />
                           <ConditionPlayerCounter>
                             <PlayerCounter>ObjectBuilt</PlayerCounter>
-                            <Context>2100115255</Context>
+                            <Context>2100115639</Context>
                             <ComparisonOp>AtLeast</ComparisonOp>
                             <CounterAmount>15</CounterAmount>
                             <CounterScope>Area</CounterScope>
@@ -1649,7 +1658,7 @@
                               <Template>ConditionObjectiveSignsAndFeedback</Template>
                               <Values>
                                 <ConditionObjectiveSignsAndFeedback>
-                                  <Infolayer>2100115969</Infolayer>
+                                  <Infolayer>2100115995</Infolayer>
                                 </ConditionObjectiveSignsAndFeedback>
                               </Values>
                             </SignsAndFeedback>
@@ -1697,7 +1706,7 @@
                     <Template>ConditionObjectSpawnedObject</Template>
                     <Values>
                       <ConditionObjectSpawnedObject>
-                        <ExecutionObject>2100115979</ExecutionObject>
+                        <ExecutionObject>2100115998</ExecutionObject>
                         <ObjectSpawnArea>
                           <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                           <Values>
@@ -1773,18 +1782,18 @@
         <Values>
           <Standard>
             <GUID>2100115960</GUID>
-            <Name>QuestPool_MTD I</Name>
+            <Name>QuestPool_MTD</Name>
           </Standard>
           <QuestPool>
             <Quests>
               <Item>
-                <Quest>2100115958</Quest>
+                <Quest>2100115992</Quest>
               </Item>
               <Item>
-                <Quest>2100115964</Quest>
+                <Quest>2100115993</Quest>
               </Item>
               <Item>
-                <Quest>2100115967</Quest>
+                <Quest>2100115994</Quest>
               </Item>
             </Quests>
             <PoolCooldown>0</PoolCooldown>
@@ -1823,13 +1832,13 @@
           <QuestLine>
             <QuestLineQuests>
               <Item>
-                <Asset>2100115958</Asset>
+                <Asset>2100115992</Asset>
               </Item>
               <Item>
-                <Asset>2100115964</Asset>
+                <Asset>2100115993</Asset>
               </Item>
               <Item>
-                <Asset>2100115967</Asset>
+                <Asset>2100115994</Asset>
               </Item>
             </QuestLineQuests>
           </QuestLine>
@@ -1843,7 +1852,7 @@
         <Template>InfoLayerIcon</Template>
         <Values>
           <Standard>
-            <GUID>2100115969</GUID>
+            <GUID>2100115995</GUID>
             <Name>UpgradableBuilding</Name>
           </Standard>
           <InfoLayerIcon>
@@ -1861,7 +1870,7 @@
     <!-- Only one infolayer can be displayed at a time; the icon order in the priority list specifies which infolayer is shown, when conditions for >1 are true at the same time -->
     <ModOp Type="addPrevSibling" GUID="140695" Path="/Values/InfolayerConfig/InfoLayerPriority/Item[Icon='500693']">
       <Item>
-        <Icon>2100115969</Icon>
+        <Icon>2100115995</Icon>
       </Item>
     </ModOp>
 
@@ -1871,7 +1880,7 @@
         <Template>QuestObject</Template>
         <Values>
           <Standard>
-            <GUID>2100115971</GUID>
+            <GUID>2100115996</GUID>
             <Name>Quest_spawn_mtd_upgrade_1to2</Name>
             <IconFilename>data/ui/2kimages/main/icons/icon_resident_investor.png</IconFilename>
           </Standard>
@@ -1916,7 +1925,7 @@
         <Template>QuestObject</Template>
         <Values>
           <Standard>
-            <GUID>2100115978</GUID>
+            <GUID>2100115997</GUID>
             <Name>Quest_spawn_mtd_upgrade_2to3</Name>
             <IconFilename>data/ui/2kimages/main/icons/icon_resident_investor.png</IconFilename>
           </Standard>
@@ -1961,7 +1970,7 @@
         <Template>QuestObject</Template>
         <Values>
           <Standard>
-            <GUID>2100115979</GUID>
+            <GUID>2100115998</GUID>
             <Name>Quest_spawn_mtd_upgrade_3to4</Name>
             <IconFilename>data/ui/2kimages/main/icons/icon_resident_investor.png</IconFilename>
           </Standard>

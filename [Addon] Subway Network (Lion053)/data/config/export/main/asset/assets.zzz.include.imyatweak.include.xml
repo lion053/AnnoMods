@@ -1,11 +1,17 @@
 <ModOps>
-  <ModOp Path="/Values/BuffFactory/PublicServiceData/FullSatisfactionDistance" GUID="2100115243,2100115255" Type="replace">
+  <ModOp Path="/Values/BuffFactory/PublicServiceData/FullSatisfactionDistance" GUID="2100115243" Type="replace">
     <FullSatisfactionDistance>25</FullSatisfactionDistance>
   </ModOp>
-  <ModOp Path="/Values/BuffFactory/PublicServiceData/NoSatisfactionDistance" GUID="2100115243,2100115255" Type="replace">
+  <ModOp Path="/Values/BuffFactory/PublicServiceData/NoSatisfactionDistance" GUID="2100115243" Type="replace">
     <NoSatisfactionDistance>25</NoSatisfactionDistance>
   </ModOp>
-  <ModOp Path="/Values/EffectForward/ForwardEffectRange" GUID="2100115294,2100115239,2100115299,2100115248,2100115210,2100115250,2100115212,2100115230" Type="replace">
+  <ModOp Path="/Values/BuffFactory/PublicServiceData/FullSatisfactionDistance" GUID="2100115255" Type="replace">
+    <FullSatisfactionDistance>25</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="/Values/BuffFactory/PublicServiceData/NoSatisfactionDistance" GUID="2100115255" Type="replace">
+    <NoSatisfactionDistance>25</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="/Values/EffectForward/ForwardEffectRange" GUID="2100115294,2100115239,2100115299,2100115248,2100115210,2100115250,2100115212,2100115230,2100115937,2100115938,2100115939,2100115940" Type="replace">
     <ForwardEffectRange>25</ForwardEffectRange>
   </ModOp>
   <ModOp Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='2100115204']" GUID="15000001" Type="replace">

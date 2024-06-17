@@ -1,9 +1,15 @@
 <!-- # Imya Tweaks -->
 <ModOps>
-  <ModOp Type="replace" GUID="2100115243,2100115255" Path="/Values/BuffFactory/PublicServiceData/FullSatisfactionDistance" ModOpID="subway_station_full_range" Skip="1">
+  <ModOp Type="replace" GUID="2100115243" Path="/Values/BuffFactory/PublicServiceData/FullSatisfactionDistance" ModOpID="subway_station_full_range_s" Skip="1">
     <FullSatisfactionDistance>25</FullSatisfactionDistance>
   </ModOp>
-  <ModOp Type="replace" GUID="2100115243,2100115255" Path="/Values/BuffFactory/PublicServiceData/NoSatisfactionDistance" ModOpID="subway_station_no_range" Skip="1">
+  <ModOp Type="replace" GUID="2100115243" Path="/Values/BuffFactory/PublicServiceData/NoSatisfactionDistance" ModOpID="subway_station_no_range_s" Skip="1">
+    <NoSatisfactionDistance>25</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100115255" Path="/Values/BuffFactory/PublicServiceData/FullSatisfactionDistance" ModOpID="subway_station_full_range_l" Skip="1">
+    <FullSatisfactionDistance>25</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100115255" Path="/Values/BuffFactory/PublicServiceData/NoSatisfactionDistance" ModOpID="subway_station_no_range_l" Skip="1">
     <NoSatisfactionDistance>25</NoSatisfactionDistance>
   </ModOp>
   <ModOp Type="replace" GUID="2100115294,2100115239,2100115299,2100115248,2100115210,2100115250,2100115212,2100115230,2100115937,2100115938,2100115939,2100115940" Path="/Values/EffectForward/ForwardEffectRange" ModOpID="subway_station_buff_range" Skip="1">
@@ -16,6 +22,7 @@
       <MoneyValue>50</MoneyValue>
       <FullWeightPopulationCount>7000</FullWeightPopulationCount>
       <NoWeightPopulationCount>6999</NoWeightPopulationCount>
+      <IsConsideredByAI>0</IsConsideredByAI>
     </Item>
   </ModOp>
   <ModOp Type="replace" GUID="15000002" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='2100115204']" ModOpID="subway_need_artisans" Skip="1">
@@ -25,6 +32,7 @@
       <MoneyValue>70</MoneyValue>
       <FullWeightPopulationCount>7000</FullWeightPopulationCount>
       <NoWeightPopulationCount>6999</NoWeightPopulationCount>
+      <IsConsideredByAI>0</IsConsideredByAI>
     </Item>
   </ModOp>
   <ModOp Type="replace" GUID="118745" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='2100115204']" ModOpID="subway_need_scholars" Skip="1">
@@ -34,6 +42,7 @@
       <MoneyValue>80</MoneyValue>
       <FullWeightPopulationCount>7000</FullWeightPopulationCount>
       <NoWeightPopulationCount>6999</NoWeightPopulationCount>
+      <IsConsideredByAI>0</IsConsideredByAI>
     </Item>
   </ModOp>
   <ModOp Type="replace" GUID="2100115240" Path="/Values/FactoryBase/CycleTime" ModOpID="subway_factory_cycle" Skip="1">
@@ -42,10 +51,16 @@
   <ModOp Type="replace" GUID="2100115020" Path="/Values/FactoryBase/CycleTime" ModOpID="metal_sheets_press_cycle" Skip="1">
     <CycleTime>90</CycleTime>
   </ModOp>
-  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="subway_station_full_range" ExposeID="Public Service Full Satisfaction Distance" Kind="Slider" Description="Defines the street range within the public service of a subway station is provided by 100 %.&#xD;&#xA;Default value is 25.">
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="subway_station_full_range_s" ExposeID="Public Service Full Satisfaction Distance (small)" Kind="Slider" Description="Defines the street range within the public service of a small subway station is provided by 100 %.&#xD;&#xA;Default value is 25.">
     <SliderDefinition Min="10" Max="50" Stepping="1" />
   </ImyaExpose>
-  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="subway_station_no_range" ExposeID="Public Service No Satisfaction Distance" Kind="Slider" Description="The Delta defined by Full and No Satisfaction Distance describes the street range within the public service of a subway station is provided by less than 100 %. Therefore this value must be at least as high as the Full Satisfaction Distance.&#xD;&#xA;Default value is 25.">
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="subway_station_no_range_s" ExposeID="Public Service No Satisfaction Distance (small)" Kind="Slider" Description="The Delta defined by Full and No Satisfaction Distance describes the street range within the public service of a small subway station is provided by less than 100 %. Therefore this value must be at least as high as the Full Satisfaction Distance.&#xD;&#xA;Default value is 25.">
+    <SliderDefinition Min="10" Max="50" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="subway_station_full_range_l" ExposeID="Public Service Full Satisfaction Distance (large)" Kind="Slider" Description="Defines the street range within the public service of a large subway station is provided by 100 %.&#xD;&#xA;Default value is 25.">
+    <SliderDefinition Min="10" Max="50" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="subway_station_no_range_l" ExposeID="Public Service No Satisfaction Distance (large)" Kind="Slider" Description="The Delta defined by Full and No Satisfaction Distance describes the street range within the public service of a large subway station is provided by less than 100 %. Therefore this value must be at least as high as the Full Satisfaction Distance.&#xD;&#xA;Default value is 25.">
     <SliderDefinition Min="10" Max="50" Stepping="1" />
   </ImyaExpose>
   <ImyaExpose Path="self::ForwardEffectRange" ModOpID="subway_station_buff_range" ExposeID="Buff Distance" Kind="Slider" Description="Defines the street range within the policy buffs of a subway station are forwarded. For logic reasons the value SHOULD be the same as the 'Public Service Full Satisfaction Distance'.&#xD;&#xA;Default value is 25.">

@@ -1544,6 +1544,7 @@
               </Item>
             </ActiveSounds>
         </SoundEmitter>
+        <Factory7 />
         <FactoryBase>
           <FactoryInputs>
             <Item>
@@ -1668,6 +1669,7 @@
         </Cost>
         <Mesh />
         <Selection>
+          <GUIType>Production</GUIType>
           <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
         </Selection>
         <Constructable />

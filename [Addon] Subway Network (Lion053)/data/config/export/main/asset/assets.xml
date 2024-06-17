@@ -4317,10 +4317,10 @@
         <PlayerCounterContextPool>
           <Contexts>
             <Item>
-              <Asset>2100115255</Asset>
+              <Asset>2100115243</Asset>
             </Item>
             <Item>
-              <Asset>2100115243</Asset>
+              <Asset>2100115255</Asset>
             </Item>
           </Contexts>
         </PlayerCounterContextPool>
@@ -4547,6 +4547,9 @@
     </Item>
     <Item>
       <Factory>2100115020</Factory>
+    </Item>
+    <Item>
+      <Factory>2100115002</Factory>
     </Item>
   </ModOp>
 

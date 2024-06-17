@@ -198,33 +198,6 @@
     </Asset>
   </ModOp>
 
-  <ModOp Type="add" GUID='100451' Path="/Values">
-    <ModuleOwner>
-      <ModuleLimits>
-        <Main>
-          <Limit>0</Limit>
-        </Main>
-      </ModuleLimits>
-      <ConstructionOptions>
-        <Item>
-          <ModuleGUID>0</ModuleGUID>
-        </Item>
-      </ConstructionOptions>
-      <FertilizerModuleData>
-        <Module>2100115912</Module>
-      </FertilizerModuleData>
-      <AdditionalModule>0</AdditionalModule>
-      <ModuleBuildRadius>0</ModuleBuildRadius>
-      <FarmType>NoFarm</FarmType>
-    </ModuleOwner>
-    <Motorizable>
-      <MotorizableType>None</MotorizableType>
-    </Motorizable>
-    <Electrifiable>
-      <ShowPowerInObjectMenu>1</ShowPowerInObjectMenu>
-    </Electrifiable>
-  </ModOp>
-
   <!-- # Input / Ouput Products -->
   <ModOp Type="addNextSibling" GUID="1010242">
     <Asset>
