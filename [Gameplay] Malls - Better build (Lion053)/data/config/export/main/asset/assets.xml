@@ -1,0 +1,1635 @@
+<!-- [Gameplay] Malls by Street Distance (Lion053) -->
+
+<!-- Purpose of this mod: -->
+<!-- When building a Mall or after the selection of one, the Public Service ranges of all already existing Malls of the same type are displayed at the same time -->
+<!-- E.g. clicking on / or while building a Department Store of any recipe (or blank) displays the public service range of all other built Department stores on an island -->
+<!-- Same logic for the Furniture Stores or the Drug Stores -->
+<!-- To achieve this, this mod also changes the buff and public service influence range from Radius to Street Distance -->
+<!-- Furthermore, the smaller productivity buffs provided at 50 and 160 % productivity are removed, since they are not shown in the output-infotip anyway due to uncomplete coding by devs -->
+<!-- Instead only the buff which is regularly provided at 200 % productivity in vanilla game is provided, but in return already at 101 % productivity -->
+
+<ModOps>
+
+  <!-- # Adjustments for all malls -->
+
+  <!-- ProductionBuffDistance is no longer needed (ForwardBuffs are required instead) -->
+  <ModOp Type="remove" GUID="135103,135187,135188,135189,135190,135105,135120,135121,135122,135123,134631,135191,135192,135193,135194" Path="/Values/BuffFactory/ProductionBuffDistance">
+  </ModOp>
+  <!-- Distribute the service from the 'PublicServiceData' by street -->
+  <ModOp Type="merge" GUID="135100,135099,134629,135103,135187,135188,135189,135190,135105,135120,135121,135122,135123,134631,135191,135192,135193,135194" Path="/Values/BuffFactory/ProductionBuffScope">
+    <ProductionBuffScope>Local</ProductionBuffScope>
+  </ModOp>
+  <!-- Set the satisfaction distance to 32 which corresponds to the former vanilla radius of 45 -->
+  <ModOp Type="merge" GUID="135103,135187,135188,135189,135190,135105,135120,135121,135122,135123,134631,135191,135192,135193,135194" Path="/Values/BuffFactory/PublicServiceData/FullSatisfactionDistance">
+    <FullSatisfactionDistance>32</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Type="merge" GUID="135103,135187,135188,135189,135190,135105,135120,135121,135122,135123,134631,135191,135192,135193,135194" Path="/Values/BuffFactory/PublicServiceData/NoSatisfactionDistance">
+    <NoSatisfactionDistance>32</NoSatisfactionDistance>
+  </ModOp>
+
+  <!-- # Public Service Ghosts -->
+  <!-- BuffFactory-PublicServiceData properties only display their service which is distributed by the same BUILDING guid, even if the service has the same guid. -->
+  <!-- In other words: Recipe buildings like the Malls need a workaround, otherwise only buildings which currently use the same recipe are displayed together -->
+  <!-- Workaround: Add a non-functional ghost service per mall type as a regular 'PublicService'. This way, the service is displayed across all recipes of a certain mall type -->
+  <!-- 1. Add Ghosts -->
+  <ModOp Type="addNextSibling" GUID="1010349">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116201</GUID>
+          <Name>Department Ghost Service</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_mall.png</IconFilename>
+        </Standard>
+        <Text>
+          <TextOverride>135108</TextOverride>
+        </Text>
+        <Locked>
+          <DefaultLockedState>1</DefaultLockedState>
+        </Locked>
+        <Product>
+          <ProductColor>-11415604</ProductColor>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11708</ProductCategory>
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <HideInUI>1</HideInUI>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116202</GUID>
+          <Name>Furniture Ghost Service</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_furnitures.png</IconFilename>
+        </Standard>
+        <Text>
+          <TextOverride>135107</TextOverride>
+        </Text>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Product>
+          <ProductColor>-11415604</ProductColor>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11708</ProductCategory>
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116203</GUID>
+          <Name>Pharmacy Ghost Service</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_drugstore.png</IconFilename>
+        </Standard>
+        <Text>
+          <TextOverride>135109</TextOverride>
+        </Text>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Product>
+          <ProductColor>-11415604</ProductColor>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11708</ProductCategory>
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Apply Ghosts -->
+  <ModOp Type="merge" GUID="135100,135103,135187,135188,135189,135190" Path="/Values">
+    <PublicService>
+      <FullSatisfactionDistance>32</FullSatisfactionDistance>
+      <NoSatisfactionDistance>32</NoSatisfactionDistance>
+      <PublicServiceOutputs>
+        <Item>
+          <Product>2100116201</Product>
+        </Item>
+      </PublicServiceOutputs>
+    </PublicService>
+  </ModOp>
+  <ModOp Type="merge" GUID="135099,135105,135120,135121,135122,135123" Path="/Values">
+    <PublicService>
+      <FullSatisfactionDistance>32</FullSatisfactionDistance>
+      <NoSatisfactionDistance>32</NoSatisfactionDistance>
+      <PublicServiceOutputs>
+        <Item>
+          <Product>2100116202</Product>
+        </Item>
+      </PublicServiceOutputs>
+    </PublicService>
+  </ModOp>
+  <ModOp Type="merge" GUID="134629,134631,135191,135192,135193,135194" Path="/Values">
+    <PublicService>
+      <FullSatisfactionDistance>32</FullSatisfactionDistance>
+      <NoSatisfactionDistance>32</NoSatisfactionDistance>
+      <PublicServiceOutputs>
+        <Item>
+          <Product>2100116203</Product>
+        </Item>
+      </PublicServiceOutputs>
+    </PublicService>
+  </ModOp>
+
+  <!-- # Make residences recognize the Ghosts as their Department / Furniture / Pharmacy need -->
+  <ModOp Type="addNextSibling" GUID="135115">
+    <Asset>
+      <Template>TownhallBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116220</GUID>
+          <Name>Buff_Ghost_Department_Residents</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_mall.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194018</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <BuildingUpgrade />
+        <Buff />
+        <PopulationUpgrade />
+        <ResidenceUpgrade>
+          <!-- When this buff is active, the Department need is fullfilled everywhere the Ghost service is visually represented on the streets -->
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>135108</ProvidedNeed>
+              <AmountInPercent>-100</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+        </ResidenceUpgrade>
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <InfluenceSourceUpgrade />
+        <WarehouseUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+        <FactoryUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TownhallBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116221</GUID>
+          <Name>Buff_Ghost_Furniture_Residents</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_furnitures.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194018</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <BuildingUpgrade />
+        <Buff />
+        <PopulationUpgrade />
+        <ResidenceUpgrade>
+          <!-- When this buff is active, the Furniture need is fullfilled everywhere the Ghost service is visually represented on the streets -->
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>135107</ProvidedNeed>
+              <AmountInPercent>-100</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+        </ResidenceUpgrade>
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <InfluenceSourceUpgrade />
+        <WarehouseUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+        <FactoryUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TownhallBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116222</GUID>
+          <Name>Buff_Ghost_Pharmacy_Residents</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_drugstore.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194018</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <BuildingUpgrade />
+        <Buff />
+        <PopulationUpgrade />
+        <ResidenceUpgrade>
+          <!-- When this buff is active, the Pharmacy need is fullfilled everywhere the Ghost service is visually represented on the streets -->
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>135109</ProvidedNeed>
+              <AmountInPercent>-100</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+        </ResidenceUpgrade>
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <InfluenceSourceUpgrade />
+        <WarehouseUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+        <FactoryUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="135115">
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116223</GUID>
+          <Name>Buff_Forward_Ghost_Department_Residents</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_mall.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194018</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <EffectForward>
+          <ForwardEffect>2100116220</ForwardEffect>
+          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff> <!-- hide buff icon in the Mall UI -->
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116224</GUID>
+          <Name>Buff_Forward_Ghost_Furniture_Residents</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_furnitures.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194018</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <EffectForward>
+          <ForwardEffect>2100116221</ForwardEffect>
+          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff> <!-- hide buff icon in the Mall UI -->
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116225</GUID>
+          <Name>Buff_Forward_Ghost_Pharmacy_Residents</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_drugstore.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194018</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <EffectForward>
+          <ForwardEffect>2100116222</ForwardEffect>
+          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff> <!-- hide buff icon in the Mall UI -->
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- # Vanilla Mall Output Buffs as Forward Buffs -->
+<!-- Needed to distribute the mall buffs to residences via StreetDistance, because scope type "Local" (for the public service) does not work for buffs itself (would just act like a DefaultBuff) -->
+<!-- Forward Buffs Department -->
+<Group>
+  <ModOp Type="addNextSibling" GUID="135115">
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116205</GUID>
+          <Name>Buff_Forward_Department_Toaster</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_toaster.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <Text>
+         <TextOverride>135111</TextOverride>
+        </Text>
+        <EffectForward>
+          <ForwardEffect>135111</ForwardEffect>
+          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff> <!-- hide buff icon in the Mall UI, it is already displayed as output -->
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116206</GUID>
+          <Name>Buff_Forward_Department_Dishes</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_dishes.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <Text>
+         <TextOverride>137637</TextOverride>
+        </Text>
+        <EffectForward>
+          <ForwardEffect>137637</ForwardEffect>
+          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116207</GUID>
+          <Name>Buff_Forward_Department_Vacuum</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_vacuumcleaner.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <Text>
+         <TextOverride>135196</TextOverride>
+        </Text>
+        <EffectForward>
+          <ForwardEffect>135196</ForwardEffect>
+          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116208</GUID>
+          <Name>Buff_Forward_Department_Fridge</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_refrigerator.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <Text>
+         <TextOverride>135197</TextOverride>
+        </Text>
+        <EffectForward>
+          <ForwardEffect>135197</ForwardEffect>
+          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116209</GUID>
+          <Name>Buff_Forward_Department_Bags</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_suitcase.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>190041</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <Text>
+         <TextOverride>658</TextOverride>
+        </Text>
+        <EffectForward>
+          <ForwardEffect>658</ForwardEffect>
+          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+</Group>
+<!-- Forward Buffs Furniture -->
+<Group>
+  <ModOp Type="addNextSibling" GUID="135115">
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116210</GUID>
+          <Name>Buff_Forward_Furniture_Lamp</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_bankerlamp.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <Text>
+         <TextOverride>135112</TextOverride>
+        </Text>
+        <EffectForward>
+          <ForwardEffect>135112</ForwardEffect>
+          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116211</GUID>
+          <Name>Buff_Forward_Furniture_Secretary</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_secretary.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <Text>
+         <TextOverride>135152</TextOverride>
+        </Text>
+        <EffectForward>
+          <ForwardEffect>135152</ForwardEffect>
+          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116212</GUID>
+          <Name>Buff_Forward_Furniture_Paravent</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_paravent.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <Text>
+         <TextOverride>135151</TextOverride>
+        </Text>
+        <EffectForward>
+          <ForwardEffect>135151</ForwardEffect>
+          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116213</GUID>
+          <Name>Buff_Forward_Furniture_Canopy</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_canopy.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <Text>
+         <TextOverride>135153</TextOverride>
+        </Text>
+        <EffectForward>
+          <ForwardEffect>135153</ForwardEffect>
+          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116214</GUID>
+          <Name>Buff_Forward_Furniture_Chesterfield</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_chesterfield.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>190041</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <Text>
+         <TextOverride>661</TextOverride>
+        </Text>
+        <EffectForward>
+          <ForwardEffect>661</ForwardEffect>
+          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+</Group>
+<!-- Forward Buffs Pharmacy -->
+<Group>
+  <ModOp Type="addNextSibling" GUID="135115">
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116215</GUID>
+          <Name>Buff_Forward_Pharmacy_Toothpaste</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_toothpaste.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <Text>
+         <TextOverride>135113</TextOverride>
+        </Text>
+        <EffectForward>
+          <ForwardEffect>135113</ForwardEffect>
+          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116216</GUID>
+          <Name>Buff_Forward_Pharmacy_Detergent</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_detergent.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <Text>
+         <TextOverride>135199</TextOverride>
+        </Text>
+        <EffectForward>
+          <ForwardEffect>135199</ForwardEffect>
+          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116217</GUID>
+          <Name>Buff_Forward_Pharmacy_Lipstick</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_lipstick.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <Text>
+         <TextOverride>135200</TextOverride>
+        </Text>
+        <EffectForward>
+          <ForwardEffect>135200</ForwardEffect>
+          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116218</GUID>
+          <Name>Buff_Forward_Pharmacy_Facecreme</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_facecreme.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <Text>
+         <TextOverride>135201</TextOverride>
+        </Text>
+        <EffectForward>
+          <ForwardEffect>135201</ForwardEffect>
+          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116219</GUID>
+          <Name>Buff_Forward_Pharmacy_Pomade</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_pomade.png</IconFilename>
+        </Standard>
+        <Buff />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>190041</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <Text>
+         <TextOverride>664</TextOverride>
+        </Text>
+        <EffectForward>
+          <ForwardEffect>664</ForwardEffect>
+          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectScope>StreetDistance</ForwardEffectScope>
+        </EffectForward>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+</Group>
+
+<!-- # Effect Container for Department Stores -->
+<Group>
+  <ModOp Type="addNextSibling" GUID="135115">
+    <Asset>
+      <Template>EffectContainer</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116226</GUID>
+          <Name>Department Store Toaster</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_toaster.png</IconFilename>
+        </Standard>
+        <EffectContainer>
+          <Effects>
+            <Item>
+              <Effect>2100116223</Effect>
+            </Item>
+            <Item>
+              <Effect>2100116205</Effect>
+            </Item>
+          </Effects>
+        </EffectContainer>
+        <!-- For Infotip: -->
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <Text>
+          <TextOverride>135111</TextOverride>
+        </Text>
+        <ResidenceUpgrade>
+          <AdditionalHappiness>2</AdditionalHappiness>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>1010250</ProvidedNeed>
+              <AmountInPercent>-10</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed>1010208</ProvidedNeed>
+              <AmountInPercent>-15</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+          <TaxModifierInPercent>5</TaxModifierInPercent>
+        </ResidenceUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>EffectContainer</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116227</GUID>
+          <Name>Department Store TableWare</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_dishes.png</IconFilename>
+        </Standard>
+        <EffectContainer>
+          <Effects>
+            <Item>
+              <Effect>2100116223</Effect>
+            </Item>
+            <Item>
+              <Effect>2100116206</Effect>
+            </Item>
+          </Effects>
+        </EffectContainer>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <Text>
+          <TextOverride>135195</TextOverride>
+        </Text>
+        <ResidenceUpgrade>
+          <AdditionalHappiness>4</AdditionalHappiness>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>1010248</ProvidedNeed>
+              <AmountInPercent>-10</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed>1010259</ProvidedNeed>
+              <AmountInPercent>-25</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+          <TaxModifierInPercent>15</TaxModifierInPercent>
+        </ResidenceUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>EffectContainer</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116228</GUID>
+          <Name>Department Store Vaccuum</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_vacuumcleaner.png</IconFilename>
+        </Standard>
+        <EffectContainer>
+          <Effects>
+            <Item>
+              <Effect>2100116223</Effect>
+            </Item>
+            <Item>
+              <Effect>2100116207</Effect>
+            </Item>
+          </Effects>
+        </EffectContainer>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <Text>
+          <TextOverride>135196</TextOverride>
+        </Text>
+        <ResidenceUpgrade>
+          <AdditionalHappiness>5</AdditionalHappiness>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>120030</ProvidedNeed>
+              <AmountInPercent>-25</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed>1010225</ProvidedNeed>
+              <AmountInPercent>-15</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+          <TaxModifierInPercent>16</TaxModifierInPercent>
+        </ResidenceUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>EffectContainer</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116229</GUID>
+          <Name>Department Store Fridge</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_refrigerator.png</IconFilename>
+        </Standard>
+        <EffectContainer>
+          <Effects>
+            <Item>
+              <Effect>2100116223</Effect>
+            </Item>
+            <Item>
+              <Effect>2100116208</Effect>
+            </Item>
+          </Effects>
+        </EffectContainer>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <Text>
+          <TextOverride>135197</TextOverride>
+        </Text>
+        <ResidenceUpgrade>
+          <AdditionalHappiness>4</AdditionalHappiness>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>1010245</ProvidedNeed>
+              <AmountInPercent>-20</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed>1010208</ProvidedNeed>
+              <AmountInPercent>-10</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+          <TaxModifierInPercent>22</TaxModifierInPercent>
+        </ResidenceUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>EffectContainer</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116230</GUID>
+          <Name>Department Store Bags</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_suitcase.png</IconFilename>
+        </Standard>
+        <EffectContainer>
+          <Effects>
+            <Item>
+              <Effect>2100116223</Effect>
+            </Item>
+            <Item>
+              <Effect>2100116209</Effect>
+            </Item>
+          </Effects>
+        </EffectContainer>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>190041</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <Text>
+          <TextOverride>658</TextOverride>
+        </Text>
+        <ResidenceUpgrade>
+          <AdditionalHappiness>5</AdditionalHappiness>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>114428</ProvidedNeed>
+              <AmountInPercent>-20</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed>1010259</ProvidedNeed>
+              <AmountInPercent>-10</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+          <TaxModifierInPercent>12</TaxModifierInPercent>
+        </ResidenceUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+</Group>
+
+<!-- # Effect Container Furniture Stores -->
+<Group>
+  <ModOp Type="addNextSibling" GUID="135115">
+    <Asset>
+      <Template>EffectContainer</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116231</GUID>
+          <Name>Furniture Store Lamp</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_bankerlamp.png</IconFilename>
+        </Standard>
+        <EffectContainer>
+          <Effects>
+            <Item>
+              <Effect>2100116224</Effect>
+            </Item>
+            <Item>
+              <Effect>2100116210</Effect>
+            </Item>
+          </Effects>
+        </EffectContainer>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <Text>
+          <TextOverride>135112</TextOverride>
+        </Text>
+        <ResidenceUpgrade>
+          <AdditionalHappiness>4</AdditionalHappiness>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>1010250</ProvidedNeed>
+              <AmountInPercent>-15</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed>1010208</ProvidedNeed>
+              <AmountInPercent>-25</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+          <TaxModifierInPercent>11</TaxModifierInPercent>
+        </ResidenceUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>EffectContainer</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116232</GUID>
+          <Name>Furniture Store Secretary</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_secretary.png</IconFilename>
+        </Standard>
+        <EffectContainer>
+          <Effects>
+            <Item>
+              <Effect>2100116224</Effect>
+            </Item>
+            <Item>
+              <Effect>2100116211</Effect>
+            </Item>
+          </Effects>
+        </EffectContainer>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <Text>
+          <TextOverride>135152</TextOverride>
+        </Text>
+        <ResidenceUpgrade>
+          <AdditionalHappiness>6</AdditionalHappiness>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>1010259</ProvidedNeed>
+              <AmountInPercent>-20</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed>1010245</ProvidedNeed>
+              <AmountInPercent>-25</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+          <TaxModifierInPercent>14</TaxModifierInPercent>
+        </ResidenceUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>EffectContainer</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116233</GUID>
+          <Name>Furniture Store Paravent</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_paravent.png</IconFilename>
+        </Standard>
+        <EffectContainer>
+          <Effects>
+            <Item>
+              <Effect>2100116224</Effect>
+            </Item>
+            <Item>
+              <Effect>2100116212</Effect>
+            </Item>
+          </Effects>
+        </EffectContainer>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <Text>
+          <TextOverride>135151</TextOverride>
+        </Text>
+        <ResidenceUpgrade>
+          <AdditionalHappiness>5</AdditionalHappiness>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>1010246</ProvidedNeed>
+              <AmountInPercent>-20</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed>1010250</ProvidedNeed>
+              <AmountInPercent>-25</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+          <TaxModifierInPercent>15</TaxModifierInPercent>
+        </ResidenceUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>EffectContainer</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116234</GUID>
+          <Name>Furniture Store Canopy</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_canopy.png</IconFilename>
+        </Standard>
+        <EffectContainer>
+          <Effects>
+            <Item>
+              <Effect>2100116224</Effect>
+            </Item>
+            <Item>
+              <Effect>2100116213</Effect>
+            </Item>
+          </Effects>
+        </EffectContainer>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <Text>
+          <TextOverride>135153</TextOverride>
+        </Text>
+        <ResidenceUpgrade>
+          <AdditionalHappiness>1</AdditionalHappiness>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>120030</ProvidedNeed>
+              <AmountInPercent>14</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed>1010208</ProvidedNeed>
+              <AmountInPercent>-3</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+          <TaxModifierInPercent>15</TaxModifierInPercent>
+        </ResidenceUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>EffectContainer</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116235</GUID>
+          <Name>Furniture Store Seating</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_chesterfield.png</IconFilename>
+        </Standard>
+        <EffectContainer>
+          <Effects>
+            <Item>
+              <Effect>2100116224</Effect>
+            </Item>
+            <Item>
+              <Effect>2100116214</Effect>
+            </Item>
+          </Effects>
+        </EffectContainer>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>190041</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <Text>
+          <TextOverride>661</TextOverride>
+        </Text>
+        <ResidenceUpgrade>
+          <AdditionalHappiness>1</AdditionalHappiness>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>1010246</ProvidedNeed>
+              <AmountInPercent>-10</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed>114431</ProvidedNeed>
+              <AmountInPercent>-20</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+          <TaxModifierInPercent>8</TaxModifierInPercent>
+        </ResidenceUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+</Group>
+
+<!-- # Effect Container Drug Stores -->
+<Group>
+  <ModOp Type="addNextSibling" GUID="135115">
+    <Asset>
+      <Template>EffectContainer</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116236</GUID>
+          <Name>Drug Store Toothpaste</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_toothpaste.png</IconFilename>
+        </Standard>
+        <EffectContainer>
+          <Effects>
+            <Item>
+              <Effect>2100116225</Effect>
+            </Item>
+            <Item>
+              <Effect>2100116215</Effect>
+            </Item>
+          </Effects>
+        </EffectContainer>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <Text>
+          <TextOverride>135113</TextOverride>
+        </Text>
+        <ResidenceUpgrade>
+          <AdditionalHappiness>1</AdditionalHappiness>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>1010246</ProvidedNeed>
+              <AmountInPercent>-25</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed>1010206</ProvidedNeed>
+              <AmountInPercent>-10</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+          <TaxModifierInPercent>6</TaxModifierInPercent>
+        </ResidenceUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>EffectContainer</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116237</GUID>
+          <Name>Drug Store Detergent</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_detergent.png</IconFilename>
+        </Standard>
+        <EffectContainer>
+          <Effects>
+            <Item>
+              <Effect>2100116225</Effect>
+            </Item>
+            <Item>
+              <Effect>2100116216</Effect>
+            </Item>
+          </Effects>
+        </EffectContainer>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <Text>
+          <TextOverride>135199</TextOverride>
+        </Text>
+        <ResidenceUpgrade>
+          <AdditionalHappiness>3</AdditionalHappiness>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>1010248</ProvidedNeed>
+              <AmountInPercent>-25</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed>1010225</ProvidedNeed>
+              <AmountInPercent>-15</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+          <TaxModifierInPercent>12</TaxModifierInPercent>
+        </ResidenceUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>EffectContainer</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116238</GUID>
+          <Name>Drug Store Lipstick</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_lipstick.png</IconFilename>
+        </Standard>
+        <EffectContainer>
+          <Effects>
+            <Item>
+              <Effect>2100116225</Effect>
+            </Item>
+            <Item>
+              <Effect>2100116217</Effect>
+            </Item>
+          </Effects>
+        </EffectContainer>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <Text>
+          <TextOverride>135200</TextOverride>
+        </Text>
+        <ResidenceUpgrade>
+          <AdditionalHappiness>4</AdditionalHappiness>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>1010208</ProvidedNeed>
+              <AmountInPercent>-5</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed>1010225</ProvidedNeed>
+              <AmountInPercent>-25</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+          <TaxModifierInPercent>19</TaxModifierInPercent>
+        </ResidenceUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>EffectContainer</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116239</GUID>
+          <Name>Drug Store FaceCream</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_facecreme.png</IconFilename>
+        </Standard>
+        <EffectContainer>
+          <Effects>
+            <Item>
+              <Effect>2100116225</Effect>
+            </Item>
+            <Item>
+              <Effect>2100116218</Effect>
+            </Item>
+          </Effects>
+        </EffectContainer>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <Text>
+          <TextOverride>135201</TextOverride>
+        </Text>
+        <ResidenceUpgrade>
+          <AdditionalHappiness>2</AdditionalHappiness>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>1010248</ProvidedNeed>
+              <AmountInPercent>-10</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed>1010245</ProvidedNeed>
+              <AmountInPercent>-10</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+          <TaxModifierInPercent>17</TaxModifierInPercent>
+        </ResidenceUpgrade>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>EffectContainer</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116240</GUID>
+          <Name>Drug Store Pomade</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_pomade.png</IconFilename>
+        </Standard>
+        <EffectContainer>
+          <Effects>
+            <Item>
+              <Effect>2100116225</Effect>
+            </Item>
+            <Item>
+              <Effect>2100116219</Effect>
+            </Item>
+          </Effects>
+        </EffectContainer>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>190041</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <Text>
+          <TextOverride>664</TextOverride>
+        </Text>
+        <ResidenceUpgrade>
+          <AdditionalHappiness>1</AdditionalHappiness>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>120030</ProvidedNeed>
+              <AmountInPercent>-10</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed>114430</ProvidedNeed>
+              <AmountInPercent>-20</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+          <TaxModifierInPercent>16</TaxModifierInPercent>
+        </ResidenceUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+</Group>
+
+<!-- # Apply EffectContainer -->
+<Group>
+  <ModOp Type="replace" GUID="135103" Path="/Values/BuffFactory/ProductionBuffs">
+    <ProductionBuffs>
+      <Item>
+        <ProductivityBuff>2100116226</ProductivityBuff>
+        <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+      </Item>
+    </ProductionBuffs>
+  </ModOp>
+  <ModOp Type="replace" GUID="135187" Path="/Values/BuffFactory/ProductionBuffs">
+    <ProductionBuffs>
+      <Item>
+        <ProductivityBuff>2100116227</ProductivityBuff>
+        <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+      </Item>
+    </ProductionBuffs>
+  </ModOp>
+  <ModOp Type="replace" GUID="135188" Path="/Values/BuffFactory/ProductionBuffs">
+    <ProductionBuffs>
+      <Item>
+        <ProductivityBuff>2100116228</ProductivityBuff>
+        <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+      </Item>
+    </ProductionBuffs>
+  </ModOp>
+  <ModOp Type="replace" GUID="135189" Path="/Values/BuffFactory/ProductionBuffs">
+    <ProductionBuffs>
+      <Item>
+        <ProductivityBuff>2100116229</ProductivityBuff>
+        <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+      </Item>
+    </ProductionBuffs>
+  </ModOp>
+  <ModOp Type="replace" GUID="135190" Path="/Values/BuffFactory/ProductionBuffs">
+    <ProductionBuffs>
+      <Item>
+        <ProductivityBuff>2100116230</ProductivityBuff>
+        <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+      </Item>
+    </ProductionBuffs>
+  </ModOp>
+  <ModOp Type="replace" GUID="135105" Path="/Values/BuffFactory/ProductionBuffs">
+    <ProductionBuffs>
+      <Item>
+        <ProductivityBuff>2100116231</ProductivityBuff>
+        <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+      </Item>
+    </ProductionBuffs>
+  </ModOp>
+  <ModOp Type="replace" GUID="135120" Path="/Values/BuffFactory/ProductionBuffs">
+    <ProductionBuffs>
+      <Item>
+        <ProductivityBuff>2100116232</ProductivityBuff>
+        <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+      </Item>
+    </ProductionBuffs>
+  </ModOp>
+  <ModOp Type="replace" GUID="135121" Path="/Values/BuffFactory/ProductionBuffs">
+    <ProductionBuffs>
+      <Item>
+        <ProductivityBuff>2100116233</ProductivityBuff>
+        <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+      </Item>
+    </ProductionBuffs>
+  </ModOp>
+  <ModOp Type="replace" GUID="135122" Path="/Values/BuffFactory/ProductionBuffs">
+    <ProductionBuffs>
+      <Item>
+        <ProductivityBuff>2100116234</ProductivityBuff>
+        <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+      </Item>
+    </ProductionBuffs>
+  </ModOp>
+  <ModOp Type="replace" GUID="135123" Path="/Values/BuffFactory/ProductionBuffs">
+    <ProductionBuffs>
+      <Item>
+        <ProductivityBuff>2100116235</ProductivityBuff>
+        <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+      </Item>
+    </ProductionBuffs>
+  </ModOp>
+  <ModOp Type="replace" GUID="134631" Path="/Values/BuffFactory/ProductionBuffs">
+    <ProductionBuffs>
+      <Item>
+        <ProductivityBuff>2100116236</ProductivityBuff>
+        <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+      </Item>
+    </ProductionBuffs>
+  </ModOp>
+  <ModOp Type="replace" GUID="135191" Path="/Values/BuffFactory/ProductionBuffs">
+    <ProductionBuffs>
+      <Item>
+        <ProductivityBuff>2100116237</ProductivityBuff>
+        <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+      </Item>
+    </ProductionBuffs>
+  </ModOp>
+  <ModOp Type="replace" GUID="135192" Path="/Values/BuffFactory/ProductionBuffs">
+    <ProductionBuffs>
+      <Item>
+        <ProductivityBuff>2100116238</ProductivityBuff>
+        <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+      </Item>
+    </ProductionBuffs>
+  </ModOp>
+  <ModOp Type="replace" GUID="135193" Path="/Values/BuffFactory/ProductionBuffs">
+    <ProductionBuffs>
+      <Item>
+        <ProductivityBuff>2100116239</ProductivityBuff>
+        <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+      </Item>
+    </ProductionBuffs>
+  </ModOp>
+  <ModOp Type="replace" GUID="135194" Path="/Values/BuffFactory/ProductionBuffs">
+    <ProductionBuffs>
+      <Item>
+        <ProductivityBuff>2100116240</ProductivityBuff>
+        <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+      </Item>
+    </ProductionBuffs>
+  </ModOp>
+</Group>
+
+<!--
+<Group Condition="#jakob_small_malls">
+  <Include File="./assets.small-commercials.include.xml" />
+</Group> -->
+
+</ModOps>

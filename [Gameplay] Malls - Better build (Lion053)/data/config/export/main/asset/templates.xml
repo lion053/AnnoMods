@@ -1,0 +1,9 @@
+
+<!-- Templates -->
+
+<ModOps>
+
+	<ModOp Type="remove" Path="//Template[Name='Mall']/Properties/BuffFactory/BaseBuffScope">
+	</ModOp>
+
+</ModOps>

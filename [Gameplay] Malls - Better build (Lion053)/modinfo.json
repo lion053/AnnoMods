@@ -1,0 +1,58 @@
+{
+  "Version": "1.0",
+  "ModID": "lion053_malls_better_build",
+  "IncompatibleIds": [],
+  "ModDependencies": null,
+
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+
+  "ModName": {
+    "Chinese": "Malls - Better build (Lion053)",
+    "English": "Malls - Better build (Lion053)",
+    "French": "Malls - Better build (Lion053)",
+    "German": "Malls - Better build (Lion053)",
+    "Italian": "Malls - Better build (Lion053)",
+    "Japanese": "Malls - Better build (Lion053)",
+    "Korean": "Malls - Better build (Lion053)",
+    "Polish": "Malls - Better build (Lion053)",
+    "Russian": "Malls - Better build (Lion053)",
+    "Spanish": "Malls - Better build (Lion053)",
+    "Taiwanese": "Malls - Better build (Lion053)"
+  },
+
+  "Description": {
+    "Chinese": "",
+    "English": "",
+    "French": "",
+    "German": "",
+    "Italian": "",
+    "Japanese": "",
+    "Korean": "",
+    "Polish": "",
+    "Russian": "",
+    "Spanish": "",
+    "Taiwanese": ""
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "HighLife",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Lion053",
+  "CreatorContact": "https://discord.gg/ycmFNKaG",
+  "Image": null
+}
