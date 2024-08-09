@@ -1,0 +1,53 @@
+<!-- IMYA tweaks for building service ranges -->
+<ModOps>
+  <ImyaTweaks Title="Public Service Ranges" />
+  <ModOp Type="replace" GUID="2100116191" ModOpID="satisfaction_market" Path="/Values/PublicService/FullSatisfactionDistance" Skip="1">
+    <FullSatisfactionDistance>22</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100116141" Path="/Values/PublicService/FullSatisfactionDistance" ModOpID="satisfaction_pub" Skip="1">
+    <FullSatisfactionDistance>19</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100116159" Path="/Values/PublicService/FullSatisfactionDistance" ModOpID="satisfaction_school" Skip="1">
+    <FullSatisfactionDistance>22</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100116106" Path="/Values/PublicService/FullSatisfactionDistance" ModOpID="satisfaction_variete" Skip="1">
+    <FullSatisfactionDistance>27</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100116163" Path="/Values/PublicService/FullSatisfactionDistance" ModOpID="satisfaction_university" Skip="1">
+    <FullSatisfactionDistance>23</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100116100" Path="/Values/PublicService/FullSatisfactionDistance" ModOpID="satisfaction_bank" Skip="1">
+    <FullSatisfactionDistance>24</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100116109" Path="/Values/PublicService/FullSatisfactionDistance" ModOpID="satisfaction_clubhouse" Skip="1">
+    <FullSatisfactionDistance>20</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100116111" Path="/Values/PublicService/FullSatisfactionDistance" ModOpID="satisfaction_radio" Skip="1">
+    <FullSatisfactionDistance>18</FullSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="satisfaction_market" ExposeID="Public Service Range Market" Description="The range within the public service of the small markets is provided by 100 %&#xD;&#xA;Default value is 22." Kind="Slider">
+    <SliderDefinition Min="12" Max="38" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="satisfaction_pub" ExposeID="Public Service Range Pub" Description="The range within the public service of the small pubs is provided by 100 %&#xD;&#xA;Default value is 19." Kind="Slider">
+    <SliderDefinition Min="12" Max="38" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="satisfaction_school" ExposeID="Public Service Range School" Description="The range within the public service of the small schools is provided by 100 %&#xD;&#xA;Default value is 22." Kind="Slider">
+    <SliderDefinition Min="12" Max="36" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="satisfaction_variete" ExposeID="Public Service Range Varieté" Description="The range within the public service of the small varietés is provided by 100 %&#xD;&#xA;Default value is 27." Kind="Slider">
+    <SliderDefinition Min="12" Max="54" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="satisfaction_university" ExposeID="Public Service Range University" Description="The range within the public service of the small universities is provided by 100 %&#xD;&#xA;Default value is 23." Kind="Slider">
+    <SliderDefinition Min="12" Max="36" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="satisfaction_bank" ExposeID="Public Service Range Bank" Description="The range within the public service of the small banks is provided by 100 %&#xD;&#xA;Default value is 24." Kind="Slider">
+    <SliderDefinition Min="12" Max="36" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="satisfaction_clubhouse" ExposeID="Public Service Range Clubhouse" Description="The range within the public service of the small clubhouses is provided by 100 %&#xD;&#xA;Default value is 20." Kind="Slider">
+    <SliderDefinition Min="12" Max="36" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="satisfaction_radio" ExposeID="Public Service Range Radio Tower" Description="The range within the public service of the small radio towers is provided by 100 %&#xD;&#xA;Default value is 18." Kind="Slider">
+    <SliderDefinition Min="12" Max="30" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./ranges.include.imyatweak.include.xml" />
+</ModOps>

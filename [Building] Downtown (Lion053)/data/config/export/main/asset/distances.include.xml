@@ -1,0 +1,53 @@
+<!-- IMYA tweaks for institution distances -->
+<ModOps>
+  <ImyaTweaks Title="Institution Distances" />
+  <ModOp Type="replace" GUID="2100116113" Path="/Values/IncidentInfluencer/Influence/Riot/Distance" ModOpID="distance_police" Skip="1">
+    <Distance>9</Distance>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100116114" Path="/Values/IncidentInfluencer/Influence/Riot/Distance" ModOpID="distance_adv_police" Skip="1">
+    <Distance>16</Distance>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100116149" Path="/Values/IncidentInfluencer/Influence/Fire/Distance" ModOpID="distance_fire" Skip="1">
+    <Distance>12</Distance>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100116149" Path="/Values/IncidentInfluencer/Influence/Explosion/Distance" ModOpID="distance_expl" Skip="1">
+    <Distance>7</Distance>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100116150" Path="/Values/IncidentInfluencer/Influence/Fire/Distance" ModOpID="distance_adv_fire" Skip="1">
+    <Distance>20</Distance>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100116150" Path="/Values/IncidentInfluencer/Influence/Explosion/Distance" ModOpID="distance_adv_expl" Skip="1">
+    <Distance>12</Distance>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100116166" Path="/Values/IncidentInfluencer/Influence/Illness/Distance" ModOpID="distance_hospital" Skip="1">
+    <Distance>10</Distance>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100116167" Path="/Values/IncidentInfluencer/Influence/Illness/Distance" ModOpID="distance_adv_hospital" Skip="1">
+    <Distance>15</Distance>
+  </ModOp>
+  <ImyaExpose Path="self::Distance" ModOpID="distance_police" ExposeID="Police Station Distance" Description="The distance in which the incident resolver units can fight an incident&#xD;&#xA;Default value is 9." Kind="Slider">
+    <SliderDefinition Min="7" Max="15" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Distance" ModOpID="distance_adv_police" ExposeID="Police Headquarter Distance" Description="The distance in which the incident resolver units can fight an incident&#xD;&#xA;Default value is 16." Kind="Slider">
+    <SliderDefinition Min="7" Max="25" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Distance" ModOpID="distance_fire" ExposeID="Fire Station Distance for Fire" Description="The distance in which the incident resolver units can fight an incident&#xD;&#xA;Default value is 12." Kind="Slider">
+    <SliderDefinition Min="7" Max="15" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Distance" ModOpID="distance_expl" ExposeID="Fire Station Distance for Explosions" Description="The distance in which the incident resolver units can fight an incident&#xD;&#xA;Default value is 7." Kind="Slider">
+    <SliderDefinition Min="7" Max="9" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Distance" ModOpID="distance_adv_fire" ExposeID="Fire Department Distance for Fire" Description="The distance in which the incident resolver units can fight an incident&#xD;&#xA;Default value is 20." Kind="Slider">
+    <SliderDefinition Min="7" Max="25" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Distance" ModOpID="distance_adv_expl" ExposeID="Fire Department Distance for Explosions" Description="The distance in which the incident resolver units can fight an incident&#xD;&#xA;Default value is 12." Kind="Slider">
+    <SliderDefinition Min="7" Max="15" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Distance" ModOpID="distance_hospital" ExposeID="Hospital Distance" Description="The distance in which the incident resolver units can fight an incident&#xD;&#xA;Default value is 10." Kind="Slider">
+    <SliderDefinition Min="7" Max="20" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Distance" ModOpID="distance_adv_hospital" ExposeID="City Hospital Distance" Description="The distance in which the incident resolver units can fight an incident&#xD;&#xA;Default value is 15." Kind="Slider">
+    <SliderDefinition Min="7" Max="30" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./distances.include.imyatweak.include.xml" />
+</ModOps>

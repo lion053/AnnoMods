@@ -1,0 +1,26 @@
+<ModOps>
+  <ModOp Path="/Values/PublicService/FullSatisfactionDistance" GUID="2100116191" Type="replace">
+    <FullSatisfactionDistance>22</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="/Values/PublicService/FullSatisfactionDistance" GUID="2100116141" Type="replace">
+    <FullSatisfactionDistance>19</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="/Values/PublicService/FullSatisfactionDistance" GUID="2100116159" Type="replace">
+    <FullSatisfactionDistance>22</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="/Values/PublicService/FullSatisfactionDistance" GUID="2100116106" Type="replace">
+    <FullSatisfactionDistance>27</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="/Values/PublicService/FullSatisfactionDistance" GUID="2100116163" Type="replace">
+    <FullSatisfactionDistance>23</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="/Values/PublicService/FullSatisfactionDistance" GUID="2100116100" Type="replace">
+    <FullSatisfactionDistance>24</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="/Values/PublicService/FullSatisfactionDistance" GUID="2100116109" Type="replace">
+    <FullSatisfactionDistance>20</FullSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="/Values/PublicService/FullSatisfactionDistance" GUID="2100116111" Type="replace">
+    <FullSatisfactionDistance>18</FullSatisfactionDistance>
+  </ModOp>
+</ModOps>

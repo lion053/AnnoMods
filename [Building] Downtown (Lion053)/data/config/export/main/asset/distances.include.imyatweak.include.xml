@@ -1,0 +1,26 @@
+<ModOps>
+  <ModOp Path="/Values/IncidentInfluencer/Influence/Riot/Distance" GUID="2100116113" Type="replace">
+    <Distance>9</Distance>
+  </ModOp>
+  <ModOp Path="/Values/IncidentInfluencer/Influence/Riot/Distance" GUID="2100116114" Type="replace">
+    <Distance>16</Distance>
+  </ModOp>
+  <ModOp Path="/Values/IncidentInfluencer/Influence/Fire/Distance" GUID="2100116149" Type="replace">
+    <Distance>12</Distance>
+  </ModOp>
+  <ModOp Path="/Values/IncidentInfluencer/Influence/Explosion/Distance" GUID="2100116149" Type="replace">
+    <Distance>7</Distance>
+  </ModOp>
+  <ModOp Path="/Values/IncidentInfluencer/Influence/Fire/Distance" GUID="2100116150" Type="replace">
+    <Distance>20</Distance>
+  </ModOp>
+  <ModOp Path="/Values/IncidentInfluencer/Influence/Explosion/Distance" GUID="2100116150" Type="replace">
+    <Distance>12</Distance>
+  </ModOp>
+  <ModOp Path="/Values/IncidentInfluencer/Influence/Illness/Distance" GUID="2100116166" Type="replace">
+    <Distance>10</Distance>
+  </ModOp>
+  <ModOp Path="/Values/IncidentInfluencer/Influence/Illness/Distance" GUID="2100116167" Type="replace">
+    <Distance>15</Distance>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,5 @@
+<ModOps>
+  <Include File="./assets-pools.include.xml" />
+  <Include File="./assets-hotel-needs.include.xml" />
+  <Include File="./menus.include.xml" />
+</ModOps>

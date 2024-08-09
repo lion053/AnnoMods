@@ -1,0 +1,62 @@
+{
+  "Version": "0.9",
+  "ModID": "lion053_downtown",
+  "IncompatibleIds": [],
+  "ModDependencies": [
+    "shared-pools-and-definitions",
+    "shared-ground-textures-industry-jakob",
+    "shared-ground-textures-city-jakob"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions",
+    "HacknerWorkforceRequired"
+  ],
+
+  "Category": {
+    "Chinese": "Building",
+    "English": "Building",
+    "French": "Building",
+    "German": "Building",
+    "Italian": "Building",
+    "Japanese": "Building",
+    "Korean": "Building",
+    "Polish": "Building",
+    "Russian": "Building",
+    "Spanish": "Building",
+    "Taiwanese": "Building"
+  },
+
+  "ModName": {
+    "Chinese": "Downtown (Lion053)",
+    "English": "Downtown (Lion053)",
+    "French": "Downtown (Lion053)",
+    "German": "Downtown (Lion053)",
+    "Italian": "Downtown (Lion053)",
+    "Japanese": "Downtown (Lion053)",
+    "Korean": "Downtown (Lion053)",
+    "Polish": "Downtown (Lion053)",
+    "Russian": "Downtown (Lion053)",
+    "Spanish": "Downtown (Lion053)",
+    "Taiwanese": "Downtown (Lion053)"
+  },
+
+  "Description": {
+    "Chinese": "file::readme.md",
+    "English": "file::readme.md",
+    "French": "file::readme.md",
+    "German": "file::readme.md",
+    "Italian": "file::readme.md",
+    "Japanese": "file::readme.md",
+    "Korean": "file::readme.md",
+    "Polish": "file::readme.md",
+    "Russian": "file::readme.md",
+    "Spanish": "file::readme.md",
+    "Taiwanese": "file::readme.md"
+  },
+  
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Lion053",
+  "CreatorContact": "https://discord.gg/ycmFNKaG",
+  "Image": null
+}

@@ -1,0 +1,46 @@
+{
+  "Version": "10.3",
+  "ModID": "shared-pools-and-definitions",
+  "DepecrateIds": [
+    "jakob_shared_base"
+  ],
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "English": "Pools and Definitions",
+    "Chinese": "Pools and Definitions",
+    "French": "Pools and Definitions",
+    "German": "Pools and Definitions",
+    "Italian": "Pools and Definitions",
+    "Japanese": "Pools and Definitions",
+    "Korean": "Pools and Definitions",
+    "Polish": "Pools and Definitions",
+    "Russian": "Pools and Definitions",
+    "Spanish": "Pools and Definitions",
+    "Taiwanese": "Pools and Definitions"
+  },
+  "Description": {
+    "English": "file::README.md",
+    "Chinese": "file::README.md",
+    "French": "file::README.md",
+    "German": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  }
+}

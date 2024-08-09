@@ -1,0 +1,321 @@
+<ModOps>
+
+	<!-- emtpy entries use TextOverrides -->
+
+  	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>2100116100</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116103</GUID>
+			<Text>Royal Commercial Bank</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116104</GUID>
+			<Text>C.L.M Savings Bank</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116105</GUID>
+			<Text>Northburg Industrial Bank</Text>
+		</Text>
+		<Text>
+			<GUID>2100116106</GUID>
+			<Text />
+		</Text>		
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116108</GUID>
+			<Text>Downtown</Text>
+		</Text>
+		<Text>
+			<GUID>2100116109</GUID>
+			<Text />
+		</Text>		
+		<Text>
+			<GUID>2100116111</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100116112</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100116113</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100116114</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116115</GUID>
+			<Text>Tiny Hotel</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116116</GUID>
+			<Text>White plaster facade</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116117</GUID>
+			<Text>Hotel Resident Debuff (Hidden)</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116118</GUID>
+			<Text>Yellow plaster facade</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116120</GUID>
+			<Text>Old Advanced Police Station</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116123</GUID>
+			<Text>3x3 Building Variations</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116124</GUID>
+			<Text>Police Station Skins</Text>
+		</Text>
+		<Text>
+			<GUID>2100116126</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100116127</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100116128</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100116130</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116132</GUID>
+			<Text>Hotel Skin</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116134</GUID>
+			<Text>Since you do not own / have not activated the New World Rising DLC, the advanced institution upgrades come as a skin.</Text>
+		</Text>
+		<Text>
+			<GUID>2100116141</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116142</GUID>
+			<Text>Two-story Pub</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116143</GUID>
+			<Text>One-story Pub</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116144</GUID>
+			<Text>Pub Skins</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116145</GUID>
+			<Text>Additional space to offer tiny rooms with bed and breakfast</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116146</GUID>
+			<Text>One-story Pub with bright facade</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116147</GUID>
+			<Text>Two-story Pub with bright facade</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116148</GUID>
+			<Text>For the "high society" as a worker would say</Text>
+		</Text>
+		<Text>
+			<GUID>2100116149</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100116150</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116151</GUID>
+			<Text>Old Fire Department</Text>
+		</Text>
+		<Text>
+			<GUID>2100116156</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100116159</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116162</GUID>
+			<Text>School Skins</Text>
+		</Text>
+		<Text>
+			<GUID>2100116163</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116164</GUID>
+			<Text>Fire Station Skins</Text>
+		</Text>
+		<Text>
+			<GUID>2100116166</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100116167</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116170</GUID>
+			<Text>Eldritch Skin Grey</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116171</GUID>
+			<Text>Eldritch Skin Purple</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116172</GUID>
+			<Text>Eldritch Skin Grey</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116173</GUID>
+			<Text>Bank Skins</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116174</GUID>
+			<Text>Hospital Skins</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116175</GUID>
+			<Text>Eldritch Skin Purple</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116176</GUID>
+			<Text>Luxurious Hospital</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116177</GUID>
+			<Text>We care about your success!</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116178</GUID>
+			<Text>High loan, low saving interests - since 1832!</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116179</GUID>
+			<Text>Tailor-made solutions for your company!</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116182</GUID>
+			<Text>Dr. Salvador's Private Clinic</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116183</GUID>
+			<Text>Varieté Skin</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116184</GUID>
+			<Text>Cinema Skin</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116185</GUID>
+			<Text>Theater Skins</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116186</GUID>
+			<Text>A small varieté like in the old days: stuffy air, creaking folding chairs and passionate performances on stage. Just the way your artisans love it.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116187</GUID>
+			<Text>A glamorous and modern cinema with all the new technologies that show business has in store for your metropolises.</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116188</GUID>
+			<Text>Yellow plaster facade; low version</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116189</GUID>
+			<Text>White plaster facade; low version</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116190</GUID>
+			<Text>The building authorities have not approved the plans for a taller hotel at this location.</Text>
+		</Text>
+		<Text>
+			<GUID>2100116191</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100116192</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100116193</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100116194</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116195</GUID>
+			<Text>Market Skins</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116196</GUID>
+			<Text>Grand Market (Block)</Text>
+		</Text>
+
+  	</ModOp>
+
+</ModOps>

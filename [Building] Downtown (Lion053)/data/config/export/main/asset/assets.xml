@@ -1,0 +1,4397 @@
+<ModOps>
+
+  <!-- Downtown v1.0 -->
+
+  <Include File="./assets-hotel-needs.include.xml" />
+
+  <!-- # Menu -->
+  <ModOp Type="addNextSibling" GUID="25000190">
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116108</GUID>
+          <Name>Downtown</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_3x3_buildings.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList>
+            <Item>
+              <Building>2100116191</Building>
+            </Item>
+            <Item>
+              <Building>2100116141</Building>
+            </Item>
+            <Item>
+              <Building>2100116149</Building>
+            </Item>
+            <Item>
+              <Building>2100116128</Building>
+              <!-- replacement -->
+            </Item>
+            <Item>
+              <Building>2100116113</Building>
+            </Item>
+            <Item>
+              <Building>2100116127</Building>
+              <!-- replacement -->
+            </Item>
+            <Item>
+              <Building>2100116159</Building>
+            </Item>
+            <Item>
+              <Building>2100116106</Building>
+            </Item>
+            <Item>
+              <Building>2100116112</Building>
+            </Item>
+            <Item>
+              <Building>2100116126</Building>
+              <!-- ornament replacement -->
+            </Item>
+            <Item>
+              <Building>2100116166</Building>
+            </Item>
+            <Item>
+              <Building>2100116156</Building>
+              <!-- replacement -->
+            </Item>
+            <Item>
+              <Building>2100116163</Building>
+            </Item>
+            <Item>
+              <Building>2100116100</Building>
+            </Item>
+            <Item>
+              <Building>2100116109</Building>
+            </Item>
+            <Item>
+              <Building>2100116115</Building>
+            </Item>
+            <Item>
+              <Building>2100116130</Building>
+              <!-- ornament replacement -->
+            </Item>
+            <Item>
+              <Building>2100116111</Building>
+            </Item>
+          </BuildingList>
+          <CategoryDescription>2100116123</CategoryDescription>
+        </ConstructionCategory>
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="25000192" Path="/Values/ConstructionCategory/BuildingList/Item[(Building='500902' and Engineer='1000') or (Engineer='1000' and not(../Item/Building='500902')) or (not(../Item/Engineer='1000'))][last()]">
+    <Item>
+      <Building>2100116108</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="500094" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010365' or (not(../Item/Building='1010365'))][last()]">
+    <Item>
+      <Building>2100116108</Building>
+    </Item>
+  </ModOp>
+  <!-- Hotel to Tourist tab -->
+  <ModOp Type="addNextSibling" GUID="132779" Path="/Values/ConstructionCategory/BuildingList/Item[(Building='601445') or (Building='1500010500')]">
+    <Item>
+      <Building>2100116115</Building>
+    </Item>
+  </ModOp>
+
+  <!-- # FeedbackBuildingGroups -->
+  <ModOp Type="add" GUID="142672" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100116141</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="142734" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100116100</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="142677" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100116106</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="142678" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100116109</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="142933" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100116111</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="2549" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100116112</Building>
+    </Item>
+    <Item>
+      <Building>2100116126</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="142672" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100116113</Building>
+    </Item>
+    <Item>
+      <Building>2100116114</Building>
+    </Item>
+    <Item>
+      <Building>2100116127</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="142976,134346" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100116115</Building>
+    </Item>
+    <Item>
+      <Building>2100116130</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="142583" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100116163</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="2001090" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100116166</Building>
+    </Item>
+    <Item>
+      <Building>2100116167</Building>
+    </Item>
+    <Item>
+      <Building>2100116156</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="2001089" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>2100116191</Building>
+    </Item>
+  </ModOp>
+
+<!-- # Effect Pools -->
+<!-- The specific service pool guids replace the single building entries in items / buffs within 'Shared Pools' -> sufficient to add mod-buildings to these pools. -->
+<Group>
+  <!-- Market -->
+  <ModOp Type="add" GUID="190136,191501,191540,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100116191</GUID>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="269461" Path="/Values/ItemEffect/EffectTargets">
+    <Item>
+      <GUID>2100116191</GUID>
+    </Item>
+  </ModOp>
+  <!-- Pub -->
+  <ModOp Type="add" GUID="190136,191501,190782,193868,192418,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100116141</GUID>
+    </Item>
+  </ModOp>
+  <!-- School -->
+  <ModOp Type="add" GUID="1500301943,190136,191501,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100116159</GUID>
+    </Item>
+  </ModOp>
+  <!-- University -->
+  <ModOp Type="add" GUID="190136,191501,193872,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100116163</GUID>
+    </Item>
+  </ModOp>
+  <!-- Bank -->
+  <ModOp Type="add" GUID="190136,191501,193871,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100116100</GUID>
+    </Item>
+  </ModOp>
+  <!-- Variety Theater -->
+  <ModOp Type="add" GUID="190136,191501,193863,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100116106</GUID>
+    </Item>
+  </ModOp>
+  <!-- Clubhouse -->
+  <ModOp Type="add" GUID="190136,191501,193869,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100116109</GUID>
+    </Item>
+  </ModOp>
+  <!-- Radio Tower -->
+  <ModOp Type="add" GUID="2100116165,190136,191501,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100116111</GUID>
+    </Item>
+  </ModOp>
+  <!-- Post Office -->
+  <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100116112</GUID>
+    </Item>
+  </ModOp>
+  <!-- Police Station -->
+  <ModOp Type="add" GUID="190776,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100116113</GUID>
+    </Item>
+    <Item>
+      <GUID>2100116114</GUID>
+    </Item>
+    <Item>
+      <GUID>2100116127</GUID>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="8905,7943" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100116114</GUID>
+    </Item>
+  </ModOp>
+  <!-- Fire Department -->
+  <ModOp Type="add" GUID="190775,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100116149</GUID>
+    </Item>
+    <Item>
+      <GUID>2100116150</GUID>
+    </Item>
+    <Item>
+      <GUID>2100116128</GUID>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="7943" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100116150</GUID>
+    </Item>
+  </ModOp>
+  <!-- Hospital -->
+  <ModOp Type="add" GUID="190777,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100116166</GUID>
+    </Item>
+    <Item>
+      <GUID>2100116167</GUID>
+    </Item>
+    <Item>
+      <GUID>2100116156</GUID>
+    </Item>
+  </ModOp>
+  <!-- Hotel -->
+  <ModOp Type="add" GUID="194016" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100116115</GUID>
+    </Item>
+  </ModOp>
+  <ModOp Type="replace" GUID="136668,136697,136699" Path="/Values/ItemEffect/EffectTargets/Item[GUID='601445']" Condition="!/Values/ItemEffect/EffectTargets/Item[GUID='194016']">
+    <Item>
+      <GUID>194016</GUID>
+    </Item>
+  </ModOp>
+</Group>
+
+<!-- # PlayerCounter -->
+<Group>
+  <ModOp Type="add" GUID="111261" Path="/Values/PlayerCounterContextPool/Contexts">
+    <Item>
+      <Asset>2100116100</Asset>
+    </Item>
+    <Item>
+      <Asset>2100116113</Asset>
+    </Item>
+    <Item>
+      <Asset>2100116127</Asset>
+    </Item>
+    <Item>
+      <Asset>2100116114</Asset>
+    </Item>
+    <Item>
+      <Asset>2100116141</Asset>
+    </Item>
+    <Item>
+      <Asset>2100116109</Asset>
+    </Item>
+    <Item>
+      <Asset>2100116106</Asset>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="103347,104024,104026" Path="/Values/PlayerCounterContextPool/Contexts">
+    <Item>
+      <Asset>2100116112</Asset>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="111261">
+    <Asset>
+      <Template>PlayerCounterContextPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116233</GUID>
+          <Name>All Radio Stations</Name>
+        </Standard>
+        <PlayerCounterContextPool>
+          <Contexts>
+            <Item>
+              <Asset>118736</Asset>
+            </Item>
+            <Item>
+              <Asset>2100116111</Asset>
+            </Item>
+          </Contexts>
+        </PlayerCounterContextPool>
+        <Text>
+          <TextOverride>118736</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="merge" GUID="135742" Path="/Values/Trigger/TriggerCondition/Values/ConditionPlayerCounter/Context">
+    <Context>2100116233</Context>
+  </ModOp>
+</Group>
+
+<!-- # Institution Loading Bar -->
+<Group>
+  <!-- Add green loading bar to Police Stations -->
+  <ModOp Type="add" GUID="1902" Path="/Values/OnScreenIconScene/SpecialConstructionHighlights/Item/Buildings[Item/BuildingGUID='1010462']">
+    <Item>
+      <BuildingGUID>2100116113</BuildingGUID>
+    </Item>
+    <Item>
+      <BuildingGUID>2100116114</BuildingGUID>
+    </Item>
+    <Item>
+      <BuildingGUID>2100116127</BuildingGUID>
+    </Item>
+  </ModOp>
+  <!-- Add green loading bar to Fire Department -->
+  <ModOp Type="add" GUID="1902" Path="/Values/OnScreenIconScene/SpecialConstructionHighlights/Item/Buildings[Item/BuildingGUID='1010463']">
+    <Item>
+      <BuildingGUID>2100116149</BuildingGUID>
+    </Item>
+    <Item>
+      <BuildingGUID>2100116150</BuildingGUID>
+    </Item>
+    <Item>
+      <BuildingGUID>2100116128</BuildingGUID>
+    </Item>
+  </ModOp>
+  <!-- Add green loading bar to Hospital -->
+  <ModOp Type="add" GUID="1902" Path="/Values/OnScreenIconScene/SpecialConstructionHighlights/Item/Buildings[Item/BuildingGUID='1010464']">
+    <Item>
+      <BuildingGUID>2100116166</BuildingGUID>
+    </Item>
+    <Item>
+      <BuildingGUID>2100116167</BuildingGUID>
+    </Item>
+    <Item>
+      <BuildingGUID>2100116156</BuildingGUID>
+    </Item>
+  </ModOp>
+</Group>
+
+  <!-- # Adjust to Neighbors -->
+  <ModOp Type="add" GUID="1010346,1010347" Path="/Values/Building/InfluencedByNeighbors">
+    <Item>
+      <Building>2100116106</Building>
+    </Item>
+    <Item>
+      <Building>2100116112</Building>
+    </Item>
+    <Item>
+      <Building>2100116100</Building>
+    </Item>
+    <Item>
+      <Building>2100116109</Building>
+    </Item>
+    <Item>
+      <Building>2100116115</Building>
+    </Item>
+    <Item>
+      <Building>2100116111</Building>
+    </Item>
+    <Item>
+      <Building>2100116141</Building>
+    </Item>
+    <Item>
+      <Building>2100116159</Building>
+    </Item>
+    <Item>
+      <Building>2100116163</Building>
+    </Item>
+    <Item>
+      <Building>2100116113</Building>
+    </Item>
+    <Item>
+      <Building>2100116114</Building>
+    </Item>
+    <Item>
+      <Building>2100116149</Building>
+    </Item>
+    <Item>
+      <Building>2100116150</Building>
+    </Item>
+    <Item>
+      <Building>2100116166</Building>
+    </Item>
+    <Item>
+      <Building>2100116167</Building>
+    </Item>
+    <Item>
+      <Building>2100116127</Building>
+    </Item>
+    <Item>
+      <Building>2100116128</Building>
+    </Item>
+    <Item>
+      <Building>2100116156</Building>
+    </Item>
+  </ModOp>
+
+  <!-- Values for buildings -->
+  <!-- new_FullDistance = [(vanilla_FullDistance * (3/vanilla_tiles_x)) + (vanilla_FullDistance * (3/vanilla_tiles_y))] / 2 -->
+  <!-- new_NoDistance = new_FullDistance * 2 -->
+  <!-- Building costs coins = vanilla_maintenance * cost_factor -->
+  <!-- Maintenance costs = vanilla_maintenance * cost_factor -->
+  <!-- cost_factor: the earlier the vanilla building is unlocked the higher the cost factor -> farmer = 4; worker = 3; artisan = 2; engineer = 0.5; investor= 0.75; scholar = 1 -->
+
+  <!-- # Bank -->
+  <ModOp Type="addNextSibling" GUID="1010359">
+    <Asset>
+      <BaseAssetGUID>1010365</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100116100</GUID>
+          <Name>Small Bank</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_bank_menu.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Text>
+          <TextOverride>1010365</TextOverride>
+        </Text>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>50000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>35</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>50</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\downtown\small_bank_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>2100116103</DefaultSkinName>
+            <DefaultSkinDescription>2100116177</DefaultSkinDescription>
+            <DefaultSkinCategoryName>2100116173</DefaultSkinCategoryName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_small_bank_01.png</OverrideDefaultIcon>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100116104</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116105</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <PublicService>
+          <FullSatisfactionDistance>24</FullSatisfactionDistance>
+          <NoSatisfactionDistance>36</NoSatisfactionDistance>
+          <PublicServiceOutputs>
+            <Item>
+              <Product>1010356</Product>
+            </Item>
+          </PublicServiceOutputs>
+        </PublicService>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>750</Amount>
+              <InactiveAmount>375</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>3000</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="694">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116104</GUID>
+          <Name>Skin_01</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_bank_02.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100116104</SkinName>
+          <SkinDescription>2100116178</SkinDescription>
+          <SkinCategoryDescription>2100116173</SkinCategoryDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_bank_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116105</GUID>
+          <Name>Skin_02</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_bank_03.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100116105</SkinName>
+          <SkinDescription>2100116179</SkinDescription>
+          <SkinCategoryDescription>2100116173</SkinCategoryDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_bank_03.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Variety Theater -->
+  <ModOp Type="addNextSibling" GUID="1010361">
+    <Asset>
+      <BaseAssetGUID>1010361</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100116106</GUID>
+          <Name>Small Variety Theater</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_theater_menu.png</IconFilename>
+        </Standard>
+        <Building>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+        </Building>
+        <Text>
+          <TextOverride>1010361</TextOverride>
+        </Text>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>20000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\downtown\small_theater_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>2100116184</DefaultSkinName>
+            <DefaultSkinDescription>2100116187</DefaultSkinDescription>
+            <DefaultSkinCategoryName>2100116185</DefaultSkinCategoryName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_small_theater_01.png</OverrideDefaultIcon>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100116183</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <PublicService>
+          <FullSatisfactionDistance>27</FullSatisfactionDistance>
+          <NoSatisfactionDistance>54</NoSatisfactionDistance>
+        </PublicService>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>200</Amount>
+              <InactiveAmount>100</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>2000</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116183</GUID>
+          <Name>Varieté Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_theater_02.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100116183</SkinName>
+          <SkinDescription>2100116186</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_theater_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116185</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Market -->
+  <ModOp Type="addNextSibling" GUID="1010372">
+    <Asset>
+      <BaseAssetGUID>1010372</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100116191</GUID>
+          <Name>Small Market</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_market_menu.png</IconFilename>
+        </Standard>
+        <Text>
+          <TextOverride>1010372</TextOverride>
+        </Text>
+        <Building>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking>
+          <HasBuildingBaseTiles>0</HasBuildingBaseTiles> <!-- otherwise grass appears after changing the skin -->
+        </Blocking>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>7</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\downtown\small_market_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>762</DefaultSkinName>
+            <DefaultSkinDescription>763</DefaultSkinDescription>
+            <DefaultSkinCategoryName>2100116195</DefaultSkinCategoryName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_small_market_01.png</OverrideDefaultIcon>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100116193</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116192</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116194</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>80</Amount>
+              <InactiveAmount>40</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <StorageBase>
+          <ProductStorageList>120057</ProductStorageList>
+        </StorageBase>
+        <Market>
+          <FullSupplyDistance>38</FullSupplyDistance>
+          <NoSupplyDistance>38</NoSupplyDistance>
+        </Market>
+        <PublicService>
+          <FullSatisfactionDistance>22</FullSatisfactionDistance>
+          <NoSatisfactionDistance>38</NoSatisfactionDistance>
+        </PublicService>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116192</GUID>
+          <Name>Small Market Ornate Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_market_02.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>760</SkinName>
+          <SkinDescription>761</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_market_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116195</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116193</GUID>
+          <Name>Small Market Grand Block Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_market_03.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100116196</SkinName>
+          <SkinDescription>763</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_market_03.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116195</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116194</GUID>
+          <Name>Small Market Open Air Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_market_04.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>758</SkinName>
+          <SkinDescription>759</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_market_04.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116195</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Pub -->
+  <ModOp Type="addNextSibling" GUID="1010358">
+    <Asset>
+      <BaseAssetGUID>1010358</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100116141</GUID>
+          <Name>Small Pub</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_pub_menu.png</IconFilename>
+        </Standard>
+        <Building>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\downtown\small_pub_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>2100116143</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>2100116144</DefaultSkinCategoryName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_small_pub_01.png</OverrideDefaultIcon>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100116142</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116146</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116147</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Text>
+          <TextOverride>1010358</TextOverride>
+        </Text>
+        <PublicService>
+          <FullSatisfactionDistance>19</FullSatisfactionDistance>
+          <NoSatisfactionDistance>38</NoSatisfactionDistance>
+          <PublicServiceOutputs>
+            <Item>
+              <Product>1010349</Product>
+            </Item>
+          </PublicServiceOutputs>
+        </PublicService>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>80</Amount>
+              <InactiveAmount>40</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <MaximumHitPoints>2650</MaximumHitPoints>
+        </Attackable>
+        <Pausable />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116142</GUID>
+          <Name>Small Pub High Version Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_pub_02.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100116142</SkinName>
+          <SkinDescription>2100116145</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_pub_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116144</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116146</GUID>
+          <Name>Small Pub Bright Low Version Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_pub_01_bright.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100116146</SkinName>
+          <SkinDescription>2100116148</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_pub_01_bright.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116144</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116147</GUID>
+          <Name>Small Pub Bright High Version Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_pub_02_bright.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100116147</SkinName>
+          <SkinDescription>2100116145</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_pub_02_bright.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116144</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # School -->
+  <ModOp Type="addNextSibling" GUID="1010360">
+    <Asset>
+     <BaseAssetGUID>1010360</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100116159</GUID>
+          <Name>Small School</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_school_menu.png</IconFilename>
+        </Standard>
+        <Building>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>7500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\downtown\small_school_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>1010360</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>2100116162</DefaultSkinCategoryName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_small_school_01.png</OverrideDefaultIcon>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100116160</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116161</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Text>
+          <TextOverride>1010360</TextOverride>
+        </Text>
+        <FeedbackController>
+          <NightBehavior>HideAll</NightBehavior>
+        </FeedbackController>
+        <PublicService>
+          <FullSatisfactionDistance>22</FullSatisfactionDistance> <!-- + 3 for basic need -->
+          <NoSatisfactionDistance>36</NoSatisfactionDistance>
+          <PublicServiceOutputs>
+            <Item>
+              <Product>1010351</Product>
+            </Item>
+          </PublicServiceOutputs>
+        </PublicService>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>150</Amount>
+              <InactiveAmount>75</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116160</GUID>
+          <Name>Small School OldTown Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_school_02.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>5242</SkinName>
+          <SkinDescription>5243</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_school_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116162</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116161</GUID>
+          <Name>Small School Brick Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_school_03.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>728</SkinName>
+          <SkinDescription>729</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_school_03.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116162</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # University -->
+  <ModOp Type="addNextSibling" GUID="1010362">
+    <Asset>
+      <BaseAssetGUID>1010362</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100116163</GUID>
+          <Name>Small University</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_university_menu.png</IconFilename>
+        </Standard>
+        <Building>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+          <ConstructionMenuText>1010362</ConstructionMenuText>
+        </Building>
+        <Text>
+          <TextOverride>1010362</TextOverride>
+        </Text>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>30000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>35</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>35</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\downtown\small_university_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>1010362</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            <SkinList />
+          </Skins>
+        </Object>
+        <PublicService>
+          <FullSatisfactionDistance>23</FullSatisfactionDistance> <!-- + 4 for basic need -->
+          <NoSatisfactionDistance>36</NoSatisfactionDistance>
+          <PublicServiceOutputs>
+            <Item>
+              <Product>1010353</Product>
+            </Item>
+          </PublicServiceOutputs>
+        </PublicService>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>800</Amount>
+              <InactiveAmount>400</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Clubhouse -->
+  <ModOp Type="addNextSibling" GUID="1010364">
+    <Asset>
+      <BaseAssetGUID>1010364</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100116109</GUID>
+          <Name>Small Clubhouse</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_clubhouse_menu.png</IconFilename>
+        </Standard>
+        <Building>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <AllowChangeVariation>1</AllowChangeVariation>
+        </Building>
+        <Text>
+          <TextOverride>1010364</TextOverride>
+        </Text>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>37500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>35</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\downtown\small_clubhouse_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>1010364</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+          </Skins>
+        </Object>
+        <PublicService>
+          <FullSatisfactionDistance>20</FullSatisfactionDistance>
+          <NoSatisfactionDistance>36</NoSatisfactionDistance>
+          <PublicServiceOutputs>
+            <Item>
+              <Product>1010355</Product>
+            </Item>
+          </PublicServiceOutputs>
+        </PublicService>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>275</Amount>
+              <InactiveAmount>140</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>2500</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Radio Tower -->
+  <ModOp Type="addNextSibling" GUID="118736">
+    <Asset>
+      <BaseAssetGUID>118736</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100116111</GUID>
+          <Name>Small Radio Tower</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_radiostation_menu.png</IconFilename>
+        </Standard>
+        <Building>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>50000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>35</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>30</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\downtown\small_radiostation_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Text>
+          <TextOverride>118736</TextOverride>
+        </Text>
+        <Locked />
+        <PublicService>
+          <FullSatisfactionDistance>18</FullSatisfactionDistance>
+          <NoSatisfactionDistance>30</NoSatisfactionDistance>
+          <PublicServiceOutputs>
+            <Item>
+              <Product>114425</Product>
+            </Item>
+          </PublicServiceOutputs>
+        </PublicService>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>400</Amount>
+              <InactiveAmount>200</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>1000</MaximumHitPoints>
+        </Attackable>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Post Office -->
+  <ModOp Type="addNextSibling" GUID="3741">
+    <Asset>
+      <BaseAssetGUID>3741</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100116112</GUID>
+          <Name>Small Post Office</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_postoffice_menu.png</IconFilename>
+        </Standard>
+        <Building>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>20000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>838</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\downtown\small_postoffice_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>3741</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+          </Skins>
+        </Object>
+        <Text>
+          <TextOverride>3741</TextOverride>
+        </Text>
+        <Locked />
+        <FactoryBase>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>400</Amount>
+              <InactiveAmount>200</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>35</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <ItemContainer>
+          <SocketScopeRadius>18</SocketScopeRadius>
+          <SocketScopeRadiusOverlapCategory>Postbox</SocketScopeRadiusOverlapCategory>
+        </ItemContainer>
+        <Warehouse>
+          <WarehouseStorage>
+            <StorageMax>50</StorageMax>
+          </WarehouseStorage>
+        </Warehouse>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Police Station and Headquarters -->
+  <ModOp Type="addNextSibling" GUID="1010462">
+    <Asset>
+      <BaseAssetGUID>1010462</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100116113</GUID>
+          <Name>Small Police Station</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_police_menu.png</IconFilename>
+          <InfoDescription>3788</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>7500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\downtown\small_police_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>1010462</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>2100116124</DefaultSkinCategoryName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_small_police_01.png</OverrideDefaultIcon>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100116119</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Text>
+          <TextOverride>1010462</TextOverride>
+        </Text>
+        <Locked />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>150</Amount>
+              <InactiveAmount>75</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <IncidentResolver>
+          <!-- ResolverUnit property defines institution total range and decrease-time within their ResolverUnit asset. New ResolverUnits have to be defined to not mess with vanilla -->
+          <!-- special units = units which require player action to mobilize; have thresholds to unlock -->
+          <ResolverUnitCount>2</ResolverUnitCount>
+          <SpecialUnitThresholds>
+            <Item>
+              <UnitAmount>1</UnitAmount>
+              <HappinessThreshold>10</HappinessThreshold>
+              <PopulationCount>150</PopulationCount>
+            </Item>
+            <Item>
+              <UnitAmount>2</UnitAmount>
+              <HappinessThreshold>30</HappinessThreshold>
+              <PopulationCount>250</PopulationCount>
+            </Item>
+          </SpecialUnitThresholds>
+        </IncidentResolver>
+        <IncidentInfluencer>
+          <!-- range in tiles within buildings are influenced by the institution; indicated in the building's UI when hovering over the incident triangle -->
+          <!-- this is NOT the range ResolverUnits can drive to an incident. And this is NOT represented by the green color; both belongs to IncidentResolver properties -->
+          <Influence>
+            <Riot>
+              <Influence>-7</Influence>
+              <Distance>9</Distance>
+            </Riot>
+          </Influence>
+        </IncidentInfluencer>
+        <Upgradable>
+          <NextGUID>2100116114</NextGUID>
+          <UpgradeCost>
+            <Item>
+              <Amount>7500</Amount>
+              <Ingredient>1010017</Ingredient>
+            </Item>
+            <Item>
+              <Amount>5</Amount>
+              <Ingredient>1010196</Ingredient>
+            </Item>
+            <Item>
+              <Amount>5</Amount>
+              <Ingredient>1010205</Ingredient>
+            </Item>
+            <Item>
+              <Amount>10</Amount>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+            <Item>
+              <Amount>5</Amount>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Amount>10</Amount>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </UpgradeCost>
+          <UpgradeMode>AdvancedIncidentBuilding</UpgradeMode>
+        </Upgradable>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116119</GUID>
+          <Name>Small Police Station OldTown Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_police_02.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>5238</SkinName>
+          <SkinDescription>5239</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_police_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116124</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="6353">
+    <Asset>
+      <BaseAssetGUID>6353</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100116114</GUID>
+          <Name>Small Police Headquarters</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/city_institution/icon_police_advanced.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\downtown\small_police_advanced_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>6353</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>2100116124</DefaultSkinCategoryName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_small_police_advanced_01.png</OverrideDefaultIcon>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100116120</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Text>
+          <TextOverride>6353</TextOverride>
+        </Text>
+        <Locked />
+        <IncidentResolver>
+          <!-- ResolverUnit property defines institution total range and decrease-time within their ResolverUnit asset. New ResolverUnits have to be defined to not mess with vanilla -->
+          <!-- special units = units which require player action to mobilize; have thresholds to unlock -->
+          <!-- advanced institutions send them automatically because threshold is 0: -->
+          <SpecialUnitThresholds>
+            <Item>
+              <UnitAmount>2</UnitAmount>
+              <HappinessThreshold>0</HappinessThreshold>
+            </Item>
+          </SpecialUnitThresholds>
+        </IncidentResolver>
+        <IncidentInfluencer>
+          <!-- range in tiles within buildings are influenced by the institution; indicated in the building's UI when hovering over the incident triangle -->
+          <!-- this is NOT the range ResolverUnits can drive to an incident. And this is NOT represented by the green color; both belongs to IncidentResolver properties -->
+          <Influence>
+            <Riot>
+              <Influence>-20</Influence>
+              <Distance>16</Distance>
+            </Riot>
+          </Influence>
+        </IncidentInfluencer>
+        <Upgradable>
+          <CurrentTier>1</CurrentTier>
+        </Upgradable>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>300</Amount>
+              <InactiveAmount>300</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <FactoryBase>
+          <CycleTime>360</CycleTime>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>172</ClampedMaxTransporterLogisticCost>
+        </FactoryBase>
+        <BuffFactory>
+          <PublicServiceData>
+            <FullSatisfactionDistance>15</FullSatisfactionDistance>
+          </PublicServiceData>
+        </BuffFactory>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116120</GUID>
+          <Name>Small Police Headquarters OldTown Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_police_advanced_02.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100116120</SkinName>
+          <SkinDescription>5239</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_police_advanced_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116124</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Fire Station and Department -->
+  <ModOp Type="addNextSibling" GUID="1010463">
+    <Asset>
+      <BaseAssetGUID>1010463</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100116149</GUID>
+          <Name>Small Fire Station</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_firestation_menu.png</IconFilename>
+        </Standard>
+        <Building>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\downtown\small_firestation_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>1010463</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>2100116164</DefaultSkinCategoryName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_small_firestation_01.png</OverrideDefaultIcon>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100116152</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Text>
+          <TextOverride>1010463</TextOverride>
+        </Text>
+        <FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>100</Amount>
+              <InactiveAmount>50</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <IncidentResolver>
+          <!-- ResolverUnit property defines institution total range and decrease-time within their ResolverUnit asset. New ResolverUnits have to be defined to not mess with vanilla -->
+          <!-- special units = units which require player action to mobilize; have thresholds to unlock -->
+          <ResolverUnitCount>2</ResolverUnitCount>
+          <SpecialUnitThresholds>
+            <Item>
+              <UnitAmount>1</UnitAmount>
+              <HappinessThreshold>10</HappinessThreshold>
+              <PopulationCount>150</PopulationCount>
+            </Item>
+            <Item>
+              <UnitAmount>2</UnitAmount>
+              <HappinessThreshold>30</HappinessThreshold>
+              <PopulationCount>250</PopulationCount>
+            </Item>
+          </SpecialUnitThresholds>
+        </IncidentResolver>
+        <IncidentInfluencer>
+          <!-- range in tiles within buildings are influenced by the institution; indicated in the building's UI when hovering over the incident triangle -->
+          <!-- this is NOT the range ResolverUnits can drive to an incident. And this is NOT represented by the green color; both belongs to IncidentResolver properties -->
+          <Influence>
+            <Fire>
+              <Influence>-7</Influence>
+              <Distance>12</Distance>
+            </Fire>
+            <Explosion>
+              <Influence>-7</Influence>
+              <Distance>7</Distance>
+            </Explosion>
+          </Influence>
+        </IncidentInfluencer>
+        <Upgradable>
+          <NextGUID>2100116150</NextGUID>
+          <UpgradeCost>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+          </UpgradeCost>
+          <UpgradeMode>AdvancedIncidentBuilding</UpgradeMode>
+        </Upgradable>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116152</GUID>
+          <Name>Small Fire Station OldTown Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_firestation_02.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>5236</SkinName>
+          <SkinDescription>5237</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_firestation_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116164</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="6354">
+    <Asset>
+      <BaseAssetGUID>6354</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100116150</GUID>
+          <Name>Small Fire Department</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/city_institution/icon_fire_brigade_advanced.png</IconFilename>
+        </Standard>
+        <Building>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\downtown\small_firestation_advanced_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>6354</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>2100116164</DefaultSkinCategoryName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_small_firestation_adv_01.png</OverrideDefaultIcon>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100116151</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Text>
+          <TextOverride>6354</TextOverride>
+        </Text>
+        <Locked />
+        <IncidentResolver>
+          <!-- ResolverUnit property defines institution total range and decrease-time within their ResolverUnit asset. New ResolverUnits have to be defined to not mess with vanilla -->
+          <!-- special units = units which require player action to mobilize; have thresholds to unlock -->
+          <!-- advanced institutions send them automatically because threshold is 0: -->
+            <SpecialUnitThresholds>
+              <Item>
+                <UnitAmount>2</UnitAmount>
+                <HappinessThreshold>0</HappinessThreshold>
+              </Item>
+            </SpecialUnitThresholds>
+        </IncidentResolver>
+        <IncidentInfluencer>
+          <!-- range in tiles within buildings are influenced by the institution; indicated in the building's UI when hovering over the incident triangle -->
+          <!-- this is NOT the range ResolverUnits can drive to an incident. And this is NOT represented by the green color; both belongs to IncidentResolver properties -->
+          <Influence>
+            <Fire>
+              <Influence>-20</Influence>
+              <Distance>20</Distance>
+            </Fire>
+            <Explosion>
+              <Influence>-15</Influence>
+              <Distance>12</Distance>
+            </Explosion>
+          </Influence>
+        </IncidentInfluencer>
+        <FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>200</Amount>
+              <InactiveAmount>200</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>5393</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>360</CycleTime>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>172</ClampedMaxTransporterLogisticCost>
+        </FactoryBase>
+        <LogisticNode />
+        <BuffFactory>
+          <ProvidesPublicServiceNeed>1</ProvidesPublicServiceNeed>
+          <PublicServiceData>
+            <PublicServices>
+              <Item>
+                <PublicService>6262</PublicService>
+              </Item>
+            </PublicServices>
+            <FullSatisfactionDistance>15</FullSatisfactionDistance>
+          </PublicServiceData>
+        </BuffFactory>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116151</GUID>
+          <Name>Small Fire Department OldTown Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_firestation_adv_02.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100116151</SkinName>
+          <SkinDescription>5237</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_firestation_advanced_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116164</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Hospital and City Hospital -->
+  <ModOp Type="addNextSibling" GUID="1010464">
+    <Asset>
+      <BaseAssetGUID>1010464</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100116166</GUID>
+          <Name>Small Hospital</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_hospital_menu.png</IconFilename>
+        </Standard>
+        <Building>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>20000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\downtown\small_hospital_04.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>1010464</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>2100116174</DefaultSkinCategoryName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_small_hospital_04.png</OverrideDefaultIcon>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100116176</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116175</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116170</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Text>
+          <TextOverride>1010464</TextOverride>
+        </Text>
+        <FeedbackController>
+          <NightBehavior>HideRand</NightBehavior>
+        </FeedbackController>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>600</Amount>
+              <InactiveAmount>300</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <IncidentResolver>
+          <!-- ResolverUnit property defines institution total range and decrease-time within their ResolverUnit asset. New ResolverUnits have to be defined to not mess with vanilla -->
+          <!-- special units = units which require player action to mobilize; have thresholds to unlock -->
+          <ResolverUnitCount>2</ResolverUnitCount>
+          <SpecialUnitThresholds>
+            <Item>
+              <UnitAmount>1</UnitAmount>
+              <HappinessThreshold>10</HappinessThreshold>
+              <PopulationCount>150</PopulationCount>
+            </Item>
+            <Item>
+              <UnitAmount>2</UnitAmount>
+              <HappinessThreshold>30</HappinessThreshold>
+              <PopulationCount>250</PopulationCount>
+            </Item>
+          </SpecialUnitThresholds>
+        </IncidentResolver>
+        <IncidentInfluencer>
+          <!-- range in tiles within buildings are influenced by the institution; indicated in the building's UI when hovering over the incident triangle -->
+          <!-- this is NOT the range ResolverUnits can drive to an incident. And this is NOT represented by the green color; both belongs to IncidentResolver properties -->
+          <Influence>
+            <Illness>
+              <Influence>-7</Influence>
+              <Distance>10</Distance>
+            </Illness>
+          </Influence>
+        </IncidentInfluencer>
+        <Upgradable>
+          <NextGUID>2100116167</NextGUID>
+          <UpgradeCost>
+            <Item>
+              <Amount>20000</Amount>
+              <Ingredient>1010017</Ingredient>
+            </Item>
+            <Item>
+              <Amount>10</Amount>
+              <Ingredient>1010196</Ingredient>
+            </Item>
+            <Item>
+              <Amount>10</Amount>
+              <Ingredient>1010205</Ingredient>
+            </Item>
+            <Item>
+              <Amount>10</Amount>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+          </UpgradeCost>
+          <UpgradeMode>AdvancedIncidentBuilding</UpgradeMode>
+        </Upgradable>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116170</GUID>
+          <Name>Small Hospital Eldritch Grey Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_hospital_03.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100116170</SkinName>
+          <SkinDescription>30479</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_hospital_03.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116174</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116175</GUID>
+          <Name>Small Hospital Eldritch Purple Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_hospital_02.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100116175</SkinName>
+          <SkinDescription>30479</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_hospital_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116174</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116176</GUID>
+          <Name>Small Hospital Luxurious Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_hospital_01.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100116176</SkinName>
+          <SkinDescription>2100116182</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_hospital_01.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116174</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="6355">
+    <Asset>
+      <BaseAssetGUID>6355</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100116167</GUID>
+          <Name>Small City Hospital</Name>
+        </Standard>
+        <Building>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\downtown\small_hospital_advanced_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>6355</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>2100116174</DefaultSkinCategoryName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_small_hospital_adv_01.png</OverrideDefaultIcon>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100116171</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116172</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Text>
+          <TextOverride>6355</TextOverride>
+        </Text>
+        <FeedbackController>
+          <NightBehavior>HideRand</NightBehavior>
+        </FeedbackController>
+        <IncidentResolver>
+          <!-- ResolverUnit property defines institution total range and decrease-time within their ResolverUnit asset. New ResolverUnits have to be defined to not mess with vanilla -->
+          <!-- special units = units which require player action to mobilize; have thresholds to unlock -->
+          <!-- advanced institutions send them automatically because threshold is 0: -->
+            <SpecialUnitThresholds>
+              <Item>
+                <UnitAmount>2</UnitAmount>
+                <HappinessThreshold>0</HappinessThreshold>
+              </Item>
+            </SpecialUnitThresholds>
+        </IncidentResolver>
+        <IncidentInfluencer>
+          <!-- range in tiles within buildings are influenced by the institution; indicated in the building's UI when hovering over the incident triangle -->
+          <!-- this is NOT the range ResolverUnits can drive to an incident. And this is NOT represented by the green color; both belongs to IncidentResolver properties -->
+          <Influence>
+            <Illness>
+              <Influence>-20</Influence>
+              <Distance>15</Distance>
+            </Illness>
+          </Influence>
+        </IncidentInfluencer>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>400</Amount>
+              <InactiveAmount>400</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>5397</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>360</CycleTime>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>172</ClampedMaxTransporterLogisticCost>
+        </FactoryBase>
+        <BuffFactory>
+          <ProvidesPublicServiceNeed>1</ProvidesPublicServiceNeed>
+          <PublicServiceData>
+            <PublicServices>
+              <Item>
+                <PublicService>6263</PublicService>
+              </Item>
+            </PublicServices>
+            <FullSatisfactionDistance>20</FullSatisfactionDistance>
+          </PublicServiceData>
+        </BuffFactory>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116171</GUID>
+          <Name>Small City Hospital Eldritch Purple Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_hospital_adv_02.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100116171</SkinName>
+          <SkinDescription>30479</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_hospital_advanced_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116174</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116172</GUID>
+          <Name>Small City Hospital Eldritch Grey Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_hospital_adv_03.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100116172</SkinName>
+          <SkinDescription>30479</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_hospital_advanced_03.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116174</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Hotel -->
+  <ModOp Type="addNextSibling" GUID="601445">
+    <Asset>
+      <BaseAssetGUID>601445</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100116115</GUID>
+          <Name>Tiny Hotel</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_hotel_menu.png</IconFilename>
+          <InfoDescription>134986</InfoDescription>
+        </Standard>
+        <Building>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <AllowChangeVariation>1</AllowChangeVariation>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>9000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>35</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\downtown\small_hotel_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>601445</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>2100116132</DefaultSkinCategoryName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_small_hotel_01.png</OverrideDefaultIcon>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100116116</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116188</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116189</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Text />
+        <Locked>
+          <DefaultLockedState>1</DefaultLockedState>
+          <DLCDependency>410084</DLCDependency>
+          <VisibleWhenLocked>1</VisibleWhenLocked>
+        </Locked>
+        <UpgradeList>
+          <DefaultBuff>2100116117</DefaultBuff>
+        </UpgradeList>
+        <IncidentInfectable>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityFactor>0.045</DensityFactor> <!-- base value 0.025 -->
+              <DensityDistance>15</DensityDistance>
+            </Fire>
+            <Illness>
+              <DensityFactor>0.045</DensityFactor>
+              <DensityDistance>15</DensityDistance>
+            </Illness>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116116</GUID>
+          <Name>Tiny Hotel Skin White</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_hotel_02.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100116116</SkinName>
+          <SkinDescription>733</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_hotel_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116132</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116188</GUID>
+          <Name>Tiny Hotel Skin Yellow low</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_hotel_03.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100116188</SkinName>
+          <SkinDescription>2100116190</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_hotel_03.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116132</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116189</GUID>
+          <Name>Tiny Hotel Skin White low</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_hotel_04.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100116189</SkinName>
+          <SkinDescription>2100116190</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_hotel_04.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116132</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Fill Tiny Hotel with vanilla needs (load after shared hotel needs) -->
+  <ModOp Type="add" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item/RequiredBuildings[Item/Region='Moderate']">
+    <Item>
+      <RequiredBuilding>2100116115</RequiredBuilding>
+      <Region>Moderate</Region>
+    </Item>
+  </ModOp>
+  <!-- Set Tiny Hotel resident maximum to 150 (without lifestyle needs) -->
+  <ModOp Type="addNextSibling" GUID="191587">
+    <Asset>
+      <Template>TownhallBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116117</GUID>
+          <Name>Tiny Hotel Resident Debuff</Name>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>2100116115</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <PopulationUpgrade>
+          <!-- factor 3,33 -->
+          <InputBenefitModifier>
+            <Item>
+              <Product>133891</Product>
+              <AdditionalSupply>-31</AdditionalSupply> <!-- 45 -->
+            </Item>
+            <Item>
+              <Product>1010213</Product>
+              <AdditionalSupply>-39</AdditionalSupply> <!-- 55 -->
+            </Item>
+            <Item>
+              <Product>850044</Product> <!-- train station -->
+              <AdditionalSupply>-27</AdditionalSupply> <!-- 55 -->
+            </Item>
+            <Item>
+              <Product>133573</Product>
+              <AdditionalSupply>-17</AdditionalSupply> <!-- 25 -->
+            </Item>
+            <Item>
+              <Product>132751</Product>
+              <AdditionalSupply>-17</AdditionalSupply> <!-- 25 -->
+            </Item>
+            <Item>
+              <Product>133183</Product>
+              <AdditionalSupply>-23</AdditionalSupply> <!-- 35 -->
+            </Item>
+            <Item>
+              <Product>132755</Product>
+              <AdditionalSupply>-39</AdditionalSupply> <!-- 55 -->
+            </Item>
+            <Item>
+              <Product>133181</Product>
+              <AdditionalSupply>-73</AdditionalSupply> <!-- 105 -->
+            </Item>
+            <Item>
+              <Product>132754</Product>
+              <AdditionalSupply>-55</AdditionalSupply> <!-- 75 -->
+            </Item>
+            <Item>
+              <Product>132761</Product>
+              <AdditionalSupply>-56</AdditionalSupply> <!-- 80 -->
+            </Item>
+          </InputBenefitModifier>
+        </PopulationUpgrade>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Change name -->
+  <ModOp Type="merge" GUID="2100116115" Path="/Values" Condition="!#jakob_small_hotels">
+    <Text>
+      <TextOverride>601445</TextOverride>
+    </Text>
+  </ModOp>
+
+<!-- # Replacements NoDLC -->
+<Group>
+  <ModOp Type="addNextSibling" GUID="33015">
+    <!-- no EoS Dlc  -->
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116126</GUID>
+          <Name>Small PostOffice NoDLC</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_postoffice_menu.png</IconFilename>
+        </Standard>
+        <Text>
+          <TextOverride>3741</TextOverride>
+        </Text>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>8000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>838</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\downtown\small_postoffice_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>3741</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+          </Skins>
+        </Object>
+        <Constructable />
+        <Mesh />
+        <SoundEmitter />
+        <Locked />
+        <FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
+        <Ornament>
+          <PlazzaSize>0</PlazzaSize>
+          <OrnamentUnit>9</OrnamentUnit>
+          <OrnamentDescription>104485</OrnamentDescription>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+        <Culture />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="2100116126">
+    <!-- no Tourists Dlc -->
+    <Asset>
+      <BaseAssetGUID>2100116126</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100116130</GUID>
+          <Name>Tiny Hotel NoDLC</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_hotel_menu.png</IconFilename>
+        </Standard>
+        <Building>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Text>
+          <TextOverride>601445</TextOverride>
+        </Text>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>9000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>35</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\downtown\small_hotel_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>2100116118</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>2100116132</DefaultSkinCategoryName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_small_hotel_01.png</OverrideDefaultIcon>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100116116</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Ornament>
+          <OrnamentDescription>134760</OrnamentDescription>
+        </Ornament>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="2100116113">
+    <!-- no NWR Dlc -->
+    <Asset>
+      <BaseAssetGUID>2100116113</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100116127</GUID>
+          <Name>Small Police Station NoDLC</Name>
+        </Standard>
+        <Building>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Object>
+          <Skins>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100116119</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116131</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116120</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116131</GUID>
+          <Name>Small Police Headquarters Skin NoDLC</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_police_advanced_01.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>6353</SkinName>
+          <SkinDescription>2100116134</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_police_advanced_01.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116124</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="2100116149">
+    <!-- no NWR Dlc -->
+    <Asset>
+      <BaseAssetGUID>2100116149</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100116128</GUID>
+          <Name>Small Fire Station NoDLC</Name>
+        </Standard>
+        <Building>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Object>
+          <Skins>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100116152</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116153</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116151</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116153</GUID>
+          <Name>Small Fire Department Skin NoDLC</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_firestation_adv_01.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>6354</SkinName>
+          <SkinDescription>2100116134</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_firestation_advanced_01.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116164</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="2100116166">
+    <!-- no NWR Dlc -->
+    <Asset>
+      <BaseAssetGUID>2100116166</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100116156</GUID>
+          <Name>Small Hospital NoDLC</Name>
+        </Standard>
+        <Building>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Object>
+          <Skins>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100116176</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116158</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116175</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116170</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116171</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116172</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116158</GUID>
+          <Name>Small City Hospital Skin NoDLC</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_hospital_adv_01.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>6355</SkinName>
+          <SkinDescription>2100116134</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_hospital_advanced_01.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116174</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+</Group>
+
+<!-- # Unhide and Unlock -->
+<Group>
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116154</GUID>
+          <Name>Unhide Menu</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>500</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2100116100</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116109</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116111</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116115</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116106</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116112</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116141</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116159</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116163</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116113</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116149</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116166</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116191</Asset>
+                      </Item>
+                    </UnhideAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116101</GUID>
+          <Name>Unlock_01</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>1000</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116106</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116112</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116141</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116159</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116163</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116191</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116180</GUID>
+          <Name>Unlock Police + Fire + Hospital withDLC</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>24963</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116113</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116149</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116166</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionPlayerCounter</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionPlayerCounter>
+                          <PlayerCounter>PopulationByLevel</PlayerCounter>
+                          <Context>15000003</Context>
+                          <CounterAmount>1000</CounterAmount>
+                        </ConditionPlayerCounter>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116102</GUID>
+          <Name>Unlock Bank</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>3000</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116100</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116107</GUID>
+          <Name>Unlock Radio Station</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>118745</Context>
+                <CounterAmount>7000</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116111</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116110</GUID>
+          <Name>Unlock Clubhouse</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000004</Context>
+                <CounterAmount>750</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116109</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116133</GUID>
+          <Name>Unlock Hotel</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>601379</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116115</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116121</GUID>
+          <Name>Unlock Advanced Police</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionUnlocked</Template>
+            <Values>
+              <Condition />
+              <ConditionUnlocked>
+                <UnlockNeeded>6353</UnlockNeeded>
+              </ConditionUnlocked>
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116114</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116155</GUID>
+          <Name>Unlock Advanced Fire Department</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionUnlocked</Template>
+            <Values>
+              <Condition />
+              <ConditionUnlocked>
+                <UnlockNeeded>6354</UnlockNeeded>
+              </ConditionUnlocked>
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116150</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116168</GUID>
+          <Name>Unlock Advanced Hospital</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionUnlocked</Template>
+            <Values>
+              <Condition />
+              <ConditionUnlocked>
+                <UnlockNeeded>6355</UnlockNeeded>
+              </ConditionUnlocked>
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116167</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116125</GUID>
+          <Name>Unlock PostOffice NoDLC</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>24962</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable>
+                <NegateCondition>1</NegateCondition>
+              </ConditionPropsNegatable>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116126</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionPlayerCounter</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionPlayerCounter>
+                          <PlayerCounter>PopulationByLevel</PlayerCounter>
+                          <Context>15000003</Context>
+                          <CounterAmount>1000</CounterAmount>
+                        </ConditionPlayerCounter>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116129</GUID>
+          <Name>Unlock Hotel NoDLC</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>410084</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable>
+                <NegateCondition>1</NegateCondition>
+              </ConditionPropsNegatable>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116130</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionPlayerCounter</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionPlayerCounter>
+                          <PlayerCounter>PopulationByLevel</PlayerCounter>
+                          <Context>15000003</Context>
+                          <CounterAmount>1000</CounterAmount>
+                        </ConditionPlayerCounter>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116122</GUID>
+          <Name>Unlock Police + Fire + Hospital NoDLC</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>24963</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable>
+                <NegateCondition>1</NegateCondition>
+              </ConditionPropsNegatable>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116127</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116128</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116156</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionPlayerCounter</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionPlayerCounter>
+                          <PlayerCounter>PopulationByLevel</PlayerCounter>
+                          <Context>15000003</Context>
+                          <CounterAmount>1000</CounterAmount>
+                        </ConditionPlayerCounter>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116103</GUID>
+          <Name>Unlock Creative Mode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Values>
+              <ConditionPropsNegatable />
+              <Condition />
+              <ConditionIsCreativeMode />
+            </Values>
+            <Template>ConditionIsCreativeMode</Template>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116100</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116106</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116109</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116111</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116141</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116159</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116163</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116191</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116181</GUID>
+          <Name>Unlock Police + Fire + Hospital withDLC CreativeMode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>24963</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116113</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116149</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116166</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Values>
+                        <ConditionPropsNegatable />
+                        <Condition />
+                        <ConditionIsCreativeMode />
+                      </Values>
+                      <Template>ConditionIsCreativeMode</Template>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116138</GUID>
+          <Name>Unlock PostOffice CreativeMode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>24962</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116112</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Values>
+                        <ConditionPropsNegatable />
+                        <Condition />
+                        <ConditionIsCreativeMode />
+                      </Values>
+                      <Template>ConditionIsCreativeMode</Template>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116140</GUID>
+          <Name>Unlock Hotel CreativeMode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>410084</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116115</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Values>
+                        <ConditionPropsNegatable />
+                        <Condition />
+                        <ConditionIsCreativeMode />
+                      </Values>
+                      <Template>ConditionIsCreativeMode</Template>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116139</GUID>
+          <Name>Unlock Advanced Police CreativeMode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>24963</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116114</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116120</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Values>
+                        <ConditionPropsNegatable />
+                        <Condition />
+                        <ConditionIsCreativeMode />
+                      </Values>
+                      <Template>ConditionIsCreativeMode</Template>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116157</GUID>
+          <Name>Unlock Advanced Fire Department CreativeMode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>24963</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116150</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116151</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Values>
+                        <ConditionPropsNegatable />
+                        <Condition />
+                        <ConditionIsCreativeMode />
+                      </Values>
+                      <Template>ConditionIsCreativeMode</Template>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116169</GUID>
+          <Name>Unlock Advanced Hospital CreativeMode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>24963</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116167</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Values>
+                        <ConditionPropsNegatable />
+                        <Condition />
+                        <ConditionIsCreativeMode />
+                      </Values>
+                      <Template>ConditionIsCreativeMode</Template>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116135</GUID>
+          <Name>Unlock PostOffice NoDLC CreativeMode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>24962</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable>
+                <NegateCondition>1</NegateCondition>
+              </ConditionPropsNegatable>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116126</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Values>
+                        <ConditionPropsNegatable />
+                        <Condition />
+                        <ConditionIsCreativeMode />
+                      </Values>
+                      <Template>ConditionIsCreativeMode</Template>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116136</GUID>
+          <Name>Unlock Hotel NoDLC CreativeMode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>410084</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable>
+                <NegateCondition>1</NegateCondition>
+              </ConditionPropsNegatable>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116130</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Values>
+                        <ConditionPropsNegatable />
+                        <Condition />
+                        <ConditionIsCreativeMode />
+                      </Values>
+                      <Template>ConditionIsCreativeMode</Template>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116137</GUID>
+          <Name>Unlock Police + Fire + Hospital NoDLC CreativeMode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>24963</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable>
+                <NegateCondition>1</NegateCondition>
+              </ConditionPropsNegatable>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116127</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116128</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116156</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Values>
+                        <ConditionPropsNegatable />
+                        <Condition />
+                        <ConditionIsCreativeMode />
+                      </Values>
+                      <Template>ConditionIsCreativeMode</Template>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+</Group>
+
+<!-- # Mod compatibility adjustments -->
+<Group Condition="#HacknerWorkforceRequired">
+  <ModOp Type="add" GUID="2100116113,2100116127" Path="/Values/Maintenance">
+    <Item>
+      <Product>1010115</Product>
+      <Amount>15</Amount>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="2100116149,2100116128" Path="/Values/Maintenance">
+    <Item>
+      <Product>1010115</Product>
+      <Amount>20</Amount>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="2100116166,2100116156" Path="/Values/Maintenance">
+    <Item>
+      <Product>1010116</Product>
+      <Amount>40</Amount>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="2100116114" Path="/Values/Maintenance">
+    <Item>
+      <Product>1010115</Product>
+      <Amount>20</Amount>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="2100116150" Path="/Values/Maintenance">
+    <Item>
+      <Product>1010115</Product>
+      <Amount>25</Amount>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="2100116167" Path="/Values/Maintenance">
+    <Item>
+      <Product>1010116</Product>
+      <Amount>45</Amount>
+    </Item>
+  </ModOp>
+</Group>
+
+<Include File="./ranges.include.xml" />
+<Include File="./distances.include.xml" />
+
+</ModOps>
