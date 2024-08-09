@@ -1,0 +1,11 @@
+<ModOps>
+
+	<!-- Let hotels recognize electricity public service; hide 'improved by electricity' in construction menu infotip -->
+	<ModOp Type="merge" Path="//Template[Name='ResidenceBuilding7_Hotel']/Properties">
+		<Electrifiable />
+		<Industrializable>
+			<BoostedByIndustrialization>0</BoostedByIndustrialization>
+		</Industrializable>
+	</ModOp>
+
+</ModOps>

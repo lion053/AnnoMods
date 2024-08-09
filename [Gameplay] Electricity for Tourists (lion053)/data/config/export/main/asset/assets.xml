@@ -1,0 +1,165 @@
+<!-- # Imya Tweaks -->
+<ModOps>
+  <ModOp Type="add" GUID="25000118" Path="/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item[Category='6364']/Needs" Condition="!/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds//Item[BonusNeed='1010354']">
+    <Item>
+      <BonusNeed>1010354</BonusNeed>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs" Condition="!/Values/PopulationLevel7/PopulationInputs[Item/Product='1010354']">
+    <Item>
+      <Product>1010354</Product>
+      <SupplyWeight>10</SupplyWeight>
+      <MoneyValue>20</MoneyValue>
+      <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+      <FullWeightPopulationCount>500</FullWeightPopulationCount>
+      <NoWeightPopulationCount>499</NoWeightPopulationCount>
+      <IsConsideredByAI>0</IsConsideredByAI>
+      <IsBonusNeed>1</IsBonusNeed>
+      <AdditionalGlobalUnlockRequirement>
+        <Population>15000003</Population>
+        <MinPopulationAmount>1750</MinPopulationAmount>
+      </AdditionalGlobalUnlockRequirement>
+      <RequiredBuildings>
+        <Item>
+          <RequiredBuilding>0</RequiredBuilding>
+          <Region>0</Region>
+        </Item>
+      </RequiredBuildings>
+    </Item>
+  </ModOp>
+  <ImyaTweaks Title="Custom Settings" />
+  <ImyaExpose Path="self::Item[Product='1010354']" Kind="SkipToggle" InitState="True" ModOpID="electricity_hotels" ExposeID="Hotels from Tourist DLC" Description="Off = No electricity for tourists living in these hotels&#xD;&#xA;On = Electricity for tourists living in these hotels">
+  </ImyaExpose>
+  <ImyaExpose Path="self::Item[Product='1010354']" Kind="SkipToggle" InitState="True" ModOpID="electricity_mod_nwtourism" ExposeID="Hotels from Mod 'New World Tourism'" Description="Off = No electricity for tourists living in these hotels&#xD;&#xA;On = Electricity for tourists living in these hotels">
+  </ImyaExpose>
+  <ImyaExpose Path="self::Item[Product='1010354']" Kind="SkipToggle" InitState="True" ModOpID="electricity_mod_smallhotels_ow" ExposeID="Hotels in the Old World from Mod 'Small Hotels (Jakob)'" Description="Off = No electricity for tourists living in these hotels&#xD;&#xA;On = Electricity for tourists living in these hotels">
+  </ImyaExpose>
+  <ImyaExpose Path="self::Item[Product='1010354']" Kind="SkipToggle" InitState="True" ModOpID="electricity_mod_smallhotels_nw" ExposeID="Hotels in the New World from Mod 'Small Hotels (Jakob)'" Description="Off = No electricity for tourists living in these hotels&#xD;&#xA;On = Electricity for tourists living in these hotels">
+  </ImyaExpose>
+  <ImyaExpose Path="self::Item[Product='1010354']" Kind="SkipToggle" InitState="True" ModOpID="electricity_mod_downtown" ExposeID="Hotels from Mod 'Downtown (Lion053)'" Description="Off = No electricity for tourists living in these hotels&#xD;&#xA;On = Electricity for tourists living in these hotels">
+  </ImyaExpose>
+  <Group ModOpID="electricity_hotels">
+    <ModOp Type="add" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010354']/RequiredBuildings">
+      <Item>
+        <RequiredBuilding>601445</RequiredBuilding>
+        <Region>Moderate</Region>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group ModOpID="electricity_mod_nwtourism" Condition="FamTaubeLexy_NewWorldHotels">
+    <Group Condition="#jakob-power-plants">
+      <ModOp Type="add" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010354']">
+        <Item>
+          <Product>1010354</Product>
+          <SupplyWeight>10</SupplyWeight>
+          <MoneyValue>20</MoneyValue>
+          <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+          <FullWeightPopulationCount>500</FullWeightPopulationCount>
+          <NoWeightPopulationCount>499</NoWeightPopulationCount>
+          <IsConsideredByAI>0</IsConsideredByAI>
+          <IsBonusNeed>1</IsBonusNeed>
+          <AdditionalGlobalUnlockRequirement>
+            <Population>15000006</Population>
+            <MinPopulationAmount>3000</MinPopulationAmount>
+          </AdditionalGlobalUnlockRequirement>
+          <RequiredBuildings>
+            <Item>
+              <RequiredBuilding>1440134300</RequiredBuilding>
+              <Region>Colony01</Region>
+            </Item>
+          </RequiredBuildings>
+        </Item>
+      </ModOp>
+    </Group>
+    <Group Condition="!#jakob-power-plants">
+      <ModOp Type="add" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010354']">
+        <Item>
+          <Product>1010354</Product>
+          <SupplyWeight>10</SupplyWeight>
+          <MoneyValue>20</MoneyValue>
+          <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+          <FullWeightPopulationCount>500</FullWeightPopulationCount>
+          <NoWeightPopulationCount>499</NoWeightPopulationCount>
+          <IsConsideredByAI>0</IsConsideredByAI>
+          <IsBonusNeed>1</IsBonusNeed>
+          <AdditionalGlobalUnlockRequirement>
+            <Population>5403</Population>
+            <MinPopulationAmount>900</MinPopulationAmount>
+          </AdditionalGlobalUnlockRequirement>
+          <RequiredBuildings>
+            <Item>
+              <RequiredBuilding>1440134300</RequiredBuilding>
+              <Region>Colony01</Region>
+            </Item>
+          </RequiredBuildings>
+        </Item>
+      </ModOp>
+    </Group>
+  </Group>
+  <Group ModOpID="electricity_mod_smallhotels_ow">
+    <ModOp Type="add" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010354']/RequiredBuildings">
+      <Item>
+        <RequiredBuilding>1500010500</RequiredBuilding>
+        <Region>Moderate</Region>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group ModOpID="electricity_mod_smallhotels_nw" Condition="#jakob_small_hotels">
+    <Group Condition="#jakob-power-plants">
+      <ModOp Type="add" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010354']">
+        <Item>
+          <Product>1010354</Product>
+          <SupplyWeight>10</SupplyWeight>
+          <MoneyValue>20</MoneyValue>
+          <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+          <FullWeightPopulationCount>500</FullWeightPopulationCount>
+          <NoWeightPopulationCount>499</NoWeightPopulationCount>
+          <IsConsideredByAI>0</IsConsideredByAI>
+          <IsBonusNeed>1</IsBonusNeed>
+          <AdditionalGlobalUnlockRequirement>
+            <Population>15000006</Population>
+            <MinPopulationAmount>3000</MinPopulationAmount>
+          </AdditionalGlobalUnlockRequirement>
+          <RequiredBuildings>
+            <Item>
+              <RequiredBuilding>1500010529</RequiredBuilding>
+              <Region>Colony01</Region>
+            </Item>
+          </RequiredBuildings>
+        </Item>
+      </ModOp>
+    </Group>
+    <Group Condition="!#jakob-power-plants">
+      <ModOp Type="add" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010354']">
+        <Item>
+          <Product>1010354</Product>
+          <SupplyWeight>10</SupplyWeight>
+          <MoneyValue>20</MoneyValue>
+          <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+          <FullWeightPopulationCount>500</FullWeightPopulationCount>
+          <NoWeightPopulationCount>499</NoWeightPopulationCount>
+          <IsConsideredByAI>0</IsConsideredByAI>
+          <IsBonusNeed>1</IsBonusNeed>
+          <AdditionalGlobalUnlockRequirement>
+            <Population>5403</Population>
+            <MinPopulationAmount>900</MinPopulationAmount>
+          </AdditionalGlobalUnlockRequirement>
+          <RequiredBuildings>
+            <Item>
+              <RequiredBuilding>1500010529</RequiredBuilding>
+              <Region>Colony01</Region>
+            </Item>
+          </RequiredBuildings>
+        </Item>
+      </ModOp>
+    </Group>
+  </Group>
+  <Group ModOpID="electricity_mod_downtown" Condition="#lion053_downtown">
+    <ModOp Type="add" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010354']/RequiredBuildings">
+      <Item>
+        <RequiredBuilding>2100116115</RequiredBuilding>
+        <Region>Moderate</Region>
+      </Item>
+    </ModOp>
+  </Group>
+</ModOps>

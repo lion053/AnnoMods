@@ -1,0 +1,44 @@
+{
+  "Version": "1.0",
+  "ModID": "electricity-for-tourists-lion053",
+
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "English": "Electricity for Tourists (Lion053)",
+    "Chinese": "Electricity for Tourists (Lion053)",
+    "French": "Electricity for Tourists (Lion053)",
+    "German": "Electricity for Tourists (Lion053)",
+    "Italian": "Electricity for Tourists (Lion053)",
+    "Japanese": "Electricity for Tourists (Lion053)",
+    "Korean": "Electricity for Tourists (Lion053)",
+    "Polish": "Electricity for Tourists (Lion053)",
+    "Russian": "Electricity for Tourists (Lion053)",
+    "Spanish": "Electricity for Tourists (Lion053)",
+    "Taiwanese": "Electricity for Tourists (Lion053)"
+  },
+  "Description": {
+    "English": "file::README.md",
+    "Chinese": "file::README.md",
+    "French": "file::README.md",
+    "German": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  }
+}
