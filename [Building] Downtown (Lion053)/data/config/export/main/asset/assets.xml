@@ -1299,6 +1299,7 @@
             <DefaultSkinName>1010364</DefaultSkinName>
             <DefaultSkinDescription>23853</DefaultSkinDescription>
             <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            <SkinList />
           </Skins>
         </Object>
         <PublicService>
@@ -1379,6 +1380,9 @@
               <Filename>data\graphics\mod_buildings\lion053\downtown\small_radiostation_01.cfg</Filename>
             </Item>
           </Variations>
+          <Skins>
+            <SkinList />
+          </Skins>
         </Object>
         <Text>
           <TextOverride>118736</TextOverride>
@@ -1463,6 +1467,7 @@
             <DefaultSkinName>3741</DefaultSkinName>
             <DefaultSkinDescription>23853</DefaultSkinDescription>
             <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            <SkinList />
           </Skins>
         </Object>
         <Text>
@@ -2677,7 +2682,7 @@
               <Amount>20</Amount>
             </Item>
             <Item>
-              <Ingredient>838</Ingredient>
+              <Ingredient>1010218</Ingredient>
               <Amount>10</Amount>
             </Item>
             <Item>
@@ -2713,7 +2718,9 @@
         <Constructable />
         <Mesh />
         <SoundEmitter />
-        <Locked />
+        <Locked>
+          <DefaultLockedState>1</DefaultLockedState>
+        </Locked>
         <FeedbackController>
           <NightBehavior>HideNone</NightBehavior>
         </FeedbackController>
@@ -2784,6 +2791,12 @@
             <SkinList>
               <Item>
                 <SkinAssetGuid>2100116116</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116188</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116189</SkinAssetGuid>
               </Item>
             </SkinList>
           </Skins>
@@ -2969,13 +2982,14 @@
 
 <!-- # Unhide and Unlock -->
 <Group>
+  <!-- Unhide -->
   <ModOp Type="addNextSibling" GUID="130248">
     <Asset>
       <Template>Trigger</Template>
       <Values>
         <Standard>
           <GUID>2100116154</GUID>
-          <Name>Unhide Menu</Name>
+          <Name>Unhide Menu I</Name>
         </Standard>
         <Trigger>
           <TriggerCondition>
@@ -3007,13 +3021,7 @@
                         <Asset>2100116111</Asset>
                       </Item>
                       <Item>
-                        <Asset>2100116115</Asset>
-                      </Item>
-                      <Item>
                         <Asset>2100116106</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2100116112</Asset>
                       </Item>
                       <Item>
                         <Asset>2100116141</Asset>
@@ -3023,15 +3031,6 @@
                       </Item>
                       <Item>
                         <Asset>2100116163</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2100116113</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2100116149</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2100116166</Asset>
                       </Item>
                       <Item>
                         <Asset>2100116191</Asset>
@@ -3050,8 +3049,213 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
+          <GUID>2100116197</GUID>
+          <Name>Unhide Menu II</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>24963</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2100116149</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116113</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116166</Asset>
+                      </Item>
+                    </UnhideAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionPlayerCounter</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionPlayerCounter>
+                          <PlayerCounter>PopulationByLevel</PlayerCounter>
+                          <Context>15000003</Context>
+                          <CounterAmount>500</CounterAmount>
+                        </ConditionPlayerCounter>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116198</GUID>
+          <Name>Unhide Menu III</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>410084</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2100116115</Asset>
+                      </Item>
+                    </UnhideAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionPlayerCounter</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionPlayerCounter>
+                          <PlayerCounter>PopulationByLevel</PlayerCounter>
+                          <Context>15000003</Context>
+                          <CounterAmount>500</CounterAmount>
+                        </ConditionPlayerCounter>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116199</GUID>
+          <Name>Unhide Menu IV</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>24962</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2100116112</Asset>
+                      </Item>
+                    </UnhideAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionPlayerCounter</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionPlayerCounter>
+                          <PlayerCounter>PopulationByLevel</PlayerCounter>
+                          <Context>15000003</Context>
+                          <CounterAmount>500</CounterAmount>
+                        </ConditionPlayerCounter>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Unlock Regular -->
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
           <GUID>2100116101</GUID>
-          <Name>Unlock_01</Name>
+          <Name>Unlock_01_Regular</Name>
         </Standard>
         <Trigger>
           <TriggerCondition>
@@ -3077,9 +3281,6 @@
                         <Asset>2100116106</Asset>
                       </Item>
                       <Item>
-                        <Asset>2100116112</Asset>
-                      </Item>
-                      <Item>
                         <Asset>2100116141</Asset>
                       </Item>
                       <Item>
@@ -3102,78 +3303,9 @@
       </Values>
     </Asset>
   </ModOp>
+
+  <!-- Unlock Special -->
   <ModOp Type="addNextSibling" GUID="130248">
-    <Asset>
-      <Template>Trigger</Template>
-      <Values>
-        <Standard>
-          <GUID>2100116180</GUID>
-          <Name>Unlock Police + Fire + Hospital withDLC</Name>
-        </Standard>
-        <Trigger>
-          <TriggerCondition>
-            <Template>ConditionIsDLCActive</Template>
-            <Values>
-              <Condition />
-              <ConditionIsDLCActive>
-                <DLCAssetList>
-                  <Item>
-                    <DLCAsset>24963</DLCAsset>
-                  </Item>
-                </DLCAssetList>
-              </ConditionIsDLCActive>
-              <ConditionPropsNegatable />
-            </Values>
-          </TriggerCondition>
-          <TriggerActions>
-            <Item>
-              <TriggerAction>
-                <Template>ActionUnlockAsset</Template>
-                <Values>
-                  <Action />
-                  <ActionUnlockAsset>
-                    <UnlockAssets>
-                      <Item>
-                        <Asset>2100116113</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2100116149</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2100116166</Asset>
-                      </Item>
-                    </UnlockAssets>
-                  </ActionUnlockAsset>
-                </Values>
-              </TriggerAction>
-            </Item>
-          </TriggerActions>
-          <SubTriggers>
-            <Item>
-              <SubTrigger>
-                <Template>AutoCreateTrigger</Template>
-                <Values>
-                  <Trigger>
-                    <TriggerCondition>
-                      <Template>ConditionPlayerCounter</Template>
-                      <Values>
-                        <Condition />
-                        <ConditionPlayerCounter>
-                          <PlayerCounter>PopulationByLevel</PlayerCounter>
-                          <Context>15000003</Context>
-                          <CounterAmount>1000</CounterAmount>
-                        </ConditionPlayerCounter>
-                      </Values>
-                    </TriggerCondition>
-                  </Trigger>
-                </Values>
-              </SubTrigger>
-            </Item>
-          </SubTriggers>
-        </Trigger>
-        <TriggerSetup />
-      </Values>
-    </Asset>
     <Asset>
       <Template>Trigger</Template>
       <Values>
@@ -3298,48 +3430,8 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>2100116133</GUID>
-          <Name>Unlock Hotel</Name>
-        </Standard>
-        <Trigger>
-          <TriggerCondition>
-            <Template>ConditionPlayerCounter</Template>
-            <Values>
-              <Condition />
-              <ConditionPlayerCounter>
-                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                <Context>601379</Context>
-                <CounterAmount>1</CounterAmount>
-              </ConditionPlayerCounter>
-            </Values>
-          </TriggerCondition>
-          <TriggerActions>
-            <Item>
-              <TriggerAction>
-                <Template>ActionUnlockAsset</Template>
-                <Values>
-                  <Action />
-                  <ActionUnlockAsset>
-                    <UnlockAssets>
-                      <Item>
-                        <Asset>2100116115</Asset>
-                      </Item>
-                    </UnlockAssets>
-                  </ActionUnlockAsset>
-                </Values>
-              </TriggerAction>
-            </Item>
-          </TriggerActions>
-        </Trigger>
-        <TriggerSetup />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Trigger</Template>
-      <Values>
-        <Standard>
-          <GUID>2100116121</GUID>
-          <Name>Unlock Advanced Police</Name>
+          <GUID>2100116253</GUID>
+          <Name>Unlock PostOffice withDLC</Name>
         </Standard>
         <Trigger>
           <TriggerCondition>
@@ -3347,7 +3439,7 @@
             <Values>
               <Condition />
               <ConditionUnlocked>
-                <UnlockNeeded>6353</UnlockNeeded>
+                <UnlockNeeded>3741</UnlockNeeded>
               </ConditionUnlocked>
               <ConditionPropsNegatable />
             </Values>
@@ -3361,7 +3453,7 @@
                   <ActionUnlockAsset>
                     <UnlockAssets>
                       <Item>
-                        <Asset>2100116114</Asset>
+                        <Asset>2100116112</Asset>
                       </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
@@ -3369,84 +3461,51 @@
               </TriggerAction>
             </Item>
           </TriggerActions>
-        </Trigger>
-        <TriggerSetup />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Trigger</Template>
-      <Values>
-        <Standard>
-          <GUID>2100116155</GUID>
-          <Name>Unlock Advanced Fire Department</Name>
-        </Standard>
-        <Trigger>
-          <TriggerCondition>
-            <Template>ConditionUnlocked</Template>
-            <Values>
-              <Condition />
-              <ConditionUnlocked>
-                <UnlockNeeded>6354</UnlockNeeded>
-              </ConditionUnlocked>
-              <ConditionPropsNegatable />
-            </Values>
-          </TriggerCondition>
-          <TriggerActions>
+          <SubTriggers>
             <Item>
-              <TriggerAction>
-                <Template>ActionUnlockAsset</Template>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
                 <Values>
-                  <Action />
-                  <ActionUnlockAsset>
-                    <UnlockAssets>
-                      <Item>
-                        <Asset>2100116150</Asset>
-                      </Item>
-                    </UnlockAssets>
-                  </ActionUnlockAsset>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionPlayerCounter</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionPlayerCounter>
+                          <PlayerCounter>PopulationByLevel</PlayerCounter>
+                          <Context>15000003</Context>
+                          <CounterAmount>1000</CounterAmount>
+                        </ConditionPlayerCounter>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
                 </Values>
-              </TriggerAction>
+              </SubTrigger>
             </Item>
-          </TriggerActions>
-        </Trigger>
-        <TriggerSetup />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Trigger</Template>
-      <Values>
-        <Standard>
-          <GUID>2100116168</GUID>
-          <Name>Unlock Advanced Hospital</Name>
-        </Standard>
-        <Trigger>
-          <TriggerCondition>
-            <Template>ConditionUnlocked</Template>
-            <Values>
-              <Condition />
-              <ConditionUnlocked>
-                <UnlockNeeded>6355</UnlockNeeded>
-              </ConditionUnlocked>
-              <ConditionPropsNegatable />
-            </Values>
-          </TriggerCondition>
-          <TriggerActions>
             <Item>
-              <TriggerAction>
-                <Template>ActionUnlockAsset</Template>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
                 <Values>
-                  <Action />
-                  <ActionUnlockAsset>
-                    <UnlockAssets>
-                      <Item>
-                        <Asset>2100116167</Asset>
-                      </Item>
-                    </UnlockAssets>
-                  </ActionUnlockAsset>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionIsDLCActive</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionIsDLCActive>
+                          <DLCAssetList>
+                            <Item>
+                              <DLCAsset>24962</DLCAsset>
+                            </Item>
+                          </DLCAssetList>
+                        </ConditionIsDLCActive>
+                        <ConditionPropsNegatable />
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
                 </Values>
-              </TriggerAction>
+              </SubTrigger>
             </Item>
-          </TriggerActions>
+          </SubTriggers>
         </Trigger>
         <TriggerSetup />
       </Values>
@@ -3456,23 +3515,100 @@
       <Values>
         <Standard>
           <GUID>2100116125</GUID>
+          <Name>Unlock PostOffice NoDLC register</Name>
+        </Standard>
+        <Trigger>
+          <!-- Force check for IsDLCActive when game has completed loading, not only before and during the dlc-activation window. -->
+          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>1000</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionDelayedActions</Template>
+                <Values>
+                  <Action />
+                  <ActionDelayedActions>
+                    <ExecutionDelay>10000</ExecutionDelay>
+                    <DelayedActions>
+                      <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                      <Values>
+                        <ActionList>
+                          <Actions>
+                            <Item>
+                              <Action>
+                                <Template>ActionRegisterTrigger</Template>
+                                  <Values>
+                                    <Action />
+                                    <ActionRegisterTrigger>
+                                      <TriggerAsset>2100116250</TriggerAsset>
+                                    </ActionRegisterTrigger>
+                                  </Values>
+                              </Action>
+                            </Item>
+                          </Actions>
+                        </ActionList>
+                      </Values>
+                    </DelayedActions>
+                  </ActionDelayedActions>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionActiveRegion</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionActiveRegion>
+                          <ActiveRegion>5000000</ActiveRegion>
+                        </ConditionActiveRegion>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116250</GUID>
           <Name>Unlock PostOffice NoDLC</Name>
         </Standard>
         <Trigger>
+          <!-- Force check for IsDLCActive when game has completed loading, not only before and during the dlc-activation window. -->
+          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->
           <TriggerCondition>
-            <Template>ConditionIsDLCActive</Template>
+            <Template>ConditionPlayerCounter</Template>
             <Values>
-              <Condition />
-              <ConditionIsDLCActive>
-                <DLCAssetList>
-                  <Item>
-                    <DLCAsset>24962</DLCAsset>
-                  </Item>
-                </DLCAssetList>
-              </ConditionIsDLCActive>
-              <ConditionPropsNegatable>
-                <NegateCondition>1</NegateCondition>
-              </ConditionPropsNegatable>
+              <Condition>
+                <SubConditionCompletionOrder>Parallel</SubConditionCompletionOrder>
+              </Condition>
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>1000</CounterAmount>
+              </ConditionPlayerCounter>
             </Values>
           </TriggerCondition>
           <TriggerActions>
@@ -3513,6 +3649,217 @@
                 </Values>
               </SubTrigger>
             </Item>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionUnlocked</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionUnlocked>
+                          <UnlockNeeded>3741</UnlockNeeded>
+                        </ConditionUnlocked>
+                        <ConditionPropsNegatable>
+                          <NegateCondition>1</NegateCondition>
+                        </ConditionPropsNegatable>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionIsDLCActive</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionIsDLCActive>
+                          <DLCAssetList>
+                            <Item>
+                              <DLCAsset>24962</DLCAsset>
+                            </Item>
+                          </DLCAssetList>
+                        </ConditionIsDLCActive>
+                        <ConditionPropsNegatable>
+                          <NegateCondition>1</NegateCondition>
+                        </ConditionPropsNegatable>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>0</AutoRegisterTrigger>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116133</GUID>
+          <Name>Unlock Hotel withDLC</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>601379</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116115</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionPlayerCounter</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionPlayerCounter>
+                          <PlayerCounter>PopulationByLevel</PlayerCounter>
+                          <Context>15000003</Context>
+                          <CounterAmount>1000</CounterAmount>
+                        </ConditionPlayerCounter>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionIsDLCActive</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionIsDLCActive>
+                          <DLCAssetList>
+                            <Item>
+                              <DLCAsset>410084</DLCAsset>
+                            </Item>
+                          </DLCAssetList>
+                        </ConditionIsDLCActive>
+                        <ConditionPropsNegatable />
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116251</GUID>
+          <Name>Unlock Hotel NoDLC register</Name>
+        </Standard>
+        <Trigger>
+          <!-- Force check for IsDLCActive when game has completed loading, not only before and during the dlc-activation window. -->
+          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>1000</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionDelayedActions</Template>
+                <Values>
+                  <Action />
+                  <ActionDelayedActions>
+                    <ExecutionDelay>10000</ExecutionDelay>
+                    <DelayedActions>
+                      <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                      <Values>
+                        <ActionList>
+                          <Actions>
+                            <Item>
+                              <Action>
+                                <Template>ActionRegisterTrigger</Template>
+                                  <Values>
+                                    <Action />
+                                    <ActionRegisterTrigger>
+                                      <TriggerAsset>2100116129</TriggerAsset>
+                                    </ActionRegisterTrigger>
+                                  </Values>
+                              </Action>
+                            </Item>
+                          </Actions>
+                        </ActionList>
+                      </Values>
+                    </DelayedActions>
+                  </ActionDelayedActions>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionActiveRegion</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionActiveRegion>
+                          <ActiveRegion>5000000</ActiveRegion>
+                        </ConditionActiveRegion>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
           </SubTriggers>
         </Trigger>
         <TriggerSetup />
@@ -3526,20 +3873,19 @@
           <Name>Unlock Hotel NoDLC</Name>
         </Standard>
         <Trigger>
+          <!-- Force check for IsDLCActive when game has completed loading, not only before and during the dlc-activation window. -->
+          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->
           <TriggerCondition>
-            <Template>ConditionIsDLCActive</Template>
+            <Template>ConditionPlayerCounter</Template>
             <Values>
-              <Condition />
-              <ConditionIsDLCActive>
-                <DLCAssetList>
-                  <Item>
-                    <DLCAsset>410084</DLCAsset>
-                  </Item>
-                </DLCAssetList>
-              </ConditionIsDLCActive>
-              <ConditionPropsNegatable>
-                <NegateCondition>1</NegateCondition>
-              </ConditionPropsNegatable>
+              <Condition>
+                <SubConditionCompletionOrder>Parallel</SubConditionCompletionOrder>
+              </Condition>
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>1000</CounterAmount>
+              </ConditionPlayerCounter>
             </Values>
           </TriggerCondition>
           <TriggerActions>
@@ -3552,6 +3898,125 @@
                     <UnlockAssets>
                       <Item>
                         <Asset>2100116130</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionUnlocked</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionUnlocked>
+                          <UnlockNeeded>601445</UnlockNeeded>
+                        </ConditionUnlocked>
+                        <ConditionPropsNegatable>
+                          <NegateCondition>1</NegateCondition>
+                        </ConditionPropsNegatable>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionPlayerCounter</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionPlayerCounter>
+                          <PlayerCounter>PopulationByLevel</PlayerCounter>
+                          <Context>15000003</Context>
+                          <CounterAmount>1000</CounterAmount>
+                        </ConditionPlayerCounter>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionIsDLCActive</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionIsDLCActive>
+                          <DLCAssetList>
+                            <Item>
+                              <DLCAsset>410084</DLCAsset>
+                            </Item>
+                          </DLCAssetList>
+                        </ConditionIsDLCActive>
+                        <ConditionPropsNegatable>
+                          <NegateCondition>1</NegateCondition>
+                        </ConditionPropsNegatable>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>0</AutoRegisterTrigger>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116180</GUID>
+          <Name>Unlock Police + Fire + Hospital withDLC</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>24963</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116113</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116149</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116166</Asset>
                       </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
@@ -3581,12 +4046,84 @@
               </SubTrigger>
             </Item>
           </SubTriggers>
-          <ResetTrigger>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116252</GUID>
+          <Name>Unlock Police + Fire + Hospital NoDLC register</Name>
+        </Standard>
+        <Trigger>
+          <!-- Force check for IsDLCActive when game has completed loading, not only before and during the dlc-activation window. -->
+          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
             <Values>
-              <EmptyAutoCreateValue />
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>1000</CounterAmount>
+              </ConditionPlayerCounter>
             </Values>
-          </ResetTrigger>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionDelayedActions</Template>
+                <Values>
+                  <Action />
+                  <ActionDelayedActions>
+                    <ExecutionDelay>10000</ExecutionDelay>
+                    <DelayedActions>
+                      <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                      <Values>
+                        <ActionList>
+                          <Actions>
+                            <Item>
+                              <Action>
+                                <Template>ActionRegisterTrigger</Template>
+                                  <Values>
+                                    <Action />
+                                    <ActionRegisterTrigger>
+                                      <TriggerAsset>2100116122</TriggerAsset>
+                                    </ActionRegisterTrigger>
+                                  </Values>
+                              </Action>
+                            </Item>
+                          </Actions>
+                        </ActionList>
+                      </Values>
+                    </DelayedActions>
+                  </ActionDelayedActions>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionActiveRegion</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionActiveRegion>
+                          <ActiveRegion>5000000</ActiveRegion>
+                        </ConditionActiveRegion>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
         </Trigger>
         <TriggerSetup />
       </Values>
@@ -3599,20 +4136,19 @@
           <Name>Unlock Police + Fire + Hospital NoDLC</Name>
         </Standard>
         <Trigger>
+          <!-- Force check for IsDLCActive when game has completed loading, not only before and during the dlc-activation window. -->
+          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->
           <TriggerCondition>
-            <Template>ConditionIsDLCActive</Template>
+            <Template>ConditionPlayerCounter</Template>
             <Values>
-              <Condition />
-              <ConditionIsDLCActive>
-                <DLCAssetList>
-                  <Item>
-                    <DLCAsset>24963</DLCAsset>
-                  </Item>
-                </DLCAssetList>
-              </ConditionIsDLCActive>
-              <ConditionPropsNegatable>
-                <NegateCondition>1</NegateCondition>
-              </ConditionPropsNegatable>
+              <Condition>
+                <SubConditionCompletionOrder>Parallel</SubConditionCompletionOrder>
+              </Condition>
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>1000</CounterAmount>
+              </ConditionPlayerCounter>
             </Values>
           </TriggerCondition>
           <TriggerActions>
@@ -3645,6 +4181,27 @@
                 <Values>
                   <Trigger>
                     <TriggerCondition>
+                      <Template>ConditionUnlocked</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionUnlocked>
+                          <UnlockNeeded>2100116113</UnlockNeeded>
+                        </ConditionUnlocked>
+                        <ConditionPropsNegatable>
+                          <NegateCondition>1</NegateCondition>
+                        </ConditionPropsNegatable>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
                       <Template>ConditionPlayerCounter</Template>
                       <Values>
                         <Condition />
@@ -3659,12 +4216,161 @@
                 </Values>
               </SubTrigger>
             </Item>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionIsDLCActive</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionIsDLCActive>
+                          <DLCAssetList>
+                            <Item>
+                              <DLCAsset>24963</DLCAsset>
+                            </Item>
+                          </DLCAssetList>
+                        </ConditionIsDLCActive>
+                        <ConditionPropsNegatable>
+                          <NegateCondition>1</NegateCondition>
+                        </ConditionPropsNegatable>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
           </SubTriggers>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>0</AutoRegisterTrigger>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116121</GUID>
+          <Name>Unlock Advanced Police</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>5403</Context>
+                <CounterAmount>4000</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116114</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116155</GUID>
+          <Name>Unlock Advanced Fire Department</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>5403</Context>
+                <CounterAmount>2700</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116150</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116168</GUID>
+          <Name>Unlock Advanced Hospital</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>5403</Context>
+                <CounterAmount>6000</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116167</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
         </Trigger>
         <TriggerSetup />
       </Values>
     </Asset>
   </ModOp>
+
+  <!-- Unlock Creative Mode -->
   <ModOp Type="addNextSibling" GUID="130248">
     <Asset>
       <Template>Trigger</Template>
@@ -3722,6 +4428,454 @@
           </TriggerActions>
         </Trigger>
         <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116138</GUID>
+          <Name>Unlock PostOffice withDLC CreativeMode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>24962</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116112</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Values>
+                        <ConditionPropsNegatable />
+                        <Condition />
+                        <ConditionIsCreativeMode />
+                      </Values>
+                      <Template>ConditionIsCreativeMode</Template>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116256</GUID>
+          <Name>Unlock PostOffice NoDLC CreativeMode register</Name>
+        </Standard>
+        <Trigger>
+          <!-- Force check for IsDLCActive when game has completed loading, not only before and during the dlc-activation window. -->
+          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->
+          <TriggerCondition>
+            <Values>
+              <ConditionPropsNegatable />
+              <Condition />
+              <ConditionIsCreativeMode />
+            </Values>
+            <Template>ConditionIsCreativeMode</Template>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionDelayedActions</Template>
+                <Values>
+                  <Action />
+                  <ActionDelayedActions>
+                    <ExecutionDelay>10000</ExecutionDelay>
+                    <DelayedActions>
+                      <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                      <Values>
+                        <ActionList>
+                          <Actions>
+                            <Item>
+                              <Action>
+                                <Template>ActionRegisterTrigger</Template>
+                                  <Values>
+                                    <Action />
+                                    <ActionRegisterTrigger>
+                                      <TriggerAsset>2100116135</TriggerAsset>
+                                    </ActionRegisterTrigger>
+                                  </Values>
+                              </Action>
+                            </Item>
+                          </Actions>
+                        </ActionList>
+                      </Values>
+                    </DelayedActions>
+                  </ActionDelayedActions>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionActiveRegion</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionActiveRegion>
+                          <ActiveRegion>5000000</ActiveRegion>
+                        </ConditionActiveRegion>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116135</GUID>
+          <Name>Unlock PostOffice NoDLC CreativeMode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Values>
+              <ConditionPropsNegatable />
+              <Condition />
+              <ConditionIsCreativeMode />
+            </Values>
+            <Template>ConditionIsCreativeMode</Template>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116126</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionUnlocked</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionUnlocked>
+                          <UnlockNeeded>3741</UnlockNeeded>
+                        </ConditionUnlocked>
+                        <ConditionPropsNegatable>
+                          <NegateCondition>1</NegateCondition>
+                        </ConditionPropsNegatable>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionIsDLCActive</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionIsDLCActive>
+                          <DLCAssetList>
+                            <Item>
+                              <DLCAsset>24962</DLCAsset>
+                            </Item>
+                          </DLCAssetList>
+                        </ConditionIsDLCActive>
+                        <ConditionPropsNegatable>
+                          <NegateCondition>1</NegateCondition>
+                        </ConditionPropsNegatable>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>0</AutoRegisterTrigger>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116140</GUID>
+          <Name>Unlock Hotel withDLC CreativeMode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition />
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>410084</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116115</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Values>
+                        <ConditionPropsNegatable />
+                        <Condition />
+                        <ConditionIsCreativeMode />
+                      </Values>
+                      <Template>ConditionIsCreativeMode</Template>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116254</GUID>
+          <Name>Unlock Hotel NoDLC CreativeMode register</Name>
+        </Standard>
+        <Trigger>
+          <!-- Force check for IsDLCActive when game has completed loading, not only before and during the dlc-activation window. -->
+          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->
+          <TriggerCondition>
+            <Values>
+              <ConditionPropsNegatable />
+              <Condition />
+              <ConditionIsCreativeMode />
+            </Values>
+            <Template>ConditionIsCreativeMode</Template>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionDelayedActions</Template>
+                <Values>
+                  <Action />
+                  <ActionDelayedActions>
+                    <ExecutionDelay>10000</ExecutionDelay>
+                    <DelayedActions>
+                      <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                      <Values>
+                        <ActionList>
+                          <Actions>
+                            <Item>
+                              <Action>
+                                <Template>ActionRegisterTrigger</Template>
+                                  <Values>
+                                    <Action />
+                                    <ActionRegisterTrigger>
+                                      <TriggerAsset>2100116136</TriggerAsset>
+                                    </ActionRegisterTrigger>
+                                  </Values>
+                              </Action>
+                            </Item>
+                          </Actions>
+                        </ActionList>
+                      </Values>
+                    </DelayedActions>
+                  </ActionDelayedActions>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionActiveRegion</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionActiveRegion>
+                          <ActiveRegion>5000000</ActiveRegion>
+                        </ConditionActiveRegion>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116136</GUID>
+          <Name>Unlock Hotel NoDLC CreativeMode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Values>
+              <ConditionPropsNegatable />
+              <Condition />
+              <ConditionIsCreativeMode />
+            </Values>
+            <Template>ConditionIsCreativeMode</Template>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116130</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionUnlocked</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionUnlocked>
+                          <UnlockNeeded>601445</UnlockNeeded>
+                        </ConditionUnlocked>
+                        <ConditionPropsNegatable>
+                          <NegateCondition>1</NegateCondition>
+                        </ConditionPropsNegatable>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionIsDLCActive</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionIsDLCActive>
+                          <DLCAssetList>
+                            <Item>
+                              <DLCAsset>410084</DLCAsset>
+                            </Item>
+                          </DLCAssetList>
+                        </ConditionIsDLCActive>
+                        <ConditionPropsNegatable>
+                          <NegateCondition>1</NegateCondition>
+                        </ConditionPropsNegatable>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>0</AutoRegisterTrigger>
+        </TriggerSetup>
       </Values>
     </Asset>
     <Asset>
@@ -3796,37 +4950,49 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>2100116138</GUID>
-          <Name>Unlock PostOffice CreativeMode</Name>
+          <GUID>2100116255</GUID>
+          <Name>Unlock Police + Fire + Hospital NoDLC CreativeMode register</Name>
         </Standard>
         <Trigger>
+          <!-- Force check for IsDLCActive when game has completed loading, not only before and during the dlc-activation window. -->
+          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->
           <TriggerCondition>
-            <Template>ConditionIsDLCActive</Template>
             <Values>
-              <Condition />
-              <ConditionIsDLCActive>
-                <DLCAssetList>
-                  <Item>
-                    <DLCAsset>24962</DLCAsset>
-                  </Item>
-                </DLCAssetList>
-              </ConditionIsDLCActive>
               <ConditionPropsNegatable />
+              <Condition />
+              <ConditionIsCreativeMode />
             </Values>
+            <Template>ConditionIsCreativeMode</Template>
           </TriggerCondition>
           <TriggerActions>
             <Item>
               <TriggerAction>
-                <Template>ActionUnlockAsset</Template>
+                <Template>ActionDelayedActions</Template>
                 <Values>
                   <Action />
-                  <ActionUnlockAsset>
-                    <UnlockAssets>
-                      <Item>
-                        <Asset>2100116112</Asset>
-                      </Item>
-                    </UnlockAssets>
-                  </ActionUnlockAsset>
+                  <ActionDelayedActions>
+                    <ExecutionDelay>10000</ExecutionDelay>
+                    <DelayedActions>
+                      <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                      <Values>
+                        <ActionList>
+                          <Actions>
+                            <Item>
+                              <Action>
+                                <Template>ActionRegisterTrigger</Template>
+                                  <Values>
+                                    <Action />
+                                    <ActionRegisterTrigger>
+                                      <TriggerAsset>2100116137</TriggerAsset>
+                                    </ActionRegisterTrigger>
+                                  </Values>
+                              </Action>
+                            </Item>
+                          </Actions>
+                        </ActionList>
+                      </Values>
+                    </DelayedActions>
+                  </ActionDelayedActions>
                 </Values>
               </TriggerAction>
             </Item>
@@ -3838,24 +5004,19 @@
                 <Values>
                   <Trigger>
                     <TriggerCondition>
+                      <Template>ConditionActiveRegion</Template>
                       <Values>
-                        <ConditionPropsNegatable />
                         <Condition />
-                        <ConditionIsCreativeMode />
+                        <ConditionActiveRegion>
+                          <ActiveRegion>5000000</ActiveRegion>
+                        </ConditionActiveRegion>
                       </Values>
-                      <Template>ConditionIsCreativeMode</Template>
                     </TriggerCondition>
                   </Trigger>
                 </Values>
               </SubTrigger>
             </Item>
           </SubTriggers>
-          <ResetTrigger>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <EmptyAutoCreateValue />
-            </Values>
-          </ResetTrigger>
         </Trigger>
         <TriggerSetup />
       </Values>
@@ -3864,23 +5025,17 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>2100116140</GUID>
-          <Name>Unlock Hotel CreativeMode</Name>
+          <GUID>2100116137</GUID>
+          <Name>Unlock Police + Fire + Hospital NoDLC CreativeMode</Name>
         </Standard>
         <Trigger>
           <TriggerCondition>
-            <Template>ConditionIsDLCActive</Template>
             <Values>
-              <Condition />
-              <ConditionIsDLCActive>
-                <DLCAssetList>
-                  <Item>
-                    <DLCAsset>410084</DLCAsset>
-                  </Item>
-                </DLCAssetList>
-              </ConditionIsDLCActive>
               <ConditionPropsNegatable />
+              <Condition />
+              <ConditionIsCreativeMode />
             </Values>
+            <Template>ConditionIsCreativeMode</Template>
           </TriggerCondition>
           <TriggerActions>
             <Item>
@@ -3891,7 +5046,13 @@
                   <ActionUnlockAsset>
                     <UnlockAssets>
                       <Item>
-                        <Asset>2100116115</Asset>
+                        <Asset>2100116127</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116128</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2100116156</Asset>
                       </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
@@ -3906,26 +5067,51 @@
                 <Values>
                   <Trigger>
                     <TriggerCondition>
+                      <Template>ConditionUnlocked</Template>
                       <Values>
-                        <ConditionPropsNegatable />
                         <Condition />
-                        <ConditionIsCreativeMode />
+                        <ConditionUnlocked>
+                          <UnlockNeeded>2100116113</UnlockNeeded>
+                        </ConditionUnlocked>
+                        <ConditionPropsNegatable>
+                          <NegateCondition>1</NegateCondition>
+                        </ConditionPropsNegatable>
                       </Values>
-                      <Template>ConditionIsCreativeMode</Template>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionIsDLCActive</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionIsDLCActive>
+                          <DLCAssetList>
+                            <Item>
+                              <DLCAsset>24963</DLCAsset>
+                            </Item>
+                          </DLCAssetList>
+                        </ConditionIsDLCActive>
+                        <ConditionPropsNegatable>
+                          <NegateCondition>1</NegateCondition>
+                        </ConditionPropsNegatable>
+                      </Values>
                     </TriggerCondition>
                   </Trigger>
                 </Values>
               </SubTrigger>
             </Item>
           </SubTriggers>
-          <ResetTrigger>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <EmptyAutoCreateValue />
-            </Values>
-          </ResetTrigger>
         </Trigger>
-        <TriggerSetup />
+        <TriggerSetup>
+          <AutoRegisterTrigger>0</AutoRegisterTrigger>
+        </TriggerSetup>
       </Values>
     </Asset>
     <Asset>
@@ -3960,9 +5146,6 @@
                     <UnlockAssets>
                       <Item>
                         <Asset>2100116114</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2100116120</Asset>
                       </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
@@ -4031,9 +5214,6 @@
                     <UnlockAssets>
                       <Item>
                         <Asset>2100116150</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2100116151</Asset>
                       </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
@@ -4134,216 +5314,6 @@
               <EmptyAutoCreateValue />
             </Values>
           </ResetTrigger>
-        </Trigger>
-        <TriggerSetup />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Trigger</Template>
-      <Values>
-        <Standard>
-          <GUID>2100116135</GUID>
-          <Name>Unlock PostOffice NoDLC CreativeMode</Name>
-        </Standard>
-        <Trigger>
-          <TriggerCondition>
-            <Template>ConditionIsDLCActive</Template>
-            <Values>
-              <Condition />
-              <ConditionIsDLCActive>
-                <DLCAssetList>
-                  <Item>
-                    <DLCAsset>24962</DLCAsset>
-                  </Item>
-                </DLCAssetList>
-              </ConditionIsDLCActive>
-              <ConditionPropsNegatable>
-                <NegateCondition>1</NegateCondition>
-              </ConditionPropsNegatable>
-            </Values>
-          </TriggerCondition>
-          <TriggerActions>
-            <Item>
-              <TriggerAction>
-                <Template>ActionUnlockAsset</Template>
-                <Values>
-                  <Action />
-                  <ActionUnlockAsset>
-                    <UnlockAssets>
-                      <Item>
-                        <Asset>2100116126</Asset>
-                      </Item>
-                    </UnlockAssets>
-                  </ActionUnlockAsset>
-                </Values>
-              </TriggerAction>
-            </Item>
-          </TriggerActions>
-          <SubTriggers>
-            <Item>
-              <SubTrigger>
-                <Template>AutoCreateTrigger</Template>
-                <Values>
-                  <Trigger>
-                    <TriggerCondition>
-                      <Values>
-                        <ConditionPropsNegatable />
-                        <Condition />
-                        <ConditionIsCreativeMode />
-                      </Values>
-                      <Template>ConditionIsCreativeMode</Template>
-                    </TriggerCondition>
-                  </Trigger>
-                </Values>
-              </SubTrigger>
-            </Item>
-          </SubTriggers>
-          <ResetTrigger>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <EmptyAutoCreateValue />
-            </Values>
-          </ResetTrigger>
-        </Trigger>
-        <TriggerSetup />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Trigger</Template>
-      <Values>
-        <Standard>
-          <GUID>2100116136</GUID>
-          <Name>Unlock Hotel NoDLC CreativeMode</Name>
-        </Standard>
-        <Trigger>
-          <TriggerCondition>
-            <Template>ConditionIsDLCActive</Template>
-            <Values>
-              <Condition />
-              <ConditionIsDLCActive>
-                <DLCAssetList>
-                  <Item>
-                    <DLCAsset>410084</DLCAsset>
-                  </Item>
-                </DLCAssetList>
-              </ConditionIsDLCActive>
-              <ConditionPropsNegatable>
-                <NegateCondition>1</NegateCondition>
-              </ConditionPropsNegatable>
-            </Values>
-          </TriggerCondition>
-          <TriggerActions>
-            <Item>
-              <TriggerAction>
-                <Template>ActionUnlockAsset</Template>
-                <Values>
-                  <Action />
-                  <ActionUnlockAsset>
-                    <UnlockAssets>
-                      <Item>
-                        <Asset>2100116130</Asset>
-                      </Item>
-                    </UnlockAssets>
-                  </ActionUnlockAsset>
-                </Values>
-              </TriggerAction>
-            </Item>
-          </TriggerActions>
-          <SubTriggers>
-            <Item>
-              <SubTrigger>
-                <Template>AutoCreateTrigger</Template>
-                <Values>
-                  <Trigger>
-                    <TriggerCondition>
-                      <Values>
-                        <ConditionPropsNegatable />
-                        <Condition />
-                        <ConditionIsCreativeMode />
-                      </Values>
-                      <Template>ConditionIsCreativeMode</Template>
-                    </TriggerCondition>
-                  </Trigger>
-                </Values>
-              </SubTrigger>
-            </Item>
-          </SubTriggers>
-          <ResetTrigger>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <EmptyAutoCreateValue />
-            </Values>
-          </ResetTrigger>
-        </Trigger>
-        <TriggerSetup />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Trigger</Template>
-      <Values>
-        <Standard>
-          <GUID>2100116137</GUID>
-          <Name>Unlock Police + Fire + Hospital NoDLC CreativeMode</Name>
-        </Standard>
-        <Trigger>
-          <TriggerCondition>
-            <Template>ConditionIsDLCActive</Template>
-            <Values>
-              <Condition />
-              <ConditionIsDLCActive>
-                <DLCAssetList>
-                  <Item>
-                    <DLCAsset>24963</DLCAsset>
-                  </Item>
-                </DLCAssetList>
-              </ConditionIsDLCActive>
-              <ConditionPropsNegatable>
-                <NegateCondition>1</NegateCondition>
-              </ConditionPropsNegatable>
-            </Values>
-          </TriggerCondition>
-          <TriggerActions>
-            <Item>
-              <TriggerAction>
-                <Template>ActionUnlockAsset</Template>
-                <Values>
-                  <Action />
-                  <ActionUnlockAsset>
-                    <UnlockAssets>
-                      <Item>
-                        <Asset>2100116127</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2100116128</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>2100116156</Asset>
-                      </Item>
-                    </UnlockAssets>
-                  </ActionUnlockAsset>
-                </Values>
-              </TriggerAction>
-            </Item>
-          </TriggerActions>
-          <SubTriggers>
-            <Item>
-              <SubTrigger>
-                <Template>AutoCreateTrigger</Template>
-                <Values>
-                  <Trigger>
-                    <TriggerCondition>
-                      <Values>
-                        <ConditionPropsNegatable />
-                        <Condition />
-                        <ConditionIsCreativeMode />
-                      </Values>
-                      <Template>ConditionIsCreativeMode</Template>
-                    </TriggerCondition>
-                  </Trigger>
-                </Values>
-              </SubTrigger>
-            </Item>
-          </SubTriggers>
         </Trigger>
         <TriggerSetup />
       </Values>

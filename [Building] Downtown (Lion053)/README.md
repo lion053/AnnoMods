@@ -1,7 +1,5 @@
 # Downtown (Lion053)
 
-## TL;DR
-
 - This mod adds 3x3-sized building variations for public services, institutions, the post office and hotel.
 - They are intended to be built in a block between residences to form a lively downtown or to cover small (leftover) areas where the larger original would be a waste of precious space.
 
@@ -48,5 +46,6 @@
 
 ## Changelog
 
-- 1.0: First release
+### 1.0
+
 
