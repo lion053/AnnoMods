@@ -1,8 +1,14 @@
 {
-  "Version": "1.2",
+  "Version": "1.3",
   "ModID": "lion053_ow_chapels",
   "IncompatibleIds": [],
-  "ModDependencies": null,
+  "ModDependencies": [
+    "shared-pools-and-definitions"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions"
+  ],
+
 
   "Category": {
     "Chinese": "Building",
@@ -45,7 +51,7 @@
     "Spanish": "file::readme.md",
     "Taiwanese": "file::readme.md"
   },
-  
+
   "KnownIssues": null,
   "DLCDependencies": null,
   "CreatorName": "Lion053",

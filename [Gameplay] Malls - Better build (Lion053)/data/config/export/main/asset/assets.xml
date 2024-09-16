@@ -1,37 +1,44 @@
-<!-- [Gameplay] Malls by Street Distance (Lion053) -->
+<!-- [Gameplay] Malls - Better Build (Lion053) -->
 
-<!-- Purpose of this mod: -->
-<!-- When building a Mall or after the selection of one, the Public Service ranges of all already existing Malls of the same type are displayed at the same time -->
-<!-- E.g. clicking on / or while building a Department Store of any recipe (or blank) displays the public service range of all other built Department stores on an island -->
-<!-- Same logic for the Furniture Stores or the Drug Stores -->
-<!-- To achieve this, this mod also changes the buff and public service influence range from Radius to Street Distance -->
-<!-- Furthermore, the smaller productivity buffs provided at 50 and 160 % productivity are removed, since they are not shown in the output-infotip anyway due to uncomplete coding by devs -->
-<!-- Instead only the buff which is regularly provided at 200 % productivity in vanilla game is provided, but in return already at 101 % productivity -->
+<!-- What this mod does: -->
+<!-- While building a Mall or after the selection of one, the public-service ranges of all already existing Malls of the same type (department/furniture/pharmacy) -->
+<!-- are displayed at the same time, no matter which recipe was chosen (or blank).  -->
+<!-- Example: If you click on / or while you build a Department Store of any recipe (or blank), the public service ranges of all other already built Department stores are shown -->
+
+<!-- That means: all consumption buff and public service ranges are changed from Radius to Street Distance -->
+<!-- Furthermore, the smaller productivity buffs provided at 50 % and 160 % productivity are not applied anymore, since they are not shown in the output-infotip anyway due to uncomplete coding by devs -->
+<!-- Instead only the highest buff which is regularly provided at 200 % productivity is provided, but in return already at 101 % productivity -->
 
 <ModOps>
 
-  <!-- # Adjustments for all malls -->
+<!-- # Adjustments for all Malls -->
 
   <!-- ProductionBuffDistance is no longer needed (ForwardBuffs are required instead) -->
   <ModOp Type="remove" GUID="135103,135187,135188,135189,135190,135105,135120,135121,135122,135123,134631,135191,135192,135193,135194" Path="/Values/BuffFactory/ProductionBuffDistance">
   </ModOp>
-  <!-- Distribute the service from the 'PublicServiceData' by street -->
+  <!-- Distribute the service from the 'PublicServiceData' by street instead of radius -->
   <ModOp Type="merge" GUID="135100,135099,134629,135103,135187,135188,135189,135190,135105,135120,135121,135122,135123,134631,135191,135192,135193,135194" Path="/Values/BuffFactory/ProductionBuffScope">
     <ProductionBuffScope>Local</ProductionBuffScope>
   </ModOp>
-  <!-- Set the satisfaction distance to 32 which corresponds to the former vanilla radius of 45 -->
+  <!-- Set the satisfaction distance to 44 (match the vanilla public service distance) -->
   <ModOp Type="merge" GUID="135103,135187,135188,135189,135190,135105,135120,135121,135122,135123,134631,135191,135192,135193,135194" Path="/Values/BuffFactory/PublicServiceData/FullSatisfactionDistance">
-    <FullSatisfactionDistance>32</FullSatisfactionDistance>
+    <FullSatisfactionDistance>44</FullSatisfactionDistance>
   </ModOp>
   <ModOp Type="merge" GUID="135103,135187,135188,135189,135190,135105,135120,135121,135122,135123,134631,135191,135192,135193,135194" Path="/Values/BuffFactory/PublicServiceData/NoSatisfactionDistance">
-    <NoSatisfactionDistance>32</NoSatisfactionDistance>
+    <NoSatisfactionDistance>44</NoSatisfactionDistance>
   </ModOp>
 
-  <!-- # Public Service Ghosts -->
-  <!-- BuffFactory-PublicServiceData properties only display their service which is distributed by the same BUILDING guid, even if the service has the same guid. -->
-  <!-- In other words: Recipe buildings like the Malls need a workaround, otherwise only buildings which currently use the same recipe are displayed together -->
-  <!-- Workaround: Add a non-functional ghost service per mall type as a regular 'PublicService'. This way, the service is displayed across all recipes of a certain mall type -->
-  <!-- 1. Add Ghosts -->
+<!-- PUBLIC SERVICES -->
+
+<!-- # Public Service Ghosts -->
+<Group>
+
+  <!-- Issue: BuffFactory-PublicServiceData properties only display their service which is distributed by the same BUILDING guid, no matter if the service has the same guid. -->
+  <!-- Consequence: Recipe buildings only show the services from buildings which currently use the same recipe -->
+  <!-- Solution: Add a non-functional ghost service per mall type as a regular 'PublicService'. This way, the service is displayed across all recipes of a certain mall type -->
+  <!-- This is only a help-construct; the actual mall services are still provided by PublicServiceData to ensure that they are only fulfilled when the malls are working -->
+
+  <!-- Add Ghosts -->
   <ModOp Type="addNextSibling" GUID="1010349">
     <Asset>
       <Template>Product</Template>
@@ -45,7 +52,7 @@
           <TextOverride>135108</TextOverride>
         </Text>
         <Locked>
-          <DefaultLockedState>1</DefaultLockedState>
+          <DefaultLockedState>0</DefaultLockedState>
         </Locked>
         <Product>
           <ProductColor>-11415604</ProductColor>
@@ -108,11 +115,11 @@
     </Asset>
   </ModOp>
 
-  <!-- # Apply Ghosts -->
+  <!-- Apply Ghosts (important to include blanks) -->
   <ModOp Type="merge" GUID="135100,135103,135187,135188,135189,135190" Path="/Values">
     <PublicService>
-      <FullSatisfactionDistance>32</FullSatisfactionDistance>
-      <NoSatisfactionDistance>32</NoSatisfactionDistance>
+      <FullSatisfactionDistance>44</FullSatisfactionDistance>
+      <NoSatisfactionDistance>44</NoSatisfactionDistance>
       <PublicServiceOutputs>
         <Item>
           <Product>2100116201</Product>
@@ -122,8 +129,8 @@
   </ModOp>
   <ModOp Type="merge" GUID="135099,135105,135120,135121,135122,135123" Path="/Values">
     <PublicService>
-      <FullSatisfactionDistance>32</FullSatisfactionDistance>
-      <NoSatisfactionDistance>32</NoSatisfactionDistance>
+      <FullSatisfactionDistance>44</FullSatisfactionDistance>
+      <NoSatisfactionDistance>44</NoSatisfactionDistance>
       <PublicServiceOutputs>
         <Item>
           <Product>2100116202</Product>
@@ -133,8 +140,8 @@
   </ModOp>
   <ModOp Type="merge" GUID="134629,134631,135191,135192,135193,135194" Path="/Values">
     <PublicService>
-      <FullSatisfactionDistance>32</FullSatisfactionDistance>
-      <NoSatisfactionDistance>32</NoSatisfactionDistance>
+      <FullSatisfactionDistance>44</FullSatisfactionDistance>
+      <NoSatisfactionDistance>44</NoSatisfactionDistance>
       <PublicServiceOutputs>
         <Item>
           <Product>2100116203</Product>
@@ -142,14 +149,110 @@
       </PublicServiceOutputs>
     </PublicService>
   </ModOp>
+</Group>
 
-  <!-- # Make residences recognize the Ghosts as their Department / Furniture / Pharmacy need -->
+<!-- # Make residences recognize the Ghosts as their Department / Furniture / Pharmacy need -->
+<Group>
+
+  <!-- Issue: The residences do not recognize any service anymore, if normal PublicService and PublicServiceData are present at the same time -->
+  <!-- Solution: Add one buff per mall type, which are applied via StreetDistance (using a ForwardBuff), and which reduce the original mall needs by 100 % (when malls are working) -->
+  <!-- This causes the need-bars in the residence-UI to fill up green within the StreetDistance of the ForwardBuffs (44) -->
+  <!-- Since the ForwardBuffs use the exact same street distance as the "service-ghosts" from the PublicService property, this is visually represented on the streets -->
+
+  <!-- Optional: -->
+  <!-- If this mod is removed, custom guids would cause ctds when clicking on a mall, since the buff is still applied on the malls, but obviously can't be connected to a guid anymore. -->
+  <!-- Therefore a guid swap with vanilla "no panorama" buffs 137279 & 137280 can be utilized to prevent that for at least the department and furniture stores. -->
+  <!-- These buffs are empty and hidden by default, so if the mod is removed, they just do nothing even if still applied on the malls and the game does not crash -->
+  <ModOp Type="remove" GUID="137279,137280"></ModOp>
+  <ModOp Type="addNextSibling" GUID="135115">
+    <Asset>
+      <!-- vanilla code except custom guid -->
+      <Template>TownhallBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116220</GUID>
+          <Name>Buff_Urbanization_tier4_0</Name>
+          <IconFilename>data/ui/2kimages/main/icons/panorama_effect_levels/panorama_buff_00.png</IconFilename>
+        </Standard>
+        <ItemEffect />
+        <Text>
+          <LocaText>
+            <English>
+              <Text>No Panorama</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>52270</LineID>
+        </Text>
+        <BuildingUpgrade />
+        <Buff>
+          <ShortName>137279</ShortName>
+        </Buff>
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+          <ShowInStatisticScreen>1</ShowInStatisticScreen>
+        </CultureUpgrade>
+        <InfluenceSourceUpgrade />
+        <WarehouseUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+        <FactoryUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TownhallBuff</Template>
+      <!-- vanilla code except custom guid -->
+      <Values>
+        <Standard>
+          <GUID>2100116221</GUID>
+          <Name>Buff_Urbanization_tier5_0</Name>
+          <IconFilename>data/ui/2kimages/main/icons/panorama_effect_levels/panorama_buff_00.png</IconFilename>
+        </Standard>
+        <ItemEffect />
+        <Text>
+          <LocaText>
+            <English>
+              <Text>No Panorama</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>52276</LineID>
+        </Text>
+        <BuildingUpgrade />
+        <Buff>
+          <ShortName>137280</ShortName>
+        </Buff>
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+          <ShowInStatisticScreen>1</ShowInStatisticScreen>
+        </CultureUpgrade>
+        <InfluenceSourceUpgrade />
+        <WarehouseUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+        <FactoryUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="merge" GUID="601888,601889,601890" Path="/Values/Residence7/GoodViewEmpty">
+    <GoodViewEmpty>2100116220</GoodViewEmpty>
+  </ModOp>
+  <ModOp Type="merge" GUID="601882,601883,601884,601886,601891" Path="/Values/Residence7/GoodViewEmpty">
+    <GoodViewEmpty>2100116221</GoodViewEmpty>
+  </ModOp>
+
   <ModOp Type="addNextSibling" GUID="135115">
     <Asset>
       <Template>TownhallBuff</Template>
       <Values>
         <Standard>
-          <GUID>2100116220</GUID>
+          <GUID>137279</GUID>
           <Name>Buff_Ghost_Department_Residents</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/icon_mall.png</IconFilename>
         </Standard>
@@ -164,7 +267,6 @@
         <Buff />
         <PopulationUpgrade />
         <ResidenceUpgrade>
-          <!-- When this buff is active, the Department need is fullfilled everywhere the Ghost service is visually represented on the streets -->
           <GoodConsumptionUpgrade>
             <Item>
               <ProvidedNeed>135108</ProvidedNeed>
@@ -187,7 +289,7 @@
       <Template>TownhallBuff</Template>
       <Values>
         <Standard>
-          <GUID>2100116221</GUID>
+          <GUID>137280</GUID>
           <Name>Buff_Ghost_Furniture_Residents</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/icon_furnitures.png</IconFilename>
         </Standard>
@@ -202,7 +304,6 @@
         <Buff />
         <PopulationUpgrade />
         <ResidenceUpgrade>
-          <!-- When this buff is active, the Furniture need is fullfilled everywhere the Ghost service is visually represented on the streets -->
           <GoodConsumptionUpgrade>
             <Item>
               <ProvidedNeed>135107</ProvidedNeed>
@@ -240,7 +341,6 @@
         <Buff />
         <PopulationUpgrade />
         <ResidenceUpgrade>
-          <!-- When this buff is active, the Pharmacy need is fullfilled everywhere the Ghost service is visually represented on the streets -->
           <GoodConsumptionUpgrade>
             <Item>
               <ProvidedNeed>135109</ProvidedNeed>
@@ -260,6 +360,8 @@
       </Values>
     </Asset>
   </ModOp>
+
+  <!-- Corresponding ForwardBuffs -->
   <ModOp Type="addNextSibling" GUID="135115">
     <Asset>
       <Template>ForwardBuff</Template>
@@ -278,12 +380,12 @@
           </EffectTargets>
         </ItemEffect>
         <EffectForward>
-          <ForwardEffect>2100116220</ForwardEffect>
-          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffect>137279</ForwardEffect>
+          <ForwardEffectRange>44</ForwardEffectRange>
           <ForwardEffectScope>StreetDistance</ForwardEffectScope>
         </EffectForward>
         <CultureUpgrade>
-          <HideBuff>1</HideBuff> <!-- hide buff icon in the Mall UI -->
+          <HideBuff>1</HideBuff>
         </CultureUpgrade>
       </Values>
     </Asset>
@@ -304,12 +406,12 @@
           </EffectTargets>
         </ItemEffect>
         <EffectForward>
-          <ForwardEffect>2100116221</ForwardEffect>
-          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffect>137280</ForwardEffect>
+          <ForwardEffectRange>44</ForwardEffectRange>
           <ForwardEffectScope>StreetDistance</ForwardEffectScope>
         </EffectForward>
         <CultureUpgrade>
-          <HideBuff>1</HideBuff> <!-- hide buff icon in the Mall UI -->
+          <HideBuff>1</HideBuff>
         </CultureUpgrade>
       </Values>
     </Asset>
@@ -331,18 +433,24 @@
         </ItemEffect>
         <EffectForward>
           <ForwardEffect>2100116222</ForwardEffect>
-          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectRange>44</ForwardEffectRange>
           <ForwardEffectScope>StreetDistance</ForwardEffectScope>
         </EffectForward>
         <CultureUpgrade>
-          <HideBuff>1</HideBuff> <!-- hide buff icon in the Mall UI -->
+          <HideBuff>1</HideBuff>
         </CultureUpgrade>
       </Values>
     </Asset>
   </ModOp>
+</Group>
+
+<!-- CONSUMPTION BUFFS -->
 
 <!-- # Vanilla Mall Output Buffs as Forward Buffs -->
-<!-- Needed to distribute the mall buffs to residences via StreetDistance, because scope type "Local" (for the public service) does not work for buffs itself (would just act like a DefaultBuff) -->
+<!-- Issue: ProductionBuffScope type "Local" does only work for the PublicServiceData, but not for Buffs (would just act like a DefaultBuff) -->
+<!-- Solution: Distribute the mall buffs to residences via StreetDistance, using a ForwardBuff per recipe -->
+<!-- (The lower vanilla buffs at 50 and 160 % would require their own ForwardBuffs here, what would heavily increase the number of guids for no real benefit) -->
+
 <!-- Forward Buffs Department -->
 <Group>
   <ModOp Type="addNextSibling" GUID="135115">
@@ -367,7 +475,7 @@
         </Text>
         <EffectForward>
           <ForwardEffect>135111</ForwardEffect>
-          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectRange>44</ForwardEffectRange>
           <ForwardEffectScope>StreetDistance</ForwardEffectScope>
         </EffectForward>
         <CultureUpgrade>
@@ -396,7 +504,7 @@
         </Text>
         <EffectForward>
           <ForwardEffect>137637</ForwardEffect>
-          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectRange>44</ForwardEffectRange>
           <ForwardEffectScope>StreetDistance</ForwardEffectScope>
         </EffectForward>
         <CultureUpgrade>
@@ -425,7 +533,7 @@
         </Text>
         <EffectForward>
           <ForwardEffect>135196</ForwardEffect>
-          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectRange>44</ForwardEffectRange>
           <ForwardEffectScope>StreetDistance</ForwardEffectScope>
         </EffectForward>
         <CultureUpgrade>
@@ -454,7 +562,7 @@
         </Text>
         <EffectForward>
           <ForwardEffect>135197</ForwardEffect>
-          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectRange>44</ForwardEffectRange>
           <ForwardEffectScope>StreetDistance</ForwardEffectScope>
         </EffectForward>
         <CultureUpgrade>
@@ -483,7 +591,7 @@
         </Text>
         <EffectForward>
           <ForwardEffect>658</ForwardEffect>
-          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectRange>44</ForwardEffectRange>
           <ForwardEffectScope>StreetDistance</ForwardEffectScope>
         </EffectForward>
         <CultureUpgrade>
@@ -517,7 +625,7 @@
         </Text>
         <EffectForward>
           <ForwardEffect>135112</ForwardEffect>
-          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectRange>44</ForwardEffectRange>
           <ForwardEffectScope>StreetDistance</ForwardEffectScope>
         </EffectForward>
         <CultureUpgrade>
@@ -546,7 +654,7 @@
         </Text>
         <EffectForward>
           <ForwardEffect>135152</ForwardEffect>
-          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectRange>44</ForwardEffectRange>
           <ForwardEffectScope>StreetDistance</ForwardEffectScope>
         </EffectForward>
         <CultureUpgrade>
@@ -575,7 +683,7 @@
         </Text>
         <EffectForward>
           <ForwardEffect>135151</ForwardEffect>
-          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectRange>44</ForwardEffectRange>
           <ForwardEffectScope>StreetDistance</ForwardEffectScope>
         </EffectForward>
         <CultureUpgrade>
@@ -604,7 +712,7 @@
         </Text>
         <EffectForward>
           <ForwardEffect>135153</ForwardEffect>
-          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectRange>44</ForwardEffectRange>
           <ForwardEffectScope>StreetDistance</ForwardEffectScope>
         </EffectForward>
         <CultureUpgrade>
@@ -633,7 +741,7 @@
         </Text>
         <EffectForward>
           <ForwardEffect>661</ForwardEffect>
-          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectRange>44</ForwardEffectRange>
           <ForwardEffectScope>StreetDistance</ForwardEffectScope>
         </EffectForward>
         <CultureUpgrade>
@@ -667,7 +775,7 @@
         </Text>
         <EffectForward>
           <ForwardEffect>135113</ForwardEffect>
-          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectRange>44</ForwardEffectRange>
           <ForwardEffectScope>StreetDistance</ForwardEffectScope>
         </EffectForward>
         <CultureUpgrade>
@@ -696,7 +804,7 @@
         </Text>
         <EffectForward>
           <ForwardEffect>135199</ForwardEffect>
-          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectRange>44</ForwardEffectRange>
           <ForwardEffectScope>StreetDistance</ForwardEffectScope>
         </EffectForward>
         <CultureUpgrade>
@@ -725,7 +833,7 @@
         </Text>
         <EffectForward>
           <ForwardEffect>135200</ForwardEffect>
-          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectRange>44</ForwardEffectRange>
           <ForwardEffectScope>StreetDistance</ForwardEffectScope>
         </EffectForward>
         <CultureUpgrade>
@@ -754,7 +862,7 @@
         </Text>
         <EffectForward>
           <ForwardEffect>135201</ForwardEffect>
-          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectRange>44</ForwardEffectRange>
           <ForwardEffectScope>StreetDistance</ForwardEffectScope>
         </EffectForward>
         <CultureUpgrade>
@@ -783,7 +891,7 @@
         </Text>
         <EffectForward>
           <ForwardEffect>664</ForwardEffect>
-          <ForwardEffectRange>32</ForwardEffectRange>
+          <ForwardEffectRange>44</ForwardEffectRange>
           <ForwardEffectScope>StreetDistance</ForwardEffectScope>
         </EffectForward>
         <CultureUpgrade>
@@ -795,6 +903,7 @@
 </Group>
 
 <!-- # Effect Container for Department Stores -->
+<!-- Combine both ForwardBuffs (public-service-ghosts + consumption buffs) in an EffectContainer and set the buff properties to be shown in the mall output infotip -->
 <Group>
   <ModOp Type="addNextSibling" GUID="135115">
     <Asset>
@@ -815,7 +924,7 @@
             </Item>
           </Effects>
         </EffectContainer>
-        <!-- For Infotip: -->
+        <!-- Only for Infotip (no other impact here) -->
         <ItemEffect>
           <EffectTargets>
             <Item>
@@ -1025,7 +1134,6 @@
     </Asset>
   </ModOp>
 </Group>
-
 <!-- # Effect Container Furniture Stores -->
 <Group>
   <ModOp Type="addNextSibling" GUID="135115">
@@ -1256,7 +1364,6 @@
     </Asset>
   </ModOp>
 </Group>
-
 <!-- # Effect Container Drug Stores -->
 <Group>
   <ModOp Type="addNextSibling" GUID="135115">
@@ -1492,144 +1599,363 @@
 <Group>
   <ModOp Type="replace" GUID="135103" Path="/Values/BuffFactory/ProductionBuffs">
     <ProductionBuffs>
+      <!-- only the public service mechanic is applied (at 50 %) -->
+      <Item>
+        <ProductivityBuff>2100116223</ProductivityBuff>
+        <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.1</ProductivityThresholdDown>  <!-- when productivity is decreasing, this threshold is used: once 0.5 was reached, service stays active until it falls below 0.1 -->
+      </Item>
+      <!-- only one buff can be active at a time; so this EffectContainer applies the public service mechanic + consumption buffs (at 101 %, electricity is mandatory) -->
       <Item>
         <ProductivityBuff>2100116226</ProductivityBuff>
         <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
-        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+        <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
       </Item>
     </ProductionBuffs>
   </ModOp>
   <ModOp Type="replace" GUID="135187" Path="/Values/BuffFactory/ProductionBuffs">
     <ProductionBuffs>
       <Item>
+        <ProductivityBuff>2100116223</ProductivityBuff>
+        <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+      </Item>
+      <Item>
         <ProductivityBuff>2100116227</ProductivityBuff>
         <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
-        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+        <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
       </Item>
     </ProductionBuffs>
   </ModOp>
   <ModOp Type="replace" GUID="135188" Path="/Values/BuffFactory/ProductionBuffs">
     <ProductionBuffs>
       <Item>
+        <ProductivityBuff>2100116223</ProductivityBuff>
+        <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+      </Item>
+      <Item>
         <ProductivityBuff>2100116228</ProductivityBuff>
         <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
-        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+        <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
       </Item>
     </ProductionBuffs>
   </ModOp>
   <ModOp Type="replace" GUID="135189" Path="/Values/BuffFactory/ProductionBuffs">
     <ProductionBuffs>
       <Item>
+        <ProductivityBuff>2100116223</ProductivityBuff>
+        <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+      </Item>
+      <Item>
         <ProductivityBuff>2100116229</ProductivityBuff>
         <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
-        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+        <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
       </Item>
     </ProductionBuffs>
   </ModOp>
   <ModOp Type="replace" GUID="135190" Path="/Values/BuffFactory/ProductionBuffs">
     <ProductionBuffs>
       <Item>
+        <ProductivityBuff>2100116223</ProductivityBuff>
+        <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+      </Item>
+      <Item>
         <ProductivityBuff>2100116230</ProductivityBuff>
         <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
-        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+        <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
       </Item>
     </ProductionBuffs>
   </ModOp>
   <ModOp Type="replace" GUID="135105" Path="/Values/BuffFactory/ProductionBuffs">
     <ProductionBuffs>
       <Item>
+        <ProductivityBuff>2100116224</ProductivityBuff>
+        <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+      </Item>
+      <Item>
         <ProductivityBuff>2100116231</ProductivityBuff>
         <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
-        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+        <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
       </Item>
     </ProductionBuffs>
   </ModOp>
   <ModOp Type="replace" GUID="135120" Path="/Values/BuffFactory/ProductionBuffs">
     <ProductionBuffs>
       <Item>
+        <ProductivityBuff>2100116224</ProductivityBuff>
+        <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+      </Item>
+      <Item>
         <ProductivityBuff>2100116232</ProductivityBuff>
         <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
-        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+        <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
       </Item>
     </ProductionBuffs>
   </ModOp>
   <ModOp Type="replace" GUID="135121" Path="/Values/BuffFactory/ProductionBuffs">
     <ProductionBuffs>
       <Item>
+        <ProductivityBuff>2100116224</ProductivityBuff>
+        <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+      </Item>
+      <Item>
         <ProductivityBuff>2100116233</ProductivityBuff>
         <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
-        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+        <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
       </Item>
     </ProductionBuffs>
   </ModOp>
   <ModOp Type="replace" GUID="135122" Path="/Values/BuffFactory/ProductionBuffs">
     <ProductionBuffs>
       <Item>
+        <ProductivityBuff>2100116224</ProductivityBuff>
+        <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+      </Item>
+      <Item>
         <ProductivityBuff>2100116234</ProductivityBuff>
         <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
-        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+        <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
       </Item>
     </ProductionBuffs>
   </ModOp>
   <ModOp Type="replace" GUID="135123" Path="/Values/BuffFactory/ProductionBuffs">
     <ProductionBuffs>
       <Item>
+        <ProductivityBuff>2100116224</ProductivityBuff>
+        <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+      </Item>
+      <Item>
         <ProductivityBuff>2100116235</ProductivityBuff>
         <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
-        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+        <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
       </Item>
     </ProductionBuffs>
   </ModOp>
   <ModOp Type="replace" GUID="134631" Path="/Values/BuffFactory/ProductionBuffs">
     <ProductionBuffs>
       <Item>
+        <ProductivityBuff>2100116225</ProductivityBuff>
+        <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+      </Item>
+      <Item>
         <ProductivityBuff>2100116236</ProductivityBuff>
         <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
-        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+        <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
       </Item>
     </ProductionBuffs>
   </ModOp>
   <ModOp Type="replace" GUID="135191" Path="/Values/BuffFactory/ProductionBuffs">
     <ProductionBuffs>
       <Item>
+        <ProductivityBuff>2100116225</ProductivityBuff>
+        <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+      </Item>
+      <Item>
         <ProductivityBuff>2100116237</ProductivityBuff>
         <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
-        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+        <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
       </Item>
     </ProductionBuffs>
   </ModOp>
   <ModOp Type="replace" GUID="135192" Path="/Values/BuffFactory/ProductionBuffs">
     <ProductionBuffs>
       <Item>
+        <ProductivityBuff>2100116225</ProductivityBuff>
+        <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+      </Item>
+      <Item>
         <ProductivityBuff>2100116238</ProductivityBuff>
         <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
-        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+        <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
       </Item>
     </ProductionBuffs>
   </ModOp>
   <ModOp Type="replace" GUID="135193" Path="/Values/BuffFactory/ProductionBuffs">
     <ProductionBuffs>
       <Item>
+        <ProductivityBuff>2100116225</ProductivityBuff>
+        <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+      </Item>
+      <Item>
         <ProductivityBuff>2100116239</ProductivityBuff>
         <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
-        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+        <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
       </Item>
     </ProductionBuffs>
   </ModOp>
   <ModOp Type="replace" GUID="135194" Path="/Values/BuffFactory/ProductionBuffs">
     <ProductionBuffs>
       <Item>
+        <ProductivityBuff>2100116225</ProductivityBuff>
+        <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+        <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+      </Item>
+      <Item>
         <ProductivityBuff>2100116240</ProductivityBuff>
         <ProductivityThresholdUp>1.01</ProductivityThresholdUp>
-        <ProductivityThresholdDown>0.5</ProductivityThresholdDown>
+        <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
       </Item>
     </ProductionBuffs>
   </ModOp>
 </Group>
 
-<!--
+<!-- # New-Horizons compatibility -->
+<Group Condition="#new_horizons">
+  <ModOp Type="add" GUID='2100116226' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+    <Item>
+      <ProvidedNeed>1440004</ProvidedNeed>
+      <AmountInPercent>-15</AmountInPercent>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='2100116228' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+    <Item>
+      <ProvidedNeed>1440232</ProvidedNeed>
+      <AmountInPercent>-10</AmountInPercent>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='2100116227' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+    <Item>
+      <ProvidedNeed>1440206</ProvidedNeed>
+      <AmountInPercent>-15</AmountInPercent>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='2100116229' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+    <Item>
+      <ProvidedNeed>1440232</ProvidedNeed>
+      <AmountInPercent>-5</AmountInPercent>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='2100116230' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+    <Item>
+      <ProvidedNeed>1440007</ProvidedNeed>
+      <AmountInPercent>-10</AmountInPercent>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='2100116231' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+    <Item>
+      <ProvidedNeed>1440007</ProvidedNeed>
+      <AmountInPercent>-15</AmountInPercent>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='2100116232' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+    <Item>
+      <ProvidedNeed>1440007</ProvidedNeed>
+      <AmountInPercent>-15</AmountInPercent>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='2100116233' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+    <Item>
+      <ProvidedNeed>1440232</ProvidedNeed>
+      <AmountInPercent>-10</AmountInPercent>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='2100116234' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+    <Item>
+      <ProvidedNeed>1440004</ProvidedNeed>
+      <AmountInPercent>-10</AmountInPercent>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='2100116235' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+    <Item>
+      <ProvidedNeed>1440206</ProvidedNeed>
+      <AmountInPercent>-15</AmountInPercent>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='2100116236' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+    <Item>
+      <ProvidedNeed>1440004</ProvidedNeed>
+      <AmountInPercent>-15</AmountInPercent>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='2100116237' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+    <Item>
+      <ProvidedNeed>1440232</ProvidedNeed>
+      <AmountInPercent>-15</AmountInPercent>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='2100116238' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+    <Item>
+      <ProvidedNeed>1440206</ProvidedNeed>
+      <AmountInPercent>-15</AmountInPercent>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='2100116239' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+    <Item>
+      <ProvidedNeed>1440007</ProvidedNeed>
+      <AmountInPercent>-10</AmountInPercent>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='2100116240' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+    <Item>
+      <ProvidedNeed>1440004</ProvidedNeed>
+      <AmountInPercent>-5</AmountInPercent>
+    </Item>
+  </ModOp>
+</Group>
+
+<!-- # Remove Mod Trigger -->
+  <!-- Currently not used (empty TriggerActions) -->
+  <!-- SpawnObjects::Delayed_DeleteObjects::Delayed_SetObjectGuid works for one entity only, cause SpawnObjects only spawns at one entity. Multiple <Item> entries spawn randomly. -->
+  <ModOp Type="addNextSibling" GUID="120343">
+    <Asset>
+      <Template>UnlockableAsset</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116242</GUID>
+          <Name>Reset Dummy</Name>
+        </Standard>
+        <Locked>
+          <!-- if mod = active = asset is locked -->
+          <!-- if mod = disabled = asset is unknown = unlocked -> trigger fires -->
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116241</GUID>
+          <Name>Trigger Reset Malls after Remove Mod</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionUnlocked</Template>
+            <Values>
+              <Condition />
+              <ConditionUnlocked>
+                <UnlockNeeded>2100116242</UnlockNeeded>
+              </ConditionUnlocked>
+              <ConditionPropsNegatable />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions />
+          <ResetTrigger>
+            <Template>AutoCreateTrigger</Template>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
 <Group Condition="#jakob_small_malls">
-  <Include File="./assets.small-commercials.include.xml" />
-</Group> -->
+  <Include File="./assets_jakobs_small_malls.include.xml" />
+</Group>
 
 </ModOps>

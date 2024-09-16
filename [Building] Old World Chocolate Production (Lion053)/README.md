@@ -36,11 +36,15 @@ To produce chocolate by an industrial chocolate factory in the Old World you nee
 - When chocolate is unlocked, in the basegame this is at 1.750 investors.
 - Creative mode: From the start.
 
-**Compatibility and Requirements**
-
-- This mod does not require any specific DLC and I´m currently not aware of any mod-incompatibility; especially there´s compatibility with Jakob's "Pescetarians" and Kurila's "Industrialized Low Tier production" / "Cattle needs to be butchered", which both provides alternative ways to produce milk.
-
 **Changelog**
+
+*1.3*
+- "Milk from cattle farm" logic has changed:
+  - You can build more than 4 pastures per cattle farm while holding **SHIFT**. This way you can increase the milk output per cattle farm without spawning another cattle farm and relying on transporters / streets (since milk is teleported into area storage)
+  - To balance this, the cycle time of each pasture has increased.
+  - Additionally each pasture increases the maintenance costs of the cattle farm by 5 farmers and 10 coins.
+- Fixed chewing gum chain when other mods which change this chain are active
+- Add sugar refinery and sugar cane farm into production chain of Donny Bresko's "Old Wiklays Gum" mod
 
 *1.2*
 

@@ -1,5 +1,5 @@
 {
-  "Version": "1.0",
+  "Version": "1.1",
   "ModID": "lion053_downtown",
   "IncompatibleIds": [],
   "ModDependencies": [
@@ -9,7 +9,8 @@
   ],
   "LoadAfterIds": [
     "shared-pools-and-definitions",
-    "HacknerWorkforceRequired"
+    "HacknerWorkforceRequired",
+    "lion053_ow_chapels"
   ],
 
   "Category": {

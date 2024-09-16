@@ -5,12 +5,16 @@
 
 ## Changelog
 
-**V1.4**
+**v1.5**
+
+- Prof Linus Liquicious now also affects "All Breweries"
+
+**v1.4**
 
 - Improves icons for Al Zahir and Montgomery Lincoln (credits to DrD_Avel)
 - Add Chinese translation (credits to hanthe2th)
 
-**V1.3**
+**v1.3**
 
 - fixed: while choosing items for an expedition, the correct fluff texts are shown
 - fixed: 'Lord Coulter McBain' now affects Prime Hunting Cabin (Arctic)

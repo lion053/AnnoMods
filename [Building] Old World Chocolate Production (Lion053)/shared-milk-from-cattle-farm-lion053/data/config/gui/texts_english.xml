@@ -16,7 +16,7 @@
 		</Text>
 		<Text>
 			<GUID>2100118209</GUID>
-			<Text>Provides an area for livestock to graze in. Additionally each pasture produces 1 ton of milk each cycle. Click on a pasture to see its current productivity.</Text>
+			<Text>Provides an area for livestock to graze in. Additionally each pasture produces milk. The more pastures, the more milk is produced but the higher the maintenance.&lt;br/&gt;&lt;br/&gt;[AssetData(2100118248) Text]</Text>
 		</Text>
 		<Text>
 			<!-- FOR TRANSLATION: Search for the Guid 8143 in your language text file; from the result copy only the translated term for 'secondary goods' -->
@@ -66,6 +66,14 @@
 		<Text>
 			<GUID>2100118246</GUID>
 			<Text>Burrito Chain AI</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118247</GUID>
+			<Text>Cattle Pasture Buff</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118248</GUID>
+			<Text>Hold &lt;custom-entity tag="DefaultKey"&gt;&lt;custom-properties KeyText="SHIFT"/&gt;&lt;/custom-entity&gt; while building farm fields to override the farm's module limit.</Text>
 		</Text>
   </ModOp>
 

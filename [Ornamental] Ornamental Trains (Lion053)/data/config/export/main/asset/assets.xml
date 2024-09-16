@@ -33,7 +33,7 @@
         <Standard>
           <GUID>2100115500</GUID>
           <Name>Ornamental Trains</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/narative_item/icon_static_trains.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/lion053/icon_static_trains.png</IconFilename>
         </Standard>
         <ConstructionCategory>
           <BuildingList>
@@ -73,7 +73,6 @@
       </Values>
     </Asset>
   </ModOp>
-  <!-- Assets configuration -->
   <!-- # Freight Trains -->
   <ModOp Type="addNextSibling" GUID="1010360">
     <Asset>
@@ -82,12 +81,13 @@
         <Standard>
           <GUID>2100115501</GUID>
           <Name>Freight Train: Locomotive</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_locomotive.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_locomotive.png</IconFilename>
           <InfoDescription>2100115504</InfoDescription>
         </Standard>
         <Text />
         <Blocking>
-          <HasBuildingBaseTiles>0</HasBuildingBaseTiles> <!-- 1 = no tracks remain after demolishion; however, when changing skins or variations, tracks are removed too -->
+          <HasBuildingBaseTiles>0</HasBuildingBaseTiles>
+          <!-- 1 = no tracks remain after demolishion; however, when changing skins or variations, tracks are removed too -->
         </Blocking>
         <Building>
           <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
@@ -97,28 +97,28 @@
           <SecondPartyRelevant>0</SecondPartyRelevant>
           <VariationIcons>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_locomotive.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_locomotive.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_gas.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_gas.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_box.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_box.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_bricks.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_bricks.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_cars.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_cars.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_coal.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_coal.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_oil.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_oil.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_woodlogs.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_woodlogs.png</IconFilename>
             </Item>
           </VariationIcons>
         </Building>
@@ -162,6 +162,7 @@
             <DefaultSkinCategoryName>23852</DefaultSkinCategoryName>
             <DefaultSkinDescription>23853</DefaultSkinDescription>
             <DefaultSkinName>7312</DefaultSkinName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_locomotive_skin.png</OverrideDefaultIcon>
             <SkinList>
               <Item>
                 <SkinAssetGuid>2100115517</SkinAssetGuid>
@@ -201,7 +202,7 @@
         <Standard>
           <GUID>2100115517</GUID>
           <Name>Steampunk Skin</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc14/icon_tier05_steampunk.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_steampunk_locomotive.png</IconFilename>
         </Standard>
         <Skin>
           <SkinName>35642</SkinName>
@@ -245,33 +246,33 @@
         <Standard>
           <GUID>2100115508</GUID>
           <Name>Gas</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_gas.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_gas.png</IconFilename>
         </Standard>
         <Building>
           <VariationIcons>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_gas.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_gas.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_locomotive.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_locomotive.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_box.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_box.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_bricks.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_bricks.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_cars.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_cars.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_coal.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_coal.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_oil.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_oil.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_woodlogs.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_woodlogs.png</IconFilename>
             </Item>
           </VariationIcons>
         </Building>
@@ -306,6 +307,7 @@
             <DefaultSkinCategoryName>23852</DefaultSkinCategoryName>
             <DefaultSkinDescription>23853</DefaultSkinDescription>
             <DefaultSkinName>7312</DefaultSkinName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_gas_skin.png</OverrideDefaultIcon>
             <SkinList>
               <Item>
                 <SkinAssetGuid>2100115518</SkinAssetGuid>
@@ -321,7 +323,7 @@
         <Standard>
           <GUID>2100115518</GUID>
           <Name>Steampunk Skin</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc14/icon_tier05_steampunk.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_steampunk_gas.png</IconFilename>
         </Standard>
         <Skin>
           <SkinName>35642</SkinName>
@@ -365,33 +367,33 @@
         <Standard>
           <GUID>2100115509</GUID>
           <Name>Box</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_box.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_box.png</IconFilename>
         </Standard>
         <Building>
           <VariationIcons>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_box.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_box.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_gas.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_gas.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_locomotive.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_locomotive.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_bricks.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_bricks.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_cars.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_cars.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_coal.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_coal.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_oil.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_oil.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_woodlogs.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_woodlogs.png</IconFilename>
             </Item>
           </VariationIcons>
         </Building>
@@ -426,6 +428,7 @@
             <DefaultSkinCategoryName>23852</DefaultSkinCategoryName>
             <DefaultSkinDescription>23853</DefaultSkinDescription>
             <DefaultSkinName>7312</DefaultSkinName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_box_skin.png</OverrideDefaultIcon>
             <SkinList>
               <Item>
                 <SkinAssetGuid>2100115519</SkinAssetGuid>
@@ -441,7 +444,7 @@
         <Standard>
           <GUID>2100115519</GUID>
           <Name>Steampunk Skin</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc14/icon_tier05_steampunk.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_steampunk_box.png</IconFilename>
         </Standard>
         <Skin>
           <SkinName>35642</SkinName>
@@ -485,33 +488,33 @@
         <Standard>
           <GUID>2100115510</GUID>
           <Name>Bricks</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_bricks.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_bricks.png</IconFilename>
         </Standard>
         <Building>
           <VariationIcons>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_bricks.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_bricks.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_box.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_box.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_gas.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_gas.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_locomotive.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_locomotive.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_cars.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_cars.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_coal.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_coal.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_oil.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_oil.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_woodlogs.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_woodlogs.png</IconFilename>
             </Item>
           </VariationIcons>
         </Building>
@@ -546,6 +549,7 @@
             <DefaultSkinCategoryName>23852</DefaultSkinCategoryName>
             <DefaultSkinDescription>23853</DefaultSkinDescription>
             <DefaultSkinName>7312</DefaultSkinName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_bricks_skin.png</OverrideDefaultIcon>
             <SkinList>
               <Item>
                 <SkinAssetGuid>2100115520</SkinAssetGuid>
@@ -561,7 +565,7 @@
         <Standard>
           <GUID>2100115520</GUID>
           <Name>Steampunk Skin</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc14/icon_tier05_steampunk.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_steampunk_bricks.png</IconFilename>
         </Standard>
         <Skin>
           <SkinName>35642</SkinName>
@@ -605,33 +609,33 @@
         <Standard>
           <GUID>2100115511</GUID>
           <Name>Cars</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_cars.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_cars.png</IconFilename>
         </Standard>
         <Building>
           <VariationIcons>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_cars.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_cars.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_bricks.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_bricks.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_box.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_box.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_gas.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_gas.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_locomotive.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_locomotive.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_coal.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_coal.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_oil.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_oil.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_woodlogs.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_woodlogs.png</IconFilename>
             </Item>
           </VariationIcons>
         </Building>
@@ -666,6 +670,7 @@
             <DefaultSkinCategoryName>23852</DefaultSkinCategoryName>
             <DefaultSkinDescription>23853</DefaultSkinDescription>
             <DefaultSkinName>7312</DefaultSkinName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_cars_skin.png</OverrideDefaultIcon>
             <SkinList>
               <Item>
                 <SkinAssetGuid>2100115521</SkinAssetGuid>
@@ -681,7 +686,7 @@
         <Standard>
           <GUID>2100115521</GUID>
           <Name>Steampunk Skin</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc14/icon_tier05_steampunk.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_steampunk_cars.png</IconFilename>
         </Standard>
         <Skin>
           <SkinName>35642</SkinName>
@@ -725,33 +730,33 @@
         <Standard>
           <GUID>2100115512</GUID>
           <Name>Coal</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_coal.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_coal.png</IconFilename>
         </Standard>
         <Building>
           <VariationIcons>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_coal.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_coal.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_cars.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_cars.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_bricks.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_bricks.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_box.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_box.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_gas.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_gas.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_locomotive.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_locomotive.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_oil.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_oil.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_woodlogs.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_woodlogs.png</IconFilename>
             </Item>
           </VariationIcons>
         </Building>
@@ -786,6 +791,7 @@
             <DefaultSkinCategoryName>23852</DefaultSkinCategoryName>
             <DefaultSkinDescription>23853</DefaultSkinDescription>
             <DefaultSkinName>7312</DefaultSkinName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_coal_skin.png</OverrideDefaultIcon>
             <SkinList>
               <Item>
                 <SkinAssetGuid>2100115522</SkinAssetGuid>
@@ -801,7 +807,7 @@
         <Standard>
           <GUID>2100115522</GUID>
           <Name>Steampunk Skin</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc14/icon_tier05_steampunk.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_steampunk_coal.png</IconFilename>
         </Standard>
         <Skin>
           <SkinName>35642</SkinName>
@@ -845,33 +851,34 @@
         <Standard>
           <GUID>2100115513</GUID>
           <Name>Oil</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_oil.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_oil.png</IconFilename>
+          <InfoDescription>2100115528</InfoDescription>
         </Standard>
         <Building>
           <VariationIcons>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_oil.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_oil.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_coal.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_coal.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_cars.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_cars.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_bricks.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_bricks.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_box.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_box.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_gas.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_gas.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_locomotive.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_locomotive.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_woodlogs.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_woodlogs.png</IconFilename>
             </Item>
           </VariationIcons>
         </Building>
@@ -906,6 +913,7 @@
             <DefaultSkinCategoryName>23852</DefaultSkinCategoryName>
             <DefaultSkinDescription>23853</DefaultSkinDescription>
             <DefaultSkinName>7312</DefaultSkinName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_oil_skin.png</OverrideDefaultIcon>
             <SkinList>
               <Item>
                 <SkinAssetGuid>2100115523</SkinAssetGuid>
@@ -913,6 +921,49 @@
             </SkinList>
           </Skins>
         </Object>
+        <BuffFactory>
+          <BaseBuff>2100115527</BaseBuff>
+        </BuffFactory>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <HasRuinState>1</HasRuinState>
+          <MaximumHitPoints>1500</MaximumHitPoints>
+        </Attackable>
+        <IncidentInfectable>
+          <Explosion>
+            <DamageExplosionChance>60</DamageExplosionChance>
+            <!-- % chance that this asset explodes when getting damage -->
+            <ExplosionCoreDamage>1500</ExplosionCoreDamage>
+            <!-- damage this asset does to other assets in its core radius (which is always the asset itself) -->
+            <ExplosionOuterDamagePercentage>25</ExplosionOuterDamagePercentage>
+            <!-- damage this asset does to other assets in the outer radius (in % of core damage) -->
+            <ExplosionOuterRadius>2</ExplosionOuterRadius>
+            <!-- outer radius -->
+          </Explosion>
+          <IncidentExplosionIncreaseBase>100</IncidentExplosionIncreaseBase>
+          <Infectable>
+            <Explosion>
+              <Base>1</Base>
+              <Escalated>1</Escalated>
+              <Communication>ExplosionDefault</Communication>
+            </Explosion>
+            <Fire>
+              <Base>1</Base>
+              <Escalated>1</Escalated>
+            </Fire>
+          </Infectable>
+          <IncidentInfectionChanceFactors>
+            <Explosion>
+              <BaseChance>8</BaseChance>
+              <HitpointFactor>0.4</HitpointFactor>
+            </Explosion>
+            <Fire>
+              <DensityFactor>0.025</DensityFactor>
+              <BaseChance>4</BaseChance>
+              <HitpointFactor>0.4</HitpointFactor>
+            </Fire>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
       </Values>
     </Asset>
     <Asset>
@@ -921,7 +972,7 @@
         <Standard>
           <GUID>2100115523</GUID>
           <Name>Steampunk Skin</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc14/icon_tier05_steampunk.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_steampunk_oil.png</IconFilename>
         </Standard>
         <Skin>
           <SkinName>35642</SkinName>
@@ -965,33 +1016,33 @@
         <Standard>
           <GUID>2100115514</GUID>
           <Name>Woodlogs</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_woodlogs.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_woodlogs.png</IconFilename>
         </Standard>
         <Building>
           <VariationIcons>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_woodlogs.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_woodlogs.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_oil.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_oil.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_coal.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_coal.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_cars.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_cars.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_bricks.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_bricks.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_box.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_box.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_gas.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_gas.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_freighttrain_locomotive.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_locomotive.png</IconFilename>
             </Item>
           </VariationIcons>
         </Building>
@@ -1026,6 +1077,7 @@
             <DefaultSkinCategoryName>23852</DefaultSkinCategoryName>
             <DefaultSkinDescription>23853</DefaultSkinDescription>
             <DefaultSkinName>7312</DefaultSkinName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_freighttrain_woodlogs_skin.png</OverrideDefaultIcon>
             <SkinList>
               <Item>
                 <SkinAssetGuid>2100115524</SkinAssetGuid>
@@ -1041,7 +1093,7 @@
         <Standard>
           <GUID>2100115524</GUID>
           <Name>Steampunk Skin</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc14/icon_tier05_steampunk.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_steampunk_woodlogs.png</IconFilename>
         </Standard>
         <Skin>
           <SkinName>35642</SkinName>
@@ -1088,7 +1140,7 @@
         <Standard>
           <GUID>2100115502</GUID>
           <Name>Subways</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_subway_car_01.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_car_01.png</IconFilename>
           <InfoDescription>2100115506</InfoDescription>
         </Standard>
         <Text />
@@ -1101,10 +1153,10 @@
           <SecondPartyRelevant>0</SecondPartyRelevant>
           <VariationIcons>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_subway_car_01.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_car_01.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_subway_car_02.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_car_02.png</IconFilename>
             </Item>
           </VariationIcons>
         </Building>
@@ -1130,6 +1182,7 @@
             <DefaultSkinCategoryName>23852</DefaultSkinCategoryName>
             <DefaultSkinDescription>23853</DefaultSkinDescription>
             <DefaultSkinName>7312</DefaultSkinName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_subway_01_skin.png</OverrideDefaultIcon>
             <SkinList>
               <Item>
                 <SkinAssetGuid>2100115525</SkinAssetGuid>
@@ -1166,7 +1219,7 @@
         <Standard>
           <GUID>2100115525</GUID>
           <Name>Steampunk Skin</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc14/icon_tier05_steampunk.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_steampunk_subway.png</IconFilename>
         </Standard>
         <Skin>
           <SkinName>35642</SkinName>
@@ -1192,15 +1245,15 @@
         <Standard>
           <GUID>2100115515</GUID>
           <Name>Subway_02</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_subway_car_02.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_car_02.png</IconFilename>
         </Standard>
         <Building>
           <VariationIcons>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_subway_car_02.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_car_02.png</IconFilename>
             </Item>
             <Item>
-              <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_subway_car_01.png</IconFilename>
+              <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_subway_car_01.png</IconFilename>
             </Item>
           </VariationIcons>
         </Building>
@@ -1217,6 +1270,7 @@
             <DefaultSkinCategoryName>23852</DefaultSkinCategoryName>
             <DefaultSkinDescription>23853</DefaultSkinDescription>
             <DefaultSkinName>7312</DefaultSkinName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_subway_01_skin.png</OverrideDefaultIcon>
             <SkinList>
               <Item>
                 <SkinAssetGuid>2100115526</SkinAssetGuid>
@@ -1232,7 +1286,7 @@
         <Standard>
           <GUID>2100115526</GUID>
           <Name>Steampunk Skin</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc14/icon_tier05_steampunk.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_steampunk_subway.png</IconFilename>
         </Standard>
         <Skin>
           <SkinName>35642</SkinName>
@@ -1253,7 +1307,7 @@
       </Values>
     </Asset>
   </ModOp>
-  <!-- # Freight Train Buff -->
+  <!-- # Freight Train Buffs -->
   <ModOp Type="addNextSibling" GUID="269979">
     <Asset>
       <Template>TownhallBuff</Template>
@@ -1261,7 +1315,7 @@
         <Standard>
           <GUID>2100115505</GUID>
           <Name>Freight Train Storage Buff</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_static_trains.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_static_trains.png</IconFilename>
         </Standard>
         <ItemEffect>
           <EffectTargets>
@@ -1313,6 +1367,13 @@
             <Item>
               <GUID>1500010888</GUID>
             </Item>
+            <!-- Serps Depot Land -->
+            <Item>
+              <GUID>1500001001</GUID>
+            </Item>
+            <Item>
+              <GUID>1500001002</GUID>
+            </Item>
           </EffectTargets>
           <AllowStacking>1</AllowStacking>
         </ItemEffect>
@@ -1327,7 +1388,134 @@
         </CultureUpgrade>
         <InfluenceSourceUpgrade />
         <WarehouseUpgrade>
-          <StorageCapacityModifier>5</StorageCapacityModifier>
+          <StorageCapacityModifier>20</StorageCapacityModifier>
+        </WarehouseUpgrade>
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+        <FactoryUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TownhallBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100115527</GUID>
+          <Name>Freight Train Storage + Oil Buff</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_static_trains.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>100784</GUID>
+            </Item>
+            <Item>
+              <GUID>100783</GUID>
+            </Item>
+            <Item>
+              <GUID>101403</GUID>
+            </Item>
+            <Item>
+              <GUID>101404</GUID>
+            </Item>
+            <Item>
+              <GUID>119259</GUID>
+            </Item>
+            <Item>
+              <GUID>101329</GUID>
+            </Item>
+            <Item>
+              <GUID>101405</GUID>
+            </Item>
+            <Item>
+              <GUID>101406</GUID>
+            </Item>
+            <Item>
+              <GUID>119281</GUID>
+            </Item>
+            <Item>
+              <GUID>1010371</GUID>
+            </Item>
+            <Item>
+              <GUID>100516</GUID>
+            </Item>
+            <Item>
+              <GUID>100517</GUID>
+            </Item>
+            <Item>
+              <GUID>269869</GUID>
+            </Item>
+            <Item>
+              <GUID>101323</GUID>
+            </Item>
+            <Item>
+              <GUID>101324</GUID>
+            </Item>
+            <Item>
+              <GUID>101325</GUID>
+            </Item>
+            <Item>
+              <GUID>24775</GUID>
+            </Item>
+            <Item>
+              <GUID>902296</GUID>
+            </Item>
+            <Item>
+              <GUID>902297</GUID>
+            </Item>
+            <Item>
+              <GUID>902298</GUID>
+            </Item>
+            <Item>
+              <GUID>902299</GUID>
+            </Item>
+            <Item>
+              <GUID>901004</GUID>
+            </Item>
+            <Item>
+              <GUID>901005</GUID>
+            </Item>
+            <Item>
+              <GUID>2100115033</GUID>
+            </Item>
+            <Item>
+              <GUID>1500010888</GUID>
+            </Item>
+            <!-- Khobs Land Oil Depot -->
+            <Item>
+              <GUID>2143505006</GUID>
+            </Item>
+            <Item>
+              <GUID>2143505007</GUID>
+            </Item>
+            <!-- Ac3s Huge Oil Depot -->
+            <Item>
+              <GUID>1337473011</GUID>
+            </Item>
+            <Item>
+              <GUID>1337473012</GUID>
+            </Item>
+            <!-- Serps Depot Land -->
+            <Item>
+              <GUID>1500001001</GUID>
+            </Item>
+            <Item>
+              <GUID>1500001002</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>1</AllowStacking>
+        </ItemEffect>
+        <Text />
+        <BuildingUpgrade />
+        <Buff />
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <InfluenceSourceUpgrade />
+        <WarehouseUpgrade>
+          <StorageCapacityModifier>20</StorageCapacityModifier>
         </WarehouseUpgrade>
         <DistributionUpgrade />
         <ItemContainerUpgrade />
@@ -1335,9 +1523,12 @@
       </Values>
     </Asset>
   </ModOp>
-  <!-- # Imya Tweak -->
+  <!-- # Imya Tweaks -->
   <ModOp Type="replace" GUID="2100115505" Path="/Values/WarehouseUpgrade/StorageCapacityModifier" ModOpID="StorageModifier" Skip="1">
-    <StorageCapacityModifier>5</StorageCapacityModifier>
+    <StorageCapacityModifier>20</StorageCapacityModifier>
+  </ModOp>
+  <ModOp Type="replace" GUID="2100115505" Path="/Values/WarehouseUpgrade/StorageCapacityModifier" ModOpID="StorageModifier_oil" Skip="1">
+    <StorageCapacityModifier>20</StorageCapacityModifier>
   </ModOp>
   <ModOp Type="replace" GUID="2100115501" Path="/Values/BuffFactory/BaseBuffDistance" ModOpID="BuffDistance" Skip="1">
     <BaseBuffDistance>8</BaseBuffDistance>
@@ -1346,7 +1537,10 @@
   <ImyaExpose Path="self::StorageCapacityModifier" ModOpID="StorageModifier" ExposeID="Storage Capacity" Description="The storage capacity each freight train adds to nearby warehouses" Kind="Slider">
     <SliderDefinition Min="0" Max="50" Stepping="5" />
   </ImyaExpose>
-  <ImyaExpose Path="self::BaseBuffDistance" ModOpID="BuffDistance" ExposeID="Range" Description="The range within freight trains incluence warehouses" Kind="Slider">
+  <ImyaExpose Path="self::StorageCapacityModifier" ModOpID="StorageModifier_oil" ExposeID="Storage Capacity Oil" Description="The storage capacity each oil freight train adds to nearby warehouses and oil-harbours / depots" Kind="Slider">
+    <SliderDefinition Min="0" Max="50" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::BaseBuffDistance" ModOpID="BuffDistance" ExposeID="Range" Description="The range within freight trains influence those buildings" Kind="Slider">
     <SliderDefinition Min="0" Max="16" Stepping="1" />
   </ImyaExpose>
   <!-- # Unlock -->
@@ -1357,7 +1551,7 @@
         <Standard>
           <GUID>2100115516</GUID>
           <Name>Static Trains Unlock</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\narative_item\icon_static_trains.png</IconFilename>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_static_trains.png</IconFilename>
         </Standard>
         <Trigger>
           <TriggerCondition>
@@ -1416,64 +1610,6 @@
           </TriggerActions>
         </Trigger>
         <TriggerSetup />
-      </Values>
-    </Asset>
-
-    <!-- Update info text pop-up -->
-    <Asset>
-      <Template>Trigger</Template>
-      <Values>
-        <Standard>
-          <GUID>2100115527</GUID>
-          <Name>Update info text pop-up</Name>
-        </Standard>
-        <Trigger>
-          <TriggerCondition>
-            <Template>ConditionAlwaysTrue</Template>
-            <Values>
-              <Condition />
-              <ConditionAlwaysTrue />
-            </Values>
-          </TriggerCondition>
-          <TriggerActions>
-            <Item>
-              <TriggerAction>
-                <Template>ActionTriggerTextPopup</Template>
-                <Values>
-                  <ActionTriggerTextPopup>
-                    <PopupText>2100115528</PopupText>
-                    <TextPopupLayout>LetterQuest</TextPopupLayout>
-                  </ActionTriggerTextPopup>
-                  <Action />
-                </Values>
-              </TriggerAction>
-            </Item>
-          </TriggerActions>
-          <ResetTrigger>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <EmptyAutoCreateValue />
-            </Values>
-          </ResetTrigger>
-        </Trigger>
-        <TriggerSetup />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Text</Template>
-      <Values>
-        <Standard>
-          <GUID>2100115528</GUID>
-          <Name>Update info text pop-up</Name>
-        </Standard>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>&lt;font size="32"&gt;&lt;b &gt;Ornamental Trains (Lion053)&lt;/b &gt;&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;&lt;b &gt;Changelog v1.4&lt;/b &gt; &lt;br/&gt;&lt;br/&gt;- Add a steampunk skin for all trains. Use the skin painter tool from your tool bar or select any ornamental train and choose the skin in the UI.&lt;br/&gt;&lt;br/&gt;- Reduced vertex count of barely visible mesh parts&lt;br/&gt;&lt;br/&gt;- Add Chinese translation, thanks to hanthe2th!</Text>
-              <Status>Exported</Status>
-            </English>
-          </LocaText>
-        </Text>
       </Values>
     </Asset>
   </ModOp>

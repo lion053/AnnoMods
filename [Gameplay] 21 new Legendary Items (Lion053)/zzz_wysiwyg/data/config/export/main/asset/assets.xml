@@ -1,0 +1,218 @@
+<ModOps>
+
+  <!-- # Add new Ironbrights Torpedo (Projectile and Item)-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>ExplodingProjectile</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119200</GUID>
+          <Name>TorpedoProjectile_D</Name>
+        </Standard>
+        <Projectile>
+          <ShotHeight>0.5</ShotHeight>
+          <ProjectileSpeed>4.5</ProjectileSpeed>
+          <DamageType>Torpedo</DamageType>
+        </Projectile>
+        <Mesh />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/effects/military/projectiles/projectile_torpedo_02.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Exploder>
+          <InnerDamageRadius>4</InnerDamageRadius>
+          <InnerDamage>7000</InnerDamage>
+          <DebrisForceY>0</DebrisForceY>
+          <DebrisCount>0</DebrisCount>
+          <OuterDamageRadius>6</OuterDamageRadius>
+          <MinimumDamage>5000</MinimumDamage>
+        </Exploder>
+        <SoundEmitter>
+          <ProjectileSounds>
+            <ProjectileLaunch>
+              <Item>
+                <Sound>235861</Sound>
+              </Item>
+            </ProjectileLaunch>
+            <ProjectileImpact>
+              <Item>
+                <Sound>235860</Sound>
+              </Item>
+            </ProjectileImpact>
+          </ProjectileSounds>
+        </SoundEmitter>
+        <UpgradeList />
+        <ProjectileIncident />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ItemSpecialAction</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119201</GUID>
+          <Name>Ironbrights Torpedo</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/Ironbrights_Torpedo_1.png</IconFilename>
+          <InfoDescription>2100119181</InfoDescription>
+        </Standard>
+        <SpecialAction>
+          <MouseEffect>140112</MouseEffect>
+          <Projectile>2100119200</Projectile>
+        </SpecialAction>
+        <ItemEffect />
+        <ItemAction>
+          <ActionTarget>501575</ActionTarget>
+          <ActionDistance>180</ActionDistance>
+          <IsDestroyedAfterCooldown>1</IsDestroyedAfterCooldown>
+          <Charges>3</Charges>
+          <ActionDuration>1000</ActionDuration>
+          <ActiveBuff>193240</ActiveBuff>
+          <ActionDescription>22097</ActionDescription>
+          <CanEndItemAction>0</CanEndItemAction>
+          <StopMovementOnInteraction>0</StopMovementOnInteraction>
+        </ItemAction>
+        <Item>
+          <Allocation>Warship</Allocation>
+          <MaxStackSize>5</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <HasAction>1</HasAction>
+          <TradePrice>100000</TradePrice>
+        </Item>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Might</Attribute>
+              <Amount>20</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Average;Hard</ItemDifficulties>
+          <FluffText>2100119181</FluffText>
+        </ExpeditionAttribute>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <CraftableItem />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Item Saint of the Death-->
+  <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+      <Template>VehicleItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119209</GUID>
+          <Name>Saint of the Death</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/Saint_of_the_Death_0.png</IconFilename>
+          <InfoDescription>2100119189</InfoDescription>
+        </Standard>
+        <Item>
+          <Allocation>Warship</Allocation>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ExclusiveGroup>Canons</ExclusiveGroup>
+          <TradePrice>1666666</TradePrice>
+        </Item>
+        <Cost />
+        <VehicleUpgrade />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Might</Attribute>
+              <Amount>100</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2100119189</FluffText>
+        </ExpeditionAttribute>
+        <AttackerUpgrade>
+          <BaseDamageUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </BaseDamageUpgrade>
+          <AttackRangeUpgrade>
+            <Value>30</Value>
+            <Percental>1</Percental>
+          </AttackRangeUpgrade>
+          <ReloadTimeUpgrade>
+            <Value>-90</Value>
+            <Percental>1</Percental>
+          </ReloadTimeUpgrade>
+          <AttackSpeedUpgrade>400</AttackSpeedUpgrade>
+        </AttackerUpgrade>
+        <AttackableUpgrade />
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <TradeShipUpgrade />
+        <CraftableItem />
+        <DivingBellUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Add new Items to new Consumables-Itempool-->
+  <ModOp Type="add" GUID="2100119161" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>2100119201</ItemLink>
+    </Item>
+    <Item>
+      <ItemLink>2100119209</ItemLink>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="130172" Path="/Values/AssetPool/AssetList">    
+    <Item>
+      <Asset>2100119201</Asset>
+    </Item>    
+    <Item>
+      <Asset>2100119209</Asset>
+    </Item>    
+  </ModOp>
+
+  <!-- # Reset Trigger for new Items; 130218 includes 130172 which includes the items-->
+  <ModOp Type="addNextSibling" GUID="130218">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119154</GUID>
+          <Name>Rerun TriggerItems Intermediate moderate 3.2</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000002</Context>
+                <CounterAmount>500</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionRegisterTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionRegisterTrigger>
+                    <TriggerAsset>130218</TriggerAsset>
+                  </ActionRegisterTrigger>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
+</ModOps>

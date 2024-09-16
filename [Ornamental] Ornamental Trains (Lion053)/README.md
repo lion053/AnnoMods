@@ -23,7 +23,8 @@ This mod adds eight ornamental freight train variations and two subway train car
 
 **Storage capacity:**
 
-- Freight trains increase the storage capacity of nearby warehouses (vanilla & spice) by 5t each. Radius is 8 tiles.
+- Freight trains increase the storage capacity of nearby warehouses (vanilla & spice) by 20 tons each. Radius is 8 tiles.
+- Additionally oil freight trains increase the storage capacity of nearby oil-harbours and oil-depots by 20 tons. Radius is 8 tiles.
 
 **Menu Location:**
 
@@ -38,6 +39,14 @@ Available in the Old and New World:
 - You can adjust the radius within each train influences a warehouse from 0 to 16 tiles (default 8)
 
 ## Changelog
+
+### 1.5
+
+- Oil freight trains now also increase the storage capacity of nearby oil-harbours and oil-depots
+- Oil freight trains can explode now
+- Storage capacity buff of all freight trains has been set to 20 tons per train
+- Storage capacity buff now also affects Serp's "Land Depot", Khob's "Land Oil Harbour" and Ac3s' "Huge Oil Depot"
+- Reworked / added skin icons for all trains
 
 ### 1.4
 

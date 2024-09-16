@@ -1,6 +1,6 @@
 <ModOps>
 
-  <!-- Downtown v1.0 -->
+  <!-- Downtown v1.1 -->
 
   <Include File="./assets-hotel-needs.include.xml" />
 
@@ -28,6 +28,9 @@
             <Item>
               <Building>2100116128</Building>
               <!-- replacement -->
+            </Item>
+            <Item>
+              <Building>2100116257</Building>
             </Item>
             <Item>
               <Building>2100116113</Building>
@@ -173,6 +176,9 @@
     <Item>
       <Building>2100116191</Building>
     </Item>
+    <Item>
+      <Building>2100116257</Building>
+    </Item>
   </ModOp>
 
 <!-- # Effect Pools -->
@@ -184,7 +190,7 @@
       <GUID>2100116191</GUID>
     </Item>
   </ModOp>
-  <ModOp Type="add" GUID="269461" Path="/Values/ItemEffect/EffectTargets">
+  <ModOp Type="add" GUID="269461" Path="/Values/ItemEffect/EffectTargets"> <!-- not covered by shared pools, since only ow-markets should be listed in the palace buff -->
     <Item>
       <GUID>2100116191</GUID>
     </Item>
@@ -193,6 +199,12 @@
   <ModOp Type="add" GUID="190136,191501,190782,193868,192418,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
     <Item>
       <GUID>2100116141</GUID>
+    </Item>
+  </ModOp>
+  <!-- Church -->
+  <ModOp Type="add" GUID="190136,191501,190784,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>2100116257</GUID>
     </Item>
   </ModOp>
   <!-- School -->
@@ -315,6 +327,9 @@
       <Asset>2100116141</Asset>
     </Item>
     <Item>
+      <Asset>2100116257</Asset>
+    </Item>
+    <Item>
       <Asset>2100116109</Asset>
     </Item>
     <Item>
@@ -417,6 +432,9 @@
     </Item>
     <Item>
       <Building>2100116141</Building>
+    </Item>
+    <Item>
+      <Building>2100116257</Building>
     </Item>
     <Item>
       <Building>2100116159</Building>
@@ -930,7 +948,7 @@
           <TextOverride>1010358</TextOverride>
         </Text>
         <PublicService>
-          <FullSatisfactionDistance>19</FullSatisfactionDistance>
+          <FullSatisfactionDistance>24</FullSatisfactionDistance>
           <NoSatisfactionDistance>38</NoSatisfactionDistance>
           <PublicServiceOutputs>
             <Item>
@@ -1024,6 +1042,201 @@
     </Asset>
   </ModOp>
 
+  <!-- # Church -->
+  <ModOp Type="addNextSibling" GUID="1010359">
+    <Asset>
+      <BaseAssetGUID>1010359</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>2100116257</GUID>
+          <Name>Small Church</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_church_menu.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>0</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking>
+          <AdditionalBlockRectSize>5</AdditionalBlockRectSize>
+          <DeletePropsRadius>5</DeletePropsRadius>
+        </Blocking>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>20</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\mod_buildings\lion053\downtown\small_church_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>2100116293</DefaultSkinName>
+            <DefaultSkinDescription>5241</DefaultSkinDescription>
+            <DefaultSkinCategoryName>2100116292</DefaultSkinCategoryName>
+            <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\lion053\icon_small_church_01.png</OverrideDefaultIcon>
+            <SkinList>
+              <Item>
+                <SkinAssetGuid>2100116258</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116259</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116290</SkinAssetGuid>
+              </Item>
+              <Item>
+                <SkinAssetGuid>2100116291</SkinAssetGuid>
+              </Item>
+            </SkinList>
+          </Skins>
+        </Object>
+        <Text>
+          <TextOverride>1010359</TextOverride>
+        </Text>
+        <Locked />
+        <PublicService>
+          <FullSatisfactionDistance>35</FullSatisfactionDistance>
+          <NoSatisfactionDistance>45</NoSatisfactionDistance>
+          <PublicServiceOutputs>
+            <Item>
+              <Product>1010350</Product>
+            </Item>
+          </PublicServiceOutputs>
+        </PublicService>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>250</Amount>
+              <InactiveAmount>125</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <MusicInfluencer>
+          <RelevantSkinGUIDs />
+        </MusicInfluencer>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116258</GUID>
+          <Name>Small Church M Green Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_church_02.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100116258</SkinName>
+          <SkinDescription>5241</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_church_02.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116292</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116259</GUID>
+          <Name>Small Church M Red Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_church_03.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100116259</SkinName>
+          <SkinDescription>5241</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_church_03.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116292</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116290</GUID>
+          <Name>Small Church E Yellow Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_church_04.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100116290</SkinName>
+          <SkinDescription>6976</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_church_04.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116292</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116291</GUID>
+          <Name>Small Church E White Skin</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\lion053\icon_small_church_05.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100116291</SkinName>
+          <SkinDescription>6922</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\mod_buildings\lion053\downtown\small_church_05.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinCategoryDescription>2100116292</SkinCategoryDescription>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
   <!-- # School -->
   <ModOp Type="addNextSibling" GUID="1010360">
     <Asset>
@@ -1095,7 +1308,7 @@
           <NightBehavior>HideAll</NightBehavior>
         </FeedbackController>
         <PublicService>
-          <FullSatisfactionDistance>22</FullSatisfactionDistance> <!-- + 3 for basic need -->
+          <FullSatisfactionDistance>30</FullSatisfactionDistance>
           <NoSatisfactionDistance>36</NoSatisfactionDistance>
           <PublicServiceOutputs>
             <Item>
@@ -1223,7 +1436,7 @@
           </Skins>
         </Object>
         <PublicService>
-          <FullSatisfactionDistance>23</FullSatisfactionDistance> <!-- + 4 for basic need -->
+          <FullSatisfactionDistance>25</FullSatisfactionDistance>
           <NoSatisfactionDistance>36</NoSatisfactionDistance>
           <PublicServiceOutputs>
             <Item>
@@ -1303,7 +1516,7 @@
           </Skins>
         </Object>
         <PublicService>
-          <FullSatisfactionDistance>20</FullSatisfactionDistance>
+          <FullSatisfactionDistance>30</FullSatisfactionDistance>
           <NoSatisfactionDistance>36</NoSatisfactionDistance>
           <PublicServiceOutputs>
             <Item>
@@ -1389,7 +1602,7 @@
         </Text>
         <Locked />
         <PublicService>
-          <FullSatisfactionDistance>18</FullSatisfactionDistance>
+          <FullSatisfactionDistance>24</FullSatisfactionDistance>
           <NoSatisfactionDistance>30</NoSatisfactionDistance>
           <PublicServiceOutputs>
             <Item>
@@ -3148,7 +3361,7 @@
                     <UnhideAssets>
                       <Item>
                         <Asset>2100116115</Asset>
-                      </Item>
+                      </Item>                      
                     </UnhideAssets>
                   </ActionUnlockAsset>
                 </Values>
@@ -3213,7 +3426,7 @@
                     <UnhideAssets>
                       <Item>
                         <Asset>2100116112</Asset>
-                      </Item>
+                      </Item>                      
                     </UnhideAssets>
                   </ActionUnlockAsset>
                 </Values>
@@ -3242,6 +3455,46 @@
               </SubTrigger>
             </Item>
           </SubTriggers>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116295</GUID>
+          <Name>Unhide Menu V (church)</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>500</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2100116257</Asset>
+                      </Item>
+                    </UnhideAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
         </Trigger>
         <TriggerSetup />
       </Values>
@@ -3291,6 +3544,46 @@
                       </Item>
                       <Item>
                         <Asset>2100116191</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116296</GUID>
+          <Name>Unlock_01_Regular_church</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>1000</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116257</Asset>
                       </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
@@ -3519,7 +3812,7 @@
         </Standard>
         <Trigger>
           <!-- Force check for IsDLCActive when game has completed loading, not only before and during the dlc-activation window. -->
-          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->
+          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->          
           <TriggerCondition>
             <Template>ConditionPlayerCounter</Template>
             <Values>
@@ -3578,7 +3871,7 @@
                           <ActiveRegion>5000000</ActiveRegion>
                         </ConditionActiveRegion>
                       </Values>
-                    </TriggerCondition>
+                    </TriggerCondition>                  
                   </Trigger>
                 </Values>
               </SubTrigger>
@@ -3597,7 +3890,7 @@
         </Standard>
         <Trigger>
           <!-- Force check for IsDLCActive when game has completed loading, not only before and during the dlc-activation window. -->
-          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->
+          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->          
           <TriggerCondition>
             <Template>ConditionPlayerCounter</Template>
             <Values>
@@ -3796,7 +4089,7 @@
         </Standard>
         <Trigger>
           <!-- Force check for IsDLCActive when game has completed loading, not only before and during the dlc-activation window. -->
-          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->
+          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->          
           <TriggerCondition>
             <Template>ConditionPlayerCounter</Template>
             <Values>
@@ -3855,7 +4148,7 @@
                           <ActiveRegion>5000000</ActiveRegion>
                         </ConditionActiveRegion>
                       </Values>
-                    </TriggerCondition>
+                    </TriggerCondition>                  
                   </Trigger>
                 </Values>
               </SubTrigger>
@@ -3874,7 +4167,7 @@
         </Standard>
         <Trigger>
           <!-- Force check for IsDLCActive when game has completed loading, not only before and during the dlc-activation window. -->
-          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->
+          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->          
           <TriggerCondition>
             <Template>ConditionPlayerCounter</Template>
             <Values>
@@ -4059,7 +4352,7 @@
         </Standard>
         <Trigger>
           <!-- Force check for IsDLCActive when game has completed loading, not only before and during the dlc-activation window. -->
-          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->
+          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->          
           <TriggerCondition>
             <Template>ConditionPlayerCounter</Template>
             <Values>
@@ -4118,7 +4411,7 @@
                           <ActiveRegion>5000000</ActiveRegion>
                         </ConditionActiveRegion>
                       </Values>
-                    </TriggerCondition>
+                    </TriggerCondition>                  
                   </Trigger>
                 </Values>
               </SubTrigger>
@@ -4137,7 +4430,7 @@
         </Standard>
         <Trigger>
           <!-- Force check for IsDLCActive when game has completed loading, not only before and during the dlc-activation window. -->
-          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->
+          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->          
           <TriggerCondition>
             <Template>ConditionPlayerCounter</Template>
             <Values>
@@ -4501,7 +4794,7 @@
         </Standard>
         <Trigger>
           <!-- Force check for IsDLCActive when game has completed loading, not only before and during the dlc-activation window. -->
-          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->
+          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->          
           <TriggerCondition>
             <Values>
               <ConditionPropsNegatable />
@@ -4557,7 +4850,7 @@
                           <ActiveRegion>5000000</ActiveRegion>
                         </ConditionActiveRegion>
                       </Values>
-                    </TriggerCondition>
+                    </TriggerCondition>                  
                   </Trigger>
                 </Values>
               </SubTrigger>
@@ -4725,7 +5018,7 @@
         </Standard>
         <Trigger>
           <!-- Force check for IsDLCActive when game has completed loading, not only before and during the dlc-activation window. -->
-          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->
+          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->          
           <TriggerCondition>
             <Values>
               <ConditionPropsNegatable />
@@ -4781,7 +5074,7 @@
                           <ActiveRegion>5000000</ActiveRegion>
                         </ConditionActiveRegion>
                       </Values>
-                    </TriggerCondition>
+                    </TriggerCondition>                  
                   </Trigger>
                 </Values>
               </SubTrigger>
@@ -4955,7 +5248,7 @@
         </Standard>
         <Trigger>
           <!-- Force check for IsDLCActive when game has completed loading, not only before and during the dlc-activation window. -->
-          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->
+          <!-- otherwise before player activates dlc: IsDLCactive = 0; after player activates it, IsDLCactive = 1; resulting in both triggers being executed = bad -->          
           <TriggerCondition>
             <Values>
               <ConditionPropsNegatable />
@@ -5011,7 +5304,7 @@
                           <ActiveRegion>5000000</ActiveRegion>
                         </ConditionActiveRegion>
                       </Values>
-                    </TriggerCondition>
+                    </TriggerCondition>                  
                   </Trigger>
                 </Values>
               </SubTrigger>
@@ -5318,6 +5611,43 @@
         <TriggerSetup />
       </Values>
     </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116297</GUID>
+          <Name>Unlock Creative Mode (church)</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Values>
+              <ConditionPropsNegatable />
+              <Condition />
+              <ConditionIsCreativeMode />
+            </Values>
+            <Template>ConditionIsCreativeMode</Template>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2100116257</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
   </ModOp>
 </Group>
 
@@ -5357,6 +5687,41 @@
     <Item>
       <Product>1010116</Product>
       <Amount>45</Amount>
+    </Item>
+  </ModOp>
+</Group>
+<Group Condition="#lion053_ow_chapels">
+  <ModOp Type="addNextSibling" GUID="2100116291">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2100116294</GUID>
+          <Name>Small Chapel</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\icon_ow_chapel_default_skin.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2100115121</SkinName>
+          <SkinDescription>728</SkinDescription>
+          <SkinCategoryDescription>2100116292</SkinCategoryDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data\graphics\lion053\mod_buildings\ow_chapel\ow_chapel_01.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="merge" GUID="2100115122" Path="/Values/Skin/SkinCategoryDescription">
+    <SkinCategoryDescription>2100116292</SkinCategoryDescription>
+  </ModOp>
+  <ModOp Type="add" GUID="2100116257" Path="/Values/Object/Skins/SkinList">
+    <Item>
+      <SkinAssetGuid>2100116294</SkinAssetGuid>
+    </Item>
+    <Item>
+      <SkinAssetGuid>2100115122</SkinAssetGuid>
     </Item>
   </ModOp>
 </Group>

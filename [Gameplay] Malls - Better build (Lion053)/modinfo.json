@@ -2,7 +2,11 @@
   "Version": "1.0",
   "ModID": "lion053_malls_better_build",
   "IncompatibleIds": [],
-  "ModDependencies": null,
+  "ModDependencies": [],
+  "LoadAfterIds": [
+    "jakob_small_malls",
+    "[Gameplay] Increased Radius for Tourists buildings"
+  ],
 
   "Category": {
     "Chinese": "Gameplay",
@@ -33,18 +37,19 @@
   },
 
   "Description": {
-    "Chinese": "",
-    "English": "",
-    "French": "",
-    "German": "",
-    "Italian": "",
-    "Japanese": "",
-    "Korean": "",
-    "Polish": "",
-    "Russian": "",
-    "Spanish": "",
-    "Taiwanese": ""
+    "Chinese": "file::readme.md",
+    "English": "file::readme.md",
+    "French": "file::readme.md",
+    "German": "file::readme_german.md",
+    "Italian": "file::readme.md",
+    "Japanese": "file::readme.md",
+    "Korean": "file::readme.md",
+    "Polish": "file::readme.md",
+    "Russian": "file::readme.md",
+    "Spanish": "file::readme.md",
+    "Taiwanese": "file::readme.md"
   },
+
   "KnownIssues": null,
   "DLCDependencies": [
     {

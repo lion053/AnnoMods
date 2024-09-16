@@ -15,10 +15,6 @@
 			<Text>Trigger_creative</Text> <!-- no translation needed -->
 		</Text>
 		<Text>
-			<GUID>2100118203</GUID>
-			<Text>Cattle Pasture</Text>
-		</Text>
-		<Text>
 			<GUID>2100118204</GUID>
 			<Text>Chocolaterie Garibaldi</Text>
 		</Text>
@@ -29,27 +25,6 @@
 		<Text>
 			<GUID>2100118206</GUID>
 			<Text>Sugar Refinery</Text>
-		</Text>
-		<Text>
-			<GUID>2100118207</GUID>
-			<Text>InfoTip Cattle Farm OW</Text> <!-- no translation needed -->
-		</Text>
-		<Text>
-			<GUID>2100118208</GUID>
-			<Text>Pastures provide Milk</Text>
-		</Text>
-		<Text>
-			<GUID>2100118209</GUID>
-			<Text>Provides an area for livestock to graze in. Additionally each pasture produces 1 ton of milk each cycle. Click on a pasture to see its current productivity.</Text>
-		</Text>
-		<Text>
-			<!-- FOR TRANSLATION: Search for the Guid 8143 in your language text file; from the result copy only the translated term for 'secondary goods' -->
-			<GUID>2100118210</GUID>
-			<Text>Secondary goods:</Text>
-		</Text>
-		<Text>
-			<GUID>2100118211</GUID>
-			<Text>Pasture Output</Text>
 		</Text>
 		<Text>
 			<GUID>2100118212</GUID>
@@ -64,20 +39,12 @@
 			<Text>Trigger_chewing_gum_unlock</Text> <!-- no translation needed -->
 		</Text>
 		<Text>
-			<GUID>2100118215</GUID>
-			<Text>1t/pasture/cycle</Text>
-		</Text>
-		<Text>
 			<GUID>2100118216</GUID>
 			<Text>At Garibaldi's the country's best chocolatiers create the most delicate temptations since chocolate was invented... not even the busiest financial juggler can resist.</Text>
 		</Text>
 		<Text>
 			<GUID>2100118217</GUID>
 			<Text>Trigger_chewing_gum_creative</Text> <!-- no translation needed -->
-		</Text>
-		<Text>
-			<GUID>2100118218</GUID>
-			<Text>Trigger_pasture_artisans</Text> <!-- no translation needed -->
 		</Text>
 		<Text>
 			<GUID>2100118219</GUID>
@@ -154,14 +121,6 @@
 		<Text>
 			<GUID>2100118237</GUID>
 			<Text>&lt;b&gt;Beta vulgaris&lt;/b&gt; These seeds have been adapted to grow in a very wide range of soils, and with increased Sugar Beets yield!</Text>
-		</Text>
-		<Text>
-			<GUID>2100118238</GUID>
-			<Text>InfoTip Cattle Farm OW (construction menu)</Text> <!-- no translation needed -->
-		</Text>
-		<Text>
-			<GUID>2100118239</GUID>
-			<Text>Unlock Pastures Creative Mode</Text> <!-- no translation needed -->
 		</Text>
 		<Text>
 			<GUID>2100118240</GUID>

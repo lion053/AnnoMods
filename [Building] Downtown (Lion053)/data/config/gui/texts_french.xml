@@ -27,7 +27,6 @@
 			<Text />
 		</Text>		
 		<Text>
-			<!-- can be left as is -->
 			<GUID>2100116108</GUID>
 			<Text>Downtown</Text>
 		</Text>
@@ -314,6 +313,56 @@
 			<!-- TODO translation -->
 			<GUID>2100116196</GUID>
 			<Text>Grand Market (Block)</Text>
+		</Text>
+		<Text>
+			<GUID>2100116257</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116258</GUID>
+			<Text>Medieval Church Green Roof</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116259</GUID>
+			<Text>Medieval Church Red Roof</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116290</GUID>
+			<Text>Eclectic Church Yellow</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116291</GUID>
+			<Text>Eclectic Church White</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116292</GUID>
+			<Text>Church Skins</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116293</GUID>
+			<Text>Medieval Church Blue Roof</Text>
+		</Text>
+		<Text>
+			<GUID>2100116294</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100116295</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100116296</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100116297</GUID>
+			<Text />
 		</Text>
 
   	</ModOp>

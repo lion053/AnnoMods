@@ -269,6 +269,9 @@
               <GUID>1500200672</GUID>
             </Item>
             <Item>
+              <GUID>1500200671</GUID>
+            </Item>
+            <Item>
               <GUID>1500200679</GUID>
             </Item>
             <Item>
@@ -865,7 +868,7 @@
     </Asset>
   </ModOp>
 
-  <!-- # Add new Ironbrights Torpedo (Projectile and Item)-->
+  <!-- # Add new Ironbrights Torpedo (Projectile and Item)
   <ModOp Type="addNextSibling" GUID="125072">
     <Asset>
       <Template>ExplodingProjectile</Template>
@@ -962,7 +965,7 @@
         <CraftableItem />
       </Values>
     </Asset>
-  </ModOp>
+  </ModOp> -->
 
   <!-- # Add new Blackbeards Pirate Flag-->
   <ModOp Type="addNextSibling" GUID="125072">
@@ -1457,7 +1460,7 @@
     </Asset>
   </ModOp>
 
-  <!-- # Add new Item Saint of the Death-->
+  <!-- # Add new Item Saint of the Death
   <ModOp Type="addNextSibling" GUID="125072">
     <Asset>
       <Template>VehicleItem</Template>
@@ -1512,7 +1515,7 @@
         <DivingBellUpgrade />
       </Values>
     </Asset>
-  </ModOp>
+  </ModOp> -->
 
   <!-- # Add new Item Omar Al Zahir-->
   <ModOp Type="addNextSibling" GUID="125072">
@@ -1895,13 +1898,7 @@
   <!-- # Add new Items to new Consumables-Itempool-->
   <ModOp Type="add" GUID="2100119161" Path="/Values/RewardPool/ItemsPool">
     <Item>
-      <ItemLink>2100119201</ItemLink>
-    </Item>
-    <Item>
       <ItemLink>2100119202</ItemLink>
-    </Item>
-    <Item>
-      <ItemLink>2100119209</ItemLink>
     </Item>
   </ModOp>
 
@@ -1937,9 +1934,6 @@
       <Asset>2100119199</Asset>
     </Item>
     <Item>
-      <Asset>2100119201</Asset>
-    </Item>
-    <Item>
       <Asset>2100119202</Asset>
     </Item>
     <Item>
@@ -1956,9 +1950,6 @@
     </Item>
     <Item>
       <Asset>2100119208</Asset>
-    </Item>
-    <Item>
-      <Asset>2100119209</Asset>
     </Item>
     <Item>
       <Asset>2100119169</Asset>

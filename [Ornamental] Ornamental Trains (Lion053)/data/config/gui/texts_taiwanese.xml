@@ -1,7 +1,5 @@
 <ModOps>
 
- <!-- Asset List -->
-
   <ModOp Type="add" Path="/TextExport/Texts">
 
 		<Text>
@@ -11,7 +9,7 @@
 		<Text>
 			<GUID>2100115501</GUID>
 			<Text>货运机车：车头</Text>
-		</Text>	
+		</Text>
 		<Text>
 			<GUID>2100115502</GUID>
 			<Text>载客车厢：车尾</Text>
@@ -125,11 +123,11 @@
 		</Text>
 		<Text>
 			<GUID>2100115527</GUID>
-			<Text /> <!-- no translation needed -->
+			<Text></Text> <!-- no translation needed -->
 		</Text>
-		<Text>  <!-- TODO translation -->  <!-- no translation needed -->
+		<Text>
 			<GUID>2100115528</GUID>
-			<Text>&lt;font size="32"&gt;&lt;b &gt;Ornamental Trains (Lion053)&lt;/b &gt;&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;&lt;b &gt;Changelog v1.4&lt;/b &gt; &lt;br/&gt;&lt;br/&gt;- Add a steampunk skin for all trains. Use the skin painter tool from your tool bar or select any ornamental train and choose the skin in the UI.&lt;br/&gt;&lt;br/&gt;- Reduced vertex count of barely visible mesh parts&lt;br/&gt;&lt;br/&gt;- Add Chinese translation, thanks to hanthe2th!</Text>
+			<Text>Increases the storage capacity of nearby warehouses and oil harbors / depots</Text>
 		</Text>
 
   </ModOp>

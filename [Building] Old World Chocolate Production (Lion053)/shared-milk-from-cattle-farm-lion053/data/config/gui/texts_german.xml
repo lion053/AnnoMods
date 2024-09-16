@@ -15,7 +15,7 @@
 		</Text>
 		<Text>
 			<GUID>2100118209</GUID>
-			<Text>Bietet dem Vieh eine Fläche zum Weiden. Zusätzlich produziert jede Weide 1 Tonne Milch je Zyklus. Klicken Sie auf eine Weide um ihre aktuelle Produktivität zu sehen.</Text>
+			<Text>Bietet dem Vieh eine Fläche zum Weiden. Zusätzlich produziert jede Weide Milch. Je mehr Weiden, desto mehr Milch wird produziert, desto höher jedoch der Unterhalt der Farm.&lt;br/&gt;&lt;br/&gt;[AssetData(2100118248) Text]</Text>
 		</Text>
 		<Text>
 			<!-- FOR TRANSLATION: Search for the Guid 8143 in your language text file; from the result copy only the translated term for 'secondary goods' -->
@@ -43,34 +43,36 @@
 			<Text>Unlock Pastures Creative Mode</Text> <!-- no translation needed -->
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100118241</GUID>
 			<Text>AI Pasture OW</Text> <!-- no translation needed -->
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100118242</GUID>
 			<Text>AI Farm OW</Text> <!-- no translation needed -->
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100118243</GUID>
 			<Text>Canned Food Chain AI</Text> <!-- no translation needed -->
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100118244</GUID>
 			<Text>AI Farm NW</Text> <!-- no translation needed -->
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100118245</GUID>
 			<Text>AI Pasture NW</Text> <!-- no translation needed -->
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100118246</GUID>
 			<Text>Burrito Chain AI</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118247</GUID>
+			<Text>Cattle Pasture Buff</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118248</GUID>
+			<Text>Halten Sie &lt;custom-entity tag="DefaultKey"&gt;&lt;custom-properties KeyText="SHIFT"/&gt;&lt;/custom-entity&gt; gedrückt, während sie Nutzflächen bauen, um die Modul-Obergrenze der Farm außer Kraft zu setzen.</Text>
 		</Text>
   </ModOp>
 

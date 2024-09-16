@@ -25,6 +25,7 @@
 
 - Market with 4 skins
 - Pub with 4 skins
+- Church with 4 skins
 - School with 3 skins
 - Varietè Theatre with 2 skins
 - University
@@ -46,6 +47,11 @@
 
 ## Changelog
 
-### 1.0
+### 1.1
+
+- adds a Church with 4 skins; their blocked tile size is 3x3 but their visual appearance is 3x6; you can build other stuff on those tiles e.g. pavings or trees
+- adds the 3x3 chapel to the Church as skin options (if my "Old World Chapel" mod is active). Lift the building and place it again to reapply the build-blocker correctly.
+- slightly increase public service ranges of pub, school, university, clubhouse and radio tower
+- add Spanish, Polish, Russian and Chinese translations
 
 

@@ -15,7 +15,10 @@
 
   <!-- Adjustments for cattle farm and cattle pasture properties -->
   <ModOp Type="merge" GUID="1010263" Path="/Values/Maintenance/Maintenances/Item[Product='1010052']">
-    <Amount>25</Amount> <!-- vanilla value = 20 -->
+    <Amount>5</Amount> <!-- vanilla value = 20; increases with each module -->
+  </ModOp>
+  <ModOp Type="merge" GUID="1010263" Path="/Values/Maintenance/Maintenances/Item[Product='1010017']">
+    <Amount>10</Amount> <!-- vanilla value = 50; increases with each module -->
   </ModOp>
   <ModOp Type="merge" GUID="1010263" Path="/Values/Object/Variations/Item/Filename">
     <Filename>data\graphics\mod_buildings\lion_053\cattle_farm_ow\cattle_farm_ow.cfg</Filename>
@@ -43,7 +46,7 @@
           <StorageAmount>1</StorageAmount>
         </Item>
       </FactoryOutputs>
-      <CycleTime>120</CycleTime>
+      <CycleTime>240</CycleTime> <!-- former value 120 -->
       <WarehouseTransporterAsset>0</WarehouseTransporterAsset>
       <ClampedMaxTransporterLogisticCost>0.1</ClampedMaxTransporterLogisticCost>
     </FactoryBase>
@@ -51,9 +54,15 @@
       <TransporterCountMax>0</TransporterCountMax>
       <NeedsTransporterQueue>0</NeedsTransporterQueue>
     </LogisticNode>
-    <Factory7>
-      <IsAgriculture>1</IsAgriculture>
-    </Factory7>
+    <BuffFactory>
+      <ProductionBuffs>
+        <Item>
+          <!-- to increase maintenance of the farm building by every built pasture -->
+          <ProductivityBuff>2100118247</ProductivityBuff>
+        </Item>
+      </ProductionBuffs>
+      <ProductionBuffScope>ModuleOwner</ProductionBuffScope>
+    </BuffFactory>
     <BuildingModule>
       <PlazaSize>20</PlazaSize>
     </BuildingModule>
@@ -103,6 +112,50 @@
           <AssociatedRegion>Moderate;Colony01</AssociatedRegion>
         </Product>
         <ExpeditionAttribute />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="190098">
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>2100118247</GUID>
+          <Name>Cattle Pasture Buff</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_general_module_01.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1010271</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade />
+        <BuildingUpgrade>
+          <!-- all percental values are summed up before being applied on the base value, e.g. 6 pastures == + 600% on the base value of 5 farmers == 35 farmers -->
+          <WorkforceAmountUpgrade>
+            <Value>100</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+          <MaintenanceUpgrade>
+            <Value>100</Value>
+            <Percental>1</Percental>
+          </MaintenanceUpgrade>
+        </BuildingUpgrade>
+        <Buff />
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <ModuleOwnerUpgrade />
+        <IncidentInfectableUpgrade />
+        <PowerplantUpgrade />
+        <IndustrializableUpgrade />
+        <ItemContainerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+        <ResourceUpgrade />
       </Values>
     </Asset>
   </ModOp>

@@ -1,0 +1,60 @@
+{
+  "Version": "1.0",
+  "ModID": "zzz_wysiwyg",
+  "IncompatibleIds": [],
+  "ModDependencies": [
+    "lion053_21_Legendary_Items"
+  ],
+  "LoadAfterIds": [
+    "*",
+    "lion053_21_Legendary_Items",
+    "fix01"
+  ],
+
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+
+  "ModName": {
+    "Chinese": "zzz_wysiwyg",
+    "English": "zzz_wysiwyg",
+    "French": "zzz_wysiwyg",
+    "German": "zzz_wysiwyg",
+    "Italian": "zzz_wysiwyg",
+    "Japanese": "zzz_wysiwyg",
+    "Korean": "zzz_wysiwyg",
+    "Polish": "zzz_wysiwyg",
+    "Russian": "zzz_wysiwyg",
+    "Spanish": "zzz_wysiwyg",
+    "Taiwanese": "zzz_wysiwyg"
+  },
+
+  "Description": {
+    "Chinese": "wysiwyg",
+    "English": "wysiwyg",
+    "French": "wysiwyg",
+    "German": "wysiwyg",
+    "Italian": "wysiwyg",
+    "Japanese": "wysiwyg",
+    "Korean": "wysiwyg",
+    "Polish": "wysiwyg",
+    "Russian": "wysiwyg",
+    "Spanish": "wysiwyg",
+    "Taiwanese": "wysiwyg"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Lion053",
+  "CreatorContact": "https://discord.gg/ycmFNKaG",
+  "Image": null
+}

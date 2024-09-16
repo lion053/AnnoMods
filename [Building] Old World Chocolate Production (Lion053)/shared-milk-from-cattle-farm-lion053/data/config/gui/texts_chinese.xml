@@ -2,85 +2,78 @@
 
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
-			
 			<GUID>2100118203</GUID>
 			<Text>牧场</Text>
 		</Text>
 		<Text>
-			
 			<GUID>2100118207</GUID>
 			<Text>InfoTip Cattle Farm OW</Text> <!-- no translation needed -->
 		</Text>
 		<Text>
-			
 			<GUID>2100118208</GUID>
 			<Text>牧场产奶</Text>
 		</Text>
 		<Text>
-			
 			<GUID>2100118209</GUID>
-			<Text>为牲畜提供吃草的地方。此外，每个牧场每个周期生产1吨牛奶。点击一个牧场可以看到它的生产力。</Text>
+			<Text>为牲畜提供吃草的地方。此外，每个牧场都生产牛奶。牧场越多，产奶量越多，但维护费用也越高。&lt;br/&gt;&lt;br/&gt;[AssetData(2100118248) Text]</Text>
 		</Text>
 		<Text>
-			
 			<!-- FOR TRANSLATION: Search for the Guid 8143 in your language text file; from the result copy only the translated term for 'secondary goods' -->
 			<GUID>2100118210</GUID>
 			<Text>副产品：</Text>
 		</Text>
 		<Text>
-			
 			<GUID>2100118211</GUID>
 			<Text>牧场产出</Text>
 		</Text>
 		<Text>
-			
 			<GUID>2100118215</GUID>
 			<Text>1吨/牧场/轮</Text>
 		</Text>
 		<Text>
-			
 			<GUID>2100118218</GUID>
 			<Text>Trigger_pasture_artisans</Text> <!-- no translation needed -->
 		</Text>
 		<Text>
-			
 			<GUID>2100118238</GUID>
 			<Text>InfoTip Cattle Farm OW (construction menu)</Text> <!-- no translation needed -->
 		</Text>
 		<Text>
-			
 			<GUID>2100118239</GUID>
 			<Text>Unlock Pastures Creative Mode</Text> <!-- no translation needed -->
 		</Text>
 		<Text>
-			
 			<GUID>2100118241</GUID>
 			<Text>AI Pasture OW</Text> <!-- no translation needed -->
 		</Text>
 		<Text>
-			
 			<GUID>2100118242</GUID>
 			<Text>AI Farm OW</Text> <!-- no translation needed -->
 		</Text>
 		<Text>
-			
 			<GUID>2100118243</GUID>
 			<Text>Canned Food Chain AI</Text> <!-- no translation needed -->
 		</Text>
 		<Text>
-			
 			<GUID>2100118244</GUID>
 			<Text>AI Farm NW</Text> <!-- no translation needed -->
 		</Text>
 		<Text>
-			
 			<GUID>2100118245</GUID>
 			<Text>AI Pasture NW</Text> <!-- no translation needed -->
 		</Text>
 		<Text>
-			
 			<GUID>2100118246</GUID>
 			<Text>Burrito Chain AI</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118247</GUID>
+			<Text>Cattle Pasture Buff</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118248</GUID>
+			<Text>建造农地时按住 &lt;custom-entity tag="DefaultKey"&gt;&lt;custom-properties KeyText="SHIFT"/&gt;&lt;/custom-entity&gt; 键就能无视农地模块上限。</Text>
 		</Text>
   </ModOp>
 

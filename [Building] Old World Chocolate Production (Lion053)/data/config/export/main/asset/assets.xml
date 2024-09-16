@@ -1,4 +1,4 @@
-<!-- OW Chocolate Production v1.0 -->
+<!-- OW Chocolate Production v1.3 -->
 
 <ModOps>
 
@@ -236,7 +236,7 @@
             <OnSelection>
               <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
               <Values>
-                <ActionList />
+                <ActionList/>
               </Values>
             </OnSelection>
             <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
@@ -1608,11 +1608,31 @@
       </Values>
     </Asset>
   </ModOp>
-  <ModOp Type="replace" GUID="500447,500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='137604']">
+  <!-- make the NW gum chain invisible in the OW menu without removing it -->
+  <ModOp Type="merge" GUID="25000192,500447,500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='137604']" AllowNoMatch="1">
+      <PlatformVisibility>Console</PlatformVisibility>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="25000192,500447" Path="/Values/ConstructionCategory/BuildingList/Item[Investor&lt;=5000 and Building='135100' or (not(../Item/Building='135100'))][last()]">
     <Item>
       <Building>2100118212</Building>
+      <Investor>5000</Investor>
     </Item>
   </ModOp>
+  <ModOp Type="addNextSibling" GUID="500945" Path="/Values/ConstructionCategory/BuildingList/Item[Investor&lt;=5000 and Building='137602' or (not(../Item/Building='137602'))][last()]">
+    <Item>
+      <Building>2100118212</Building>
+      <Investor>5000</Investor>
+    </Item>
+  </ModOp>
+  <Group Condition="#Old Wiklays Gums">
+    <!-- mod compatibility with Donny Bresko -->
+    <ModOp Type="merge" GUID="1800000402" Path="/Values/ProductionChain/Tier1/Item[Building='1800000405']/Tier2/Item[Building='1800000407']">
+      <Building>2100118219</Building>
+    </ModOp>
+    <ModOp Type="merge" GUID="1800000402" Path="/Values/ProductionChain/Tier1/Item[Building='1800000405']">
+      <Building>2100118206</Building>
+    </ModOp>
+  </Group>
 </Group>
 
 <!-- # Add buildings to Pools -->

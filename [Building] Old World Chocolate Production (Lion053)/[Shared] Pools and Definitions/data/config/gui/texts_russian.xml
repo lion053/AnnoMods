@@ -2,63 +2,63 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1500010714</GUID>
-      <Text>[AssetData(1010560) Text]</Text> <!-- 1010560 -->
+      <Text>Песчаный карьер</Text> <!-- 1010560 -->
     </Text>
     <Text>
       <GUID>1500010715</GUID>
-      <Text>[AssetData(1010305) Text]</Text> <!-- 1010305 -->
+      <Text>Железный рудник</Text> <!-- 1010305 -->
     </Text>
     <Text>
       <GUID>1500010716</GUID>
-      <Text>[AssetData(1010309) Text]</Text> <!-- 1010309 -->
+      <Text>Известняковый карьер</Text> <!-- 1010309 -->
     </Text>
     <Text>
       <GUID>1500011900</GUID>
-      <Text>[AssetData(1010285) Text]</Text> <!-- 1010285 -->
+      <Text>Оконная фабрика</Text> <!-- 1010285 -->
     </Text>
     <Text>
       <GUID>1500011901</GUID>
-      <Text>[AssetData(1010296) Text]</Text> <!-- 1010296 -->
+      <Text>Сталелитейный завод</Text> <!-- 1010296 -->
     </Text>
     <Text>
       <GUID>1500011902</GUID>
-      <Text>[AssetData(1010280) Text]</Text> <!-- 1010280 -->
+      <Text>Бетоносмесительный завод</Text> <!-- 1010280 -->
     </Text>
     <Text>
       <GUID>1500011903</GUID>
-      <Text>[AssetData(1010319) Text]</Text> <!-- 1010319 -->
+      <Text>Стекольная фабрика</Text> <!-- 1010319 -->
     </Text>
     <Text>
       <GUID>1500011904</GUID>
-      <Text>[AssetData(1010284) Text]</Text> <!-- 1010284 -->
+      <Text>Все фабрики швейных машин</Text> <!-- 1010284 -->
     </Text>
     <Text>
       <GUID>1500200671</GUID>
-      <Text>[AssetData(1010292) Text]</Text> <!-- 1010292 -->
+      <Text>Все пивоварни</Text> <!-- 1010292 -->
     </Text>
     <Text>
       <GUID>1500200672</GUID>
-      <Text>[AssetData(1010294) Text]</Text> <!-- 1010294 -->
+      <Text>Все винокурни</Text> <!-- 1010294 -->
     </Text>
     <Text>
       <GUID>1500200673</GUID>
-      <Text>[AssetData(1010291) Text]</Text> <!-- 1010291 -->
+      <Text>Пекарня</Text> <!-- 1010291 -->
     </Text>
     <Text>
       <GUID>1500200674</GUID>
-      <Text>[AssetData(1010316) Text]</Text> <!-- 1010316 -->
+      <Text>Мясная лавка</Text> <!-- 1010316 -->
     </Text>
     <Text>
       <GUID>1500200675</GUID>
-      <Text>[AssetData(1010312) Text]</Text> <!-- 1010312 -->
+      <Text>Салотопный завод</Text> <!-- 1010312 -->
     </Text>
     <Text>
       <GUID>1500200676</GUID>
-      <Text>[AssetData(1010281) Text]</Text> <!-- 1010281 -->
+      <Text>Мыловарня</Text> <!-- 1010281 -->
     </Text>
     <Text>
       <GUID>1500200677</GUID>
-      <Text>[AssetData(1010269) Text]</Text> <!-- 1010269 -->
+      <Text>Свиноферма</Text> <!-- 1010269 -->
     </Text>
     <Text>
       <GUID>1500200678</GUID>
@@ -66,31 +66,31 @@
     </Text>
     <Text>
       <GUID>1500200679</GUID>
-      <Text>[AssetData(1010340) Text]</Text> <!-- 1010340 -->
+      <Text>Все фабрики рома</Text> <!-- 1010340 -->
     </Text>
     <Text>
       <GUID>1500200680</GUID>
-      <Text>[AssetData(101252) Text]</Text> <!-- 101252 -->
+      <Text>Все фабрики обжарки кофе</Text> <!-- 101252 -->
     </Text> 
     <Text>
       <GUID>1500200682</GUID>
-      <Text>[AssetData(1010297) Text]</Text> <!-- 1010297 -->
+      <Text>Все плавильни</Text> <!-- 1010297 -->
     </Text> 
     <Text>
       <GUID>1500200685</GUID>
-      <Text>[AssetData(934) Text]</Text> <!-- 934 -->
+      <Text>Все фабрики морских мин</Text> <!-- 934 -->
     </Text> 
     <Text>
       <GUID>1500200686</GUID>
-      <Text>[AssetData(924) Text]</Text> <!-- 924 -->
+      <Text>Все фабрики бомб</Text> <!-- 924 -->
     </Text> 
     <Text>
       <GUID>1500200688</GUID>
-      <Text>[AssetData(101250) Text]</Text> <!-- 101250 -->
+      <Text>Оптическая мастерская</Text> <!-- 101250 -->
     </Text>    
     <Text>
       <GUID>1500300910</GUID>
-      <Text>[AssetData(100780) Text]</Text> <!-- 100780 -->
+      <Text>Все нефтяные электростанции</Text> <!-- 100780 -->
     </Text>     
     <Text>
       <GUID>1500300911</GUID>
@@ -106,23 +106,23 @@
     </Text>     
     <Text>
       <GUID>1500300914</GUID>
-      <Text>[AssetData(1010320) Text]</Text> <!-- 1010320 -->
+      <Text>Все заводы по обработке дерева</Text> <!-- 1010320 -->
     </Text>  
     <Text>
       <GUID>1500300076</GUID>
-      <Text>[AssetData(6279) Text]</Text> <!-- 6279 -->
+      <Text>Кабельный завод</Text> <!-- 6279 -->
     </Text>   
     <Text>
       <GUID>1999002378</GUID>
-      <Text>[AssetData(117743) Text]</Text> <!-- 117743 -->
+      <Text>Речной глиняный карьер</Text> <!-- 117743 -->
     </Text> 
     <Text>
       <GUID>2100115823</GUID>
-      <Text>[AssetData(5659) Text]</Text> <!-- 5659 -->
+      <Text>Линия сборки двигателей</Text> <!-- 5659 -->
     </Text>   
     <Text>
       <GUID>2100115287</GUID>
-      <Text>станция метро</Text>
+      <Text>Станции метро</Text>
     </Text>          
     <Text>
       <GUID>1500300916</GUID>
@@ -130,11 +130,11 @@
     </Text>
     <Text>
       <GUID>1500301937</GUID>
-      <Text>Завод по производству удобрений</Text>
+      <Text>Завод удобрений</Text>
     </Text>
     <Text>
       <GUID>1500301938</GUID>
-      <Text>Все кварталы Гасиенды</Text>
+      <Text>Все апартаменты Асьенды</Text>
     </Text>
     <Text>
       <GUID>1500301940</GUID>
@@ -150,7 +150,7 @@
     </Text>
     <Text>
       <GUID>1500301944</GUID>
-      <Text>Все арктические охотничьи домики</Text>
+      <Text>Все арктические охотничьи хижины</Text>
     </Text>
     <Text>
       <GUID>191042</GUID>
@@ -158,11 +158,11 @@
     </Text>
     <Text>
       <GUID>1500301945</GUID>
-      <Text>Все фабрики тканей</Text>
+      <Text>Все хлопкопрядильные фабрики</Text>
     </Text>
     <Text>
       <GUID>1500301946</GUID>
-      <Text>Все моторные заводы</Text>
+      <Text>Все линии сборки двигателей</Text>
     </Text>
     <Text>
       <GUID>1500301947</GUID>
@@ -170,7 +170,7 @@
     </Text>
     <Text>
       <GUID>1500301948</GUID>
-      <Text>Всё жильё крестьян</Text>
+      <Text>Всё жильё фермеров</Text>
     </Text>
     <Text>
       <GUID>1500301949</GUID>
@@ -187,6 +187,26 @@
     <Text>
       <GUID>1500301952</GUID>
       <Text>Все жильё старейшин </Text>
+    </Text>
+    <Text>
+      <GUID>1500301024</GUID>
+      <Text>Все силосы для кормов</Text>
+    </Text>
+    <Text>
+      <GUID>1500301025</GUID>
+      <Text>Все силосы для удобрений</Text>
+    </Text>
+    <Text>
+      <GUID>1500301026</GUID>
+      <Text>Все модули шахты</Text>
+    </Text>
+    <Text>
+      <GUID>1500301029</GUID>
+      <Text>Все арктические шахты</Text>
+    </Text>
+    <Text>
+      <GUID>2100115704</GUID>
+      <Text>содовый завод</Text>
     </Text>
   </ModOp>
 </ModOps>

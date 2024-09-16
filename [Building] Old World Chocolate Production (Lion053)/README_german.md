@@ -36,18 +36,4 @@ Zur Schokoladenproduktion in einer großindustriellen Fabrik werden Kakaobohnen,
 - Bei Freischaltung von Schokolade bzw. 1.750 Investoren.
 - Kreativmodus: Bei Spielbeginn.
 
-**Kompatibilität und Vorraussetzungen**
-
-- DLCs werden nicht vorausgesetzt. Inkompatibilität zu anderen Mods ist mir bislang nicht bekannt. Im Besonderen besteht Kompatibilität zu Jakob's "Pescetarians" und Kurila's "Industrialized Low Tier Production" / "Cattle needs to be butchered", welche jeweils alternative Wege bieten, Milch zu produzieren.
-
-**Changelog**
-
-*1.2*
-
-- Transporterreichweite der Zuckerrübenfarm reduziert
-- Zuckerrübenfelder könnenn nun in einem größeren Radius platziert werden
-
-*1.1*
-
-- Chinesische Übersetzung hinzugefügt, Dank an hanthe2th!
 

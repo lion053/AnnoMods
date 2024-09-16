@@ -1,6 +1,6 @@
 <ModOps>
-  <!-- Old World Chapel -->
-  <!--# Add Building to OW Farmers and City Menu -->
+  <!-- Old World Chapel v1.3 -->
+  <!--# Menu -->
   <ModOp Type="addNextSibling" GUID="25000189,500094" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010358']">
     <Item>
       <Building>2100115156</Building>
@@ -29,7 +29,7 @@
       </Values>
     </Asset>
   </ModOp>
-  <!--# Add Building to Pools -->
+  <!--# Pools -->
   <ModOp Type="add" GUID="2001013" Path="/Values/FeedbackBuildingGroup/Buildings">
     <Item>
       <Building>2100115121</Building>
@@ -46,7 +46,7 @@
       <GUID>2100115127</GUID>
     </Item>
   </ModOp>
-  <ModOp Type="add" GUID="269456,191705,191706,191707,191741,191742,191743" Path="/Values/ItemEffect/EffectTargets">
+  <ModOp Type="add" GUID="269456" Path="/Values/ItemEffect/EffectTargets">
     <Item>
       <GUID>2100115121</GUID>
     </Item>
@@ -62,7 +62,7 @@
       <Asset>2100115127</Asset>
     </Item>
   </ModOp>
-  <!--# Add Building -->
+  <!--# Buildings -->
   <ModOp Type="addNextSibling" GUID="1010359">
     <Asset>
       <BaseAssetGUID>1010359</BaseAssetGUID>
@@ -145,10 +145,7 @@
         <IncidentInfectable />
         <Culture />
         <MusicInfluencer>
-          <RelevantSkinGUIDs>
-            <Item>
-            </Item>
-          </RelevantSkinGUIDs>
+          <RelevantSkinGUIDs />
         </MusicInfluencer>
       </Values>
     </Asset>
@@ -227,10 +224,7 @@
         <IncidentInfectable />
         <Culture />
         <MusicInfluencer>
-          <RelevantSkinGUIDs>
-            <Item>
-            </Item>
-          </RelevantSkinGUIDs>
+          <RelevantSkinGUIDs />
         </MusicInfluencer>
       </Values>
     </Asset>
@@ -257,7 +251,7 @@
       </Values>
     </Asset>
   </ModOp>
-  <!--# Add Church Luxury Need to Farmers -->
+  <!--# Church Luxury Need for Farmers -->
   <ModOp Type="add" GUID="15000000" Path="/Values/PopulationLevel7/PopulationInputs">
     <Item>
       <Product>1010350</Product>

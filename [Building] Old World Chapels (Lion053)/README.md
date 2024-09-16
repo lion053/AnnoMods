@@ -9,7 +9,7 @@
 
 **"I mod your Anno" tweaks**
 
-- You can adjust the public service range.
+- You can increase the public service range up to 100.
 
 ## Credits
 
@@ -17,7 +17,7 @@ All credits for the Anno 1404 chapel goes to Shane868, who upscaled the Anno 140
 
 ## Changelog
 
-**1.2**
+**1.3**
 
-- Fixed issue with a way too high public service range
-- Add Chinese translation, thanks to hanthe2th!
+- Reworked the skin icons (align to Downtown mod icons)
+- Rely on "Shared Pools and Definitions"

@@ -8,28 +8,24 @@
 			<Text />
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116103</GUID>
-			<Text>Royal Commercial Bank</Text>
+			<Text>皇家商业银行</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116104</GUID>
-			<Text>C.L.M Savings Bank</Text>
+			<Text>马尔钦储蓄所</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116105</GUID>
-			<Text>Northburg Industrial Bank</Text>
+			<Text>北城工业银行</Text>
 		</Text>
 		<Text>
 			<GUID>2100116106</GUID>
 			<Text />
 		</Text>		
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116108</GUID>
-			<Text>Downtown</Text>
+			<Text>城市商业区</Text>
 		</Text>
 		<Text>
 			<GUID>2100116109</GUID>
@@ -52,39 +48,32 @@
 			<Text />
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116115</GUID>
-			<Text>Tiny Hotel</Text>
+			<Text>小型酒店</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116116</GUID>
-			<Text>White plaster facade</Text>
+			<Text>白墙皮肤</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116117</GUID>
-			<Text>Hotel Resident Debuff (Hidden)</Text>
+			<Text>酒店 Debuff (隐藏)</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116118</GUID>
-			<Text>Yellow plaster facade</Text>
+			<Text>土墙皮肤</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116120</GUID>
-			<Text>Old Advanced Police Station</Text>
+			<Text>老式警察总部</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116123</GUID>
-			<Text>3x3 Building Variations</Text>
+			<Text>3x3大小建筑变体</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116124</GUID>
-			<Text>Police Station Skins</Text>
+			<Text>警察局皮肤</Text>
 		</Text>
 		<Text>
 			<GUID>2100116126</GUID>
@@ -103,53 +92,44 @@
 			<Text />
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116132</GUID>
-			<Text>Hotel Skin</Text>
+			<Text>酒店皮肤</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116134</GUID>
-			<Text>Since you do not own / have not activated the New World Rising DLC, the advanced institution upgrades come as a skin.</Text>
+			<Text>由于你没有激活DLC，高级应急机构将作为皮肤出现。</Text>
 		</Text>
 		<Text>
 			<GUID>2100116141</GUID>
 			<Text />
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116142</GUID>
-			<Text>Two-story Pub</Text>
+			<Text>双层酒吧</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116143</GUID>
-			<Text>One-story Pub</Text>
+			<Text>单层酒吧</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116144</GUID>
-			<Text>Pub Skins</Text>
+			<Text>酒吧皮肤</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116145</GUID>
-			<Text>Additional space to offer tiny rooms with bed and breakfast</Text>
+			<Text>附带有额外的空间，提供带床和早餐的小房间</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116146</GUID>
-			<Text>One-story Pub with bright facade</Text>
+			<Text>一层的酒吧，带有明亮的大堂</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116147</GUID>
-			<Text>Two-story Pub with bright facade</Text>
+			<Text>两层的酒吧，带有明亮的大堂</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116148</GUID>
-			<Text>For the "high society" as a worker would say</Text>
+			<Text>就像工人们说的，为“上流社会”服务</Text>
 		</Text>
 		<Text>
 			<GUID>2100116149</GUID>
@@ -160,9 +140,8 @@
 			<Text />
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116151</GUID>
-			<Text>Old Fire Department</Text>
+			<Text>老式消防总局</Text>
 		</Text>
 		<Text>
 			<GUID>2100116156</GUID>
@@ -173,18 +152,16 @@
 			<Text />
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116162</GUID>
-			<Text>School Skins</Text>
+			<Text>学校皮肤</Text>
 		</Text>
 		<Text>
 			<GUID>2100116163</GUID>
 			<Text />
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116164</GUID>
-			<Text>Fire Station Skins</Text>
+			<Text>消防局皮肤</Text>
 		</Text>
 		<Text>
 			<GUID>2100116166</GUID>
@@ -195,99 +172,80 @@
 			<Text />
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116170</GUID>
-			<Text>Eldritch Skin Grey</Text>
+			<Text>神秘皮肤-灰色</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116171</GUID>
-			<Text>Eldritch Skin Purple</Text>
+			<Text>神秘皮肤-紫色</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116172</GUID>
-			<Text>Eldritch Skin Grey</Text>
+			<Text>神秘皮肤-灰色</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116173</GUID>
-			<Text>Bank Skins</Text>
+			<Text>银行皮肤</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116174</GUID>
-			<Text>Hospital Skins</Text>
+			<Text>医院皮肤</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116175</GUID>
-			<Text>Eldritch Skin Purple</Text>
+			<Text>神秘皮肤-紫色</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116176</GUID>
-			<Text>Luxurious Hospital</Text>
+			<Text>豪华医院</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116177</GUID>
-			<Text>We care about your success!</Text>
+			<Text>我们呵护着你的成功之路！</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116178</GUID>
-			<Text>High loan, low saving interests - since 1832!</Text>
+			<Text>始建于1832年，以贷款利率高，存款利率低著称</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116179</GUID>
-			<Text>Tailor-made solutions for your company!</Text>
+			<Text>为您的公司量身定制解决方案！</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116182</GUID>
-			<Text>Dr. Salvador's Private Clinic</Text>
+			<Text>萨尔瓦多医生的私人诊所</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116183</GUID>
-			<Text>Varieté Skin</Text>
+			<Text>综艺剧场皮肤</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116184</GUID>
-			<Text>Cinema Skin</Text>
+			<Text>电影院皮肤</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116185</GUID>
-			<Text>Theater Skins</Text>
+			<Text>剧院皮肤</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116186</GUID>
-			<Text>A small varieté like in the old days: stuffy air, creaking folding chairs and passionate performances on stage. Just the way your artisans love it.</Text>
+			<Text>一个经典的老式综艺剧场，它有着闷热的空气、吱吱作响的折叠椅和舞台上热情的表演。一切都是工匠喜欢的样子。</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116187</GUID>
-			<Text>A glamorous and modern cinema with all the new technologies that show business has in store for your metropolises.</Text>
+			<Text>一个迷人的现代电影院，拥有所有娱乐业最先进的新技术。</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116188</GUID>
-			<Text>Yellow plaster facade; low version</Text>
+			<Text>带有一片黄墙的低矮建筑</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116189</GUID>
-			<Text>White plaster facade; low version</Text>
+			<Text>带有一片白墙的低矮建筑</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116190</GUID>
-			<Text>The building authorities have not approved the plans for a taller hotel at this location.</Text>
+			<Text>在此地建设一座更高大宏伟酒店的计划尚未获得建筑管理部门批准。</Text>
 		</Text>
 		<Text>
 			<GUID>2100116191</GUID>
@@ -306,14 +264,62 @@
 			<Text />
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116195</GUID>
-			<Text>Market Skins</Text>
+			<Text>市场皮肤</Text>
+		</Text>
+		<Text>
+			<GUID>2100116196</GUID>
+			<Text>大市集（空）</Text>
+		</Text>
+		<Text>
+			<GUID>2100116257</GUID>
+			<Text />
 		</Text>
 		<Text>
 			<!-- TODO translation -->
-			<GUID>2100116196</GUID>
-			<Text>Grand Market (Block)</Text>
+			<GUID>2100116258</GUID>
+			<Text>Medieval Church Green Roof</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116259</GUID>
+			<Text>Medieval Church Red Roof</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116290</GUID>
+			<Text>Eclectic Church Yellow</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116291</GUID>
+			<Text>Eclectic Church White</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116292</GUID>
+			<Text>Church Skins</Text>
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100116293</GUID>
+			<Text>Medieval Church Blue Roof</Text>
+		</Text>
+		<Text>
+			<GUID>2100116294</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100116295</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100116296</GUID>
+			<Text />
+		</Text>
+		<Text>
+			<GUID>2100116297</GUID>
+			<Text />
 		</Text>
 
   	</ModOp>

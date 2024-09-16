@@ -7,6 +7,9 @@
   <ModOp Type="replace" GUID="2100116141" Path="/Values/PublicService/FullSatisfactionDistance" ModOpID="satisfaction_pub" Skip="1">
     <FullSatisfactionDistance>19</FullSatisfactionDistance>
   </ModOp>
+  <ModOp Type="replace" GUID="2100116257" Path="/Values/PublicService/FullSatisfactionDistance" ModOpID="satisfaction_church" Skip="1">
+    <FullSatisfactionDistance>35</FullSatisfactionDistance>
+  </ModOp>
   <ModOp Type="replace" GUID="2100116159" Path="/Values/PublicService/FullSatisfactionDistance" ModOpID="satisfaction_school" Skip="1">
     <FullSatisfactionDistance>22</FullSatisfactionDistance>
   </ModOp>
@@ -30,6 +33,9 @@
   </ImyaExpose>
   <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="satisfaction_pub" ExposeID="Public Service Range Pub" Description="The range within the public service of the small pubs is provided by 100 %&#xD;&#xA;Default value is 19." Kind="Slider">
     <SliderDefinition Min="12" Max="38" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="satisfaction_church" ExposeID="Public Service Range Church" Description="The range within the public service of the small churches is provided by 100 %&#xD;&#xA;Default value is 35." Kind="Slider">
+    <SliderDefinition Min="12" Max="45" Stepping="1" />
   </ImyaExpose>
   <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="satisfaction_school" ExposeID="Public Service Range School" Description="The range within the public service of the small schools is provided by 100 %&#xD;&#xA;Default value is 22." Kind="Slider">
     <SliderDefinition Min="12" Max="36" Stepping="1" />

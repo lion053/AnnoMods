@@ -105,7 +105,6 @@
         <UpgradeList />
         <Electrifiable />
         <Industrializable />
-        <Factory7 />
       </Properties>
     </Template>
   </ModOp>

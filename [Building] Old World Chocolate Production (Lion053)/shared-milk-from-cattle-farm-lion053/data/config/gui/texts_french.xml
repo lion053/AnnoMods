@@ -19,7 +19,7 @@
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100118209</GUID>
-			<Text>Fournit une zone de pâturage pour le bétail. En outre, chaque pâturage produit 1 tonne de lait par cycle. Cliquez sur un pâturage pour connaître sa productivité actuelle.</Text>
+			<Text>Fournit une zone de pâturage pour le bétail. En outre, chaque pâturage produit lait. Plus il de pâturages, plus la production de lait, mais plus les coûts d'entretien.&lt;br/&gt;&lt;br/&gt;[AssetData(2100118248) Text]</Text>
 		</Text>
 		<Text>
 			<!-- TODO translation -->
@@ -81,6 +81,15 @@
 			<!-- TODO translation -->
 			<GUID>2100118246</GUID>
 			<Text>Burrito Chain AI</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<!-- TODO translation -->
+			<GUID>2100118247</GUID>
+			<Text>Cattle Pasture Buff</Text> <!-- no translation needed -->
+		</Text>
+		<Text>
+			<GUID>2100118248</GUID>
+			<Text>Quand vous construisez des fermes, maintenez &lt;custom-entity tag="DefaultKey"&gt;&lt;custom-properties KeyText="SHIFT"/&gt;&lt;/custom-entity&gt; pour ignorer la limite de modules.</Text>
 		</Text>
   </ModOp>
 
