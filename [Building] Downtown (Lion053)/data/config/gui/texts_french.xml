@@ -8,32 +8,29 @@
 			<Text />
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116103</GUID>
-			<Text>Royal Commercial Bank</Text>
+			<Text>Banque royale de commerce</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116104</GUID>
-			<Text>C.L.M Savings Bank</Text>
+			<Text>Banque d'épargne C.L.M.</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116105</GUID>
-			<Text>Northburg Industrial Bank</Text>
+			<Text>Banque industrielle de Northburg</Text>
 		</Text>
 		<Text>
 			<GUID>2100116106</GUID>
 			<Text />
-		</Text>		
+		</Text>
 		<Text>
 			<GUID>2100116108</GUID>
-			<Text>Downtown</Text>
+			<Text>Centre-ville</Text>
 		</Text>
 		<Text>
 			<GUID>2100116109</GUID>
 			<Text />
-		</Text>		
+		</Text>
 		<Text>
 			<GUID>2100116111</GUID>
 			<Text />
@@ -51,39 +48,32 @@
 			<Text />
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116115</GUID>
-			<Text>Tiny Hotel</Text>
+			<Text>Petit hôtel</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116116</GUID>
-			<Text>White plaster facade</Text>
+			<Text>Façade en plâtre blanc</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116117</GUID>
-			<Text>Hotel Resident Debuff (Hidden)</Text>
+			<Text>Malus des résidents de l'hôtel (invisible)</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116118</GUID>
-			<Text>Yellow plaster facade</Text>
+			<Text>Façade en plâtre jaune</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116120</GUID>
-			<Text>Old Advanced Police Station</Text>
+			<Text>Ancien poste de police modernisé</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116123</GUID>
-			<Text>3x3 Building Variations</Text>
+			<Text>Variations de bâtiments (3x3)</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116124</GUID>
-			<Text>Police Station Skins</Text>
+			<Text>Apparences de postes de police</Text>
 		</Text>
 		<Text>
 			<GUID>2100116126</GUID>
@@ -102,53 +92,44 @@
 			<Text />
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116132</GUID>
-			<Text>Hotel Skin</Text>
+			<Text>Apparence d'hôtels</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116134</GUID>
-			<Text>Since you do not own / have not activated the New World Rising DLC, the advanced institution upgrades come as a skin.</Text>
+			<Text>Puisque vous ne possédez pas ou que vous n'avez pas activé le DLC New World Rising, les améliorations avancées de l'institution sont proposées sous forme d'apparence.</Text>
 		</Text>
 		<Text>
 			<GUID>2100116141</GUID>
 			<Text />
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116142</GUID>
-			<Text>Two-story Pub</Text>
+			<Text>Pub à deux étages</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116143</GUID>
-			<Text>One-story Pub</Text>
+			<Text>Pub à un étage</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116144</GUID>
-			<Text>Pub Skins</Text>
+			<Text>Apparences de pubs</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116145</GUID>
-			<Text>Additional space to offer tiny rooms with bed and breakfast</Text>
+			<Text>Espace supplémentaire permettant d'offrir de petites chambres avec petit-déjeuner.</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116146</GUID>
-			<Text>One-story Pub with bright facade</Text>
+			<Text>Pub à un étage avec façade claire</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116147</GUID>
-			<Text>Two-story Pub with bright facade</Text>
+			<Text>Pub à deux étages avec façade claire</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116148</GUID>
-			<Text>For the "high society" as a worker would say</Text>
+			<Text>Pour la "haute société", comme dirait un ouvrier</Text>
 		</Text>
 		<Text>
 			<GUID>2100116149</GUID>
@@ -159,9 +140,8 @@
 			<Text />
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116151</GUID>
-			<Text>Old Fire Department</Text>
+			<Text>Ancienne caserne de pompiers</Text>
 		</Text>
 		<Text>
 			<GUID>2100116156</GUID>
@@ -172,18 +152,16 @@
 			<Text />
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116162</GUID>
-			<Text>School Skins</Text>
+			<Text>Apparences d'écoles</Text>
 		</Text>
 		<Text>
 			<GUID>2100116163</GUID>
 			<Text />
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116164</GUID>
-			<Text>Fire Station Skins</Text>
+			<Text>Apparences de casernes de pompiers</Text>
 		</Text>
 		<Text>
 			<GUID>2100116166</GUID>
@@ -194,99 +172,80 @@
 			<Text />
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116170</GUID>
-			<Text>Eldritch Skin Grey</Text>
+			<Text>Apparence surnaturelle grise</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116171</GUID>
-			<Text>Eldritch Skin Purple</Text>
+			<Text>Apparence surnaturelle violette</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116172</GUID>
-			<Text>Eldritch Skin Grey</Text>
+			<Text>Apparence surnaturelle grise</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116173</GUID>
-			<Text>Bank Skins</Text>
+			<Text>Apparences de banques</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116174</GUID>
-			<Text>Hospital Skins</Text>
+			<Text>Apparences d'hopitaux</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116175</GUID>
-			<Text>Eldritch Skin Purple</Text>
+			<Text>Apparence surnaturelle violette</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116176</GUID>
-			<Text>Luxurious Hospital</Text>
+			<Text>Hôpital luxueux</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116177</GUID>
-			<Text>We care about your success!</Text>
+			<Text>Votre réussite nous tient à cœur !</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116178</GUID>
-			<Text>High loan, low saving interests - since 1832!</Text>
+			<Text>Des prêts à taux élevés, une épargne à faible rendement - depuis 1832 !</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116179</GUID>
-			<Text>Tailor-made solutions for your company!</Text>
+			<Text>Des solutions sur mesure pour votre entreprise !</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116182</GUID>
-			<Text>Dr. Salvador's Private Clinic</Text>
+			<Text>Clinique privée du Dr Salvador</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116183</GUID>
-			<Text>Varieté Skin</Text>
+			<Text>Apparence de théâtre de variétés</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116184</GUID>
-			<Text>Cinema Skin</Text>
+			<Text>Apparence de cinéma</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116185</GUID>
-			<Text>Theater Skins</Text>
+			<Text>Apparences de théâtres</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116186</GUID>
-			<Text>A small varieté like in the old days: stuffy air, creaking folding chairs and passionate performances on stage. Just the way your artisans love it.</Text>
+			<Text>Un petit théâtre de variétés comme au bon vieux temps : atmosphère étouffante, chaises pliantes qui grincent et performances passionnées sur scène. Tout ce que vos artisans apprécient.</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116187</GUID>
-			<Text>A glamorous and modern cinema with all the new technologies that show business has in store for your metropolises.</Text>
+			<Text>Un cinéma élégant et moderne, équipé de toutes les technologies que l'industrie du spectacle réserve à vos grandes villes.</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116188</GUID>
-			<Text>Yellow plaster facade; low version</Text>
+			<Text>Façade en plâtre jaune : version basse</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116189</GUID>
-			<Text>White plaster facade; low version</Text>
+			<Text>Façade en plâtre blanc : version basse</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116190</GUID>
-			<Text>The building authorities have not approved the plans for a taller hotel at this location.</Text>
+			<Text>Les autorités d'urbanisme ont rejeté les plans de construction pour un hôtel plus haut à cet emplacement.</Text>
 		</Text>
 		<Text>
 			<GUID>2100116191</GUID>
@@ -305,48 +264,40 @@
 			<Text />
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116195</GUID>
-			<Text>Market Skins</Text>
+			<Text>Apparences de marchés</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116196</GUID>
-			<Text>Grand Market (Block)</Text>
+			<Text>Grand marché (bloc)</Text>
 		</Text>
 		<Text>
 			<GUID>2100116257</GUID>
 			<Text />
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116258</GUID>
-			<Text>Medieval Church Green Roof</Text>
+			<Text>Église médiévale au toit vert</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116259</GUID>
-			<Text>Medieval Church Red Roof</Text>
+			<Text>Église médiévale au toit rouge</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116290</GUID>
-			<Text>Eclectic Church Yellow</Text>
+			<Text>Église de style éclectique jaune</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116291</GUID>
-			<Text>Eclectic Church White</Text>
+			<Text>Église de style éclectique blanche</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116292</GUID>
-			<Text>Church Skins</Text>
+			<Text>Apparences d'églises</Text>
 		</Text>
 		<Text>
-			<!-- TODO translation -->
 			<GUID>2100116293</GUID>
-			<Text>Medieval Church Blue Roof</Text>
+			<Text>Église médiévale au toit bleu</Text>
 		</Text>
 		<Text>
 			<GUID>2100116294</GUID>
