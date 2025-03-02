@@ -2,8 +2,6 @@
 
   <!-- Downtown v1.1 -->
 
-  <Include File="./assets-hotel-needs.include.xml" />
-
   <!-- # Menu -->
   <ModOp Type="addNextSibling" GUID="25000190">
     <Asset>
@@ -97,7 +95,7 @@
     </Item>
   </ModOp>
   <!-- Hotel to Tourist tab -->
-  <ModOp Type="addNextSibling" GUID="132779" Path="/Values/ConstructionCategory/BuildingList/Item[(Building='601445') or (Building='1500010500')]">
+  <ModOp Type="addNextSibling" GUID="132779" Path="/Values/ConstructionCategory/BuildingList/Item[(Building='601445') or (Building='1500010500')][last()]">
     <Item>
       <Building>2100116115</Building>
     </Item>
